@@ -27,6 +27,8 @@ IGV (java)
 
 IGV.js
 
+Trackster (in Galaxy) https://galaxyproject.org/learn/visualization/
+
 
 NCBI Genome Data Viewer
 
