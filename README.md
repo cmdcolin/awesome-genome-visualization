@@ -1,6 +1,6 @@
-# awesome-genome-browsers
+# awesome-genome-visualization
 
-A list of interesting genome browser or genome-browser-like implementations
+A list of interesting genome visualizers, genome browsers, or genome-browser-like implementations
 
 
 ## Genome browsers
