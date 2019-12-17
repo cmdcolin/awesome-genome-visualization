@@ -46,6 +46,18 @@ UCSC genome browser
 Ensembl genome browser
 
 2020 Ensembl genome browser
+http://2020.ensembl.org/
 
+Valis browser, used on encodeproject.org (uses webGL)
+https://valis.bio/
+
+Varsome
+https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions
+
+trackViewer (R)
+https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html
+
+pyGenomeTracks
+https://github.com/deeptools/pyGenomeTracks
 
 
