@@ -119,6 +119,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Graph genomes
 
+* [Bandage](https://github.com/rrwick/Bandage/)
 * [gGnomes.js](https://github.com/mskilab/gGnome.js)
 * [sequence tube map](https://github.com/vgteam/sequenceTubeMap)
 
