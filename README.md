@@ -198,6 +198,9 @@ HiCPlotter https://github.com/kcakdemir/HiCPlotter
 
 DNAPlotLib https://github.com/VoigtLab/dnaplotlib
 
+GenomeTools http://genometools.org/
+
+
 ## Dotplot
 
 D-GENIES https://github.com/genotoul-bioinfo/dgenies
