@@ -83,6 +83,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Methplotlib](https://www.biorxiv.org/content/10.1101/826107v1.full.pdf)
 * [Samplot](https://github.com/ryanlayer/samplot)
 * [Spliceclust](https://github.com/pkimes/spliceclust)
+* [genoPlotR](http://genoplotr.r-forge.r-project.org/)
+* [karyoploteR](https://github.com/bernatgel/karyoploteR) (R)
 * [pyGenomeTracks](https://github.com/deeptools/pyGenomeTracks)
 * [svist4get](https://link.springer.com/article/10.1186/s12859-019-2706-8)
 * [svviz2](https://github.com/nspies/svviz2)
