@@ -18,7 +18,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Other
 
-* Apollo desktop app. also see WebApollo, built on JBrowse
+* Apollo desktop https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/
 * [2020 Ensembl genome browser](http://2020.ensembl.org/)
 * [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
 * [Biodalliance](http://www.biodalliance.org/)
@@ -45,6 +45,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Valis browser](https://valis.bio/) - used on encodeproject.org (uses webGL)
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
+* WebApollo aka Apollo 2.0
 
 ## Genome map, or comparative viewers
 
