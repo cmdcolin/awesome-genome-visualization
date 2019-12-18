@@ -14,7 +14,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * NCBI Genome Data Viewer
 * [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
 * UCSC genome browser
-* [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [[source](https://github.com/lidaof/eg-react)]
+* [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [source](https://github.com/lidaof/eg-react)
 
 ## Other
 
@@ -102,8 +102,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Karyotype
 
-* [Ideogram](https://github.com/RCollins13/HumanIdiogramLibrary))
-  (HumanIdeogramLibrary)
+* [Ideogram](https://github.com/RCollins13/HumanIdiogramLibrary) HumanIdeogramLibrary
 * [Ideogram](https://github.com/eweitz/ideogram) (SVG)
 * [Karyotype](https://github.com/andreasprlic/karyotypeSVG)
 * [RNA-seq view](https://github.com/NCBI-Hackathons/rnaseqview)
