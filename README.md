@@ -102,6 +102,7 @@ CNVnator http://www.abyzovlab.org/cnvnatorapplet
 
 Apollo, desktop app. also see WebApollo, built on JBrowse
 
+Epilogos http://compbio.mit.edu/epilogos/
 
 ## Genome map, or comparative viewers
 
