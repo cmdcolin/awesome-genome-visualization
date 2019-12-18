@@ -104,6 +104,8 @@ Apollo, desktop app. also see WebApollo, built on JBrowse
 
 Epilogos http://compbio.mit.edu/epilogos/
 
+SEQing https://github.com/malewins/SEQing
+
 ## Genome map, or comparative viewers
 
 Multiple genome viewer
