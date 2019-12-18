@@ -4,6 +4,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Genome browsers
 
+* [ATCC Genome Portal](https://genomes.atcc.org)
 * Ensembl genome browser
 * GBrowse
 * GBrowse 2
