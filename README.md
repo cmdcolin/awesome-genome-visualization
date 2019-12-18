@@ -14,13 +14,13 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * NCBI Genome Data Viewer
 * [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
 * UCSC genome browser
-* [WashU epigenomics browser](https://epigenomegateway.wustl.edu/] [source](https://github.com/lidaof/eg-react)
+* [WashU epigenomics browser](https://epigenomegateway.wustl.edu/] [[source](https://github.com/lidaof/eg-react)]
 
 ## Other
 
 * Apollo desktop app. also see WebApollo, built on JBrowse
 * [2020 Ensembl genome browser](http://2020.ensembl.org/)
-* [Artemis comparison tool](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act) (ACT)\
+* [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
 * [Biodalliance](http://www.biodalliance.org/)
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
@@ -31,7 +31,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Genoverse](https://github.com/wtsi-web/Genoverse)
 * [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
 * [HiGlass](https://higlass.io)
-* [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) [source](https://github.com/lairdm/islandplot)
+* [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [Juicebox](https://github.com/aidenlab/Juicebox)
 * [Locuszoom](http://locuszoom.org/)
 * [NGB](https://github.com/epam/NGB)
@@ -40,7 +40,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [SEQing](https://github.com/malewins/SEQing)
 * [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
 * [SplitThreader](http://splitthreader.com/)
-* [TASUKE](https://ricegenome.dna.affrc.go.jp/) from RAP-DB
+* [TASUKE](https://ricegenome.dna.affrc.go.jp/) - from RAP-DB
 * [Tablet](https://ics.hutton.ac.uk/tablet/)
 * [Valis browser](https://valis.bio/) - used on encodeproject.org (uses webGL)
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
@@ -67,7 +67,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 * [AliTV](https://zenodo.org/record/32014)
 * [BAMScale](https://github.com/ncbi/BAMscale)
-* [BioJS](MSA/msaR](https://github.com/zachcp/msaR)
+* [BioJS](https://github.com/zachcp/msaR) (MSA/msaR)
 * [CNView](https://github.com/RCollins13/CNView)
 * [Chimeraviz](https://github.com/stianlagstad/chimeraviz)
 * [Circos](http://circos.ca/)
@@ -95,14 +95,15 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Dot](https://github.com/dnanexus/dot)
 * [Dotplot](https://github.com/iLambda/dotplot)
 * [Jdot](https://github.com/LyonsLab/jdot)
-* [LAST](package](contains](a](dotplotter)
+* LAST (package contains a dotplotter)
 * [Minidot](https://github.com/thackl/minidot)
-* [Mummer](contains](a](GNUplot](script](for](dotplotting)
+* Mummer (contains a GNUplot script for dotplotting)
 * [Redottable](https://github.com/s-andrews/redotable)
 
 ## Karyotype
 
-* [Ideogram](HumanIdeogramLibrary https://github.com/RCollins13/HumanIdiogramLibrary)
+* [Ideogram](https://github.com/RCollins13/HumanIdiogramLibrary))
+  (HumanIdeogramLibrary)
 * [Ideogram](https://github.com/eweitz/ideogram) (SVG)
 * [Karyotype](https://github.com/andreasprlic/karyotypeSVG)
 * [RNA-seq view](https://github.com/NCBI-Hackathons/rnaseqview)
