@@ -13,10 +13,6 @@ GBrowse
 
 GBrowse 2
 
-Apollo (desktop app)
-
-WebApollo aka Apollo
-
 IGV (java)
 
 IGV.js
@@ -98,10 +94,14 @@ Genoverse https://github.com/wtsi-web/Genoverse
 
 NGB https://github.com/epam/NGB
 
-
 CuteVCF https://github.com/labsquare/CuteVCF
 
 Biodalliance http://www.biodalliance.org/
+
+CNVnator http://www.abyzovlab.org/cnvnatorapplet
+
+Apollo, desktop app. also see WebApollo, built on JBrowse
+
 
 ## Genome map, or comparative viewers
 
