@@ -21,7 +21,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 ## Other
 
 * [Anvio](https://peerj.com/articles/1319/)
-* [Apollo (old desktop)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/)
+* [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
+* [Apollo desktop)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/)
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
 * [2020 Ensembl genome browser](http://2020.ensembl.org/)
 * [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
