@@ -97,6 +97,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [FeatureViewer](https://github.com/calipho-sib/feature-viewer)
 * [GGgenes](https://github.com/wilkox/gggenes)
 * [GGsashimi](https://github.com/guigolab/ggsashimi)
+* [genoPlotR](http://genoplotr.r-forge.r-project.org/)
 * [Geneviz](https://jrderuiter.github.io/geneviz/usage.html)
 * [Genome STRiP](http://software.broadinstitute.org/software/genomestrip/)
 * [GenomeTools](http://genometools.org/)
@@ -109,8 +110,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Samplot](https://github.com/ryanlayer/samplot)
 * [SashimiPlot](https://miso.readthedocs.io/en/fastmiso/sashimi.html)
 * [Spliceclust](https://github.com/pkimes/spliceclust)
-* [genoPlotR](http://genoplotr.r-forge.r-project.org/)
-* [karyoploteR](https://github.com/bernatgel/karyoploteR) (R)
+* [Sushi](https://www.bioconductor.org/packages/release/bioc/vignettes/Sushi/inst/doc/Sushi.pdf) (R package)
 * [pyGenomeTracks](https://github.com/deeptools/pyGenomeTracks)
 * [svist4get](https://link.springer.com/article/10.1186/s12859-019-2706-8)
 * [svviz2](https://github.com/nspies/svviz2)
@@ -131,9 +131,11 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 ## Karyotype
 
 * [Ideogram](https://github.com/RCollins13/HumanIdiogramLibrary) HumanIdeogramLibrary
-* [Ideogram](https://github.com/eweitz/ideogram) (SVG)
-* [Karyotype](https://github.com/andreasprlic/karyotypeSVG)
-* [RNA-seq view](https://github.com/NCBI-Hackathons/rnaseqview)
+* [eweitz/Ideogram](https://github.com/eweitz/ideogram)
+* [KaryotypeSVG](https://github.com/andreasprlic/karyotypeSVG)
+* [rnaseqview](https://github.com/NCBI-Hackathons/rnaseqview)
+* [karyoploteR](https://github.com/bernatgel/karyoploteR) (R package)
+
 
 ## Command line
 
