@@ -96,6 +96,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [ExonIntron](http://wormweb.org/exonintron) from WormBase
 * [FeatureViewer](https://github.com/calipho-sib/feature-viewer)
 * [GGgenes](https://github.com/wilkox/gggenes)
+* [GGsashimi](https://github.com/guigolab/ggsashimi)
 * [Geneviz](https://jrderuiter.github.io/geneviz/usage.html)
 * [Genome STRiP](http://software.broadinstitute.org/software/genomestrip/)
 * [GenomeTools](http://genometools.org/)
@@ -106,6 +107,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [JVarKit](http://lindenb.github.io/jvarkit/) examples http://lindenb.github.io/jvarkit/BamToSVG.html
 * [Methplotlib](https://www.biorxiv.org/content/10.1101/826107v1.full.pdf)
 * [Samplot](https://github.com/ryanlayer/samplot)
+* [SashimiPlot](https://miso.readthedocs.io/en/fastmiso/sashimi.html)
 * [Spliceclust](https://github.com/pkimes/spliceclust)
 * [genoPlotR](http://genoplotr.r-forge.r-project.org/)
 * [karyoploteR](https://github.com/bernatgel/karyoploteR) (R)
