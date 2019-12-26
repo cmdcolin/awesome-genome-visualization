@@ -36,6 +36,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [GenomeRibbon](http://genomeribbon.com/)
 * [Genoverse](https://github.com/wtsi-web/Genoverse)
 * [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
+* [Human genome dating](https://human.genome.dating/region/chr1_13250000) (made with vega/d3)
 * [HiGlass](https://higlass.io)
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [Juicebox](https://github.com/aidenlab/Juicebox)
