@@ -116,6 +116,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [svist4get](https://link.springer.com/article/10.1186/s12859-019-2706-8)
 * [svviz2](https://github.com/nspies/svviz2)
 * [svviz](https://github.com/svviz/svviz)
+* [TnT](https://tnt.marlin.pub/articles/introduction)
 * [trackViewer](https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html) (R)
 
 ## Dotplot
