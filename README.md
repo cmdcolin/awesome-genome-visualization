@@ -32,6 +32,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Consed](http://www.phrap.org/consed/consed.html)
 * [CuteVCF](https://github.com/labsquare/CuteVCF)
 * [DNASkittle](https://www.dnaskittle.com/)
+* [EaSeq](https://easeq.net/screenshots/)
 * [Epilogos](http://compbio.mit.edu/epilogos/)
 * [GenomeRibbon](http://genomeribbon.com/)
 * [Genoverse](https://github.com/wtsi-web/Genoverse)
@@ -57,10 +58,17 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
 * [UCSC Xena](https://xena.ucsc.edu/)
 
+## Heatmaps
+
+
+* [VIVA](https://www.biorxiv.org/content/10.1101/589879v1.full.pdf)
+
+
 ## Genome map, or comparative viewers
 
 * [Aequatus](https://github.com/TGAC/Aequatus)
 * [Biodalliance comparative demo](http://biodalliance.org/dev/test-comparative.html)
+* [Chromatiblock](https://www.biorxiv.org/content/10.1101/800920v2.full.pdf)
 * [CMap](http://gmod.org/wiki/CMap)
 * [CVit](https://sourceforge.net/projects/cvit/)
 * [Cvit.js](https://github.com/LegumeFederation/cvitjs)
@@ -72,7 +80,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [MCScanX](http://chibba.pgml.uga.edu/mcscan2/)
 * [Multiple genome viewer](http://www.informatics.jax.org/mgv/) (jax)
 * [Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser) (jax)
-
+* [VISTA browser](http://pipeline.lbl.gov/cgi-bin/gateway2)
 
 ## Multiple sequence alignment viewer
 
@@ -110,8 +118,11 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
 * [JVarKit](http://lindenb.github.io/jvarkit/) examples http://lindenb.github.io/jvarkit/BamToSVG.html
 * [Methplotlib](https://www.biorxiv.org/content/10.1101/826107v1.full.pdf)
+* [RACER](https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html)
+* [RepViz](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-019-4473-z)
 * [Samplot](https://github.com/ryanlayer/samplot)
 * [SashimiPlot](https://miso.readthedocs.io/en/fastmiso/sashimi.html)
+* [SparK](https://www.biorxiv.org/content/10.1101/845529v1.full.pdf)
 * [SNPduo](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006711)
 * [Spliceclust](https://github.com/pkimes/spliceclust)
 * [Sushi](https://www.bioconductor.org/packages/release/bioc/vignettes/Sushi/inst/doc/Sushi.pdf) (R package)
