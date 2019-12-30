@@ -20,7 +20,6 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Other
 
-* [Anvio](https://peerj.com/articles/1319/)
 * [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
 * [Apollo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/) (old desktop version)
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
@@ -100,7 +99,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [BAMScale](https://github.com/ncbi/BAMscale)
 * [CNView](https://github.com/RCollins13/CNView)
 * [Chimeraviz](https://github.com/stianlagstad/chimeraviz)
-* [Circos](http://circos.ca/)
+* [ChIA-Pipe](https://www.biorxiv.org/content/10.1101/506683v1.full.pdf)
 * [ClustersPloter](https://github.com/orangeSi/ClustersPloter)
 * [CNVPlot](https://github.com/dantaki/CNVplot)
 * [DNAPlotLib](https://github.com/VoigtLab/dnaplotlib)
@@ -114,6 +113,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [GenomeTools](http://genometools.org/)
 * [GenomeView](https://github.com/nspies/genomeview)
 * [GSDraw](https://wheat.pw.usda.gov/piece/GSDraw.php)
+* [Gviz](https://bioconductor.org/packages/release/bioc/html/Gviz.html)
 * [Hagfish](https://github.com/mfiers/hagfish/wiki/Plots)
 * [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
 * [JVarKit](http://lindenb.github.io/jvarkit/) examples http://lindenb.github.io/jvarkit/BamToSVG.html
@@ -133,6 +133,14 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [TnT](https://tnt.marlin.pub/articles/introduction)
 * [trackViewer](https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html) (R)
 
+
+## Circular
+
+* [Anvio](https://peerj.com/articles/1319/)
+* [Circos](http://circos.ca/)
+* [OGDRAW](https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)
+
+
 ## Dotplot
 
 * [D-GENIES](https://github.com/genotoul-bioinfo/dgenies)
@@ -146,6 +154,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Karyotype
 
+* [chromoMap](https://www.biorxiv.org/content/10.1101/605600v1.full.pdf)
 * [Ideogram](https://github.com/RCollins13/HumanIdiogramLibrary) HumanIdeogramLibrary
 * [eweitz/Ideogram](https://github.com/eweitz/ideogram)
 * [KaryotypeSVG](https://github.com/andreasprlic/karyotypeSVG)
