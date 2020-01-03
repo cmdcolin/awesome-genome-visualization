@@ -69,6 +69,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Biodalliance comparative demo](http://biodalliance.org/dev/test-comparative.html)
 * [Chromatiblock](https://www.biorxiv.org/content/10.1101/800920v2.full.pdf)
 * [CMap](http://gmod.org/wiki/CMap)
+* [CoGe](https://genomevolution.org/coge/)
 * [CVit](https://sourceforge.net/projects/cvit/)
 * [Cvit.js](https://github.com/LegumeFederation/cvitjs)
 * [CrossBrowse](https://github.com/shenkers/CrossBrowse)
