@@ -27,6 +27,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
 * [Biodalliance](http://www.biodalliance.org/)
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
+* [cisGenome Browser](http://www-personal.umich.edu/~jianghui/browser/screenshots.html)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
 * [Consed](http://www.phrap.org/consed/consed.html)
 * [CuteVCF](https://github.com/labsquare/CuteVCF)
