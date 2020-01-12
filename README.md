@@ -155,6 +155,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Minidot](https://github.com/thackl/minidot)
 * Mummer (contains a GNUplot script for dotplotting)
 * [Redottable](https://github.com/s-andrews/redotable)
+* [syntenyPlotByR](https://github.com/shingocat/syntenyPlotByR/blob/master/out.png)
 
 ## Karyotype
 
