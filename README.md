@@ -9,11 +9,13 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * Ensembl genome browser
 * GBrowse
 * GBrowse 2
+* [Golden Helix](http://goldenhelix.com/GenomeBrowse/) (commercial)
 * IGB
 * IGV (java)
 * IGV.js
 * [JBrowse](http://jbrowse.org/)
 * NCBI Genome Data Viewer
+* [Persephone](https://persephonesoft.com/) (commercial)
 * [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
 * UCSC genome browser
 * [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [source](https://github.com/lidaof/eg-react)
@@ -27,6 +29,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
 * [Biodalliance](http://www.biodalliance.org/)
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
+* [Chip Monk](http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/)
+* [Chipster](https://chipster.csc.fi/)
 * [cisGenome Browser](http://www-personal.umich.edu/~jianghui/browser/screenshots.html)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
 * [Consed](http://www.phrap.org/consed/consed.html)
@@ -39,6 +43,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
 * [Hawkeye](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34)
 * [Human genome dating](https://human.genome.dating/region/chr1_13250000) (made with vega/d3)
+* [HiC browser](http://promoter.bx.psu.edu/hi-c/view.php) - UCSC-based
 * [HiGlass](https://higlass.io)
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [Juicebox](https://github.com/aidenlab/Juicebox)
@@ -47,6 +52,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
 * [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
 * [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
+* [RNASeqBrowser](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1346-2) UCSC-based
 * [SEQing](https://github.com/malewins/SEQing)
 * [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
 * [SNPitty](https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext)
@@ -58,6 +64,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
 * [UCSC Xena](https://xena.ucsc.edu/)
+* [Zenbu](http://fantom.gsc.riken.jp/zenbu/)
 
 ## Heatmaps
 
