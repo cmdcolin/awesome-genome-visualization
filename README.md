@@ -38,6 +38,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [DNASkittle](https://www.dnaskittle.com/)
 * [EaSeq](https://easeq.net/screenshots/)
 * [Epilogos](http://compbio.mit.edu/epilogos/)
+* [Epiviz](https://www.biorxiv.org/content/10.1101/865295v1.full.pdf)
 * [GenomeRibbon](http://genomeribbon.com/)
 * [Genoverse](https://github.com/wtsi-web/Genoverse)
 * [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
