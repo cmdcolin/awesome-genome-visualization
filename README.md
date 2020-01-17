@@ -60,6 +60,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [SplitThreader](http://splitthreader.com/)
 * [TASUKE](https://ricegenome.dna.affrc.go.jp/) - from RAP-DB
 * [Tablet](https://ics.hutton.ac.uk/tablet/)
+* [UGENE](http://ugene.net/)
 * [Valis browser](https://valis.bio/) - used on encodeproject.org (uses webGL)
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
