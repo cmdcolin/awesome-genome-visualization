@@ -14,6 +14,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * IGV (java)
 * IGV.js
 * [JBrowse](http://jbrowse.org/)
+* [MacVector](https://macvector.com/) (commerical)
 * NCBI Genome Data Viewer
 * [Persephone](https://persephonesoft.com/) (commercial)
 * [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
