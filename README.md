@@ -9,6 +9,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * Ensembl genome browser
 * GBrowse
 * GBrowse 2
+* [GenomeMaps](http://www.genomemaps.org/) (used on ICGC)
 * [Golden Helix](http://goldenhelix.com/GenomeBrowse/) (commercial)
 * IGB
 * IGV (java)
