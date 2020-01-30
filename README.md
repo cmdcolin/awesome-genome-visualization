@@ -191,6 +191,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Hapviz](https://github.com/ekg/hapviz)
 * [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
 * [Samtools tview](http://www.htslib.org/)
+* [VizAln](https://github.com/tfwillems/HipSTR#alignment-visualization) from HipSTR
 
 Given some of the above definitions, human headable text files like BLAST output e.g. -outfmt 0 with the textual
 
