@@ -44,6 +44,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [GenomeRibbon](http://genomeribbon.com/)
 * [Genoverse](https://github.com/wtsi-web/Genoverse)
 * [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
+* [GWAS catalog browser](https://www.ebi.ac.uk/gwas/variants/rs1558902) at EBI
 * [Hawkeye](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34)
 * [Human genome dating](https://human.genome.dating/region/chr1_13250000) (made with vega/d3)
 * [HiC browser](http://promoter.bx.psu.edu/hi-c/view.php) - UCSC-based
