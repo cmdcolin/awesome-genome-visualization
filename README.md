@@ -98,7 +98,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Synima](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)
 * [VISTA browser](http://pipeline.lbl.gov/cgi-bin/gateway2)
 
-## Multiple sequence alignment viewer
+## Multiple sequence alignment viewer/Logo
 
 * [BioJS/MSA](https://msa.biojs.net/) also see [msa/R](https://github.com/zachcp/msaR)
 * [Jalview](https://www.jalview.org/)
@@ -107,6 +107,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [MView](https://www.ebi.ac.uk/Tools/msa/mview/)
 * [TeXShade](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf)
 * [ESPript](http://espript.ibcp.fr/ESPript/ESPript/)
+* [LogoJS](https://logojs.wenglab.org/app/gallery/)
 
 
 ## Static visualizations
