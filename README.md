@@ -52,6 +52,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [Juicebox](https://github.com/aidenlab/Juicebox)
 * [Locuszoom](http://locuszoom.org/)
+* [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109)
+* [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
 * [NGB](https://github.com/epam/NGB)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
 * [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
