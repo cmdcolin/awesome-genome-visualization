@@ -55,6 +55,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109)
 * [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
 * [NGB](https://github.com/epam/NGB)
+* [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
 * [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
 * [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
