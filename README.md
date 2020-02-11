@@ -6,7 +6,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 * [Alamut](https://www.interactive-biosoftware.com/alamut-visual/) (commercial)
 * [ATCC Genome Portal](https://genomes.atcc.org) (commercial)
-* [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/)
+* [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/) (commercial)
 * Ensembl genome browser
 * GBrowse
 * GBrowse 2
