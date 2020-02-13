@@ -97,6 +97,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [MCScan (python version)](https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version))
 * [MCScanX](http://chibba.pgml.uga.edu/mcscan2/)
 * [Multiple genome viewer](http://www.informatics.jax.org/mgv/) (jax)
+* [mGSV](https://github.com/kashmatic/mGSV)
 * [progressiveMauve viewer](http://darlinglab.org/mauve/user-guide/viewer.html)
 * [Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser) (jax)
 * [Synima](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)
