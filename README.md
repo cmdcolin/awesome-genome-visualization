@@ -196,6 +196,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Alan](https://github.com/mpdunne/alan)
 * [Alv](https://github.com/arvestad/alv)
 * [Bamcov](https://github.com/fbreitwieser/bamcov)
+* [bioSyntax](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2315-y)
 * [BLAST+](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) <-- reading -outfmt 0 pairwise output is essentially a textual/command line bioinformatics tool
 * [Hapviz](https://github.com/ekg/hapviz)
 * [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
