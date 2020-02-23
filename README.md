@@ -43,6 +43,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Epilogos](http://compbio.mit.edu/epilogos/)
 * [Epiviz](https://www.biorxiv.org/content/10.1101/865295v1.full.pdf)
 * [GenomeRibbon](http://genomeribbon.com/)
+* [GenomeSpy](https://genomespy.app/examples/TCGA/BRCA/) [another demo](https://genomespy.app/examples/GWAS/OCAC-HGSOC/)
 * [Genoverse](https://github.com/wtsi-web/Genoverse)
 * [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
 * [Gremlin](http://compbio-research.cs.brown.edu/software/Gremlin/GremlinOverview.pdf)
