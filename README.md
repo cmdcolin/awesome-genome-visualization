@@ -31,7 +31,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [2020 Ensembl genome browser](http://2020.ensembl.org/)
 * [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
 * [BasePlayer](https://baseplayer.fi/)
-* [BigTop](https://github.com/dnanexus/bigtop)
+* [BigTop](https://github.com/dnanexus/bigtop) (virtual reality demo https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/)
 * [Biodalliance](http://www.biodalliance.org/)
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
 * [Chip Monk](http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/)
