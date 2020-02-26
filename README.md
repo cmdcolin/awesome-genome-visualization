@@ -34,10 +34,10 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Chip Monk](http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/)
 * [Chipster](https://chipster.csc.fi/)
 * [cisGenome Browser](http://www-personal.umich.edu/~jianghui/browser/screenshots.html)
-* [Epilogos](http://compbio.mit.edu/epilogos/) has genome browser elements
-* [Epiviz](https://www.biorxiv.org/content/10.1101/865295v1.full.pdf) has genome browser elements
+* [Epilogos](http://compbio.mit.edu/epilogos/)
+* [Epiviz](https://www.biorxiv.org/content/10.1101/865295v1.full.pdf)
 * [HiC browser](http://promoter.bx.psu.edu/hi-c/view.php) - UCSC-based
-* [HiGlass](https://higlass.io) has elements of fully featured genome browsers!
+* [HiGlass](https://higlass.io)
 * [Juicebox](https://github.com/aidenlab/Juicebox)
 
 
