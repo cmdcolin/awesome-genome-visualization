@@ -6,6 +6,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 * [Alamut](https://www.interactive-biosoftware.com/alamut-visual/) (commercial)
 * [ATCC Genome Portal](https://genomes.atcc.org) (commercial)
+* [BasePlayer](https://baseplayer.fi/)
 * [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/) (commercial)
 * Ensembl genome browser
 * GBrowse
@@ -30,7 +31,6 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
 * [2020 Ensembl genome browser](http://2020.ensembl.org/)
 * [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
-* [BasePlayer](https://baseplayer.fi/)
 * [BigTop](https://github.com/dnanexus/bigtop) (virtual reality demo https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/)
 * [Biodalliance](http://www.biodalliance.org/)
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
