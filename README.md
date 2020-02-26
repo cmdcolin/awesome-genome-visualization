@@ -47,8 +47,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
 * [Apollo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/) (old desktop version)
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
-* [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
-* [BigTop](https://github.com/dnanexus/bigtop) (virtual reality demo https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/)
+* [BigTop](https://github.com/dnanexus/bigtop) ([virtual reality demo](https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/))
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
 * [Consed](http://www.phrap.org/consed/consed.html)
@@ -81,10 +80,6 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Valis browser](https://valis.bio/) - used on encodeproject.org (uses webGL)
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [Vials](http://vials.io/info/)
-
-## Demos
-
-* [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
 
 
@@ -97,6 +92,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 ## Genome map, or comparative viewers
 
 * [Aequatus](https://github.com/TGAC/Aequatus)
+* [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
 * [Biodalliance comparative demo](http://biodalliance.org/dev/test-comparative.html)
 * [Chromatiblock](https://www.biorxiv.org/content/10.1101/800920v2.full.pdf)
 * [CMap](http://gmod.org/wiki/CMap)
@@ -156,6 +152,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
 * [JVarKit](http://lindenb.github.io/jvarkit/) examples http://lindenb.github.io/jvarkit/BamToSVG.html
 * [Lollipops](https://github.com/pbnjay/lollipops)
+* [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
 * [Methplotlib](https://www.biorxiv.org/content/10.1101/826107v1.full.pdf)
 * [RACER](https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html)
 * [RepViz](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-019-4473-z)
@@ -218,7 +215,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Samtools tview](http://www.htslib.org/)
 * [VizAln](https://github.com/tfwillems/HipSTR#alignment-visualization) from HipSTR
 
-Given some of the above definitions, human headable text files like BLAST output e.g. -outfmt 0 with the textual
+
+
 
 ## Graph genomes
 
@@ -226,6 +224,7 @@ Given some of the above definitions, human headable text files like BLAST output
 * [gGnomes.js](https://github.com/mskilab/gGnome.js)
 * [MoMi-G](https://github.com/MoMI-G/MoMI-G/)
 * [sequence tube map](https://github.com/vgteam/sequenceTubeMap)
+
 
 
 # Other lists
