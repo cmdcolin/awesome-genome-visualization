@@ -151,7 +151,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Hagfish](https://github.com/mfiers/hagfish/wiki/Plots)
 * [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
 * [JVarKit](http://lindenb.github.io/jvarkit/) examples http://lindenb.github.io/jvarkit/BamToSVG.html
-* [Lollipops](https://github.com/pbnjay/lollipops)
+* [Lollipops](https://github.com/joiningdata/lollipops)
 * [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
 * [Methplotlib](https://www.biorxiv.org/content/10.1101/826107v1.full.pdf)
 * [RACER](https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html)
