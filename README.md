@@ -62,6 +62,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [GWAS catalog browser](https://www.ebi.ac.uk/gwas/variants/rs1558902) at EBI
 * [Hawkeye](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34)
 * [Human genome dating](https://human.genome.dating/region/chr1_13250000) (made with vega/d3)
+* [Introgression browser](https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800)
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [Locuszoom](http://locuszoom.org/)
 * [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109)
