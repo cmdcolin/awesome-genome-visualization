@@ -102,6 +102,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [CVit](https://sourceforge.net/projects/cvit/)
 * [Cvit.js](https://github.com/LegumeFederation/cvitjs)
 * [CrossBrowse](https://github.com/shenkers/CrossBrowse) [pub](https://www.biorxiv.org/content/10.1101/272880v1.full)
+* [genoplotR](http://genoplotr.r-forge.r-project.org/)
 * [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
 * [GBrowse_syn](http://gmod.org/wiki/GBrowse_syn)
 * [Genome context viewer](https://www.legumefederation.org/en/blog/2019/06/25/genome-context-viewer-gcv-test-drive/)
