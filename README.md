@@ -206,7 +206,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [KaryotypeSVG](https://github.com/andreasprlic/karyotypeSVG)
 * [rnaseqview](https://github.com/NCBI-Hackathons/rnaseqview)
 * [karyoploteR](https://github.com/bernatgel/karyoploteR) (R package)
-
+* [UCSC Genome Graphs](http://genome.ucsc.edu/cgi-bin/hgGenome)
 
 ## Command line
 
