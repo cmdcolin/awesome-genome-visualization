@@ -201,6 +201,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 * [chromoMap](https://www.biorxiv.org/content/10.1101/605600v1.full.pdf)
 * [Ideogram](https://github.com/RCollins13/HumanIdiogramLibrary) HumanIdeogramLibrary
+* [NCBI Genome Decoration](https://www.ncbi.nlm.nih.gov/genome/tools/gdp/)
 * [eweitz/Ideogram](https://github.com/eweitz/ideogram)
 * [KaryotypeSVG](https://github.com/andreasprlic/karyotypeSVG)
 * [rnaseqview](https://github.com/NCBI-Hackathons/rnaseqview)
