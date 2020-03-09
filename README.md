@@ -162,7 +162,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [RepViz](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-019-4473-z)
 * [Samplot](https://github.com/ryanlayer/samplot)
 * [SashimiPlot](https://miso.readthedocs.io/en/fastmiso/sashimi.html)
-* [segDupPlot](https://github.com/mrvollger/segDupPlots)
+* [shinyChromosome](http://150.109.59.144:3838/shinyChromosome/)
 * [SparK](https://www.biorxiv.org/content/10.1101/845529v1.full.pdf)
 * [SNPduo](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006711)
 * [Spliceclust](https://github.com/pkimes/spliceclust)
