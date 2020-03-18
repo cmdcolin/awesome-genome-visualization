@@ -95,6 +95,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 ## Genome map, or comparative viewers
 
 * [Aequatus](https://github.com/TGAC/Aequatus)
+* [AliTV](https://alitvteam.github.io/AliTV/d3/AliTV.html)
 * [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
 * [Biodalliance comparative demo](http://biodalliance.org/dev/test-comparative.html)
 * [Chromatiblock](https://www.biorxiv.org/content/10.1101/800920v2.full.pdf)
@@ -133,7 +134,6 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 ## Static visualizations
 
 * [aCNVViewer](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334)
-* [AliTV](https://zenodo.org/record/32014)
 * [BAMScale](https://github.com/ncbi/BAMscale)
 * [CNView](https://github.com/RCollins13/CNView)
 * [Chimeraviz](https://github.com/stianlagstad/chimeraviz)
