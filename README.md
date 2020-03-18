@@ -194,6 +194,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Gepard](http://cube.univie.ac.at/gepard)
 * [Jdot](https://github.com/LyonsLab/jdot)
 * LAST (package contains a dotplotter)
+* [mcutils](https://github.com/mchaisso/mcutils) [source](https://twitter.com/mjpchaisson/status/1040363992206569472)
 * [Minidot](https://github.com/thackl/minidot)
 * Mummer (contains a GNUplot script for dotplotting)
 * [Redottable](https://github.com/s-andrews/redotable)
