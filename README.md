@@ -228,7 +228,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 
 ## Graph genomes
-
+ 
+* [AGB assembly graph browser](https://almiheenko.github.io/AGB/index.html)
 * [Bandage](https://github.com/rrwick/Bandage/)
 * [gGnomes.js](https://github.com/mskilab/gGnome.js)
 * [MoMi-G](https://github.com/MoMI-G/MoMI-G/)
