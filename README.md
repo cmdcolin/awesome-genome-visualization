@@ -64,6 +64,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Human genome dating](https://human.genome.dating/region/chr1_13250000) (made with vega/d3)
 * [Introgression browser](https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800)
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
+* [JSAV](http://www.bioinf.org.uk/software/jsav)
 * [Locuszoom](http://locuszoom.org/)
 * [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109)
 * [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
@@ -72,6 +73,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
 * [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
 * [Protael](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/)
+* [pViz](https://github.com/Genentech/pviz)
 * [RNASeqBrowser](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1346-2) UCSC-based
 * [SEQing](https://github.com/malewins/SEQing)
 * [SFARI](https://gene.sfari.org/database/human-gene/)
