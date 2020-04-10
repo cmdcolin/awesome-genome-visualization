@@ -71,6 +71,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [NGB](https://github.com/epam/NGB)
 * [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
 * [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
+* [Protael](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/)
 * [RNASeqBrowser](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1346-2) UCSC-based
 * [SEQing](https://github.com/malewins/SEQing)
 * [SFARI](https://gene.sfari.org/database/human-gene/)
