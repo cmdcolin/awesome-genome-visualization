@@ -69,6 +69,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109)
 * [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
 * [MapView](http://seqanswers.com/forums/showthread.php?t=1024) (note: links in original paper are dead. download link here https://sites.google.com/site/wjwdavy/)
+* [Mason](http://www.yeastrc.org/mason/)
 * [NGB](https://github.com/epam/NGB)
 * [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
 * [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
@@ -78,6 +79,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [SEQing](https://github.com/malewins/SEQing)
 * [SFARI](https://gene.sfari.org/database/human-gene/)
 * [SNPitty](https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext)
+* [SNPViz](http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html)
 * [Staden](https://sourceforge.net/projects/staden/)
 * [SplitThreader](http://splitthreader.com/)
 * [TASUKE](https://ricegenome.dna.affrc.go.jp/) - from RAP-DB
