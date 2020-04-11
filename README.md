@@ -126,6 +126,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Multiple sequence alignment viewer/Logo
 
+* [AliView](http://www.ormbunkar.se/aliview/)
 * [BioJS/MSA](https://msa.biojs.net/) also see [msa/R](https://github.com/zachcp/msaR)
 * [Jalview](https://www.jalview.org/)
 * [Wasabi](http://wasabiapp.org/)
