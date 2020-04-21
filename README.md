@@ -4,6 +4,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Fully featured genome browsers
 
+* [10x genomics](https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants) (commercial)
 * [Alamut](https://www.interactive-biosoftware.com/alamut-visual/) (commercial)
 * [ATCC Genome Portal](https://genomes.atcc.org) (commercial)
 * [BasePlayer](https://baseplayer.fi/)
@@ -24,6 +25,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Persephone](https://persephonesoft.com/) (commercial)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
 * [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
+* [Strand NGS](https://www.strand-ngs.com/) (commercial)
 * [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
 * UCSC genome browser
 * [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [source](https://github.com/lidaof/eg-react)
@@ -64,6 +66,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Human genome dating](https://human.genome.dating/region/chr1_13250000) (made with vega/d3)
 * [Icarus](http://quast.sourceforge.net/icarus.html)
 * [Introgression browser](https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800)
+* [InGAP-SV](http://ingap.sourceforge.net/)
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [JSAV](http://www.bioinf.org.uk/software/jsav)
 * [Locuszoom](http://locuszoom.org/)
@@ -165,6 +168,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [JVarKit](http://lindenb.github.io/jvarkit/) examples http://lindenb.github.io/jvarkit/BamToSVG.html
 * [Lollipops](https://github.com/joiningdata/lollipops)
 * [Millefy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/) single cell
+* [Pairoscope](http://pairoscope.sourceforge.net/)
 * [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
 * [Methplotlib](https://www.biorxiv.org/content/10.1101/826107v1.full.pdf)
 * [RACER](https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html)
