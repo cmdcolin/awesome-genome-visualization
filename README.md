@@ -255,5 +255,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 # Other lists
 
 * [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
+* [Genocat](http://genocat.tools/) large collection of genomic visualizations with great review paper accompaniment https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13727
+
 
 Send in PRs for more stuff!
