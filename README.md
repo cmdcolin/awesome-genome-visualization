@@ -194,9 +194,11 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 ## Circular
 
 * [Anvio](https://peerj.com/articles/1319/)
+* [BioCircos.js](http://bioinfo.ibp.ac.cn/biocircos/)
 * [Circos](http://circos.ca/)
 * [CircosJS](https://github.com/nicgirault/circosJS)
 * [Circleator](http://jonathancrabtree.github.io/Circleator/index.html)
+* [circlize](https://github.com/jokergoo/circlize)
 * [DNAPlotter](https://www.sanger.ac.uk/science/tools/dnaplotter)
 * [JupiterPlot](https://github.com/JustinChu/JupiterPlot)
 * [OGDRAW](https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)
