@@ -2,28 +2,33 @@
 
 A list of interesting genome visualizers, genome browsers, or genome-browser-like implementations
 
-## Fully featured genome browsers
+## Genome browsers
 
+### Desktop
 
 * [BasePlayer](https://baseplayer.fi/)
+* [IGB](https://bioviz.org/)
+* [IGV](https://igv.org/) (java)
+* [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
+
+### Web-based
+
 * [Biodalliance](http://www.biodalliance.org/)
 * [Ensembl genome browser](https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237)
 * [Ensembl genome browser 2020 edition](http://2020.ensembl.org/)
+* [IGV.js](https://github.com/igvteam/igv.js/)
 * [GBrowse+GBrowse 2](http://gmod.org/wiki/GBrowse)
 * [GenomeMaps](http://www.genomemaps.org/) (used on ICGC)
-* [IGB](https://bioviz.org/)
-* [IGV](https://igv.org/) (java)
-* [IGV.js](https://github.com/igvteam/igv.js/)
 * [JBrowse](http://jbrowse.org/)
 * [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
-* [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
-* [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
 * [UCSC genome browser](https://genome.ucsc.edu/)
+* [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
 * [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [source](https://github.com/lidaof/eg-react)
 * [Zenbu](http://fantom.gsc.riken.jp/zenbu/)
 
-## Commercial products
+
+### Commercial
 
 * [10x genomics](https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants)
 * [Alamut](https://www.interactive-biosoftware.com/alamut-visual/)
@@ -38,7 +43,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Strand NGS](https://www.strand-ngs.com/)
 
 
-## Hi-C and epigenomics focus
+### Hi-C and epigenomics focus
 
 * [Chip Monk](http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/)
 * [Chipster](https://chipster.csc.fi/)
@@ -51,16 +56,14 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 
 
-## Less common or less fully featured browsers
+## Special purpose tools
 
 * [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
 * [Apollo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/) (old desktop version)
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
-
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
 * [cnvCurator](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
-* [Consed](http://www.phrap.org/consed/consed.html)
 * [CuteVCF](https://github.com/labsquare/CuteVCF)
 * [DNASkittle](https://www.dnaskittle.com/)
 * [EaSeq](https://easeq.net/screenshots/)
@@ -103,9 +106,6 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [Vials](http://vials.io/info/)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
-
-
-## Small protein visuals
 
 ## Exotic
 
