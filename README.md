@@ -57,6 +57,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [CuteVCF](https://github.com/labsquare/CuteVCF)
 * [DNASkittle](https://www.dnaskittle.com/)
 * [EaSeq](https://easeq.net/screenshots/)
+* [Gambit](http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473)
 * [GenomeRibbon](http://genomeribbon.com/)
 * [GenomeSpy](https://genomespy.app/examples/TCGA/BRCA/) [another demo](https://genomespy.app/examples/GWAS/OCAC-HGSOC/)
 * [Genoverse](https://github.com/wtsi-web/Genoverse)
