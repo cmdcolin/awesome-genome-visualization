@@ -4,32 +4,39 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Fully featured genome browsers
 
-* [10x genomics](https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants) (commercial)
-* [Alamut](https://www.interactive-biosoftware.com/alamut-visual/) (commercial)
-* [ATCC Genome Portal](https://genomes.atcc.org) (commercial)
+
 * [BasePlayer](https://baseplayer.fi/)
 * [Biodalliance](http://www.biodalliance.org/)
-* [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/) (commercial)
-* Ensembl genome browser
+* [Ensembl genome browser](https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237)
 * [Ensembl genome browser 2020 edition](http://2020.ensembl.org/)
-* GBrowse
-* GBrowse 2
+* [GBrowse+GBrowse 2](http://gmod.org/wiki/GBrowse)
 * [GenomeMaps](http://www.genomemaps.org/) (used on ICGC)
-* [Golden Helix](http://goldenhelix.com/GenomeBrowse/) (commercial)
-* IGB
-* IGV (java)
-* IGV.js
+* [IGB](https://bioviz.org/)
+* [IGV](https://igv.org/) (java)
+* [IGV.js](https://github.com/igvteam/igv.js/)
 * [JBrowse](http://jbrowse.org/)
-* [MacVector](https://macvector.com/) (commerical)
-* NCBI Genome Data Viewer
-* [Persephone](https://persephonesoft.com/) (commercial)
+* [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
 * [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
-* [Strand NGS](https://www.strand-ngs.com/) (commercial)
 * [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
-* UCSC genome browser
+* [UCSC genome browser](https://genome.ucsc.edu/)
 * [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [source](https://github.com/lidaof/eg-react)
 * [Zenbu](http://fantom.gsc.riken.jp/zenbu/)
+
+## Commercial products
+
+* [10x genomics](https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants)
+* [Alamut](https://www.interactive-biosoftware.com/alamut-visual/)
+* [Benchling](https://www.benchling.com/)
+* [ATCC Genome Portal](https://genomes.atcc.org)
+* [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/)
+* [DNASTAR](https://www.dnastar.com/)
+* [Golden Helix](http://goldenhelix.com/GenomeBrowse/)
+* [MacVector](https://macvector.com/)
+* [Persephone](https://persephonesoft.com/)
+* [SnapGene](https://www.snapgene.com/)
+* [Strand NGS](https://www.strand-ngs.com/)
+
 
 ## Hi-C and epigenomics focus
 
