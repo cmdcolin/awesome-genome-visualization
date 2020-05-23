@@ -49,7 +49,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
 * [Apollo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/) (old desktop version)
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
-* [BigTop](https://github.com/dnanexus/bigtop) ([virtual reality demo](https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/))
+
 * [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
 * [cnvCurator](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
@@ -77,7 +77,6 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Lucid viewer](https://lucidalign.com/) (commercial)
 * [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
 * [MapView](http://seqanswers.com/forums/showthread.php?t=1024) (note: links in original paper are dead. download link here https://sites.google.com/site/wjwdavy/)
-* [Mason](http://www.yeastrc.org/mason/)
 * [NGB](https://github.com/epam/NGB)
 * [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
 * [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
@@ -97,6 +96,14 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [Vials](http://vials.io/info/)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
+
+
+## Small protein visuals
+
+## Exotic
+
+* [BigTop](https://github.com/dnanexus/bigtop) ([virtual reality demo](https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/))
+* [Cylindrical viewer](https://sourceforge.net/projects/cyl-viewer/) [2](https://sourceforge.net/projects/cylindrical-alignment-app/)
 
 
 ## Heatmaps
@@ -143,7 +150,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [TeXShade](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf)
 * [ESPript](http://espript.ibcp.fr/ESPript/ESPript/)
 * [LogoJS](https://logojs.wenglab.org/app/gallery/)
-
+* http://www.bioinformatics.org/strap/aa/
 
 ## Static visualizations
 
@@ -171,6 +178,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
 * [JVarKit](http://lindenb.github.io/jvarkit/) examples http://lindenb.github.io/jvarkit/BamToSVG.html
 * [Lollipops](https://github.com/joiningdata/lollipops)
+* [Mason](http://www.yeastrc.org/mason/)
 * [Millefy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/) single cell
 * [Pairoscope](http://pairoscope.sourceforge.net/)
 * [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
@@ -243,7 +251,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [plotReads](http://campuspress.yale.edu/knightlab/ruddle/plotreads/) [includes static graphic and text visualization]
 * [pyBamView](https://mgymrek.github.io/pybamview/)
 * [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
-* [Samtools tview](http://www.htslib.org/)
+* [Samtools tview](http://www.htslib.org/) ([keyboard shortcuts](https://pic4.zhimg.com/v2-8e01b2422f8a9cda84b057a2b35f5887_r.jpg))
 * [VizAln](https://github.com/tfwillems/HipSTR#alignment-visualization) from HipSTR
 * [Samtools depth visualization](https://twitter.com/yokofakun/status/1178686978541441025)
 
