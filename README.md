@@ -240,6 +240,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [BLAST+](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) <-- reading -outfmt 0 pairwise output is essentially a textual/command line bioinformatics tool
 * [Hapviz](https://github.com/ekg/hapviz)
 * [plotReads](http://campuspress.yale.edu/knightlab/ruddle/plotreads/) [includes static graphic and text visualization]
+* [pyBamView](https://mgymrek.github.io/pybamview/)
 * [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
 * [Samtools tview](http://www.htslib.org/)
 * [VizAln](https://github.com/tfwillems/HipSTR#alignment-visualization) from HipSTR
