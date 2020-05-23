@@ -69,7 +69,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [cnvCurator](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
 * [CuteVCF](https://github.com/labsquare/CuteVCF)
-* [DNASkittle](https://www.dnaskittle.com/)
+* [DNASkittle](https://www.dnaskittle.com/) also see [FluentDNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/)
 * [EaSeq](https://easeq.net/screenshots/)
 * [Gambit](http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473)
 * [GenomeRibbon](http://genomeribbon.com/)
