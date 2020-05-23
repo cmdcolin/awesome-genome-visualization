@@ -10,6 +10,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [IGB](https://bioviz.org/)
 * [IGV](https://igv.org/) (java)
 * [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
+* [Tablet](https://ics.hutton.ac.uk/tablet/)
 
 ### Web-based
 
@@ -25,6 +26,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [UCSC genome browser](https://genome.ucsc.edu/)
 * [Trackster](https://galaxyproject.org/learn/visualization/) (in Galaxy)
 * [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [source](https://github.com/lidaof/eg-react)
+* [Valis browser](https://valis.bio/) - used on encodeproject.org (uses webGL)
 * [Zenbu](http://fantom.gsc.riken.jp/zenbu/)
 
 
@@ -101,9 +103,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Staden](https://sourceforge.net/projects/staden/)
 * [SplitThreader](http://splitthreader.com/) also see [GenomeRibbon](http://genomeribbon.com/)
 * [TASUKE](https://ricegenome.dna.affrc.go.jp/) - from RAP-DB
-* [Tablet](https://ics.hutton.ac.uk/tablet/)
 * [UGENE](http://ugene.net/)
-* [Valis browser](https://valis.bio/) - used on encodeproject.org (uses webGL)
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [Vials](http://vials.io/info/)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
@@ -134,6 +134,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [CrossBrowse](https://github.com/shenkers/CrossBrowse) [pub](https://www.biorxiv.org/content/10.1101/272880v1.full)
 * [genoplotR](http://genoplotr.r-forge.r-project.org/)
 * [gggenomes](https://github.com/thackl/gggenomes)
+* [Genome Context Viewer](https://www.legumefederation.org/gcv/phytozome_10_2/)
 * [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
 * [GBrowse_syn](http://gmod.org/wiki/GBrowse_syn)
 * [Genome context viewer](https://www.legumefederation.org/en/blog/2019/06/25/genome-context-viewer-gcv-test-drive/)
