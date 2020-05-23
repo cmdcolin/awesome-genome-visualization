@@ -160,6 +160,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Jalview](https://www.jalview.org/)
 * [LogoJS](https://logojs.wenglab.org/app/gallery/)
 * [MView](https://www.ebi.ac.uk/Tools/msa/mview/)
+* [seqotron](https://github.com/4ment/seqotron)
 * [TeXShade](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf)
 * [Wasabi](http://wasabiapp.org/)
 
