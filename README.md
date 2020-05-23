@@ -36,6 +36,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [ATCC Genome Portal](https://genomes.atcc.org)
 * [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/)
 * [DNASTAR](https://www.dnastar.com/)
+* [Geneious](https://www.geneious.com/)
 * [Golden Helix](http://goldenhelix.com/GenomeBrowse/)
 * [MacVector](https://macvector.com/)
 * [Persephone](https://persephonesoft.com/)
