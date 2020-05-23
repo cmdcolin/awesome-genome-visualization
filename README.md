@@ -151,10 +151,13 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Multiple sequence alignment viewer/Logo
 
+
 * [AA](http://www.bioinformatics.org/strap/aa) also see Java web applet version [STRAP](http://www.bioinformatics.org/strap/)
+* [abrowse](https://github.com/ihh/abrowse)
 * [AlignmentViewer](https://alignmentviewer.org/)
 * [AliView](http://www.ormbunkar.se/aliview/)
 * [BioJS/MSA](https://msa.biojs.net/) also see [msa/R](https://github.com/zachcp/msaR)
+* [Boxshade](https://embnet.vital-it.ch/software/BOX_form.html)
 * [ESPript](http://espript.ibcp.fr/ESPript/ESPript/)
 * [Jalview](https://www.jalview.org/)
 * [JSAV](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4304231/) [link](http://www.bioinf.org.uk/software/jsav)
