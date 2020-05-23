@@ -244,7 +244,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
 * [Samtools tview](http://www.htslib.org/)
 * [VizAln](https://github.com/tfwillems/HipSTR#alignment-visualization) from HipSTR
-
+* [Samtools depth visualization](https://twitter.com/yokofakun/status/1178686978541441025)
 
 
 
