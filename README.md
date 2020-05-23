@@ -145,6 +145,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser) (jax)
 * [Synima](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)
 * [VISTA browser](http://pipeline.lbl.gov/cgi-bin/gateway2)
+* [XMatchView](https://www.bcgsc.ca/resources/software/xmatchview)
 
 ## Multiple sequence alignment viewer/Logo
 
