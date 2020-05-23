@@ -145,6 +145,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [OMA local synteny browser](https://omabrowser.org/oma/synteny/ADH1A_HUMAN/) 
 * [progressiveMauve viewer](http://darlinglab.org/mauve/user-guide/viewer.html)
 * [Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser) (jax)
+* [SynTView](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/)
 * [Synima](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)
 * [VISTA browser](http://pipeline.lbl.gov/cgi-bin/gateway2)
 * [XMatchView](https://www.bcgsc.ca/resources/software/xmatchview)
@@ -225,6 +226,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Circleator](http://jonathancrabtree.github.io/Circleator/index.html)
 * [circlize](https://github.com/jokergoo/circlize)
 * [DNAPlotter](https://www.sanger.ac.uk/science/tools/dnaplotter)
+* [GenomeProjector](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636772/) [multiple uses, not just circular]
 * [JupiterPlot](https://github.com/JustinChu/JupiterPlot)
 * [OGDRAW](https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)
 
@@ -281,7 +283,12 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [MoMi-G](https://github.com/MoMI-G/MoMI-G/)
 * [sequence tube map](https://github.com/vgteam/sequenceTubeMap)
 
+## Pangenome
 
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/
+- RPAN http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF
+- panX http://pangenome.tuebingen.mpg.de/
+- Panache https://github.com/SingingMeerkat/Panache
 
 # Other lists
 
