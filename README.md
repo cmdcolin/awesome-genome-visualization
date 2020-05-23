@@ -87,7 +87,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [JSAV](http://www.bioinf.org.uk/software/jsav)
 * [Locuszoom](http://locuszoom.org/)
-* [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109) [screenshot](https://www.sanger.ac.uk/file/5839) [github](https://github.com/magnusmanske/lookseq)
+* [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109) ([screenshot](https://www.sanger.ac.uk/file/5839)) ([github](https://github.com/magnusmanske/lookseq))
 * [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
 * [MapView](http://seqanswers.com/forums/showthread.php?t=1024) (note: links in original paper are dead. download link here https://sites.google.com/site/wjwdavy/)
 * [NGB](https://github.com/epam/NGB)
@@ -111,7 +111,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 ## Exotic
 
 * [BigTop](https://github.com/dnanexus/bigtop) ([virtual reality demo](https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/))
-* [Cylindrical viewer](https://sourceforge.net/projects/cyl-viewer/) [2](https://sourceforge.net/projects/cylindrical-alignment-app/)
+* [Cylindrical viewer](https://sourceforge.net/projects/cyl-viewer/) ([source](https://sourceforge.net/projects/cylindrical-alignment-app/))
 
 
 ## Heatmaps
@@ -165,7 +165,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Static visualizations
 
-* [aCNVViewer](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334) [github](https://github.com/FJD-CEPH/aCNViewer)
+* [aCNVViewer](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334) ([github](https://github.com/FJD-CEPH/aCNViewer))
 * [BAMScale](https://github.com/ncbi/BAMscale)
 * [ChIA-Pipe](https://www.biorxiv.org/content/10.1101/506683v1.full.pdf)
 * [Chimeraviz](https://github.com/stianlagstad/chimeraviz)
