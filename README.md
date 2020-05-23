@@ -151,25 +151,26 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 
 ## Multiple sequence alignment viewer/Logo
 
+* [AA](http://www.bioinformatics.org/strap/aa) also see Java web applet version [STRAP](http://www.bioinformatics.org/strap/)
+* [AlignmentViewer](https://alignmentviewer.org/)
 * [AliView](http://www.ormbunkar.se/aliview/)
 * [BioJS/MSA](https://msa.biojs.net/) also see [msa/R](https://github.com/zachcp/msaR)
+* [ESPript](http://espript.ibcp.fr/ESPript/ESPript/)
 * [Jalview](https://www.jalview.org/)
-* [Wasabi](http://wasabiapp.org/)
-* [AlignmentViewer](https://alignmentviewer.org/)
+* [LogoJS](https://logojs.wenglab.org/app/gallery/)
 * [MView](https://www.ebi.ac.uk/Tools/msa/mview/)
 * [TeXShade](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf)
-* [ESPript](http://espript.ibcp.fr/ESPript/ESPript/)
-* [LogoJS](https://logojs.wenglab.org/app/gallery/)
-* http://www.bioinformatics.org/strap/aa/
+* [Wasabi](http://wasabiapp.org/)
 
 ## Static visualizations
 
-* [aCNVViewer](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334)
+* [aCNVViewer](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334) [github](https://github.com/FJD-CEPH/aCNViewer)
 * [BAMScale](https://github.com/ncbi/BAMscale)
-* [CNView](https://github.com/RCollins13/CNView)
-* [Chimeraviz](https://github.com/stianlagstad/chimeraviz)
 * [ChIA-Pipe](https://www.biorxiv.org/content/10.1101/506683v1.full.pdf)
+* [Chimeraviz](https://github.com/stianlagstad/chimeraviz)
 * [ClustersPloter](https://github.com/orangeSi/ClustersPloter)
+* [CNView](https://github.com/RCollins13/CNView)
+* [CNVpytor](https://github.com/abyzovlab/CNVpytor)
 * [CNVPlot](https://github.com/dantaki/CNVplot)
 * [DNAPlotLib](https://github.com/VoigtLab/dnaplotlib)
 * [ExonIntron](http://wormweb.org/exonintron) from WormBase
@@ -198,8 +199,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Samplot](https://github.com/ryanlayer/samplot)
 * [SashimiPlot](https://miso.readthedocs.io/en/fastmiso/sashimi.html)
 * [shinyChromosome](http://150.109.59.144:3838/shinyChromosome/)
-* [SparK](https://www.biorxiv.org/content/10.1101/845529v1.full.pdf)
 * [SNPduo](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006711)
+* [SparK](https://www.biorxiv.org/content/10.1101/845529v1.full.pdf)
 * [Spliceclust](https://github.com/pkimes/spliceclust)
 * [Sushi](https://www.bioconductor.org/packages/release/bioc/vignettes/Sushi/inst/doc/Sushi.pdf) (R package)
 * [pyGenomeTracks](https://github.com/deeptools/pyGenomeTracks)
