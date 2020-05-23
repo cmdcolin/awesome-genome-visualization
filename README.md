@@ -19,7 +19,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [IGV.js](https://github.com/igvteam/igv.js/)
 * [GBrowse+GBrowse 2](http://gmod.org/wiki/GBrowse)
 * [GenomeMaps](http://www.genomemaps.org/) (used on ICGC)
-* [JBrowse](http://jbrowse.org/)
+* [JBrowse](http://jbrowse.org/) [can run on desktop via Electron]
 * [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
 * [UCSC genome browser](https://genome.ucsc.edu/)
