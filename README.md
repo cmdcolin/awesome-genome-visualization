@@ -269,7 +269,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [plotReads](http://campuspress.yale.edu/knightlab/ruddle/plotreads/) [includes static graphic and text visualization]
 * [pyBamView](https://mgymrek.github.io/pybamview/)
 * [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
-* [Samtools tview](http://www.htslib.org/) ([keyboard shortcuts](https://pic4.zhimg.com/v2-8e01b2422f8a9cda84b057a2b35f5887_r.jpg))
+* [Samtools tview](http://www.htslib.org/) ([keyboard shortcuts](img/tview.png))
 * [VizAln](https://github.com/tfwillems/HipSTR#alignment-visualization) from HipSTR
 * [Samtools depth visualization](https://twitter.com/yokofakun/status/1178686978541441025)
 
