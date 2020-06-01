@@ -183,6 +183,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [ggbio](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77)
 * [GGgenes](https://github.com/wilkox/gggenes)
 * [GGsashimi](https://github.com/guigolab/ggsashimi)
+* [gtrellis](http://bioconductor.org/packages/devel/bioc/vignettes/gtrellis/inst/doc/gtrellis.html)
 * [genoPlotR](http://genoplotr.r-forge.r-project.org/)
 * [Geneviz](https://jrderuiter.github.io/geneviz/usage.html)
 * [Genome STRiP](http://software.broadinstitute.org/software/genomestrip/)
