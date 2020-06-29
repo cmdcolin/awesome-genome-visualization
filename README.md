@@ -88,6 +88,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Locuszoom](http://locuszoom.org/)
 * [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109) ([screenshot](https://www.sanger.ac.uk/file/5839)) ([github](https://github.com/magnusmanske/lookseq))
 * [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
+* [MalariaGEN](https://www.malariagen.net/apps/pf-crosses/1.0/#genome)
 * [MapView](http://seqanswers.com/forums/showthread.php?t=1024) (note: links in original paper are dead. download link here https://sites.google.com/site/wjwdavy/)
 * [NGB](https://github.com/epam/NGB)
 * [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
