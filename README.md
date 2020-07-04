@@ -138,6 +138,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Genome Context Viewer](https://www.legumefederation.org/gcv/phytozome_10_2/) ([blog post](https://www.legumefederation.org/en/blog/2019/06/25/genome-context-viewer-gcv-test-drive/))
 * [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
 * [GBrowse_syn](http://gmod.org/wiki/GBrowse_syn)
+* [mauve-viewer](https://github.com/nconrad/mauve-viewer)
 * [MCScan (python version)](https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version))
 * [MCScanX](http://chibba.pgml.uga.edu/mcscan2/)
 * [MizBee](https://ieeexplore.ieee.org/document/5290692)
