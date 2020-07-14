@@ -22,6 +22,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [HiGlass](https://higlass.io) (has epigenomics focus but quite advanced)
 * [IGV.js](https://github.com/igvteam/igv.js/)
 * [JBrowse](http://jbrowse.org/) [can run on desktop via Electron]
+* [JBrowse 2](http://jbrowse.org/jb2) (under development)
 * [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
 * [UCSC genome browser](https://genome.ucsc.edu/)
