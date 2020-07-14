@@ -17,9 +17,10 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Biodalliance](http://www.biodalliance.org/)
 * [Ensembl genome browser](https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237)
 * [Ensembl genome browser 2020 edition](http://2020.ensembl.org/)
-* [IGV.js](https://github.com/igvteam/igv.js/)
 * [GBrowse+GBrowse 2](http://gmod.org/wiki/GBrowse)
 * [GenomeMaps](http://www.genomemaps.org/) (used on ICGC)
+* [HiGlass](https://higlass.io) (has epigenomics focus but quite advanced)
+* [IGV.js](https://github.com/igvteam/igv.js/)
 * [JBrowse](http://jbrowse.org/) [can run on desktop via Electron]
 * [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
 * [Pileup.js](https://github.com/hammerlab/pileup.js/)
@@ -54,9 +55,9 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [cisGenome Browser](http://www-personal.umich.edu/~jianghui/browser/screenshots.html)
 * [Epilogos](http://compbio.mit.edu/epilogos/)
 * [Epiviz](https://www.biorxiv.org/content/10.1101/865295v1.full.pdf)
+* [HiGlass](https://higlass.io) (has epigenomics focus but quite advanced)
 * [HiC browser](http://promoter.bx.psu.edu/hi-c/view.php) - UCSC-based
-* [HiGlass](https://higlass.io)
-* [Juicebox](https://github.com/aidenlab/Juicebox)
+* [Juicebox](https://github.com/aidenlab/Juicebox) and [Juicebox.js](http://www.igv.org/doc/juiceboxjs.html)
 
 
 
