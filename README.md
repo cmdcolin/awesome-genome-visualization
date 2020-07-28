@@ -150,6 +150,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Multiple genome viewer](http://www.informatics.jax.org/mgv/) (jax)
 * [mGSV](https://github.com/kashmatic/mGSV)
 * [OMA local synteny browser](https://omabrowser.org/oma/synteny/ADH1A_HUMAN/) 
+* [plotsr](https://schneebergerlab.github.io/syri/plotsr.html) from SyRI
 * [progressiveMauve viewer](http://darlinglab.org/mauve/user-guide/viewer.html)
 * [Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser) (jax)
 * [SynTView](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/)
