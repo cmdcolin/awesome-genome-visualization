@@ -155,6 +155,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [progressiveMauve viewer](http://darlinglab.org/mauve/user-guide/viewer.html)
 * [Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser) (jax)
 * [SynTView](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/)
+* [SyMap](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105427/)
 * [Synima](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)
 * [SynVisio](https://synvisio.github.io/#/)
 * [VISTA browser](http://pipeline.lbl.gov/cgi-bin/gateway2)
