@@ -250,6 +250,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Delly-maze](https://github.com/dellytools/maze)
 * [Dot](https://github.com/dnanexus/dot)
 * [Dotplot](https://github.com/iLambda/dotplot)
+* [dotPlotly](https://github.com/tpoorten/dotPlotly/)
 * [Gepard](http://cube.univie.ac.at/gepard)
 * [Jdot](https://github.com/LyonsLab/jdot)
 * [LAST](http://last.cbrc.jp/) (package contains a dotplotter)
