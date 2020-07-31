@@ -241,6 +241,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [DNAPlotter](https://www.sanger.ac.uk/science/tools/dnaplotter)
 * [GenomeProjector](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636772/) [multiple uses, not just circular]
 * [JupiterPlot](https://github.com/JustinChu/JupiterPlot)
+* [mummer2circos](https://github.com/metagenlab/mummer2circos)
 * [OGDRAW](https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)
 
 ## Dotplot
