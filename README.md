@@ -41,6 +41,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/)
 * [DNASTAR](https://www.dnastar.com/)
 * [Geneious](https://www.geneious.com/)
+* [Genestack](https://genestack.com/blog/2015/05/28/navigation-in-genestack-genome-browser/)
 * [Golden Helix](http://goldenhelix.com/GenomeBrowse/)
 * [Lucid viewer](https://lucidalign.com/)
 * [MacVector](https://macvector.com/)
@@ -110,6 +111,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [Vials](http://vials.io/info/)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
+* [WebAsm demo browser chromatic](https://chromatic.nci.nih.gov/)
 
 ## Exotic
 
