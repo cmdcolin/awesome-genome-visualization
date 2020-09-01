@@ -212,6 +212,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Mason](http://www.yeastrc.org/mason/)
 * [Millefy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/) single cell
 * [Pairoscope](http://pairoscope.sourceforge.net/)
+* [pauvre](https://github.com/conchoecia/pauvre) (see https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6991124/figure/fig-3/ for example)
 * [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
 * [Methplotlib](https://www.biorxiv.org/content/10.1101/826107v1.full.pdf)
 * [RACER](https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html)
