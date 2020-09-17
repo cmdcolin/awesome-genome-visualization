@@ -253,6 +253,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [cgplot](https://github.com/dfguan/cgplot)
 * [D-GENIES](https://github.com/genotoul-bioinfo/dgenies)
 * [Delly-maze](https://github.com/dellytools/maze)
+* [Discoplot](https://github.com/mjsull/DiscoPlot)
 * [Dot](https://github.com/dnanexus/dot)
 * [Dotplot (iLambda)](https://github.com/iLambda/dotplot)
 * [Dotplot (chirimoyo)](https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/)
