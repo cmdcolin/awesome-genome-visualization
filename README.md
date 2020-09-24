@@ -304,6 +304,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [gGnomes.js](https://github.com/mskilab/gGnome.js)
 * [MoMi-G](https://github.com/MoMI-G/MoMI-G/)
 * [sequence tube map](https://github.com/vgteam/sequenceTubeMap)
+* [graphgenomeviewer](https://cmdcolin.github.io/graphgenomeviewer/) (note: I made this during bcc2020 hackathon)
 
 ## Pangenome
 
