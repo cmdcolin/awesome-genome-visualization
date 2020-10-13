@@ -68,6 +68,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
 * [Apollo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/) (old desktop version)
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
+* [Chromatic](https://chromatic.nci.nih.gov/) (pub https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/)
 * [cnvCurator](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
 * [DNASkittle](https://www.dnaskittle.com/) also see [FluentDNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/)
@@ -105,8 +106,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [UGENE](http://ugene.net/)
 * [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions)
 * [Vials](http://vials.io/info/)
-* [WebAsm demo browser](https://shk656461.github.io/index.html)
-* [WebAsm demo browser chromatic](https://chromatic.nci.nih.gov/)
+* [wasm bigwig demo browser](https://shk656461.github.io/index.html)
 
 
 
