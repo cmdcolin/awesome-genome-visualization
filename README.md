@@ -178,6 +178,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [JSAV](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4304231/) [link](http://www.bioinf.org.uk/software/jsav)
 * [LogoJS](https://logojs.wenglab.org/app/gallery/)
 * [MView](https://www.ebi.ac.uk/Tools/msa/mview/)
+* [React MSAViewer](https://github.com/plotly/react-msa-viewer)
 * [seqotron](https://github.com/4ment/seqotron)
 * [TeXShade](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf)
 * [Wasabi](http://wasabiapp.org/)
