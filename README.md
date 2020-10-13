@@ -68,10 +68,8 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
 * [Apollo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/) (old desktop version)
 * [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
-* [BrowseVCF](https://github.com/BSGOxford/BrowseVCF)
 * [cnvCurator](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y)
 * [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
-* [CuteVCF](https://github.com/labsquare/CuteVCF)
 * [DNASkittle](https://www.dnaskittle.com/) also see [FluentDNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/)
 * [EaSeq](https://easeq.net/screenshots/)
 * [Gambit](http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473)
@@ -89,21 +87,18 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [InGAP-SV](http://ingap.sourceforge.net/)
 * [IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565) (D3, SVG) ([source](https://github.com/lairdm/islandplot))
 * [Locuszoom](http://locuszoom.org/)
-* [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109) ([screenshot](https://www.sanger.ac.uk/file/5839)) ([github](https://github.com/magnusmanske/lookseq))
+* [LookSeq](https://genome.cshlp.org/content/early/2009/08/13/gr.093443.109) ([screenshot](https://www.sanger.ac.uk/tool/lookseq/)) ([github](https://github.com/magnusmanske/lookseq))
 * [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
 * [MalariaGEN](https://www.malariagen.net/apps/pf-crosses/1.0/#genome)
 * [MapView](http://seqanswers.com/forums/showthread.php?t=1024) (note: links in original paper are dead. download link here https://sites.google.com/site/wjwdavy/)
 * [NGB](https://github.com/epam/NGB)
 * [Panoptes](https://github.com/cggh/panoptes) see [malariagen browser](https://www.malariagen.net/apps/pf3k/release_3/index.html#genomebrowser)
 * [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
-* [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
-* [Protael](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/)
-* [pViz](https://github.com/Genentech/pviz)
 * [RNASeqBrowser](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1346-2) UCSC-based
 * [SEQing](https://github.com/malewins/SEQing)
 * [SFARI](https://gene.sfari.org/database/human-gene/)
-* [SNPitty](https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext)
 * [SNPViz](http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html)
+* [SNPitty](https://bitbucket.org/ccbc/snpitty/src/master/) (pub https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext)
 * [Staden](https://sourceforge.net/projects/staden/)
 * [SplitThreader](http://splitthreader.com/) also see [GenomeRibbon](http://genomeribbon.com/)
 * [TASUKE](https://ricegenome.dna.affrc.go.jp/) - from RAP-DB
@@ -112,6 +107,21 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [Vials](http://vials.io/info/)
 * [WebAsm demo browser](https://shk656461.github.io/index.html)
 * [WebAsm demo browser chromatic](https://chromatic.nci.nih.gov/)
+
+
+
+## Protein focused
+
+* [ProteinPaint](https://pecan.stjude.cloud/proteinpaint)
+* [Protael](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/)
+* [pViz](https://github.com/Genentech/pviz)
+
+
+## Spreadsheet
+
+* [BrowseVCF](https://github.com/BSGOxford/BrowseVCF) (pub https://pubmed.ncbi.nlm.nih.gov/27373737/)
+* [CuteVCF](https://github.com/labsquare/CuteVCF)
+
 
 ## Exotic
 
@@ -163,6 +173,7 @@ A list of interesting genome visualizers, genome browsers, or genome-browser-lik
 * [SynVisio](https://synvisio.github.io/#/)
 * [VISTA browser](http://pipeline.lbl.gov/cgi-bin/gateway2)
 * [XMatchView](https://www.bcgsc.ca/resources/software/xmatchview)
+
 
 ## Multiple sequence alignment viewer/Logo
 
