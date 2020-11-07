@@ -1,263 +1,265 @@
-BasePlayer	General	https://baseplayer.fi/	Desktop	https://www.biorxiv.org/content/10.1101/126482v1.full	
-IGB	General	https://bioviz.org/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937187/	
-IGV	General	https://igv.org/	Desktop		
-Savant	General	http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/	Desktop		
-Tablet	General	https://ics.hutton.ac.uk/tablet/	Desktop		
+Name	Category	URL	Platform	Publication	NA
+BasePlayer	General	https://baseplayer.fi/	Desktop	https://www.biorxiv.org/content/10.1101/126482v1.full
+IGB	General	https://bioviz.org/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937187/
+IGV	General	https://igv.org/	Desktop
+Savant	General	http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/	Desktop
+Tablet	General	https://ics.hutton.ac.uk/tablet/	Desktop
 Celera genome browser	General	https://www.csee.umbc.edu/~turner/presentations/bvw2002/sld009.htm	Desktop		https://sourceforge.net/projects/celeragb/files/celeragb/celeragb-5.1/
-Biodalliance	Web-based general	http://www.biodalliance.org/	Web		
-Ensembl genome browser	Web-based general	https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237	Web/Silo		
-Ensembl genome browser 2020 edition	Web-based general	http://2020.ensembl.org/	Web		
-GBrowse+GBrowse 2	Web-based general	http://gmod.org/wiki/GBrowse	Web		
-GenomeMaps	Web-based general	http://www.genomemaps.org/	Web		
-HiGlass	Web-based general	https://higlass.io	Web		
-IGV.js	Web-based general	https://github.com/igvteam/igv.js/	Web		
-JBrowse	Web-based general	http://jbrowse.org/	Web		
-JBrowse 2	Web-based general	http://jbrowse.org/jb2	Web		
-NCBI Genome Data Viewer	Web-based general	https://www.ncbi.nlm.nih.gov/genome/gdv/	Web/Silo		
-Pileup.js	Web-based general	https://github.com/hammerlab/pileup.js/	Web		
-UCSC genome browser	Web-based general	https://genome.ucsc.edu/	Web/Silo		
-Trackster	Web-based general	https://galaxyproject.org/learn/visualization/	Web		
-WashU epigenomics browser	Web-based general	https://epigenomegateway.wustl.edu/	Web		
-Valis browser	Web-based general	https://valis.bio/	Web		
-Zenbu	Web-based general	http://fantom.gsc.riken.jp/zenbu/	Web		
-10x genomics	Commercial	https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants	Commercial		
-Alamut	Commercial	https://www.interactive-biosoftware.com/alamut-visual/	Commercial		
-Benchling	Commercial	https://www.benchling.com/	Commercial		
-ATCC Genome Portal	Commercial	https://genomes.atcc.org	Commercial		
-CLC Genomics workbench	Commercial	https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/	Commercial		
-DNASTAR	Commercial	https://www.dnastar.com/	Commercial		
-Geneious	Commercial	https://www.geneious.com/	Commercial		
-Genestack	Commercial	https://genestack.com/blog/2015/05/28/navigation-in-genestack-genome-browser/	Commercial		
-Golden Helix	Commercial	http://goldenhelix.com/GenomeBrowse/	Commercial		
-Lucid viewer	Commercial	https://lucidalign.com/	Commercial		
-MacVector	Commercial	https://macvector.com/	Commercial		
-Persephone	Commercial	https://persephonesoft.com/	Commercial		
-SnapGene	Commercial	https://www.snapgene.com/	Commercial		
-Strand NGS	Commercial	https://www.strand-ngs.com/	Commercial		
-Chip Monk	Epigenomics	http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/	Desktop/Java		
-Chipster	Epigenomics	https://chipster.csc.fi/	Desktop/Java		
-cisGenome Browser	Epigenomics	http://www-personal.umich.edu/~jianghui/browser/screenshots.html	Desktop/C		
+Biodalliance	Web-based general	http://www.biodalliance.org/	Web
+Ensembl genome browser	Web-based general	https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237	Web/Silo
+Ensembl genome browser 2020 edition	Web-based general	http://2020.ensembl.org/	Web
+GBrowse+GBrowse 2	Web-based general	http://gmod.org/wiki/GBrowse	Web
+GenomeMaps	Web-based general	http://www.genomemaps.org/	Web
+HiGlass	Web-based general	https://higlass.io	Web
+IGV.js	Web-based general	https://github.com/igvteam/igv.js/	Web
+JBrowse	Web-based general	http://jbrowse.org/	Web
+JBrowse 2	Web-based general	http://jbrowse.org/jb2	Web
+NCBI Genome Data Viewer	Web-based general	https://www.ncbi.nlm.nih.gov/genome/gdv/	Web/Silo
+Pileup.js	Web-based general	https://github.com/hammerlab/pileup.js/	Web
+UCSC genome browser	Web-based general	https://genome.ucsc.edu/	Web/Silo
+Trackster	Web-based general	https://galaxyproject.org/learn/visualization/	Web
+WashU epigenomics browser	Web-based general	https://epigenomegateway.wustl.edu/	Web
+Valis browser	Web-based general	https://valis.bio/	Web
+Zenbu	Web-based general	http://fantom.gsc.riken.jp/zenbu/	Web
+10x genomics	Commercial	https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants	Commercial
+Alamut	Commercial	https://www.interactive-biosoftware.com/alamut-visual/	Commercial
+Benchling	Commercial	https://www.benchling.com/	Commercial
+ATCC Genome Portal	Commercial	https://genomes.atcc.org	Commercial
+CLC Genomics workbench	Commercial	https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/	Commercial
+DNASTAR	Commercial	https://www.dnastar.com/	Commercial
+Geneious	Commercial	https://www.geneious.com/	Commercial
+Genestack	Commercial	https://genestack.com/blog/2015/05/28/navigation-in-genestack-genome-browser/	Commercial
+Golden Helix	Commercial	http://goldenhelix.com/GenomeBrowse/	Commercial
+Lucid viewer	Commercial	https://lucidalign.com/	Commercial
+MacVector	Commercial	https://macvector.com/	Commercial
+Persephone	Commercial	https://persephonesoft.com/	Commercial
+SnapGene	Commercial	https://www.snapgene.com/	Commercial
+Strand NGS	Commercial	https://www.strand-ngs.com/	Commercial
+Chip Monk	Epigenomics	http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/	Desktop/Java
+Chipster	Epigenomics	https://chipster.csc.fi/	Desktop/Java
+cisGenome Browser	Epigenomics	http://www-personal.umich.edu/~jianghui/browser/screenshots.html	Desktop/C
 Epilogos	Epigenomics	https://epilogos.altius.org/	Web		http://compbio.mit.edu/epilogos/
-Epiviz	Epigenomics	https://epiviz.github.io/	Web/Desktop/Static R	https://www.biorxiv.org/content/10.1101/865295v1.full.pdf	
-HiC browser	Epigenomics	http://promoter.bx.psu.edu/hi-c/view.php	Web/UCSC based/WashU epigenome browser based		
-Juicebox	Epigenomics	https://github.com/aidenlab/Juicebox	Desktop/Java		
-Juicebox.js	Epigenomics	http://www.igv.org/doc/juiceboxjs.html	Web		
-ApE (a plasmid editor)	Special-purpose	https://jorgensen.biology.utah.edu/wayned/ape/	Desktop		
-Apollo	Special-purpose	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/	
-Apollo aka WebApollo	Special-purpose	https://genomearchitect.readthedocs.io/en/latest/	Web		
-Chromatic	Special-purpose	https://chromatic.nci.nih.gov/	Web	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/	
-cnvCurator	Special-purpose	http://www.acsu.buffalo.edu/~lm69/cnvCurator (dead link)	Desktop/Java	http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y	
-DNASkittle	Special-purpose	https://www.dnaskittle.com/	Web		
-FluentDNA	Special-purpose	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/	Web		
-EaSeq	Special-purpose	https://easeq.net/screenshots/	Desktop		
-Gambit	Special-purpose	http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473	Desktop		
-GenomeRibbon	Special-purpose	http://genomeribbon.com/	Web		
+Epiviz	Epigenomics	https://epiviz.github.io/	Web/Desktop/Static R	https://www.biorxiv.org/content/10.1101/865295v1.full.pdf
+HiC browser	Epigenomics	http://promoter.bx.psu.edu/hi-c/view.php	Web/UCSC based/WashU epigenome browser based
+Juicebox	Epigenomics	https://github.com/aidenlab/Juicebox	Desktop/Java
+Juicebox.js	Epigenomics	http://www.igv.org/doc/juiceboxjs.html	Web
+ApE (a plasmid editor)	Special-purpose	https://jorgensen.biology.utah.edu/wayned/ape/	Desktop
+Apollo	Special-purpose	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/
+Apollo aka WebApollo	Special-purpose	https://genomearchitect.readthedocs.io/en/latest/	Web
+Chromatic	Special-purpose	https://chromatic.nci.nih.gov/	Web	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/
+cnvCurator	Special-purpose	http://www.acsu.buffalo.edu/~lm69/cnvCurator (dead link)	Desktop/Java	http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y
+DNASkittle	Special-purpose	https://www.dnaskittle.com/	Web
+FluentDNA	Special-purpose	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/	Web
+EaSeq	Special-purpose	https://easeq.net/screenshots/	Desktop
+Gambit	Special-purpose	http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473	Desktop
+GenomeRibbon	Special-purpose	http://genomeribbon.com/	Web
 GenomeSpy	Special-purpose	https://genomespy.app/	Web/WebGL		https://genomespy.app/examples/TCGA/BRCA/ another demo https://genomespy.app/examples/GWAS/OCAC-HGSOC/
-Genoverse	Special-purpose	https://github.com/wtsi-web/Genoverse	Web		
-Gnomad browser	Special-purpose	https://github.com/macarthur-lab/gnomadjs	Web		
-Gremlin	Special-purpose	http://compbio.cs.brown.edu/projects/gremlin/	Web		
-GTEX Locus browser	Special-purpose	https://gtexportal.org/home/locusBrowserPage/ACTN3	Web		
-GWAS catalog browser	Special-purpose	https://www.ebi.ac.uk/gwas/variants/rs1558902	Web		
-Hawkeye	Special-purpose	https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34	Desktop		
-Human genome dating	Special-purpose	https://human.genome.dating/region/chr1_13250000	Web		
-Icarus	Special-purpose	http://quast.sourceforge.net/icarus.html	Web		
-Introgression browser	Special-purpose	https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800	Web/Python		
-InGAP-SV	Special-purpose	http://ingap.sourceforge.net/	Desktop		
-IslandPlot	Special-purpose	https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565	Web		
-Locuszoom	Special-purpose	http://locuszoom.org/	Web		
-LookSeq	Special-purpose	https://www.sanger.ac.uk/tool/lookseq/	Web		
-MagicViewer	Special-purpose	http://bioinformatics.zj.cn/magicviewer/	Desktop 	https://academic.oup.com/nar/article/38/suppl_2/W732/1096410	
-MalariaGEN	Special-purpose	https://www.malariagen.net/apps/pf-crosses/1.0/#genome	Web		 http://seqanswers.com/forums/showthread.php?t=1024
-MapView	Special-purpose	https://sites.google.com/site/wjwdavy/	Desktop		
-NGB	Special-purpose	https://github.com/epam/NGB	Web/Java		
-Panoptes	Special-purpose	https://github.com/cggh/panoptes	Web		https://www.malariagen.net/apps/pf3k/release_3/index.html#genomebrowser
-SEQing	Special-purpose	https://github.com/malewins/SEQing	Web/Python		
-SFARI	Special-purpose	https://gene.sfari.org/database/human-gene/	Web		
-SNPViz	Special-purpose	http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html	Web		
-SNPitty	Special-purpose	https://bitbucket.org/ccbc/snpitty/src/master/	Web/R	 https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext	
-Staden	Special-purpose	https://sourceforge.net/projects/staden/	Desktop		
-SplitThreader	Special-purpose	http://splitthreader.com/	Web		
-TASUKE	Special-purpose	https://ricegenome.dna.affrc.go.jp/	Web		
-UGENE	Special-purpose	http://ugene.net/	Desktop		
-Varsome	Special-purpose	https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions	Web		
-Vials	Special-purpose	http://vials.io/	Web		
-wasm bigwig demo browser	Special-purpose	https://shk656461.github.io/index.html	Web		
-ProteinPaint	Protein focused	https://pecan.stjude.cloud/proteinpaint	Web		
-Protael	Protein focused	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/	Web		
-pViz	Protein focused	https://github.com/Genentech/pviz	Web		
-BrowseVCF	Data grid	https://github.com/BSGOxford/BrowseVCF	Desktop	https://pubmed.ncbi.nlm.nih.gov/27373737/	
-CuteVCF	Data grid	https://github.com/labsquare/CuteVCF	Desktop		
+Genoverse	Special-purpose	https://github.com/wtsi-web/Genoverse	Web
+Gnomad browser	Special-purpose	https://github.com/macarthur-lab/gnomadjs	Web
+Gremlin	Special-purpose	http://compbio.cs.brown.edu/projects/gremlin/	Web
+GTEX Locus browser	Special-purpose	https://gtexportal.org/home/locusBrowserPage/ACTN3	Web
+GWAS catalog browser	Special-purpose	https://www.ebi.ac.uk/gwas/variants/rs1558902	Web
+Hawkeye	Special-purpose	https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34	Desktop
+Human genome dating	Special-purpose	https://human.genome.dating/region/chr1_13250000	Web
+Icarus	Special-purpose	http://quast.sourceforge.net/icarus.html	Web
+Introgression browser	Special-purpose	https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800	Web/Python
+InGAP-SV	Special-purpose	http://ingap.sourceforge.net/	Desktop
+IslandPlot	Special-purpose	https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565	Web
+Locuszoom	Special-purpose	http://locuszoom.org/	Web
+LookSeq	Special-purpose	https://www.sanger.ac.uk/tool/lookseq/	Web
+MagicViewer	Special-purpose	http://bioinformatics.zj.cn/magicviewer/	Desktop 	https://academic.oup.com/nar/article/38/suppl_2/W732/1096410
+MalariaGEN	Special-purpose	https://www.malariagen.net/apps/pf-crosses/1.0/
+MapView	Special-purpose	https://sites.google.com/site/wjwdavy/	Desktop
+NGB	Special-purpose	https://github.com/epam/NGB	Web/Java
+Panoptes	Special-purpose	https://github.com/cggh/panoptes	Web		https://www.malariagen.net/apps/pf3k/release_3/index.html
+SEQing	Special-purpose	https://github.com/malewins/SEQing	Web/Python
+SFARI	Special-purpose	https://gene.sfari.org/database/human-gene/	Web
+SNPViz	Special-purpose	http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html	Web
+SNPitty	Special-purpose	https://bitbucket.org/ccbc/snpitty/src/master/	Web/R	 https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext
+Staden	Special-purpose	https://sourceforge.net/projects/staden/	Desktop
+SplitThreader	Special-purpose	http://splitthreader.com/	Web
+TASUKE	Special-purpose	https://ricegenome.dna.affrc.go.jp/	Web
+UGENE	Special-purpose	http://ugene.net/	Desktop
+Varsome	Special-purpose	https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET
+Vials	Special-purpose	http://vials.io/	Web
+wasm bigwig demo browser	Special-purpose	https://shk656461.github.io/index.html	Web
+ProteinPaint	Protein focused	https://pecan.stjude.cloud/proteinpaint	Web
+Protael	Protein focused	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/	Web
+pViz	Protein focused	https://github.com/Genentech/pviz	Web
+BrowseVCF	Data grid	https://github.com/BSGOxford/BrowseVCF	Desktop	https://pubmed.ncbi.nlm.nih.gov/27373737/
+CuteVCF	Data grid	https://github.com/labsquare/CuteVCF	Desktop
 BigTop	Exotic	https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/	Web		https://github.com/dnanexus/bigtop
-Cylindrical viewer	Exotic	https://sourceforge.net/projects/cyl-viewer/	Desktop		
-Cylindrical app	Exotic	https://sourceforge.net/projects/cylindrical-alignment-app/	Desktop		
-UCSC Xena	Heatmap	https://xena.ucsc.edu/	Web		
-VIVA	Heatmap	https://www.biorxiv.org/content/10.1101/589879v1.full.pdf	Web		
-Aequatus	Comparative	https://github.com/TGAC/Aequatus	Web		
-AliTV	Comparative	https://alitvteam.github.io/AliTV/d3/AliTV.html	Web		
-Artemis comparison tool (ACT)	Comparative	https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act	Desktop		
-Biodalliance comparative demo	Comparative	http://biodalliance.org/dev/test-comparative.html	Web		
-Chromatiblock	Comparative	https://github.com/mjsull/chromatiblock	Web/Python	https://www.biorxiv.org/content/10.1101/800920v2.full.pdf	
-CMap	Comparative	http://gmod.org/wiki/CMap	Web/Perl		
-CoGe	Comparative	https://genomevolution.org/coge/	Web/Perl		
-"Comparative assembly hub / ""snake track"""	Comparative	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/	Web/UCSC based	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/	
-CVit	Comparative	https://sourceforge.net/projects/cvit/	Web/Perl		
-Cvit.js	Comparative	https://github.com/LegumeFederation/cvitjs	Web		
-CrossBrowse	Comparative	https://github.com/shenkers/CrossBrowse	Desktop	https://www.biorxiv.org/content/10.1101/272880v1.full	
-EasyFig	Comparative	https://mjsull.github.io/Easyfig/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3065679/	
-Edinburgh-Genome-Foundry/DnaFeaturesViewer	Comparative	https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer	Desktop/Python	https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF	
-Parasight	Comparative	https://baileylab.brown.edu/parasight/galframe.html	Desktop/Perl		
-Genomicus	Comparative	https://www.genomicus.biologie.ens.fr/genomicus/	Web/Silo		
-genoplotR	Comparative	http://genoplotr.r-forge.r-project.org/	Desktop/R		
-gggenomes	Comparative	https://github.com/thackl/gggenomes	Desktop/R		
+Cylindrical viewer	Exotic	https://sourceforge.net/projects/cyl-viewer/	Desktop
+Cylindrical app	Exotic	https://sourceforge.net/projects/cylindrical-alignment-app/	Desktop
+UCSC Xena	Heatmap	https://xena.ucsc.edu/	Web
+VIVA	Heatmap	https://www.biorxiv.org/content/10.1101/589879v1.full.pdf	Web
+Aequatus	Comparative	https://github.com/TGAC/Aequatus	Web
+AliTV	Comparative	https://alitvteam.github.io/AliTV/d3/AliTV.html	Web
+Artemis comparison tool (ACT)	Comparative	https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act	Desktop
+Biodalliance comparative demo	Comparative	http://biodalliance.org/dev/test-comparative.html	Web
+Chromatiblock	Comparative	https://github.com/mjsull/chromatiblock	Web/Python	https://www.biorxiv.org/content/10.1101/800920v2.full.pdf
+CMap	Comparative	http://gmod.org/wiki/CMap	Web/Perl
+CoGe	Comparative	https://genomevolution.org/coge/	Web/Perl
+Comparative assembly hub / "snake track"	Comparative	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/	Web/UCSC based	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/
+CVit	Comparative	https://sourceforge.net/projects/cvit/	Web/Perl
+Cvit.js	Comparative	https://github.com/LegumeFederation/cvitjs	Web
+CrossBrowse	Comparative	https://github.com/shenkers/CrossBrowse	Desktop	https://www.biorxiv.org/content/10.1101/272880v1.full
+EasyFig	Comparative	https://mjsull.github.io/Easyfig/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3065679/
+Edinburgh-Genome-Foundry/DnaFeaturesViewer	Comparative	https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer	Desktop/Python	https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF
+Parasight	Comparative	https://baileylab.brown.edu/parasight/galframe.html	Desktop/Perl
+Genomicus	Comparative	https://www.genomicus.biologie.ens.fr/genomicus/	Web/Silo
+genoplotR	Comparative	http://genoplotr.r-forge.r-project.org/	Desktop/R
+gggenomes	Comparative	https://github.com/thackl/gggenomes	Desktop/R
 Genome Context Viewer	Comparative	https://www.legumefederation.org/gcv/phytozome_10_2/	Web/Database		https://www.legumefederation.org/en/blog/2019/06/25/genome-context-viewer-gcv-test-drive/
-GIVE	Comparative	https://zhong-lab-ucsd.github.io/GIVE_homepage/	Web		
-GBrowse_syn	Comparative	http://gmod.org/wiki/GBrowse_syn	Web/Perl		
-mauve-viewer	Comparative	https://github.com/nconrad/mauve-viewer	Web		
-MCScan (python version)	Comparative	https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)	Desktop/Python		
-MCScanX	Comparative	http://chibba.pgml.uga.edu/mcscan2/	Desktop/Perl		
-MizBee	Comparative	http://www.cs.utah.edu/~miriah/mizbee/Overview.html       Desktop	https://ieeexplore.ieee.org/document/5290692)		
-Multiple genome viewer	Comparative	http://www.informatics.jax.org/mgv/	Web		
-) (jax)					
-mGSV	Comparative	https://github.com/kashmatic/mGSV	Web		
-OMA local synteny browser	Comparative	https://omabrowser.org/oma/synteny/ADH1A_HUMAN/	Web		
-pafr	Comparative	https://github.com/dwinter/pafr	Desktop/R		
-plotsr	Comparative	https://schneebergerlab.github.io/syri/plotsr.html	Desktop/Python		
-progressiveMauve viewer	Comparative	http://darlinglab.org/mauve/user-guide/viewer.html	Desktop		
-Synteny browser	Comparative	https://github.com/TheJacksonLaboratory/syntenybrowser	Web		
-SynTView	Comparative	http://hub18.hosting.pasteur.fr/SynTView/documentation/	Desktop/Web/Flash	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/	
-SyMap	Comparative	http://www.agcol.arizona.edu/software/symap/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105427/)	
-Synima	Comparative	https://github.com/rhysf/Synima	Desktop/Perl	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)	
-SynVisio	Comparative	https://synvisio.github.io/#/	Web		
-VISTA browser	Comparative	http://pipeline.lbl.gov/cgi-bin/gateway2	Web/Database		
-XMatchView	Comparative	https://www.bcgsc.ca/resources/software/xmatchview	Desktop		
-AA	Multiple sequence alignment	http://www.bioinformatics.org/strap/aa	Web		
-STRAP	Multiple sequence alignment	http://www.bioinformatics.org/strap/	Web/Applet		
-abrowse	Multiple sequence alignment	https://github.com/ihh/abrowse	Web		
-AlignmentViewer	Multiple sequence alignment	https://alignmentviewer.org/	Web		
-AliView	Multiple sequence alignment	http://www.ormbunkar.se/aliview/	Desktop/Java		
-BioJS/MSA	Multiple sequence alignment	https://msa.biojs.net/	Web		
-msaR	Multiple sequence alignment	https://github.com/zachcp/msaR	Desktop/R/uses BioJS/MSA		
-Boxshade	Multiple sequence alignment	https://embnet.vital-it.ch/software/BOX_form.html	Web		
-pyBoxshare	Multiple sequence alignment	https://github.com/mdbaron42/pyBoxshade	Desktop/Python		
-ESPript	Multiple sequence alignment	http://espript.ibcp.fr/ESPript/ESPript/	Desktop		
-Jalview	Multiple sequence alignment	https://www.jalview.org/	Desktop/Java		
+GIVE	Comparative	https://zhong-lab-ucsd.github.io/GIVE_homepage/	Web
+GBrowse_syn	Comparative	http://gmod.org/wiki/GBrowse_syn	Web/Perl
+mauve-viewer	Comparative	https://github.com/nconrad/mauve-viewer	Web
+MCScan (python version)	Comparative	https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)	Desktop/Python
+MCScanX	Comparative	http://chibba.pgml.uga.edu/mcscan2/	Desktop/Perl
+MizBee	Comparative	http://www.cs.utah.edu/~miriah/mizbee/Overview.html       Desktop	https://ieeexplore.ieee.org/document/5290692)
+Multiple genome viewer	Comparative	http://www.informatics.jax.org/mgv/	Web
+) (jax)
+mGSV	Comparative	https://github.com/kashmatic/mGSV	Web
+OMA local synteny browser	Comparative	https://omabrowser.org/oma/synteny/ADH1A_HUMAN/	Web
+pafr	Comparative	https://github.com/dwinter/pafr	Desktop/R
+plotsr	Comparative	https://schneebergerlab.github.io/syri/plotsr.html	Desktop/Python
+progressiveMauve viewer	Comparative	http://darlinglab.org/mauve/user-guide/viewer.html	Desktop
+Synteny browser	Comparative	https://github.com/TheJacksonLaboratory/syntenybrowser	Web
+SynTView	Comparative	http://hub18.hosting.pasteur.fr/SynTView/documentation/	Desktop/Web/Flash	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/
+SyMap	Comparative	http://www.agcol.arizona.edu/software/symap/	Desktop	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105427/)
+Synima	Comparative	https://github.com/rhysf/Synima	Desktop/Perl	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)
+SynVisio	Comparative	https://synvisio.github.io/
+VISTA browser	Comparative	http://pipeline.lbl.gov/cgi-bin/gateway2	Web/Database
+XMatchView	Comparative	https://www.bcgsc.ca/resources/software/xmatchview	Desktop
+AA	Multiple sequence alignment	http://www.bioinformatics.org/strap/aa	Web
+STRAP	Multiple sequence alignment	http://www.bioinformatics.org/strap/	Web/Applet
+abrowse	Multiple sequence alignment	https://github.com/ihh/abrowse	Web
+AlignmentViewer	Multiple sequence alignment	https://alignmentviewer.org/	Web
+AliView	Multiple sequence alignment	http://www.ormbunkar.se/aliview/	Desktop/Java
+BioJS/MSA	Multiple sequence alignment	https://msa.biojs.net/	Web
+msaR	Multiple sequence alignment	https://github.com/zachcp/msaR	Desktop/R/uses BioJS/MSA
+Boxshade	Multiple sequence alignment	https://embnet.vital-it.ch/software/BOX_form.html	Web
+pyBoxshare	Multiple sequence alignment	https://github.com/mdbaron42/pyBoxshade	Desktop/Python
+ESPript	Multiple sequence alignment	http://espript.ibcp.fr/ESPript/ESPript/	Desktop
+Jalview	Multiple sequence alignment	https://www.jalview.org/	Desktop/Java
 JSAV	Multiple sequence alignment	http://www.bioinf.org.uk/software/jsav	Web	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4304231/	http://www.bioinf.org.uk/software/jsav/demo.html
-LogoJS	Multiple sequence alignment	https://logojs.wenglab.org/app/gallery/	Web		
-MView	Multiple sequence alignment	https://www.ebi.ac.uk/Tools/msa/mview/	Web		
-React MSAViewer	Multiple sequence alignment	https://github.com/plotly/react-msa-viewer	Web		
-seqotron	Multiple sequence alignment	https://github.com/4ment/seqotron	Desktop		
-TeXShade	Multiple sequence alignment	http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf	Desktop		
-Wasabi	Multiple sequence alignment	http://wasabiapp.org/	Web		
-aCNVViewer	Static	https://github.com/FJD-CEPH/aCNViewer	Static	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334	
-BAMScale	Static	https://github.com/ncbi/BAMscale	Static	https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-020-00343-x	
-ChIA-Pipe	Static	https://github.com/TheJacksonLaboratory/ChIA-PIPE	Static	https://www.biorxiv.org/content/10.1101/506683v1.full.pdf	
-Chimeraviz	Static	https://github.com/stianlagstad/chimeraviz	Static/R		
-GSSPlayground	Static	https://github.com/orangeSi/GSSplayground	Web/Perl		
-CNView	Static	https://github.com/RCollins13/CNView	Static/R		
-CNVpytor	Static	https://github.com/abyzovlab/CNVpytor	Static/Python		
-CNVPlot	Static	https://github.com/dantaki/CNVplot/	Static/R		
-DNAPlotLib	Static	https://github.com/VoigtLab/dnaplotlib	Static/Python		
-ExonIntron (from Wormbase)	Static	http://wormweb.org/exonintron	Static		
-FeatureViewer	Static	https://github.com/calipho-sib/feature-viewer	Web		
-ggbio	Static	http://tengfei.github.io/ggbio/	Static/R	https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77)	
-GGgenes	Static	https://github.com/wilkox/gggenes	Static/R		
-GGsashimi	Static	https://github.com/guigolab/ggsashimi	Static/R		
-gtrellis	Static	http://bioconductor.org/packages/devel/bioc/vignettes/gtrellis/inst/doc/gtrellis.html	Static/R		
-genoPlotR	Static	http://genoplotr.r-forge.r-project.org/	Static/R		
-Geneviz	Static	https://jrderuiter.github.io/geneviz/usage.html	Static/R		
-Genome STRiP	Static	http://software.broadinstitute.org/software/genomestrip/	Static		
-GenomeTools	Static	http://genometools.org/	Static		
-GenomeView	Static	https://github.com/nspies/genomeview	Static/Python		
-					
-					
-PIECE2	Static	https://probes.pw.usda.gov/piece/index.php	Static		
-Gviz	Static	https://bioconductor.org/packages/release/bioc/html/Gviz.html	Static/R		
-Hagfish	Static	https://github.com/mfiers/hagfish/wiki/Plots	Static/Python		
-HiCPlotter	Static	https://github.com/kcakdemir/HiCPlotter	Static/Python		
-JVarKit	Static	http://lindenb.github.io/jvarkit/BamToSVG.html	Static/Java		
-Lollipops	Static	https://github.com/joiningdata/lollipops	Static/Go		
-Mason	Static	http://www.yeastrc.org/mason/	Web		
-Millefy	Static	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/	Web/Single cell		
-Pairoscope	Static	http://pairoscope.sourceforge.net/	Static/C++		
-pauvre	Static	https://github.com/conchoecia/pauvre	Static	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6991124/figure/fig-3/	
-PureScript genetics browser	Static	https://github.com/chfi/purescript-genetics-browser	Web/JS/Purescript		
-Methplotlib	Static	https://www.biorxiv.org/content/10.1101/826107v1.full.pdf	Static/Python		
-RACER	Static	https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html	Static/R		
-RepViz	Static	https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-019-4473-z	Static/R		
-Samplot	Static	https://github.com/ryanlayer/samplot	Static/Python		
-SashimiPlot	Static	https://miso.readthedocs.io/en/fastmiso/sashimi.html	Static/Python		
-shebam	Static	https://github.com/dlrice/shabam	Static/Python		
-shinyChromosome	Static	http://150.109.59.144:3838/shinyChromosome/	Web/R/Shiny	https://www.sciencedirect.com/science/article/pii/S1672022919301883	
-SNPduo	Static	http://pevsnerlab.kennedykrieger.org/SNPduo/	Web/Static	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006711)	
-SparK	Static	https://github.com/harbourlab/SparK	Static/Python	https://www.biorxiv.org/content/10.1101/845529v1.full.pdf	
-Spliceclust	Static	https://github.com/pkimes/spliceclust	Static/R		
-Sushi	Static	https://www.bioconductor.org/packages/release/bioc/vignettes/Sushi/inst/doc/Sushi.pdf	Static/R		
-pyGenomeTracks	Static	https://github.com/deeptools/pyGenomeTracks	Static/Python		
-svist4get	Static	https://link.springer.com/article/10.1186/s12859-019-2706-8	Static/Python	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2706-8	
-svviz2	Static	https://github.com/nspies/svviz2	Static/Python	https://pubmed.ncbi.nlm.nih.gov/26286809/	
-svviz	Static	https://github.com/svviz/svviz	Static/Python	https://pubmed.ncbi.nlm.nih.gov/26286809/	
-svv	Static	https://github.com/ryanlayer/svv	Static/Python		
-(stupid simple structural variant view)					
-TnT	Static	https://tnt.marlin.pub/articles/introduction	Static/R		
-trackViewer	Static	https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html	Static/R		
-Anvio	Circular	https://peerj.com/articles/1319/	Web/Python/JS		
-BioCircos.js	Circular	http://bioinfo.ibp.ac.cn/biocircos/	Web		
-Circos	Circular	http://circos.ca/	Static/Perl		
-CircosJS	Circular	https://github.com/nicgirault/circosJS	Web		
-Circleator	Circular	http://jonathancrabtree.github.io/Circleator/index.html	Static/Perl		
-circlize	Circular	https://github.com/jokergoo/circlize	Static/R		
-DNAPlotter	Circular	https://www.sanger.ac.uk/science/tools/dnaplotter	Desktop/Java		
+LogoJS	Multiple sequence alignment	https://logojs.wenglab.org/app/gallery/	Web
+MView	Multiple sequence alignment	https://www.ebi.ac.uk/Tools/msa/mview/	Web
+React MSAViewer	Multiple sequence alignment	https://github.com/plotly/react-msa-viewer	Web
+seqotron	Multiple sequence alignment	https://github.com/4ment/seqotron	Desktop
+TeXShade	Multiple sequence alignment	http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf	Desktop
+Wasabi	Multiple sequence alignment	http://wasabiapp.org/	Web
+aCNVViewer	Static	https://github.com/FJD-CEPH/aCNViewer	Static	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334
+BAMScale	Static	https://github.com/ncbi/BAMscale	Static	https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-020-00343-x
+ChIA-Pipe	Static	https://github.com/TheJacksonLaboratory/ChIA-PIPE	Static	https://www.biorxiv.org/content/10.1101/506683v1.full.pdf
+Chimeraviz	Static	https://github.com/stianlagstad/chimeraviz	Static/R
+GSSPlayground	Static	https://github.com/orangeSi/GSSplayground	Web/Perl
+CNView	Static	https://github.com/RCollins13/CNView	Static/R
+CNVpytor	Static	https://github.com/abyzovlab/CNVpytor	Static/Python
+CNVPlot	Static	https://github.com/dantaki/CNVplot/	Static/R
+DNAPlotLib	Static	https://github.com/VoigtLab/dnaplotlib	Static/Python
+ExonIntron (from Wormbase)	Static	http://wormweb.org/exonintron	Static
+FeatureViewer	Static	https://github.com/calipho-sib/feature-viewer	Web
+ggbio	Static	http://tengfei.github.io/ggbio/	Static/R	https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77)
+GGgenes	Static	https://github.com/wilkox/gggenes	Static/R
+GGsashimi	Static	https://github.com/guigolab/ggsashimi	Static/R
+gtrellis	Static	http://bioconductor.org/packages/devel/bioc/vignettes/gtrellis/inst/doc/gtrellis.html	Static/R
+genoPlotR	Static	http://genoplotr.r-forge.r-project.org/	Static/R
+Geneviz	Static	https://jrderuiter.github.io/geneviz/usage.html	Static/R
+Genome STRiP	Static	http://software.broadinstitute.org/software/genomestrip/	Static
+GenomeTools	Static	http://genometools.org/	Static
+GenomeView	Static	https://github.com/nspies/genomeview	Static/Python
+
+
+PIECE2	Static	https://probes.pw.usda.gov/piece/index.php	Static
+Gviz	Static	https://bioconductor.org/packages/release/bioc/html/Gviz.html	Static/R
+Hagfish	Static	https://github.com/mfiers/hagfish/wiki/Plots	Static/Python
+HiCPlotter	Static	https://github.com/kcakdemir/HiCPlotter	Static/Python
+JVarKit	Static	http://lindenb.github.io/jvarkit/BamToSVG.html	Static/Java
+Lollipops	Static	https://github.com/joiningdata/lollipops	Static/Go
+Mason	Static	http://www.yeastrc.org/mason/	Web
+Millefy	Static	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/	Web/Single cell
+Pairoscope	Static	http://pairoscope.sourceforge.net/	Static/C++
+pauvre	Static	https://github.com/conchoecia/pauvre	Static	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6991124/figure/fig-3/
+PureScript genetics browser	Static	https://github.com/chfi/purescript-genetics-browser	Web/JS/Purescript
+Methplotlib	Static	https://www.biorxiv.org/content/10.1101/826107v1.full.pdf	Static/Python
+RACER	Static	https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html	Static/R
+RepViz	Static	https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-019-4473-z	Static/R
+Samplot	Static	https://github.com/ryanlayer/samplot	Static/Python
+SashimiPlot	Static	https://miso.readthedocs.io/en/fastmiso/sashimi.html	Static/Python
+shebam	Static	https://github.com/dlrice/shabam	Static/Python
+shinyChromosome	Static	http://150.109.59.144:3838/shinyChromosome/	Web/R/Shiny	https://www.sciencedirect.com/science/article/pii/S1672022919301883
+SNPduo	Static	http://pevsnerlab.kennedykrieger.org/SNPduo/	Web/Static	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006711)
+SparK	Static	https://github.com/harbourlab/SparK	Static/Python	https://www.biorxiv.org/content/10.1101/845529v1.full.pdf
+Spliceclust	Static	https://github.com/pkimes/spliceclust	Static/R
+Sushi	Static	https://www.bioconductor.org/packages/release/bioc/vignettes/Sushi/inst/doc/Sushi.pdf	Static/R
+pyGenomeTracks	Static	https://github.com/deeptools/pyGenomeTracks	Static/Python
+svist4get	Static	https://link.springer.com/article/10.1186/s12859-019-2706-8	Static/Python	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2706-8
+svviz2	Static	https://github.com/nspies/svviz2	Static/Python	https://pubmed.ncbi.nlm.nih.gov/26286809/
+svviz	Static	https://github.com/svviz/svviz	Static/Python	https://pubmed.ncbi.nlm.nih.gov/26286809/
+svv	Static	https://github.com/ryanlayer/svv	Static/Python
+(stupid simple structural variant view)
+TnT	Static	https://tnt.marlin.pub/articles/introduction	Static/R
+trackViewer	Static	https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html	Static/R
+Anvio	Circular	https://peerj.com/articles/1319/	Web/Python/JS
+BioCircos.js	Circular	http://bioinfo.ibp.ac.cn/biocircos/	Web
+Circos	Circular	http://circos.ca/	Static/Perl
+CircosJS	Circular	https://github.com/nicgirault/circosJS	Web
+Circleator	Circular	http://jonathancrabtree.github.io/Circleator/index.html	Static/Perl
+circlize	Circular	https://github.com/jokergoo/circlize	Static/R
+DNAPlotter	Circular	https://www.sanger.ac.uk/science/tools/dnaplotter	Desktop/Java
 GenomeProjector	Circular	https://github.com/gaou/g-language/wiki	Desktop/Perl	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636772/	Static
-JupiterPlot	Circular	https://github.com/JustinChu/JupiterPlot	Static/Perl		
-mummer2circos	Circular	https://github.com/metagenlab/mummer2circos	Static/Python		
-OGDRAW	Circular	https://chlorobox.mpimp-golm.mpg.de/OGDraw.html	Web/Static	https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)	
-cgplot	Dotplot	https://github.com/dfguan/cgplot	Static/Python		
-D-GENIES	Dotplot	https://github.com/genotoul-bioinfo/dgenies	Static/JS/Python		
-Delly-maze	Dotplot	https://github.com/dellytools/maze	Static/Python		
-Discoplot	Dotplot	https://github.com/mjsull/DiscoPlot	Static/Python		
-Dot	Dotplot	https://github.com/dnanexus/dot	Web		
-Dotplot (iLambda)	Dotplot	https://github.com/iLambda/dotplot	Web		
-Dotplot (chirimoyo)	Dotplot	https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/	Web		
-dotPlotly	Dotplot	https://github.com/tpoorten/dotPlotly/	Web		
-Gepard	Dotplot	http://cube.univie.ac.at/gepard	Desktop		
-Jdot	Dotplot	https://github.com/LyonsLab/jdot	Web		
-last-dotplot	Dotplot	http://last.cbrc.jp/	Static		
-mcutils	Dotplot	https://github.com/mchaisso/mcutils	Static	https://twitter.com/mjpchaisson/status/1040363992206569472	
-Minidot	Dotplot	https://github.com/thackl/minidot	Static/R		
-Mummerplot	Dotplot	http://mummer.sourceforge.net/	Static/GNUplot		
-Redottable	Dotplot	https://github.com/s-andrews/redotable	Desktop/Java		
-syntenyPlotByR	Dotplot	https://github.com/shingocat/syntenyPlotByR/blob/master/out.png	Static		
-chromoMap	Karyotype	https://www.biorxiv.org/content/10.1101/605600v1.full.pdf	Static/R		
-Ideogram	Karyotype	https://github.com/RCollins13/HumanIdiogramLibrary	Static/SVG		
-NCBI Genome Decoration	Karyotype	https://www.ncbi.nlm.nih.gov/genome/tools/gdp/	Web/Form/Database		
-eweitz/Ideogram	Karyotype	https://github.com/eweitz/ideogram	Web/JS		
-KaryotypeSVG	Karyotype	https://github.com/andreasprlic/karyotypeSVG	Web/JS/SVG		
-karyoploteR	Karyotype	https://github.com/bernatgel/karyoploteR	Static/R		
-UCSC Genome Graphs	Karyotype	http://genome.ucsc.edu/cgi-bin/hgGenome	Web/Form/Database		
-Ideoplot	Karyotype	https://github.com/mchaisso/Ideoplot	Static/R		
-ASCIIGenome	CLI	https://github.com/dariober/ASCIIGenome	CLI/Java		
-Alan	CLI	https://github.com/mpdunne/alan	CLI/Bash		
-Alv	CLI	https://github.com/arvestad/alv	CLI/Python		
-Bamcov	CLI	https://github.com/fbreitwieser/bamcov	CLI/C		
-bioSyntax	CLI	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2315-y	CLI		
-BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)	CLI	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/	CLI/C++		
-Hapviz	CLI	https://github.com/ekg/hapviz	CLI/C		
-plotReads	CLI	http://campuspress.yale.edu/knightlab/ruddle/plotreads/	CLI/Static		
-) [includes static graphic and text visualization]					
-pyBamView	CLI	https://mgymrek.github.io/pybamview/	CLI/Python		
-Rna Alignment Viewers	CLI	http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no	CLI/Perl	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109877/	
-Sam2pairwise	CLI	https://github.com/mlafave/sam2pairwise	CLI/C++		
-Samtools tview	CLI	http://www.htslib.org/	CLI/C	([keyboard shortcuts](img/tview.png))	
-VizAln (from HipSTR)	CLI	https://github.com/tfwillems/HipSTR#alignment-visualization	CLI/C		
-Samtools depth visualization	CLI	https://twitter.com/yokofakun/status/1178686978541441025	CLI/GNUplot		
+JupiterPlot	Circular	https://github.com/JustinChu/JupiterPlot	Static/Perl
+mummer2circos	Circular	https://github.com/metagenlab/mummer2circos	Static/Python
+OGDRAW	Circular	https://chlorobox.mpimp-golm.mpg.de/OGDraw.html	Web/Static	https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)
+cgplot	Dotplot	https://github.com/dfguan/cgplot	Static/Python
+D-GENIES	Dotplot	https://github.com/genotoul-bioinfo/dgenies	Static/JS/Python
+Delly-maze	Dotplot	https://github.com/dellytools/maze	Static/Python
+Discoplot	Dotplot	https://github.com/mjsull/DiscoPlot	Static/Python
+Dot	Dotplot	https://github.com/dnanexus/dot	Web
+Dotplot (iLambda)	Dotplot	https://github.com/iLambda/dotplot	Web
+Dotplot (chirimoyo)	Dotplot	https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/	Web
+dotPlotly	Dotplot	https://github.com/tpoorten/dotPlotly/	Web
+Gepard	Dotplot	http://cube.univie.ac.at/gepard	Desktop
+Jdot	Dotplot	https://github.com/LyonsLab/jdot	Web
+last-dotplot	Dotplot	http://last.cbrc.jp/	Static
+mcutils	Dotplot	https://github.com/mchaisso/mcutils	Static	https://twitter.com/mjpchaisson/status/1040363992206569472
+Minidot	Dotplot	https://github.com/thackl/minidot	Static/R
+Mummerplot	Dotplot	http://mummer.sourceforge.net/	Static/GNUplot
+Redottable	Dotplot	https://github.com/s-andrews/redotable	Desktop/Java
+syntenyPlotByR	Dotplot	https://github.com/shingocat/syntenyPlotByR/blob/master/out.png	Static
+chromoMap	Karyotype	https://www.biorxiv.org/content/10.1101/605600v1.full.pdf	Static/R
+Ideogram	Karyotype	https://github.com/RCollins13/HumanIdiogramLibrary	Static/SVG
+NCBI Genome Decoration	Karyotype	https://www.ncbi.nlm.nih.gov/genome/tools/gdp/	Web/Form/Database
+eweitz/Ideogram	Karyotype	https://github.com/eweitz/ideogram	Web/JS
+KaryotypeSVG	Karyotype	https://github.com/andreasprlic/karyotypeSVG	Web/JS/SVG
+karyoploteR	Karyotype	https://github.com/bernatgel/karyoploteR	Static/R
+UCSC Genome Graphs	Karyotype	http://genome.ucsc.edu/cgi-bin/hgGenome	Web/Form/Database
+Ideoplot	Karyotype	https://github.com/mchaisso/Ideoplot	Static/R
+ASCIIGenome	CLI	https://github.com/dariober/ASCIIGenome	CLI/Java
+Alan	CLI	https://github.com/mpdunne/alan	CLI/Bash
+Alv	CLI	https://github.com/arvestad/alv	CLI/Python
+Bamcov	CLI	https://github.com/fbreitwieser/bamcov	CLI/C
+bioSyntax	CLI	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2315-y	CLI
+BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)	CLI	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/	CLI/C++
+Hapviz	CLI	https://github.com/ekg/hapviz	CLI/C
+plotReads	CLI	http://campuspress.yale.edu/knightlab/ruddle/plotreads/	CLI/Static
+) [includes static graphic and text visualization]
+pyBamView	CLI	https://mgymrek.github.io/pybamview/	CLI/Python
+Rna Alignment Viewers	CLI	http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no	CLI/Perl	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109877/
+Sam2pairwise	CLI	https://github.com/mlafave/sam2pairwise	CLI/C++
+Samtools tview	CLI	http://www.htslib.org/	CLI/C	([keyboard shortcuts](img/tview.png))
+VizAln (from HipSTR)	CLI	https://github.com/tfwillems/HipSTR
+Samtools depth visualization	CLI	https://twitter.com/yokofakun/status/1178686978541441025	CLI/GNUplot
 AGB assembly graph browser	Graph genome	https://almiheenko.github.io/AGB/index.html	Web/Python	https://academic.oup.com/bioinformatics/article/35/18/3476/5306331	https://github.com/almiheenko/AGB
-Static					
-Bandage	Graph genome	https://github.com/rrwick/Bandage/	Desktop/C++	https://academic.oup.com/bioinformatics/article/31/20/3350/196114	
-gGnomes.js	Graph genome	https://github.com/mskilab/gGnome.js	Web/JS		
-MoMi-G	Graph genome	https://github.com/MoMI-G/MoMI-G/	Web/JS		
-sequence tube map	Graph genome	https://github.com/vgteam/sequenceTubeMap	Web/JS		
-graphgenomeviewer	Graph genome	https://cmdcolin.github.io/graphgenomeviewer/	Web/JS		
-Pan-Tetris	Pan-genome	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/			
-RPAN	Pan-genome	http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF			
-panX	Pan-genome	http://pangenome.tuebingen.mpg.de/			
-Panache	Pan-genome	https://github.com/SingingMeerkat/Panache			
+Static
+Bandage	Graph genome	https://github.com/rrwick/Bandage/	Desktop/C++	https://academic.oup.com/bioinformatics/article/31/20/3350/196114
+gGnomes.js	Graph genome	https://github.com/mskilab/gGnome.js	Web/JS
+MoMi-G	Graph genome	https://github.com/MoMI-G/MoMI-G/	Web/JS
+sequence tube map	Graph genome	https://github.com/vgteam/sequenceTubeMap	Web/JS
+graphgenomeviewer	Graph genome	https://cmdcolin.github.io/graphgenomeviewer/	Web/JS
+Pan-Tetris	Pan-genome	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/
+RPAN	Pan-genome	http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF
+panX	Pan-genome	http://pangenome.tuebingen.mpg.de/
+Panache	Pan-genome	https://github.com/SingingMeerkat/Panache
+odgi	Graph genome	https://pangenome.github.io/odgi/odgi_docs.html#_odgi_viz1
