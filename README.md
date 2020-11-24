@@ -257,6 +257,7 @@ genome-browser-like implementations
 - [Delly-maze](https://github.com/dellytools/maze)
 - [Discoplot](https://github.com/mjsull/DiscoPlot)
 - [Dot](https://github.com/dnanexus/dot)
+- [Dotlet](https://dotlet.vital-it.ch/)
 - [Dotplot (iLambda)](https://github.com/iLambda/dotplot)
 - [Dotplot (chirimoyo)](https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/)
 - [dotPlotly](https://github.com/tpoorten/dotPlotly/)
