@@ -171,6 +171,7 @@ genome-browser-like implementations
 
 - [AA](http://www.bioinformatics.org/strap/aa) also see Java web applet version [STRAP](http://www.bioinformatics.org/strap/)
 - [abrowse](https://github.com/ihh/abrowse)
+- [alignment.js](https://github.com/veg/alignment.js)
 - [AlignmentViewer](https://alignmentviewer.org/)
 - [AliView](http://www.ormbunkar.se/aliview/)
 - [BioJS/MSA](https://msa.biojs.net/) also see [msa/R](https://github.com/zachcp/msaR)
