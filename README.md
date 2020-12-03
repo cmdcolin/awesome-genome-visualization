@@ -24,7 +24,7 @@ genome-browser-like implementations
 - [IGV.js](https://github.com/igvteam/igv.js/)
 - [JBrowse](http://jbrowse.org/) [can run on desktop via Electron]
 - [JBrowse 2](http://jbrowse.org/jb2) (under development)
-- [Kero-BROWSE](https://github.com/DBKERO/genome_browser)
+- [Kero-BROWSE](https://github.com/DBKERO/genome_browser) ([example](https://kero.hgc.jp/examples/CLCL/hg38/index.html))
 - [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
 - [Nucleome browser](https://vis.nucleome.org/entry/)
 - [Pileup.js](https://github.com/hammerlab/pileup.js/)
