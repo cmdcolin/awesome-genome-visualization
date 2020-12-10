@@ -298,6 +298,7 @@ genome-browser-like implementations
 - [Rna Alignment Viewers](http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no) ref https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109877/
 - [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
 - [Samtools tview](http://www.htslib.org/) ([keyboard shortcuts](img/tview.png))
+- [SvABA](https://github.com/walaj/svaba#alignmentstxtgz) has a particular text visualization of breakpoints
 - [VizAln](https://github.com/tfwillems/HipSTR#alignment-visualization) from HipSTR
 - [Samtools depth visualization](https://twitter.com/yokofakun/status/1178686978541441025)
 
