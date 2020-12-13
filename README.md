@@ -269,6 +269,7 @@ genome-browser-like implementations
 - [mcutils](https://github.com/mchaisso/mcutils) [source](https://twitter.com/mjpchaisson/status/1040363992206569472)
 - [Minidot](https://github.com/thackl/minidot)
 - [Mummer](http://mummer.sourceforge.net/) (contains a GNUplot script, mummerplot, for dotplotting)
+- [mummer-idotplot](https://github.com/ryought/mummer-idotplot)
 - [Redottable](https://github.com/s-andrews/redotable)
 - [syntenyPlotByR](https://github.com/shingocat/syntenyPlotByR/blob/master/out.png)
 
