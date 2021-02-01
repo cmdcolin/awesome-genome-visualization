@@ -147,6 +147,7 @@ genome-browser-like implementations
 - [Edinburgh-Genome-Foundry/DnaFeaturesViewer](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer)
 - [Genomicus](https://www.genomicus.biologie.ens.fr/genomicus/)
 - [genoplotR](http://genoplotr.r-forge.r-project.org/)
+- [genome-plots-processing](https://github.com/filip-husnik/genome-plots-processing)
 - [gggenomes](https://github.com/thackl/gggenomes)
 - [Genome Context Viewer](https://www.legumefederation.org/gcv/phytozome_10_2/) ([blog post](https://www.legumefederation.org/en/blog/2019/06/25/genome-context-viewer-gcv-test-drive/))
 - [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
