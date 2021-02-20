@@ -73,6 +73,7 @@ genome-browser-like implementations
 - [cnvkit](https://cnvkit.readthedocs.io/en/stable/plots.html)
 - [CNVnator](http://www.abyzovlab.org/cnvnatorapplet)
 - [CNVpytor](https://github.com/abyzovlab/CNVpytor)
+- [D3GB](http://d3gb.usal.es/)
 - [DNASkittle](https://www.dnaskittle.com/) also see [FluentDNA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/)
 - [EaSeq](https://easeq.net/screenshots/)
 - [Gambit](http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473)
