@@ -67,6 +67,7 @@ genome-browser-like implementations
 - [ApE](https://jorgensen.biology.utah.edu/wayned/ape/) (a plasmid editor)
 - [Apollo](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/) (old desktop version)
 - [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/)
+- [Chopchop](http://chopchop.cbu.uib.no/results/1611256682447.8318/details/9)
 - [Chromatic](https://chromatic.nci.nih.gov/) (pub https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/)
 - [cnvCurator](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y)
 - [cnvkit](https://cnvkit.readthedocs.io/en/stable/plots.html)
