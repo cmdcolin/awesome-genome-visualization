@@ -101,6 +101,7 @@ genome-browser-like implementations
 - [RNASeqBrowser](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1346-2) UCSC-based
 - [SEQing](https://github.com/malewins/SEQing)
 - [SFARI](https://gene.sfari.org/database/human-gene/)
+- [Short read assembly browser](https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22)
 - [SNPViz](http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html)
 - [SNPitty](https://bitbucket.org/ccbc/snpitty/src/master/) (pub https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext)
 - [Staden](https://sourceforge.net/projects/staden/)
