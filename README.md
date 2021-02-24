@@ -100,6 +100,7 @@ genome-browser-like implementations
 - [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
 - [RNASeqBrowser](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1346-2) UCSC-based
 - [SEQing](https://github.com/malewins/SEQing)
+- [SeqCover](https://brentp.github.io/seqcover/#gene=AIFM1)
 - [SFARI](https://gene.sfari.org/database/human-gene/)
 - [Short read assembly browser](https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22)
 - [SNPViz](http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html)
@@ -107,6 +108,7 @@ genome-browser-like implementations
 - [Staden](https://sourceforge.net/projects/staden/)
 - [SplitThreader](http://splitthreader.com/) also see [GenomeRibbon](http://genomeribbon.com/)
 - [TASUKE](https://ricegenome.dna.affrc.go.jp/) - from RAP-DB
+- [Transposcope](https://academic.oup.com/bioinformatics/article-abstract/36/12/3877/5820971?redirectedFrom=fulltext)
 - [UGENE](http://ugene.net/)
 - [Varsome](<https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions>)
 - [Vials](http://vials.io/info/)
