@@ -202,6 +202,7 @@ genome-browser-like implementations
 
 - [aCNVViewer](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334) ([github](https://github.com/FJD-CEPH/aCNViewer))
 - [BAMScale](https://github.com/ncbi/BAMscale)
+- [BAMSnap](https://github.com/parklab/bamsnap)
 - [ChIA-Pipe](https://www.biorxiv.org/content/10.1101/506683v1.full.pdf)
 - [Chimeraviz](https://github.com/stianlagstad/chimeraviz)
 - [ClustersPloter](https://github.com/orangeSi/ClustersPloter)
