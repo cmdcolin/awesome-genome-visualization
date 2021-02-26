@@ -59,8 +59,10 @@ genome-browser-like implementations
 - [Epilogos](http://compbio.mit.edu/epilogos/)
 - [Epiviz](https://www.biorxiv.org/content/10.1101/865295v1.full.pdf)
 - [HiGlass](https://higlass.io) (has epigenomics focus but quite advanced)
+- [HiPiler](http://hipiler.higlass.io)
 - [HiC browser](http://promoter.bx.psu.edu/hi-c/view.php) - UCSC-based
 - [Juicebox](https://github.com/aidenlab/Juicebox) and [Juicebox.js](http://www.igv.org/doc/juiceboxjs.html)
+- [Peax](https://github.com/Novartis/peax)
 
 ## Special purpose tools
 
