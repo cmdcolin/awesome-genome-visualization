@@ -174,6 +174,7 @@ genome-browser-like implementations
 - [SyMap](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105427/)
 - [Synima](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)
 - [SynVisio](https://synvisio.github.io/#/)
+- [Tripal MapViewer](https://academic.oup.com/database/article/doi/10.1093/database/baz100/5612723)
 - [VISTA browser](http://pipeline.lbl.gov/cgi-bin/gateway2)
 - [XMatchView](https://www.bcgsc.ca/resources/software/xmatchview)
 
