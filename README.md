@@ -158,6 +158,7 @@ genome-browser-like implementations
 - [genome-plots-processing](https://github.com/filip-husnik/genome-plots-processing)
 - [gggenomes](https://github.com/thackl/gggenomes)
 - [Genome Context Viewer](https://www.legumefederation.org/gcv/phytozome_10_2/) ([blog post](https://www.legumefederation.org/en/blog/2019/06/25/genome-context-viewer-gcv-test-drive/))
+- [GDB genome browser](http://www.plantgdb.org/AtGDB/cgi-bin/getRegion.pl?dbid=4&chr=1&l_pos=316000&r_pos=338000)
 - [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
 - [GBrowse_syn](http://gmod.org/wiki/GBrowse_syn)
 - [mauve-viewer](https://github.com/nconrad/mauve-viewer)
