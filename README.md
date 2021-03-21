@@ -332,13 +332,14 @@ genome-browser-like implementations
 - [sequence tube map](https://github.com/vgteam/sequenceTubeMap)
 - [graphgenomeviewer](https://cmdcolin.github.io/graphgenomeviewer/) (note: I made this during bcc2020 hackathon)
 - [odgi](https://github.com/vgteam/odgi) (ref https://pangenome.github.io/odgi/odgi_docs.html#_odgi_viz1)
+- [gfaestus](https://github.com/chfi/gfaestus)
 
 ## Pangenome
 
-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/
-- RPAN http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF
-- panX http://pangenome.tuebingen.mpg.de/
-- Panache https://github.com/SingingMeerkat/Panache
+- [Pan-Tetris](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/)
+- [RPAN](http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF)
+- [panX](http://pangenome.tuebingen.mpg.de/)
+- [Panache](https://github.com/SingingMeerkat/Panache)
 
 ## Mobile
 
