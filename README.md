@@ -110,6 +110,7 @@ genome-browser-like implementations
 - [Staden](https://sourceforge.net/projects/staden/)
 - [SplitThreader](http://splitthreader.com/) also see [GenomeRibbon](http://genomeribbon.com/)
 - [TASUKE](https://ricegenome.dna.affrc.go.jp/) - from RAP-DB
+- [TEnest](https://pubmed.ncbi.nlm.nih.gov/18032588/) for visualizing nested TEs (unknown download link)
 - [Transposcope](https://academic.oup.com/bioinformatics/article-abstract/36/12/3877/5820971?redirectedFrom=fulltext)
 - [UGENE](http://ugene.net/)
 - [Varsome](<https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET#community-contributions>)
