@@ -80,7 +80,7 @@ genome-browser-like implementations
 - [EaSeq](https://easeq.net/screenshots/)
 - [Gambit](http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473)
 - [GenomeRibbon](http://genomeribbon.com/)
-- [GenomeSpy](https://genomespy.app/examples/TCGA/BRCA/) [another demo](https://genomespy.app/examples/GWAS/OCAC-HGSOC/)
+- [GenomeSpy](https://genomespy.app/)
 - [Genoverse](https://github.com/wtsi-web/Genoverse)
 - [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
 - [Gremlin](http://compbio-research.cs.brown.edu/software/Gremlin/GremlinOverview.pdf)
