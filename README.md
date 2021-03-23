@@ -269,6 +269,7 @@ genome-browser-like implementations
 - [JupiterPlot](https://github.com/JustinChu/JupiterPlot)
 - [mummer2circos](https://github.com/metagenlab/mummer2circos)
 - [OGDRAW](https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)
+- [seqviz](https://github.com/Lattice-Automation/seqviz)
 
 ## Dotplot
 
