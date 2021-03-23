@@ -1,0 +1,1553 @@
+[
+  {
+    "category": "General",
+    "data": [
+      {
+        "name": "BasePlayer",
+        "url": "https://baseplayer.fi/",
+        "platform": ["Desktop"],
+        "publication": "https://www.biorxiv.org/content/10.1101/126482v1.full"
+      },
+      {
+        "name": "IGB",
+        "url": "https://bioviz.org/",
+        "platform": ["Desktop"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937187/"
+      },
+      {
+        "name": "IGV",
+        "url": "https://igv.org/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Savant",
+        "url": "http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Tablet",
+        "url": "https://ics.hutton.ac.uk/tablet/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Celera genome browser",
+        "url": "https://www.csee.umbc.edu/~turner/presentations/bvw2002/sld009.htm",
+        "platform": ["Desktop"]
+      }
+    ]
+  },
+  {
+    "category": "Web-based general",
+    "data": [
+      {
+        "name": "Biodalliance",
+        "url": "http://www.biodalliance.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Ensembl genome browser",
+        "url": "https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237",
+        "platform": ["Web", "Silo"]
+      },
+      {
+        "name": "Ensembl genome browser 2020 edition",
+        "url": "http://2020.ensembl.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "GBrowse+GBrowse 2",
+        "url": "http://gmod.org/wiki/GBrowse",
+        "platform": ["Web"]
+      },
+      {
+        "name": "GenomeMaps",
+        "url": "http://www.genomemaps.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "HiGlass",
+        "url": "https://higlass.io",
+        "platform": ["Web"]
+      },
+      {
+        "name": "IGV.js",
+        "url": "https://github.com/igvteam/igv.js/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "JBrowse",
+        "url": "http://jbrowse.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "JBrowse 2",
+        "url": "http://jbrowse.org/jb2",
+        "platform": ["Web"]
+      },
+      {
+        "name": "NCBI Genome Data Viewer",
+        "url": "https://www.ncbi.nlm.nih.gov/genome/gdv/",
+        "platform": ["Web", "Silo"]
+      },
+      {
+        "name": "Pileup.js",
+        "url": "https://github.com/hammerlab/pileup.js/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "UCSC genome browser",
+        "url": "https://genome.ucsc.edu/",
+        "platform": ["Web", "Silo"]
+      },
+      {
+        "name": "Trackster",
+        "url": "https://galaxyproject.org/learn/visualization/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "WashU epigenomics browser",
+        "url": "https://epigenomegateway.wustl.edu/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Valis browser",
+        "url": "https://valis.bio/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Zenbu",
+        "url": "http://fantom.gsc.riken.jp/zenbu/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Nucleome browser",
+        "url": "https://vis.nucleome.org/v1/main.html",
+        "platform": ["Web", "JS"]
+      },
+      {
+        "name": "Kero-BROWSE",
+        "url": "https://kero.hgc.jp/examples/CLCL/hg38/index.html",
+        "platform": ["Web", "JS"]
+      }
+    ]
+  },
+  {
+    "category": "Commercial",
+    "data": [
+      {
+        "name": "10x genomics",
+        "url": "https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Alamut",
+        "url": "https://www.interactive-biosoftware.com/alamut-visual/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Benchling",
+        "url": "https://www.benchling.com/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "ATCC Genome Portal",
+        "url": "https://genomes.atcc.org",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "CLC Genomics workbench",
+        "url": "https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "DNASTAR",
+        "url": "https://www.dnastar.com/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Geneious",
+        "url": "https://www.geneious.com/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Genestack",
+        "url": "https://genestack.com/blog/2015/05/28/navigation-in-genestack-genome-browser/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Golden Helix",
+        "url": "http://goldenhelix.com/GenomeBrowse/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Lucid viewer",
+        "url": "https://lucidalign.com/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "MacVector",
+        "url": "https://macvector.com/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Persephone",
+        "url": "https://persephonesoft.com/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "SnapGene",
+        "url": "https://www.snapgene.com/",
+        "platform": ["Commercial"]
+      },
+      {
+        "name": "Strand NGS",
+        "url": "https://www.strand-ngs.com/",
+        "platform": ["Commercial"]
+      }
+    ]
+  },
+  {
+    "category": "Epigenomics",
+    "data": [
+      {
+        "name": "Chip Monk",
+        "url": "http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/",
+        "platform": ["Desktop", "Java"]
+      },
+      {
+        "name": "Chipster",
+        "url": "https://chipster.csc.fi/",
+        "platform": ["Desktop", "Java"]
+      },
+      {
+        "name": "cisGenome Browser",
+        "url": "http://www-personal.umich.edu/~jianghui/browser/screenshots.html",
+        "platform": ["Desktop", "C"]
+      },
+      {
+        "name": "Epilogos",
+        "url": "https://epilogos.altius.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Epiviz",
+        "url": "https://epiviz.github.io/",
+        "platform": ["Web", "Desktop", "Static R"],
+        "publication": "https://www.biorxiv.org/content/10.1101/865295v1.full.pdf"
+      },
+      {
+        "name": "HiC browser",
+        "url": "http://promoter.bx.psu.edu/hi-c/view.php",
+        "platform": ["Web", "UCSC based", "WashU epigenome browser based"]
+      },
+      {
+        "name": "Juicebox",
+        "url": "https://github.com/aidenlab/Juicebox",
+        "platform": ["Desktop", "Java"]
+      },
+      {
+        "name": "Juicebox.js",
+        "url": "http://www.igv.org/doc/juiceboxjs.html",
+        "platform": ["Web"]
+      },
+      {
+        "name": "HiPiler",
+        "url": "http://hipiler.higlass.io",
+        "platform": [null]
+      },
+      {
+        "name": "Peax",
+        "url": "https://github.com/Novartis/peax",
+        "platform": [null]
+      }
+    ]
+  },
+  {
+    "category": "Special-purpose",
+    "data": [
+      {
+        "name": "ApE (a plasmid editor)",
+        "url": "https://jorgensen.biology.utah.edu/wayned/ape/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Apollo",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/",
+        "platform": ["Desktop"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/"
+      },
+      {
+        "name": "Apollo aka WebApollo",
+        "url": "https://genomearchitect.readthedocs.io/en/latest/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Chromatic",
+        "url": "https://chromatic.nci.nih.gov/",
+        "platform": ["Web"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/"
+      },
+      {
+        "name": "cnvCurator",
+        "url": "http://www.acsu.buffalo.edu/~lm69/cnvCurator (dead link)",
+        "platform": ["Desktop", "Java"],
+        "publication": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y"
+      },
+      {
+        "name": "DNASkittle",
+        "url": "https://www.dnaskittle.com/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "FluentDNA",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "EaSeq",
+        "url": "https://easeq.net/screenshots/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Gambit",
+        "url": "http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "GenomeRibbon",
+        "url": "http://genomeribbon.com/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "GenomeSpy",
+        "url": "https://genomespy.app/",
+        "platform": ["Web", "WebGL"]
+      },
+      {
+        "name": "Genoverse",
+        "url": "https://github.com/wtsi-web/Genoverse",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Gnomad browser",
+        "url": "https://github.com/macarthur-lab/gnomadjs",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Gremlin",
+        "url": "http://compbio.cs.brown.edu/projects/gremlin/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "GTEX Locus browser",
+        "url": "https://gtexportal.org/home/locusBrowserPage/ACTN3",
+        "platform": ["Web"]
+      },
+      {
+        "name": "GWAS catalog browser",
+        "url": "https://www.ebi.ac.uk/gwas/variants/rs1558902",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Hawkeye",
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Human genome dating",
+        "url": "https://human.genome.dating/region/chr1_13250000",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Icarus",
+        "url": "http://quast.sourceforge.net/icarus.html",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Introgression browser",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800",
+        "platform": ["Web", "Python"]
+      },
+      {
+        "name": "InGAP-SV",
+        "url": "http://ingap.sourceforge.net/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "IslandPlot",
+        "url": "https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Locuszoom",
+        "url": "http://locuszoom.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "LookSeq",
+        "url": "https://www.sanger.ac.uk/tool/lookseq/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "MagicViewer",
+        "url": "http://bioinformatics.zj.cn/magicviewer/",
+        "platform": ["Desktop"],
+        "publication": "https://academic.oup.com/nar/article/38/suppl_2/W732/1096410"
+      },
+      {
+        "name": "MalariaGEN",
+        "url": "https://www.malariagen.net/apps/pf-crosses/1.0/",
+        "platform": [null]
+      },
+      {
+        "name": "MapView",
+        "url": "https://sites.google.com/site/wjwdavy/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "NGB",
+        "url": "https://github.com/epam/NGB",
+        "platform": ["Web", "Java"]
+      },
+      {
+        "name": "Panoptes",
+        "url": "https://github.com/cggh/panoptes",
+        "platform": ["Web"]
+      },
+      {
+        "name": "SEQing",
+        "url": "https://github.com/malewins/SEQing",
+        "platform": ["Web", "Python"]
+      },
+      {
+        "name": "SFARI",
+        "url": "https://gene.sfari.org/database/human-gene/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "SNPViz",
+        "url": "http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html",
+        "platform": ["Web"]
+      },
+      {
+        "name": "SNPitty",
+        "url": "https://bitbucket.org/ccbc/snpitty/src/master/",
+        "platform": ["Web", "R"],
+        "publication": "https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext"
+      },
+      {
+        "name": "Staden",
+        "url": "https://sourceforge.net/projects/staden/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "SplitThreader",
+        "url": "http://splitthreader.com/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "TASUKE",
+        "url": "https://ricegenome.dna.affrc.go.jp/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "UGENE",
+        "url": "http://ugene.net/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Varsome",
+        "url": "https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET",
+        "platform": [null]
+      },
+      {
+        "name": "Vials",
+        "url": "http://vials.io/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "wasm bigwig demo browser",
+        "url": "https://shk656461.github.io/index.html",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Chopchop",
+        "url": "http://chopchop.cbu.uib.no/results/1611256682447.8318/details/9",
+        "platform": [null]
+      },
+      {
+        "name": "D3GB",
+        "url": "http://d3gb.usal.es/",
+        "platform": [null]
+      },
+      {
+        "name": "Short read assembly browser",
+        "url": "https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22",
+        "platform": [null]
+      },
+      {
+        "name": "Transposcope",
+        "url": "https://academic.oup.com/bioinformatics/article-abstract/36/12/3877/5820971?redirectedFrom=fulltext",
+        "platform": ["Web", "JS"]
+      },
+      {
+        "name": "SeqCover",
+        "url": "https://brentp.github.io/seqcover/#gene=AIFM1",
+        "platform": [null]
+      },
+      {
+        "name": "Tenest",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18032588",
+        "platform": [null]
+      }
+    ]
+  },
+  {
+    "category": "Protein focused",
+    "data": [
+      {
+        "name": "ProteinPaint",
+        "url": "https://pecan.stjude.cloud/proteinpaint",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Protael",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "pViz",
+        "url": "https://github.com/Genentech/pviz",
+        "platform": ["Web"]
+      }
+    ]
+  },
+  {
+    "category": "Data grid",
+    "data": [
+      {
+        "name": "BrowseVCF",
+        "url": "https://github.com/BSGOxford/BrowseVCF",
+        "platform": ["Desktop"],
+        "publication": "https://pubmed.ncbi.nlm.nih.gov/27373737/"
+      },
+      {
+        "name": "CuteVCF",
+        "url": "https://github.com/labsquare/CuteVCF",
+        "platform": ["Desktop"]
+      }
+    ]
+  },
+  {
+    "category": "Exotic",
+    "data": [
+      {
+        "name": "BigTop",
+        "url": "https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Cylindrical viewer",
+        "url": "https://sourceforge.net/projects/cyl-viewer/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Cylindrical app",
+        "url": "https://sourceforge.net/projects/cylindrical-alignment-app/",
+        "platform": ["Desktop"]
+      }
+    ]
+  },
+  {
+    "category": "Heatmap",
+    "data": [
+      {
+        "name": "UCSC Xena",
+        "url": "https://xena.ucsc.edu/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "VIVA",
+        "url": "https://www.biorxiv.org/content/10.1101/589879v1.full.pdf",
+        "platform": ["Web"]
+      }
+    ]
+  },
+  {
+    "category": "Comparative",
+    "data": [
+      {
+        "name": "Aequatus",
+        "url": "https://github.com/TGAC/Aequatus",
+        "platform": ["Web"]
+      },
+      {
+        "name": "AliTV",
+        "url": "https://alitvteam.github.io/AliTV/d3/AliTV.html",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Artemis comparison tool (ACT)",
+        "url": "https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Biodalliance comparative demo",
+        "url": "http://biodalliance.org/dev/test-comparative.html",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Chromatiblock",
+        "url": "https://github.com/mjsull/chromatiblock",
+        "platform": ["Web", "Python"],
+        "publication": "https://www.biorxiv.org/content/10.1101/800920v2.full.pdf"
+      },
+      {
+        "name": "CMap",
+        "url": "http://gmod.org/wiki/CMap",
+        "platform": ["Web", "Perl"]
+      },
+      {
+        "name": "CoGe",
+        "url": "https://genomevolution.org/coge/",
+        "platform": ["Web", "Perl"]
+      },
+      {
+        "name": "Comparative assembly hub / \"snake track\"",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/",
+        "platform": ["Web", "UCSC based"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/"
+      },
+      {
+        "name": "CVit",
+        "url": "https://sourceforge.net/projects/cvit/",
+        "platform": ["Web", "Perl"]
+      },
+      {
+        "name": "Cvit.js",
+        "url": "https://github.com/LegumeFederation/cvitjs",
+        "platform": ["Web"]
+      },
+      {
+        "name": "CrossBrowse",
+        "url": "https://github.com/shenkers/CrossBrowse",
+        "platform": ["Desktop"],
+        "publication": "https://www.biorxiv.org/content/10.1101/272880v1.full"
+      },
+      {
+        "name": "EasyFig",
+        "url": "https://mjsull.github.io/Easyfig/",
+        "platform": ["Desktop"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3065679/"
+      },
+      {
+        "name": "Edinburgh-Genome-Foundry/DnaFeaturesViewer",
+        "url": "https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer",
+        "platform": ["Desktop", "Python"],
+        "publication": "https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF"
+      },
+      {
+        "name": "Parasight",
+        "url": "https://baileylab.brown.edu/parasight/galframe.html",
+        "platform": ["Desktop", "Perl"]
+      },
+      {
+        "name": "Genomicus",
+        "url": "https://www.genomicus.biologie.ens.fr/genomicus/",
+        "platform": ["Web", "Silo"]
+      },
+      {
+        "name": "genoplotR",
+        "url": "http://genoplotr.r-forge.r-project.org/",
+        "platform": ["Desktop", "R"]
+      },
+      {
+        "name": "gggenomes",
+        "url": "https://github.com/thackl/gggenomes",
+        "platform": ["Desktop", "R"]
+      },
+      {
+        "name": "Genome Context Viewer",
+        "url": "https://www.legumefederation.org/gcv/phytozome_10_2/",
+        "platform": ["Web", "Database"]
+      },
+      {
+        "name": "GIVE",
+        "url": "https://zhong-lab-ucsd.github.io/GIVE_homepage/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "GBrowse_syn",
+        "url": "http://gmod.org/wiki/GBrowse_syn",
+        "platform": ["Web", "Perl"]
+      },
+      {
+        "name": "mauve-viewer",
+        "url": "https://github.com/nconrad/mauve-viewer",
+        "platform": ["Web"]
+      },
+      {
+        "name": "MCScan (python version)",
+        "url": "https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)",
+        "platform": ["Desktop", "Python"]
+      },
+      {
+        "name": "MCScanX",
+        "url": "http://chibba.pgml.uga.edu/mcscan2/",
+        "platform": ["Desktop", "Perl"]
+      },
+      {
+        "name": "MizBee",
+        "url": "http://www.cs.utah.edu/~miriah/mizbee/Overview.html       Desktop",
+        "platform": ["https:", "", "ieeexplore.ieee.org", "document", "5290692)"]
+      },
+      {
+        "name": "Multiple genome viewer",
+        "url": "http://www.informatics.jax.org/mgv/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "mGSV",
+        "url": "https://github.com/kashmatic/mGSV",
+        "platform": ["Web"]
+      },
+      {
+        "name": "OMA local synteny browser",
+        "url": "https://omabrowser.org/oma/synteny/ADH1A_HUMAN/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "pafr",
+        "url": "https://github.com/dwinter/pafr",
+        "platform": ["Desktop", "R"]
+      },
+      {
+        "name": "plotsr",
+        "url": "https://schneebergerlab.github.io/syri/plotsr.html",
+        "platform": ["Desktop", "Python"]
+      },
+      {
+        "name": "progressiveMauve viewer",
+        "url": "http://darlinglab.org/mauve/user-guide/viewer.html",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Synteny browser",
+        "url": "https://github.com/TheJacksonLaboratory/syntenybrowser",
+        "platform": ["Web"]
+      },
+      {
+        "name": "SynTView",
+        "url": "http://hub18.hosting.pasteur.fr/SynTView/documentation/",
+        "platform": ["Desktop", "Web", "Flash"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/"
+      },
+      {
+        "name": "SyMap",
+        "url": "http://www.agcol.arizona.edu/software/symap/",
+        "platform": ["Desktop"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3105427/)"
+      },
+      {
+        "name": "Synima",
+        "url": "https://github.com/rhysf/Synima",
+        "platform": ["Desktop", "Perl"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)"
+      },
+      {
+        "name": "SynVisio",
+        "url": "https://synvisio.github.io/",
+        "platform": [null]
+      },
+      {
+        "name": "VISTA browser",
+        "url": "http://pipeline.lbl.gov/cgi-bin/gateway2",
+        "platform": ["Web", "Database"]
+      },
+      {
+        "name": "XMatchView",
+        "url": "https://www.bcgsc.ca/resources/software/xmatchview",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Genome-plots-processing",
+        "url": "https://github.com/filip-husnik/genome-plots-processing",
+        "platform": ["Processing"]
+      },
+      {
+        "name": "Tripal MapViewer",
+        "url": "https://academic.oup.com/database/article/doi/10.1093/database/baz100/5612723",
+        "platform": [null]
+      }
+    ]
+  },
+  {
+    "category": "Multiple sequence alignment",
+    "data": [
+      {
+        "name": "AA",
+        "url": "http://www.bioinformatics.org/strap/aa",
+        "platform": ["Web"]
+      },
+      {
+        "name": "STRAP",
+        "url": "http://www.bioinformatics.org/strap/",
+        "platform": ["Web", "Applet"]
+      },
+      {
+        "name": "abrowse",
+        "url": "https://github.com/ihh/abrowse",
+        "platform": ["Web"]
+      },
+      {
+        "name": "AlignmentViewer",
+        "url": "https://alignmentviewer.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "AliView",
+        "url": "http://www.ormbunkar.se/aliview/",
+        "platform": ["Desktop", "Java"]
+      },
+      {
+        "name": "BioJS/MSA",
+        "url": "https://msa.biojs.net/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "msaR",
+        "url": "https://github.com/zachcp/msaR",
+        "platform": ["Desktop", "R", "uses BioJS", "MSA"]
+      },
+      {
+        "name": "Boxshade",
+        "url": "https://embnet.vital-it.ch/software/BOX_form.html",
+        "platform": ["Web"]
+      },
+      {
+        "name": "pyBoxshare",
+        "url": "https://github.com/mdbaron42/pyBoxshade",
+        "platform": ["Desktop", "Python"]
+      },
+      {
+        "name": "ESPript",
+        "url": "http://espript.ibcp.fr/ESPript/ESPript/",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Jalview",
+        "url": "https://www.jalview.org/",
+        "platform": ["Desktop", "Java"]
+      },
+      {
+        "name": "JSAV",
+        "url": "http://www.bioinf.org.uk/software/jsav",
+        "platform": ["Web"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4304231/"
+      },
+      {
+        "name": "LogoJS",
+        "url": "https://logojs.wenglab.org/app/gallery/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "MView",
+        "url": "https://www.ebi.ac.uk/Tools/msa/mview/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "React MSAViewer",
+        "url": "https://github.com/plotly/react-msa-viewer",
+        "platform": ["Web"]
+      },
+      {
+        "name": "seqotron",
+        "url": "https://github.com/4ment/seqotron",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "TeXShade",
+        "url": "http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Wasabi",
+        "url": "http://wasabiapp.org/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "alignment.js",
+        "url": "https://github.com/veg/alignment.js",
+        "platform": [null]
+      },
+      {
+        "name": "NCBI Multiple Sequence Alignment Viewer",
+        "url": "https://covid-19.zbmed.de/services/multiple_sequence_alignments/",
+        "platform": ["Web", "JS", "CGI"]
+      },
+      {
+        "name": "AlignmentComparator",
+        "url": "http://bioinfweb.info/AlignmentComparator/",
+        "platform": ["Java"]
+      },
+      {
+        "name": "pymsaplotter",
+        "url": "https://github.com/orangeSi/pymsaploter",
+        "platform": [null]
+      },
+      {
+        "name": "MSABrowser",
+        "url": "https://thekaplanlab.github.io/",
+        "platform": [null]
+      },
+      {
+        "name": "LibrAlign",
+        "url": "http://bioinfweb.info/LibrAlign/",
+        "platform": [null]
+      }
+    ]
+  },
+  {
+    "category": "Static",
+    "data": [
+      {
+        "name": "aCNVViewer",
+        "url": "https://github.com/FJD-CEPH/aCNViewer",
+        "platform": ["Static"],
+        "publication": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334"
+      },
+      {
+        "name": "BAMScale",
+        "url": "https://github.com/ncbi/BAMscale",
+        "platform": ["Static"],
+        "publication": "https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-020-00343-x"
+      },
+      {
+        "name": "ChIA-Pipe",
+        "url": "https://github.com/TheJacksonLaboratory/ChIA-PIPE",
+        "platform": ["Static"],
+        "publication": "https://www.biorxiv.org/content/10.1101/506683v1.full.pdf"
+      },
+      {
+        "name": "Chimeraviz",
+        "url": "https://github.com/stianlagstad/chimeraviz",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "GSSPlayground",
+        "url": "https://github.com/orangeSi/GSSplayground",
+        "platform": ["Web", "Perl"]
+      },
+      {
+        "name": "CNView",
+        "url": "https://github.com/RCollins13/CNView",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "CNVpytor",
+        "url": "https://github.com/abyzovlab/CNVpytor",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "CNVPlot",
+        "url": "https://github.com/dantaki/CNVplot/",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "DNAPlotLib",
+        "url": "https://github.com/VoigtLab/dnaplotlib",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "ExonIntron (from Wormbase)",
+        "url": "http://wormweb.org/exonintron",
+        "platform": ["Static"]
+      },
+      {
+        "name": "FeatureViewer",
+        "url": "https://github.com/calipho-sib/feature-viewer",
+        "platform": ["Web"]
+      },
+      {
+        "name": "ggbio",
+        "url": "http://tengfei.github.io/ggbio/",
+        "platform": ["Static", "R"],
+        "publication": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77)"
+      },
+      {
+        "name": "GGgenes",
+        "url": "https://github.com/wilkox/gggenes",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "GGsashimi",
+        "url": "https://github.com/guigolab/ggsashimi",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "gtrellis",
+        "url": "http://bioconductor.org/packages/devel/bioc/vignettes/gtrellis/inst/doc/gtrellis.html",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "genoPlotR",
+        "url": "http://genoplotr.r-forge.r-project.org/",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "Geneviz",
+        "url": "https://jrderuiter.github.io/geneviz/usage.html",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "Genome STRiP",
+        "url": "http://software.broadinstitute.org/software/genomestrip/",
+        "platform": ["Static"]
+      },
+      {
+        "name": "GenomeTools",
+        "url": "http://genometools.org/",
+        "platform": ["Static"]
+      },
+      {
+        "name": "GenomeView",
+        "url": "https://github.com/nspies/genomeview",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "PIECE2",
+        "url": "https://probes.pw.usda.gov/piece/index.php",
+        "platform": ["Static"]
+      },
+      {
+        "name": "Gviz",
+        "url": "https://bioconductor.org/packages/release/bioc/html/Gviz.html",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "Hagfish",
+        "url": "https://github.com/mfiers/hagfish/wiki/Plots",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "HiCPlotter",
+        "url": "https://github.com/kcakdemir/HiCPlotter",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "JVarKit",
+        "url": "http://lindenb.github.io/jvarkit/BamToSVG.html",
+        "platform": ["Static", "Java"]
+      },
+      {
+        "name": "Lollipops",
+        "url": "https://github.com/joiningdata/lollipops",
+        "platform": ["Static", "Go"]
+      },
+      {
+        "name": "Mason",
+        "url": "http://www.yeastrc.org/mason/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Millefy",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/",
+        "platform": ["Web", "Single cell"]
+      },
+      {
+        "name": "Pairoscope",
+        "url": "http://pairoscope.sourceforge.net/",
+        "platform": ["Static", "C++"]
+      },
+      {
+        "name": "pauvre",
+        "url": "https://github.com/conchoecia/pauvre",
+        "platform": ["Static"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6991124/figure/fig-3/"
+      },
+      {
+        "name": "PureScript genetics browser",
+        "url": "https://github.com/chfi/purescript-genetics-browser",
+        "platform": ["Web", "JS", "Purescript"]
+      },
+      {
+        "name": "Methplotlib",
+        "url": "https://www.biorxiv.org/content/10.1101/826107v1.full.pdf",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "RACER",
+        "url": "https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "RepViz",
+        "url": "https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-019-4473-z",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "Samplot",
+        "url": "https://github.com/ryanlayer/samplot",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "SashimiPlot",
+        "url": "https://miso.readthedocs.io/en/fastmiso/sashimi.html",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "shebam",
+        "url": "https://github.com/dlrice/shabam",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "shinyChromosome",
+        "url": "http://150.109.59.144:3838/shinyChromosome/",
+        "platform": ["Web", "R", "Shiny"],
+        "publication": "https://www.sciencedirect.com/science/article/pii/S1672022919301883"
+      },
+      {
+        "name": "SNPduo",
+        "url": "http://pevsnerlab.kennedykrieger.org/SNPduo/",
+        "platform": ["Web", "Static"],
+        "publication": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006711)"
+      },
+      {
+        "name": "SparK",
+        "url": "https://github.com/harbourlab/SparK",
+        "platform": ["Static", "Python"],
+        "publication": "https://www.biorxiv.org/content/10.1101/845529v1.full.pdf"
+      },
+      {
+        "name": "Spliceclust",
+        "url": "https://github.com/pkimes/spliceclust",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "Sushi",
+        "url": "https://www.bioconductor.org/packages/release/bioc/vignettes/Sushi/inst/doc/Sushi.pdf",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "pyGenomeTracks",
+        "url": "https://github.com/deeptools/pyGenomeTracks",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "svist4get",
+        "url": "https://link.springer.com/article/10.1186/s12859-019-2706-8",
+        "platform": ["Static", "Python"],
+        "publication": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2706-8"
+      },
+      {
+        "name": "svviz2",
+        "url": "https://github.com/nspies/svviz2",
+        "platform": ["Static", "Python"],
+        "publication": "https://pubmed.ncbi.nlm.nih.gov/26286809/"
+      },
+      {
+        "name": "svviz",
+        "url": "https://github.com/svviz/svviz",
+        "platform": ["Static", "Python"],
+        "publication": "https://pubmed.ncbi.nlm.nih.gov/26286809/"
+      },
+      {
+        "name": "svv",
+        "url": "https://github.com/ryanlayer/svv",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "TnT",
+        "url": "https://tnt.marlin.pub/articles/introduction",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "trackViewer",
+        "url": "https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "BAMSnap",
+        "url": "https://github.com/parklab/bamsnap",
+        "platform": [null]
+      }
+    ]
+  },
+  {
+    "category": "Circular",
+    "data": [
+      {
+        "name": "Anvio",
+        "url": "https://peerj.com/articles/1319/",
+        "platform": ["Web", "Python", "JS"]
+      },
+      {
+        "name": "BioCircos.js",
+        "url": "http://bioinfo.ibp.ac.cn/biocircos/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Circos",
+        "url": "http://circos.ca/",
+        "platform": ["Static", "Perl"]
+      },
+      {
+        "name": "CircosJS",
+        "url": "https://github.com/nicgirault/circosJS",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Circleator",
+        "url": "http://jonathancrabtree.github.io/Circleator/index.html",
+        "platform": ["Static", "Perl"]
+      },
+      {
+        "name": "circlize",
+        "url": "https://github.com/jokergoo/circlize",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "DNAPlotter",
+        "url": "https://www.sanger.ac.uk/science/tools/dnaplotter",
+        "platform": ["Desktop", "Java"]
+      },
+      {
+        "name": "GenomeProjector",
+        "url": "https://github.com/gaou/g-language/wiki",
+        "platform": ["Desktop", "Perl"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636772/"
+      },
+      {
+        "name": "JupiterPlot",
+        "url": "https://github.com/JustinChu/JupiterPlot",
+        "platform": ["Static", "Perl"]
+      },
+      {
+        "name": "mummer2circos",
+        "url": "https://github.com/metagenlab/mummer2circos",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "OGDRAW",
+        "url": "https://chlorobox.mpimp-golm.mpg.de/OGDraw.html",
+        "platform": ["Web", "Static"],
+        "publication": "https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)"
+      }
+    ]
+  },
+  {
+    "category": "Dotplot",
+    "data": [
+      {
+        "name": "cgplot",
+        "url": "https://github.com/dfguan/cgplot",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "D-GENIES",
+        "url": "https://github.com/genotoul-bioinfo/dgenies",
+        "platform": ["Static", "JS", "Python"]
+      },
+      {
+        "name": "Delly-maze",
+        "url": "https://github.com/dellytools/maze",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "Discoplot",
+        "url": "https://github.com/mjsull/DiscoPlot",
+        "platform": ["Static", "Python"]
+      },
+      {
+        "name": "Dot",
+        "url": "https://github.com/dnanexus/dot",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Dotplot (iLambda)",
+        "url": "https://github.com/iLambda/dotplot",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Dotplot (chirimoyo)",
+        "url": "https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "dotPlotly",
+        "url": "https://github.com/tpoorten/dotPlotly/",
+        "platform": ["Web"]
+      },
+      {
+        "name": "Gepard",
+        "url": "http://cube.univie.ac.at/gepard",
+        "platform": ["Desktop"]
+      },
+      {
+        "name": "Jdot",
+        "url": "https://github.com/LyonsLab/jdot",
+        "platform": ["Web"]
+      },
+      {
+        "name": "last-dotplot",
+        "url": "http://last.cbrc.jp/",
+        "platform": ["Static"]
+      },
+      {
+        "name": "mcutils",
+        "url": "https://github.com/mchaisso/mcutils",
+        "platform": ["Static"],
+        "publication": "https://twitter.com/mjpchaisson/status/1040363992206569472"
+      },
+      {
+        "name": "Minidot",
+        "url": "https://github.com/thackl/minidot",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "Mummerplot",
+        "url": "http://mummer.sourceforge.net/",
+        "platform": ["Static", "GNUplot"]
+      },
+      {
+        "name": "Redottable",
+        "url": "https://github.com/s-andrews/redotable",
+        "platform": ["Desktop", "Java"]
+      },
+      {
+        "name": "syntenyPlotByR",
+        "url": "https://github.com/shingocat/syntenyPlotByR/blob/master/out.png",
+        "platform": ["Static"]
+      },
+      {
+        "name": "Dotlet",
+        "url": "https://dotlet.vital-it.ch/",
+        "platform": [null]
+      },
+      {
+        "name": "Mummer-idotplot",
+        "url": "https://github.com/ryought/mummer-idotplot",
+        "platform": ["Web", "JS + CLI", "Python"]
+      },
+      {
+        "name": "Dottup",
+        "url": "https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup",
+        "platform": [null]
+      },
+      {
+        "name": "FlexiDot",
+        "url": "https://github.com/molbio-dresden/flexidot",
+        "platform": ["Python"]
+      }
+    ]
+  },
+  {
+    "category": "Karyotype",
+    "data": [
+      {
+        "name": "chromoMap",
+        "url": "https://www.biorxiv.org/content/10.1101/605600v1.full.pdf",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "Ideogram",
+        "url": "https://github.com/RCollins13/HumanIdiogramLibrary",
+        "platform": ["Static", "SVG"]
+      },
+      {
+        "name": "NCBI Genome Decoration",
+        "url": "https://www.ncbi.nlm.nih.gov/genome/tools/gdp/",
+        "platform": ["Web", "Form", "Database"]
+      },
+      {
+        "name": "eweitz/Ideogram",
+        "url": "https://github.com/eweitz/ideogram",
+        "platform": ["Web", "JS"]
+      },
+      {
+        "name": "KaryotypeSVG",
+        "url": "https://github.com/andreasprlic/karyotypeSVG",
+        "platform": ["Web", "JS", "SVG"]
+      },
+      {
+        "name": "karyoploteR",
+        "url": "https://github.com/bernatgel/karyoploteR",
+        "platform": ["Static", "R"]
+      },
+      {
+        "name": "UCSC Genome Graphs",
+        "url": "http://genome.ucsc.edu/cgi-bin/hgGenome",
+        "platform": ["Web", "Form", "Database"]
+      },
+      {
+        "name": "Ideoplot",
+        "url": "https://github.com/mchaisso/Ideoplot",
+        "platform": ["Static", "R"]
+      }
+    ]
+  },
+  {
+    "category": "CLI",
+    "data": [
+      {
+        "name": "ASCIIGenome",
+        "url": "https://github.com/dariober/ASCIIGenome",
+        "platform": ["CLI", "Java"]
+      },
+      {
+        "name": "Alan",
+        "url": "https://github.com/mpdunne/alan",
+        "platform": ["CLI", "Bash"]
+      },
+      {
+        "name": "Alv",
+        "url": "https://github.com/arvestad/alv",
+        "platform": ["CLI", "Python"]
+      },
+      {
+        "name": "Bamcov",
+        "url": "https://github.com/fbreitwieser/bamcov",
+        "platform": ["CLI", "C"]
+      },
+      {
+        "name": "bioSyntax",
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2315-y",
+        "platform": ["CLI"]
+      },
+      {
+        "name": "BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)",
+        "url": "ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/",
+        "platform": ["CLI", "C++"]
+      },
+      {
+        "name": "Hapviz",
+        "url": "https://github.com/ekg/hapviz",
+        "platform": ["CLI", "C"]
+      },
+      {
+        "name": "plotReads",
+        "url": "http://campuspress.yale.edu/knightlab/ruddle/plotreads/",
+        "platform": ["CLI", "Static"]
+      },
+      {
+        "name": "pyBamView",
+        "url": "https://mgymrek.github.io/pybamview/",
+        "platform": ["CLI", "Python"]
+      },
+      {
+        "name": "Rna Alignment Viewers",
+        "url": "http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no",
+        "platform": ["CLI", "Perl"],
+        "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109877/"
+      },
+      {
+        "name": "Sam2pairwise",
+        "url": "https://github.com/mlafave/sam2pairwise",
+        "platform": ["CLI", "C++"]
+      },
+      {
+        "name": "Samtools tview",
+        "url": "http://www.htslib.org/",
+        "platform": ["CLI", "C"],
+        "publication": "([keyboard shortcuts](img/tview.png))"
+      },
+      {
+        "name": "VizAln (from HipSTR)",
+        "url": "https://github.com/tfwillems/HipSTR",
+        "platform": [null]
+      },
+      {
+        "name": "Samtools depth visualization",
+        "url": "https://twitter.com/yokofakun/status/1178686978541441025",
+        "platform": ["CLI", "GNUplot"]
+      },
+      {
+        "name": "SvABA",
+        "url": "https://github.com/walaj/svaba#alignmentstxtgz",
+        "platform": ["CLI", "Bash"]
+      }
+    ]
+  },
+  {
+    "category": "Graph genome",
+    "data": [
+      {
+        "name": "AGB assembly graph browser",
+        "url": "https://almiheenko.github.io/AGB/index.html",
+        "platform": ["Web", "Python"],
+        "publication": "https://academic.oup.com/bioinformatics/article/35/18/3476/5306331"
+      },
+      {
+        "name": "Bandage",
+        "url": "https://github.com/rrwick/Bandage/",
+        "platform": ["Desktop", "C++"],
+        "publication": "https://academic.oup.com/bioinformatics/article/31/20/3350/196114"
+      },
+      {
+        "name": "gGnomes.js",
+        "url": "https://github.com/mskilab/gGnome.js",
+        "platform": ["Web", "JS"]
+      },
+      {
+        "name": "MoMi-G",
+        "url": "https://github.com/MoMI-G/MoMI-G/",
+        "platform": ["Web", "JS"]
+      },
+      {
+        "name": "sequence tube map",
+        "url": "https://github.com/vgteam/sequenceTubeMap",
+        "platform": ["Web", "JS"]
+      },
+      {
+        "name": "graphgenomeviewer",
+        "url": "https://cmdcolin.github.io/graphgenomeviewer/",
+        "platform": ["Web", "JS"]
+      },
+      {
+        "name": "odgi",
+        "url": "https://pangenome.github.io/odgi/odgi_docs.html#_odgi_viz1",
+        "platform": [null]
+      },
+      {
+        "name": "gfaestus",
+        "url": "https://github.com/chfi/gfaestus",
+        "platform": ["Rust"]
+      }
+    ]
+  },
+  {
+    "category": "Pan-genome",
+    "data": [
+      {
+        "name": "Pan-Tetris",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/",
+        "platform": [null]
+      },
+      {
+        "name": "RPAN",
+        "url": "http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF",
+        "platform": [null]
+      },
+      {
+        "name": "panX",
+        "url": "http://pangenome.tuebingen.mpg.de/",
+        "platform": [null]
+      },
+      {
+        "name": "Panache",
+        "url": "https://github.com/SingingMeerkat/Panache",
+        "platform": [null]
+      }
+    ]
+  },
+  {
+    "category": "Mobile",
+    "data": [
+      {
+        "name": "iGenomics",
+        "url": "https://www.biorxiv.org/content/10.1101/2020.02.11.944132v1",
+        "platform": [null]
+      }
+    ]
+  }
+]
