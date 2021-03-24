@@ -116,9 +116,8 @@ GBrowse_syn	Comparative	http://gmod.org/wiki/GBrowse_syn	Web/Perl
 mauve-viewer	Comparative	https://github.com/nconrad/mauve-viewer	Web		
 MCScan (python version)	Comparative	https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)	Desktop/Python		
 MCScanX	Comparative	http://chibba.pgml.uga.edu/mcscan2/	Desktop/Perl		
-MizBee	Comparative	http://www.cs.utah.edu/~miriah/mizbee/Overview.html       Desktop	https://ieeexplore.ieee.org/document/5290692)		
+MizBee	Comparative	http://www.cs.utah.edu/~miriah/mizbee/Overview.html	Desktop	https://ieeexplore.ieee.org/document/5290692)	
 Multiple genome viewer	Comparative	http://www.informatics.jax.org/mgv/	Web		
-) (jax)					
 mGSV	Comparative	https://github.com/kashmatic/mGSV	Web		
 OMA local synteny browser	Comparative	https://omabrowser.org/oma/synteny/ADH1A_HUMAN/	Web		
 pafr	Comparative	https://github.com/dwinter/pafr	Desktop/R		
@@ -169,8 +168,6 @@ Geneviz	Static	https://jrderuiter.github.io/geneviz/usage.html	Static/R
 Genome STRiP	Static	http://software.broadinstitute.org/software/genomestrip/	Static		
 GenomeTools	Static	http://genometools.org/	Static		
 GenomeView	Static	https://github.com/nspies/genomeview	Static/Python		
-					
-					
 PIECE2	Static	https://probes.pw.usda.gov/piece/index.php	Static		
 Gviz	Static	https://bioconductor.org/packages/release/bioc/html/Gviz.html	Static/R		
 Hagfish	Static	https://github.com/mfiers/hagfish/wiki/Plots	Static/Python		
@@ -198,7 +195,6 @@ svist4get	Static	https://link.springer.com/article/10.1186/s12859-019-2706-8	Sta
 svviz2	Static	https://github.com/nspies/svviz2	Static/Python	https://pubmed.ncbi.nlm.nih.gov/26286809/	
 svviz	Static	https://github.com/svviz/svviz	Static/Python	https://pubmed.ncbi.nlm.nih.gov/26286809/	
 svv	Static	https://github.com/ryanlayer/svv	Static/Python		
-(stupid simple structural variant view)					
 TnT	Static	https://tnt.marlin.pub/articles/introduction	Static/R		
 trackViewer	Static	https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html	Static/R		
 Anvio	Circular	https://peerj.com/articles/1319/	Web/Python/JS		
@@ -244,7 +240,6 @@ bioSyntax	CLI	https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s1285
 BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)	CLI	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/	CLI/C++		
 Hapviz	CLI	https://github.com/ekg/hapviz	CLI/C		
 plotReads	CLI	http://campuspress.yale.edu/knightlab/ruddle/plotreads/	CLI/Static		
-) [includes static graphic and text visualization]					
 pyBamView	CLI	https://mgymrek.github.io/pybamview/	CLI/Python		
 Rna Alignment Viewers	CLI	http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no	CLI/Perl	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109877/	
 Sam2pairwise	CLI	https://github.com/mlafave/sam2pairwise	CLI/C++		
@@ -252,7 +247,6 @@ Samtools tview	CLI	http://www.htslib.org/	CLI/C	([keyboard shortcuts](img/tview.
 VizAln (from HipSTR)	CLI	https://github.com/tfwillems/HipSTR			
 Samtools depth visualization	CLI	https://twitter.com/yokofakun/status/1178686978541441025	CLI/GNUplot		
 AGB assembly graph browser	Graph genome	https://almiheenko.github.io/AGB/index.html	Web/Python	https://academic.oup.com/bioinformatics/article/35/18/3476/5306331	https://github.com/almiheenko/AGB
-Static					
 Bandage	Graph genome	https://github.com/rrwick/Bandage/	Desktop/C++	https://academic.oup.com/bioinformatics/article/31/20/3350/196114	
 gGnomes.js	Graph genome	https://github.com/mskilab/gGnome.js	Web/JS		
 MoMi-G	Graph genome	https://github.com/MoMI-G/MoMI-G/	Web/JS		
