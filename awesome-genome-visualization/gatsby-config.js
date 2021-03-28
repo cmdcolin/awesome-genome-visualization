@@ -3,4 +3,5 @@ module.exports = {
     title: "awesome-genome-visualization",
   },
   plugins: [],
+  pathPrefix: "/awesome-genome-visualization",
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { tools } from "./TOOLS.json";
+import slugify from "slugify";
 
 // styles
 const pageStyles = {
@@ -13,13 +14,27 @@ const Cards = () => {
 };
 
 const Card = ({
-  row: { name, url, language, tags, img, categories, platform },
+  row: { name, url, language, tags, img, categories, platform, pub },
 }) => {
   return (
-    <div style={{ display: "flex" }}>
+    <div
+      style={{
+        display: "flex",
+        border: "1px solid black",
+        margin: 10,
+        padding: 10,
+      }}
+    >
       <div>
-        <p>{name}</p>
+        <h3>
+          <a href={"#" + slugify(name)}>{name}</a>
+        </h3>
         <a href={url}>{url}</a>
+        {pub ? (
+          <a href={pub.url}>
+            {pub.url} ({pub.year})
+          </a>
+        ) : null}
         {language ? <p>Language: {language.join(", ")}</p> : null}
         {categories ? <p>categories: {categories.join(", ")}</p> : null}
         {tags ? <p>tags: {tags.join(", ")}</p> : null}
@@ -29,6 +44,7 @@ const Card = ({
       <div>
         {img ? (
           <img
+            alt={`screenshot of ${name}`}
             style={{ maxWidth: 300, maxHeight: 200 }}
             src={"static/" + img}
           />
