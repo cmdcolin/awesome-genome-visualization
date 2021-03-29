@@ -285,6 +285,7 @@ genome-browser-like implementations
 - [Dotplot (chirimoyo)](https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/)
 - [dotPlotly](https://github.com/tpoorten/dotPlotly/)
 - [Dottup](https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup) (also seen here http://eichlerlab.gs.washington.edu/publications/chm1-structural-variation/data/GRCh37/heterochromatic_extensions.pdf)
+- [Dotter](https://www.biorxiv.org/content/10.1101/589879v1.full.pdf)
 - [FlexiDot](https://github.com/molbio-dresden/flexidot)
 - [Gepard](http://cube.univie.ac.at/gepard)
 - [Jdot](https://github.com/LyonsLab/jdot)

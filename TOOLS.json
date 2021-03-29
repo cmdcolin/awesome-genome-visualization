@@ -2179,6 +2179,13 @@
       "img": "viva.png",
       "url": "https://www.biorxiv.org/content/10.1101/589879v1.full.pdf",
       "platform": ["Web"]
+    },
+    {
+      "tags": ["Dotplot"],
+      "name": "Dotter",
+      "img": "dotter.png",
+      "url": "https://sonnhammer.sbc.su.se/Dotter.html",
+      "platform": ["CLI"]
     }
   ]
 }
