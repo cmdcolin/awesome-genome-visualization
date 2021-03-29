@@ -1666,6 +1666,10 @@
     {
       "tags": ["General", "Deadlink?"],
       "name": "GenomeMaps",
+      "github": "https://github.com/opencb/genome-maps",
+      "publication": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23748955/"
+      },
       "url": "http://www.genomemaps.org/",
       "platform": ["Web"]
     },
@@ -2176,6 +2180,9 @@
     {
       "tags": ["Dotplot"],
       "name": "Dotter",
+      "publication": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8566757/"
+      },
       "img": "dotter.png",
       "url": "https://sonnhammer.sbc.su.se/Dotter.html",
       "platform": ["CLI"]
@@ -2186,7 +2193,10 @@
       "url": "https://gitlab.com/gringer/bioinfscripts/",
       "language": ["R", "C++"],
       "platform": ["CLI"],
-      "name": "REPAVER"
+      "name": "REPAVER",
+      "publication": {
+        "url": "https://www.researchgate.net/publication/346507956_REPAVER_Paving_the_Way_for_Repeat_Discovery_in_Complex_Genomes?channel=doi&linkId=5fc58ba4a6fdcce95268fe60&showFulltext=true"
+      }
     }
   ]
 }
