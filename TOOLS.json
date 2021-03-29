@@ -1055,7 +1055,9 @@
       "url": "http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no",
       "platform": ["CLI"],
       "language": ["Perl"],
-      "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109877/"
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7109877/"
+      }
     },
     {
       "category": ["Text based"],
@@ -1084,7 +1086,7 @@
       "name": "SvABA",
       "img": "svaba.png",
       "url": "https://github.com/walaj/svaba#alignmentstxtgz",
-      "platform": ["CLI", "Bash"]
+      "platform": ["CLI"]
     },
     {
       "category": ["Text based"],
@@ -1151,7 +1153,9 @@
       "img": "glanguage.jpg",
       "platform": ["Desktop"],
       "language": ["Perl"],
-      "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636772/"
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636772/"
+      }
     },
     {
       "category": ["Circular"],
@@ -1174,7 +1178,9 @@
       "img": "ogdraw.png",
       "url": "https://chlorobox.mpimp-golm.mpg.de/OGDraw.html",
       "platform": ["Web", "Static"],
-      "publication": "https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)"
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/545509v1.full.pdf"
+      }
     },
     {
       "category": ["Synthetic biology"],
@@ -1213,7 +1219,9 @@
       "img": "chromatic.png",
       "platform": ["Web"],
       "language": ["WASM"],
-      "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/"
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/"
+      }
     },
     {
       "category": ["CNV", "Annotation"],

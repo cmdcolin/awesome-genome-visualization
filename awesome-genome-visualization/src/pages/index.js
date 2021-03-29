@@ -14,7 +14,17 @@ const Cards = () => {
 };
 
 const Card = ({
-  row: { name, url, language, tags, img, categories, platform, pub },
+  row: {
+    name,
+    url,
+    language,
+    tags,
+    img,
+    github,
+    category,
+    platform,
+    publication,
+  },
 }) => {
   return (
     <div
@@ -30,14 +40,19 @@ const Card = ({
           <a href={"#" + slugify(name)}>{name}</a>
         </h3>
         <a href={url}>{url}</a>
-        {pub ? (
-          <a href={pub.url}>
-            {pub.url} ({pub.year})
+        {publication ? (
+          <a href={publication.url}>
+            {publication.url} ({publication.year})
           </a>
         ) : null}
         {language ? <p>Language: {language.join(", ")}</p> : null}
-        {categories ? <p>categories: {categories.join(", ")}</p> : null}
+        {category ? <p>Categories: {category.join(", ")}</p> : null}
         {tags ? <p>tags: {tags.join(", ")}</p> : null}
+        {github ? (
+          <p>
+            Github: <a href={github}>{github}</a>
+          </p>
+        ) : null}
         {platform ? <p>platform: {platform.join(", ")}</p> : null}
       </div>
       <div style={{ flexGrow: 1 }} />
