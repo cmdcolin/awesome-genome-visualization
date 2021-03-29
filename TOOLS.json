@@ -443,21 +443,21 @@
       "language": ["Java"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Protein", "Lollipops"],
       "name": "Lollipops",
       "img": "lollipops.png",
       "url": "https://github.com/joiningdata/lollipops",
       "language": ["Go"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Protein"],
       "name": "Mason",
       "img": "mason.png",
       "url": "http://www.yeastrc.org/mason/",
       "platform": ["Web"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Epigenomics", "Methylation"],
       "name": "Methplotlib",
       "url": "https://www.biorxiv.org/content/10.1101/826107v1.full.pdf",
       "img": "methplotlib.jpg",
@@ -468,20 +468,23 @@
       "name": "Millefy",
       "img": "millefy.png",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/",
-      "platform": ["Web"]
+      "language": ["R"],
+      "platform": ["Package"]
     },
     {
       "name": "Pairoscope",
       "url": "http://pairoscope.sourceforge.net/",
       "language": ["C++"],
       "img": "pairoscope.png",
-      "platform": ["Static"]
+      "tags": ["Static", "SV"]
     },
     {
       "name": "pauvre",
       "url": "https://github.com/conchoecia/pauvre",
-      "platform": ["Static"],
+      "tags": ["Static", "QC", "Comparative"],
       "img": "pauvre.png",
+      "language": ["Python"],
+      "platform": ["CLI"],
       "publication": {
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6991124/figure/fig-3/"
       }
@@ -489,21 +492,23 @@
     {
       "name": "PIECE2",
       "url": "https://probes.pw.usda.gov/piece/index.php",
-      "platform": ["Static"]
+      "tags": ["Static", "Deadlink?", "Gene structure"],
+      "platform": ["Web"]
     },
     {
       "name": "PureScript genetics browser",
       "url": "https://github.com/chfi/purescript-genetics-browser",
       "img": "purescript.png",
       "language": ["Purescript"],
-      "platform": ["Web"]
+      "platform": ["Web"],
+      "tags": ["GWAS"]
     },
     {
       "name": "pyGenomeTracks",
       "url": "https://github.com/deeptools/pyGenomeTracks",
       "language": ["Python"],
       "img": "pygenometracks.png",
-      "tags": ["Static"]
+      "tags": ["Static", "Hi-C"]
     },
     {
       "name": "RACER",
@@ -518,7 +523,7 @@
       "github": "https://github.com/elolab/RepViz",
       "language": ["R"],
       "img": "repviz.png",
-      "tags": ["Static"]
+      "tags": ["Static", "Quantitative"]
     },
     {
       "name": "Samplot",
@@ -566,7 +571,7 @@
       "url": "https://github.com/harbourlab/SparK",
       "language": ["Python"],
       "img": "spark.png",
-      "tags": ["Static"],
+      "tags": ["Static", "Hi-C", "Quantative"],
       "publication": {
         "url": "https://www.biorxiv.org/content/10.1101/845529v1.full.pdf"
       }
@@ -576,7 +581,7 @@
       "url": "https://github.com/pkimes/spliceclust",
       "img": "spliceclust.png",
       "language": ["R"],
-      "tags": ["Static"]
+      "tags": ["Static", "Splicing"]
     },
     {
       "name": "Sushi",
@@ -621,7 +626,7 @@
     {
       "name": "TnT",
       "url": "https://tnt.marlin.pub/articles/introduction",
-      "language": ["R"],
+      "language": ["R", "JS"],
       "img": "tnt.png",
       "platform": ["Web", "Interactive"]
     },
@@ -1125,12 +1130,11 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Circular"],
+      "tags": ["Circular", "Static"],
       "name": "Circleator",
       "img": "circleator.png",
       "url": "http://jonathancrabtree.github.io/Circleator/index.html",
-      "language": ["Perl"],
-      "platform": ["Static"]
+      "language": ["Perl"]
     },
     {
       "tags": ["Circular"],
@@ -1141,11 +1145,10 @@
       "tags": ["Static"]
     },
     {
-      "tags": ["Circular"],
+      "tags": ["Circular", "Static"],
       "name": "Circos",
       "url": "http://circos.ca/",
-      "language": ["Perl"],
-      "platform": ["Static"]
+      "language": ["Perl"]
     },
     {
       "tags": ["Circular"],
@@ -1174,11 +1177,11 @@
       }
     },
     {
-      "tags": ["Circular"],
+      "tags": ["Circular", "Static"],
       "name": "JupiterPlot",
       "img": "jupiterplot.png",
       "url": "https://github.com/JustinChu/JupiterPlot",
-      "platform": ["Static", "Perl"]
+      "language": ["Perl"]
     },
     {
       "tags": ["Circular"],
@@ -1189,11 +1192,11 @@
       "tags": ["Static"]
     },
     {
-      "tags": ["Circular"],
+      "tags": ["Circular", "Static"],
       "name": "OGDRAW",
       "img": "ogdraw.png",
       "url": "https://chlorobox.mpimp-golm.mpg.de/OGDraw.html",
-      "platform": ["Web", "Static"],
+      "platform": ["Web"],
       "publication": {
         "url": "https://www.biorxiv.org/content/10.1101/545509v1.full.pdf"
       }
@@ -1262,7 +1265,7 @@
       "name": "D3GB",
       "img": "d3gb.png",
       "url": "http://d3gb.usal.es/",
-      "language": ["JS"],
+      "language": ["JS", "D3"],
       "platform": ["Web"]
     },
     {
@@ -1882,11 +1885,10 @@
       "platform": ["CLI", "Web-server"]
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Static"],
       "name": "mcutils",
       "img": "mcutils_dotplot.jpeg",
       "url": "https://github.com/mchaisso/mcutils",
-      "platform": ["Static"],
       "note": "https://twitter.com/mjpchaisson/status/1040363992206569472"
     },
     {
@@ -1904,12 +1906,11 @@
       "platform": ["Web", "CLI"]
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Static"],
       "name": "Mummerplot",
       "img": "mummerplot.png",
       "url": "http://mummer.sourceforge.net/",
-      "language": ["GNUPlot"],
-      "platform": ["Static"]
+      "language": ["GNUPlot"]
     },
     {
       "tags": ["Dotplot"],
@@ -1927,11 +1928,10 @@
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Static"],
       "name": "syntenyPlotByR",
       "img": "synteny_plot_by_r.png",
       "url": "https://github.com/shingocat/syntenyPlotByR",
-      "platform": ["Static"],
       "language": ["R"]
     },
     {
@@ -2035,11 +2035,11 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Karyotype"],
+      "tags": ["Karyotype", "Static"],
       "name": "Ideogram",
       "img": "rcollins_ideogram.png",
       "url": "https://github.com/RCollins13/HumanIdiogramLibrary",
-      "platform": ["Static", "SVG"]
+      "language": ["SVG"]
     },
     {
       "tags": ["Karyotype", "Static"],
@@ -2059,8 +2059,8 @@
       "name": "KaryotypeSVG",
       "url": "https://github.com/andreasprlic/karyotypeSVG",
       "img": "karyotypesvg.png",
-      "language": ["JS"],
-      "platform": ["Web", "SVG"]
+      "language": ["JS", "SVG"],
+      "platform": ["Web"]
     },
     {
       "tags": ["Karyotype"],
