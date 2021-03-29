@@ -2,12 +2,6 @@ import React, { useState } from "react";
 import { tools } from "./TOOLS.json";
 import "./App.css";
 
-const pageStyles = {
-  backgroundColor: "#ccc",
-  padding: 30,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
-
 const Cards = ({ tools }) => {
   return tools.map((row) => <Card row={row} key={row.name} />);
 };
@@ -28,16 +22,7 @@ const Card = ({
 }) => {
   const [expanded, setExpanded] = useState(false);
   return (
-    <div
-      className="card"
-      style={{
-        display: "flex",
-        border: "1px solid black",
-        backgroundColor: "white",
-        margin: 10,
-        padding: 10,
-      }}
-    >
+    <div className="card">
       <div>
         <h3>{name}</h3>
         <a href={url}>{url}</a>
@@ -76,9 +61,8 @@ const Card = ({
               expanded
                 ? { maxWidth: 1000, maxHeight: 800, cursor: "pointer" }
                 : {
-                    width: "90%",
-                    maxWidth: 400,
-                    maxHeight: 200,
+                    maxWidth: "90%",
+                    maxHeight: 250,
                     cursor: "pointer",
                   }
             }
@@ -100,7 +84,7 @@ const TagFilters = ({ setFilters, filters }) => {
     }
   });
   return (
-    <>
+    <div style={{ display: "block" }}>
       <label htmlFor="tag-select">Tag: </label>
       <select
         id="tag-select"
@@ -116,7 +100,7 @@ const TagFilters = ({ setFilters, filters }) => {
           </option>
         ))}
       </select>
-    </>
+    </div>
   );
 };
 
@@ -128,7 +112,7 @@ const LanguageFilters = ({ setFilters, filters }) => {
     }
   });
   return (
-    <>
+    <div style={{ display: "block" }}>
       <label htmlFor="language-select">Language: </label>
       <select
         value={filters.language}
@@ -144,7 +128,7 @@ const LanguageFilters = ({ setFilters, filters }) => {
           </option>
         ))}
       </select>
-    </>
+    </div>
   );
 };
 
@@ -156,7 +140,7 @@ const PlatformFilters = ({ setFilters, filters }) => {
     }
   });
   return (
-    <>
+    <div style={{ display: "block" }}>
       <label htmlFor="platform-select">Platform: </label>
       <select
         value={filters.platform}
@@ -172,7 +156,7 @@ const PlatformFilters = ({ setFilters, filters }) => {
           </option>
         ))}
       </select>
-    </>
+    </div>
   );
 };
 const IndexPage = () => {
@@ -185,11 +169,11 @@ const IndexPage = () => {
     .filter((tool) => (platform ? tool.platform?.includes(platform) : true));
 
   return (
-    <main style={pageStyles}>
+    <main className="page">
       <title>awesome-genome-visualization</title>
-      <h1>awesome-genome-visualization</h1>
+      <h1 style={{ margin: 0 }}>awesome-genome-visualization</h1>
       <p>
-        This is a companion website for the github repo
+        This is a companion website for the github repo{" "}
         <a href="https://github.com/cmdcolin/awesome-genome-visualization">
           https://github.com/cmdcolin/awesome-genome-visualization
         </a>
