@@ -19,7 +19,7 @@
       "url": "https://docs.onecodex.com/en/articles/3996697-using-the-genome-browser"
     },
     {
-      "tags": ["Commercial", "CRISPR"],
+      "tags": ["Commercial", "Synthetic biology"],
       "name": "Benchling",
       "img": "benchling.png",
       "url": "https://www.benchling.com/"
@@ -85,49 +85,49 @@
       "url": "https://www.strand-ngs.com/"
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "AA",
       "img": "aa.png",
       "url": "http://www.bioinformatics.org/strap/aa",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "abrowse",
       "img": "abrowse.png",
       "url": "https://github.com/ihh/abrowse",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "alignment.js",
       "img": "alignmentjs.png",
       "url": "https://github.com/veg/alignment.js",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "AlignmentComparator",
       "img": "alignmentcomparator.png",
       "url": "http://bioinfweb.info/AlignmentComparator/",
       "platform": ["Java"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "AlignmentViewer",
       "img": "alignmentviewer.png",
       "url": "https://alignmentviewer.org/",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "AliView",
       "img": "aliview.png",
       "url": "http://www.ormbunkar.se/aliview/",
       "platform": ["Desktop", "Java"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "BioJS/MSA",
       "url": "https://msa.biojs.net/",
       "img": "biojsmsa.png",
@@ -137,21 +137,21 @@
       }
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "Boxshade",
       "img": "boxshade.png",
       "url": "https://embnet.vital-it.ch/software/BOX_form.html",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "ESPript",
       "img": "espript.png",
       "url": "http://espript.ibcp.fr/ESPript/ESPript/",
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "Jalview",
       "img": "jalview.png",
       "url": "https://www.jalview.org/",
@@ -159,7 +159,7 @@
       "language": ["Java"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "JSAV",
       "img": "jsav.png",
       "url": "http://www.bioinf.org.uk/software/jsav",
@@ -169,91 +169,91 @@
       }
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "img": "libralign.png",
       "name": "LibrAlign",
       "url": "http://bioinfweb.info/LibrAlign/",
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "LogoJS",
       "img": "logojs.png",
       "url": "https://logojs.wenglab.org/app/gallery/",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "MSABrowser",
       "img": "msabrowser.png",
       "url": "https://thekaplanlab.github.io/",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "msaR",
       "url": "https://github.com/zachcp/msaR",
       "img": "msar.png",
       "platform": ["Desktop", "R/htmlwidget"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "MView",
       "url": "https://www.ebi.ac.uk/Tools/msa/mview/",
       "img": "mview.png",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
-      "name": "NCBI Multiple Sequence Alignment Viewer",
+      "tags": ["MSA"],
+      "name": "NCBI MSA Viewer",
       "url": "https://www.ncbi.nlm.nih.gov/projects/msaviewer/",
       "img": "ncbimsa.png",
       "platform": ["Web", "JS", "CGI"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "pyBoxshade",
       "url": "https://github.com/mdbaron42/pyBoxshade",
       "language": ["Python"],
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "pymsaplotter",
       "language": ["Python"],
       "img": "pymsaplotter.png",
       "url": "https://github.com/orangeSi/pymsaploter"
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "React MSAViewer",
       "img": "react-msa-viewer.png",
       "url": "https://github.com/plotly/react-msa-viewer",
       "platform": ["Web"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "seqotron",
       "img": "seqotron.png",
       "url": "https://github.com/4ment/seqotron",
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "STRAP",
       "img": "strap.png",
       "url": "http://www.bioinformatics.org/strap/",
       "platform": ["Web", "Applet"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "TeXShade",
       "img": "texshade.png",
       "url": "http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf",
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Multiple sequence alignment"],
+      "tags": ["MSA"],
       "name": "Wasabi",
       "img": "wasabi.png",
       "url": "http://wasabiapp.org/",
@@ -1067,6 +1067,7 @@
     {
       "category": ["Text based"],
       "name": "Samtools depth visualization",
+      "img": "depthplot.png",
       "url": "https://twitter.com/yokofakun/status/1178686978541441025",
       "platform": ["CLI", "GNUplot"]
     },
@@ -1076,28 +1077,32 @@
       "url": "http://www.htslib.org/",
       "language": ["C"],
       "platform": ["CLI"],
-      "publication": "([keyboard shortcuts](img/tview.png))"
+      "img": "tview.png"
     },
     {
       "category": ["Text based"],
       "name": "SvABA",
+      "img": "svaba.png",
       "url": "https://github.com/walaj/svaba#alignmentstxtgz",
       "platform": ["CLI", "Bash"]
     },
     {
       "category": ["Text based"],
       "name": "VizAln (from HipSTR)",
+      "img": "hipstr.png",
       "url": "https://github.com/tfwillems/HipSTR"
     },
     {
       "category": ["Circular"],
       "name": "Anvio",
+      "img": "anvio.png",
       "url": "https://peerj.com/articles/1319/",
       "platform": ["Web", "Python", "JS"]
     },
     {
       "category": ["Circular"],
       "name": "BioCircos.js",
+      "img": "biocircos.png",
       "language": ["JS"],
       "url": "http://bioinfo.ibp.ac.cn/biocircos/",
       "platform": ["Web"]
@@ -1105,6 +1110,7 @@
     {
       "category": ["Circular"],
       "name": "Circleator",
+      "img": "circleator.png",
       "url": "http://jonathancrabtree.github.io/Circleator/index.html",
       "language": ["Perl"],
       "platform": ["Static"]
@@ -1127,31 +1133,37 @@
       "category": ["Circular"],
       "name": "CircosJS",
       "language": ["JS"],
+      "img": "circosjs.jpg",
       "url": "https://github.com/nicgirault/circosJS",
       "platform": ["Web"]
     },
     {
       "category": ["Circular"],
       "name": "DNAPlotter",
+      "img": "dnaplotter.jpg",
       "url": "https://www.sanger.ac.uk/science/tools/dnaplotter",
       "platform": ["Desktop", "Java"]
     },
     {
-      "category": ["Circular"],
+      "category": ["Circular", "Linear"],
       "name": "GenomeProjector",
       "url": "https://github.com/gaou/g-language/wiki",
-      "platform": ["Desktop", "Perl"],
+      "img": "glanguage.jpg",
+      "platform": ["Desktop"],
+      "language": ["Perl"],
       "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2636772/"
     },
     {
       "category": ["Circular"],
       "name": "JupiterPlot",
+      "img": "jupiterplot.png",
       "url": "https://github.com/JustinChu/JupiterPlot",
       "platform": ["Static", "Perl"]
     },
     {
       "category": ["Circular"],
       "name": "mummer2circos",
+      "img": "mummer2circos.png",
       "url": "https://github.com/metagenlab/mummer2circos",
       "language": ["Python"],
       "tags": ["Static"]
@@ -1159,12 +1171,14 @@
     {
       "category": ["Circular"],
       "name": "OGDRAW",
+      "img": "ogdraw.png",
       "url": "https://chlorobox.mpimp-golm.mpg.de/OGDraw.html",
       "platform": ["Web", "Static"],
       "publication": "https://www.biorxiv.org/content/10.1101/545509v1.full.pdf)"
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Synthetic biology"],
+      "img": "aplasmideditor.png",
       "name": "ApE (a plasmid editor)",
       "url": "https://jorgensen.biology.utah.edu/wayned/ape/",
       "platform": ["Desktop"]
@@ -1172,282 +1186,361 @@
     {
       "category": ["Special-purpose"],
       "name": "Apollo",
+      "img": "apollo.jpg",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/",
       "platform": ["Desktop"],
-      "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/"
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/"
+      }
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Gene structure", "Annotation"],
+      "img": "webapollo.jpg",
       "name": "Apollo aka WebApollo",
       "url": "https://genomearchitect.readthedocs.io/en/latest/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Synthetic biology"],
       "name": "Chopchop",
-      "url": "http://chopchop.cbu.uib.no/results/1611256682447.8318/details/9",
-      "platform": [null]
+      "img": "chopchop.png",
+      "url": "http://chopchop.cbu.uib.no/results/1611256682447.8318/details/9"
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Alignments viewer"],
       "name": "Chromatic",
       "url": "https://chromatic.nci.nih.gov/",
+      "img": "chromatic.png",
       "platform": ["Web"],
+      "language": ["WASM"],
       "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987889/"
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["CNV", "Annotation"],
       "name": "cnvCurator",
-      "url": "http://www.acsu.buffalo.edu/~lm69/cnvCurator (dead link)",
-      "platform": ["Desktop", "Java"],
-      "publication": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y"
+      "url": "http://www.acsu.buffalo.edu/~lm69/cnvCurator",
+      "platform": ["Desktop"],
+      "img": "cnvcurator.png",
+      "tags": ["CNV", "Deadlink"],
+      "language": ["Java"],
+      "publication": {
+        "url": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y"
+      }
     },
     {
       "category": ["Special-purpose"],
       "name": "D3GB",
+      "img": "d3gb.png",
       "url": "http://d3gb.usal.es/",
-      "platform": [null]
+      "language": ["JS"],
+      "platform": ["Web"]
     },
     {
       "category": ["Special-purpose"],
+      "img": "dnaskittle.png",
       "name": "DNASkittle",
       "url": "https://www.dnaskittle.com/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Epigenomics"],
       "name": "EaSeq",
+      "img": "easeq.png",
       "url": "https://easeq.net/screenshots/",
-      "platform": ["Desktop"]
+      "platform": ["Desktop"],
+      "publication": { "url": "https://www.nature.com/articles/nsmb.3180" }
     },
     {
       "category": ["Special-purpose"],
       "name": "FluentDNA",
+      "img": "fluentdna.jpeg",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Alignments viewer", "Linear"],
       "name": "Gambit",
+      "img": "gambit.png",
       "url": "http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473",
       "platform": ["Desktop"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["SV", "Alignments viewer"],
       "name": "GenomeRibbon",
       "url": "http://genomeribbon.com/",
+      "img": "genomeribbon.png",
+      "platform": ["Web"],
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa680/5885081?redirectedFrom=fulltext"
+      }
+    },
+    {
+      "category": ["CNV", "GWAS", "Linear"],
+      "name": "GenomeSpy",
+      "img": "genomespy.png",
+      "url": "https://genomespy.app/",
+      "language": ["JS", "WebGL"],
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
-      "name": "GenomeSpy",
-      "url": "https://genomespy.app/",
-      "platform": ["Web", "WebGL"]
-    },
-    {
-      "category": ["Special-purpose"],
+      "category": ["Linear"],
       "name": "Genoverse",
       "url": "https://github.com/wtsi-web/Genoverse",
+      "img": "genoverse.png",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Linear", "Population"],
       "name": "Gnomad browser",
       "url": "https://github.com/macarthur-lab/gnomadjs",
+      "img": "gnomad.png",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["SV", "Linear"],
       "name": "Gremlin",
+      "img": "gremlin.png",
       "url": "http://compbio.cs.brown.edu/projects/gremlin/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Expression", "Linear", "LD"],
+      "img": "gtex_locus.png",
       "name": "GTEX Locus browser",
       "url": "https://gtexportal.org/home/locusBrowserPage/ACTN3",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Population", "LD", "GWAS"],
       "name": "GWAS catalog browser",
+      "img": "gwascatalog.png",
       "url": "https://www.ebi.ac.uk/gwas/variants/rs1558902",
       "platform": ["Web"]
     },
     {
       "category": ["Special-purpose"],
       "name": "Hawkeye",
-      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34",
+      "img": "hawkeye.png",
+      "publication": {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34",
+        "year": 2007
+      },
       "platform": ["Desktop"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Population", "GWAS"],
       "name": "Human genome dating",
       "url": "https://human.genome.dating/region/chr1_13250000",
       "platform": ["Web"],
       "img": "human_genome_dating.png"
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Assembly", "QC"],
       "name": "Icarus",
+      "img": "icarus.png",
       "url": "http://quast.sourceforge.net/icarus.html",
       "platform": ["Web"]
     },
     {
+      "tags": ["SV", "Alignments viewer"],
       "name": "InGAP-SV",
+      "img": "ingap_sv.png",
       "url": "http://ingap.sourceforge.net/",
       "platform": ["Desktop"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["SV", "Introgression"],
       "name": "Introgression browser",
+      "img": "introgression_browser.png",
       "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800",
-      "platform": ["Web", "Python"]
+      "publication": {
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800"
+      },
+      "language": ["Python"],
+      "platform": ["Web"]
     },
     {
       "category": ["Special-purpose"],
       "name": "IslandPlot",
       "url": "https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565",
+      "img": "islandplot.png",
+      "language": ["JS"],
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["GWAS", "Population"],
       "name": "Locuszoom",
+      "img": "locuszoom.png",
       "url": "http://locuszoom.org/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Alignments viewer"],
       "name": "LookSeq",
+      "img": "lookseq.png",
       "url": "https://www.sanger.ac.uk/tool/lookseq/",
       "platform": ["Web"]
     },
     {
       "category": ["Special-purpose"],
+      "tags": ["Deadlink"],
       "name": "MagicViewer",
+      "img": "magicviewer.jpeg",
       "url": "http://bioinformatics.zj.cn/magicviewer/",
       "platform": ["Desktop"],
-      "publication": "https://academic.oup.com/nar/article/38/suppl_2/W732/1096410"
+      "publication": {
+        "url": "https://academic.oup.com/nar/article/38/suppl_2/W732/1096410"
+      }
     },
     {
-      "category": ["Special-purpose"],
-      "name": "MalariaGEN",
-      "url": "https://www.malariagen.net/apps/pf-crosses/1.0/"
+      "category": ["Special-purpose", "Population"],
+      "name": "Panoptes",
+      "img": "panoptes.png",
+      "github": "https://github.com/cggh/panoptes",
+      "url": "https://www.malariagen.net/apps/ag1000g/phase1-AR3/index.html"
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Alignments viewer"],
       "name": "MapView",
+      "img": "mapview.jpg",
       "url": "https://sites.google.com/site/wjwdavy/",
-      "platform": ["Desktop"]
+      "platform": ["Desktop"],
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article/25/12/1554/193807"
+      }
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Alignments viewer"],
       "name": "NGB",
+      "img": "ngb.png",
       "url": "https://github.com/epam/NGB",
       "platform": ["Web", "Java"]
     },
     {
-      "category": ["Special-purpose"],
-      "name": "Panoptes",
-      "url": "https://github.com/cggh/panoptes",
-      "platform": ["Web"]
-    },
-    {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Coverage"],
       "name": "SeqCover",
+      "img": "seqcover.png",
+      "platform": ["Web"],
       "url": "https://brentp.github.io/seqcover/#gene=AIFM1"
     },
     {
       "category": ["Special-purpose"],
       "name": "SEQing",
+      "img": "seqing.png",
       "url": "https://github.com/malewins/SEQing",
-      "platform": ["Web", "Python"]
+      "language": ["Python"],
+      "platform": ["Web"]
     },
     {
       "category": ["Special-purpose"],
       "name": "SFARI",
       "url": "https://gene.sfari.org/database/human-gene/",
-      "platform": ["Web"]
+      "img": "sfari.jpg",
+      "platform": ["Web", "Silo"]
     },
     {
       "category": ["Special-purpose"],
       "name": "Short read assembly browser",
+      "img": "short_read_assembly_browser.png",
       "url": "https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22"
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "CNV"],
       "name": "SNPitty",
       "url": "https://bitbucket.org/ccbc/snpitty/src/master/",
-      "platform": ["Web", "R"],
-      "publication": "https://jmd.amjpathol.org/article/S1525-1578(17)30166-6/fulltext"
+      "language": ["R"],
+      "img": "snpitty.jpg",
+      "platform": ["Web"],
+      "publication": {
+        "url": "https://www.jmdjournal.org/article/S1525-1578(17)30166-6/fulltext"
+      }
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["MSA"],
       "name": "SNPViz",
       "url": "http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html",
+      "img": "snpviz.png",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["SV"],
       "name": "SplitThreader",
+      "img": "splitthreader.png",
       "url": "http://splitthreader.com/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Alignment viewer"],
       "name": "Staden",
+      "img": "staden.png",
       "url": "https://sourceforge.net/projects/staden/",
       "platform": ["Desktop"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Pangenome"],
       "name": "TASUKE",
+      "img": "tasuke.png",
       "url": "https://ricegenome.dna.affrc.go.jp/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
-      "name": "Tenest",
+      "category": ["Special-purpose", "Transposons"],
+      "name": "TE-nest",
+      "img": "tenest.jpg",
+      "tags": ["Deadlink"],
       "url": "https://pubmed.ncbi.nlm.nih.gov/18032588"
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Transposons"],
       "name": "Transposcope",
+      "img": "transposcope.png",
       "url": "https://academic.oup.com/bioinformatics/article-abstract/36/12/3877/5820971?redirectedFrom=fulltext",
-      "platform": ["Web", "JS"]
+      "language": ["JS"],
+      "platform": ["Web"]
     },
     {
       "category": ["Special-purpose"],
       "name": "UGENE",
+      "img": "ugene.png",
       "url": "http://ugene.net/",
       "platform": ["Desktop"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Annotation"],
       "name": "Varsome",
-      "url": "https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET"
+      "img": "varsome.png",
+      "url": "https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET",
+      "platform": ["Web", "Silo"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Splicing"],
       "name": "Vials",
       "url": "http://vials.io/",
       "platform": ["Web"]
     },
     {
-      "category": ["Special-purpose"],
+      "category": ["Special-purpose", "Quantitative"],
       "name": "wasm bigwig demo browser",
+      "img": "wasm_bigwig.png",
       "url": "https://shk656461.github.io/index.html",
+      "language": ["WASM"],
       "platform": ["Web"]
     },
     {
       "category": ["General"],
       "name": "BasePlayer",
       "url": "https://baseplayer.fi/",
+      "img": "baseplayer.png",
       "platform": ["Desktop"],
-      "publication": "https://www.biorxiv.org/content/10.1101/126482v1.full"
+      "language": ["Java"],
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/126482v1.full"
+      }
     },
     {
       "category": ["General"],
+      "tags": ["Historical"],
+      "img": "celera.jpeg",
       "name": "Celera genome browser",
       "url": "https://www.csee.umbc.edu/~turner/presentations/bvw2002/sld009.htm",
       "platform": ["Desktop"]
@@ -1455,25 +1548,36 @@
     {
       "category": ["General"],
       "name": "IGB",
+      "img": "igb.jpg",
       "url": "https://bioviz.org/",
       "platform": ["Desktop"],
-      "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937187/"
+      "language": ["Java"],
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937187/"
+      }
     },
     {
       "category": ["General"],
       "name": "IGV",
+      "img": "igv.jpg",
+      "language": ["Java"],
       "url": "https://igv.org/",
       "platform": ["Desktop"]
     },
     {
       "category": ["General"],
       "name": "Savant",
+      "img": "savant.jpg",
+      "language": ["Java"],
       "url": "http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/",
-      "platform": ["Desktop"]
+      "platform": ["Desktop"],
+      "publication": { "url": "https://pubmed.ncbi.nlm.nih.gov/22638571/" }
     },
     {
       "category": ["General"],
       "name": "Tablet",
+      "img": "tablet.jpeg",
+      "language": ["Java"],
       "url": "https://ics.hutton.ac.uk/tablet/",
       "platform": ["Desktop"]
     },
@@ -1502,13 +1606,15 @@
       "platform": ["Web"]
     },
     {
-      "category": ["General"],
+      "category": ["General", "Comparative"],
       "name": "Ensembl genome browser",
+      "img": "ensembl.png",
       "url": "https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237",
       "platform": ["Web", "Silo"]
     },
     {
-      "category": ["General"],
+      "category": ["General", "Comparative"],
+      "img": "2020ensembl.png",
       "name": "Ensembl genome browser 2020 edition",
       "url": "http://2020.ensembl.org/",
       "platform": ["Web"]
@@ -1516,44 +1622,64 @@
     {
       "category": ["General"],
       "name": "GBrowse+GBrowse 2",
+      "img": "gbrowse.png",
       "url": "http://gmod.org/wiki/GBrowse",
+      "language": ["Perl"],
       "platform": ["Web"]
     },
     {
       "category": ["General"],
       "name": "GenomeMaps",
+      "tags": ["Deadlink"],
       "url": "http://www.genomemaps.org/",
       "platform": ["Web"]
     },
     {
-      "category": ["General"],
+      "category": ["General", "Epigenomics", "Hi-C"],
       "name": "HiGlass",
+      "img": "higlass.png",
+      "language": ["JS", "WebGL"],
       "url": "https://higlass.io",
       "platform": ["Web"]
     },
     {
-      "category": ["General"],
+      "category": ["General", "Alignment viewer"],
       "name": "IGV.js",
+      "img": "igvjs.png",
       "url": "https://github.com/igvteam/igv.js/",
       "platform": ["Web"]
     },
     {
-      "category": ["General"],
+      "category": ["General", "Alignments viewer", "SV"],
       "name": "JBrowse",
+      "img": "jbrowse.png",
       "url": "http://jbrowse.org/",
+      "language": ["JS"],
       "platform": ["Web"]
     },
     {
-      "category": ["General"],
+      "category": [
+        "General",
+        "SV",
+        "Dotplot",
+        "Circular",
+        "Alignments viewer",
+        "Quantitative",
+        "Hi-C"
+      ],
       "name": "JBrowse 2",
+      "img": "jbrowse2.png",
       "url": "http://jbrowse.org/jb2",
+      "language": ["JS", "Typescript", "React"],
       "platform": ["Web"]
     },
     {
       "category": ["General"],
       "name": "Kero-BROWSE",
+      "img": "kerobrowse.png",
       "url": "https://kero.hgc.jp/examples/CLCL/hg38/index.html",
-      "platform": ["Web", "JS"]
+      "platform": ["Web"],
+      "language": ["JS"]
     },
     {
       "category": ["General"],
@@ -1564,23 +1690,29 @@
     {
       "category": ["General"],
       "name": "Nucleome browser",
+      "img": "nucleome.png",
       "url": "https://vis.nucleome.org/v1/main.html",
-      "platform": ["Web", "JS"]
+      "language": ["JS"],
+      "platform": ["Web"]
     },
     {
-      "category": ["General"],
+      "category": ["General", "SV"],
       "name": "Pileup.js",
+      "img": "pileupjs.png",
       "url": "https://github.com/hammerlab/pileup.js/",
+      "language": ["JS"],
       "platform": ["Web"]
     },
     {
       "category": ["General"],
       "name": "Trackster",
+      "img": "trackster.png",
       "url": "https://galaxyproject.org/learn/visualization/",
       "platform": ["Web"]
     },
     {
       "category": ["General"],
+      "img": "ucsc.jpg",
       "name": "UCSC genome browser",
       "url": "https://genome.ucsc.edu/",
       "platform": ["Web", "Silo"]
@@ -1589,17 +1721,22 @@
       "category": ["General"],
       "name": "Valis browser",
       "url": "https://valis.bio/",
+      "img": "valis.png",
+      "language": ["JS", "WebGL"],
       "platform": ["Web"]
     },
     {
-      "category": ["General"],
+      "category": ["General", "Epigenomics", "Hi-C"],
       "name": "WashU epigenomics browser",
+      "img": "washu.png",
       "url": "https://epigenomegateway.wustl.edu/",
+      "language": ["JS", "React"],
       "platform": ["Web"]
     },
     {
       "category": ["General"],
       "name": "Zenbu",
+      "img": "zenbu.png",
       "url": "http://fantom.gsc.riken.jp/zenbu/",
       "platform": ["Web"]
     },
@@ -1619,6 +1756,7 @@
     {
       "category": ["Dotplot"],
       "name": "cgplot",
+      "img": "cgplot.png",
       "url": "https://github.com/dfguan/cgplot",
       "language": ["Python"],
       "tags": ["Static"]
@@ -1626,8 +1764,11 @@
     {
       "category": ["Dotplot"],
       "name": "D-GENIES",
-      "url": "https://github.com/genotoul-bioinfo/dgenies",
-      "platform": ["Static", "JS", "Python"]
+      "github": "https://github.com/genotoul-bioinfo/dgenies",
+      "url": "http://dgenies.toulouse.inra.fr/",
+      "img": "dgenies.png",
+      "language": ["JS", "Python", "D3"],
+      "platform": ["Web"]
     },
     {
       "category": ["Dotplot"],
@@ -1639,6 +1780,7 @@
     {
       "category": ["Dotplot"],
       "name": "Discoplot",
+      "img": "discoplot.png",
       "url": "https://github.com/mjsull/DiscoPlot",
       "language": ["Python"],
       "tags": ["Static"]
@@ -1646,12 +1788,16 @@
     {
       "category": ["Dotplot"],
       "name": "Dot",
+      "tags": ["Deadlink?"],
       "url": "https://github.com/dnanexus/dot",
       "platform": ["Web"]
     },
     {
       "category": ["Dotplot"],
       "name": "Dotlet",
+      "img": "dotlet.png",
+      "language": ["JS"],
+      "platform": ["Web"],
       "url": "https://dotlet.vital-it.ch/"
     },
     {
@@ -1662,7 +1808,7 @@
     },
     {
       "category": ["Dotplot"],
-      "name": "Dotplot (iLambda)",
+      "name": "iLambda/Dotplot",
       "url": "https://github.com/iLambda/dotplot",
       "platform": ["Web"]
     },
@@ -1670,47 +1816,60 @@
       "category": ["Dotplot"],
       "name": "dotPlotly",
       "url": "https://github.com/tpoorten/dotPlotly/",
+      "language": ["R", "Shiny"],
       "platform": ["Web"]
     },
     {
       "category": ["Dotplot"],
       "name": "Dottup",
+      "img": "dottup.png",
       "url": "https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup"
     },
     {
       "category": ["Dotplot"],
       "name": "FlexiDot",
+      "img": "flexidot.png",
       "url": "https://github.com/molbio-dresden/flexidot",
-      "platform": ["Python"]
+      "language": ["Python"],
+      "platform": ["CLI"]
     },
     {
       "category": ["Dotplot"],
       "name": "Gepard",
       "url": "http://cube.univie.ac.at/gepard",
-      "platform": ["Desktop"]
+      "img": "gepard.jpeg",
+      "platform": ["Desktop"],
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article/23/8/1026/198110"
+      }
     },
     {
       "category": ["Dotplot"],
       "name": "Jdot",
       "url": "https://github.com/LyonsLab/jdot",
+      "img": "jdot.png",
+      "language": ["JS"],
       "platform": ["Web"]
     },
     {
       "category": ["Dotplot"],
       "name": "last-dotplot",
+      "img": "last_dotplot.png",
       "url": "http://last.cbrc.jp/",
-      "platform": ["Static"]
+      "platform": ["CLI", "Web-server"]
     },
     {
       "category": ["Dotplot"],
       "name": "mcutils",
+      "img": "mcutils_dotplot.jpeg",
       "url": "https://github.com/mchaisso/mcutils",
       "platform": ["Static"],
-      "publication": "https://twitter.com/mjpchaisson/status/1040363992206569472"
+      "note": "https://twitter.com/mjpchaisson/status/1040363992206569472"
     },
     {
       "category": ["Dotplot"],
       "name": "Minidot",
+      "img": "minidot.png",
       "url": "https://github.com/thackl/minidot",
       "language": ["R"],
       "tags": ["Static"]
@@ -1725,13 +1884,22 @@
     {
       "category": ["Dotplot"],
       "name": "Mummerplot",
+      "img": "mummerplot.png",
       "url": "http://mummer.sourceforge.net/",
       "language": ["GNUPlot"],
       "platform": ["Static"]
     },
     {
       "category": ["Dotplot"],
+      "img": "mummerplot_ggplot2.png",
+      "name": "ggplot2 mummerplot",
+      "url": "https://jmonlong.github.io/Hippocamplus/2017/09/19/mummerplots-with-ggplot2/",
+      "language": ["R"]
+    },
+    {
+      "category": ["Dotplot"],
       "name": "Redottable",
+      "img": "redotable.png",
       "url": "https://github.com/s-andrews/redotable",
       "language": ["Java"],
       "platform": ["Desktop"]
@@ -1739,12 +1907,15 @@
     {
       "category": ["Dotplot"],
       "name": "syntenyPlotByR",
-      "url": "https://github.com/shingocat/syntenyPlotByR/blob/master/out.png",
-      "platform": ["Static"]
+      "img": "synteny_plot_by_r.png",
+      "url": "https://github.com/shingocat/syntenyPlotByR",
+      "platform": ["Static"],
+      "language": ["R"]
     },
     {
       "category": ["Epigenomics"],
       "name": "Chip Monk",
+      "img": "chipmonk.png",
       "url": "http://www.bioinformatics.babraham.ac.uk/projects/chipmonk/",
       "language": ["Java"],
       "platform": ["Desktop"]
@@ -1752,6 +1923,7 @@
     {
       "category": ["Epigenomics"],
       "name": "Chipster",
+      "img": "chipster.jpg",
       "language": ["Java"],
       "url": "https://chipster.csc.fi/",
       "platform": ["Desktop"]
@@ -1759,22 +1931,28 @@
     {
       "category": ["Epigenomics"],
       "name": "cisGenome Browser",
-      "url": "http://www-personal.umich.edu/~jianghui/browser/screenshots.html",
+      "img": "cisgenome.png",
+      "url": "https://jhui2014.github.io/browser/screenshots.html",
       "language": ["C"],
       "platform": ["Desktop"]
     },
     {
       "category": ["Epigenomics"],
       "name": "Epilogos",
+      "img": "epilogos.jpg",
       "url": "https://epilogos.altius.org/",
-      "platform": ["Web"]
+      "platform": ["Web", "Higlass based"]
     },
     {
       "category": ["Epigenomics"],
       "name": "Epiviz",
+      "img": "epiviz.png",
       "url": "https://epiviz.github.io/",
-      "platform": ["Web", "Desktop", "Static R"],
-      "publication": "https://www.biorxiv.org/content/10.1101/865295v1.full.pdf"
+      "platform": ["Web"],
+      "language": ["JS", "R", "D3"],
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/865295v1.full.pdf"
+      }
     },
     {
       "category": ["Epigenomics"],
@@ -1783,33 +1961,46 @@
       "platform": ["Web", "UCSC based", "WashU epigenome browser based"]
     },
     {
-      "category": ["Epigenomics"],
+      "category": ["Epigenomics", "Hi-C"],
       "name": "HiPiler",
+      "img": "hipiler.png",
+      "platform": ["Web", "Higlass based"],
       "url": "http://hipiler.higlass.io"
     },
     {
       "category": ["Epigenomics"],
       "name": "Juicebox",
+      "img": "juicebox.jpg",
       "url": "https://github.com/aidenlab/Juicebox",
       "language": ["Java"],
-      "platform": ["Desktop"]
+      "platform": ["Desktop"],
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5596920/"
+      }
     },
     {
       "category": ["Epigenomics"],
       "name": "Juicebox.js",
+      "img": "juiceboxjs.jpg",
       "url": "http://www.igv.org/doc/juiceboxjs.html",
       "language": ["JS"],
-      "platform": ["Web"]
+      "platform": ["Web"],
+      "publication": {
+        "url": "https://www.cell.com/fulltext/S2405-4712(18)30001-2"
+      }
     },
     {
       "category": ["Epigenomics"],
       "name": "Peax",
+      "img": "peax.png",
       "language": ["JS"],
+      "platform": ["Web", "Higlass based"],
       "url": "https://github.com/Novartis/peax"
     },
     {
       "category": ["Karyotype"],
       "name": "chromoMap",
+      "img": "chromomap.png",
       "url": "https://www.biorxiv.org/content/10.1101/605600v1.full.pdf",
       "language": ["R"],
       "tags": ["Static"]
@@ -1817,6 +2008,7 @@
     {
       "category": ["Karyotype"],
       "name": "eweitz/Ideogram",
+      "img": "eweitz_ideogram.png",
       "url": "https://github.com/eweitz/ideogram",
       "language": ["JS"],
       "platform": ["Web"]
@@ -1824,6 +2016,7 @@
     {
       "category": ["Karyotype"],
       "name": "Ideogram",
+      "img": "rcollins_ideogram.png",
       "url": "https://github.com/RCollins13/HumanIdiogramLibrary",
       "platform": ["Static", "SVG"]
     },
@@ -1837,6 +2030,7 @@
     {
       "category": ["Karyotype"],
       "name": "karyoploteR",
+      "img": "karyoploter.png",
       "url": "https://github.com/bernatgel/karyoploteR",
       "language": ["R"],
       "tags": ["Static"]
@@ -1845,6 +2039,7 @@
       "category": ["Karyotype"],
       "name": "KaryotypeSVG",
       "url": "https://github.com/andreasprlic/karyotypeSVG",
+      "img": "karyotypesvg.png",
       "language": ["JS"],
       "platform": ["Web", "SVG"]
     },
@@ -1852,54 +2047,89 @@
       "category": ["Karyotype"],
       "name": "NCBI Genome Decoration",
       "url": "https://www.ncbi.nlm.nih.gov/genome/tools/gdp/",
+      "img": "ncbi_genome_decoration.png",
       "platform": ["Web", "Form", "Database"]
     },
     {
       "category": ["Karyotype"],
       "name": "UCSC Genome Graphs",
+      "img": "ucsc_genome_graph.png",
       "url": "http://genome.ucsc.edu/cgi-bin/hgGenome",
       "platform": ["Web", "Form", "Database"]
     },
     {
       "category": ["Mobile"],
       "name": "iGenomics",
+      "img": "igenomics.png",
       "url": "https://www.biorxiv.org/content/10.1101/2020.02.11.944132v1"
     },
     {
       "category": ["Pan-genome"],
       "name": "Pan-Tetris",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/"
+      "img": "pantetris.png",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/",
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/"
+      }
+    },
+    {
+      "category": ["Pan-genome"],
+      "name": "Panacaea",
+      "img": "panacaea.png",
+      "url": "https://github.com/JCVenterInstitute/PanACEA"
     },
     {
       "category": ["Pan-genome"],
       "name": "Panache",
-      "url": "https://github.com/SingingMeerkat/Panache"
+      "img": "panache.png",
+      "url": "https://github.com/SouthGreenPlatform/panache"
     },
     {
       "category": ["Pan-genome"],
       "name": "panX",
-      "url": "http://pangenome.tuebingen.mpg.de/"
+      "img": "panx.jpeg",
+      "tags": ["Deadlink?"],
+      "url": "http://pangenome.tuebingen.mpg.de/",
+      "publication": {
+        "url": "https://academic.oup.com/nar/article/46/1/e5/4564799"
+      }
     },
     {
       "category": ["Pan-genome"],
-      "name": "RPAN",
+      "name": "RPAN (3kricedb)",
+      "img": "rpan.jpng",
+      "platform": ["Web", "JBrowse based"],
       "url": "http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF"
     },
     {
-      "category": ["Protein focused"],
+      "category": ["Protein", "MSA"],
       "name": "Protael",
-      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/",
-      "platform": ["Web"]
+      "img": "protael.png",
+      "url": "http://sanshu.github.io/protaelweb/",
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/"
+      },
+      "platform": ["Web"],
+      "language": ["JS"]
     },
     {
-      "category": ["Protein focused"],
+      "category": ["Protein", "Cancer"],
       "name": "ProteinPaint",
+      "img": "proteinpaint.png",
       "url": "https://pecan.stjude.cloud/proteinpaint",
       "platform": ["Web"]
     },
     {
-      "category": ["Protein focused"],
+      "category": ["Linear", "CNV", "Cancer"],
+      "name": "GenomePaint",
+      "img": "genomepaint.png",
+      "url": "https://pecan.stjude.cloud/proteinpaint",
+      "platform": ["Web"]
+    },
+    {
+      "category": ["Protein"],
       "name": "pViz",
+      "img": "pviz.jpg",
       "url": "https://github.com/Genentech/pviz",
       "platform": ["Web"]
     },
