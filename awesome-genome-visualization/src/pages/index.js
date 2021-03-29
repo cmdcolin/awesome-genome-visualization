@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { tools } from "./TOOLS.json";
 import slugify from "slugify";
 
-// styles
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -26,6 +25,7 @@ const Card = ({
     publication,
   },
 }) => {
+  const [expanded, setExpanded] = useState(false);
   return (
     <div
       style={{
@@ -59,8 +59,14 @@ const Card = ({
       <div>
         {img ? (
           <img
+            onClick={() => setExpanded((state) => !state)}
             alt={`screenshot of ${name}`}
-            style={{ maxWidth: 400, maxHeight: 200 }}
+            loading="lazy"
+            style={
+              expanded
+                ? { maxWidth: 1000, maxHeight: 800, cursor: "pointer" }
+                : { maxWidth: 400, maxHeight: 200, cursor: "pointer" }
+            }
             src={img}
           />
         ) : (
@@ -71,11 +77,10 @@ const Card = ({
   );
 };
 
-// markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>awesome-genome-visualization</title>
       <h1>awesome-genome-visualization</h1>
       <Cards />
     </main>
