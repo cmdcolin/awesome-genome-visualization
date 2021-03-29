@@ -63,7 +63,9 @@ const Card = ({
             style={{ maxWidth: 400, maxHeight: 200 }}
             src={img}
           />
-        ) : null}
+        ) : (
+          <p>No screenshot</p>
+        )}
       </div>
     </div>
   );

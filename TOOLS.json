@@ -1602,28 +1602,28 @@
       "platform": ["Desktop"]
     },
     {
-      "category": ["Exotic"],
+      "category": ["Exotic", "GWAS"],
       "name": "BigTop",
+      "img": "bigtop.png",
       "url": "https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/",
       "platform": ["Web"]
     },
     {
       "category": ["Exotic"],
-      "name": "Cylindrical app",
+      "name": "Cylindrical alignment app",
+      "img": "cylindrical_alignment_viewer.png",
       "url": "https://sourceforge.net/projects/cylindrical-alignment-app/",
+      "alt_url": "https://sourceforge.net/projects/cyl-viewer/",
       "platform": ["Desktop"]
     },
+
     {
-      "category": ["Exotic"],
-      "name": "Cylindrical viewer",
-      "url": "https://sourceforge.net/projects/cyl-viewer/",
-      "platform": ["Desktop"]
-    },
-    {
-      "category": ["General"],
+      "category": ["General", "Alignment viewer"],
       "name": "Biodalliance",
       "url": "http://www.biodalliance.org/",
-      "platform": ["Web"]
+      "platform": ["Web"],
+      "img": "biodalliance.png",
+      "language": ["JS"]
     },
     {
       "category": ["General", "Comparative"],
