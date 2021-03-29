@@ -3,12 +3,12 @@ import { tools } from "./TOOLS.json";
 import slugify from "slugify";
 
 const pageStyles = {
-  color: "#232129",
-  padding: 96,
+  backgroundColor: "#ccc",
+  padding: 30,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 };
 
-const Cards = () => {
+const Cards = ({ tools }) => {
   return tools.map((row) => <Card row={row} key={row.name} />);
 };
 
@@ -20,9 +20,10 @@ const Card = ({
     tags,
     img,
     github,
-    category,
     platform,
     publication,
+    note,
+    alt_url,
   },
 }) => {
   const [expanded, setExpanded] = useState(false);
@@ -31,23 +32,30 @@ const Card = ({
       style={{
         display: "flex",
         border: "1px solid black",
+        backgroundColor: "white",
         margin: 10,
         padding: 10,
       }}
     >
       <div>
-        <h3>
-          <a href={"#" + slugify(name)}>{name}</a>
-        </h3>
+        <h3>{name}</h3>
         <a href={url}>{url}</a>
+        {alt_url ? (
+          <p>
+            Alt url <a href={alt_url}>{alt_url}</a>
+          </p>
+        ) : null}
         {publication ? (
-          <a href={publication.url}>
-            {publication.url} ({publication.year})
-          </a>
+          <p>
+            Publication:{" "}
+            <a href={publication.url}>
+              {publication.url} ({publication.year})
+            </a>
+          </p>
         ) : null}
         {language ? <p>Language: {language.join(", ")}</p> : null}
-        {category ? <p>Categories: {category.join(", ")}</p> : null}
         {tags ? <p>tags: {tags.join(", ")}</p> : null}
+        {note ? <p>note: {note}</p> : null}
         {github ? (
           <p>
             Github: <a href={github}>{github}</a>
@@ -77,12 +85,122 @@ const Card = ({
   );
 };
 
+const TagFilters = ({ setFilters, filters }) => {
+  const tags = new Set();
+  tools.forEach((tool) => {
+    if (tool.tags) {
+      tool.tags.forEach((cat) => tags.add(cat));
+    }
+  });
+  return (
+    <>
+      <label htmlFor="tag-select">Tag: </label>
+      <select
+        id="tag-select"
+        onChange={(event) =>
+          setFilters({ ...filters, tag: event.target.value })
+        }
+      >
+        <option disabled selected value>
+          {" "}
+          -- select an option --{" "}
+        </option>
+        {[...tags].map((tag) => (
+          <option id={tag}>{tag}</option>
+        ))}
+      </select>
+    </>
+  );
+};
+
+const LanguageFilters = ({ setFilters, filters }) => {
+  const languages = new Set();
+  tools.forEach((tool) => {
+    if (tool.language) {
+      tool.language.forEach((cat) => languages.add(cat));
+    }
+  });
+  return (
+    <>
+      <label htmlFor="language-select">Language: </label>
+      <select
+        id="language-select"
+        onChange={(event) =>
+          setFilters({ ...filters, language: event.target.value })
+        }
+      >
+        <option disabled selected value>
+          {" "}
+          -- select an option --{" "}
+        </option>
+        {[...languages].map((tag) => (
+          <option id={tag}>{tag}</option>
+        ))}
+      </select>
+    </>
+  );
+};
+
+const PlatformFilters = ({ setFilters, filters }) => {
+  const platform = new Set();
+  tools.forEach((tool) => {
+    if (tool.platform) {
+      tool.platform.forEach((cat) => platform.add(cat));
+    }
+  });
+  return (
+    <>
+      <label htmlFor="platform-select">Platform: </label>
+      <select
+        id="platform-select"
+        onChange={(event) =>
+          setFilters({ ...filters, platform: event.target.value })
+        }
+      >
+        <option disabled selected value>
+          {" "}
+          -- select an option --{" "}
+        </option>
+        {[...platform].map((tag) => (
+          <option id={tag}>{tag}</option>
+        ))}
+      </select>
+    </>
+  );
+};
 const IndexPage = () => {
+  const [filters, setFilters] = useState({});
+  const { language, tag, platform } = filters;
+  console.log({ filters });
+
+  const filteredTools = tools
+    .filter((tool) => (language ? tool.language?.includes(language) : true))
+    .filter((tool) => (tag ? tool.tags?.includes(tag) : true))
+    .filter((tool) => (platform ? tool.platform?.includes(platform) : true));
+  console.log({ filteredTools });
+
   return (
     <main style={pageStyles}>
       <title>awesome-genome-visualization</title>
       <h1>awesome-genome-visualization</h1>
-      <Cards />
+      <p>
+        This is a companion website for the github repo
+        https://github.com/cmdcolin/awesome-genome-visualization
+      </p>
+      <p>
+        Please submit PRs for more tools there and thanks to all the
+        contributors!
+      </p>
+      <p>Note: you can click on the images to make them larger</p>
+      <TagFilters filters={filters} setFilters={setFilters} />
+      <LanguageFilters filters={filters} setFilters={setFilters} />
+      <PlatformFilters filters={filters} setFilters={setFilters} />
+
+      <Cards filters={filters} tools={filteredTools} />
+      <p>
+        Note: if you would like your tool removed or screenshot removed (for
+        copyright purposes for example) let me know
+      </p>
     </main>
   );
 };
