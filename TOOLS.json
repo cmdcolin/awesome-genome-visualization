@@ -37,7 +37,7 @@
       "url": "https://www.dnastar.com/"
     },
     {
-      "tags": ["Commercial"],
+      "tags": ["Commercial", "Synthetic biology"],
       "name": "Geneious",
       "img": "geneious.png",
       "url": "https://www.geneious.com/"
@@ -356,14 +356,14 @@
       "url": "http://software.broadinstitute.org/software/genomestrip/"
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Gene structure"],
       "name": "GenomeTools",
       "img": "genometools.png",
       "url": "http://genometools.org/",
       "language": ["C"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "SV", "Alignment viewer"],
       "name": "GenomeView",
       "img": "genomeview.png",
       "url": "https://github.com/nspies/genomeview",
@@ -404,38 +404,39 @@
       "name": "GSSPlayground",
       "img": "gssplayground.png",
       "url": "https://github.com/orangeSi/GSSplayground",
-      "language": ["Perl"]
+      "language": ["Perl"],
+      "tags": ["Comparative", "Static", "Alignment viewer"]
     },
     {
-      "tags": ["Static", "Ideogram"],
+      "tags": ["Static", "Ideogram", "Quantitative", "CNV"],
       "name": "gtrellis",
       "img": "gtrellis.png",
       "url": "http://bioconductor.org/packages/devel/bioc/vignettes/gtrellis/inst/doc/gtrellis.html",
       "language": ["R"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Alignment viewer", "Quantitative", "Multi"],
       "name": "Gviz",
       "img": "gviz.png",
       "url": "https://bioconductor.org/packages/release/bioc/html/Gviz.html",
       "language": ["R"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Coverage"],
       "name": "Hagfish",
       "img": "hagfish.png",
       "url": "https://github.com/mfiers/hagfish/wiki/Plots",
       "language": ["Python"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Hi-C"],
       "name": "HiCPlotter",
       "img": "hicplotter.jpg",
       "url": "https://github.com/kcakdemir/HiCPlotter",
       "language": ["Python"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Alignment viewer"],
       "name": "JVarKit/BamToSVG",
       "img": "bamtosvg.jpg",
       "url": "http://lindenb.github.io/jvarkit/BamToSVG.html",
@@ -1005,18 +1006,21 @@
     {
       "tags": ["Text based"],
       "name": "Alan",
+      "img": "alan.png",
       "url": "https://github.com/mpdunne/alan",
       "platform": ["CLI", "Bash"]
     },
     {
-      "tags": ["Text based"],
+      "tags": ["Text based", "MSA"],
       "name": "Alv",
+      "img": "alv.png",
       "url": "https://github.com/arvestad/alv",
       "platform": ["CLI", "Python"]
     },
     {
       "tags": ["Text based"],
       "name": "ASCIIGenome",
+      "img": "asciigenome.png",
       "url": "https://github.com/dariober/ASCIIGenome",
       "language": ["Java"],
       "platform": ["CLI"]
@@ -1024,6 +1028,7 @@
     {
       "tags": ["Text based"],
       "name": "Bamcov",
+      "img": "bamcov.png",
       "url": "https://github.com/fbreitwieser/bamcov",
       "language": ["C"],
       "platform": ["CLI"]
@@ -1051,6 +1056,7 @@
     {
       "tags": ["Text based"],
       "name": "plotReads",
+      "img": "plotreads.png",
       "url": "http://campuspress.yale.edu/knightlab/ruddle/plotreads/",
       "platform": ["CLI", "Static"]
     },
@@ -1063,6 +1069,7 @@
       "tags": ["Text based"],
       "name": "Rna Alignment Viewers",
       "url": "http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no",
+      "img": "rnaalignment.png",
       "platform": ["CLI"],
       "language": ["Perl"],
       "publication": {
@@ -1130,6 +1137,7 @@
     {
       "tags": ["Circular"],
       "name": "circlize",
+      "img": "circlize.jpeg",
       "url": "https://github.com/jokergoo/circlize",
       "language": ["R"],
       "tags": ["Static"]
@@ -1230,7 +1238,7 @@
       "url": "http://chopchop.cbu.uib.no/results/1611256682447.8318/details/9"
     },
     {
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignment viewer"],
       "name": "Chromatic",
       "url": "https://chromatic.nci.nih.gov/",
       "img": "chromatic.png",
@@ -1283,14 +1291,14 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Alignments viewer", "Linear"],
+      "tags": ["Alignment viewer", "Linear"],
       "name": "Gambit",
       "img": "gambit.png",
       "url": "http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473",
       "platform": ["Desktop"]
     },
     {
-      "tags": ["SV", "Alignments viewer"],
+      "tags": ["SV", "Alignment viewer"],
       "name": "GenomeRibbon",
       "url": "http://genomeribbon.com/",
       "img": "genomeribbon.png",
@@ -1367,7 +1375,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["SV", "Alignments viewer"],
+      "tags": ["SV", "Alignment viewer"],
       "name": "InGAP-SV",
       "img": "ingap_sv.png",
       "url": "http://ingap.sourceforge.net/",
@@ -1400,7 +1408,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignment viewer"],
       "name": "LookSeq",
       "img": "lookseq.png",
       "url": "https://www.sanger.ac.uk/tool/lookseq/",
@@ -1425,7 +1433,7 @@
       "url": "https://www.malariagen.net/apps/ag1000g/phase1-AR3/index.html"
     },
     {
-      "tags": ["Special-purpose", "Alignments viewer"],
+      "tags": ["Special-purpose", "Alignment viewer"],
       "name": "MapView",
       "img": "mapview.jpg",
       "url": "https://sites.google.com/site/wjwdavy/",
@@ -1435,7 +1443,7 @@
       }
     },
     {
-      "tags": ["Special-purpose", "Alignments viewer"],
+      "tags": ["Special-purpose", "Alignment viewer"],
       "name": "NGB",
       "img": "ngb.png",
       "url": "https://github.com/epam/NGB",
@@ -1590,7 +1598,7 @@
       "platform": ["Desktop"]
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "SV", "Alignment viewer"],
       "name": "Savant",
       "img": "savant.jpg",
       "language": ["Java"],
@@ -1675,7 +1683,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["General", "Alignments viewer", "SV"],
+      "tags": ["General", "Alignment viewer", "SV"],
       "name": "JBrowse",
       "img": "jbrowse.png",
       "url": "http://jbrowse.org/",
@@ -1688,7 +1696,7 @@
         "SV",
         "Dotplot",
         "Circular",
-        "Alignments viewer",
+        "Alignment viewer",
         "Quantitative",
         "Hi-C"
       ],
@@ -2161,12 +2169,14 @@
     {
       "tags": ["Heatmap"],
       "name": "UCSC Xena",
+      "img": "xena.png",
       "url": "https://xena.ucsc.edu/",
       "platform": ["Web"]
     },
     {
       "tags": ["Heatmap"],
       "name": "VIVA",
+      "img": "viva.png",
       "url": "https://www.biorxiv.org/content/10.1101/589879v1.full.pdf",
       "platform": ["Web"]
     }

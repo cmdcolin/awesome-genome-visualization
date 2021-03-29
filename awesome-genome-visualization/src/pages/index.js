@@ -97,15 +97,16 @@ const TagFilters = ({ setFilters, filters }) => {
       <label htmlFor="tag-select">Tag: </label>
       <select
         id="tag-select"
+        value={filters.tag}
         onChange={(event) =>
           setFilters({ ...filters, tag: event.target.value })
         }
       >
-        <option selected value="">
-          -- select an option --
-        </option>
-        {[...tags].map((tag) => (
-          <option id={tag}>{tag}</option>
+        <option value="">-- select an option --</option>
+        {[...tags].sort().map((tag) => (
+          <option key={tag} id={tag}>
+            {tag}
+          </option>
         ))}
       </select>
     </>
@@ -123,16 +124,17 @@ const LanguageFilters = ({ setFilters, filters }) => {
     <>
       <label htmlFor="language-select">Language: </label>
       <select
+        value={filters.language}
         id="language-select"
         onChange={(event) =>
           setFilters({ ...filters, language: event.target.value })
         }
       >
-        <option selected value="">
-          -- select an option --
-        </option>
-        {[...languages].map((tag) => (
-          <option id={tag}>{tag}</option>
+        <option value="">-- select an option --</option>
+        {[...languages].sort().map((tag) => (
+          <option key={tag} id={tag}>
+            {tag}
+          </option>
         ))}
       </select>
     </>
@@ -150,16 +152,17 @@ const PlatformFilters = ({ setFilters, filters }) => {
     <>
       <label htmlFor="platform-select">Platform: </label>
       <select
+        value={filters.platform}
         id="platform-select"
         onChange={(event) =>
           setFilters({ ...filters, platform: event.target.value })
         }
       >
-        <option selected value="">
-          -- select an option --
-        </option>
-        {[...platform].map((tag) => (
-          <option id={tag}>{tag}</option>
+        <option value="">-- select an option --</option>
+        {[...platform].sort().map((tag) => (
+          <option key={tag} id={tag}>
+            {tag}
+          </option>
         ))}
       </select>
     </>
@@ -187,6 +190,13 @@ const IndexPage = () => {
         contributors!
       </p>
       <p>Note: you can click on the images to make them larger</p>
+
+      <p>
+        Example filters:
+        <button onClick={() => setFilters({ tag: "General" })}>
+          General-purpose genome browsers
+        </button>
+      </p>
       <TagFilters filters={filters} setFilters={setFilters} />
       <LanguageFilters filters={filters} setFilters={setFilters} />
       <PlatformFilters filters={filters} setFilters={setFilters} />
