@@ -101,9 +101,8 @@ const TagFilters = ({ setFilters, filters }) => {
           setFilters({ ...filters, tag: event.target.value })
         }
       >
-        <option disabled selected value>
-          {" "}
-          -- select an option --{" "}
+        <option selected value="">
+          -- select an option --
         </option>
         {[...tags].map((tag) => (
           <option id={tag}>{tag}</option>
@@ -129,9 +128,8 @@ const LanguageFilters = ({ setFilters, filters }) => {
           setFilters({ ...filters, language: event.target.value })
         }
       >
-        <option disabled selected value>
-          {" "}
-          -- select an option --{" "}
+        <option selected value="">
+          -- select an option --
         </option>
         {[...languages].map((tag) => (
           <option id={tag}>{tag}</option>
@@ -157,9 +155,8 @@ const PlatformFilters = ({ setFilters, filters }) => {
           setFilters({ ...filters, platform: event.target.value })
         }
       >
-        <option disabled selected value>
-          {" "}
-          -- select an option --{" "}
+        <option selected value="">
+          -- select an option --
         </option>
         {[...platform].map((tag) => (
           <option id={tag}>{tag}</option>
@@ -171,13 +168,11 @@ const PlatformFilters = ({ setFilters, filters }) => {
 const IndexPage = () => {
   const [filters, setFilters] = useState({});
   const { language, tag, platform } = filters;
-  console.log({ filters });
 
   const filteredTools = tools
     .filter((tool) => (language ? tool.language?.includes(language) : true))
     .filter((tool) => (tag ? tool.tags?.includes(tag) : true))
     .filter((tool) => (platform ? tool.platform?.includes(platform) : true));
-  console.log({ filteredTools });
 
   return (
     <main style={pageStyles}>
