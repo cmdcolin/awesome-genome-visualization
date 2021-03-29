@@ -182,7 +182,9 @@ const IndexPage = () => {
       <h1>awesome-genome-visualization</h1>
       <p>
         This is a companion website for the github repo
-        https://github.com/cmdcolin/awesome-genome-visualization
+        <a href="https://github.com/cmdcolin/awesome-genome-visualization">
+          https://github.com/cmdcolin/awesome-genome-visualization
+        </a>
       </p>
       <p>
         Please submit PRs for more tools there and thanks to all the
