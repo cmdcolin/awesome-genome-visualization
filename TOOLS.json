@@ -2179,6 +2179,14 @@
       "img": "dotter.png",
       "url": "https://sonnhammer.sbc.su.se/Dotter.html",
       "platform": ["CLI"]
+    },
+    {
+      "tags": ["Repeats", "Dotplot", "Static", "Linear"],
+      "img": "repaver.jpg",
+      "url": "https://gitlab.com/gringer/bioinfscripts/",
+      "language": ["R", "C++"],
+      "platform": ["CLI"],
+      "name": "REPAVER"
     }
   ]
 }
