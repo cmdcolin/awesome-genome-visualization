@@ -48,7 +48,8 @@ const Card = ({
           <p>
             Publication:{" "}
             <a href={publication.url}>
-              {publication.url} ({publication.year})
+              {publication.url}{" "}
+              {publication.year ? `(${publication.year})` : null}
             </a>
           </p>
         ) : null}
