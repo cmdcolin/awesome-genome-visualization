@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { tools } from "./TOOLS.json";
+import "./App.css";
 
 const pageStyles = {
   backgroundColor: "#ccc",
@@ -28,6 +29,7 @@ const Card = ({
   const [expanded, setExpanded] = useState(false);
   return (
     <div
+      className="card"
       style={{
         display: "flex",
         border: "1px solid black",
@@ -73,7 +75,12 @@ const Card = ({
             style={
               expanded
                 ? { maxWidth: 1000, maxHeight: 800, cursor: "pointer" }
-                : { maxWidth: 400, maxHeight: 200, cursor: "pointer" }
+                : {
+                    width: "90%",
+                    maxWidth: 400,
+                    maxHeight: 200,
+                    cursor: "pointer",
+                  }
             }
             src={img}
           />

@@ -1,0 +1,7 @@
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+}
