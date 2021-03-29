@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { tools } from "./TOOLS.json";
-import slugify from "slugify";
 
 const pageStyles = {
   backgroundColor: "#ccc",
@@ -196,6 +195,13 @@ const IndexPage = () => {
         <button onClick={() => setFilters({ tag: "General" })}>
           General-purpose genome browsers
         </button>
+        <button onClick={() => setFilters({ tag: "Comparative" })}>
+          Synteny/comparative browsers
+        </button>
+        <button onClick={() => setFilters({ tag: "Dotplot" })}>
+          Dotplot viewer
+        </button>
+        <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
       </p>
       <TagFilters filters={filters} setFilters={setFilters} />
       <LanguageFilters filters={filters} setFilters={setFilters} />
