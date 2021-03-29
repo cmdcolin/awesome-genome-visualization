@@ -382,7 +382,9 @@
       "url": "http://tengfei.github.io/ggbio/",
       "img": "ggbio.png",
       "language": ["R"],
-      "publication": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77)"
+      "publication": {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77"
+      }
     },
     {
       "tags": ["Static", "Comparative"],
@@ -564,7 +566,9 @@
       "language": ["Python"],
       "img": "spark.png",
       "tags": ["Static"],
-      "publication": "https://www.biorxiv.org/content/10.1101/845529v1.full.pdf"
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/845529v1.full.pdf"
+      }
     },
     {
       "name": "Spliceclust",
@@ -586,7 +590,9 @@
       "language": ["Python"],
       "tags": ["Static"],
       "img": "svis4get.png",
-      "publication": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2706-8"
+      "publication": {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2706-8"
+      }
     },
     {
       "name": "svv",
@@ -825,7 +831,7 @@
       "language": ["Processing"],
       "url": "http://www.cs.utah.edu/~miriah/mizbee/Overview.html",
       "platform": ["Desktop"],
-      "publication": "https://ieeexplore.ieee.org/document/5290692)"
+      "publication": { "url": "https://ieeexplore.ieee.org/document/5290692" }
     },
     {
       "categories": ["Comparative"],
@@ -886,7 +892,9 @@
       "url": "https://github.com/rhysf/Synima",
       "platform": ["CLI"],
       "language": ["Perl"],
-      "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/)"
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5697234/"
+      }
     },
     {
       "categories": ["Comparative"],
@@ -937,7 +945,9 @@
       "url": "https://almiheenko.github.io/AGB/index.html",
       "platform": ["Web"],
       "language": ["Python"],
-      "publication": "https://academic.oup.com/bioinformatics/article/35/18/3476/5306331"
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article/35/18/3476/5306331"
+      }
     },
     {
       "categories": ["Graph"],
@@ -946,7 +956,9 @@
       "url": "https://github.com/rrwick/Bandage/",
       "language": ["C++"],
       "platform": ["Desktop"],
-      "publication": "https://academic.oup.com/bioinformatics/article/31/20/3350/196114"
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article/31/20/3350/196114"
+      }
     },
     {
       "categories": ["Graph"],
@@ -1753,7 +1765,7 @@
       "name": "BrowseVCF",
       "url": "https://github.com/BSGOxford/BrowseVCF",
       "platform": ["Desktop"],
-      "publication": "https://pubmed.ncbi.nlm.nih.gov/27373737/"
+      "publication": { "url": "https://pubmed.ncbi.nlm.nih.gov/27373737/" }
     },
     {
       "category": ["Data grid"],

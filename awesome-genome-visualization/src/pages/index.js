@@ -60,8 +60,8 @@ const Card = ({
         {img ? (
           <img
             alt={`screenshot of ${name}`}
-            style={{ maxWidth: 300, maxHeight: 200 }}
-            src={"static/" + img}
+            style={{ maxWidth: 400, maxHeight: 200 }}
+            src={img}
           />
         ) : null}
       </div>
