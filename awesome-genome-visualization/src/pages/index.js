@@ -88,8 +88,10 @@ const TagFilters = ({ setFilters, filters }) => {
       <label htmlFor="tag-select">Tag: </label>
       <select
         id="tag-select"
-        value={filters.tag}
-        onBlur={(event) => setFilters({ ...filters, tag: event.target.value })}
+        value={filters.tag || ""}
+        onChange={(event) =>
+          setFilters({ ...filters, tag: event.target.value })
+        }
       >
         <option value="">-- select an option --</option>
         {[...tags].sort().map((tag) => (
@@ -113,9 +115,9 @@ const LanguageFilters = ({ setFilters, filters }) => {
     <div style={{ display: "block" }}>
       <label htmlFor="language-select">Language: </label>
       <select
-        value={filters.language}
+        value={filters.language || ""}
         id="language-select"
-        onBlur={(event) =>
+        onChange={(event) =>
           setFilters({ ...filters, language: event.target.value })
         }
       >
@@ -141,9 +143,9 @@ const PlatformFilters = ({ setFilters, filters }) => {
     <div style={{ display: "block" }}>
       <label htmlFor="platform-select">Platform: </label>
       <select
-        value={filters.platform}
+        value={filters.platform || ""}
         id="platform-select"
-        onBlur={(event) =>
+        onChange={(event) =>
           setFilters({ ...filters, platform: event.target.value })
         }
       >
@@ -184,6 +186,7 @@ const IndexPage = () => {
 
       <p>
         Example filters:
+        <button onClick={() => setFilters({})}>Clear filters</button>
         <button onClick={() => setFilters({ tag: "General" })}>
           General-purpose genome browsers
         </button>

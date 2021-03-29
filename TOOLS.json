@@ -1118,7 +1118,6 @@
     {
       "tags": ["Circular"],
       "name": "Anvio",
-      "img": "anvio.png",
       "url": "https://peerj.com/articles/1319/",
       "platform": ["Web", "Python", "JS"]
     },
@@ -1386,7 +1385,7 @@
       "tags": ["SV", "Introgression"],
       "name": "Introgression browser",
       "img": "introgression_browser.png",
-      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800",
+      "url": "https://git.wageningenur.nl/aflit001/ibrowser",
       "publication": {
         "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800"
       },
