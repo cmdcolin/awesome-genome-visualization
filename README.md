@@ -3,6 +3,8 @@
 A list of interesting genome visualizers, genome browsers, or
 genome-browser-like implementations
 
+**See the new companion website here https://cmdcolin.github.io/awesome-genome-visualization/**
+
 ## Genome browsers
 
 ### Desktop
