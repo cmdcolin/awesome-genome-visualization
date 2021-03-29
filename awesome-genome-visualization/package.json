@@ -1,0 +1,25 @@
+{
+  "name": "awesome-genome-visualization",
+  "version": "1.0.0",
+  "private": true,
+  "description": "awesome-genome-visualization",
+  "author": "Colin",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^3.1.2",
+    "gh-pages": "^3.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "slugify": "^1.5.0"
+  }
+}
