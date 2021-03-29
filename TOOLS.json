@@ -110,7 +110,7 @@
       "name": "AlignmentComparator",
       "img": "alignmentcomparator.png",
       "url": "http://bioinfweb.info/AlignmentComparator/",
-      "platform": ["Java"]
+      "language": ["Java"]
     },
     {
       "tags": ["MSA"],
@@ -124,7 +124,8 @@
       "name": "AliView",
       "img": "aliview.png",
       "url": "http://www.ormbunkar.se/aliview/",
-      "platform": ["Desktop", "Java"]
+      "platform": ["Desktop"],
+      "language": ["Java"]
     },
     {
       "tags": ["MSA"],
@@ -208,7 +209,7 @@
       "name": "NCBI MSA Viewer",
       "url": "https://www.ncbi.nlm.nih.gov/projects/msaviewer/",
       "img": "ncbimsa.png",
-      "platform": ["Web", "JS", "CGI"]
+      "platform": ["Web", "CGI"]
     },
     {
       "tags": ["MSA"],
@@ -336,11 +337,11 @@
       "tags": ["Static", "Gene structure"]
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Gene structure"],
       "name": "FeatureViewer",
       "img": "featureviewer.png",
       "url": "https://github.com/calipho-sib/feature-viewer",
-      "platform": ["Web", "Gene structure"]
+      "platform": ["Web"]
     },
     {
       "tags": ["Static", "Gene structure"],
@@ -791,7 +792,7 @@
       "platform": ["Package"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Linear", "Quantitative"],
       "name": "GIVE",
       "img": "give_hic.png",
       "url": "https://zhong-lab-ucsd.github.io/GIVE_homepage/",
@@ -849,10 +850,10 @@
       "name": "OMA local synteny browser",
       "img": "oma.png",
       "url": "https://omabrowser.org/oma/synteny/ADH1A_HUMAN/",
-      "platform": ["Web"]
+      "platform": ["Web", "Silo"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Dotplot", "Linear"],
       "name": "pafr",
       "img": "pafr.png",
       "url": "https://github.com/dwinter/pafr",
@@ -866,7 +867,7 @@
       "language": ["Perl"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Linear"],
       "name": "syri/plotsr",
       "img": "syri.png",
       "url": "https://schneebergerlab.github.io/syri/plotsr.html",
@@ -880,7 +881,7 @@
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Dotplot", "Linear"],
       "name": "SyMap",
       "url": "http://www.agcol.arizona.edu/software/symap/",
       "platform": ["Desktop"],
@@ -908,7 +909,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Dotplot", "Linear"],
       "name": "SynTView",
       "img": "syntview.png",
       "url": "http://hub18.hosting.pasteur.fr/SynTView/documentation/",
@@ -923,7 +924,7 @@
       "url": "https://synvisio.github.io/"
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Ideogram"],
       "name": "Tripal MapViewer",
       "img": "tripal_mapviewer.png",
       "url": "https://academic.oup.com/database/article/doi/10.1093/database/baz100/5612723"
@@ -1012,14 +1013,16 @@
       "name": "Alan",
       "img": "alan.png",
       "url": "https://github.com/mpdunne/alan",
-      "platform": ["CLI", "Bash"]
+      "language": ["Bash"],
+      "platform": ["CLI"]
     },
     {
       "tags": ["Text based", "MSA"],
       "name": "Alv",
       "img": "alv.png",
       "url": "https://github.com/arvestad/alv",
-      "platform": ["CLI", "Python"]
+      "platform": ["CLI"],
+      "language": ["Python"]
     },
     {
       "tags": ["Text based"],
@@ -1067,7 +1070,8 @@
     {
       "name": "pyBamView",
       "url": "https://mgymrek.github.io/pybamview/",
-      "platform": ["CLI", "Python"]
+      "platform": ["CLI"],
+      "language": ["Python"]
     },
     {
       "tags": ["Text based"],
@@ -1119,7 +1123,7 @@
       "tags": ["Circular"],
       "name": "Anvio",
       "url": "https://peerj.com/articles/1319/",
-      "platform": ["Web", "Python", "JS"]
+      "language": ["Python"]
     },
     {
       "tags": ["Circular"],
@@ -1163,7 +1167,8 @@
       "name": "DNAPlotter",
       "img": "dnaplotter.jpg",
       "url": "https://www.sanger.ac.uk/science/tools/dnaplotter",
-      "platform": ["Desktop", "Java"]
+      "platform": ["Desktop"],
+      "language": ["Java"]
     },
     {
       "tags": ["Circular", "Linear"],
@@ -1446,7 +1451,8 @@
       "name": "NGB",
       "img": "ngb.png",
       "url": "https://github.com/epam/NGB",
-      "platform": ["Web", "Java"]
+      "platform": ["Web"],
+      "language": ["Java"]
     },
     {
       "tags": ["Special-purpose", "Coverage"],
