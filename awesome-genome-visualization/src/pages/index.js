@@ -61,7 +61,8 @@ const Card = ({
               expanded
                 ? { maxWidth: 1000, maxHeight: 800, cursor: "pointer" }
                 : {
-                    maxWidth: "90%",
+                    maxWidth: 400,
+                    width: "90%",
                     maxHeight: 250,
                     cursor: "pointer",
                   }
