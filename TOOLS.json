@@ -1711,8 +1711,9 @@
       "language": ["JS"]
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "SV", "Epigenomics", "Gene structure", "Splicing"],
       "name": "NCBI Genome Data Viewer",
+      "img": "gdv.png",
       "url": "https://www.ncbi.nlm.nih.gov/genome/gdv/",
       "platform": ["Web", "Silo"]
     },
