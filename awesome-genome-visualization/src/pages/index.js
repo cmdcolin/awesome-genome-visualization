@@ -51,10 +51,9 @@ const Card = ({
         {platform ? <p>platform: {platform.join(", ")}</p> : null}
       </div>
       <div style={{ flexGrow: 1 }} />
-      <div>
+      <div role="presentation" onClick={() => setExpanded((state) => !state)}>
         {img ? (
           <img
-            onClick={() => setExpanded((state) => !state)}
             alt={`screenshot of ${name}`}
             loading="lazy"
             style={
@@ -90,9 +89,7 @@ const TagFilters = ({ setFilters, filters }) => {
       <select
         id="tag-select"
         value={filters.tag}
-        onChange={(event) =>
-          setFilters({ ...filters, tag: event.target.value })
-        }
+        onBlur={(event) => setFilters({ ...filters, tag: event.target.value })}
       >
         <option value="">-- select an option --</option>
         {[...tags].sort().map((tag) => (
@@ -118,7 +115,7 @@ const LanguageFilters = ({ setFilters, filters }) => {
       <select
         value={filters.language}
         id="language-select"
-        onChange={(event) =>
+        onBlur={(event) =>
           setFilters({ ...filters, language: event.target.value })
         }
       >
@@ -146,7 +143,7 @@ const PlatformFilters = ({ setFilters, filters }) => {
       <select
         value={filters.platform}
         id="platform-select"
-        onChange={(event) =>
+        onBlur={(event) =>
           setFilters({ ...filters, platform: event.target.value })
         }
       >

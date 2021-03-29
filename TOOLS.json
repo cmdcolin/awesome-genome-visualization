@@ -73,13 +73,13 @@
       "url": "https://persephonesoft.com/"
     },
     {
-      "platform": ["Commercial"],
+      "tags": ["Commercial"],
       "img": "snapgene.png",
       "name": "SnapGene",
       "url": "https://www.snapgene.com/"
     },
     {
-      "platform": ["Commercial"],
+      "tags": ["Commercial"],
       "img": "strandngs.png",
       "name": "Strand NGS",
       "url": "https://www.strand-ngs.com/"
@@ -279,14 +279,14 @@
       }
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Alignment viewer"],
       "language": ["Python"],
       "img": "bamsnap.png",
       "name": "BAMSnap",
       "url": "https://github.com/parklab/bamsnap"
     },
     {
-      "tags": ["Static"],
+      "tags": ["Static", "Epigenomics"],
       "name": "ChIA-Pipe",
       "img": "chiapipe.png",
       "url": "https://github.com/TheJacksonLaboratory/ChIA-PIPE",
@@ -510,7 +510,7 @@
       "url": "https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html",
       "language": ["R"],
       "img": "racer.png",
-      "tags": ["Static"]
+      "tags": ["Static", "GWAS"]
     },
     {
       "name": "RepViz",
@@ -525,14 +525,14 @@
       "url": "https://github.com/ryanlayer/samplot",
       "language": ["Python"],
       "img": "samplot.jpg",
-      "tags": ["Static"]
+      "tags": ["Static", "SV", "Alignment viewer"]
     },
     {
       "name": "SashimiPlot",
       "url": "https://miso.readthedocs.io/en/fastmiso/sashimi.html",
       "language": ["Python"],
       "img": "sashimi-plot-example.png",
-      "tags": ["Static"]
+      "tags": ["Static", "Expression", "Splicing"]
     },
     {
       "name": "shabam",
@@ -600,7 +600,7 @@
       "url": "https://github.com/ryanlayer/svv",
       "language": ["Python"],
       "img": "svv.png",
-      "tags": ["Static"]
+      "tags": ["Static", "SV", "Coverage"]
     },
     {
       "name": "svviz",
@@ -633,11 +633,11 @@
       "tags": ["Static", "Lollipop", "Quantitative"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Deadlink?"],
       "name": "Aequatus",
       "img": "aequatus.png",
       "url": "https://github.com/TGAC/Aequatus",
-      "platform": ["Web", "Silo", "Deadlink"]
+      "platform": ["Web", "Silo"]
     },
     {
       "tags": ["Comparative"],
@@ -651,6 +651,7 @@
       "name": "Artemis comparison tool (ACT)",
       "img": "artemis_act.png",
       "url": "https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act",
+      "language": ["Java"],
       "platform": ["Desktop"]
     },
     {
@@ -659,6 +660,7 @@
       "url": "http://biodalliance.org/dev/test-comparative.html",
       "language": ["JS"],
       "img": "biodalliance_comparative.png",
+      "language": ["JS"],
       "platform": ["Web"]
     },
     {
@@ -767,8 +769,7 @@
       "language": ["Processing"]
     },
     {
-      "tags": ["Comparative"],
-      "tags": ["Ideogram", "Dotplot"],
+      "tags": ["Comparative", "Ideogram", "Dotplot"],
       "name": "Genomicus",
       "url": "https://www.genomicus.biologie.ens.fr/genomicus/",
       "img": "genomicus.png",
@@ -808,19 +809,17 @@
       "platform": ["CLI"]
     },
     {
-      "tags": ["Comparative"],
       "name": "MCScanX",
-      "tags": ["Dotplot", "Circular", "Linear", "Ideogram"],
+      "tags": ["Comparative", "Dotplot", "Circular", "Linear", "Ideogram"],
       "url": "https://github.com/wyp1125/MCScanX",
       "img": "mcscanx.png",
       "language": ["Perl"],
       "platform": ["CLI"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Deadlink?"],
       "name": "mGSV (multiple genome synteny viewer)",
       "url": "https://github.com/kashmatic/mGSV",
-      "tags": ["Deadlink"],
       "platform": ["Web", "Silo"]
     },
     {
@@ -911,11 +910,10 @@
       "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/"
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Linear", "Dotplot"],
       "name": "SynVisio",
       "img": "synvisio.png",
       "language": ["JS"],
-      "tags": ["Linear", "Dotplot"],
       "url": "https://synvisio.github.io/"
     },
     {
@@ -983,7 +981,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Graph"],
+      "tags": ["Graph", "Multi", "Alignment viewer", "Circular", "SV"],
       "name": "MoMi-G",
       "img": "momig.png",
       "url": "https://github.com/MoMI-G/MoMI-G/",
@@ -1249,12 +1247,11 @@
       }
     },
     {
-      "tags": ["CNV", "Annotation"],
+      "tags": ["CNV", "Annotation", "Deadlink?"],
       "name": "cnvCurator",
       "url": "http://www.acsu.buffalo.edu/~lm69/cnvCurator",
       "platform": ["Desktop"],
       "img": "cnvcurator.png",
-      "tags": ["CNV", "Deadlink"],
       "language": ["Java"],
       "publication": {
         "url": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y"
@@ -1415,8 +1412,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Special-purpose"],
-      "tags": ["Deadlink"],
+      "tags": ["Special-purpose", "Deadlink?"],
       "name": "MagicViewer",
       "img": "magicviewer.jpeg",
       "url": "http://bioinformatics.zj.cn/magicviewer/",
@@ -1465,14 +1461,14 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": ["Special-purpose", "CNV"],
       "name": "SFARI",
       "url": "https://gene.sfari.org/database/human-gene/",
       "img": "sfari.jpg",
       "platform": ["Web", "Silo"]
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": ["Special-purpose", "Alignment viewer"],
       "name": "Short read assembly browser",
       "img": "short_read_assembly_browser.png",
       "url": "https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22"
@@ -1496,7 +1492,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["SV"],
+      "tags": ["SV", "CNV"],
       "name": "SplitThreader",
       "img": "splitthreader.png",
       "url": "http://splitthreader.com/",
@@ -1517,10 +1513,9 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Special-purpose", "Transposons"],
+      "tags": ["Special-purpose", "Transposons", "Deadlink?"],
       "name": "TE-nest",
       "img": "tenest.jpg",
-      "tags": ["Deadlink"],
       "url": "https://pubmed.ncbi.nlm.nih.gov/18032588"
     },
     {
@@ -1571,15 +1566,14 @@
       }
     },
     {
-      "tags": ["General"],
-      "tags": ["Historical"],
+      "tags": ["General", "Historical", "Alignment viewer"],
       "img": "celera.jpeg",
       "name": "Celera genome browser",
       "url": "https://www.csee.umbc.edu/~turner/presentations/bvw2002/sld009.htm",
       "platform": ["Desktop"]
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "Alignment viewer"],
       "name": "IGB",
       "img": "igb.jpg",
       "url": "https://bioviz.org/",
@@ -1590,7 +1584,7 @@
       }
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "Alignment viewer", "SV", "Quantitative"],
       "name": "IGV",
       "img": "igv.jpg",
       "language": ["Java"],
@@ -1607,7 +1601,7 @@
       "publication": { "url": "https://pubmed.ncbi.nlm.nih.gov/22638571/" }
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "Alignment viewer"],
       "name": "Tablet",
       "img": "tablet.jpeg",
       "language": ["Java"],
@@ -1661,9 +1655,8 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "Deadlink?"],
       "name": "GenomeMaps",
-      "tags": ["Deadlink"],
       "url": "http://www.genomemaps.org/",
       "platform": ["Web"]
     },
@@ -1707,7 +1700,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "SV", "Alignment viewer"],
       "name": "Kero-BROWSE",
       "img": "kerobrowse.png",
       "url": "https://kero.hgc.jp/examples/CLCL/hg38/index.html",
@@ -1721,7 +1714,7 @@
       "platform": ["Web", "Silo"]
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "Multi"],
       "name": "Nucleome browser",
       "img": "nucleome.png",
       "url": "https://vis.nucleome.org/v1/main.html",
@@ -1751,7 +1744,7 @@
       "platform": ["Web", "Silo"]
     },
     {
-      "tags": ["General"],
+      "tags": ["General", "Quantitative", "Epigenomics"],
       "name": "Valis browser",
       "url": "https://valis.bio/",
       "img": "valis.png",
@@ -1787,12 +1780,11 @@
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Dotplot"],
       "name": "cgplot",
       "img": "cgplot.png",
       "url": "https://github.com/dfguan/cgplot",
       "language": ["Python"],
-      "tags": ["Static"]
+      "tags": ["Static", "Dotplot"]
     },
     {
       "tags": ["Dotplot"],
@@ -1804,24 +1796,22 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Static"],
       "name": "Delly-maze",
+      "img": "maze.png",
       "url": "https://github.com/dellytools/maze",
-      "language": ["Python"],
-      "tags": ["Static"]
+      "language": ["Python"]
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Static"],
       "name": "Discoplot",
       "img": "discoplot.png",
       "url": "https://github.com/mjsull/DiscoPlot",
-      "language": ["Python"],
-      "tags": ["Static"]
+      "language": ["Python"]
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Deadlink?"],
       "name": "Dot",
-      "tags": ["Deadlink?"],
       "url": "https://github.com/dnanexus/dot",
       "platform": ["Web"]
     },
@@ -1834,7 +1824,7 @@
       "url": "https://dotlet.vital-it.ch/"
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Deadlink?"],
       "name": "Dotplot (chirimoyo)",
       "url": "https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/",
       "platform": ["Web"]
@@ -1900,12 +1890,11 @@
       "note": "https://twitter.com/mjpchaisson/status/1040363992206569472"
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Static"],
       "name": "Minidot",
       "img": "minidot.png",
       "url": "https://github.com/thackl/minidot",
-      "language": ["R"],
-      "tags": ["Static"]
+      "language": ["R"]
     },
     {
       "tags": ["Dotplot"],
@@ -2031,12 +2020,11 @@
       "url": "https://github.com/Novartis/peax"
     },
     {
-      "tags": ["Karyotype"],
+      "tags": ["Karyotype", "Static"],
       "name": "chromoMap",
       "img": "chromomap.png",
       "url": "https://www.biorxiv.org/content/10.1101/605600v1.full.pdf",
-      "language": ["R"],
-      "tags": ["Static"]
+      "language": ["R"]
     },
     {
       "tags": ["Karyotype"],
@@ -2054,19 +2042,17 @@
       "platform": ["Static", "SVG"]
     },
     {
-      "tags": ["Karyotype"],
+      "tags": ["Karyotype", "Static"],
       "name": "Ideoplot",
       "url": "https://github.com/mchaisso/Ideoplot",
-      "language": ["R"],
-      "tags": ["Static"]
+      "language": ["R"]
     },
     {
-      "tags": ["Karyotype"],
+      "tags": ["Karyotype", "Static"],
       "name": "karyoploteR",
       "img": "karyoploter.png",
       "url": "https://github.com/bernatgel/karyoploteR",
-      "language": ["R"],
-      "tags": ["Static"]
+      "language": ["R"]
     },
     {
       "tags": ["Karyotype"],
@@ -2118,10 +2104,9 @@
       "url": "https://github.com/SouthGreenPlatform/panache"
     },
     {
-      "tags": ["Pan-genome"],
+      "tags": ["Pan-genome", "Deadlink?"],
       "name": "panX",
       "img": "panx.jpeg",
-      "tags": ["Deadlink?"],
       "url": "http://pangenome.tuebingen.mpg.de/",
       "publication": {
         "url": "https://academic.oup.com/nar/article/46/1/e5/4564799"
