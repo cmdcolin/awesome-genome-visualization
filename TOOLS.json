@@ -1724,10 +1724,11 @@
         "Gene structure"
       ],
       "name": "JBrowse",
+      "note": "See also JBrowse plugin registry https://gmod.github.io/jbrowse-registry. Runs on the web or as a desktop app using Electron",
       "img": "jbrowse.png",
       "url": "http://jbrowse.org/jbrowse1.html",
       "language": ["JS"],
-      "platform": ["Web"]
+      "platform": ["Web", "Desktop"]
     },
     {
       "tags": [
@@ -1741,6 +1742,7 @@
         "Hi-C"
       ],
       "name": "JBrowse 2",
+      "note": "See gallery for more examples https://jbrowse.org/jb2/gallery",
       "img": "jbrowse2.png",
       "url": "http://jbrowse.org/jb2",
       "language": ["JS", "Typescript", "React"],
