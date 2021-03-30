@@ -164,6 +164,7 @@
       "name": "JSAV",
       "img": "jsav.png",
       "url": "http://www.bioinf.org.uk/software/jsav",
+      "language": ["JS"],
       "platform": ["Web"],
       "publication": {
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4304231/"
@@ -180,6 +181,7 @@
       "tags": ["MSA"],
       "name": "LogoJS",
       "img": "logojs.png",
+      "language": ["JS"],
       "url": "https://logojs.wenglab.org/app/gallery/",
       "platform": ["Web"]
     },
@@ -195,6 +197,7 @@
       "name": "msaR",
       "url": "https://github.com/zachcp/msaR",
       "img": "msar.png",
+      "language": ["R", "JS"],
       "platform": ["Desktop", "R/htmlwidget"]
     },
     {
@@ -229,6 +232,7 @@
       "tags": ["MSA"],
       "name": "React MSAViewer",
       "img": "react-msa-viewer.png",
+      "language": ["JS", "React"],
       "url": "https://github.com/plotly/react-msa-viewer",
       "platform": ["Web"]
     },
@@ -237,6 +241,7 @@
       "name": "seqotron",
       "img": "seqotron.png",
       "url": "https://github.com/4ment/seqotron",
+      "language": ["Objective-C"],
       "platform": ["Desktop"]
     },
     {
@@ -1221,21 +1226,30 @@
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": [
+        "Special-purpose",
+        "Historical",
+        "Deadlink?",
+        "Gene structure",
+        "Annotation",
+        "Comparative"
+      ],
       "name": "Apollo",
       "img": "apollo.jpg",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/",
       "platform": ["Desktop"],
+      "language": ["Java"],
       "publication": {
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151184/"
       }
     },
     {
-      "tags": ["Gene structure", "Annotation"],
+      "tags": ["Gene structure", "Annotation", "JBrowse integration"],
       "img": "webapollo.jpg",
       "name": "Apollo aka WebApollo",
       "url": "https://genomearchitect.readthedocs.io/en/latest/",
-      "platform": ["Web"]
+      "platform": ["Web"],
+      "language": ["Java", "Groovy", "JS"]
     },
     {
       "tags": ["Synthetic biology"],
@@ -1689,10 +1703,16 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["General", "Alignment viewer", "SV"],
+      "tags": [
+        "General",
+        "Alignment viewer",
+        "SV",
+        "Quantitative",
+        "Gene structure"
+      ],
       "name": "JBrowse",
       "img": "jbrowse.png",
-      "url": "http://jbrowse.org/",
+      "url": "http://jbrowse.org/jbrowse1.html",
       "language": ["JS"],
       "platform": ["Web"]
     },
@@ -2220,6 +2240,13 @@
       "img": "fastani.jpg",
       "url": "https://github.com/ParBLiSS/FastANI",
       "language": ["C++"]
+    },
+    {
+      "name": "JGI/IMG",
+      "tags": ["Dotplot", "Linear", "Microbiology"],
+      "platform": ["Web", "Silo", "Uses MUMmer"],
+      "url": "https://img.jgi.doe.gov/",
+      "img": "jgiimg.png"
     }
   ]
 }
