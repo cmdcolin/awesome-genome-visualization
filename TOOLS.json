@@ -636,7 +636,7 @@
       "url": "https://bioconductor.org/packages/release/bioc/vignettes/trackViewer/inst/doc/trackViewer.html",
       "language": ["R"],
       "img": "trackviewer.png",
-      "tags": ["Static", "Lollipop", "Quantitative"]
+      "tags": ["Static", "Lollipops", "Quantitative"]
     },
     {
       "tags": ["Comparative", "Deadlink?"],
@@ -2127,7 +2127,7 @@
     {
       "tags": ["Pan-genome"],
       "name": "RPAN (3kricedb)",
-      "img": "rpan.jpng",
+      "img": "rpan.png",
       "platform": ["Web", "JBrowse integration"],
       "url": "http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF"
     },
@@ -2143,14 +2143,14 @@
       "language": ["JS"]
     },
     {
-      "tags": ["Protein", "Cancer"],
+      "tags": ["Protein", "Cancer", "Lollipops"],
       "name": "ProteinPaint",
       "img": "proteinpaint.png",
       "url": "https://pecan.stjude.cloud/proteinpaint",
       "platform": ["Web"]
     },
     {
-      "tags": ["Linear", "CNV", "Cancer"],
+      "tags": ["Linear", "CNV", "Cancer", "Lollipops"],
       "name": "GenomePaint",
       "img": "genomepaint.png",
       "url": "https://pecan.stjude.cloud/proteinpaint",
@@ -2164,14 +2164,14 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Heatmap"],
+      "tags": ["Heatmap", "Population"],
       "name": "UCSC Xena",
       "img": "xena.png",
       "url": "https://xena.ucsc.edu/",
       "platform": ["Web"]
     },
     {
-      "tags": ["Heatmap"],
+      "tags": ["Heatmap", "Population", "Variants"],
       "name": "VIVA",
       "img": "viva.png",
       "url": "https://www.biorxiv.org/content/10.1101/589879v1.full.pdf",

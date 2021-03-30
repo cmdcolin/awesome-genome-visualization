@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { tools } from "./TOOLS.json";
+import { useQueryParams, StringParam } from "use-query-params";
+
 import "./App.css";
 
 const Cards = ({ tools }) => {
@@ -160,7 +162,11 @@ const PlatformFilters = ({ setFilters, filters }) => {
   );
 };
 const IndexPage = () => {
-  const [filters, setFilters] = useState({});
+  const [filters, setFilters] = useQueryParams({
+    tag: StringParam,
+    language: StringParam,
+    platform: StringParam,
+  });
   const { language, tag, platform } = filters;
 
   const filteredTools = tools
@@ -186,7 +192,11 @@ const IndexPage = () => {
 
       <p>
         Example filters:
-        <button onClick={() => setFilters({})}>Clear filters</button>
+        <button
+          onClick={() => setFilters({ tag: "", language: "", platform: "" })}
+        >
+          Clear filters
+        </button>
         <button onClick={() => setFilters({ tag: "General" })}>
           General-purpose genome browsers
         </button>

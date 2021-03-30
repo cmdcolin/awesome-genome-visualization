@@ -2,6 +2,6 @@ module.exports = {
   siteMetadata: {
     title: "awesome-genome-visualization",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-use-query-params"],
   pathPrefix: "/awesome-genome-visualization",
 };
