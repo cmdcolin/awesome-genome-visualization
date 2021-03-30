@@ -286,9 +286,21 @@
       "tags": ["CNV", "Static"],
       "name": "aCNVViewer",
       "img": "acnvviewer.png",
+      "language": ["Python"],
       "url": "https://github.com/FJD-CEPH/aCNViewer",
       "publication": {
         "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334"
+      }
+    },
+    {
+      "name": "CNVkit",
+      "tags": ["CNV"],
+      "img": "cnvkit.png",
+      "url": "https://cnvkit.readthedocs.io/en/stable/plots.html",
+      "github": "https://github.com/etal/cnvkit",
+      "language": ["Python"],
+      "publication": {
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004873"
       }
     },
     {
@@ -1996,10 +2008,11 @@
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Epigenomics"],
+      "tags": ["Epigenomics", "CNV"],
       "name": "Chipster",
       "img": "chipster.jpg",
       "language": ["Java"],
+      "note": "Copy number tutorial https://chipster.csc.fi/manual/cn-tutorial.pdf",
       "url": "https://chipster.csc.fi/",
       "platform": ["Desktop"]
     },
