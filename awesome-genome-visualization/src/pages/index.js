@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { tools } from "./TOOLS.json";
-import { useQueryParams, StringParam } from "use-query-params";
+import { tools as importedTools } from "./TOOLS.json";
 
 import "./App.css";
 
@@ -78,7 +77,7 @@ const Card = ({
   );
 };
 
-const TagFilters = ({ setFilters, filters }) => {
+const TagFilters = ({ tools, setFilters, filters }) => {
   const tags = new Set();
   tools.forEach((tool) => {
     if (tool.tags) {
@@ -106,7 +105,7 @@ const TagFilters = ({ setFilters, filters }) => {
   );
 };
 
-const LanguageFilters = ({ setFilters, filters }) => {
+const LanguageFilters = ({ tools, setFilters, filters }) => {
   const languages = new Set();
   tools.forEach((tool) => {
     if (tool.language) {
@@ -134,7 +133,7 @@ const LanguageFilters = ({ setFilters, filters }) => {
   );
 };
 
-const PlatformFilters = ({ setFilters, filters }) => {
+const PlatformFilters = ({ tools, setFilters, filters }) => {
   const platform = new Set();
   tools.forEach((tool) => {
     if (tool.platform) {
@@ -162,14 +161,10 @@ const PlatformFilters = ({ setFilters, filters }) => {
   );
 };
 const IndexPage = () => {
-  const [filters, setFilters] = useQueryParams({
-    tag: StringParam,
-    language: StringParam,
-    platform: StringParam,
-  });
+  const [filters, setFilters] = useState({});
   const { language, tag, platform } = filters;
 
-  const filteredTools = tools
+  const filteredTools = importedTools
     .filter((tool) => (language ? tool.language?.includes(language) : true))
     .filter((tool) => (tag ? tool.tags?.includes(tag) : true))
     .filter((tool) => (platform ? tool.platform?.includes(platform) : true));
@@ -208,9 +203,21 @@ const IndexPage = () => {
         </button>
         <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
       </p>
-      <TagFilters filters={filters} setFilters={setFilters} />
-      <LanguageFilters filters={filters} setFilters={setFilters} />
-      <PlatformFilters filters={filters} setFilters={setFilters} />
+      <TagFilters
+        tools={importedTools}
+        filters={filters}
+        setFilters={setFilters}
+      />
+      <LanguageFilters
+        tools={importedTools}
+        filters={filters}
+        setFilters={setFilters}
+      />
+      <PlatformFilters
+        tools={importedTools}
+        filters={filters}
+        setFilters={setFilters}
+      />
 
       <Cards filters={filters} tools={filteredTools} />
       <p>
