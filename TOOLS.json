@@ -85,7 +85,7 @@
       "url": "https://www.strand-ngs.com/"
     },
     {
-      "tags": ["Commercial"],
+      "tags": ["Commercial", "SV"],
       "img": "bionano.png",
       "name": "Bionano",
       "url": "https://bionanogenomics.com/technology/structural-variation/"
@@ -117,6 +117,7 @@
       "name": "AlignmentComparator",
       "img": "alignmentcomparator.png",
       "url": "http://bioinfweb.info/AlignmentComparator/",
+      "note": "Uses http://bioinfweb.info/LibrAlign/",
       "language": ["Java"]
     },
     {
@@ -176,13 +177,6 @@
       "publication": {
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4304231/"
       }
-    },
-    {
-      "tags": ["MSA"],
-      "img": "libralign.png",
-      "name": "LibrAlign",
-      "url": "http://bioinfweb.info/LibrAlign/",
-      "platform": ["Desktop"]
     },
     {
       "tags": ["MSA"],
