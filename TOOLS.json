@@ -2260,6 +2260,13 @@
       "platform": ["Web", "Silo", "Uses MUMmer"],
       "url": "https://img.jgi.doe.gov/",
       "img": "jgiimg.png"
+    },
+    {
+      "name": "covviz",
+      "tags": ["CNV", "Coverage", "Population"],
+      "language": ["JS"],
+      "url": "https://brwnj.github.io/covviz/",
+      "img": "covviz.png"
     }
   ]
 }
