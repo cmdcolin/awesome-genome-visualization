@@ -26,14 +26,14 @@ const Card = ({
     <div className="card">
       <div>
         <h3>{name}</h3>
-        <a href={url}>{url}</a>
+        <p class="link"><a href={url}>{url}</a></p>
         {alt_url ? (
-          <p>
+          <p class="link">
             Alt url <a href={alt_url}>{alt_url}</a>
           </p>
         ) : null}
         {publication ? (
-          <p>
+          <p class="link">
             Publication:{" "}
             <a href={publication.url}>
               {publication.url}{" "}
@@ -42,37 +42,35 @@ const Card = ({
           </p>
         ) : null}
         {language ? <p>Language: {language.join(", ")}</p> : null}
-        {tags ? <p>tags: {tags.join(", ")}</p> : null}
-        {note ? <p>note: {note}</p> : null}
+        {tags ? <p>Tags: {tags.join(", ")}</p> : null}
+        {note ? <p>Note: {note}</p> : null}
         {github ? (
-          <p>
+          <p class="link">
             Github: <a href={github}>{github}</a>
           </p>
         ) : null}
-        {platform ? <p>platform: {platform.join(", ")}</p> : null}
+        {platform ? <p>Platform: {platform.join(", ")}</p> : null}
       </div>
-      <div style={{ flexGrow: 1 }} />
-      <div role="presentation" onClick={() => setExpanded((state) => !state)}>
+      <figure role="presentation" onClick={() => setExpanded((state) => !state)}>
         {img ? (
           <img
             alt={`screenshot of ${name}`}
             loading="lazy"
-            style={
-              expanded
-                ? { maxWidth: 1000, maxHeight: 800, cursor: "pointer" }
-                : {
-                    maxWidth: 400,
-                    width: "90%",
-                    maxHeight: 250,
-                    cursor: "pointer",
-                  }
-            }
+            class={expanded ? "expanded" : ""}
             src={img}
           />
         ) : (
-          <p>No screenshot</p>
+          <p class="no-screenshot">No screenshot</p>
         )}
-      </div>
+        {expanded ? (
+            <div class="modal-backdrop">
+                <img
+                    alt={`screenshot of ${name}`}
+                    src={img}
+                />
+            </div>
+        ) : null}
+      </figure>
     </div>
   );
 };
@@ -85,7 +83,7 @@ const TagFilters = ({ tools, setFilters, filters }) => {
     }
   });
   return (
-    <div style={{ display: "block" }}>
+    <div class="form-group">
       <label htmlFor="tag-select">Tag: </label>
       <select
         id="tag-select"
@@ -113,7 +111,7 @@ const LanguageFilters = ({ tools, setFilters, filters }) => {
     }
   });
   return (
-    <div style={{ display: "block" }}>
+    <div class="form-group">
       <label htmlFor="language-select">Language: </label>
       <select
         value={filters.language || ""}
@@ -141,7 +139,7 @@ const PlatformFilters = ({ tools, setFilters, filters }) => {
     }
   });
   return (
-    <div style={{ display: "block" }}>
+    <div class="form-group">
       <label htmlFor="platform-select">Platform: </label>
       <select
         value={filters.platform || ""}
@@ -172,7 +170,7 @@ const IndexPage = () => {
   return (
     <main className="page">
       <title>awesome-genome-visualization</title>
-      <h1 style={{ margin: 0 }}>awesome-genome-visualization</h1>
+      <h1>awesome-genome-visualization</h1>
       <p>
         This is a companion website for the github repo{" "}
         <a href="https://github.com/cmdcolin/awesome-genome-visualization">
@@ -183,9 +181,8 @@ const IndexPage = () => {
         Please submit PRs for more tools there and thanks to all the
         contributors!
       </p>
-      <p>Note: you can click on the images to make them larger</p>
 
-      <p>
+      <p id="example-filters">
         Example filters:
         <button
           onClick={() => setFilters({ tag: "", language: "", platform: "" })}
@@ -203,21 +200,24 @@ const IndexPage = () => {
         </button>
         <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
       </p>
-      <TagFilters
-        tools={importedTools}
-        filters={filters}
-        setFilters={setFilters}
-      />
-      <LanguageFilters
-        tools={importedTools}
-        filters={filters}
-        setFilters={setFilters}
-      />
-      <PlatformFilters
-        tools={importedTools}
-        filters={filters}
-        setFilters={setFilters}
-      />
+
+      <div id="filters">
+        <TagFilters
+            tools={importedTools}
+            filters={filters}
+            setFilters={setFilters}
+        />
+        <LanguageFilters
+            tools={importedTools}
+            filters={filters}
+            setFilters={setFilters}
+        />
+        <PlatformFilters
+            tools={importedTools}
+            filters={filters}
+            setFilters={setFilters}
+        />
+      </div>
 
       <Cards filters={filters} tools={filteredTools} />
       <p>
