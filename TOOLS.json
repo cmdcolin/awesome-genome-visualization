@@ -701,18 +701,18 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Comparative", "Dotplot", "Linear"],
+      "tags": ["Comparative", "Dotplot", "Linear", "JBrowse integration"],
       "name": "CoGe",
       "img": "coge.png",
       "url": "https://genomevolution.org/coge/",
       "language": ["Perl"],
-      "platform": ["Web", "Silo", "JBrowse integration"]
+      "platform": ["Web", "Silo"]
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "UCSC integration"],
       "name": "Comparative assembly hub / \"snake track\"",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/",
-      "platform": ["Web", "UCSC integration"],
+      "platform": ["Web"],
       "img": "comparative_assembly_hub.png",
       "publication": {
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/"
@@ -1998,11 +1998,11 @@
       "platform": ["Desktop"]
     },
     {
-      "tags": ["Epigenomics"],
+      "tags": ["Epigenomics", "Higlass integration"],
       "name": "Epilogos",
       "img": "epilogos.jpg",
       "url": "https://epilogos.altius.org/",
-      "platform": ["Web", "Higlass integration"]
+      "platform": ["Web"]
     },
     {
       "tags": ["Epigenomics"],
@@ -2016,20 +2016,20 @@
       }
     },
     {
-      "tags": ["Epigenomics"],
+      "tags": ["Epigenomics", "Hi-C", "UCSC integration"],
       "name": "HiC browser",
       "url": "http://promoter.bx.psu.edu/hi-c/view.php",
-      "platform": ["Web", "UCSC integration"]
+      "platform": ["Web"]
     },
     {
-      "tags": ["Epigenomics", "Hi-C"],
+      "tags": ["Epigenomics", "Hi-C", "Higlass integration"],
       "name": "HiPiler",
       "img": "hipiler.png",
-      "platform": ["Web", "Higlass integration"],
+      "platform": ["Web"],
       "url": "http://hipiler.higlass.io"
     },
     {
-      "tags": ["Epigenomics"],
+      "tags": ["Epigenomics", "Hi-C"],
       "name": "Juicebox",
       "img": "juicebox.jpg",
       "url": "https://github.com/aidenlab/Juicebox",
@@ -2040,7 +2040,7 @@
       }
     },
     {
-      "tags": ["Epigenomics"],
+      "tags": ["Epigenomics", "Hi-C"],
       "name": "Juicebox.js",
       "img": "juiceboxjs.jpg",
       "url": "http://www.igv.org/doc/juiceboxjs.html",
@@ -2051,11 +2051,11 @@
       }
     },
     {
-      "tags": ["Epigenomics"],
+      "tags": ["Epigenomics", "Higlass integration"],
       "name": "Peax",
       "img": "peax.png",
       "language": ["JS"],
-      "platform": ["Web", "Higlass integration"],
+      "platform": ["Web"],
       "url": "https://github.com/Novartis/peax"
     },
     {
@@ -2152,10 +2152,10 @@
       }
     },
     {
-      "tags": ["Pan-genome"],
+      "tags": ["Pan-genome", "JBrowse integration"],
       "name": "RPAN (3kricedb)",
       "img": "rpan.png",
-      "platform": ["Web", "JBrowse integration"],
+      "platform": ["Web"],
       "url": "http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF"
     },
     {
