@@ -2205,6 +2205,21 @@
       "language": ["Perl"],
       "platform": ["CLI"],
       "tags": ["Linear", "Comparative"]
+    },
+    {
+      "name": "Gview",
+      "tags": ["Circular", "Linear", "Pangenome", "Microbiology"],
+      "url": "https://server.gview.ca/examples",
+      "img": "gview.png",
+      "platform": ["Web"],
+      "languages": ["Perl", "Java", "Java web start"]
+    },
+    {
+      "name": "FastANI",
+      "tags": ["Comparative", "Microbiology"],
+      "img": "fastani.jpg",
+      "url": "https://github.com/ParBLiSS/FastANI",
+      "language": ["C++"]
     }
   ]
 }
