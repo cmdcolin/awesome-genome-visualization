@@ -87,6 +87,7 @@
     {
       "tags": ["MSA"],
       "name": "AA",
+      "note": "also see STRAP",
       "img": "aa.png",
       "url": "http://www.bioinformatics.org/strap/aa",
       "platform": ["Web"]
@@ -254,6 +255,7 @@
     {
       "tags": ["MSA"],
       "name": "STRAP",
+      "note": "also see AA",
       "img": "strap.png",
       "url": "http://www.bioinformatics.org/strap/",
       "platform": ["Web", "Applet"]
@@ -494,7 +496,7 @@
     {
       "name": "pauvre",
       "url": "https://github.com/conchoecia/pauvre",
-      "tags": ["Static", "QC", "Comparative"],
+      "tags": ["Static", "Misc QC", "Comparative"],
       "img": "pauvre.png",
       "language": ["Python"],
       "platform": ["CLI"],
@@ -981,7 +983,7 @@
       "name": "gfaestus",
       "img": "gfaestus.png",
       "url": "https://github.com/chfi/gfaestus",
-      "platform": ["Rust"]
+      "language": ["Rust"]
     },
     {
       "tags": ["Graph"],
@@ -1010,6 +1012,8 @@
     {
       "tags": ["Graph"],
       "name": "odgi",
+      "img": "odgi.png",
+      "note": "Example from https://github.com/pangenome/pggb",
       "url": "https://pangenome.github.io/odgi/odgi_docs.html#_odgi_viz1"
     },
     {
@@ -1021,7 +1025,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Text based"],
+      "tags": ["Text based", "MSA"],
       "name": "Alan",
       "img": "alan.png",
       "url": "https://github.com/mpdunne/alan",
@@ -1037,7 +1041,7 @@
       "language": ["Python"]
     },
     {
-      "tags": ["Text based"],
+      "tags": ["Text based", "Alignment viewer"],
       "name": "ASCIIGenome",
       "img": "asciigenome.png",
       "url": "https://github.com/dariober/ASCIIGenome",
@@ -1045,7 +1049,7 @@
       "platform": ["CLI"]
     },
     {
-      "tags": ["Text based"],
+      "tags": ["Text based", "Coverage"],
       "name": "Bamcov",
       "img": "bamcov.png",
       "url": "https://github.com/fbreitwieser/bamcov",
@@ -1104,14 +1108,14 @@
       "platform": ["CLI"]
     },
     {
-      "tags": ["Text based"],
+      "tags": ["Text based", "Coverage"],
       "name": "Samtools depth visualization",
       "img": "depthplot.png",
       "url": "https://twitter.com/yokofakun/status/1178686978541441025",
       "platform": ["CLI", "GNUplot"]
     },
     {
-      "tags": ["Text based"],
+      "tags": ["Text based", "Alignment viewer"],
       "name": "Samtools tview",
       "url": "http://www.htslib.org/",
       "language": ["C"],
@@ -1377,7 +1381,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": ["Special-purpose", "Alignment viewer", "Assembly QC"],
       "name": "Hawkeye",
       "img": "hawkeye.png",
       "publication": {
@@ -1394,7 +1398,7 @@
       "img": "human_genome_dating.png"
     },
     {
-      "tags": ["Assembly", "QC"],
+      "tags": ["Assembly QC"],
       "name": "Icarus",
       "img": "icarus.png",
       "url": "http://quast.sourceforge.net/icarus.html",
