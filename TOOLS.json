@@ -198,6 +198,7 @@
       "name": "msaR",
       "url": "https://github.com/zachcp/msaR",
       "img": "msar.png",
+      "note": "uses BioJS/MSA",
       "language": ["R", "JS"],
       "platform": ["Desktop", "R/htmlwidget"]
     },
@@ -220,6 +221,7 @@
       "name": "pyBoxshade",
       "url": "https://github.com/mdbaron42/pyBoxshade",
       "language": ["Python"],
+      "note": "also see boxshade",
       "platform": ["Desktop"]
     },
     {
