@@ -2282,6 +2282,17 @@
       "language": ["JS"],
       "url": "https://brwnj.github.io/covviz/",
       "img": "covviz.png"
+    },
+    {
+      "name": "clinker",
+      "tags": ["Comparative", "Gene order"],
+      "language": ["JS"],
+      "img": "clinker.png",
+      "url": "https://github.com/gamcil/clinker",
+      "platform": ["Web"],
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab007/6103786"
+      }
     }
   ]
 }
