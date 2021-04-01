@@ -26,14 +26,14 @@ const Card = ({
     <div className="card">
       <div>
         <h3>{name}</h3>
-        <p class="link"><a href={url}>{url}</a></p>
+        <p className="link"><a href={url}>{url}</a></p>
         {alt_url ? (
-          <p class="link">
+          <p className="link">
             Alt url <a href={alt_url}>{alt_url}</a>
           </p>
         ) : null}
         {publication ? (
-          <p class="link">
+          <p className="link">
             Publication:{" "}
             <a href={publication.url}>
               {publication.url}{" "}
@@ -45,7 +45,7 @@ const Card = ({
         {tags ? <p>Tags: {tags.join(", ")}</p> : null}
         {note ? <p>Note: {note}</p> : null}
         {github ? (
-          <p class="link">
+          <p className="link">
             Github: <a href={github}>{github}</a>
           </p>
         ) : null}
@@ -56,14 +56,14 @@ const Card = ({
           <img
             alt={`screenshot of ${name}`}
             loading="lazy"
-            class={expanded ? "expanded" : ""}
+            className={expanded ? "expanded" : ""}
             src={img}
           />
         ) : (
-          <p class="no-screenshot">No screenshot</p>
+          <p className="no-screenshot">No screenshot</p>
         )}
         {expanded ? (
-            <div class="modal-backdrop">
+            <div className="modal-backdrop">
                 <img
                     alt={`screenshot of ${name}`}
                     src={img}
@@ -83,7 +83,7 @@ const TagFilters = ({ tools, setFilters, filters }) => {
     }
   });
   return (
-    <div class="form-group">
+    <div className="form-group">
       <label htmlFor="tag-select">Tag: </label>
       <select
         id="tag-select"
@@ -111,7 +111,7 @@ const LanguageFilters = ({ tools, setFilters, filters }) => {
     }
   });
   return (
-    <div class="form-group">
+    <div className="form-group">
       <label htmlFor="language-select">Language: </label>
       <select
         value={filters.language || ""}
@@ -139,7 +139,7 @@ const PlatformFilters = ({ tools, setFilters, filters }) => {
     }
   });
   return (
-    <div class="form-group">
+    <div className="form-group">
       <label htmlFor="platform-select">Platform: </label>
       <select
         value={filters.platform || ""}
