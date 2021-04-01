@@ -14,6 +14,7 @@ main {
 
 :root {
   --basic-spacing: 15px;
+  --card-border-width: 1px;
 }
 
 h1 {
@@ -79,21 +80,15 @@ p {
   display: flex;
   justify-content: space-between;
 
-  border: 1px solid #ccc;
+  border: var(--card-border-width) solid #ccc;
   border-bottom-color: #bbb;
   background-color: white;
 
   box-shadow: 0 3px 2px rgb(0, 0, 0, 0.05);
 }
 
-.card > div {
-  min-width: max(400px, 30vw);
-}
-
 .card > figure {
-  max-width: 500px;
-  margin: 0;
-  margin-left: var(--basic-spacing);
+    margin: 0;
 }
 
 .no-screenshot {
@@ -151,6 +146,18 @@ h3:first-child {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
+@media (min-width: 800px) {
+    .card > div {
+        min-width: max(400px, 30vw);
+    }
+
+    .card > figure {
+        max-width: 500px;
+        margin-left: var(--basic-spacing);
+    }
+}
+
 @media (max-width: 800px) {
   .page {
     padding: var(--basic-spacing);
@@ -163,7 +170,7 @@ h3:first-child {
   }
 
   .card .link {
-    max-width: 90%;
+    max-width: calc(100vw - var(--basic-spacing) * 4 - var(--card-border-width) * 2);
   }
 
   .card > figure {
@@ -174,4 +181,12 @@ h3:first-child {
     margin-left: 0;
   }
 
+  .modal-backdrop {
+      overflow: scroll;
+      display: block;
+  }
+
+  .modal-backdrop img {
+      max-width: none;
+  }
 }
