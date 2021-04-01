@@ -22,6 +22,7 @@ genome-browser-like implementations
 - [Ensembl genome browser 2020 edition](http://2020.ensembl.org/)
 - [GBrowse+GBrowse 2](http://gmod.org/wiki/GBrowse)
 - [GenomeMaps](http://www.genomemaps.org/) (used on ICGC)
+- [Gosling](http://gosling.js.org)
 - [HiGlass](https://higlass.io) (has epigenomics focus but quite advanced)
 - [IGV.js](https://github.com/igvteam/igv.js/)
 - [JBrowse](http://jbrowse.org/) [can run on desktop via Electron]
