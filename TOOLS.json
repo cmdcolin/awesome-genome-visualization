@@ -1799,6 +1799,14 @@
       "platform": ["Web"]
     },
     {
+      "tags": ["General", "Epigenomics", "Higlass integration", "Linear", "Circular", "Comparative", "Quantitative"],
+      "name": "Gosling",
+      "img": "gosling.png",
+      "language": ["JS", "WebGL", "Typescript", "React"],
+      "platform": ["Web"],
+      "url": "https://gosling.js.org/"
+    },
+    {
       "tags": ["General"],
       "img": "ucsc.jpg",
       "name": "UCSC genome browser",
