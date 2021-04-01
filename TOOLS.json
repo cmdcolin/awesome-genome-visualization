@@ -1713,6 +1713,14 @@
       "platform": ["Web"]
     },
     {
+      "tags": ["General", "Epigenomics", "Higlass integration", "Linear", "Circular", "Comparative", "Quantitative"],
+      "name": "Gosling",
+      "img": "gosling.png",
+      "language": ["JS", "WebGL", "Typescript", "React"],
+      "platform": ["Web"],
+      "url": "https://gosling.js.org/"
+    },
+    {
       "tags": ["General", "Epigenomics", "Hi-C"],
       "name": "HiGlass",
       "img": "higlass.png",
@@ -1797,14 +1805,6 @@
       "img": "trackster.png",
       "url": "https://galaxyproject.org/learn/visualization/",
       "platform": ["Web"]
-    },
-    {
-      "tags": ["General", "Epigenomics", "Higlass integration", "Linear", "Circular", "Comparative", "Quantitative"],
-      "name": "Gosling",
-      "img": "gosling.png",
-      "language": ["JS", "WebGL", "Typescript", "React"],
-      "platform": ["Web"],
-      "url": "https://gosling.js.org/"
     },
     {
       "tags": ["General"],
