@@ -1164,6 +1164,13 @@
       "platform": ["Web"]
     },
     {
+      "tags": ["Commercial", "Circular"],
+      "name": "Circa",
+      "img": "circa.png",
+      "url": "https://omgenomics.com/circa",
+      "platform": ["Desktop"]
+    },
+    {
       "tags": ["Circular", "Static"],
       "name": "Circleator",
       "img": "circleator.png",
@@ -1343,8 +1350,9 @@
     },
     {
       "tags": ["SV", "Alignment viewer"],
-      "name": "GenomeRibbon",
+      "name": "Ribbon",
       "url": "http://genomeribbon.com/",
+      "github": "https://github.com/MariaNattestad/ribbon",
       "img": "genomeribbon.png",
       "platform": ["Web"],
       "publication": {
@@ -1543,6 +1551,7 @@
       "tags": ["SV", "CNV"],
       "name": "SplitThreader",
       "img": "splitthreader.png",
+      "github": "https://github.com/MariaNattestad/SplitThreader",
       "url": "http://splitthreader.com/",
       "platform": ["Web"]
     },
@@ -1661,6 +1670,7 @@
       "name": "BigTop",
       "img": "bigtop.png",
       "url": "https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/",
+      "github": "https://github.com/dnanexus/bigtop",
       "platform": ["Web"]
     },
     {
@@ -1880,9 +1890,11 @@
       "language": ["Python"]
     },
     {
-      "tags": ["Dotplot", "Deadlink?"],
+      "tags": ["Dotplot"],
       "name": "Dot",
-      "url": "https://github.com/dnanexus/dot",
+      "url": "https://dot.sandbox.bio/",
+      "github": "https://github.com/MariaNattestad/dot",
+      "img": "dot.png",
       "platform": ["Web"]
     },
     {
