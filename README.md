@@ -280,7 +280,7 @@ genome-browser-like implementations
 - [D-GENIES](https://github.com/genotoul-bioinfo/dgenies)
 - [Delly-maze](https://github.com/dellytools/maze)
 - [Discoplot](https://github.com/mjsull/DiscoPlot)
-- [Dot](https://github.com/dnanexus/dot)
+- [Dot](https://dot.sandbox.bio/)
 - [Dotlet](https://dotlet.vital-it.ch/)
 - [Dotplot (iLambda)](https://github.com/iLambda/dotplot)
 - [Dotplot (chirimoyo)](https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/)
