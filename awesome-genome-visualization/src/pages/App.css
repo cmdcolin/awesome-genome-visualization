@@ -51,7 +51,6 @@ p {
   margin-left: 5px;
 }
 
-
 .form-group {
   display: flex;
   align-items: center;
@@ -71,8 +70,6 @@ p {
   background-color: white;
 }
 
-
-
 .card {
   margin: var(--basic-spacing) 0;
   padding: var(--basic-spacing);
@@ -88,7 +85,7 @@ p {
 }
 
 .card > figure {
-    margin: 0;
+  margin: 0;
 }
 
 .no-screenshot {
@@ -103,7 +100,8 @@ p {
 
   display: block;
   cursor: pointer;
-  width: 100%;
+  max-height: 400px;
+  max-width: 100%;
 }
 
 /* Use this class to truncate long links */
@@ -129,8 +127,7 @@ h3:first-child {
 
   display: flex;
   align-items: center;
-  justify-content: center;;
-
+  justify-content: center;
 }
 
 .modal-backdrop img {
@@ -141,21 +138,20 @@ h3:first-child {
    * https://web.dev/aspect-ratio/
    */
   max-width: 90%;
-
+  max-height: 90%;
   border: 10px solid black;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
 @media (min-width: 800px) {
-    .card > div {
-        min-width: max(400px, 30vw);
-    }
+  .card > div {
+    min-width: max(400px, 30vw);
+  }
 
-    .card > figure {
-        max-width: 500px;
-        margin-left: var(--basic-spacing);
-    }
+  .card > figure {
+    max-width: 500px;
+    margin-left: var(--basic-spacing);
+  }
 }
 
 @media (max-width: 800px) {
@@ -170,11 +166,14 @@ h3:first-child {
   }
 
   .card .link {
-    max-width: calc(100vw - var(--basic-spacing) * 4 - var(--card-border-width) * 2);
+    max-width: calc(
+      100vw - var(--basic-spacing) * 4 - var(--card-border-width) * 2
+    );
   }
 
   .card > figure {
-    max-width: none;
+    max-width: 800px;
+    max-height: 900px;
     margin-top: var(--basic-spacing);
     padding-top: var(--basic-spacing);
     border-top: 1px dashed #ccc;
@@ -182,11 +181,11 @@ h3:first-child {
   }
 
   .modal-backdrop {
-      overflow: scroll;
-      display: block;
+    overflow: scroll;
+    display: block;
   }
 
   .modal-backdrop img {
-      max-width: none;
+    max-width: 800px;
   }
 }
