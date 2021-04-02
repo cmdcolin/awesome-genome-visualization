@@ -600,7 +600,7 @@
       "url": "https://github.com/harbourlab/SparK",
       "language": ["Python"],
       "img": "spark.png",
-      "tags": ["Static", "Hi-C", "Quantative"],
+      "tags": ["Static", "Hi-C", "Quantitative"],
       "publication": {
         "url": "https://www.biorxiv.org/content/10.1101/845529v1.full.pdf"
       }
@@ -1723,7 +1723,15 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["General", "Epigenomics", "Higlass integration", "Linear", "Circular", "Comparative", "Quantitative"],
+      "tags": [
+        "General",
+        "Epigenomics",
+        "Higlass integration",
+        "Linear",
+        "Circular",
+        "Comparative",
+        "Quantitative"
+      ],
       "name": "Gosling",
       "img": "gosling.png",
       "language": ["JS", "WebGL", "Typescript", "React"],
@@ -1921,6 +1929,7 @@
       "tags": ["Dotplot"],
       "name": "dotPlotly",
       "url": "https://github.com/tpoorten/dotPlotly/",
+      "img": "dotplotly.png",
       "language": ["R", "Shiny"],
       "platform": ["Web"]
     },
