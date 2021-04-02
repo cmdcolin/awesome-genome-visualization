@@ -26,7 +26,9 @@ const Card = ({
     <div className="card">
       <div>
         <h3>{name}</h3>
-        <p className="link"><a href={url}>{url}</a></p>
+        <p className="link">
+          <a href={url}>{url}</a>
+        </p>
         {alt_url ? (
           <p className="link">
             Alt url <a href={alt_url}>{alt_url}</a>
@@ -51,7 +53,10 @@ const Card = ({
         ) : null}
         {platform ? <p>Platform: {platform.join(", ")}</p> : null}
       </div>
-      <figure role="presentation" onClick={() => setExpanded((state) => !state)}>
+      <figure
+        role="presentation"
+        onClick={() => setExpanded((state) => !state)}
+      >
         {img ? (
           <img
             alt={`screenshot of ${name}`}
@@ -63,12 +68,9 @@ const Card = ({
           <p className="no-screenshot">No screenshot</p>
         )}
         {expanded ? (
-            <div className="modal-backdrop">
-                <img
-                    alt={`screenshot of ${name}`}
-                    src={img}
-                />
-            </div>
+          <div className="modal-backdrop">
+            <img alt={`screenshot of ${name}`} src={img} />
+          </div>
         ) : null}
       </figure>
     </div>
@@ -203,19 +205,19 @@ const IndexPage = () => {
 
       <div id="filters">
         <TagFilters
-            tools={importedTools}
-            filters={filters}
-            setFilters={setFilters}
+          tools={importedTools}
+          filters={filters}
+          setFilters={setFilters}
         />
         <LanguageFilters
-            tools={importedTools}
-            filters={filters}
-            setFilters={setFilters}
+          tools={importedTools}
+          filters={filters}
+          setFilters={setFilters}
         />
         <PlatformFilters
-            tools={importedTools}
-            filters={filters}
-            setFilters={setFilters}
+          tools={importedTools}
+          filters={filters}
+          setFilters={setFilters}
         />
       </div>
 
@@ -223,6 +225,10 @@ const IndexPage = () => {
       <p>
         Note: if you would like your tool removed or screenshot removed (for
         copyright purposes for example) let me know
+      </p>
+      <p>
+        And always remember, "YOU ARE AWESOME!!" read in Ben Busby voice for
+        added effect. Thanks Ben for always being awesome :)
       </p>
     </main>
   );
