@@ -518,12 +518,7 @@
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6991124/figure/fig-3/"
       }
     },
-    {
-      "name": "PIECE2",
-      "url": "https://probes.pw.usda.gov/piece/index.php",
-      "tags": ["Static", "Deadlink?", "Gene structure"],
-      "platform": ["Web"]
-    },
+
     {
       "name": "PureScript genetics browser",
       "url": "https://github.com/chfi/purescript-genetics-browser",
@@ -578,21 +573,12 @@
     {
       "name": "shinyChromosome",
       "url": "http://150.109.59.144:3838/shinyChromosome/",
-      "platform": ["Web", "Shiny"],
+      "platform": ["Web"],
       "tags": ["Dotplot", "Linear", "Ideogram"],
       "img": "shinychromosome.png",
-      "language": ["R"],
+      "language": ["R", "Shiny"],
       "publication": {
         "url": "https://www.sciencedirect.com/science/article/pii/S1672022919301883"
-      }
-    },
-    {
-      "name": "SNPduo",
-      "url": "http://pevsnerlab.kennedykrieger.org/SNPduo/",
-      "img": "snpduo.png",
-      "platform": ["Web", "Static"],
-      "publication": {
-        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006711)"
       }
     },
     {
@@ -2322,6 +2308,14 @@
       "publication": {
         "url": "https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab007/6103786"
       }
+    },
+    {
+      "name": "PopSV",
+      "tags": ["Population", "SV"],
+      "platform": ["Web"],
+      "language": ["R"],
+      "url": "https://github.com/jmonlong/PopSV/blob/master/3-Visualization.md",
+      "img": "popsv.png"
     }
   ]
 }
