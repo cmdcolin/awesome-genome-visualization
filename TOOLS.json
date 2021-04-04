@@ -2210,6 +2210,9 @@
       "name": "ProteinPaint",
       "img": "proteinpaint.png",
       "url": "https://pecan.stjude.cloud/proteinpaint",
+      "publication": {
+        "url": "https://www.nature.com/articles/ng.3466"
+      },
       "platform": ["Web"]
     },
     {
@@ -2218,6 +2221,9 @@
       "img": "genomepaint.png",
       "url": "https://genomepaint.stjude.cloud/",
       "note": "See also gallery here https://genomepaint.stjude.cloud/#figures",
+      "publication": {
+        "url": "https://www.cell.com/cancer-cell/fulltext/S1535-6108(20)30659-0"
+      },
       "platform": ["Web"]
     },
     {
