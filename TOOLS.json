@@ -2333,6 +2333,29 @@
       "img": "shasta.png",
       "language": ["C++"],
       "platform": ["Web", "Localhost", "CLI"]
+    },
+    {
+      "name": "LINX",
+      "note": "part of the PURPLE/GRIDSS/LINX pipeline",
+      "url": "https://github.com/hartwigmedical/hmftools/blob/master/sv-linx/README_VIS.md",
+      "img": "linx.png",
+      "tags": [
+        "Graph",
+        "SV",
+        "Breakends",
+        "Circular",
+        "Linear",
+        "Gene fusion",
+        "Cancer"
+      ]
+    },
+    {
+      "name": "PURPLE",
+      "note": "part of the PURPLE/GRIDSS/LINX pipeline, stands for purity ploidy estimator",
+      "url": "https://github.com/hartwigmedical/hmftools/blob/master/purity-ploidy-estimator/README.md",
+      "note": "intermutation-distance rainfall plots/katagesis plots are not technically in genomic coordinates, but do indicate genomic cluster of variatnts",
+      "tags": ["CNV", "Cancer"],
+      "img": "purple.png"
     }
   ]
 }
