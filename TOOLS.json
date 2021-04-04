@@ -2216,7 +2216,8 @@
       "tags": ["Linear", "CNV", "Cancer", "Lollipops"],
       "name": "GenomePaint",
       "img": "genomepaint.png",
-      "url": "https://pecan.stjude.cloud/proteinpaint",
+      "url": "https://genomepaint.stjude.cloud/",
+      "note": "See also gallery here https://genomepaint.stjude.cloud/#figures",
       "platform": ["Web"]
     },
     {
@@ -2287,7 +2288,8 @@
     {
       "name": "JGI/IMG",
       "tags": ["Dotplot", "Linear", "Microbiology"],
-      "platform": ["Web", "Silo", "Uses MUMmer"],
+      "platform": ["Web", "Silo"],
+      "note": "Dotplot use MUMmer",
       "url": "https://img.jgi.doe.gov/",
       "img": "jgiimg.png"
     },
@@ -2316,6 +2318,15 @@
       "language": ["R"],
       "url": "https://github.com/jmonlong/PopSV/blob/master/3-Visualization.md",
       "img": "popsv.png"
+    },
+    {
+      "name": "Shasta",
+      "tags": ["Graph"],
+      "url": "https://chanzuckerberg.github.io/shasta/ComputationalMethods.html#ReadGraph",
+      "note": "Uses graphviz",
+      "img": "shasta.png",
+      "language": ["C++"],
+      "platform": ["Web", "Localhost", "CLI"]
     }
   ]
 }
