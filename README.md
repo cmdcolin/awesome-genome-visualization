@@ -358,7 +358,6 @@ genome-browser-like implementations
 
 Send in PRs for more stuff!
 
-
 ## License
 
 This README.md and TOOLS.json are CC0
@@ -366,4 +365,4 @@ https://creativecommons.org/publicdomain/zero/1.0/
 
 ## Remember
 
-Always remember, "YOU ARE AWESOME"!!! (read in Ben Busby's voice, thanks Ben :)
+Always remember, "YOU ARE AWESOME"!!! (read in Ben Busby's voice, thanks Ben for reminding us of this always :)

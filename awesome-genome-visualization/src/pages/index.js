@@ -184,6 +184,16 @@ const IndexPage = () => {
         contributors!
       </p>
 
+      <p>
+        Note: The range of tools here includes a full spectrum of very
+        simple/bespoke scripts to complex or very re-usable general purpose
+        apps. Some things are included more for visual inspiration than as a
+        suggestion to re-use, but in most cases re-usablility should be
+        possible. Also, if you are an author on a scientific paper, please cite
+        your use of visualization tools and libraries! It helps others know how
+        you made your awesome figures, and gives proper credit.
+      </p>
+
       <p id="example-filters">
         Example filters:
         <button
@@ -228,7 +238,7 @@ const IndexPage = () => {
       </p>
       <p>
         And always remember, "YOU ARE AWESOME!!" read in Ben Busby voice for
-        added effect. Thanks Ben for always being awesome :)
+        added effect. Thanks Ben for reminding us of this always :)
       </p>
     </main>
   );
