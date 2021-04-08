@@ -190,8 +190,9 @@ const IndexPage = () => {
         apps. Some things are included more for visual inspiration than as a
         suggestion to re-use, but in most cases re-usablility should be
         possible. Also, if you are an author on a scientific paper, please cite
-        your use of visualization tools and libraries! It helps others know how
-        you made your awesome figures, and gives proper credit.
+        your use of visualization tools and libraries, or put your own custom
+        visualization scripts on github and try to make them re-usable. It helps
+        others know how you made your awesome figures!
       </p>
 
       <p id="example-filters">
