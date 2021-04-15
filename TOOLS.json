@@ -1205,14 +1205,14 @@
       }
     },
     {
-      "tags": ["Circular", "Static"],
+      "tags": ["Circular", "Static", "Comparative"],
       "name": "JupiterPlot",
       "img": "jupiterplot.png",
       "url": "https://github.com/JustinChu/JupiterPlot",
       "language": ["Perl"]
     },
     {
-      "tags": ["Circular"],
+      "tags": ["Circular", "Pangenome"],
       "name": "mummer2circos",
       "img": "mummer2circos.png",
       "url": "https://github.com/metagenlab/mummer2circos",
@@ -1346,7 +1346,7 @@
       }
     },
     {
-      "tags": ["CNV", "GWAS", "Linear"],
+      "tags": ["CNV", "GWAS", "Linear", "MSA"],
       "name": "GenomeSpy",
       "img": "genomespy.png",
       "url": "https://genomespy.app/",
@@ -1442,6 +1442,7 @@
       "tags": ["GWAS", "Population"],
       "name": "Locuszoom",
       "img": "locuszoom.png",
+      "note": "Also see locuszoom.js http://locuszoom.org/locuszoomjs.php",
       "url": "http://locuszoom.org/",
       "platform": ["Web"]
     },
@@ -2356,6 +2357,13 @@
       "note": "intermutation-distance rainfall plots/katagesis plots are not technically in genomic coordinates, but do indicate genomic cluster of variatnts",
       "tags": ["CNV", "Cancer"],
       "img": "purple.png"
+    },
+    {
+      "name": "SMRT View",
+      "tags": ["SV"],
+      "github": "https://github.com/PacificBiosciences/DevNet/wiki/SMRT-View",
+      "url": "http://files.pacb.com/software/smrtanalysis/2.3.0/doc/smrtview/help/Webhelp/App_View_Epipro.htm",
+      "img": "smrtview.png"
     }
   ]
 }
