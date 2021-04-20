@@ -162,9 +162,11 @@ const PlatformFilters = ({ tools, setFilters, filters }) => {
 };
 const IndexPage = () => {
   const [filters, setFilters] = useState({});
+  const [latestFirst, setLatestFirst] = useState(false);
   const { language, tag, platform } = filters;
 
-  const filteredTools = importedTools
+  const tools = latestFirst ? importedTools.reverse() : importedTools;
+  const filteredTools = tools
     .filter((tool) => (language ? tool.language?.includes(language) : true))
     .filter((tool) => (tag ? tool.tags?.includes(tag) : true))
     .filter((tool) => (platform ? tool.platform?.includes(platform) : true));
@@ -212,6 +214,9 @@ const IndexPage = () => {
           Dotplot viewer
         </button>
         <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
+        <button onClick={() => setLatestFirst(true)}>
+          Sort by most recent
+        </button>
       </p>
 
       <div id="filters">
