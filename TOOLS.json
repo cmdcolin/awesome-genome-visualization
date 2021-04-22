@@ -2402,6 +2402,14 @@
       "img": "bcftools_cnv.png",
       "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
       "tags": ["CNV"]
+    },
+    {
+      "name": "mocha",
+      "img": "mocha.png",
+      "url": "https://github.com/freeseek/mocha#plot-results",
+      "note": "Has a full analysis pipeline associated with end result visualizations",
+      "tags": ["CNV"],
+      "language": ["C", "WDL", "R"]
     }
   ]
 }
