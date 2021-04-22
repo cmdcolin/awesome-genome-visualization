@@ -878,6 +878,7 @@
       "name": "Parasight",
       "img": "parasight.png",
       "url": "https://baileylab.brown.edu/parasight/galframe.html",
+      "note": "Examples at https://ratparalogy.gs.washington.edu/",
       "language": ["Perl"]
     },
     {
@@ -2388,6 +2389,19 @@
         "url": "https://genome.cshlp.org/content/13/6a/1244.long"
       },
       "img": "internet_contig_explorer.jpg"
+    },
+    {
+      "name": "bcftools roh",
+      "img": "bcftools_roh.png",
+      "url": "https://samtools.github.io/bcftools/howtos/roh-calling.html",
+      "note": "Plots runs of homozygosity, has interactive plot-roh.py helper too",
+      "language": ["Python"]
+    },
+    {
+      "name": "bctools cnv",
+      "img": "bcftools_cnv.png",
+      "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
+      "tags": ["CNV"]
     }
   ]
 }
