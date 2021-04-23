@@ -5,6 +5,8 @@ genome-browser-like implementations
 
 **See the new companion website here https://cmdcolin.github.io/awesome-genome-visualization/**
 
+Follow the Twitter account here too :) https://twitter.com/awesomegenomev1
+
 ## Genome browsers
 
 ### Desktop
