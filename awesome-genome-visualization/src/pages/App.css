@@ -80,6 +80,7 @@ p {
   border: var(--card-border-width) solid #ccc;
   border-bottom-color: #bbb;
   background-color: white;
+  height: 300px;
 
   box-shadow: 0 3px 2px rgb(0, 0, 0, 0.05);
 }
