@@ -399,6 +399,13 @@
       "language": ["Python"]
     },
     {
+      "name": "GenomeView (java app)",
+      "img": "genomeview_java.png",
+      "url": "https://genomeview.org/content/quick-start-guide",
+      "language": ["Java"],
+      "tags": ["Alignment viewer"]
+    },
+    {
       "tags": ["Static", "Comparative"],
       "name": "genoPlotR",
       "img": "genoplotr.png",
@@ -2410,6 +2417,41 @@
       "note": "Has a full analysis pipeline associated with end result visualizations",
       "tags": ["CNV"],
       "language": ["C", "WDL", "R"]
+    },
+    {
+      "name": "ALVIS (MSA viewer)",
+      "url": "https://www.ebi.ac.uk/research/goldman/software/alvis",
+      "note": "Introduces sequence bundles concept, also see web app version https://www.ebi.ac.uk/goldman-srv/sequencebundles/",
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856975/"
+      },
+      "tags": ["MSA"],
+      "img": "alvis.png"
+    },
+    {
+      "name": "ALVIS (chimeric alignment viewer)",
+      "url": "https://github.com/SR-Martin/alvis",
+      "publication": {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04056-0"
+      },
+      "tags": ["QC", "Assembly"],
+      "img": "alvis_chimeric.png"
+    },
+    {
+      "name": "genevisR",
+      "img": "genevisr.png",
+      "url": "https://bioconductor.org/packages/release/bioc/vignettes/GenVisR/inst/doc/Intro.html",
+      "tags": ["CNV"],
+      "language": ["R"]
+    },
+    {
+      "name": "NanoMethViz",
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.426757v3"
+      },
+      "url": "http://www.bioconductor.org/packages/release/bioc/html/NanoMethViz.html",
+      "img": "nanomethviz.png",
+      "language": ["R"]
     }
   ]
 }
