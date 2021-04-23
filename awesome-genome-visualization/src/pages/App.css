@@ -191,3 +191,21 @@ h3:first-child {
     max-width: 800px;
   }
 }
+
+/* from https://getflywheel.com/layout/sticky-back-to-top-button-tutorial/ */
+.top-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1em 1em 0;
+  border-radius: 50%;
+  padding: 0.25em;
+  width: 40px;
+  height: 40px;
+  background-color: #afafaf;
+}

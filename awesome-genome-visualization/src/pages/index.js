@@ -254,6 +254,16 @@ const IndexPage = () => {
         And always remember, "YOU ARE AWESOME!!" read in Ben Busby voice for
         added effect. Thanks Ben for reminding us of this always :)
       </p>
+      <div class="top-link" onClick={() => window.scrollTo(0, 0)}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={20}
+          height={20}
+          viewBox="0 0 12 6"
+        >
+          <path d="M12 6H0l6-6z" />
+        </svg>
+      </div>
     </main>
   );
 };
