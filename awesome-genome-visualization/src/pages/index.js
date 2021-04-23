@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { tools as importedTools } from "./TOOLS.json";
-
+import slugify from "slugify";
 import "./App.css";
 
 const Cards = ({ tools }) => {
@@ -25,7 +25,15 @@ const Card = ({
   return (
     <div className="card">
       <div>
-        <h3>{name}</h3>
+        <h3>
+          <a
+            id={`${slugify(name)}`}
+            href={`#${slugify(name)}`}
+            style={{ color: "black" }}
+          >
+            {name}
+          </a>
+        </h3>
         <p className="link">
           <a href={url}>{url}</a>
         </p>
