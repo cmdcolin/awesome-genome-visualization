@@ -2452,6 +2452,15 @@
       "url": "http://www.bioconductor.org/packages/release/bioc/html/NanoMethViz.html",
       "img": "nanomethviz.png",
       "language": ["R"]
+    },
+    {
+      "name": "GfaViz",
+      "img": "gfaviz.png",
+      "language": ["C++"],
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article/35/16/2853/5267826"
+      },
+      "tags": ["Graph"]
     }
   ]
 }
