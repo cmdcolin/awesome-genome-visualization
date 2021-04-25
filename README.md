@@ -102,6 +102,7 @@ Follow the Twitter account here too :) https://twitter.com/awesomegenomev1
 - [MagicViewer](http://bioinformatics.zj.cn/magicviewer/)
 - [MalariaGEN](https://www.malariagen.net/apps/pf-crosses/1.0/#genome)
 - [MapView](http://seqanswers.com/forums/showthread.php?t=1024) (note: links in original paper are dead. download link here https://sites.google.com/site/wjwdavy/)
+- [Nextclade](https://clades.nextstrain.org/)
 - [NGB](https://github.com/epam/NGB)
 - [Panoptes](https://github.com/cggh/panoptes) see [malariagen browser](https://www.malariagen.net/apps/pf3k/release_3/index.html#genomebrowser)
 - [Parasight](https://baileylab.brown.edu/parasight/galframe.html)
