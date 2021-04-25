@@ -43,11 +43,7 @@ p {
   margin: 0.5em 0;
 }
 
-#example-filters {
-  margin-top: 1.5em;
-}
-
-#example-filters button {
+.example-buttons button {
   margin-left: 5px;
 }
 

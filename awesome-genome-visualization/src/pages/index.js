@@ -217,7 +217,7 @@ const IndexPage = () => {
         others know how you made your awesome figures!
       </p>
 
-      <p id="example-filters">
+      <p className="example-buttons">
         Example filters:
         <button onClick={() => setFilters({})}>Clear filters</button>
         <button onClick={() => setFilters({ tag: "General" })}>
@@ -231,7 +231,7 @@ const IndexPage = () => {
         </button>
         <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
       </p>
-      <p id="example-sort">
+      <p className="example-buttons">
         Example sorting:
         <button onClick={() => setSort({})}>Clear sort</button>
         <button onClick={() => setSort({ latest: true })}>
