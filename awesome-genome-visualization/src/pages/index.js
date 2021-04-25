@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { tools as importedTools } from "./TOOLS.json";
 import slugify from "slugify";
+import queryString from "query-string";
 import "./App.css";
 
 const Cards = ({ tools }) => {
@@ -170,14 +171,27 @@ const PlatformFilters = ({ tools, setFilters, filters }) => {
 };
 const IndexPage = () => {
   const [filters, setFilters] = useState({});
-  const [latestFirst, setLatestFirst] = useState(false);
+  const [sort, setSort] = useState({});
   const { language, tag, platform } = filters;
 
-  const tools = latestFirst ? importedTools.reverse() : importedTools;
+  useEffect(() => {
+    const parsedHash = queryString.parse(window.location.hash);
+    setFilters(parsedHash);
+    setSort(parsedHash);
+  }, []);
+
+  useEffect(() => {
+    const hash = queryString.stringify({ ...filters, ...sort });
+    window.history.pushState(null, null, "#" + hash);
+  }, [filters, sort]);
+
+  const tools = sort.latest ? importedTools.slice().reverse() : importedTools;
   const filteredTools = tools
     .filter((tool) => (language ? tool.language?.includes(language) : true))
     .filter((tool) => (tag ? tool.tags?.includes(tag) : true))
     .filter((tool) => (platform ? tool.platform?.includes(platform) : true));
+
+  const githubURL = "https://github.com/cmdcolin/awesome-genome-visualization";
 
   return (
     <main className="page">
@@ -185,9 +199,7 @@ const IndexPage = () => {
       <h1>awesome-genome-visualization</h1>
       <p>
         This is a companion website for the github repo{" "}
-        <a href="https://github.com/cmdcolin/awesome-genome-visualization">
-          https://github.com/cmdcolin/awesome-genome-visualization
-        </a>
+        <a href={githubURL}>{githubURL}</a>
       </p>
       <p>
         Please submit PRs for more tools there and thanks to all the
@@ -207,11 +219,7 @@ const IndexPage = () => {
 
       <p id="example-filters">
         Example filters:
-        <button
-          onClick={() => setFilters({ tag: "", language: "", platform: "" })}
-        >
-          Clear filters
-        </button>
+        <button onClick={() => setFilters({})}>Clear filters</button>
         <button onClick={() => setFilters({ tag: "General" })}>
           General-purpose genome browsers
         </button>
@@ -222,7 +230,11 @@ const IndexPage = () => {
           Dotplot viewer
         </button>
         <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
-        <button onClick={() => setLatestFirst(true)}>
+      </p>
+      <p id="example-sort">
+        Example sorting:
+        <button onClick={() => setSort({})}>Clear sort</button>
+        <button onClick={() => setSort({ latest: true })}>
           Sort by most recent
         </button>
       </p>
