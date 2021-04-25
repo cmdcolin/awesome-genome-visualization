@@ -95,7 +95,7 @@ const TagFilters = ({ tools, setFilters, filters }) => {
   });
   return (
     <div className="form-group">
-      <label htmlFor="tag-select">Tag: </label>
+      <label htmlFor="tag-select">Filter based on tag: </label>
       <select
         id="tag-select"
         value={filters.tag || ""}
@@ -123,7 +123,7 @@ const LanguageFilters = ({ tools, setFilters, filters }) => {
   });
   return (
     <div className="form-group">
-      <label htmlFor="language-select">Language: </label>
+      <label htmlFor="language-select">Filter based on language: </label>
       <select
         value={filters.language || ""}
         id="language-select"
@@ -151,7 +151,7 @@ const PlatformFilters = ({ tools, setFilters, filters }) => {
   });
   return (
     <div className="form-group">
-      <label htmlFor="platform-select">Platform: </label>
+      <label htmlFor="platform-select">Filter based on platform: </label>
       <select
         value={filters.platform || ""}
         id="platform-select"
