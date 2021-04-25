@@ -4,11 +4,14 @@ import slugify from "slugify";
 import queryString from "query-string";
 import "./App.css";
 
-const Cards = ({ tools }) => {
-  return tools.map((row) => <Card row={row} key={row.name} />);
+const Cards = ({ tools, setSelected }) => {
+  return tools.map((row) => (
+    <Card row={row} key={row.name} setSelected={setSelected} />
+  ));
 };
 
 const Card = ({
+  setSelected,
   row: {
     name,
     url,
@@ -29,8 +32,8 @@ const Card = ({
         <h3>
           <a
             id={`${slugify(name)}`}
-            href={`#${slugify(name)}`}
-            style={{ color: "black" }}
+            onClick={() => setSelected({ selected: "#" + slugify(name) })}
+            style={{ color: "black", cursor: "pointer" }}
           >
             {name}
           </a>
@@ -172,18 +175,31 @@ const PlatformFilters = ({ tools, setFilters, filters }) => {
 const IndexPage = () => {
   const [filters, setFilters] = useState({});
   const [sort, setSort] = useState({});
+  const [selected, setSelected] = useState({});
   const { language, tag, platform } = filters;
 
   useEffect(() => {
-    const parsedHash = queryString.parse(window.location.hash);
-    setFilters(parsedHash);
-    setSort(parsedHash);
+    const { selected, language, tag, platform, latest } = queryString.parse(
+      window.location.search
+    );
+    setFilters({ language, tag, platform });
+    setSort({ latest });
+    setSelected({ selected });
   }, []);
 
   useEffect(() => {
-    const hash = queryString.stringify({ ...filters, ...sort });
-    window.history.pushState(null, null, "#" + hash);
-  }, [filters, sort]);
+    const params = queryString.stringify({ ...filters, ...sort, ...selected });
+    window.history.pushState(null, null, "?" + params);
+
+    if (selected.selected) {
+      let target = document.querySelector(selected.selected);
+      if (target) {
+        target.scrollIntoView({
+          block: "start",
+        });
+      }
+    }
+  }, [filters, sort, selected]);
 
   const tools = sort.latest ? importedTools.slice().reverse() : importedTools;
   const filteredTools = tools
@@ -239,6 +255,11 @@ const IndexPage = () => {
         </button>
       </p>
 
+      <p className="example-buttons">
+        Selection:
+        <button onClick={() => setSelected({})}>Clear selection</button>
+      </p>
+
       <div id="filters">
         <TagFilters
           tools={importedTools}
@@ -257,7 +278,11 @@ const IndexPage = () => {
         />
       </div>
 
-      <Cards filters={filters} tools={filteredTools} />
+      <Cards
+        filters={filters}
+        tools={filteredTools}
+        setSelected={setSelected}
+      />
       <p>
         Note: if you would like your tool removed or screenshot removed (for
         copyright purposes for example) let me know
