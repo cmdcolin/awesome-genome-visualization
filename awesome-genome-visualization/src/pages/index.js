@@ -253,6 +253,7 @@ const IndexPage = () => {
         <button onClick={() => setSort({ latest: true })}>
           Sort by most recent
         </button>
+        <button onClick={() => setSort({})}>Sort by least recent</button>
       </p>
 
       <p className="example-buttons">
