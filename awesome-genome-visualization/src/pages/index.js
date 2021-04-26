@@ -174,6 +174,7 @@ const PlatformFilters = ({ tools, setFilters, filters }) => {
 };
 const IndexPage = () => {
   const [filters, setFilters] = useState({});
+  const [alreadyScrolledTo, setAlreadyScrolledTo] = useState(false);
   const [sort, setSort] = useState({});
   const [selected, setSelected] = useState({});
   const { language, tag, platform } = filters;
@@ -191,15 +192,16 @@ const IndexPage = () => {
     const params = queryString.stringify({ ...filters, ...sort, ...selected });
     window.history.pushState(null, null, "?" + params);
 
-    if (selected.selected) {
+    if (selected.selected && !alreadyScrolledTo) {
       let target = document.querySelector(selected.selected);
       if (target) {
         target.scrollIntoView({
           block: "start",
         });
       }
+      setAlreadyScrolledTo(true);
     }
-  }, [filters, sort, selected]);
+  }, [filters, sort, selected, alreadyScrolledTo]);
 
   const tools = sort.latest ? importedTools.slice().reverse() : importedTools;
   const filteredTools = tools
