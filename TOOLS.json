@@ -2465,8 +2465,24 @@
     {
       "name": "Nextclade",
       "img": "nextclade.png",
+      "url": "https://clades.nextstrain.org/",
       "language": ["JS", "React", "D3"],
       "note": "Related usage on nextstrain app also"
+    },
+    {
+      "name": "vcfR",
+      "img": "vcfr.png",
+      "language": ["R"],
+      "tags": ["QC", "Population", "Coverage"],
+      "note": "image shows chromoqc output",
+      "url": "https://knausb.github.io/vcfR_documentation/"
+    },
+    {
+      "name": "asgart",
+      "img": "asgart.png",
+      "language": ["Rust"],
+      "url": "https://github.com/delehef/asgart",
+      "tags": ["SV", "Ideogram", "Circular", "Linear"]
     }
   ]
 }
