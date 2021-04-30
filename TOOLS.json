@@ -2482,7 +2482,10 @@
       "img": "asgart.png",
       "language": ["Rust"],
       "url": "https://github.com/delehef/asgart",
-      "tags": ["SV", "Ideogram", "Circular", "Linear"]
+      "tags": ["SV", "Ideogram", "Circular", "Linear"],
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article/34/16/2708/4948616"
+      }
     }
   ]
 }
