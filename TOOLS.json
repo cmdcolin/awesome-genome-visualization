@@ -2486,6 +2486,12 @@
       "publication": {
         "url": "https://academic.oup.com/bioinformatics/article/34/16/2708/4948616"
       }
+    },
+    {
+      "name": "MashMap",
+      "img": "mashmap.png",
+      "tags": ["Dotplot"],
+      "url": "https://github.com/marbl/MashMap/blob/master/scripts/generateDotPlot"
     }
   ]
 }
