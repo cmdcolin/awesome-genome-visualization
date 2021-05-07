@@ -2492,6 +2492,14 @@
       "img": "mashmap.png",
       "tags": ["Dotplot"],
       "url": "https://github.com/marbl/MashMap/blob/master/scripts/generateDotPlot"
+    },
+    {
+      "name": "udon",
+      "img": "udon.png",
+      "tags": ["Alignment viewer"],
+      "url": "https://github.com/ocxtal/udon",
+      "language": ["Rust"],
+      "note": "Uses an advanced data structure for pileup, so visually a basic example but likely just a small demo"
     }
   ]
 }
