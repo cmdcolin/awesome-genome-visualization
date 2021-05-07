@@ -1413,7 +1413,8 @@
       "name": "Human genome dating",
       "url": "https://human.genome.dating/region/chr1_13250000",
       "platform": ["Web"],
-      "img": "human_genome_dating.png"
+      "img": "human_genome_dating.png",
+      "note": "made with vega/d3"
     },
     {
       "tags": ["Assembly QC"],
@@ -1446,7 +1447,8 @@
       "url": "https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565",
       "img": "islandplot.png",
       "language": ["JS"],
-      "platform": ["Web"]
+      "platform": ["Web"],
+      "note": "D3, SVG"
     },
     {
       "tags": ["GWAS", "Population"],
@@ -1486,6 +1488,7 @@
       "img": "mapview.jpg",
       "url": "https://sites.google.com/site/wjwdavy/",
       "platform": ["Desktop"],
+      "note": "links in original paper are dead, but URL provided here works",
       "publication": {
         "url": "https://academic.oup.com/bioinformatics/article/25/12/1554/193807"
       }
@@ -1570,7 +1573,8 @@
       "tags": ["Special-purpose", "Transposons", "Deadlink?"],
       "name": "TE-nest",
       "img": "tenest.jpg",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18032588"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18032588",
+      "note": "download link unknown"
     },
     {
       "tags": ["Special-purpose", "Transposons"],
@@ -1934,7 +1938,8 @@
       "tags": ["Dotplot"],
       "name": "Dottup",
       "img": "dottup.png",
-      "url": "https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup"
+      "url": "https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup",
+      "note": "also seen here http://eichlerlab.gs.washington.edu/publications/chm1-structural-variation/data/GRCh37/heterochromatic_extensions.pdf"
     },
     {
       "tags": ["Dotplot"],
