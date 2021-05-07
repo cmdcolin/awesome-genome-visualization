@@ -650,6 +650,7 @@
       "url": "https://tnt.marlin.pub/articles/introduction",
       "language": ["R", "JS"],
       "img": "tnt.png",
+      "tags": ["Gene structure"],
       "platform": ["Web", "Interactive"]
     },
     {
@@ -770,6 +771,7 @@
       "img": "dnafeaturesviewer.png",
       "platform": ["Desktop"],
       "language": ["Python"],
+      "tags": ["Microbiology", "Synthetic biology"],
       "publication": {
         "url": "https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF"
       }
@@ -1095,6 +1097,7 @@
     },
     {
       "name": "pyBamView",
+      "tags": ["Alignment viewer", "Static"],
       "url": "https://mgymrek.github.io/pybamview/",
       "platform": ["CLI"],
       "language": ["Python"]
@@ -2408,12 +2411,14 @@
     {
       "name": "bcftools roh",
       "img": "bcftools_roh.png",
+      "tags": ["Static"],
       "url": "https://samtools.github.io/bcftools/howtos/roh-calling.html",
       "note": "Plots runs of homozygosity, has interactive plot-roh.py helper too",
       "language": ["Python"]
     },
     {
       "name": "bctools cnv",
+      "tags": ["CNV", "Static"],
       "img": "bcftools_cnv.png",
       "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
       "tags": ["CNV"]
@@ -2459,6 +2464,7 @@
       },
       "url": "http://www.bioconductor.org/packages/release/bioc/html/NanoMethViz.html",
       "img": "nanomethviz.png",
+      "tags": ["Methylation"],
       "language": ["R"]
     },
     {
@@ -2475,6 +2481,7 @@
       "img": "nextclade.png",
       "url": "https://clades.nextstrain.org/",
       "language": ["JS", "React", "D3"],
+      "tags": ["Phylogenetics"],
       "note": "Related usage on nextstrain app also"
     },
     {
