@@ -2500,6 +2500,16 @@
       "url": "https://github.com/ocxtal/udon",
       "language": ["Rust"],
       "note": "Uses an advanced data structure for pileup, so visually a basic example but likely just a small demo"
+    },
+    {
+      "name": "AnnoJ",
+      "img": "annoj.png",
+      "tags": ["Methylation"],
+      "language": ["JS"],
+      "platform": ["Web"],
+      "url": "https://brainome.ucsd.edu/howto_annoj.html",
+      "note": "See list of instances of the browser here https://ecker.salk.edu/genome-browser/",
+      "github": "https://github.com/mukamel-lab/annoj_cndd"
     }
   ]
 }
