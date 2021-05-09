@@ -16,25 +16,30 @@ res.tools.forEach((tool) => {
   categories[firsttag].push(tool);
 });
 
-Object.entries(categories).map(([category, tools]) => {
-  console.log("## " + category);
-  tools.forEach((tool) => {
-    console.log(
-      "- " +
-        "[" +
-        tool.name +
-        "](" +
-        tool.url +
-        ")" +
-        (tool.note ? " (" + tool.note + ")" : "") +
-        (tool.publication ? " [(pub)](" + tool.publication.url + ")" : "") +
-        (tool.img
-          ? " [(img)](https://cmdcolin.github.io/awesome-genome-visualization/" +
-            tool.img +
-            ")"
-          : "")
-    );
+Object.entries(categories)
+  .sort(([categoryA], [categoryB]) => {
+    if (categoryA === "General") return -1;
+    else categoryA.localeCompare(categoryB);
+  })
+  .map(([category, tools]) => {
+    console.log("## " + category);
+    tools.forEach((tool) => {
+      console.log(
+        "- " +
+          "[" +
+          tool.name +
+          "](" +
+          tool.url +
+          ")" +
+          (tool.note ? " (" + tool.note + ")" : "") +
+          (tool.publication ? " [(pub)](" + tool.publication.url + ")" : "") +
+          (tool.img
+            ? " [(img)](https://cmdcolin.github.io/awesome-genome-visualization/" +
+              tool.img +
+              ")"
+            : "")
+      );
+    });
   });
-});
 
 console.log(footer);
