@@ -936,7 +936,9 @@
       "img": "syntview.png",
       "url": "http://hub18.hosting.pasteur.fr/SynTView/documentation/",
       "platform": ["Desktop", "Web", "Flash"],
-      "publication": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/"
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849071/"
+      }
     },
     {
       "tags": ["Comparative", "Linear", "Dotplot"],
