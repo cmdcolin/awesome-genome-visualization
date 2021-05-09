@@ -27,7 +27,12 @@ Object.entries(categories).map(([category, tools]) => {
         tool.url +
         ")" +
         (tool.note ? " (" + tool.note + ")" : "") +
-        (tool.publication ? " [(pub)](" + tool.publication.url + ")" : "")
+        (tool.publication ? " [(pub)](" + tool.publication.url + ")" : "") +
+        (tool.img
+          ? " [(img)](https://cmdcolin.github.io/awesome-genome-visualization/" +
+            tool.img +
+            ")"
+          : "")
     );
   });
 });

@@ -359,7 +359,7 @@
       "language": ["Python"]
     },
     {
-      "name": "ExonIntron (from Wormbase)",
+      "name": "ExonIntron",
       "url": "http://wormweb.org/exonintron",
       "img": "exonintron.png",
       "tags": ["Static", "Gene structure"]
@@ -1367,18 +1367,18 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Linear"],
+      "tags": ["General", "Linear"],
       "name": "Genoverse",
       "url": "https://github.com/wtsi-web/Genoverse",
       "img": "genoverse.png",
       "platform": ["Web"]
     },
     {
-      "tags": ["Linear", "Population"],
+      "tags": ["Special-purpose", "Linear", "Population"],
       "name": "Gnomad browser",
       "url": "https://github.com/macarthur-lab/gnomadjs",
       "img": "gnomad.png",
-      "platform": ["Web"]
+      "platform": ["Web", "Silo"]
     },
     {
       "tags": ["SV", "Linear"],
@@ -2236,7 +2236,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Linear", "CNV", "Cancer", "Lollipops"],
+      "tags": ["CNV", "Linear", "Cancer", "Lollipops"],
       "name": "GenomePaint",
       "img": "genomepaint.png",
       "url": "https://genomepaint.stjude.cloud/",
@@ -2294,7 +2294,7 @@
       "img": "lineardisplay.png",
       "language": ["Perl"],
       "platform": ["CLI"],
-      "tags": ["Linear", "Comparative"]
+      "tags": ["Comparative"]
     },
     {
       "name": "Gview",
@@ -2386,7 +2386,7 @@
     },
     {
       "name": "sockeye",
-      "tags": ["Comparative", "Exotic"],
+      "tags": ["Exotic", "Comparative"],
       "publication": {
         "url": "https://genome.cshlp.org/content/14/5/956.full"
       },
@@ -2395,7 +2395,7 @@
     },
     {
       "name": "spinteny",
-      "tags": ["Comparative", "Exotic"],
+      "tags": ["Exotic", "Comparative"],
       "url": "https://github.com/skinner/spinteny",
       "img": "spinteny.png"
     },
