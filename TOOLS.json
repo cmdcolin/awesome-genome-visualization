@@ -359,7 +359,7 @@
       "language": ["Python"]
     },
     {
-      "name": "ExonIntron (from Wormbase)",
+      "name": "ExonIntron",
       "url": "http://wormweb.org/exonintron",
       "img": "exonintron.png",
       "tags": ["Static", "Gene structure"]
@@ -650,6 +650,7 @@
       "url": "https://tnt.marlin.pub/articles/introduction",
       "language": ["R", "JS"],
       "img": "tnt.png",
+      "tags": ["Gene structure"],
       "platform": ["Web", "Interactive"]
     },
     {
@@ -770,6 +771,7 @@
       "img": "dnafeaturesviewer.png",
       "platform": ["Desktop"],
       "language": ["Python"],
+      "tags": ["Microbiology", "Synthetic biology"],
       "publication": {
         "url": "https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF"
       }
@@ -1095,6 +1097,7 @@
     },
     {
       "name": "pyBamView",
+      "tags": ["Alignment viewer", "Static"],
       "url": "https://mgymrek.github.io/pybamview/",
       "platform": ["CLI"],
       "language": ["Python"]
@@ -1364,18 +1367,18 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Linear"],
+      "tags": ["General", "Linear"],
       "name": "Genoverse",
       "url": "https://github.com/wtsi-web/Genoverse",
       "img": "genoverse.png",
       "platform": ["Web"]
     },
     {
-      "tags": ["Linear", "Population"],
+      "tags": ["Special-purpose", "Linear", "Population"],
       "name": "Gnomad browser",
       "url": "https://github.com/macarthur-lab/gnomadjs",
       "img": "gnomad.png",
-      "platform": ["Web"]
+      "platform": ["Web", "Silo"]
     },
     {
       "tags": ["SV", "Linear"],
@@ -1413,7 +1416,8 @@
       "name": "Human genome dating",
       "url": "https://human.genome.dating/region/chr1_13250000",
       "platform": ["Web"],
-      "img": "human_genome_dating.png"
+      "img": "human_genome_dating.png",
+      "note": "made with vega/d3"
     },
     {
       "tags": ["Assembly QC"],
@@ -1446,7 +1450,8 @@
       "url": "https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565",
       "img": "islandplot.png",
       "language": ["JS"],
-      "platform": ["Web"]
+      "platform": ["Web"],
+      "note": "D3, SVG"
     },
     {
       "tags": ["GWAS", "Population"],
@@ -1486,6 +1491,7 @@
       "img": "mapview.jpg",
       "url": "https://sites.google.com/site/wjwdavy/",
       "platform": ["Desktop"],
+      "note": "links in original paper are dead, but URL provided here works",
       "publication": {
         "url": "https://academic.oup.com/bioinformatics/article/25/12/1554/193807"
       }
@@ -1570,7 +1576,8 @@
       "tags": ["Special-purpose", "Transposons", "Deadlink?"],
       "name": "TE-nest",
       "img": "tenest.jpg",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/18032588"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18032588",
+      "note": "download link unknown"
     },
     {
       "tags": ["Special-purpose", "Transposons"],
@@ -1934,7 +1941,8 @@
       "tags": ["Dotplot"],
       "name": "Dottup",
       "img": "dottup.png",
-      "url": "https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup"
+      "url": "https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup",
+      "note": "also seen here http://eichlerlab.gs.washington.edu/publications/chm1-structural-variation/data/GRCh37/heterochromatic_extensions.pdf"
     },
     {
       "tags": ["Dotplot"],
@@ -2228,7 +2236,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Linear", "CNV", "Cancer", "Lollipops"],
+      "tags": ["CNV", "Linear", "Cancer", "Lollipops"],
       "name": "GenomePaint",
       "img": "genomepaint.png",
       "url": "https://genomepaint.stjude.cloud/",
@@ -2286,7 +2294,7 @@
       "img": "lineardisplay.png",
       "language": ["Perl"],
       "platform": ["CLI"],
-      "tags": ["Linear", "Comparative"]
+      "tags": ["Comparative"]
     },
     {
       "name": "Gview",
@@ -2378,7 +2386,7 @@
     },
     {
       "name": "sockeye",
-      "tags": ["Comparative", "Exotic"],
+      "tags": ["Exotic", "Comparative"],
       "publication": {
         "url": "https://genome.cshlp.org/content/14/5/956.full"
       },
@@ -2387,7 +2395,7 @@
     },
     {
       "name": "spinteny",
-      "tags": ["Comparative", "Exotic"],
+      "tags": ["Exotic", "Comparative"],
       "url": "https://github.com/skinner/spinteny",
       "img": "spinteny.png"
     },
@@ -2403,12 +2411,14 @@
     {
       "name": "bcftools roh",
       "img": "bcftools_roh.png",
+      "tags": ["Static"],
       "url": "https://samtools.github.io/bcftools/howtos/roh-calling.html",
       "note": "Plots runs of homozygosity, has interactive plot-roh.py helper too",
       "language": ["Python"]
     },
     {
       "name": "bctools cnv",
+      "tags": ["CNV", "Static"],
       "img": "bcftools_cnv.png",
       "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
       "tags": ["CNV"]
@@ -2454,6 +2464,7 @@
       },
       "url": "http://www.bioconductor.org/packages/release/bioc/html/NanoMethViz.html",
       "img": "nanomethviz.png",
+      "tags": ["Methylation"],
       "language": ["R"]
     },
     {
@@ -2470,6 +2481,7 @@
       "img": "nextclade.png",
       "url": "https://clades.nextstrain.org/",
       "language": ["JS", "React", "D3"],
+      "tags": ["Phylogenetics"],
       "note": "Related usage on nextstrain app also"
     },
     {
