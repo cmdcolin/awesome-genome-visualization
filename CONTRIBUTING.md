@@ -4,16 +4,14 @@ This file loosely follows on the tradition of "awesome lists" https://github.com
 
 I will basically incorporate any suggestion and the definition of a genome visualization is pretty loose
 
-Just keep things in alphabetical order, and add it to a category if there is one
+The README on the github website is automatically generated from TOOLS.json. If you want you can submit a PR against the README.md format but I'd prefer if you update the TOOLS.json with your tool, add a picture to the awesome-genome-visualization/static/ folder too!
 
-Some categories, such as the large "Other" category should probably be characterized better
 
-The website is not deployed using TOOLS.json
+## Deploying
 
-To deploy the website
+    cd awesome-genome-visualization
+    yarn deploy
 
-cd awesome-genome-visualization
-npm run deploy
+## Updating README.md
 
-To develop
-npm run develop
+    node index.js > README.md
