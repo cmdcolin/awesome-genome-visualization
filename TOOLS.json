@@ -2592,6 +2592,16 @@
       "img": "rectchr.png",
       "url": "https://github.com/BGI-shenzhen/RectChr",
       "tags": ["Comparative", "Ideogram", "Static"]
+    },
+    {
+      "name": "LDBlockShow",
+      "url": "https://github.com/BGI-shenzhen/LDBlockShow",
+      "publication": {
+        "url": "https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbaa227/5939575?redirectedFrom=fulltext"
+      },
+      "img": "ldblockshow.png",
+      "language": ["C++", "Perl"],
+      "tags": ["GWAS", "Population"]
     }
   ]
 }
