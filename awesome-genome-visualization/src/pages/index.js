@@ -180,9 +180,13 @@ const IndexPage = () => {
   const { language, tag, platform } = filters;
 
   useEffect(() => {
-    const { selected, language, tag, platform, latest } = queryString.parse(
-      window.location.search
-    );
+    const {
+      selected,
+      language,
+      tag,
+      platform,
+      latest = true,
+    } = queryString.parse(window.location.search);
     setFilters({ language, tag, platform });
     setSort({ latest });
     setSelected({ selected });
