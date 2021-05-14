@@ -2,7 +2,7 @@
   "tools": [
     {
       "tags": ["Commercial"],
-      "name": "10x genomics",
+      "name": "10x genomics/Loupe",
       "url": "https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants",
       "img": "10xgenomics.png"
     },
@@ -2540,6 +2540,52 @@
       },
       "url": "http://swav.popgenetics.net/",
       "img": "swav.png"
+    },
+    {
+      "name": "gingko",
+      "url": "http://qb.cshl.edu/ginkgo/?q=/9EiUttUP0CBHs3WnuBa0",
+      "img": "gingko.jpeg",
+      "github": "https://github.com/robertaboukhalil/ginkgo",
+      "platform": ["Web"],
+      "tags": ["Single cell", "CNV"]
+    },
+    {
+      "name": "copynumber",
+      "url": "https://www.bioconductor.org/packages/release/bioc/vignettes/copynumber/inst/doc/copynumber.pdf",
+      "img": "copynumber.png",
+      "tags": ["CNV"],
+      "language": ["R"]
+    },
+    {
+      "name": "alignfigR",
+      "img": "alignfigr.png",
+      "url": "https://cran.r-project.org/web/packages/alignfigR/vignettes/my-vignette.html",
+      "tags": ["MSA"],
+      "language": ["R"]
+    },
+    {
+      "name": "copykat",
+      "img": "copykat.png",
+      "url": "https://github.com/navinlabcode/copykat/blob/master/vignettes/copycat-vignettes.pdf",
+      "tags": ["Single cell", "CNV"],
+      "language": ["R"]
+    },
+    {
+      "name": "scCNV_heatmap",
+      "url": "https://github.com/StefanKurtenbach/scCNV_heatmap",
+      "language": ["Python"],
+      "img": "sccnv_heatmap.png",
+      "tags": ["Single cell", "CNV"]
+    },
+    {
+      "name": "casper",
+      "url": "https://github.com/akdess/CaSpER",
+      "publication": {
+        "url": "https://www.nature.com/articles/s41467-019-13779-x"
+      },
+      "language": ["R"],
+      "img": "casper.png",
+      "tags": ["Single cell", "CNV"]
     }
   ]
 }
