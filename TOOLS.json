@@ -2586,6 +2586,12 @@
       "language": ["R"],
       "img": "casper.png",
       "tags": ["Single cell", "CNV"]
+    },
+    {
+      "name": "RectChr",
+      "img": "rectchr.png",
+      "url": "https://github.com/BGI-shenzhen/RectChr",
+      "tags": ["Comparative", "Ideogram", "Static"]
     }
   ]
 }
