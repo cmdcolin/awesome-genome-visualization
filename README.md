@@ -37,7 +37,7 @@ Note that the organization here is a best effort categorization for general tags
 - [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/washu.png)
 - [Zenbu](http://fantom.gsc.riken.jp/zenbu/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/zenbu.png)
 ## Commercial
-- [10x genomics](https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/10xgenomics.png)
+- [10x genomics/Loupe](https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/10xgenomics.png)
 - [Alamut](https://www.interactive-biosoftware.com/alamut-visual/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alamut.png)
 - [ATCC Genome Portal (American Type Culture Collection)](https://docs.onecodex.com/en/articles/3996697-using-the-genome-browser) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/atcc.png)
 - [Benchling](https://www.benchling.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/benchling.png)
@@ -80,6 +80,7 @@ Note that the organization here is a best effort categorization for general tags
 - [Wasabi](http://wasabiapp.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wasabi.png)
 - [SNPViz](http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snpviz.png)
 - [ALVIS (MSA viewer)](https://www.ebi.ac.uk/research/goldman/software/alvis) (Introduces sequence bundles concept, also see web app version https://www.ebi.ac.uk/goldman-srv/sequencebundles/) [(pub)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856975/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alvis.png)
+- [alignfigR](https://cran.r-project.org/web/packages/alignfigR/vignettes/my-vignette.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alignfigr.png)
 ## CNV
 - [aCNVViewer](https://github.com/FJD-CEPH/aCNViewer) [(pub)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/acnvviewer.png)
 - [CNVkit](https://cnvkit.readthedocs.io/en/stable/plots.html) [(pub)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004873) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnvkit.png)
@@ -92,10 +93,10 @@ Note that the organization here is a best effort categorization for general tags
 - [bctools cnv](https://samtools.github.io/bcftools/howtos/cnv-calling.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bcftools_cnv.png)
 - [mocha](https://github.com/freeseek/mocha#plot-results) (Has a full analysis pipeline associated with end result visualizations) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mocha.png)
 - [genevisR](https://bioconductor.org/packages/release/bioc/vignettes/GenVisR/inst/doc/Intro.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genevisr.png)
+- [copynumber](https://www.bioconductor.org/packages/release/bioc/vignettes/copynumber/inst/doc/copynumber.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/copynumber.png)
 ## Static
 - [BAMSnap](https://github.com/parklab/bamsnap) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamsnap.png)
 - [ChIA-Pipe](https://github.com/TheJacksonLaboratory/ChIA-PIPE) [(pub)](https://www.biorxiv.org/content/10.1101/506683v1.full.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chiapipe.png)
-- [Chimeraviz](https://github.com/stianlagstad/chimeraviz) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chimeraviz.png)
 - [CNView](https://github.com/RCollins13/CNView) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnview.jpg)
 - [CNVPlot](https://github.com/dantaki/CNVplot/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnvplot.jpg)
 - [CNVpytor](https://github.com/abyzovlab/CNVpytor) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnvpytor.png)
@@ -138,6 +139,10 @@ Note that the organization here is a best effort categorization for general tags
 - [mummer2circos](https://github.com/metagenlab/mummer2circos) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mummer2circos.png)
 - [cgplot](https://github.com/dfguan/cgplot) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cgplot.png)
 - [bcftools roh](https://samtools.github.io/bcftools/howtos/roh-calling.html) (Plots runs of homozygosity, has interactive plot-roh.py helper too) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bcftools_roh.png)
+## Gene fusion
+- [Chimeraviz](https://github.com/stianlagstad/chimeraviz) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chimeraviz.png)
+- [clinker (gene fusion)](https://github.com/Oshlack/Clinker/) [(pub)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6065480/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clinker_fusion.png)
+- [arriba](https://github.com/suhrig/arriba) [(pub)](https://genome.cshlp.org/content/31/3/448) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/arriba.png)
 ## Alignment viewer
 - [GenomeView (java app)](https://genomeview.org/content/quick-start-guide) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomeview_java.png)
 - [pyBamView](https://mgymrek.github.io/pybamview/)
@@ -187,11 +192,17 @@ Note that the organization here is a best effort categorization for general tags
 - [LinearDisplay.pl](https://github.com/JCVenterInstitute/LinearDisplay) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/lineardisplay.png)
 - [FastANI](https://github.com/ParBLiSS/FastANI) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/fastani.jpg)
 - [clinker](https://github.com/gamcil/clinker) [(pub)](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab007/6103786) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clinker.png)
+- [RectChr](https://github.com/BGI-shenzhen/RectChr) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rectchr.png)
 ## Single cell
 - [Millefy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/millefy.png)
+- [gingko](http://qb.cshl.edu/ginkgo/?q=/9EiUttUP0CBHs3WnuBa0) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gingko.jpeg)
+- [copykat](https://github.com/navinlabcode/copykat/blob/master/vignettes/copycat-vignettes.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/copykat.png)
+- [scCNV_heatmap](https://github.com/StefanKurtenbach/scCNV_heatmap) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sccnv_heatmap.png)
+- [casper](https://github.com/akdess/CaSpER) [(pub)](https://www.nature.com/articles/s41467-019-13779-x) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/casper.png)
 ## GWAS
 - [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/purescript.png)
 - [Locuszoom](http://locuszoom.org/) (Also see locuszoom.js http://locuszoom.org/locuszoomjs.php) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locuszoom.png)
+- [LDBlockShow](https://github.com/BGI-shenzhen/LDBlockShow) [(pub)](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbaa227/5939575?redirectedFrom=fulltext) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ldblockshow.png)
 ## Dotplot
 - [shinyChromosome](http://150.109.59.144:3838/shinyChromosome/) [(pub)](https://www.sciencedirect.com/science/article/pii/S1672022919301883) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shinychromosome.png)
 - [D-GENIES](http://dgenies.toulouse.inra.fr/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dgenies.png)
@@ -304,6 +315,7 @@ Note that the organization here is a best effort categorization for general tags
 - [GWAS catalog browser](https://www.ebi.ac.uk/gwas/variants/rs1558902) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gwascatalog.png)
 - [Human genome dating](https://human.genome.dating/region/chr1_13250000) (made with vega/d3) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/human_genome_dating.png)
 - [PopSV](https://github.com/jmonlong/PopSV/blob/master/3-Visualization.md) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/popsv.png)
+- [SWAV](http://swav.popgenetics.net/) [(pub)](https://www.nature.com/articles/s41598-019-57038-x) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/swav.png)
 ## Assembly QC
 - [Icarus](http://quast.sourceforge.net/icarus.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/icarus.png)
 ## Exotic
@@ -361,6 +373,8 @@ Note that the organization here is a best effort categorization for general tags
 - [AnnoJ](https://brainome.ucsd.edu/howto_annoj.html) (See list of instances of the browser here https://ecker.salk.edu/genome-browser/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/annoj.png)
 ## Phylogenetics
 - [Nextclade](https://clades.nextstrain.org/) (Related usage on nextstrain app also) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nextclade.png)
+## Uncategorized
+- [methylartist](https://github.com/adamewing/methylartist) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
 # Other lists
 
 - [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
