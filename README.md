@@ -143,6 +143,7 @@ Note that the organization here is a best effort categorization for general tags
 - [Chimeraviz](https://github.com/stianlagstad/chimeraviz) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chimeraviz.png)
 - [clinker (gene fusion)](https://github.com/Oshlack/Clinker/) [(pub)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6065480/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clinker_fusion.png)
 - [arriba](https://github.com/suhrig/arriba) [(pub)](https://genome.cshlp.org/content/31/3/448) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/arriba.png)
+- [FusionInspector](https://github.com/FusionInspector/FusionInspector/wiki) (Uses igv.js) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/fusioninspector.png)
 ## Alignment viewer
 - [GenomeView (java app)](https://genomeview.org/content/quick-start-guide) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomeview_java.png)
 - [pyBamView](https://mgymrek.github.io/pybamview/)

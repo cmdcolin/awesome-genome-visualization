@@ -2619,6 +2619,13 @@
       "tags": ["Gene fusion"],
       "url": "https://github.com/suhrig/arriba",
       "publication": { "url": "https://genome.cshlp.org/content/31/3/448" }
+    },
+    {
+      "name": "FusionInspector",
+      "img": "fusioninspector.png",
+      "url": "https://github.com/FusionInspector/FusionInspector/wiki",
+      "tags": ["Gene fusion"],
+      "note": "Uses igv.js"
     }
   ]
 }
