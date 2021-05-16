@@ -2602,6 +2602,23 @@
       "img": "ldblockshow.png",
       "language": ["C++", "Perl"],
       "tags": ["GWAS", "Population"]
+    },
+    {
+      "name": "clinker (gene fusion)",
+      "url": "https://github.com/Oshlack/Clinker/",
+      "publication": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6065480/"
+      },
+      "img": "clinker_fusion.png",
+      "tags": ["Gene fusion"],
+      "language": ["R"]
+    },
+    {
+      "name": "arriba",
+      "img": "arriba.png",
+      "tags": ["Gene fusion"],
+      "url": "https://github.com/suhrig/arriba",
+      "publication": { "url": "https://genome.cshlp.org/content/31/3/448" }
     }
   ]
 }
