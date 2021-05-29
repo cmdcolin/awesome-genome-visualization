@@ -224,6 +224,10 @@ const IndexPage = () => {
         <a href={githubURL}>{githubURL}</a>
       </p>
       <p>
+        Also check out our twitter account{" "}
+        <a href="https://twitter.com/awesomegenomev1">@awesomegenomev1</a>
+      </p>
+      <p>
         Please submit PRs for more tools there and thanks to all the
         contributors!
       </p>
