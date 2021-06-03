@@ -2618,14 +2618,23 @@
       "img": "arriba.png",
       "tags": ["Gene fusion"],
       "url": "https://github.com/suhrig/arriba",
-      "publication": { "url": "https://genome.cshlp.org/content/31/3/448" }
+      "publication": { "url": "https://genome.cshlp.org/content/31/3/448" },
+      "language": ["C++", "R"]
     },
     {
       "name": "FusionInspector",
       "img": "fusioninspector.png",
       "url": "https://github.com/FusionInspector/FusionInspector/wiki",
       "tags": ["Gene fusion"],
-      "note": "Uses igv.js"
+      "note": "Uses igv.js",
+      "language": ["Perl", "JS"]
+    },
+    {
+      "name": "NeoLoopFinder",
+      "img": "neoloopfinder.png",
+      "url": "https://github.com/XiaoTaoWang/NeoLoopFinder",
+      "tags": ["SV", "Hi-C"],
+      "language": ["Python"]
     }
   ]
 }
