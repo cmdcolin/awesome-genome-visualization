@@ -2657,6 +2657,13 @@
       "platform": ["Web"],
       "img": "vega.png",
       "note": "Mentioned in https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf"
+    },
+    {
+      "name": "nightingale/protvista",
+      "url": "https://ebi-webcomponents.github.io/nightingale/#/msa",
+      "tags": ["Protein", "MSA"],
+      "platform": ["Web"],
+      "img": "nightingale.png"
     }
   ]
 }
