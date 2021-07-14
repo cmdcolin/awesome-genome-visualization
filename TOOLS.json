@@ -2664,6 +2664,13 @@
       "tags": ["Protein", "MSA"],
       "platform": ["Web"],
       "img": "nightingale.png"
+    },
+    {
+      "name": "ArchR",
+      "url": "https://www.archrproject.com/articles/Articles/tutorial.html",
+      "tags": ["Single cell"],
+      "language": ["R"],
+      "img": "archr.png"
     }
   ]
 }
