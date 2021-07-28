@@ -2671,6 +2671,13 @@
       "tags": ["Single cell"],
       "language": ["R"],
       "img": "archr.png"
+    },
+    {
+      "name": "PGAP-X",
+      "img": "pgapx.png",
+      "tags": ["Pangenome"],
+      "language": ["C++"],
+      "platform": ["Desktop"]
     }
   ]
 }
