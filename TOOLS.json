@@ -2677,7 +2677,11 @@
       "img": "pgapx.png",
       "tags": ["Pangenome"],
       "language": ["C++"],
-      "platform": ["Desktop"]
+      "platform": ["Desktop"],
+      "url": "https://pgapx.zhaopage.com/",
+      "publication": {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4337-7"
+      }
     }
   ]
 }
