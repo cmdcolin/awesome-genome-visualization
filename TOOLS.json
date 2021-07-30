@@ -2682,6 +2682,13 @@
       "publication": {
         "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4337-7"
       }
+    },
+    {
+      "name": "MAVIS",
+      "img": "mavis.png",
+      "tags": ["Gene fusion", "SV"],
+      "language": ["Python"],
+      "url": "http://mavis.bcgsc.ca/"
     }
   ]
 }
