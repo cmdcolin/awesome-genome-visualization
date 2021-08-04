@@ -241,7 +241,7 @@ Note that the organization here is a best effort categorization for general tags
 - [gGnomes.js](https://github.com/mskilab/gGnome.js) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggnomes.png)
 - [graphgenomeviewer](https://cmdcolin.github.io/graphgenomeviewer/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/graphgenomeviewer.png)
 - [MoMi-G](https://github.com/MoMI-G/MoMI-G/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/momig.png)
-- [odgi draw + odgi viz](https://pangenome.github.io/odgi/odgi_docs.html#_odgi_viz1) (Example from https://github.com/pangenome/pggb) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/odgi.png)
+- [odgi draw + odgi viz](https://odgi.readthedocs.io/en/latest/index.html) (Example from https://github.com/pangenome/pggb) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/odgi.png)
 - [sequence tube map](https://github.com/vgteam/sequenceTubeMap) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sequence_tube_map.png)
 - [Shasta](https://chanzuckerberg.github.io/shasta/ComputationalMethods.html#ReadGraph) (Uses graphviz) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shasta.png)
 - [LINX](https://github.com/hartwigmedical/hmftools/blob/master/sv-linx/README_VIS.md) (part of the PURPLE/GRIDSS/LINX pipeline) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/linx.png)
