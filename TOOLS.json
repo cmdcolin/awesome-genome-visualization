@@ -2689,6 +2689,17 @@
       "tags": ["Gene fusion", "SV"],
       "language": ["Python"],
       "url": "http://mavis.bcgsc.ca/"
+    },
+    {
+      "name": "ProViz",
+      "img": "proviz.png",
+      "tags": ["MSA", "Protein"],
+      "language": ["JS"],
+      "url": "http://slim.icr.ac.uk/proviz/index.php",
+      "note": "See also alphafold visualization as tracks http://slim.icr.ac.uk/projects/alphafold?page=alphafold_proviz_homepage",
+      "publication": {
+        "url": "https://academic.oup.com/nar/article/44/W1/W11/2499309"
+      }
     }
   ]
 }
