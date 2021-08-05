@@ -256,6 +256,9 @@ const IndexPage = () => {
           Dotplot viewer
         </button>
         <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
+        <button onClick={() => setFilters({ tag: "Graph" })}>
+          Graph genome
+        </button>
       </p>
       <p className="example-buttons">
         Example sorting:

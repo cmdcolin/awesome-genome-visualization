@@ -81,6 +81,8 @@ Note that the organization here is a best effort categorization for general tags
 - [SNPViz](http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snpviz.png)
 - [ALVIS (MSA viewer)](https://www.ebi.ac.uk/research/goldman/software/alvis) (Introduces sequence bundles concept, also see web app version https://www.ebi.ac.uk/goldman-srv/sequencebundles/) [(pub)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856975/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alvis.png)
 - [alignfigR](https://cran.r-project.org/web/packages/alignfigR/vignettes/my-vignette.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alignfigr.png)
+- [alen](https://github.com/jakobnissen/alen) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alen.png)
+- [ProViz](http://slim.icr.ac.uk/proviz/index.php) (See also alphafold visualization as tracks http://slim.icr.ac.uk/projects/alphafold?page=alphafold_proviz_homepage) [(pub)](https://academic.oup.com/nar/article/44/W1/W11/2499309) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/proviz.png)
 ## CNV
 - [aCNVViewer](https://github.com/FJD-CEPH/aCNViewer) [(pub)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189334) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/acnvviewer.png)
 - [CNVkit](https://cnvkit.readthedocs.io/en/stable/plots.html) [(pub)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004873) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnvkit.png)
@@ -144,6 +146,7 @@ Note that the organization here is a best effort categorization for general tags
 - [clinker (gene fusion)](https://github.com/Oshlack/Clinker/) [(pub)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6065480/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clinker_fusion.png)
 - [arriba](https://github.com/suhrig/arriba) [(pub)](https://genome.cshlp.org/content/31/3/448) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/arriba.png)
 - [FusionInspector](https://github.com/FusionInspector/FusionInspector/wiki) (Uses igv.js) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/fusioninspector.png)
+- [MAVIS](http://mavis.bcgsc.ca/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mavis.png)
 ## Alignment viewer
 - [GenomeView (java app)](https://genomeview.org/content/quick-start-guide) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomeview_java.png)
 - [pyBamView](https://mgymrek.github.io/pybamview/)
@@ -200,6 +203,7 @@ Note that the organization here is a best effort categorization for general tags
 - [copykat](https://github.com/navinlabcode/copykat/blob/master/vignettes/copycat-vignettes.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/copykat.png)
 - [scCNV_heatmap](https://github.com/StefanKurtenbach/scCNV_heatmap) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sccnv_heatmap.png)
 - [casper](https://github.com/akdess/CaSpER) [(pub)](https://www.nature.com/articles/s41467-019-13779-x) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/casper.png)
+- [ArchR](https://www.archrproject.com/articles/Articles/tutorial.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/archr.png)
 ## GWAS
 - [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/purescript.png)
 - [Locuszoom](http://locuszoom.org/) (Also see locuszoom.js http://locuszoom.org/locuszoomjs.php) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locuszoom.png)
@@ -310,6 +314,7 @@ Note that the organization here is a best effort categorization for general tags
 - [SplitThreader](http://splitthreader.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/splitthreader.png)
 - [SMRT View](http://files.pacb.com/software/smrtanalysis/2.3.0/doc/smrtview/help/Webhelp/App_View_Epipro.htm) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/smrtview.png)
 - [asgart](https://github.com/delehef/asgart) [(pub)](https://academic.oup.com/bioinformatics/article/34/16/2708/4948616) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/asgart.png)
+- [NeoLoopFinder](https://github.com/XiaoTaoWang/NeoLoopFinder) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/neoloopfinder.png)
 ## Expression
 - [GTEX Locus browser](https://gtexportal.org/home/locusBrowserPage/ACTN3) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gtex_locus.png)
 ## Population
@@ -355,10 +360,13 @@ Note that the organization here is a best effort categorization for general tags
 - [Panache](https://github.com/SouthGreenPlatform/panache) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/panache.png)
 - [panX](http://pangenome.tuebingen.mpg.de/) [(pub)](https://academic.oup.com/nar/article/46/1/e5/4564799) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/panx.jpeg)
 - [RPAN (3kricedb)](http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rpan.png)
+- [PGAP-X](https://pgapx.zhaopage.com/) [(pub)](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4337-7) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgapx.png)
 ## Protein
 - [Protael](http://sanshu.github.io/protaelweb/) [(pub)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/protael.png)
 - [ProteinPaint](https://pecan.stjude.cloud/proteinpaint) [(pub)](https://www.nature.com/articles/ng.3466) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/proteinpaint.png)
 - [pViz](https://github.com/Genentech/pviz) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pviz.jpg)
+- [Aquaria](http://aquaria.ws/Q9HD67/5i0i/A) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/aquaria.png)
+- [nightingale/protvista](https://ebi-webcomponents.github.io/nightingale/#/msa) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nightingale.png)
 ## Heatmap
 - [UCSC Xena](https://xena.ucsc.edu/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/xena.png)
 - [VIVA](https://www.biorxiv.org/content/10.1101/589879v1.full.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/viva.png)
@@ -376,6 +384,8 @@ Note that the organization here is a best effort categorization for general tags
 - [Nextclade](https://clades.nextstrain.org/) (Related usage on nextstrain app also) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nextclade.png)
 ## Uncategorized
 - [methylartist](https://github.com/adamewing/methylartist) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
+## Assembly
+- [vega](http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL) (Mentioned in https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vega.png)
 # Other lists
 
 - [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)

@@ -995,10 +995,11 @@
       "name": "gfaestus",
       "img": "gfaestus.png",
       "url": "https://github.com/chfi/gfaestus",
+      "note": "See demo video displaying GFF3 annotations on graph https://www.youtube.com/watch?v=A-HnKXIrJl4",
       "language": ["Rust"]
     },
     {
-      "tags": ["Graph"],
+      "tags": ["SV", "CNV", "Breakends", "Graph"],
       "name": "gGnomes.js",
       "img": "ggnomes.png",
       "url": "https://github.com/mskilab/gGnome.js",
