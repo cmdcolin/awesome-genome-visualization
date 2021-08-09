@@ -2708,6 +2708,16 @@
       "img": "pangraphviewer.jpg",
       "tags": ["Graph", "Pangenome"],
       "language": ["Python"]
+    },
+    {
+      "name": "SVPV",
+      "img": "svpv.jpg",
+      "language": ["Python"],
+      "url": "https://github.com/VCCRI/SVPV",
+      "tags": ["SV", "Coverage"],
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article/33/13/2032/3056003"
+      }
     }
   ]
 }
