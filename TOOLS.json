@@ -2725,6 +2725,13 @@
       "url": "http://bioconductor.org/packages/devel/bioc/vignettes/wiggleplotr/inst/doc/wiggleplotr.html",
       "tags": ["Coverage"],
       "language": ["R"]
+    },
+    {
+      "name": "pretzel",
+      "url": "https://github.com/plantinformatics/pretzel",
+      "img": "pretzel.png",
+      "language": ["JS", "D3"],
+      "tags": ["Comparative", "Genetic map"]
     }
   ]
 }
