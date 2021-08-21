@@ -197,6 +197,7 @@ Note that the organization here is a best effort categorization for general tags
 - [FastANI](https://github.com/ParBLiSS/FastANI) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/fastani.jpg)
 - [clinker](https://github.com/gamcil/clinker) [(pub)](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab007/6103786) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clinker.png)
 - [RectChr](https://github.com/BGI-shenzhen/RectChr) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rectchr.png)
+- [pretzel](https://github.com/plantinformatics/pretzel) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pretzel.png)
 ## Single cell
 - [Millefy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7053140/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/millefy.png)
 - [gingko](http://qb.cshl.edu/ginkgo/?q=/9EiUttUP0CBHs3WnuBa0) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gingko.jpeg)
@@ -241,8 +242,7 @@ Note that the organization here is a best effort categorization for general tags
 ## Graph
 - [AGB assembly graph browser](https://almiheenko.github.io/AGB/index.html) [(pub)](https://academic.oup.com/bioinformatics/article/35/18/3476/5306331)
 - [Bandage](https://github.com/rrwick/Bandage/) [(pub)](https://academic.oup.com/bioinformatics/article/31/20/3350/196114) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bandage.png)
-- [gfaestus](https://github.com/chfi/gfaestus) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfaestus.png)
-- [gGnomes.js](https://github.com/mskilab/gGnome.js) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggnomes.png)
+- [gfaestus](https://github.com/chfi/gfaestus) (See demo video displaying GFF3 annotations on graph https://www.youtube.com/watch?v=A-HnKXIrJl4) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfaestus.png)
 - [graphgenomeviewer](https://cmdcolin.github.io/graphgenomeviewer/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/graphgenomeviewer.png)
 - [MoMi-G](https://github.com/MoMI-G/MoMI-G/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/momig.png)
 - [odgi draw + odgi viz](https://odgi.readthedocs.io/en/latest/index.html) (Example from https://github.com/pangenome/pggb) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/odgi.png)
@@ -250,6 +250,18 @@ Note that the organization here is a best effort categorization for general tags
 - [Shasta](https://chanzuckerberg.github.io/shasta/ComputationalMethods.html#ReadGraph) (Uses graphviz) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shasta.png)
 - [LINX](https://github.com/hartwigmedical/hmftools/blob/master/sv-linx/README_VIS.md) (part of the PURPLE/GRIDSS/LINX pipeline) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/linx.png)
 - [GfaViz](undefined) [(pub)](https://academic.oup.com/bioinformatics/article/35/16/2853/5267826) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfaviz.png)
+- [panGraphViewer](https://github.com/TF-Chan-Lab/panGraphViewer) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pangraphviewer.jpg)
+## SV
+- [gGnomes.js](https://github.com/mskilab/gGnome.js) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggnomes.png)
+- [Ribbon](http://genomeribbon.com/) [(pub)](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa680/5885081?redirectedFrom=fulltext) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomeribbon.png)
+- [Gremlin](http://compbio.cs.brown.edu/projects/gremlin/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gremlin.png)
+- [InGAP-SV](http://ingap.sourceforge.net/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ingap_sv.png)
+- [Introgression browser](https://git.wageningenur.nl/aflit001/ibrowser) [(pub)](https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/introgression_browser.png)
+- [SplitThreader](http://splitthreader.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/splitthreader.png)
+- [SMRT View](http://files.pacb.com/software/smrtanalysis/2.3.0/doc/smrtview/help/Webhelp/App_View_Epipro.htm) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/smrtview.png)
+- [asgart](https://github.com/delehef/asgart) [(pub)](https://academic.oup.com/bioinformatics/article/34/16/2708/4948616) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/asgart.png)
+- [NeoLoopFinder](https://github.com/XiaoTaoWang/NeoLoopFinder) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/neoloopfinder.png)
+- [SVPV](https://github.com/VCCRI/SVPV) [(pub)](https://academic.oup.com/bioinformatics/article/33/13/2032/3056003) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svpv.jpg)
 ## Text based
 - [Alan](https://github.com/mpdunne/alan) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alan.png)
 - [Alv](https://github.com/arvestad/alv) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alv.png)
@@ -306,15 +318,6 @@ Note that the organization here is a best effort categorization for general tags
 - [Varsome](https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/varsome.png)
 - [Vials](http://vials.io/)
 - [wasm bigwig demo browser](https://shk656461.github.io/index.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wasm_bigwig.png)
-## SV
-- [Ribbon](http://genomeribbon.com/) [(pub)](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa680/5885081?redirectedFrom=fulltext) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomeribbon.png)
-- [Gremlin](http://compbio.cs.brown.edu/projects/gremlin/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gremlin.png)
-- [InGAP-SV](http://ingap.sourceforge.net/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ingap_sv.png)
-- [Introgression browser](https://git.wageningenur.nl/aflit001/ibrowser) [(pub)](https://onlinelibrary.wiley.com/doi/pdf/10.1111/tpj.12800) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/introgression_browser.png)
-- [SplitThreader](http://splitthreader.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/splitthreader.png)
-- [SMRT View](http://files.pacb.com/software/smrtanalysis/2.3.0/doc/smrtview/help/Webhelp/App_View_Epipro.htm) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/smrtview.png)
-- [asgart](https://github.com/delehef/asgart) [(pub)](https://academic.oup.com/bioinformatics/article/34/16/2708/4948616) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/asgart.png)
-- [NeoLoopFinder](https://github.com/XiaoTaoWang/NeoLoopFinder) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/neoloopfinder.png)
 ## Expression
 - [GTEX Locus browser](https://gtexportal.org/home/locusBrowserPage/ACTN3) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gtex_locus.png)
 ## Population
@@ -386,6 +389,10 @@ Note that the organization here is a best effort categorization for general tags
 - [methylartist](https://github.com/adamewing/methylartist) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
 ## Assembly
 - [vega](http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL) (Mentioned in https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vega.png)
+## Coverage
+- [wiggleplotr](http://bioconductor.org/packages/devel/bioc/vignettes/wiggleplotr/inst/doc/wiggleplotr.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wiggleplotr.png)
+## Splicing
+- [splicejam](https://github.com/jmw86069/splicejam) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/splicejam.png)
 # Other lists
 
 - [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
