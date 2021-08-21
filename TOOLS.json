@@ -1101,6 +1101,8 @@
       "tags": ["Alignment viewer", "Static"],
       "url": "https://mgymrek.github.io/pybamview/",
       "platform": ["CLI"],
+      "img": "pybamview.png",
+      "note": "See supplementary info for more figures, supports padded SAM/BAM which is fairly rare",
       "language": ["Python"]
     },
     {
@@ -1183,7 +1185,7 @@
       "img": "circlize.jpeg",
       "url": "https://github.com/jokergoo/circlize",
       "language": ["R"],
-      "tags": ["Static"]
+      "tags": ["Circular", "Static"]
     },
     {
       "tags": ["Circular", "Static"],
