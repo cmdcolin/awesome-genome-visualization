@@ -4,9 +4,15 @@ import slugify from "slugify";
 import queryString from "query-string";
 import "./App.css";
 
-const Cards = ({ tools, setSelected }) => {
+const Cards = ({ tools, filters, setSelected, setFilters }) => {
   return tools.map((row) => (
-    <Card row={row} key={row.name} setSelected={setSelected} />
+    <Card
+      row={row}
+      key={row.name}
+      setSelected={setSelected}
+      setFilters={setFilters}
+      filters={filters}
+    />
   ));
 };
 
@@ -24,6 +30,8 @@ const Card = ({
     note,
     alt_url,
   },
+  filters,
+  setFilters,
 }) => {
   const [expanded, setExpanded] = useState(false);
   return (
@@ -56,7 +64,23 @@ const Card = ({
           </p>
         ) : null}
         {language ? <p>Language: {language.join(", ")}</p> : null}
-        {tags ? <p>Tags: {tags.join(", ")}</p> : null}
+        {tags ? (
+          <p>
+            Tags:{" "}
+            {tags.map((tag, index) => [
+              index > 0 && ", ",
+              <a
+                href="#"
+                key={tag + "-" + index}
+                onClick={() => {
+                  setFilters({ ...filters, tag });
+                }}
+              >
+                {tag}
+              </a>,
+            ])}
+          </p>
+        ) : null}
         {note ? <p>Note: {note}</p> : null}
         {github ? (
           <p className="link">
@@ -259,6 +283,9 @@ const IndexPage = () => {
         <button onClick={() => setFilters({ tag: "Graph" })}>
           Graph genome
         </button>
+        <button onClick={() => setFilters({ tag: "Text based" })}>
+          Text based
+        </button>
       </p>
       <p className="example-buttons">
         Example sorting:
@@ -296,6 +323,7 @@ const IndexPage = () => {
         filters={filters}
         tools={filteredTools}
         setSelected={setSelected}
+        setFilters={setFilters}
       />
       <p>
         Note: if you would like your tool removed or screenshot removed (for
@@ -305,7 +333,7 @@ const IndexPage = () => {
         And always remember, "YOU ARE AWESOME!!" read in Ben Busby voice for
         added effect. Thanks Ben for reminding us of this always :)
       </p>
-      <div class="top-link" onClick={() => window.scrollTo(0, 0)}>
+      <div className="top-link" onClick={() => window.scrollTo(0, 0)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width={20}
