@@ -415,7 +415,7 @@
     {
       "tags": ["Static", "Ideogram", "Circular", "Multi"],
       "name": "ggbio",
-      "url": "http://tengfei.github.io/ggbio/",
+      "url": "http://www.bioconductor.org/packages/2.11/bioc/vignettes/ggbio/inst/doc/ggbio.pdf",
       "img": "ggbio.png",
       "language": ["R"],
       "publication": {
@@ -2742,6 +2742,27 @@
       "img": "splicejam.png",
       "tags": ["Splicing", "Sashimi"],
       "url": "https://github.com/jmw86069/splicejam"
+    },
+    {
+      "name": "genomegraphs",
+      "language": ["R"],
+      "img": "genomegraphs.png",
+      "tags": ["Ideogram", "Quantitative", "Splicing"],
+      "url": "http://bioconductor.org/packages/2.5/bioc/vignettes/GenomeGraphs/inst/doc/GenomeGraphs.pdf"
+    },
+    {
+      "name": "IdeoViz",
+      "language": ["R"],
+      "img": "ideoviz.png",
+      "tags": ["Ideogram", "Quantitative", "Splicing"],
+      "url": "https://www.bioconductor.org/packages/release/bioc/vignettes/IdeoViz/inst/doc/Vignette.pdf"
+    },
+    {
+      "name": "Flash Gviewer",
+      "language": ["Flash", "ActionScript"],
+      "img": "flashgviewer.png",
+      "tags": ["Ideogram", "Genetic Map", "Historical"],
+      "url": "http://gmod.org/wiki/Flashgviewer/"
     }
   ]
 }
