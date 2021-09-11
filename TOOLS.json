@@ -2763,6 +2763,16 @@
       "img": "flashgviewer.png",
       "tags": ["Ideogram", "Genetic Map", "Historical"],
       "url": "http://gmod.org/wiki/Flashgviewer/"
+    },
+    {
+      "name": "Plotgardener",
+      "language": ["R"],
+      "img": "plotgardener.png",
+      "tags": ["Hi-C", "Coverage"],
+      "url": "https://github.com/PhanstielLab/plotgardener/",
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/2021.09.08.459338v1"
+      }
     }
   ]
 }
