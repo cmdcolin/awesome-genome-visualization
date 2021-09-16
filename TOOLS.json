@@ -2773,6 +2773,16 @@
       "publication": {
         "url": "https://www.biorxiv.org/content/10.1101/2021.09.08.459338v1"
       }
+    },
+    {
+      "name": "MIRA",
+      "language": ["C++"],
+      "img": "mira.png",
+      "tags": ["Assembly", "Alignment viewer", "Historical"],
+      "url": "http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html",
+      "publication": {
+        "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.7465&rep=rep1&type=pdf"
+      }
     }
   ]
 }
