@@ -2783,6 +2783,14 @@
       "publication": {
         "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.7465&rep=rep1&type=pdf"
       }
+    },
+    {
+      "name": "oxford-plots",
+      "url": "https://github.com/jherrero/oxford-plots",
+      "img": "oxford.png",
+      "tags": ["Dotplot"],
+      "language": ["R", "Perl"],
+      "note": "Has nice description of a synteny pipeline here https://github.com/jherrero/oxford-plots/blob/master/examples/pig_X_Y.txt"
     }
   ]
 }
