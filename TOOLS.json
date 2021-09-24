@@ -2791,6 +2791,15 @@
       "tags": ["Dotplot"],
       "language": ["R", "Perl"],
       "note": "Has nice description of a synteny pipeline here https://github.com/jherrero/oxford-plots/blob/master/examples/pig_X_Y.txt"
+    },
+    {
+      "name": "IGGE",
+      "tags": ["Graph", "Exotic"],
+      "note": "Not open source",
+      "url": "https://github.com/immersivegraphgenomeexplorer/IGGE",
+      "publication": {
+        "url": "https://www.researchgate.net/profile/Aviv-Elor/publication/354582953_The_Immersive_Graph_Genome_Explorer_Navigating_Genomics_in_Immersive_Virtual_Reality/links/6140c890578238365b0afa3a/The-Immersive-Graph-Genome-Explorer-Navigating-Genomics-in-Immersive-Virtual-Reality.pdf"
+      }
     }
   ]
 }
