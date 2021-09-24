@@ -34,13 +34,14 @@ const Card = ({
   setFilters,
 }) => {
   const [expanded, setExpanded] = useState(false);
+  const slug = slugify(name, { remove: /[*+~.()'"!:@]/g });
   return (
     <div className="card">
       <div>
         <h3>
           <a
-            id={`${slugify(name)}`}
-            onClick={() => setSelected({ selected: "#" + slugify(name) })}
+            id={slug}
+            onClick={() => setSelected({ selected: "#" + slug })}
             style={{ color: "black", cursor: "pointer" }}
           >
             {name}
