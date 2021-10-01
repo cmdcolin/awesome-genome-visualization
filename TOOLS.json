@@ -2814,6 +2814,13 @@
       "img": "graphalignmentviewer.png",
       "url": "https://github.com/Illumina/GraphAlignmentViewer",
       "tags": ["Repeats"]
+    },
+    {
+      "name": "MEGA-X",
+      "img": "megax.png",
+      "url": "https://www.megasoftware.net/",
+      "platform": ["Desktop"],
+      "tags": ["MSA", "Phylogenetics"]
     }
   ]
 }
