@@ -330,10 +330,6 @@ const IndexPage = () => {
         Note: if you would like your tool removed or screenshot removed (for
         copyright purposes for example) let me know
       </p>
-      <p>
-        And always remember, "YOU ARE AWESOME!!" read in Ben Busby voice for
-        added effect. Thanks Ben for reminding us of this always :)
-      </p>
       <div className="top-link" onClick={() => window.scrollTo(0, 0)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
