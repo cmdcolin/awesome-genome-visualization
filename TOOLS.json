@@ -2829,6 +2829,12 @@
       "url": "https://www.broadinstitute.org/haploview/haploview",
       "platform": ["Desktop"],
       "language": ["Java"]
+    },
+    {
+      "name": "AliTreeViz",
+      "img": "alitreeviz.png",
+      "url": "https://www.npmjs.com/package/alitreeviz",
+      "language": ["JS"]
     }
   ]
 }
