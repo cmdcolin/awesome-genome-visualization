@@ -2834,7 +2834,18 @@
       "name": "AliTreeViz",
       "img": "alitreeviz.png",
       "url": "https://www.npmjs.com/package/alitreeviz",
+      "tags": ["MSA", "Phylogenetics"],
       "language": ["JS"]
+    },
+    {
+      "name": "WGDI",
+      "img": "wgdi.png",
+      "url": "https://github.com/SunPengChuan/wgdi",
+      "language": ["Python"],
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/2021.04.29.441969v1.full.pdf"
+      },
+      "tags": ["Comparative", "Dotplot", "Circular"]
     }
   ]
 }
