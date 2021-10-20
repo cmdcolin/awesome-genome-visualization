@@ -2846,6 +2846,25 @@
         "url": "https://www.biorxiv.org/content/10.1101/2021.04.29.441969v1.full.pdf"
       },
       "tags": ["Comparative", "Dotplot", "Circular"]
+    },
+    {
+      "name": "AmpliconArchitect",
+      "note": "The term amplicon refers essentially to extrachromosomal DNA in cancer",
+      "img": "ampliconarchitect.png",
+      "url": "https://github.com/virajbdeshpande/AmpliconArchitect",
+      "language": ["Python"],
+      "tags": ["SV", "Cancer"]
+    },
+    {
+      "name": "PGV",
+      "img": "pgv.png",
+      "url": "https://github.com/ucrbioinfo/PGV",
+      "language": ["Python"],
+      "platform": ["Web"],
+      "publication": {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04424-w"
+      },
+      "tags": ["Pangenome", "Dotplot", "Comparative"]
     }
   ]
 }
