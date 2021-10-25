@@ -24,6 +24,8 @@ const Card = ({
     language,
     tags,
     img,
+    width,
+    height,
     github,
     platform,
     publication,
@@ -41,8 +43,12 @@ const Card = ({
         <h3>
           <a
             id={slug}
-            onClick={() => setSelected({ selected: "#" + slug })}
+            href="#"
             style={{ color: "black", cursor: "pointer" }}
+            onClick={(event) => {
+              setSelected({ selected: "#" + slug });
+              event.preventDefault();
+            }}
           >
             {name}
           </a>
@@ -71,10 +77,10 @@ const Card = ({
             {tags.map((tag, index) => [
               index > 0 && ", ",
               <a
-                href="#"
                 key={tag + "-" + index}
-                onClick={() => {
+                onClick={(event) => {
                   setFilters({ ...filters, tag });
+                  event.preventDefault();
                 }}
               >
                 {tag}
@@ -99,6 +105,8 @@ const Card = ({
             alt={`screenshot of ${name}`}
             loading="lazy"
             className={expanded ? "expanded" : ""}
+            width={width}
+            height={height}
             src={img}
           />
         ) : (
@@ -330,16 +338,16 @@ const IndexPage = () => {
         Note: if you would like your tool removed or screenshot removed (for
         copyright purposes for example) let me know
       </p>
-      <div className="top-link" onClick={() => window.scrollTo(0, 0)}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width={20}
-          height={20}
-          viewBox="0 0 12 6"
-        >
-          <path d="M12 6H0l6-6z" />
-        </svg>
-      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={20}
+        height={20}
+        onClick={() => window.scrollTo(0, 0)}
+        className="top-link"
+        viewBox="0 0 12 6"
+      >
+        <path d="M12 6H0l6-6z" />
+      </svg>
     </main>
   );
 };

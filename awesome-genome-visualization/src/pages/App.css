@@ -75,7 +75,6 @@ p {
   border: var(--card-border-width) solid #ccc;
   border-bottom-color: #bbb;
   background-color: white;
-  height: 300px;
 
   box-shadow: 0 3px 2px rgb(0, 0, 0, 0.05);
 }
@@ -90,18 +89,14 @@ p {
 }
 
 .card figure > img {
-  /*
-   * TODO: max-height and aspect ratio when more browser support it:
-   * https://web.dev/aspect-ratio/
-   */
-
   display: block;
   cursor: pointer;
+  height: auto;
   width: 100%;
+  max-height: 400px;
   max-width: 400px;
 }
 
-/* Use this class to truncate long links */
 .card .link {
   max-width: 100%;
   white-space: nowrap;
@@ -129,11 +124,6 @@ h3:first-child {
 
 .modal-backdrop img {
   background-color: white;
-
-  /*
-   * TODO: max-height and aspect ratio when more browser support it:
-   * https://web.dev/aspect-ratio/
-   */
   max-width: 90%;
   max-height: 90%;
   border: 10px solid black;
@@ -199,8 +189,8 @@ h3:first-child {
   justify-content: center;
   margin: 0 1em 1em 0;
   border-radius: 50%;
-  padding: 0.25em;
-  width: 40px;
-  height: 40px;
+  padding: 1em;
+  width: 30px;
+  height: 30px;
   background-color: #aaf;
 }
