@@ -2865,6 +2865,16 @@
         "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04424-w"
       },
       "tags": ["Pangenome", "Dotplot", "Comparative"]
+    },
+    {
+      "name": "REViewer",
+      "img": "reviewer.png",
+      "tags": ["Repeats"],
+      "url": "https://github.com/Illumina/REViewer",
+      "note": "See also GraphAlignmentViewer, similar look and from illumina also",
+      "publication": {
+        "url": "https://www.biorxiv.org/content/10.1101/2021.10.20.465046v1.full.pdf"
+      }
     }
   ]
 }
