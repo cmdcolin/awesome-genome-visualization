@@ -3400,6 +3400,19 @@
       "language": ["JS"],
       "width": 489,
       "height": 640
+    },
+    {
+      "name": "BRIG",
+      "img": "brig.jpg",
+      "tags": ["Comparative", "Circular"],
+      "url": "http://brig.sourceforge.net",
+      "publication": {
+        "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-402"
+      },
+      "language": ["Java"],
+      "platform": ["Desktop"],
+      "width": 1200,
+      "height": 1075
     }
   ]
 }
