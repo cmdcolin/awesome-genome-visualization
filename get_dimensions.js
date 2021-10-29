@@ -10,12 +10,14 @@ const d2 = Object.fromEntries(
     .map((line) => line.split(" "))
 );
 
-data.tools = data.tools
-  .filter((d) => d2[d.img])
-  .map((d) => {
+data.tools = data.tools.map((d) => {
+  if (d2[d.img]) {
     const entry = d2[d.img];
     const [width, height] = entry.split("x");
     return { ...d, width: +width, height: +height };
-  });
+  } else {
+    return d;
+  }
+});
 
 fs.writeFileSync("TOOLS.json", JSON.stringify(data, null, 2));

@@ -7,4 +7,6 @@ See the new companion website here https://cmdcolin.github.io/awesome-genome-vis
 
 Follow the Twitter account here too :) https://twitter.com/awesomegenomev1
 
-Note that the organization here is a best effort categorization for general tags applied to these tools
+Note that the organization on the GitHub README here is a best effort
+categorization using the first tag applied to each tool, but tools can have
+multiple tags too. See the website to see all tags applied to tools
