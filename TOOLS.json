@@ -3413,6 +3413,15 @@
       "platform": ["Desktop"],
       "width": 1200,
       "height": 1075
+    },
+    {
+      "name": "Ideogram viewer",
+      "url": "https://bioinformatics.mdanderson.org/public-software/ideogramviewer/",
+      "img": "ideogramviewer.png",
+      "language": ["JS"],
+      "platform": ["Web"],
+      "width": 926,
+      "height": 394
     }
   ]
 }
