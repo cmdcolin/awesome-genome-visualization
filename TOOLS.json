@@ -3601,6 +3601,15 @@
       "language": ["R"],
       "width": 730,
       "height": 593
+    },
+    {
+      "name": "ggplot2 manhattan plot",
+      "url": "https://danielroelfs.com/blog/how-i-create-manhattan-plots-using-ggplot/",
+      "note": "This is not a preconfigured tool but a blog post tutorial with tidy data and ggplot2",
+      "img": "ggplot2_manhattan.png",
+      "tags": ["Manhattan", "GWAS"],
+      "width": 2304,
+      "height": 960
     }
   ]
 }
