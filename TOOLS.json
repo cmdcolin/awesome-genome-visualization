@@ -2844,7 +2844,7 @@
       "url": "https://server.gview.ca/examples",
       "img": "gview.png",
       "platform": ["Web"],
-      "languages": ["Perl", "Java", "Java web start"],
+      "language": ["Perl", "Java", "Java web start"],
       "width": 890,
       "height": 969
     },
@@ -3610,6 +3610,15 @@
       "tags": ["Manhattan", "GWAS"],
       "width": 2304,
       "height": 960
+    },
+    {
+      "name": "ete",
+      "url": "http://etetoolkit.org/gallery/",
+      "language": ["Python"],
+      "tags": ["MSA", "Phylogenetics"],
+      "img": "ete.png",
+      "width": 640,
+      "height": 500
     }
   ]
 }
