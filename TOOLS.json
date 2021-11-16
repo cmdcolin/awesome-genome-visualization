@@ -3619,6 +3619,16 @@
       "img": "ete.png",
       "width": 640,
       "height": 500
+    },
+    {
+      "name": "ggtree",
+      "url": "https://github.com/YuLab-SMU/ggtree",
+      "language": ["R"],
+      "tags": ["MSA", "Phylogenetics"],
+      "img": "ggtree.png",
+      "note": "see https://yulab-smu.top/treedata-book/chapter7.html?q=msa#msaplot for MSA example",
+      "width": 2100,
+      "height": 1050
     }
   ]
 }
