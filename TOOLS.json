@@ -3648,6 +3648,17 @@
       "language": ["Java"],
       "width": 1024,
       "height": 768
+    },
+    {
+      "name": "RegulomeExplorer",
+      "url": "http://explorer.cancerregulome.org/all_pairs/?dataset=TCGA_ACC",
+      "img": "cancerregulome.png",
+      "tags": ["Circular", "Cancer", "SV"],
+      "platform": ["Web"],
+      "language": ["JS"],
+      "github": "https://github.com/cancerregulome/RegulomeExplorer",
+      "width": 1852,
+      "height": 801
     }
   ]
 }
