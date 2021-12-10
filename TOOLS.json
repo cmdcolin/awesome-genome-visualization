@@ -3670,6 +3670,19 @@
       "note": "See also CGView comparison tool and other related https://paulstothard.github.io/cgview_comparison_tool/",
       "width": 926,
       "height": 443
+    },
+    {
+      "name": "miropeats",
+      "img": "miropeats.png",
+      "tags": ["Comparative", "Repeats", "Synteny", "Historical"],
+      "language": ["Perl", "C"],
+      "note": "image from 2021 paper https://www.biorxiv.org/content/10.1101/2021.12.08.471837v1.full.pdf",
+      "publication": {
+        "url": "https://academic.oup.com/bioinformatics/article-abstract/11/6/615/187092?redirectedFrom=fulltext"
+      },
+      "url": "http://www.littlest.co.uk/software/bioinf/old_packages/miropeats/",
+      "width": 654,
+      "height": 219
     }
   ]
 }
