@@ -3218,7 +3218,7 @@
       "height": 275
     },
     {
-      "name": "clinker (gene fusion)",
+      "name": "clinker (gene fusion software)",
       "url": "https://github.com/Oshlack/Clinker/",
       "publication": {
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6065480/"
@@ -3683,6 +3683,19 @@
       "url": "http://www.littlest.co.uk/software/bioinf/old_packages/miropeats/",
       "width": 654,
       "height": 219
+    },
+    {
+      "name": "Slinker",
+      "img": "slinker.png",
+      "tags": ["Splicing", "Coverage"],
+      "language": ["Python"],
+      "publication": {
+        "url": "https://f1000research.com/articles/10-1255/v1"
+      },
+      "url": "https://github.com/Oshlack/Slinker",
+      "note": "See also, clinker (gene fusion software)",
+      "width": 819,
+      "height": 644
     }
   ]
 }
