@@ -2236,12 +2236,13 @@
       "height": 1964
     },
     {
-      "tags": ["General", "SV", "Alignment viewer"],
+      "tags": ["General", "SV", "Alignment viewer", "Comparative"],
       "name": "Kero-BROWSE",
       "img": "kerobrowse.png",
       "url": "https://kero.hgc.jp/examples/CLCL/hg38/index.html",
       "platform": ["Web"],
       "language": ["JS"],
+      "note": "Also can visualize basic synteny, see tracks e.g. https://kero.hgc.jp/tool/keyword.html#kero:chrX:153,724,868-153,744,762 human vs chimp",
       "width": 803,
       "height": 529
     },
@@ -2612,15 +2613,7 @@
       "width": 640,
       "height": 427
     },
-    {
-      "tags": ["Ideogram", "Static"],
-      "name": "chromoMap",
-      "img": "chromomap.png",
-      "url": "https://www.biorxiv.org/content/10.1101/605600v1.full.pdf",
-      "language": ["R"],
-      "width": 708,
-      "height": 621
-    },
+
     {
       "tags": ["Ideogram"],
       "name": "eweitz/Ideogram",
