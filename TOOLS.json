@@ -2326,12 +2326,12 @@
       "img": "cgplot.png",
       "url": "https://github.com/dfguan/cgplot",
       "language": ["Python"],
-      "tags": ["Static", "Dotplot"],
+      "tags": ["Static", "Dotplot", "Comparative"],
       "width": 3000,
       "height": 3000
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "D-GENIES",
       "github": "https://github.com/genotoul-bioinfo/dgenies",
       "url": "http://dgenies.toulouse.inra.fr/",
@@ -2342,7 +2342,7 @@
       "height": 500
     },
     {
-      "tags": ["Dotplot", "Static"],
+      "tags": ["Dotplot", "Static", "Comparative"],
       "name": "Delly-maze",
       "img": "maze.png",
       "url": "https://github.com/dellytools/maze",
@@ -2351,7 +2351,7 @@
       "height": 1304
     },
     {
-      "tags": ["Dotplot", "Static"],
+      "tags": ["Dotplot", "Static", "Comparative"],
       "name": "Discoplot",
       "img": "discoplot.png",
       "url": "https://github.com/mjsull/DiscoPlot",
@@ -2360,7 +2360,7 @@
       "height": 1564
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "Dot",
       "url": "https://dot.sandbox.bio/",
       "github": "https://github.com/MariaNattestad/dot",
@@ -2392,7 +2392,7 @@
       "platform": ["Web"]
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "dotPlotly",
       "url": "https://github.com/tpoorten/dotPlotly/",
       "img": "dotplotly.png",
@@ -2421,7 +2421,7 @@
       "height": 564
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "Gepard",
       "url": "http://cube.univie.ac.at/gepard",
       "img": "gepard.jpeg",
@@ -2433,7 +2433,7 @@
       "height": 856
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "Jdot",
       "url": "https://github.com/LyonsLab/jdot",
       "img": "jdot.png",
@@ -2443,7 +2443,7 @@
       "height": 320
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "last-dotplot",
       "img": "last_dotplot.png",
       "url": "http://last.cbrc.jp/",
@@ -2452,7 +2452,7 @@
       "height": 421
     },
     {
-      "tags": ["Dotplot", "Static"],
+      "tags": ["Dotplot", "Static", "Comparative"],
       "name": "mcutils",
       "img": "mcutils_dotplot.jpeg",
       "url": "https://github.com/mchaisso/mcutils",
@@ -2461,7 +2461,7 @@
       "height": 404
     },
     {
-      "tags": ["Dotplot", "Static"],
+      "tags": ["Dotplot", "Static", "Comparative"],
       "name": "Minidot",
       "img": "minidot.png",
       "url": "https://github.com/thackl/minidot",
@@ -2470,14 +2470,14 @@
       "height": 683
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "Mummer-idotplot",
       "url": "https://github.com/ryought/mummer-idotplot",
       "language": ["JS", "Python"],
       "platform": ["Web", "CLI"]
     },
     {
-      "tags": ["Dotplot", "Static"],
+      "tags": ["Dotplot", "Static", "Comparative"],
       "name": "Mummerplot",
       "img": "mummerplot.png",
       "url": "http://mummer.sourceforge.net/",
@@ -2486,7 +2486,7 @@
       "height": 2550
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "img": "mummerplot_ggplot2.png",
       "name": "ggplot2 mummerplot",
       "url": "https://jmonlong.github.io/Hippocamplus/2017/09/19/mummerplots-with-ggplot2/",
@@ -2495,7 +2495,7 @@
       "height": 1536
     },
     {
-      "tags": ["Dotplot"],
+      "tags": ["Dotplot", "Comparative"],
       "name": "Redottable",
       "img": "redotable.png",
       "url": "https://github.com/s-andrews/redotable",
@@ -2505,7 +2505,7 @@
       "height": 585
     },
     {
-      "tags": ["Dotplot", "Static"],
+      "tags": ["Dotplot", "Comparative", "Static"],
       "name": "syntenyPlotByR",
       "img": "synteny_plot_by_r.png",
       "url": "https://github.com/shingocat/syntenyPlotByR",
