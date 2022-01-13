@@ -2618,8 +2618,8 @@
       "img": "chromomap.png",
       "url": "https://www.biorxiv.org/content/10.1101/605600v1.full.pdf",
       "language": ["R"],
-      "width": 734,
-      "height": 455
+      "width": 708,
+      "height": 621
     },
     {
       "tags": ["Ideogram"],
@@ -3696,6 +3696,33 @@
       "note": "See also, clinker (gene fusion software)",
       "width": 819,
       "height": 644
+    },
+    {
+      "name": "syntenyPlotteR",
+      "img": "syntenyplotter.png",
+      "tags": ["Comparative"],
+      "url": "https://github.com/marta-fb/syntenyPlotteR",
+      "width": 1440,
+      "height": 720
+    },
+    {
+      "name": "chromoMap",
+      "img": "chromomap.png",
+      "tags": ["Comparative", "Ideogram"],
+      "publication": {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04556-z"
+      },
+      "url": "https://lakshay-anand.github.io/chromoMap/index.html",
+      "width": 708,
+      "height": 621
+    },
+    {
+      "name": "SafFire",
+      "img": "saffire.png",
+      "tags": ["Comparative"],
+      "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
+      "width": 1776,
+      "height": 700
     }
   ]
 }
