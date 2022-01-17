@@ -2243,8 +2243,8 @@
       "platform": ["Web"],
       "language": ["JS"],
       "note": "Also can visualize basic synteny, see tracks e.g. https://kero.hgc.jp/tool/keyword.html#kero:chrX:153,724,868-153,744,762 human vs chimp",
-      "width": 803,
-      "height": 529
+      "width": 602,
+      "height": 397
     },
     {
       "tags": ["General", "SV", "Epigenomics", "Gene structure", "Splicing"],
@@ -2613,7 +2613,6 @@
       "width": 640,
       "height": 427
     },
-
     {
       "tags": ["Ideogram"],
       "name": "eweitz/Ideogram",
@@ -3721,7 +3720,9 @@
       "name": "Gingr",
       "img": "gingr.png",
       "tags": ["Phylogenetics", "Comparative", "Microbiology"],
-      "url": "https://harvest.readthedocs.io/en/latest/content/gingr.html"
+      "url": "https://harvest.readthedocs.io/en/latest/content/gingr.html",
+      "width": 924,
+      "height": 579
     }
   ]
 }
