@@ -21,7 +21,7 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
     try {
       if (d.pub) {
         const doi = d.pub.doi
-        if (doi.includes('zenodo')) {
+        if (doi.includes('zenodo') || doi.includes('figshare') || d.pub.year) {
           i++
           continue
         }
@@ -44,13 +44,15 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
         const json = await response.json()
         d.pub.year = json.published['date-parts'][0][0]
         timeout = 1000
-        setTimeout(timeout)
       }
       i++
     } catch (e) {
       console.error('got error, retrying', e)
       await setTimeout(timeout)
       timeout = timeout * 2
+      if (timeout >= 4000) {
+        i++
+      }
     }
   }
   fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2))

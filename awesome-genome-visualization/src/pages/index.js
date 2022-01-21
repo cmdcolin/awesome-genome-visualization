@@ -249,7 +249,20 @@ const IndexPage = () => {
     }
   }, [filters, sort, selected, alreadyScrolledTo])
 
-  const tools = sort.latest ? importedTools.slice().reverse() : importedTools
+  let tools = importedTools.slice()
+  if (sort.latest) {
+    tools = tools.reverse()
+  }
+
+  if (sort.year !== undefined) {
+    tools = tools.sort(
+      (a, b) => +(a.pub?.year || Infinity) - +(b.pub?.year || Infinity),
+    )
+    if (sort.year === -1) {
+      tools = tools.reverse()
+    }
+  }
+
   const filteredTools = tools
     .filter(tool => (language ? tool.language?.includes(language) : true))
     .filter(tool => (tag ? tool.tags?.includes(tag) : true))
@@ -309,7 +322,13 @@ const IndexPage = () => {
         Example sorting:
         <button onClick={() => setSort({})}>Clear sort</button>
         <button onClick={() => setSort({ latest: true })}>
-          Sort by most recent
+          Sort by most recently added
+        </button>
+        <button onClick={() => setSort({ year: -1 })}>
+          Sort by year ascending
+        </button>
+        <button onClick={() => setSort({ year: 1 })}>
+          Sort by year desceding
         </button>
         <button onClick={() => setSort({})}>Sort by least recent</button>
       </p>
