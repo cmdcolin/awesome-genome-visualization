@@ -65,7 +65,17 @@ const Card = ({
         {pub ? (
           <p className="link">
             Publication: {pub.url ? <a href={pub.url}>(direct link)</a> : null}{' '}
-            {pub.doi ? <a href={pub.doi}>(doi link)</a> : null}{' '}
+            {pub.doi ? (
+              <a
+                href={
+                  pub.doi.startsWith('http')
+                    ? pub.doi
+                    : 'https://dx.doi.org/' + pub.doi
+                }
+              >
+                (doi link)
+              </a>
+            ) : null}{' '}
             {pub.year ? ` (${pub.year})` : null}
           </p>
         ) : null}

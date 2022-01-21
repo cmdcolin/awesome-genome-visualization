@@ -164,7 +164,8 @@
       "img": "alignmentviewer.png",
       "url": "https://alignmentviewer.org/",
       "pub": {
-        "url": "https://f1000research.com/articles/9-213"
+        "url": "https://f1000research.com/articles/9-213",
+        "doi": "https://doi.org/10.12688/f1000research.22242.2"
       },
       "platform": ["Web"],
       "width": 1848,
@@ -222,7 +223,7 @@
       "name": "Jalview",
       "img": "jalview.jpg",
       "url": "https://www.jalview.org/",
-      "pub": { "url": "10.1093/bioinformatics/btp033" },
+      "pub": { "doi": "10.1093/bioinformatics/btp033" },
       "platform": ["Desktop"],
       "language": ["Java"],
       "width": 520,
@@ -485,7 +486,7 @@
       "name": "DNAPlotLib",
       "img": "dnaplotlib.png",
       "url": "https://github.com/VoigtLab/dnaplotlib",
-      "pub": { "url": "10.1021/acssynbio.6b00252" },
+      "pub": { "doi": "10.1021/acssynbio.6b00252" },
       "language": ["Python"],
       "width": 960,
       "height": 810
@@ -1169,7 +1170,8 @@
       "url": "http://www.cs.utah.edu/~miriah/mizbee/Overview.html",
       "platform": ["Desktop"],
       "pub": {
-        "url": "https://ieeexplore.ieee.org/document/5290692"
+        "url": "https://ieeexplore.ieee.org/document/5290692",
+        "doi": "10.1109/TVCG.2009.167"
       },
       "width": 550,
       "height": 355
@@ -1988,7 +1990,7 @@
       "name": "LookSeq",
       "img": "lookseq.png",
       "url": "https://www.sanger.ac.uk/tool/lookseq/",
-      "pub": { "url": "https://dx.doi.org/10.1101%2Fgr.093443.109" },
+      "pub": { "doi": "10.1101/gr.093443.109" },
       "platform": ["Web"],
       "width": 1918,
       "height": 1049
@@ -2358,7 +2360,7 @@
       "tags": ["General", "Alignment viewer"],
       "name": "IGV.js",
       "img": "igvjs.png",
-      "pub": { "url": "https://doi.org/10.1101/2020.05.03.075499" },
+      "pub": { "doi": "https://doi.org/10.1101/2020.05.03.075499" },
       "url": "https://github.com/igvteam/igv.js/",
       "platform": ["Web"],
       "width": 1116,
@@ -3529,7 +3531,7 @@
       "url": "https://ebi-webcomponents.github.io/nightingale/#/msa",
       "tags": ["Protein", "MSA"],
       "platform": ["Web"],
-      "pub": { "url": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtx120" },
+      "pub": { "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtx120" },
       "img": "nightingale.png",
       "width": 1211,
       "height": 425
@@ -3813,7 +3815,7 @@
       "name": "Trackplot",
       "img": "trackplot.png",
       "url": "https://github.com/PoisonAlien/trackplot",
-      "pub": { "url": "https://doi.org/10.1093/bioinformatics/btu056" },
+      "pub": { "doi": "https://doi.org/10.1093/bioinformatics/btu056" },
       "note": "suggests citing bwtool linked here",
       "tags": ["Coverage", "Gene structure"],
       "language": ["R"],
