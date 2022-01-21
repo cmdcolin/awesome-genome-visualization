@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { tools as importedTools } from "./TOOLS.json";
-import slugify from "slugify";
-import queryString from "query-string";
-import "./App.css";
+import React, { useState, useEffect } from 'react'
+import { tools as importedTools } from './TOOLS.json'
+import slugify from 'slugify'
+import queryString from 'query-string'
+import './App.css'
 
 const Cards = ({ tools, filters, setSelected, setFilters }) => {
-  return tools.map((row) => (
+  return tools.map(row => (
     <Card
       row={row}
       key={row.name}
@@ -13,8 +13,8 @@ const Cards = ({ tools, filters, setSelected, setFilters }) => {
       setFilters={setFilters}
       filters={filters}
     />
-  ));
-};
+  ))
+}
 
 const Card = ({
   setSelected,
@@ -28,15 +28,15 @@ const Card = ({
     height,
     github,
     platform,
-    publication,
+    pub,
     note,
     alt_url,
   },
   filters,
   setFilters,
 }) => {
-  const [expanded, setExpanded] = useState(false);
-  const slug = slugify(name, { remove: /[*+~.()'"!:@]/g });
+  const [expanded, setExpanded] = useState(false)
+  const slug = slugify(name, { remove: /[*+~.()'"!:@]/g })
   return (
     <div className="card">
       <div>
@@ -44,10 +44,10 @@ const Card = ({
           <a
             id={slug}
             href="#"
-            style={{ color: "black", cursor: "pointer" }}
-            onClick={(event) => {
-              setSelected({ selected: "#" + slug });
-              event.preventDefault();
+            style={{ color: 'black', cursor: 'pointer' }}
+            onClick={event => {
+              setSelected({ selected: '#' + slug })
+              event.preventDefault()
             }}
           >
             {name}
@@ -61,26 +61,24 @@ const Card = ({
             Alt url <a href={alt_url}>{alt_url}</a>
           </p>
         ) : null}
-        {publication ? (
+        {pub ? (
           <p className="link">
-            Publication:{" "}
-            <a href={publication.url}>
-              {publication.url}{" "}
-              {publication.year ? `(${publication.year})` : null}
-            </a>
+            Publication: {pub.url ? <a href={pub.url}>(direct link)</a> : null}{' '}
+            {pub.doi ? <a href={pub.doi}>(doi link)</a> : null}{' '}
+            {pub.year ? ` (${pub.year})` : null}
           </p>
         ) : null}
-        {language ? <p>Language: {language.join(", ")}</p> : null}
+        {language ? <p>Language: {language.join(', ')}</p> : null}
         {tags ? (
           <p>
-            Tags:{" "}
+            Tags:{' '}
             {tags.map((tag, index) => [
-              index > 0 && ", ",
+              index > 0 && ', ',
               <a
-                key={tag + "-" + index}
-                onClick={(event) => {
-                  setFilters({ ...filters, tag });
-                  event.preventDefault();
+                key={tag + '-' + index}
+                onClick={event => {
+                  setFilters({ ...filters, tag })
+                  event.preventDefault()
                 }}
               >
                 {tag}
@@ -94,17 +92,14 @@ const Card = ({
             Github: <a href={github}>{github}</a>
           </p>
         ) : null}
-        {platform ? <p>Platform: {platform.join(", ")}</p> : null}
+        {platform ? <p>Platform: {platform.join(', ')}</p> : null}
       </div>
-      <figure
-        role="presentation"
-        onClick={() => setExpanded((state) => !state)}
-      >
+      <figure role="presentation" onClick={() => setExpanded(state => !state)}>
         {img ? (
           <img
             alt={`screenshot of ${name}`}
             loading="lazy"
-            className={expanded ? "expanded" : ""}
+            className={expanded ? 'expanded' : ''}
             width={width}
             height={height}
             src={img}
@@ -119,98 +114,96 @@ const Card = ({
         ) : null}
       </figure>
     </div>
-  );
-};
+  )
+}
 
 const TagFilters = ({ tools, setFilters, filters }) => {
-  const tags = new Set();
-  tools.forEach((tool) => {
+  const tags = new Set()
+  tools.forEach(tool => {
     if (tool.tags) {
-      tool.tags.forEach((cat) => tags.add(cat));
+      tool.tags.forEach(cat => tags.add(cat))
     }
-  });
+  })
   return (
     <div className="form-group">
       <label htmlFor="tag-select">Filter based on tag: </label>
       <select
         id="tag-select"
-        value={filters.tag || ""}
-        onChange={(event) =>
-          setFilters({ ...filters, tag: event.target.value })
-        }
+        value={filters.tag || ''}
+        onChange={event => setFilters({ ...filters, tag: event.target.value })}
       >
         <option value="">-- select an option --</option>
-        {[...tags].sort().map((tag) => (
+        {[...tags].sort().map(tag => (
           <option key={tag} id={tag}>
             {tag}
           </option>
         ))}
       </select>
     </div>
-  );
-};
+  )
+}
 
 const LanguageFilters = ({ tools, setFilters, filters }) => {
-  const languages = new Set();
-  tools.forEach((tool) => {
+  const languages = new Set()
+  tools.forEach(tool => {
     if (tool.language) {
-      tool.language.forEach((cat) => languages.add(cat));
+      tool.language.forEach(cat => languages.add(cat))
     }
-  });
+  })
   return (
     <div className="form-group">
       <label htmlFor="language-select">Filter based on language: </label>
       <select
-        value={filters.language || ""}
+        value={filters.language || ''}
         id="language-select"
-        onChange={(event) =>
+        onChange={event =>
           setFilters({ ...filters, language: event.target.value })
         }
       >
         <option value="">-- select an option --</option>
-        {[...languages].sort().map((tag) => (
+        {[...languages].sort().map(tag => (
           <option key={tag} id={tag}>
             {tag}
           </option>
         ))}
       </select>
     </div>
-  );
-};
+  )
+}
 
 const PlatformFilters = ({ tools, setFilters, filters }) => {
-  const platform = new Set();
-  tools.forEach((tool) => {
+  const platform = new Set()
+  tools.forEach(tool => {
     if (tool.platform) {
-      tool.platform.forEach((cat) => platform.add(cat));
+      tool.platform.forEach(cat => platform.add(cat))
     }
-  });
+  })
   return (
     <div className="form-group">
       <label htmlFor="platform-select">Filter based on platform: </label>
       <select
-        value={filters.platform || ""}
+        value={filters.platform || ''}
         id="platform-select"
-        onChange={(event) =>
+        onChange={event =>
           setFilters({ ...filters, platform: event.target.value })
         }
       >
         <option value="">-- select an option --</option>
-        {[...platform].sort().map((tag) => (
+        {[...platform].sort().map(tag => (
           <option key={tag} id={tag}>
             {tag}
           </option>
         ))}
       </select>
     </div>
-  );
-};
+  )
+}
 const IndexPage = () => {
-  const [filters, setFilters] = useState({});
-  const [alreadyScrolledTo, setAlreadyScrolledTo] = useState(false);
-  const [sort, setSort] = useState({});
-  const [selected, setSelected] = useState({});
-  const { language, tag, platform } = filters;
+  const [filters, setFilters] = useState({})
+  const [alreadyScrolledTo, setAlreadyScrolledTo] = useState(false)
+  const [sort, setSort] = useState({})
+  const [selected, setSelected] = useState({})
+  const { language, tag, platform } = filters
 
   useEffect(() => {
     const {
@@ -219,45 +212,45 @@ const IndexPage = () => {
       tag,
       platform,
       latest = true,
-    } = queryString.parse(window.location.search);
-    setFilters({ language, tag, platform });
-    setSort({ latest });
-    setSelected({ selected });
-  }, []);
+    } = queryString.parse(window.location.search)
+    setFilters({ language, tag, platform })
+    setSort({ latest })
+    setSelected({ selected })
+  }, [])
 
   useEffect(() => {
-    const params = queryString.stringify({ ...filters, ...sort, ...selected });
-    window.history.pushState(null, null, "?" + params);
+    const params = queryString.stringify({ ...filters, ...sort, ...selected })
+    window.history.pushState(null, null, '?' + params)
 
     if (selected.selected && !alreadyScrolledTo) {
-      let target = document.querySelector(selected.selected);
+      let target = document.querySelector(selected.selected)
       if (target) {
         target.scrollIntoView({
-          block: "start",
-        });
+          block: 'start',
+        })
       }
-      setAlreadyScrolledTo(true);
+      setAlreadyScrolledTo(true)
     }
-  }, [filters, sort, selected, alreadyScrolledTo]);
+  }, [filters, sort, selected, alreadyScrolledTo])
 
-  const tools = sort.latest ? importedTools.slice().reverse() : importedTools;
+  const tools = sort.latest ? importedTools.slice().reverse() : importedTools
   const filteredTools = tools
-    .filter((tool) => (language ? tool.language?.includes(language) : true))
-    .filter((tool) => (tag ? tool.tags?.includes(tag) : true))
-    .filter((tool) => (platform ? tool.platform?.includes(platform) : true));
+    .filter(tool => (language ? tool.language?.includes(language) : true))
+    .filter(tool => (tag ? tool.tags?.includes(tag) : true))
+    .filter(tool => (platform ? tool.platform?.includes(platform) : true))
 
-  const githubURL = "https://github.com/cmdcolin/awesome-genome-visualization";
+  const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
 
   return (
     <main className="page">
       <title>awesome-genome-visualization</title>
       <h1>awesome-genome-visualization</h1>
       <p>
-        This is a companion website for the github repo{" "}
+        This is a companion website for the github repo{' '}
         <a href={githubURL}>{githubURL}</a>
       </p>
       <p>
-        Also check out our twitter account{" "}
+        Also check out our twitter account{' '}
         <a href="https://twitter.com/awesomegenomev1">@awesomegenomev1</a>
       </p>
       <p>
@@ -279,20 +272,20 @@ const IndexPage = () => {
       <p className="example-buttons">
         Example filters:
         <button onClick={() => setFilters({})}>Clear filters</button>
-        <button onClick={() => setFilters({ tag: "General" })}>
+        <button onClick={() => setFilters({ tag: 'General' })}>
           General-purpose genome browsers
         </button>
-        <button onClick={() => setFilters({ tag: "Comparative" })}>
+        <button onClick={() => setFilters({ tag: 'Comparative' })}>
           Synteny/comparative browsers
         </button>
-        <button onClick={() => setFilters({ tag: "Dotplot" })}>
+        <button onClick={() => setFilters({ tag: 'Dotplot' })}>
           Dotplot viewer
         </button>
-        <button onClick={() => setFilters({ tag: "MSA" })}>MSA viewer</button>
-        <button onClick={() => setFilters({ tag: "Graph" })}>
+        <button onClick={() => setFilters({ tag: 'MSA' })}>MSA viewer</button>
+        <button onClick={() => setFilters({ tag: 'Graph' })}>
           Graph genome
         </button>
-        <button onClick={() => setFilters({ tag: "Text based" })}>
+        <button onClick={() => setFilters({ tag: 'Text based' })}>
           Text based
         </button>
       </p>
@@ -349,7 +342,7 @@ const IndexPage = () => {
         <path d="M12 6H0l6-6z" />
       </svg>
     </main>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
