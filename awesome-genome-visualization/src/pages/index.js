@@ -27,6 +27,7 @@ const Card = ({
     width,
     height,
     github,
+    twitter,
     platform,
     pub,
     note,
@@ -87,6 +88,11 @@ const Card = ({
           </p>
         ) : null}
         {note ? <p>Note: {note}</p> : null}
+        {twitter ? (
+          <p className="link">
+            Twitter: <a href={twitter}>{twitter}</a>
+          </p>
+        ) : null}
         {github ? (
           <p className="link">
             Github: <a href={github}>{github}</a>
