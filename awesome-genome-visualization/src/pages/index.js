@@ -237,7 +237,6 @@ const IndexPage = () => {
       citations,
       year,
       stars,
-      sort,
     } = queryString.parse(window.location.search)
     setFilters({ language, tag, platform })
     if (citations || year || stars) {
@@ -264,7 +263,6 @@ const IndexPage = () => {
   }, [filters, sort, selected, alreadyScrolledTo])
 
   let tools = importedTools.slice()
-  console.log({ sort })
   if (sort.latest) {
     tools = tools.reverse()
   }
