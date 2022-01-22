@@ -204,13 +204,15 @@
       ],
       "name": "AlignmentComparator",
       "img": "alignmentcomparator.png",
+      "github": "https://github.com/bioinfweb/AlignmentComparator",
       "url": "http://bioinfweb.info/AlignmentComparator/",
       "note": "Uses http://bioinfweb.info/LibrAlign/",
       "language": [
         "Java"
       ],
       "width": 756,
-      "height": 592
+      "height": 592,
+      "github_stars": 1
     },
     {
       "tags": [
@@ -218,6 +220,7 @@
       ],
       "name": "AlignmentViewer",
       "img": "alignmentviewer.png",
+      "github": "https://github.com/sanderlab/alignmentviewer",
       "url": "https://alignmentviewer.org/",
       "pub": {
         "url": "https://f1000research.com/articles/9-213",
@@ -229,7 +232,8 @@
         "Web"
       ],
       "width": 1848,
-      "height": 716
+      "height": 716,
+      "github_stars": 13
     },
     {
       "tags": [
@@ -238,6 +242,7 @@
       "name": "AliView",
       "img": "aliview.png",
       "url": "http://www.ormbunkar.se/aliview/",
+      "github": "https://github.com/AliView/AliView",
       "pub": {
         "doi": "10.1093/bioinformatics/btu531",
         "year": 2014,
@@ -250,7 +255,8 @@
         "Java"
       ],
       "width": 400,
-      "height": 241
+      "height": 241,
+      "github_stars": 82
     },
     {
       "tags": [
@@ -259,6 +265,7 @@
       "name": "BioJS/MSA",
       "url": "https://msa.biojs.net/",
       "img": "biojsmsa.png",
+      "github": "https://github.com/wilzbach/msa",
       "platform": [
         "Web"
       ],
@@ -269,7 +276,8 @@
         "citations": 54
       },
       "width": 1956,
-      "height": 634
+      "height": 634,
+      "github_stars": 156
     },
     {
       "tags": [
@@ -335,6 +343,7 @@
       ],
       "name": "JSAV",
       "img": "jsav.png",
+      "github": "https://github.com/AndrewCRMartin/JSAV",
       "url": "http://www.bioinf.org.uk/software/jsav",
       "language": [
         "JS"
@@ -349,7 +358,8 @@
         "citations": 12
       },
       "width": 1000,
-      "height": 836
+      "height": 836,
+      "github_stars": 8
     },
     {
       "tags": [
@@ -357,6 +367,7 @@
       ],
       "name": "LogoJS",
       "img": "logojs.png",
+      "github": "https://github.com/weng-lab/logojs-package",
       "language": [
         "JS"
       ],
@@ -370,7 +381,8 @@
         "Web"
       ],
       "width": 413,
-      "height": 254
+      "height": 254,
+      "github_stars": 7
     },
     {
       "tags": [
@@ -378,6 +390,7 @@
       ],
       "name": "MSABrowser",
       "img": "msabrowser.png",
+      "github": "https://github.com/thekaplanlab/msabrowser",
       "url": "https://thekaplanlab.github.io/",
       "pub": {
         "doi": "https://doi.org/10.1093/bioadv/vbab009",
@@ -388,7 +401,8 @@
         "Web"
       ],
       "width": 1654,
-      "height": 290
+      "height": 290,
+      "github_stars": 13
     },
     {
       "tags": [
@@ -574,6 +588,7 @@
       "name": "Wasabi",
       "img": "wasabi.png",
       "url": "http://wasabiapp.org/",
+      "github": "https://github.com/veidenberg/wasabi",
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msv333",
         "year": 2015,
@@ -583,7 +598,8 @@
         "Web"
       ],
       "width": 1378,
-      "height": 496
+      "height": 496,
+      "github_stars": 16
     },
     {
       "tags": [
@@ -823,11 +839,13 @@
       "name": "Geneviz",
       "img": "geneviz.png",
       "url": "https://jrderuiter.github.io/geneviz/usage.html",
+      "github": "https://github.com/jrderuiter/geneviz",
       "language": [
-        "R"
+        "Python"
       ],
       "width": 640,
-      "height": 152
+      "height": 152,
+      "github_stars": 13
     },
     {
       "tags": [
@@ -851,6 +869,7 @@
       ],
       "name": "GenomeTools",
       "img": "genometools.png",
+      "github": "https://github.com/genometools/genometools",
       "url": "http://genometools.org/",
       "pub": {
         "doi": "10.1109/TCBB.2013.68",
@@ -861,7 +880,8 @@
         "C"
       ],
       "width": 700,
-      "height": 326
+      "height": 326,
+      "github_stars": 215
     },
     {
       "tags": [
@@ -930,6 +950,7 @@
       ],
       "name": "ggbio",
       "url": "http://www.bioconductor.org/packages/2.11/bioc/vignettes/ggbio/inst/doc/ggbio.pdf",
+      "github": "https://github.com/lawremi/ggbio",
       "img": "ggbio.png",
       "language": [
         "R"
@@ -941,7 +962,8 @@
         "citations": 203
       },
       "width": 600,
-      "height": 600
+      "height": 600,
+      "github_stars": 81
     },
     {
       "tags": [
@@ -1001,6 +1023,7 @@
         "CNV"
       ],
       "name": "gtrellis",
+      "github": "https://github.com/jokergoo/gtrellis",
       "img": "gtrellis.png",
       "url": "http://bioconductor.org/packages/devel/bioc/vignettes/gtrellis/inst/doc/gtrellis.html",
       "pub": {
@@ -1012,7 +1035,8 @@
         "R"
       ],
       "width": 720,
-      "height": 576
+      "height": 576,
+      "github_stars": 33
     },
     {
       "tags": [
@@ -1024,6 +1048,7 @@
       "name": "Gviz",
       "img": "gviz.png",
       "url": "https://bioconductor.org/packages/release/bioc/html/Gviz.html",
+      "github": "https://github.com/ivanek/Gviz",
       "pub": {
         "doi": "https://doi.org/10.1007/978-1-4939-3578-9_16",
         "year": 2016,
@@ -1033,7 +1058,8 @@
         "R"
       ],
       "width": 720,
-      "height": 480
+      "height": 480,
+      "github_stars": 28
     },
     {
       "tags": [
@@ -1241,6 +1267,7 @@
     {
       "name": "RACER",
       "url": "https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html",
+      "github": "https://github.com/oliviasabik/RACER",
       "language": [
         "R"
       ],
@@ -1255,7 +1282,8 @@
         "citations": 2
       },
       "width": 1400,
-      "height": 865
+      "height": 865,
+      "github_stars": 10
     },
     {
       "name": "RepViz",
@@ -1306,6 +1334,7 @@
         "Python"
       ],
       "img": "sashimi-plot-example.png",
+      "github": "https://github.com/yarden/MISO",
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtv034",
         "year": 2015,
@@ -1317,7 +1346,8 @@
         "Splicing"
       ],
       "width": 1012,
-      "height": 683
+      "height": 683,
+      "github_stars": 120
     },
     {
       "name": "shabam",
@@ -1344,6 +1374,7 @@
         "Linear",
         "Ideogram"
       ],
+      "github": "https://github.com/YaoLab-Bioinfo/shinyChromosome",
       "img": "shinychromosome.png",
       "language": [
         "R",
@@ -1356,7 +1387,8 @@
         "citations": 7
       },
       "width": 950,
-      "height": 550
+      "height": 550,
+      "github_stars": 35
     },
     {
       "name": "SparK",
@@ -1402,6 +1434,7 @@
         "R"
       ],
       "img": "sushi.png",
+      "github": "https://github.com/PhanstielLab/Sushi",
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btu379",
         "year": 2014,
@@ -1412,7 +1445,8 @@
         "Multi"
       ],
       "width": 589,
-      "height": 247
+      "height": 247,
+      "github_stars": 58
     },
     {
       "name": "svist4get",
@@ -1497,6 +1531,7 @@
         "R",
         "JS"
       ],
+      "github": "https://github.com/tntvis/tnt.genome",
       "img": "tnt.png",
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btw210",
@@ -1511,7 +1546,8 @@
         "Interactive"
       ],
       "width": 741,
-      "height": 215
+      "height": 215,
+      "github_stars": 15
     },
     {
       "name": "trackViewer",
@@ -1520,6 +1556,7 @@
         "R"
       ],
       "img": "trackviewer.png",
+      "github": "https://github.com/jianhong/trackViewer",
       "pub": {
         "doi": "https://doi.org/10.1038/s41592-019-0430-y",
         "year": 2019,
@@ -1531,7 +1568,8 @@
         "Quantitative"
       ],
       "width": 1152,
-      "height": 960
+      "height": 960,
+      "github_stars": 31
     },
     {
       "tags": [
@@ -1577,6 +1615,7 @@
         "Comparative"
       ],
       "name": "Artemis comparison tool (ACT)",
+      "github": "https://github.com/sanger-pathogens/Artemis",
       "img": "artemis_act.png",
       "url": "https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act",
       "language": [
@@ -1586,13 +1625,15 @@
         "Desktop"
       ],
       "width": 648,
-      "height": 530
+      "height": 530,
+      "github_stars": 160
     },
     {
       "tags": [
         "Comparative"
       ],
       "name": "Biodalliance comparative demo",
+      "github": "https://github.com/dasmoth/dalliance",
       "url": "http://biodalliance.org/dev/test-comparative.html",
       "pub": {
         "doi": "http://doi.org/10.1093/bioinformatics/btr020",
@@ -1607,7 +1648,8 @@
         "Web"
       ],
       "width": 1222,
-      "height": 681
+      "height": 681,
+      "github_stars": 212
     },
     {
       "tags": [
@@ -1639,6 +1681,7 @@
         "Comparative"
       ],
       "name": "CMap",
+      "github": "https://github.com/gmod/cmap",
       "url": "http://gmod.org/wiki/CMap",
       "language": [
         "Perl"
@@ -1653,7 +1696,8 @@
         "Web"
       ],
       "width": 620,
-      "height": 831
+      "height": 831,
+      "github_stars": 3
     },
     {
       "tags": [
@@ -1663,6 +1707,7 @@
         "JBrowse integration"
       ],
       "name": "CoGe",
+      "github": "https://github.com/LyonsLab/coge",
       "img": "coge.png",
       "url": "https://genomevolution.org/coge/",
       "pub": {
@@ -1678,7 +1723,8 @@
         "Silo"
       ],
       "width": 1313,
-      "height": 469
+      "height": 469,
+      "github_stars": 39
     },
     {
       "tags": [
@@ -1729,6 +1775,7 @@
       ],
       "name": "CVit",
       "url": "https://sourceforge.net/projects/cvit/",
+      "github": "https://github.com/ekcannon/CViT",
       "pub": {
         "doi": "10.1155/2011/373875",
         "year": 2011,
@@ -1742,7 +1789,8 @@
         "Web"
       ],
       "width": 1100,
-      "height": 850
+      "height": 850,
+      "github_stars": 1
     },
     {
       "tags": [
@@ -1763,6 +1811,7 @@
         "Comparative"
       ],
       "name": "EasyFig",
+      "github": "https://github.com/mjsull/Easyfig",
       "img": "easyfig.png",
       "language": [
         "Python"
@@ -1778,7 +1827,8 @@
         "citations": 1551
       },
       "width": 5000,
-      "height": 2171
+      "height": 2171,
+      "github_stars": 59
     },
     {
       "name": "Edinburgh-Genome-Foundry/DnaFeaturesViewer",
@@ -1809,6 +1859,7 @@
         "Comparative"
       ],
       "name": "GBrowse_syn",
+      "github": "https://github.com/GMOD/GBrowse",
       "url": "http://gmod.org/wiki/GBrowse_syn",
       "pub": {
         "doi": "https://dx.doi.org/10.1002%2F0471250953.bi0912s31",
@@ -1823,7 +1874,8 @@
         "Web"
       ],
       "width": 1340,
-      "height": 428
+      "height": 428,
+      "github_stars": 48
     },
     {
       "tags": [
@@ -1831,6 +1883,7 @@
         "Gene order"
       ],
       "name": "Genome Context Viewer",
+      "github": "https://github.com/legumeinfo/gcv",
       "url": "https://www.legumefederation.org/gcv/phytozome_10_2/",
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btx757",
@@ -1843,7 +1896,8 @@
         "Silo"
       ],
       "width": 2550,
-      "height": 2010
+      "height": 2010,
+      "github_stars": 17
     },
     {
       "tags": [
@@ -1914,6 +1968,7 @@
         "Quantitative"
       ],
       "name": "GIVE",
+      "github": "https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine",
       "img": "give_hic.png",
       "url": "https://zhong-lab-ucsd.github.io/GIVE_homepage/",
       "language": [
@@ -1928,7 +1983,8 @@
         "Web"
       ],
       "width": 1680,
-      "height": 1050
+      "height": 1050,
+      "github_stars": 125
     },
     {
       "tags": [
@@ -1970,7 +2026,7 @@
       ],
       "width": 833,
       "height": 257,
-      "github_stars": 472
+      "github_stars": 473
     },
     {
       "name": "MCScanX",
@@ -2121,6 +2177,7 @@
         "Linear"
       ],
       "name": "syri/plotsr",
+      "github": "https://github.com/schneebergerlab/syri",
       "img": "syri.png",
       "pub": {
         "doi": "https://doi.org/10.1186/s13059-019-1911-0",
@@ -2132,7 +2189,8 @@
         "Python"
       ],
       "width": 2679,
-      "height": 2774
+      "height": 2774,
+      "github_stars": 91
     },
     {
       "tags": [
@@ -2250,6 +2308,7 @@
         "Ideogram"
       ],
       "name": "Tripal MapViewer",
+      "github": "https://github.com/statonlab/tripal_map",
       "img": "tripal_mapviewer.png",
       "pub": {
         "doi": "https://doi.org/10.1093/database/baz100",
@@ -2257,7 +2316,8 @@
         "citations": 3
       },
       "width": 1000,
-      "height": 435
+      "height": 435,
+      "github_stars": 1
     },
     {
       "tags": [
@@ -2284,6 +2344,7 @@
       ],
       "name": "XMatchView",
       "img": "xmatchview.png",
+      "github": "https://github.com/bcgsc/xmatchview",
       "url": "https://www.bcgsc.ca/resources/software/xmatchview",
       "platform": [
         "Desktop"
@@ -2294,13 +2355,15 @@
         "citations": 2
       },
       "width": 1000,
-      "height": 500
+      "height": 500,
+      "github_stars": 26
     },
     {
       "tags": [
         "Graph"
       ],
       "name": "AGB assembly graph browser",
+      "github": "https://github.com/almiheenko/AGB",
       "url": "https://almiheenko.github.io/AGB/index.html",
       "platform": [
         "Web"
@@ -2313,7 +2376,8 @@
         "doi": "https://doi.org/10.1093/bioinformatics/btz072",
         "year": 2019,
         "citations": 8
-      }
+      },
+      "github_stars": 56
     },
     {
       "tags": [
@@ -2380,6 +2444,7 @@
       "name": "graphgenomeviewer",
       "img": "graphgenomeviewer.png",
       "url": "https://cmdcolin.github.io/graphgenomeviewer/",
+      "github": "https://github.com/cmdcolin/graphgenomeviewer/",
       "language": [
         "JS"
       ],
@@ -2387,7 +2452,8 @@
         "Web"
       ],
       "width": 1222,
-      "height": 575
+      "height": 575,
+      "github_stars": 4
     },
     {
       "tags": [
@@ -2420,6 +2486,7 @@
         "Graph"
       ],
       "name": "odgi draw + odgi viz",
+      "github": "https://github.com/pangenome/odgi",
       "img": "odgi.png",
       "pub": {
         "doi": "10.1101/2021.11.10.467921v1"
@@ -2427,7 +2494,8 @@
       "note": "Example from https://github.com/pangenome/pggb",
       "url": "https://odgi.readthedocs.io/en/latest/index.html",
       "width": 2906,
-      "height": 845
+      "height": 845,
+      "github_stars": 84
     },
     {
       "tags": [
@@ -2666,6 +2734,7 @@
       ],
       "name": "Samtools tview",
       "url": "http://www.htslib.org/",
+      "github": "https://github.com/samtools/samtools",
       "language": [
         "C"
       ],
@@ -2679,7 +2748,8 @@
       },
       "img": "tview.png",
       "width": 1290,
-      "height": 875
+      "height": 875,
+      "github_stars": 1159
     },
     {
       "tags": [
@@ -2774,6 +2844,7 @@
         "Static"
       ],
       "name": "Circleator",
+      "github": "https://github.com/jonathancrabtree/Circleator",
       "img": "circleator.png",
       "url": "http://jonathancrabtree.github.io/Circleator/index.html",
       "pub": {
@@ -2785,7 +2856,8 @@
         "Perl"
       ],
       "width": 420,
-      "height": 420
+      "height": 420,
+      "github_stars": 39
     },
     {
       "tags": [
@@ -3004,6 +3076,7 @@
       ],
       "img": "webapollo.jpg",
       "name": "Apollo aka WebApollo",
+      "github": "https://github.com/gmod/apollo",
       "url": "https://genomearchitect.readthedocs.io/en/latest/",
       "platform": [
         "Web"
@@ -3019,7 +3092,8 @@
         "JS"
       ],
       "width": 685,
-      "height": 384
+      "height": 384,
+      "github_stars": 100
     },
     {
       "tags": [
@@ -3087,6 +3161,7 @@
         "Special-purpose"
       ],
       "name": "D3GB",
+      "github": "https://github.com/BioinfoUSAL/D3GB",
       "img": "d3gb.png",
       "url": "http://d3gb.usal.es/",
       "language": [
@@ -3102,13 +3177,15 @@
         "Web"
       ],
       "width": 970,
-      "height": 360
+      "height": 360,
+      "github_stars": 0
     },
     {
       "tags": [
         "Special-purpose"
       ],
       "img": "dnaskittle.png",
+      "github": "https://github.com/josiahseaman/skittle",
       "name": "DNASkittle",
       "url": "https://www.dnaskittle.com/",
       "pub": {
@@ -3120,7 +3197,8 @@
         "Web"
       ],
       "width": 1194,
-      "height": 441
+      "height": 441,
+      "github_stars": 4
     },
     {
       "tags": [
@@ -3205,6 +3283,7 @@
       ],
       "name": "GenomeSpy",
       "img": "genomespy.png",
+      "github": "https://github.com/genome-spy/genome-spy",
       "url": "https://genomespy.app/",
       "language": [
         "JS",
@@ -3214,7 +3293,8 @@
         "Web"
       ],
       "width": 1194,
-      "height": 476
+      "height": 476,
+      "github_stars": 89
     },
     {
       "tags": [
@@ -3321,6 +3401,7 @@
         "Assembly QC"
       ],
       "name": "Hawkeye",
+      "github": "https://github.com/peterhj/amos",
       "img": "hawkeye.png",
       "pub": {
         "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34",
@@ -3332,7 +3413,8 @@
         "Desktop"
       ],
       "width": 1200,
-      "height": 765
+      "height": 765,
+      "github_stars": 0
     },
     {
       "tags": [
@@ -3361,6 +3443,7 @@
       "name": "Icarus QUAST",
       "img": "icarus.png",
       "url": "http://quast.sourceforge.net/icarus.html",
+      "github": "https://github.com/ablab/quast",
       "platform": [
         "Web"
       ],
@@ -3370,7 +3453,8 @@
         "citations": 57
       },
       "width": 1504,
-      "height": 797
+      "height": 797,
+      "github_stars": 221
     },
     {
       "tags": [
@@ -3459,6 +3543,7 @@
         "Population"
       ],
       "name": "Locuszoom",
+      "github": "https://github.com/statgen/locuszoom",
       "img": "locuszoom.png",
       "note": "Also see locuszoom.js http://locuszoom.org/locuszoomjs.php",
       "url": "http://locuszoom.org/",
@@ -3471,13 +3556,15 @@
         "Web"
       ],
       "width": 488,
-      "height": 310
+      "height": 310,
+      "github_stars": 113
     },
     {
       "tags": [
         "Alignment viewer"
       ],
       "name": "LookSeq",
+      "github": "https://github.com/magnusmanske/lookseq",
       "img": "lookseq.png",
       "url": "https://www.sanger.ac.uk/tool/lookseq/",
       "pub": {
@@ -3489,7 +3576,8 @@
         "Web"
       ],
       "width": 1918,
-      "height": 1049
+      "height": 1049,
+      "github_stars": 3
     },
     {
       "tags": [
@@ -3555,12 +3643,14 @@
       ],
       "name": "SeqCover",
       "img": "seqcover.png",
+      "github": "https://github.com/brentp/seqcover",
       "platform": [
         "Web"
       ],
       "url": "https://brentp.github.io/seqcover/#gene=AIFM1",
       "width": 1378,
-      "height": 476
+      "height": 476,
+      "github_stars": 44
     },
     {
       "tags": [
@@ -3734,7 +3824,7 @@
         "year": 2007,
         "citations": 52
       },
-      "note": "download link unknown",
+      "note": "this was an online tool that does not appear to exist anymore see https://web.archive.org/web/20170712104431/http://www.plantgdb.org/tool/TEnest/",
       "width": 637,
       "height": 847
     },
@@ -3744,6 +3834,7 @@
         "Transposons"
       ],
       "name": "Transposcope",
+      "github": "https://github.com/FenyoLab/transposcope",
       "img": "transposcope.png",
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btaa244",
@@ -3757,7 +3848,8 @@
         "Web"
       ],
       "width": 1374,
-      "height": 510
+      "height": 510,
+      "github_stars": 5
     },
     {
       "tags": [
@@ -3766,6 +3858,7 @@
       "name": "UGENE",
       "img": "ugene.png",
       "url": "http://ugene.net/",
+      "github": "https://github.com/ugeneunipro/ugene",
       "platform": [
         "Desktop"
       ],
@@ -3775,7 +3868,8 @@
         "citations": 1233
       },
       "width": 796,
-      "height": 602
+      "height": 602,
+      "github_stars": 133
     },
     {
       "tags": [
@@ -3809,9 +3903,11 @@
         "citations": 13
       },
       "url": "http://vials.io/",
+      "github": "https://github.com/Caleydo/vials",
       "platform": [
         "Web"
-      ]
+      ],
+      "github_stars": 12
     },
     {
       "tags": [
@@ -3836,6 +3932,7 @@
       ],
       "name": "BasePlayer",
       "url": "https://baseplayer.fi/",
+      "github": "https://github.com/rkataine/BasePlayer",
       "img": "baseplayer.png",
       "platform": [
         "Desktop"
@@ -3850,7 +3947,8 @@
         "citations": 17
       },
       "width": 858,
-      "height": 486
+      "height": 486,
+      "github_stars": 4
     },
     {
       "tags": [
@@ -3903,6 +4001,7 @@
         "Java"
       ],
       "url": "https://igv.org/",
+      "github": "https://github.com/igvteam/igv",
       "platform": [
         "Desktop"
       ],
@@ -3912,7 +4011,8 @@
         "citations": 7478
       },
       "width": 1124,
-      "height": 1280
+      "height": 1280,
+      "github_stars": 465
     },
     {
       "tags": [
@@ -3922,6 +4022,7 @@
       ],
       "name": "Savant",
       "img": "savant.jpg",
+      "github": "https://github.com/compbio-UofT/savant",
       "language": [
         "Java"
       ],
@@ -3936,7 +4037,8 @@
         "citations": 39
       },
       "width": 800,
-      "height": 561
+      "height": 561,
+      "github_stars": 12
     },
     {
       "tags": [
@@ -3944,6 +4046,7 @@
         "Alignment viewer"
       ],
       "name": "Tablet",
+      "github": "https://github.com/cropgeeks/tablet",
       "img": "tablet.jpeg",
       "language": [
         "Java"
@@ -3958,7 +4061,8 @@
         "Desktop"
       ],
       "width": 520,
-      "height": 408
+      "height": 408,
+      "github_stars": 23
     },
     {
       "tags": [
@@ -3996,6 +4100,7 @@
         "Alignment viewer"
       ],
       "name": "Biodalliance",
+      "github": "https://github.com/dasmoth/dalliance",
       "url": "http://www.biodalliance.org/",
       "platform": [
         "Web"
@@ -4010,7 +4115,8 @@
         "JS"
       ],
       "width": 2002,
-      "height": 766
+      "height": 766,
+      "github_stars": 212
     },
     {
       "tags": [
@@ -4051,6 +4157,7 @@
         "General"
       ],
       "name": "GBrowse+GBrowse 2",
+      "github": "https://github.com/GMOD/GBrowse",
       "img": "gbrowse.png",
       "url": "http://gmod.org/wiki/GBrowse",
       "language": [
@@ -4060,11 +4167,13 @@
         "Web"
       ],
       "width": 800,
-      "height": 552
+      "height": 552,
+      "github_stars": 48
     },
     {
       "name": "GenomeMaps",
       "img": "genomemaps.jpg",
+      "github": "https://github.com/opencb/genome-maps",
       "url": "http://www.genomemaps.org/",
       "pub": {
         "url": "https://academic.oup.com/nar/article/41/W1/W41/1113984",
@@ -4080,7 +4189,8 @@
         "JS"
       ],
       "width": 489,
-      "height": 640
+      "height": 640,
+      "github_stars": 37
     },
     {
       "tags": [
@@ -4094,6 +4204,7 @@
       ],
       "name": "Gosling",
       "img": "gosling.png",
+      "github": "https://github.com/gosling-lang/gosling.js",
       "language": [
         "JS",
         "WebGL",
@@ -4110,7 +4221,8 @@
         "citations": 0
       },
       "width": 1549,
-      "height": 777
+      "height": 777,
+      "github_stars": 76
     },
     {
       "tags": [
@@ -4120,6 +4232,7 @@
       ],
       "name": "HiGlass",
       "img": "higlass.png",
+      "github": "https://github.com/higlass/higlass",
       "language": [
         "JS",
         "WebGL"
@@ -4134,7 +4247,8 @@
         "Web"
       ],
       "width": 1250,
-      "height": 956
+      "height": 956,
+      "github_stars": 231
     },
     {
       "tags": [
@@ -4168,6 +4282,7 @@
       "note": "See also JBrowse plugin registry https://gmod.github.io/jbrowse-registry. Runs on the web or as a desktop app using Electron",
       "img": "jbrowse.png",
       "url": "http://jbrowse.org/jbrowse1.html",
+      "github": "https://github.com/GMOD/jbrowse",
       "language": [
         "JS"
       ],
@@ -4181,7 +4296,8 @@
         "citations": 394
       },
       "width": 2120,
-      "height": 1310
+      "height": 1310,
+      "github_stars": 415
     },
     {
       "tags": [
@@ -4197,6 +4313,7 @@
       "name": "JBrowse 2",
       "note": "See gallery for more examples https://jbrowse.org/jb2/gallery",
       "img": "jbrowse2.png",
+      "github": "https://github.com/GMOD/jbrowse-components",
       "url": "http://jbrowse.org/jb2",
       "language": [
         "JS",
@@ -4207,7 +4324,8 @@
         "Web"
       ],
       "width": 1848,
-      "height": 1964
+      "height": 1964,
+      "github_stars": 69
     },
     {
       "tags": [
@@ -4219,6 +4337,7 @@
       "name": "Kero-BROWSE",
       "img": "kerobrowse.png",
       "url": "https://kero.hgc.jp/examples/CLCL/hg38/index.html",
+      "github": "https://github.com/DBKERO/genome_browser",
       "platform": [
         "Web"
       ],
@@ -4232,7 +4351,8 @@
       ],
       "note": "Also can visualize basic synteny, see tracks e.g. https://kero.hgc.jp/tool/keyword.html#kero:chrX:153,724,868-153,744,762 human vs chimp",
       "width": 602,
-      "height": 397
+      "height": 397,
+      "github_stars": 5
     },
     {
       "tags": [
@@ -4269,6 +4389,7 @@
         "JS"
       ],
       "twitter": "https://twitter.com/4DNucleome",
+      "note": "github at https://github.com/nucleome",
       "platform": [
         "Web"
       ],
@@ -4323,6 +4444,7 @@
       "img": "ucsc.jpg",
       "name": "UCSC genome browser",
       "url": "https://genome.ucsc.edu/",
+      "github": "https://github.com/ucscGenomeBrowser/kent",
       "pub": {
         "doi": "10.1101/gr.229102",
         "year": 2002,
@@ -4333,7 +4455,8 @@
         "Silo"
       ],
       "width": 512,
-      "height": 131
+      "height": 131,
+      "github_stars": 151
     },
     {
       "tags": [
@@ -4364,6 +4487,7 @@
         "Hi-C"
       ],
       "name": "WashU epigenomics browser",
+      "github": "https://github.com/lidaof/eg-react",
       "img": "washu.png",
       "url": "https://epigenomegateway.wustl.edu/",
       "pub": {
@@ -4380,7 +4504,8 @@
         "Web"
       ],
       "width": 2596,
-      "height": 1938
+      "height": 1938,
+      "github_stars": 35
     },
     {
       "tags": [
@@ -4610,6 +4735,7 @@
         "Comparative"
       ],
       "name": "Gepard",
+      "github": "https://github.com/univieCUBE/gepard",
       "url": "http://cube.univie.ac.at/gepard",
       "img": "gepard.jpeg",
       "platform": [
@@ -4621,7 +4747,8 @@
         "citations": 463
       },
       "width": 1088,
-      "height": 856
+      "height": 856,
+      "github_stars": 31
     },
     {
       "tags": [
@@ -4711,6 +4838,7 @@
       ],
       "name": "Mummerplot",
       "img": "mummerplot.png",
+      "github": "https://github.com/mummer4/mummer",
       "url": "http://mummer.sourceforge.net/",
       "pub": {
         "doi": "10.1186/gb-2004-5-2-r12",
@@ -4721,7 +4849,8 @@
         "GNUPlot"
       ],
       "width": 3300,
-      "height": 2550
+      "height": 2550,
+      "github_stars": 284
     },
     {
       "tags": [
@@ -4800,6 +4929,7 @@
       ],
       "name": "Chipster",
       "img": "chipster.jpg",
+      "github": "https://github.com/chipster/chipster",
       "language": [
         "Java"
       ],
@@ -4814,7 +4944,8 @@
         "Desktop"
       ],
       "width": 1201,
-      "height": 913
+      "height": 913,
+      "github_stars": 34
     },
     {
       "tags": [
@@ -4844,12 +4975,14 @@
       ],
       "name": "Epilogos",
       "img": "epilogos.jpg",
+      "github": "https://github.com/meuleman/epilogos",
       "url": "https://epilogos.altius.org/",
       "platform": [
         "Web"
       ],
       "width": 2048,
-      "height": 868
+      "height": 868,
+      "github_stars": 32
     },
     {
       "tags": [
@@ -4857,6 +4990,7 @@
       ],
       "name": "Epiviz",
       "img": "epiviz.png",
+      "github": "https://github.com/epiviz/epiviz",
       "url": "https://epiviz.github.io/",
       "platform": [
         "Web"
@@ -4872,7 +5006,8 @@
         "citations": 1
       },
       "width": 1377,
-      "height": 507
+      "height": 507,
+      "github_stars": 64
     },
     {
       "tags": [
@@ -4882,6 +5017,7 @@
       ],
       "name": "HiPiler",
       "img": "hipiler.png",
+      "github": "https://github.com/flekschas/hipiler",
       "pub": {
         "doi": "10.1109/TVCG.2017.2745978",
         "year": 2018,
@@ -4892,7 +5028,8 @@
       ],
       "url": "http://hipiler.higlass.io",
       "width": 1116,
-      "height": 507
+      "height": 507,
+      "github_stars": 10
     },
     {
       "tags": [
@@ -4924,6 +5061,7 @@
         "Hi-C"
       ],
       "name": "Juicebox.js",
+      "github": "https://github.com/igvteam/juicebox.js",
       "img": "juiceboxjs.jpg",
       "url": "http://www.igv.org/doc/juiceboxjs.html",
       "language": [
@@ -4939,7 +5077,8 @@
         "citations": 102
       },
       "width": 761,
-      "height": 467
+      "height": 467,
+      "github_stars": 12
     },
     {
       "tags": [
@@ -5071,6 +5210,7 @@
       "name": "UCSC Genome Graphs",
       "img": "ucsc_genome_graph.png",
       "url": "http://genome.ucsc.edu/cgi-bin/hgGenome",
+      "github": "https://github.com/ucscGenomeBrowser/kent",
       "pub": {
         "doi": "10.1101/gr.229102",
         "year": 2002,
@@ -5082,13 +5222,15 @@
         "Silo"
       ],
       "width": 950,
-      "height": 546
+      "height": 546,
+      "github_stars": 151
     },
     {
       "tags": [
         "Mobile"
       ],
       "name": "iGenomics",
+      "github": "https://github.com/stuckinaboot/iGenomics",
       "img": "igenomics.png",
       "pub": {
         "doi": "https://doi.org/10.1093/gigascience/giaa138",
@@ -5096,7 +5238,8 @@
         "citations": 6
       },
       "width": 1521,
-      "height": 1299
+      "height": 1299,
+      "github_stars": 30
     },
     {
       "tags": [
@@ -5151,6 +5294,7 @@
         "Deadlink?"
       ],
       "name": "panX",
+      "github": "https://github.com/neherlab/pan-genome-analysis",
       "img": "panx.jpeg",
       "url": "http://pangenome.tuebingen.mpg.de/",
       "pub": {
@@ -5160,7 +5304,8 @@
         "citations": 117
       },
       "width": 2756,
-      "height": 1813
+      "height": 1813,
+      "github_stars": 90
     },
     {
       "tags": [
@@ -5188,6 +5333,7 @@
       ],
       "name": "Protael",
       "img": "protael.png",
+      "github": "https://github.com/sanshu/protaeljs",
       "url": "http://sanshu.github.io/protaelweb/",
       "pub": {
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5963358/",
@@ -5202,7 +5348,8 @@
         "JS"
       ],
       "width": 1711,
-      "height": 1161
+      "height": 1161,
+      "github_stars": 17
     },
     {
       "tags": [
@@ -5222,6 +5369,7 @@
       "platform": [
         "Web"
       ],
+      "note": "Not open source",
       "width": 1663,
       "height": 633
     },
@@ -5235,7 +5383,7 @@
       "name": "GenomePaint",
       "img": "genomepaint.png",
       "url": "https://genomepaint.stjude.cloud/",
-      "note": "See also gallery here https://genomepaint.stjude.cloud/#figures",
+      "note": "Not open source",
       "pub": {
         "url": "https://www.cell.com/cancer-cell/fulltext/S1535-6108(20)30659-0",
         "doi": "https://doi.org/10.1016/j.ccell.2020.12.011",
@@ -5274,6 +5422,7 @@
       ],
       "name": "UCSC Xena",
       "img": "xena.png",
+      "github": "https://github.com/ucscXena/ucsc-xena-client",
       "url": "https://xena.ucsc.edu/",
       "pub": {
         "doi": "https://doi.org/10.1038/s41587-020-0546-8",
@@ -5284,7 +5433,8 @@
         "Web"
       ],
       "width": 550,
-      "height": 286
+      "height": 286,
+      "github_stars": 48
     },
     {
       "tags": [
@@ -5438,6 +5588,7 @@
     },
     {
       "name": "covviz",
+      "github": "https://github.com/brwnj/covviz",
       "tags": [
         "CNV",
         "Coverage",
@@ -5449,7 +5600,8 @@
       "url": "https://brwnj.github.io/covviz/",
       "img": "covviz.png",
       "width": 1177,
-      "height": 735
+      "height": 735,
+      "github_stars": 41
     },
     {
       "name": "clinker",
@@ -5583,7 +5735,8 @@
       "name": "sockeye",
       "tags": [
         "Exotic",
-        "Comparative"
+        "Comparative",
+        "Historical"
       ],
       "pub": {
         "url": "https://genome.cshlp.org/content/14/5/956.full",
@@ -5717,6 +5870,7 @@
     {
       "name": "genevisR",
       "img": "genevisr.png",
+      "github": "https://github.com/griffithlab/GenVisR",
       "url": "https://bioconductor.org/packages/release/bioc/vignettes/GenVisR/inst/doc/Intro.html",
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btw325",
@@ -5730,10 +5884,12 @@
         "R"
       ],
       "width": 939,
-      "height": 1026
+      "height": 1026,
+      "github_stars": 175
     },
     {
       "name": "NanoMethViz",
+      "github": "https://github.com/Shians/NanoMethViz",
       "pub": {
         "doi": "10.1371/journal.pcbi.1009524",
         "year": 2021,
@@ -5748,11 +5904,13 @@
         "R"
       ],
       "width": 672,
-      "height": 480
+      "height": 480,
+      "github_stars": 5
     },
     {
       "name": "GfaViz",
       "img": "gfaviz.png",
+      "github": "https://github.com/ggonnella/gfaviz",
       "language": [
         "C++"
       ],
@@ -5766,7 +5924,8 @@
         "Graph"
       ],
       "width": 951,
-      "height": 351
+      "height": 351,
+      "github_stars": 38
     },
     {
       "name": "Nextclade",
@@ -5803,13 +5962,15 @@
       ],
       "note": "image shows chromoqc output",
       "url": "https://knausb.github.io/vcfR_documentation/",
+      "github": "https://github.com/knausb/vcfR",
       "pub": {
         "doi": "http://dx.doi.org/10.1111/1755-0998.12549",
         "year": 2016,
         "citations": 313
       },
       "width": 1344,
-      "height": 1344
+      "height": 1344,
+      "github_stars": 173
     },
     {
       "name": "asgart",
@@ -6202,6 +6363,7 @@
     },
     {
       "name": "nightingale/protvista",
+      "github": "https://github.com/ebi-webcomponents/nightingale",
       "url": "https://ebi-webcomponents.github.io/nightingale/#/msa",
       "tags": [
         "Protein",
@@ -6217,10 +6379,12 @@
       },
       "img": "nightingale.png",
       "width": 1211,
-      "height": 425
+      "height": 425,
+      "github_stars": 62
     },
     {
       "name": "ArchR",
+      "github": "https://github.com/GreenleafLab/ArchR",
       "url": "https://www.archrproject.com/articles/Articles/tutorial.html",
       "pub": {
         "doi": "https://doi.org/10.1038/s41588-021-00790-6",
@@ -6235,7 +6399,8 @@
       ],
       "img": "archr.png",
       "width": 1500,
-      "height": 1500
+      "height": 1500,
+      "github_stars": 192
     },
     {
       "name": "PGAP-X",
@@ -6262,6 +6427,7 @@
     {
       "name": "MAVIS",
       "img": "mavis.png",
+      "github": "https://github.com/bcgsc/mavis",
       "tags": [
         "Gene fusion",
         "SV"
@@ -6276,7 +6442,8 @@
         "citations": 13
       },
       "width": 1200,
-      "height": 494
+      "height": 494,
+      "github_stars": 53
     },
     {
       "name": "ProViz",
@@ -6337,6 +6504,7 @@
     },
     {
       "name": "wiggleplotr",
+      "github": "https://github.com/kauralasoo/wiggleplotr",
       "img": "wiggleplotr.png",
       "url": "http://bioconductor.org/packages/devel/bioc/vignettes/wiggleplotr/inst/doc/wiggleplotr.html",
       "tags": [
@@ -6346,7 +6514,8 @@
         "R"
       ],
       "width": 576,
-      "height": 384
+      "height": 384,
+      "github_stars": 28
     },
     {
       "name": "pretzel",
@@ -6559,7 +6728,7 @@
         "year": 2021,
         "citations": 104
       },
-      "note": "original paper from 1994 but actively updated",
+      "note": "original paper from 1994 but actively updated. requires EULA for download",
       "tags": [
         "MSA",
         "Phylogenetics"
@@ -6588,6 +6757,7 @@
     {
       "name": "AliTreeViz",
       "img": "alitreeviz.png",
+      "github": "https://github.com/lipme/alitreeviz",
       "url": "https://www.npmjs.com/package/alitreeviz",
       "tags": [
         "MSA",
@@ -6597,7 +6767,8 @@
         "JS"
       ],
       "width": 1905,
-      "height": 918
+      "height": 918,
+      "github_stars": 4
     },
     {
       "name": "WGDI",
@@ -6728,6 +6899,7 @@
     {
       "name": "BRIG",
       "img": "brig.jpg",
+      "github": "https://github.com/happykhan/BRIG",
       "tags": [
         "Comparative",
         "Circular"
@@ -6746,7 +6918,8 @@
         "Desktop"
       ],
       "width": 1200,
-      "height": 1075
+      "height": 1075,
+      "github_stars": 11
     },
     {
       "name": "Ideogram viewer",
@@ -6792,6 +6965,7 @@
     },
     {
       "name": "ete",
+      "github": "https://github.com/etetoolkit/ete",
       "url": "http://etetoolkit.org/gallery/",
       "language": [
         "Python"
@@ -6807,7 +6981,8 @@
       ],
       "img": "ete.png",
       "width": 640,
-      "height": 500
+      "height": 500,
+      "github_stars": 578
     },
     {
       "name": "ggtree",
@@ -6833,6 +7008,7 @@
     {
       "name": "Phandango",
       "url": "https://jameshadfield.github.io/phandango/#/examples",
+      "github": "https://github.com/jameshadfield/phandango",
       "img": "phandango.png",
       "language": [
         "JS"
@@ -6850,7 +7026,8 @@
         "citations": 219
       },
       "width": 463,
-      "height": 474
+      "height": 474,
+      "github_stars": 72
     },
     {
       "url": "http://athina.biol.uoa.gr/bioinformatics/GENEVITO/",
@@ -6900,6 +7077,7 @@
         "Microbiology"
       ],
       "url": "http://cgview.ca/",
+      "github": "https://github.com/paulstothard/cgview",
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fnar%2Fgkn179",
         "year": 2008,
@@ -6914,7 +7092,8 @@
       "img": "cgview.png",
       "note": "See also CGView comparison tool and other related https://paulstothard.github.io/cgview_comparison_tool/",
       "width": 926,
-      "height": 443
+      "height": 443,
+      "github_stars": 17
     },
     {
       "name": "miropeats",
@@ -6987,8 +7166,10 @@
         "citations": 0
       },
       "url": "https://lakshay-anand.github.io/chromoMap/index.html",
+      "github": "https://github.com/Lakshay-Anand/chromoMap",
       "width": 708,
-      "height": 621
+      "height": 621,
+      "github_stars": 2
     },
     {
       "name": "SafFire",
@@ -6996,13 +7177,16 @@
       "tags": [
         "Comparative"
       ],
+      "github": "https://github.com/mrvollger/SafFire",
       "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
       "width": 1776,
-      "height": 700
+      "height": 700,
+      "github_stars": 1
     },
     {
       "name": "Gingr",
       "img": "gingr.png",
+      "github": "https://github.com/marbl/gingr",
       "tags": [
         "Phylogenetics",
         "Comparative",
@@ -7015,7 +7199,8 @@
       },
       "url": "https://harvest.readthedocs.io/en/latest/content/gingr.html",
       "width": 924,
-      "height": 579
+      "height": 579,
+      "github_stars": 9
     }
   ]
 }

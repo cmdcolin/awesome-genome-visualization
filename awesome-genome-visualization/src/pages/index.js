@@ -29,6 +29,7 @@ const Card = ({
     github,
     twitter,
     platform,
+    github_stars,
     pub,
     note,
     alt_url,
@@ -108,6 +109,8 @@ const Card = ({
             Github: <a href={github}>{github}</a>
           </p>
         ) : null}
+
+        {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}
         {platform ? <p>Platform: {platform.join(', ')}</p> : null}
       </div>
       <figure role="presentation" onClick={() => setExpanded(state => !state)}>
@@ -275,7 +278,9 @@ const IndexPage = () => {
 
   if (sort.stars !== undefined) {
     tools = tools.sort(
-      (a, b) => +(a.github_stars || Infinity) - +(b.github_stars || Infinity),
+      (a, b) =>
+        +(a.github_stars || Infinity * sort.stars) -
+        +(b.github_stars || Infinity * sort.stars),
     )
     if (sort.stars === -1) {
       tools = tools.reverse()
@@ -343,6 +348,9 @@ const IndexPage = () => {
         <button onClick={() => setSort({ latest: true })}>
           Sort by most recently added
         </button>
+        <button onClick={() => setSort({})}>
+          Sort by least recently added
+        </button>
         <button onClick={() => setSort({ year: -1 })}>
           Sort by year ascending
         </button>
@@ -361,7 +369,6 @@ const IndexPage = () => {
         <button onClick={() => setSort({ stars: 1 })}>
           Sort by github stars desceding
         </button>
-        <button onClick={() => setSort({})}>Sort by least recent</button>
       </p>
 
       <p className="example-buttons">

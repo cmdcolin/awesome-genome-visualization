@@ -14,7 +14,10 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
       let github =
         d.github ||
         (d.url?.startsWith('https://github.com') ? d.url : undefined)
-      if (github) {
+      if (!github) {
+        console.error('No github found for', d.name, d.url)
+      }
+      else if (github) {
         github = github.replace('https://github.com/', '').replace(/\/$/, '')
 
         console.log(
@@ -38,7 +41,7 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
           )
         }
         const { stargazers_count } = await response.json()
-        d.github_stars = stargazers_count
+        d.github_stars = +stargazers_count
         timeout = 1000
       }
       i++

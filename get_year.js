@@ -34,8 +34,8 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
           )
         }
         const json = await response.json()
-        d.pub.year = json.published['date-parts'][0][0]
-        d.pub.citations = json["is-referenced-by-count"]
+        d.pub.year = +json.published['date-parts'][0][0]
+        d.pub.citations = +json['is-referenced-by-count']
         timeout = 1000
       }
       i++

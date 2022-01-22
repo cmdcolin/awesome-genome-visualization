@@ -508,6 +508,8 @@ multiple tags too. See the website to see all tags applied to tools
 - [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
 - [Genocat](http://genocat.tools/) large collection of genomic visualizations with great review paper accompaniment https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13727
 - [awesome-biological-visualizations](https://github.com/keller-mark/awesome-biological-visualizations)
+- [genocat](http://genocat.tools/) - this is a collection that is very awesome and similar to this list! Check it out!
+- [sv tools](https://github.com/atmaivancevic/structuralVariantResources)
 
 Send in PRs for more stuff!
 
