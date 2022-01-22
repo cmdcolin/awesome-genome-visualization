@@ -64,7 +64,7 @@ const Card = ({
           </p>
         ) : null}
         {pub ? (
-          <p className="link">
+          <p>
             Publication: {pub.url ? <a href={pub.url}>(direct link)</a> : null}{' '}
             {pub.doi ? (
               <a
