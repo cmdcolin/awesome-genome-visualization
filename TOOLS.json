@@ -2990,12 +2990,18 @@
     },
     {
       "tags": ["General"],
-      "name": "GBrowse+GBrowse 2",
+      "name": "GBrowse 2",
       "github": "https://github.com/GMOD/GBrowse",
       "img": "gbrowse.png",
       "url": "http://gmod.org/wiki/GBrowse",
       "language": ["Perl"],
       "platform": ["Web"],
+      "pub": {
+        "doi": "https://dx.doi.org/10.1093%2Fbib%2Fbbt001",
+        "year": 2013,
+        "citations": 93
+      },
+      "note": "Original gbrowse paper https://doi.org/10.1101/gr.403602",
       "width": 800,
       "height": 552,
       "github_stars": 48
@@ -3369,11 +3375,6 @@
       "name": "Dottup",
       "img": "dottup.png",
       "url": "https://www.bioinformatics.nl/cgi-bin/emboss/help/dottup",
-      "pub": {
-        "doi": "10.1093/nar/gkz268",
-        "year": 2019,
-        "citations": 2251
-      },
       "note": "also seen here http://eichlerlab.gs.washington.edu/pubs/chm1-structural-variation/data/GRCh37/heterochromatic_extensions.pdf",
       "width": 539,
       "height": 454
@@ -5232,15 +5233,17 @@
     },
     {
       "name": "SimpleSynteny",
-      "img": "simplesynteny.png",
-      "github": "https://www.dveltri.com/simplesynteny/about.html",
+      "img": "simplesynteny.jpg",
+      "url": "https://www.dveltri.com/simplesynteny/about.html",
       "platform": ["Web", "Server"],
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gkw330",
         "year": 2016,
         "citations": 62
       },
-      "tags": ["Comparative"]
+      "tags": ["Comparative"],
+      "width": 796,
+      "height": 277
     },
     {
       "name": "Cinteny",
@@ -5252,7 +5255,9 @@
       "img": "cinteny.png",
       "tags": ["Comparative"],
       "url": "http://cinteny.cchmc.org/",
-      "platform": ["Web", "Server"]
+      "platform": ["Web", "Server"],
+      "width": 1200,
+      "height": 334
     },
     {
       "name": "DAGchainer",
@@ -5264,7 +5269,9 @@
         "year": 2004,
         "citations": 251
       },
-      "language": ["Perl", "Java"]
+      "language": ["Perl", "Java"],
+      "width": 813,
+      "height": 809
     },
     {
       "name": "AutoGraph",
@@ -5275,7 +5282,19 @@
         "doi": "https://doi.org/10.1093/bioinformatics/btl618",
         "year": 2006,
         "citations": 42
-      }
+      },
+      "width": 989,
+      "height": 1261
+    },
+    {
+      "name": "EvolutionHighway",
+      "img": "evolutionaryhighway.jpg",
+      "url": "http://eh-demo.ncsa.illinois.edu/",
+      "tags": ["Comparative", "Historical"],
+      "note": "The 'evolutionary highway' image type is reproduced in some other packages e.g. https://github.com/marta-fb/syntenyPlotteR, paper https://doi.org/10.1126/science.1111387",
+      "language": ["Java", "Applet"],
+      "width": 715,
+      "height": 567
     }
   ]
 }
