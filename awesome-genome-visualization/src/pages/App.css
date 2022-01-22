@@ -25,7 +25,6 @@ a {
   color: #0468bf;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -43,6 +42,11 @@ p {
   margin: 0.5em 0;
 }
 
+.example-buttons {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+}
 .example-buttons button {
   margin-left: 5px;
 }

@@ -259,7 +259,9 @@ const IndexPage = () => {
 
   if (sort.year !== undefined) {
     tools = tools.sort(
-      (a, b) => +(a.pub?.year || Infinity) - +(b.pub?.year || Infinity),
+      (a, b) =>
+        +(a.pub?.year || Infinity * sort.year) -
+        +(b.pub?.year || Infinity * sort.year),
     )
     if (sort.year === -1) {
       tools = tools.reverse()
@@ -269,7 +271,8 @@ const IndexPage = () => {
   if (sort.citations !== undefined) {
     tools = tools.sort(
       (a, b) =>
-        +(a.pub?.citations || Infinity) - +(b.pub?.citations || Infinity),
+        +(a.pub?.citations || Infinity * sort.citations) -
+        +(b.pub?.citations || Infinity * sort.citations),
     )
     if (sort.citations === -1) {
       tools = tools.reverse()
@@ -323,7 +326,7 @@ const IndexPage = () => {
       </p>
 
       <p className="example-buttons">
-        Example filters:
+        Filters:
         <button onClick={() => setFilters({})}>Clear filters</button>
         <button onClick={() => setFilters({ tag: 'General' })}>
           General-purpose genome browsers
@@ -343,31 +346,34 @@ const IndexPage = () => {
         </button>
       </p>
       <p className="example-buttons">
-        Example sorting:
-        <button onClick={() => setSort({})}>Clear sort</button>
+        <br />
+        <br />
+        <br />
+        <b>
+          Before clicking these sort routines: Try to avoid being unfairly
+          biased by citation numbers and github stars!! Best effort was made to
+          find the right DOI and github repo
+        </b>
+        <br />
+        <br />
+        Sorts:
         <button onClick={() => setSort({ latest: true })}>
-          Sort by most recently added
+          Recently added
         </button>
-        <button onClick={() => setSort({})}>
-          Sort by least recently added
-        </button>
-        <button onClick={() => setSort({ year: -1 })}>
-          Sort by year ascending
-        </button>
-        <button onClick={() => setSort({ year: 1 })}>
-          Sort by year desceding
-        </button>
+        <button onClick={() => setSort({})}>Least recently added</button>
+        <button onClick={() => setSort({ year: -1 })}>Year (asc)</button>
+        <button onClick={() => setSort({ year: 1 })}>Year (des)</button>
         <button onClick={() => setSort({ citations: -1 })}>
-          Sort by citations ascending
+          Number citations (asc)
         </button>
         <button onClick={() => setSort({ citations: 1 })}>
-          Sort by citations desceding
+          Number citations (dec)
         </button>
         <button onClick={() => setSort({ stars: -1 })}>
-          Sort by github stars ascending
+          Github stars (asc)
         </button>
         <button onClick={() => setSort({ stars: 1 })}>
-          Sort by github stars desceding
+          Github stars (dec)
         </button>
       </p>
 
