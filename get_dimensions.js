@@ -1,6 +1,6 @@
 //run this in the static dir folder
 //identify -format "%f %wx%h\n" *.jpg *.png > ../../dims.txt
-const fs = require('fs')
+import fs from 'fs'
 const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
 const d2 = Object.fromEntries(
   fs

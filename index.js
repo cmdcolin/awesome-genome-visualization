@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 
 const res = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
 const header = fs.readFileSync('util/HEADER.md', 'utf8')
