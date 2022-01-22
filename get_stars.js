@@ -7,18 +7,18 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
 
 ;(async () => {
   let timeout = 1000
-  let count=0
+  let count = 0
   for (let i = 0; i < data.tools.length; ) {
     const d = data.tools[i]
 
     try {
       let github =
-        d.pub
+        d.github ||
+        (d.url?.startsWith('https://github.com') ? d.url : undefined)
       if (!github) {
         console.error('No pub found for', d.name, d.url)
         count++
-      }
-      else if (undefined&&github) {
+      } else if (github && !d.github_stars) {
         github = github.replace('https://github.com/', '').replace(/\/$/, '')
 
         console.log(
@@ -55,6 +55,6 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
       }
     }
   }
-  console.log(count,data.tools.length)
+  console.log(count, data.tools.length)
   fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2))
 })()

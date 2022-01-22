@@ -13,7 +13,7 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
     try {
       if (d.pub) {
         const doi = d.pub.doi
-        if (doi.includes('zenodo') || doi.includes('figshare')) {
+        if (doi.includes('zenodo') || doi.includes('figshare') || d.pub.year) {
           i++
           continue
         }

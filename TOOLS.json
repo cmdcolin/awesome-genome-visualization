@@ -2751,6 +2751,7 @@
     },
     {
       "tags": ["Special-purpose", "Transposons", "Deadlink?"],
+      "platform": ["Web", "CGI", "Server"],
       "name": "TE-nest",
       "img": "tenest.jpg",
       "pub": {
@@ -3053,7 +3054,7 @@
         "citations": 173
       },
       "url": "https://higlass.io",
-      "platform": ["Web"],
+      "platform": ["Web", "Server"],
       "width": 1250,
       "height": 956,
       "github_stars": 231
@@ -5165,6 +5166,7 @@
       "img": "syntenyplotter.png",
       "tags": ["Comparative"],
       "url": "https://github.com/marta-fb/syntenyPlotteR",
+      "language": ["R"],
       "width": 1440,
       "height": 720,
       "github_stars": 7
@@ -5181,6 +5183,7 @@
       },
       "url": "https://lakshay-anand.github.io/chromoMap/index.html",
       "github": "https://github.com/Lakshay-Anand/chromoMap",
+      "language": ["R"],
       "width": 708,
       "height": 621,
       "github_stars": 2
@@ -5190,6 +5193,7 @@
       "img": "saffire.png",
       "tags": ["Comparative"],
       "github": "https://github.com/mrvollger/SafFire",
+      "language": ["JS"],
       "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
       "width": 1776,
       "height": 700,
@@ -5199,6 +5203,7 @@
       "name": "Gingr",
       "img": "gingr.png",
       "github": "https://github.com/marbl/gingr",
+      "language": ["C++"],
       "tags": ["Phylogenetics", "Comparative", "Microbiology"],
       "pub": {
         "doi": "https://doi.org/10.1186/s13059-014-0524-x",
@@ -5215,12 +5220,62 @@
       "img": "stainedglass.png",
       "github": "https://github.com/mrvollger/StainedGlass",
       "tags": ["Higlass integration", "Repeats", "Heatmap"],
-      "platform": ["Web","CLI"],
+      "platform": ["Web", "CLI"],
       "pub": {
-        "doi": "https://doi.org/10.1093/bioinformatics/btac018"
+        "doi": "https://doi.org/10.1093/bioinformatics/btac018",
+        "year": 2022,
+        "citations": 0
       },
       "width": 703,
-      "height": 393
+      "height": 393,
+      "github_stars": 22
+    },
+    {
+      "name": "SimpleSynteny",
+      "img": "simplesynteny.png",
+      "github": "https://www.dveltri.com/simplesynteny/about.html",
+      "platform": ["Web", "Server"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/nar/gkw330",
+        "year": 2016,
+        "citations": 62
+      },
+      "tags": ["Comparative"]
+    },
+    {
+      "name": "Cinteny",
+      "pub": {
+        "doi": "https://doi.org/10.1186/1471-2105-8-82",
+        "year": 2007,
+        "citations": 90
+      },
+      "img": "cinteny.png",
+      "tags": ["Comparative"],
+      "url": "http://cinteny.cchmc.org/",
+      "platform": ["Web", "Server"]
+    },
+    {
+      "name": "DAGchainer",
+      "url": "http://dagchainer.sourceforge.net/",
+      "img": "dagchainer.png",
+      "tags": ["Dotplot", "Comparative"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/bth397",
+        "year": 2004,
+        "citations": 251
+      },
+      "language": ["Perl", "Java"]
+    },
+    {
+      "name": "AutoGraph",
+      "img": "autograph.png",
+      "url": "http://autograph.genouest.org/",
+      "tags": ["Comparative", "Deadlink", "Historical"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/btl618",
+        "year": 2006,
+        "citations": 42
+      }
     }
   ]
 }
