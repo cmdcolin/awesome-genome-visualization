@@ -321,21 +321,9 @@ const IndexPage = () => {
         Also check out our twitter account{' '}
         <a href="https://twitter.com/awesomegenomev1">@awesomegenomev1</a>
       </p>
-      <p>
-        Please submit PRs for more tools there and thanks to all the
-        contributors!
-      </p>
-
-      <p>
-        Note: The range of tools here includes a full spectrum of very
-        simple/bespoke scripts to complex or very re-usable general purpose
-        apps. Some things are included more for visual inspiration than as a
-        suggestion to re-use, but in most cases re-usablility should be
-        possible. Also, if you are an author on a scientific paper, please cite
-        your use of visualization tools and libraries, or put your own custom
-        visualization scripts on github and try to make them re-usable. It helps
-        others know how you made your awesome figures!
-      </p>
+      <div style={{ maxWidth: 500 }}>
+        <p>Feel free to submit PRs to add more tools</p>
+      </div>
 
       <p className="example-buttons">
         Filters:
