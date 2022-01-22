@@ -78,6 +78,9 @@ const Card = ({
               </a>
             ) : null}{' '}
             {pub.year ? ` (${pub.year})` : null}
+            {pub.citations !== undefined
+              ? ` (# citations ${pub.citations})`
+              : null}
           </p>
         ) : null}
         {language ? <p>Language: {language.join(', ')}</p> : null}
@@ -231,9 +234,17 @@ const IndexPage = () => {
       tag,
       platform,
       latest = true,
+      citations,
+      year,
+      stars,
+      sort,
     } = queryString.parse(window.location.search)
     setFilters({ language, tag, platform })
-    setSort({ latest })
+    if (citations || year || stars) {
+      setSort({ citations, year, stars })
+    } else {
+      setSort({ latest })
+    }
     setSelected({ selected })
   }, [])
 
@@ -253,6 +264,7 @@ const IndexPage = () => {
   }, [filters, sort, selected, alreadyScrolledTo])
 
   let tools = importedTools.slice()
+  console.log({ sort })
   if (sort.latest) {
     tools = tools.reverse()
   }
@@ -361,19 +373,19 @@ const IndexPage = () => {
           Recently added
         </button>
         <button onClick={() => setSort({})}>Least recently added</button>
-        <button onClick={() => setSort({ year: -1 })}>Year (asc)</button>
-        <button onClick={() => setSort({ year: 1 })}>Year (des)</button>
+        <button onClick={() => setSort({ year: -1 })}>Year (dec)</button>
+        <button onClick={() => setSort({ year: 1 })}>Year (asc)</button>
         <button onClick={() => setSort({ citations: -1 })}>
-          Number citations (asc)
-        </button>
-        <button onClick={() => setSort({ citations: 1 })}>
           Number citations (dec)
         </button>
+        <button onClick={() => setSort({ citations: 1 })}>
+          Number citations (asc)
+        </button>
         <button onClick={() => setSort({ stars: -1 })}>
-          Github stars (asc)
+          Github stars (dec)
         </button>
         <button onClick={() => setSort({ stars: 1 })}>
-          Github stars (dec)
+          Github stars (asc)
         </button>
       </p>
 
