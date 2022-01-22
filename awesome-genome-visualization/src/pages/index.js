@@ -273,6 +273,15 @@ const IndexPage = () => {
     }
   }
 
+  if (sort.stars !== undefined) {
+    tools = tools.sort(
+      (a, b) => +(a.github_stars || Infinity) - +(b.github_stars || Infinity),
+    )
+    if (sort.stars === -1) {
+      tools = tools.reverse()
+    }
+  }
+
   const filteredTools = tools
     .filter(tool => (language ? tool.language?.includes(language) : true))
     .filter(tool => (tag ? tool.tags?.includes(tag) : true))
