@@ -263,6 +263,16 @@ const IndexPage = () => {
     }
   }
 
+  if (sort.citations !== undefined) {
+    tools = tools.sort(
+      (a, b) =>
+        +(a.pub?.citations || Infinity) - +(b.pub?.citations || Infinity),
+    )
+    if (sort.citations === -1) {
+      tools = tools.reverse()
+    }
+  }
+
   const filteredTools = tools
     .filter(tool => (language ? tool.language?.includes(language) : true))
     .filter(tool => (tag ? tool.tags?.includes(tag) : true))
@@ -329,6 +339,18 @@ const IndexPage = () => {
         </button>
         <button onClick={() => setSort({ year: 1 })}>
           Sort by year desceding
+        </button>
+        <button onClick={() => setSort({ citations: -1 })}>
+          Sort by citations ascending
+        </button>
+        <button onClick={() => setSort({ citations: 1 })}>
+          Sort by citations desceding
+        </button>
+        <button onClick={() => setSort({ stars: -1 })}>
+          Sort by github stars ascending
+        </button>
+        <button onClick={() => setSort({ stars: 1 })}>
+          Sort by github stars desceding
         </button>
         <button onClick={() => setSort({})}>Sort by least recent</button>
       </p>

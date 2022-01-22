@@ -11,31 +11,34 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
     const d = data.tools[i]
 
     try {
-      if (d.pub) {
-        const doi = d.pub.doi
-        if (doi.includes('zenodo') || doi.includes('figshare')) {
-          i++
-          continue
-        }
+      let github =
+        d.github ||
+        (d.url?.startsWith('https://github.com') ? d.url : undefined)
+      if (github) {
+        github = github.replace('https://github.com/', '').replace(/\/$/, '')
+
         console.log(
           i + '/' + data.tools.length,
           'curr waittime',
           timeout,
-          'doi',
-          doi,
+          'github',
+          github,
         )
-        const url = doi.startsWith('http') ? doi : 'https://doi.org/' + doi
+        const url = `https://api.github.com/repos/${github}`
+
         const response = await fetch(url, {
-          headers: { Accept: 'application/json' },
+          headers: {
+            Accept: 'application/json',
+            Authorization: `token ${process.env.GITHUB_AUTH}`,
+          },
         })
         if (!response.ok) {
           throw new Error(
             `failed ${response.statusText} ${await response.text()}`,
           )
         }
-        const json = await response.json()
-        d.pub.year = json.published['date-parts'][0][0]
-        d.pub.citations = json["is-referenced-by-count"]
+        const { stargazers_count } = await response.json()
+        d.github_stars = stargazers_count
         timeout = 1000
       }
       i++
