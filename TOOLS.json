@@ -688,7 +688,8 @@
       "language": ["Java"],
       "tags": ["Alignment viewer"],
       "width": 640,
-      "height": 496
+      "height": 496,
+      "github_stars": 5
     },
     {
       "tags": ["Static", "Comparative"],
@@ -5306,14 +5307,20 @@
       },
       "tag": ["Comparative"],
       "width": 483,
-      "height": 203
+      "height": 203,
+      "github_stars": 42
     },
     {
       "name": "plotsr",
       "img": "plotsr.png",
       "url": "https://github.com/schneebergerlab/plotsr",
-      "pub": { "doi": "https://doi.org/10.1101/2022.01.24.477489" },
-      "tag": ["Comparative"]
+      "pub": {
+        "doi": "https://doi.org/10.1101/2022.01.24.477489"
+      },
+      "tag": ["Comparative"],
+      "width": 1298,
+      "height": 863,
+      "github_stars": 44
     }
   ]
 }
