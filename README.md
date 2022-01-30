@@ -22,7 +22,7 @@ multiple tags too. See the website to see all tags applied to tools
 - [Biodalliance](http://www.biodalliance.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/biodalliance.png)
 - [Ensembl genome browser](https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ensembl.png)
 - [Ensembl genome browser 2020 edition](http://2020.ensembl.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/2020ensembl.png)
-- [GBrowse+GBrowse 2](http://gmod.org/wiki/GBrowse) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gbrowse.png)
+- [GBrowse 2](http://gmod.org/wiki/GBrowse) (Original gbrowse paper https://doi.org/10.1101/gr.403602) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gbrowse.png)
 - [GenomeMaps](http://www.genomemaps.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomemaps.jpg)
 - [Gosling](https://gosling.js.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gosling.png)
 - [HiGlass](https://higlass.io) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/higlass.png)
@@ -213,6 +213,10 @@ multiple tags too. See the website to see all tags applied to tools
 - [syntenyPlotteR](https://github.com/marta-fb/syntenyPlotteR) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syntenyplotter.png)
 - [chromoMap](https://lakshay-anand.github.io/chromoMap/index.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chromomap.png)
 - [SafFire](https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/saffire.png)
+- [SimpleSynteny](https://www.dveltri.com/simplesynteny/about.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/simplesynteny.jpg)
+- [Cinteny](http://cinteny.cchmc.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cinteny.png)
+- [AutoGraph](http://autograph.genouest.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/autograph.png)
+- [EvolutionHighway](http://eh-demo.ncsa.illinois.edu/) (The 'evolutionary highway' image type is reproduced in some other packages e.g. https://github.com/marta-fb/syntenyPlotteR, paper https://doi.org/10.1126/science.1111387) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/evolutionaryhighway.jpg)
 ## Single cell
 - [Millefy](https://github.com/yuifu/millefy) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/millefy.png)
 - [gingko](http://qb.cshl.edu/ginkgo/?q=/9EiUttUP0CBHs3WnuBa0) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gingko.jpeg)
@@ -250,6 +254,7 @@ multiple tags too. See the website to see all tags applied to tools
 - [JGI/IMG](https://img.jgi.doe.gov/) (Dotplot use MUMmer) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/jgiimg.png)
 - [MashMap](https://github.com/marbl/MashMap/blob/master/scripts/generateDotPlot) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mashmap.png)
 - [oxford-plots](https://github.com/jherrero/oxford-plots) (Has nice description of a synteny pipeline here https://github.com/jherrero/oxford-plots/blob/master/examples/pig_X_Y.txt) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/oxford.png)
+- [DAGchainer](http://dagchainer.sourceforge.net/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dagchainer.png)
 ## Gene structure
 - [TnT](https://tnt.marlin.pub/articles/introduction) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tnt.png)
 - [Apollo aka WebApollo](https://genomearchitect.readthedocs.io/en/latest/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/webapollo.jpg)
@@ -412,6 +417,8 @@ multiple tags too. See the website to see all tags applied to tools
 ## Uncategorized
 - [methylartist](https://github.com/adamewing/methylartist) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
 - [Haploview](https://www.broadinstitute.org/haploview/haploview) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/haploview.png)
+- [Smash++](https://github.com/smortezah/smashpp) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/smashpp.png)
+- [plotsr](https://github.com/schneebergerlab/plotsr) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plotsr.png)
 ## Assembly
 - [vega](http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL) (Mentioned in https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf also note: vega standards for vertebrate genome annotation database) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vega.png)
 - [MIRA](http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html) (orig paper also describes mira here http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.7465&rep=rep1&type=pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mira.png)
@@ -426,6 +433,8 @@ multiple tags too. See the website to see all tags applied to tools
 - [gcMapExplorer](https://github.com/rjdkmr/gcMapExplorer) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gcmapexplorer.png)
 ## Manhattan
 - [ggplot2 manhattan plot](https://danielroelfs.com/blog/how-i-create-manhattan-plots-using-ggplot/) (This is not a preconfigured tool but a blog post tutorial with tidy data and ggplot2) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggplot2_manhattan.png)
+## Higlass integration
+- [StainedGlass](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/stainedglass.png)
 # Other lists
 
 - [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
