@@ -561,8 +561,10 @@
       "name": "CNVPlot",
       "img": "cnvplot.jpg",
       "url": "https://github.com/dantaki/CNVplot",
-      "publication": {
-        "doi": "10.1101/030270"
+      "pub": {
+        "doi": "10.1101/030270",
+        "year": 2015,
+        "citations": 0
       },
       "language": ["R"],
       "width": 535,
@@ -711,7 +713,7 @@
       "url": "http://www.bioconductor.org/packages/2.11/bioc/vignettes/ggbio/inst/doc/ggbio.pdf",
       "github": "https://github.com/lawremi/ggbio",
       "img": "ggbio.png",
-      "language": ["R"],
+      "language": ["R", "ggplot2"],
       "pub": {
         "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77",
         "doi": "https://doi.org/10.1186/gb-2012-13-8-r77",
@@ -727,7 +729,7 @@
       "name": "GGgenes",
       "img": "gggenes.png",
       "url": "https://github.com/wilkox/gggenes",
-      "language": ["R"],
+      "language": ["R", "ggplot2"],
       "width": 768,
       "height": 768,
       "github_stars": 263
@@ -742,7 +744,7 @@
         "year": 2018,
         "citations": 71
       },
-      "language": ["R"],
+      "language": ["R", "ggplot2"],
       "width": 3600,
       "height": 3330,
       "github_stars": 73
@@ -1555,7 +1557,7 @@
       "name": "pafr",
       "img": "pafr.png",
       "url": "https://github.com/dwinter/pafr",
-      "language": ["R"],
+      "language": ["R", "ggplot2"],
       "width": 672,
       "height": 960,
       "github_stars": 37
@@ -1659,7 +1661,7 @@
       "tags": ["Comparative", "Linear", "Dotplot"],
       "name": "SynVisio",
       "img": "synvisio.png",
-      "language": ["JS"],
+      "language": ["JS", "D3"],
       "url": "https://synvisio.github.io/",
       "github": "https://github.com/kiranbandi/synvisio",
       "width": 1920,
@@ -2523,7 +2525,7 @@
       "name": "IslandViewer and IslandPlot",
       "url": "https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565",
       "img": "islandplot.png",
-      "language": ["JS"],
+      "language": ["JS", "D3"],
       "platform": ["Web"],
       "github": "https://github.com/lairdm/islandplot",
       "pub": {
@@ -5035,6 +5037,7 @@
       "note": "This is not a preconfigured tool but a blog post tutorial with tidy data and ggplot2",
       "img": "ggplot2_manhattan.png",
       "tags": ["Manhattan", "GWAS"],
+      "language": ["R", "ggplot2"],
       "width": 2304,
       "height": 960
     },
@@ -5058,7 +5061,7 @@
       "name": "ggtree",
       "url": "https://github.com/YuLab-SMU/ggtree",
       "language": ["R"],
-      "tags": ["MSA", "Phylogenetics"],
+      "tags": ["MSA", "Phylogenetics", "ggplot2"],
       "img": "ggtree.png",
       "note": "see https://yulab-smu.top/treedata-book/chapter7.html?q=msa#msaplot for MSA example",
       "pub": {
@@ -5169,7 +5172,7 @@
       "img": "syntenyplotter.png",
       "tags": ["Comparative"],
       "url": "https://github.com/marta-fb/syntenyPlotteR",
-      "language": ["R"],
+      "language": ["R", "ggplot2"],
       "width": 1440,
       "height": 720,
       "github_stars": 8
@@ -5325,6 +5328,56 @@
       "width": 1298,
       "height": 863,
       "github_stars": 53
+    },
+    {
+      "name": "seqvisr",
+      "img": "seqvisr.png",
+      "url": "https://github.com/vragh/seqvisr/",
+      "language": ["R"],
+      "tag": ["MSA", "Protein"],
+      "github_stars": 2,
+      "width": 307,
+      "height": 346
+    },
+    {
+      "name": "drawProteins",
+      "img": "drawprotein.png",
+      "github": "https://github.com/brennanpincardiff/drawProteins",
+      "pub": {
+        "doi": "https://doi.org/10.12688/f1000research.14541.1",
+        "year": 2018,
+        "citations": 16
+      },
+      "tag": ["Protein"],
+      "language": ["R", "ggplot2"],
+      "github_stars": 18,
+      "width": 1649,
+      "height": 1933
+    },
+    {
+      "name": "IBS (Illustrator for Biological Sequences)",
+      "img": "ibs.jpg",
+      "url": "http://ibs.biocuckoo.org/",
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/btv362",
+        "year": 2015,
+        "citations": 475
+      },
+      "tag": ["Protein"],
+      "platform": ["Silo", "Web", "Desktop"],
+      "language": ["Java"],
+      "width": 800,
+      "height": 600
+    },
+    {
+      "name": "PFAM generate_graphic",
+      "img": "pfam.png",
+      "url": "https://pfam.xfam.org/generate_graphic",
+      "note": "Also see guide here https://pfam.xfam.org/help#tabview=tab10",
+      "tag": ["Protein"],
+      "platform": ["Silo", "Web"],
+      "width": 1370,
+      "height": 115
     }
   ]
 }
