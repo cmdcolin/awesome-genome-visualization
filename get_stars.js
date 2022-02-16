@@ -18,7 +18,7 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
       if (!github) {
         console.error('No github found for', d.name, d.url)
         count++
-      } else if (github && !d.github_stars) {
+      } else if (github && (process.env.ALL_STARS || !d.github_stars)) {
         github = github.replace('https://github.com/', '').replace(/\/$/, '')
 
         console.log(
