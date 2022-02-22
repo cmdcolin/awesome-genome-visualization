@@ -5422,6 +5422,20 @@
       "platform": ["Applet", "Desktop"],
       "width": 520,
       "height": 399
+    },
+    {
+      "name": "CGH-Explorer",
+      "img": "cghexplorer.jpg",
+      "language": ["Java"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/bti113",
+        "year": 2004,
+        "citations": 109
+      },
+      "tags": ["Deadlink", "CNV", "ArrayCGH"],
+      "platform": ["Desktop"],
+      "width": 520,
+      "height": 324
     }
   ]
 }
