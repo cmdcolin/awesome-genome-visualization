@@ -5385,7 +5385,7 @@
       "img": "snoopcgh.jpg",
       "url": "http://snoopcgh.sourceforge.net/",
       "playform": ["Desktop"],
-      "tags": ["CNV"],
+      "tags": ["CNV", "ArrayCGH"],
       "language": ["Java"],
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btp488",
@@ -5398,7 +5398,7 @@
     {
       "name": "Genovar",
       "img": "genovar.png",
-      "tags": ["CNV"],
+      "tags": ["CNV", "ArrayCGH", "Alignment"],
       "language": ["Java"],
       "pub": {
         "doi": "https://dx.doi.org/10.1186%2F1471-2105-13-S7-S12",
@@ -5408,6 +5408,20 @@
       "url": "http://genovar.sourceforge.net/",
       "width": 575,
       "height": 472
+    },
+    {
+      "name": "VAMP",
+      "img": "vamp.jpg",
+      "language": ["Java"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/btl359",
+        "year": 2006,
+        "citations": 89
+      },
+      "tags": ["Deadlink", "CNV", "ArrayCGH"],
+      "platform": ["Applet", "Desktop"],
+      "width": 520,
+      "height": 399
     }
   ]
 }
