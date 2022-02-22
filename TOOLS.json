@@ -5311,7 +5311,7 @@
         "year": 2020,
         "citations": 5
       },
-      "tag": ["Comparative"],
+      "tags": ["Comparative"],
       "width": 483,
       "height": 203,
       "github_stars": 43
@@ -5325,7 +5325,7 @@
         "year": 2022,
         "citations": 0
       },
-      "tag": ["Comparative"],
+      "tags": ["Comparative"],
       "width": 1298,
       "height": 863,
       "github_stars": 53
@@ -5335,7 +5335,7 @@
       "img": "seqvisr.png",
       "url": "https://github.com/vragh/seqvisr/",
       "language": ["R"],
-      "tag": ["MSA", "Protein"],
+      "tags": ["MSA", "Protein"],
       "github_stars": 2,
       "width": 307,
       "height": 346
@@ -5349,7 +5349,7 @@
         "year": 2018,
         "citations": 16
       },
-      "tag": ["Protein"],
+      "tags": ["Protein"],
       "language": ["R", "ggplot2"],
       "github_stars": 18,
       "width": 1649,
@@ -5364,7 +5364,7 @@
         "year": 2015,
         "citations": 475
       },
-      "tag": ["Protein"],
+      "tags": ["Protein"],
       "platform": ["Silo", "Web", "Desktop"],
       "language": ["Java"],
       "width": 800,
@@ -5375,10 +5375,39 @@
       "img": "pfam.png",
       "url": "https://pfam.xfam.org/generate_graphic",
       "note": "Also see guide here https://pfam.xfam.org/help#tabview=tab10",
-      "tag": ["Protein"],
+      "tags": ["Protein"],
       "platform": ["Silo", "Web"],
       "width": 1370,
       "height": 115
+    },
+    {
+      "name": "SnoopCGH",
+      "img": "snoopcgh.jpg",
+      "url": "http://snoopcgh.sourceforge.net/",
+      "playform": ["Desktop"],
+      "tags": ["CNV"],
+      "language": ["Java"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/btp488",
+        "year": 2009,
+        "citations": 8
+      },
+      "width": 640,
+      "height": 388
+    },
+    {
+      "name": "Genovar",
+      "img": "genovar.png",
+      "tags": ["CNV"],
+      "language": ["Java"],
+      "pub": {
+        "doi": "https://dx.doi.org/10.1186%2F1471-2105-13-S7-S12",
+        "year": 2012,
+        "citations": 2
+      },
+      "url": "http://genovar.sourceforge.net/",
+      "width": 575,
+      "height": 472
     }
   ]
 }
