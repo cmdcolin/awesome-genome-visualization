@@ -1806,7 +1806,9 @@
       "github": "https://github.com/pangenome/odgi",
       "img": "odgi.png",
       "pub": {
-        "doi": "10.1101/2021.11.10.467921v1"
+        "doi": "https://doi.org/10.1101/2021.11.10.467921",
+        "year": 2021,
+        "citations": 1
       },
       "note": "Example from https://github.com/pangenome/pggb",
       "url": "https://odgi.readthedocs.io/en/latest/index.html",
@@ -5442,6 +5444,65 @@
       "platform": ["Desktop"],
       "width": 520,
       "height": 324
+    },
+    {
+      "name": "GenomeMatcher",
+      "img": "genomematcher.png",
+      "language": ["Objective-C"],
+      "twitter": "https://twitter.com/GenomeMatcher",
+      "tags": ["Comparative"],
+      "platform": ["Desktop", "Mac"],
+      "pub": {
+        "doi": "https://doi.org/10.1186/1471-2105-9-376",
+        "year": 2008,
+        "citations": 180
+      },
+      "width": 600,
+      "height": 679
+    },
+    {
+      "name": "DNAVis",
+      "img": "dnavis.png",
+      "language": ["C++", "OpenGL"],
+      "platform": ["Desktop"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/bti807",
+        "year": 2005,
+        "citations": 6
+      },
+      "tags": ["Deadlink", "Comparative"],
+      "width": 679,
+      "height": 803
+    },
+    {
+      "name": "SynBrowse",
+      "img": "synbrowse.png",
+      "language": ["Perl"],
+      "platform": ["Web"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/bti555",
+        "year": 2005,
+        "citations": 52
+      },
+      "tags": ["Comparative", "GBrowse integration"],
+      "width": 520,
+      "height": 446
+    },
+    {
+      "name": "Sybil",
+      "img": "sybil.png",
+      "language": ["Perl"],
+      "platform": ["Web"],
+      "pub": {
+        "doi": "https://doi.org/10.1007/978-1-59745-547-3_6",
+        "year": 2007,
+        "citations": 52
+      },
+      "tags": ["Comparative", "GBrowse integration"],
+      "url": "http://sybil.sourceforge.net/",
+      "note": "Download https://sourceforge.net/projects/sybil/",
+      "width": 687,
+      "height": 627
     }
   ]
 }
