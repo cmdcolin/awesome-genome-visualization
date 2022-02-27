@@ -1583,7 +1583,6 @@
       "width": 570,
       "height": 285
     },
-
     {
       "tags": ["Comparative"],
       "name": "progressiveMauve viewer",
@@ -5488,6 +5487,21 @@
       "note": "Download https://sourceforge.net/projects/sybil/",
       "width": 687,
       "height": 627
+    },
+    {
+      "name": "SyntenyPortal",
+      "img": "syntenyportal.png",
+      "language": ["JS"],
+      "platform": ["Web"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/nar/gkw310",
+        "year": 2016,
+        "citations": 27
+      },
+      "url": "http://bioinfo.konkuk.ac.kr/synteny_portal/",
+      "tags": ["Comparative", "Circular"],
+      "width": 1280,
+      "height": 647
     }
   ]
 }
