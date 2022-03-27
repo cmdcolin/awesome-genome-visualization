@@ -5628,6 +5628,67 @@
       "width": 760,
       "height": 408,
       "github_stars": 159
+    },
+    {
+      "name": "CNANorm",
+      "language": ["R"],
+      "url": "https://www.bioconductor.org/packages/release/bioc/html/CNAnorm.html",
+      "pub": {
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/22039209/"
+      },
+      "img": "cnanorm.png",
+      "tags": ["CNV"]
+    },
+    {
+      "name": "GECO",
+      "language": ["Java"],
+      "tags": ["Microbiology", "Compararive"],
+      "img": "geco.png",
+      "url": "http://bioinfo.mikrobio.med.uni-giessen.de/geco2/GecoMainServlet",
+      "platform": ["Web", "Deadlink", "No binary or source available"],
+      "pub": { "doi": "https://doi.org/10.1093/bioinformatics/btl556" }
+    },
+    {
+      "name": "Orchestral",
+      "language": ["C++", "OpenGL"],
+      "img": "orchestral.png",
+      "pub": { "doi": "https://doi.org/10.1109/BioVis.2013.6664351" },
+      "tags": ["CNV", "Large display", "No binary or source available"]
+    },
+    {
+      "name": "SequenceSurveyor",
+      "language": ["Adobe AIR"],
+      "img": "sequencesurveyor.png",
+      "url": "https://graphics.cs.wisc.edu/Vis/SequenceSurveyor/index.html",
+      "pub": { "doi": "http://dx.doi.org/10.1109/TVCG.2011.232" },
+      "tags": ["Comparative"]
+    },
+    {
+      "name": "BactoGENIE",
+      "img": "bactogenie.png",
+      "pub": { "doi": "https://doi.org/10.1186/1471-2105-16-S11-S6" },
+      "tags": [
+        "Comparative",
+        "Microbiology",
+        "Large display",
+        "No binary or source available"
+      ]
+    },
+    {
+      "name": "PSAT",
+      "img": "psat.png",
+      "pub": { "doi": "https://doi.org/10.1186/1471-2105-9-170" },
+      "tags": ["Comparative", "Deadlink", "No binary or source available"],
+      "platform": ["Web", "Silo"],
+      "url": "http://www.nwrce.org/psat"
+    },
+    {
+      "name": "TreeBrowser (MicrobesOnline)",
+      "img": "treegenome.png",
+      "tags": ["Comparative", "GBrowse integration"],
+      "pub": { "doi": "https://doi.org/10.1093/nar/gkp919" },
+      "url": "http://www.microbesonline.org/cgi-bin/treeBrowse.cgi?locus=17761",
+      "platform": ["Web", "Silo"]
     }
   ]
 }
