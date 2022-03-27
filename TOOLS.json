@@ -5096,7 +5096,7 @@
       "url": "http://athina.biol.uoa.gr/bioinformatics/GENEVITO/",
       "name": "GeneViTo",
       "img": "genevito.jpg",
-      "tags": ["General"],
+      "tags": ["Microbiology", "General"],
       "pub": {
         "doi": "https://doi.org/10.1186/1471-2105-4-53",
         "year": 2003,
@@ -5732,27 +5732,54 @@
     {
       "name": "UTGB (University of Tokyo Genome Browser)",
       "img": "utgb.png",
-      "pub": { "doi": "https://doi.org/10.1093/bioinformatics/btp350" },
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/btp350",
+        "year": 2009,
+        "citations": 11
+      },
       "tags": ["General"],
       "github": "https://github.com/utgenome/utgb",
-      "url": "http://utgenome.org/"
+      "url": "http://utgenome.org/",
+      "width": 359,
+      "height": 236,
+      "github_stars": 2
     },
     {
       "name": "Argo",
       "img": "argo.png",
-      "pub": { "doi": "https://doi.org/10.1093/bioinformatics/btp350" },
       "language": ["Java", "Applet"],
       "tags": ["General", "Deadlink"],
       "url": "https://web.archive.org/web/20070924141423/http://www.broad.mit.edu/annotation/argo/",
-      "github": "https://github.com/utgenome/utgb"
+      "notes": "See also the tool 'Combo', a comparative version",
+      "width": 450,
+      "height": 338
     },
     {
       "name": "Combo",
       "img": "combo.png",
-      "note": "Based on Argo",
-      "pub": { "doi": "https://doi.org/10.1093/bioinformatics/btl193" },
+      "note": "Based on the tool 'Argo'",
+      "pub": {
+        "doi": "https://doi.org/10.1093/bioinformatics/btl193",
+        "year": 2006,
+        "citations": 37
+      },
       "tags": ["Comparative"],
-      "language": ["Java"]
+      "language": ["Java"],
+      "width": 640,
+      "height": 253
+    },
+    {
+      "name": "Consed",
+      "img": "consed.png",
+      "url": "http://bozeman.mbt.washington.edu/consed/consed.html",
+      "pub": {
+        "doi": "https://doi.org/10.1101/gr.8.3.195",
+        "year": 1998,
+        "citations": 2600
+      },
+      "tags": ["Academic license", "Assembly", "Alignments"],
+      "width": 650,
+      "height": 994
     }
   ]
 }
