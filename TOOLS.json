@@ -5780,6 +5780,20 @@
       "tags": ["Academic license", "Assembly", "Alignment viewer"],
       "width": 650,
       "height": 994
+    },
+    {
+      "name": "CNSpector",
+      "img": "cnspector.png",
+      "url": "https://github.com/PapenfussLab/CNspector",
+      "pub": {
+        "doi": "https://doi.org/10.1038/s41598-019-42858-8",
+        "year": 2019,
+        "citations": 11
+      },
+      "tags": ["CNV"],
+      "width": 312,
+      "height": 287,
+      "github_stars": 5
     }
   ]
 }
