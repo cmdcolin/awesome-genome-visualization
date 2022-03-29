@@ -5596,6 +5596,9 @@
       "language": ["R"],
       "tags": ["Gene structure"],
       "url": "https://github.com/dzhang32/ggtranscript",
+      "pub": {
+        "doi": "https://doi.org/10.1101/2022.03.28.486050"
+      },
       "width": 2100,
       "height": 900,
       "github_stars": 17
@@ -5802,6 +5805,7 @@
       "url": "https://oist.github.io/GenomicBreaks/articles/GenomicBreaks.html",
       "github": "https://github.com/oist/GenomicBreaks/",
       "language": ["R", "ggplot2"],
+      "tags": ["Comparative", "Dotplot"],
       "width": 700,
       "height": 866,
       "github_stars": 0
