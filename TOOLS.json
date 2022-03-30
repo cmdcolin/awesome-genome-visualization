@@ -5597,7 +5597,9 @@
       "tags": ["Gene structure"],
       "url": "https://github.com/dzhang32/ggtranscript",
       "pub": {
-        "doi": "https://doi.org/10.1101/2022.03.28.486050"
+        "doi": "https://doi.org/10.1101/2022.03.28.486050",
+        "year": 2022,
+        "citations": 0
       },
       "width": 2100,
       "height": 900,
@@ -5808,6 +5810,17 @@
       "tags": ["Comparative", "Dotplot"],
       "width": 700,
       "height": 866,
+      "github_stars": 0
+    },
+    {
+      "name": "GenomeSyn",
+      "img": "genomesyn.png",
+      "url": "https://github.com/jmsong2/GenomeSyn",
+      "tags": ["Comparative", "Ideogram", "Deadlink"],
+      "language": ["Perl"],
+      "platform": ["Web", "Desktop"],
+      "width": 856,
+      "height": 522,
       "github_stars": 0
     }
   ]
