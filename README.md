@@ -38,7 +38,8 @@ multiple tags too. See the website to see all tags applied to tools
 - [Valis browser](https://valis.bio/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/valis.png)
 - [WashU epigenomics browser](https://epigenomegateway.wustl.edu/) (features redesign, there is also a legacy version) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/washu.png)
 - [Zenbu](http://fantom.gsc.riken.jp/zenbu/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/zenbu.png)
-- [GeneViTo](http://athina.biol.uoa.gr/bioinformatics/GENEVITO/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genevito.jpg)
+- [UTGB (University of Tokyo Genome Browser)](http://utgenome.org/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/utgb.png)
+- [Argo](https://web.archive.org/web/20070924141423/http://www.broad.mit.edu/annotation/argo/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/argo.png)
 ## Commercial
 - [10x genomics/Loupe](https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/10xgenomics.png)
 - [Alamut](https://www.interactive-biosoftware.com/alamut-visual/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alamut.png)
@@ -109,6 +110,9 @@ multiple tags too. See the website to see all tags applied to tools
 - [copynumber](https://www.bioconductor.org/packages/release/bioc/vignettes/copynumber/inst/doc/copynumber.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/copynumber.png)
 - [SnoopCGH](http://snoopcgh.sourceforge.net/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snoopcgh.jpg)
 - [Genovar](http://genovar.sourceforge.net/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genovar.png)
+- [CNANorm](https://www.bioconductor.org/packages/release/bioc/html/CNAnorm.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnanorm.png)
+- [Orchestral](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/orchestral.png)
+- [CNSpector](https://github.com/PapenfussLab/CNspector) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnspector.png)
 ## Static
 - [BAMSnap](https://github.com/parklab/bamsnap) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamsnap.png)
 - [ChIA-Pipe](https://github.com/TheJacksonLaboratory/ChIA-PIPE) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chiapipe.png)
@@ -229,6 +233,13 @@ multiple tags too. See the website to see all tags applied to tools
 - [SyntenyPortal](http://bioinfo.konkuk.ac.kr/synteny_portal/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syntenyportal.png)
 - [CHROMEISTER](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chromeister.png)
 - [r2cat](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/r2cat.jpeg)
+- [SequenceSurveyor](https://graphics.cs.wisc.edu/Vis/SequenceSurveyor/index.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sequencesurveyor.png)
+- [BactoGENIE](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bactogenie.png)
+- [PSAT](http://www.nwrce.org/psat) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/psat.png)
+- [TreeBrowser (MicrobesOnline)](http://www.microbesonline.org/cgi-bin/treeBrowse.cgi?locus=17761) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/treegenome.png)
+- [Combo](undefined) (Based on the tool 'Argo') [(img)](https://cmdcolin.github.io/awesome-genome-visualization/combo.png)
+- [GenomicBreaks](https://oist.github.io/GenomicBreaks/articles/GenomicBreaks.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomicbreaks.png)
+- [GenomeSyn](https://github.com/jmsong2/GenomeSyn) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomesyn.png)
 ## Single cell
 - [Millefy](https://github.com/yuifu/millefy) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/millefy.png)
 - [gingko](http://qb.cshl.edu/ginkgo/?q=/9EiUttUP0CBHs3WnuBa0) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gingko.jpeg)
@@ -241,6 +252,7 @@ multiple tags too. See the website to see all tags applied to tools
 - [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/purescript.png)
 - [Locuszoom](http://locuszoom.org/) (Also see locuszoom.js http://locuszoom.org/locuszoomjs.php) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locuszoom.png)
 - [LDBlockShow](https://github.com/BGI-shenzhen/LDBlockShow) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ldblockshow.png)
+- [CMPlot](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cmplot.png)
 ## Dotplot
 - [shinyChromosome](http://150.109.59.144:3838/shinyChromosome/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shinychromosome.png)
 - [D-GENIES](http://dgenies.toulouse.inra.fr/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dgenies.png)
@@ -274,6 +286,8 @@ multiple tags too. See the website to see all tags applied to tools
 - [ggtranscript](https://github.com/dzhang32/ggtranscript) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggtranscript.png)
 ## Microbiology
 - [Edinburgh-Genome-Foundry/DnaFeaturesViewer](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dnafeaturesviewer.png)
+- [GeneViTo](http://athina.biol.uoa.gr/bioinformatics/GENEVITO/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genevito.jpg)
+- [GECO](http://bioinfo.mikrobio.med.uni-giessen.de/geco2/GecoMainServlet) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/geco.png)
 ## Graph
 - [AGB assembly graph browser](https://almiheenko.github.io/AGB/index.html)
 - [Bandage](https://github.com/rrwick/Bandage/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bandage.png)
@@ -435,6 +449,7 @@ multiple tags too. See the website to see all tags applied to tools
 ## Uncategorized
 - [methylartist](https://github.com/adamewing/methylartist) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
 - [Haploview](https://www.broadinstitute.org/haploview/haploview) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/haploview.png)
+- [CoolBox](undefined) (fork of pyGenomeTracks) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/coolbox.png)
 ## Assembly
 - [vega](http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL) (Mentioned in https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf also note: vega standards for vertebrate genome annotation database) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vega.png)
 - [MIRA](http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html) (orig paper also describes mira here http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.7465&rep=rep1&type=pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mira.png)
@@ -455,6 +470,8 @@ multiple tags too. See the website to see all tags applied to tools
 - [DNAVis](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dnavis.png)
 ## BLAST
 - [SequenceServer](https://sequenceserver.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sequenceserver.png)
+## Academic license
+- [Consed](http://bozeman.mbt.washington.edu/consed/consed.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/consed.png)
 # Other lists
 
 - [Awesome Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
