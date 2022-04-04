@@ -5836,6 +5836,30 @@
       "width": 525,
       "height": 675,
       "github_stars": 293
+    },
+
+    {
+      "name": "chromPlot",
+      "img": "chromplot.png",
+      "pub": { "doi": "https://doi.org/10.1093/bioinformatics/btw137" },
+      "language": ["R"],
+      "url": "https://www.bioconductor.org/packages/release/bioc/vignettes/chromPlot/inst/doc/chromPlot.pdf"
+    },
+    {
+      "name": "PhenoGram",
+      "img": "phenogram.png",
+      "url": "https://ritchielab.org/software/phenogram-downloads",
+      "pub": { "doi": "https://doi.org/10.1186/1756-0381-6-18" },
+      "note": "Can be web server or download",
+      "language": ["Ruby"],
+      "platform": ["Web", "Silo", "CLI"]
+    },
+    {
+      "name": "RIdeogram",
+      "img": "rideogram.png",
+      "url": "https://github.com/TickingClock1992/RIdeogram",
+      "pub": { "doi": "https://doi.org/10.7717/peerj-cs.251" },
+      "language": ["R"]
     }
   ]
 }
