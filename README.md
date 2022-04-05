@@ -47,6 +47,7 @@ multiple tags too. See the website to see all tags applied to tools
 - [Benchling](https://www.benchling.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/benchling.png)
 - [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clcgenomics.png)
 - [DNASTAR](https://www.dnastar.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dnastar.png)
+- [ERGO](https://www.igenbio.com/ergo) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ergo.png)
 - [Geneious](https://www.geneious.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/geneious.png)
 - [Genestack](https://genestack.com/blog/2015/05/28/navigation-in-genestack-genome-browser/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genestack.png)
 - [Golden Helix](http://goldenhelix.com/GenomeBrowse/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/goldenhelix.png)
