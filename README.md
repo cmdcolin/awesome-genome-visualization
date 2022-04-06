@@ -11,6 +11,17 @@ Note that the organization on the GitHub README here is a best effort
 categorization using the first tag applied to each tool, but tools can have
 multiple tags too. See the website to see all tags applied to tools
 
+
+
+Note: This list runs the gammut from bespoke and simple to more general-purpose
+and complex tools. Some are historical, or may be for more visual inspiration
+only
+
+I also encourage you to make your own visualization, things like R make this so
+much easier! But also consider making your visualization code re-usable for the
+wider community! And feel free to send PRs for more tools!
+
+
 ## General
 - [Genoverse](https://github.com/wtsi-web/Genoverse) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genoverse.png)
 - [BasePlayer](https://baseplayer.fi/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/baseplayer.png)
@@ -47,7 +58,6 @@ multiple tags too. See the website to see all tags applied to tools
 - [Benchling](https://www.benchling.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/benchling.png)
 - [CLC Genomics workbench](https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clcgenomics.png)
 - [DNASTAR](https://www.dnastar.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dnastar.png)
-- [ERGO](https://www.igenbio.com/ergo) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ergo.png)
 - [Geneious](https://www.geneious.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/geneious.png)
 - [Genestack](https://genestack.com/blog/2015/05/28/navigation-in-genestack-genome-browser/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genestack.png)
 - [Golden Helix](http://goldenhelix.com/GenomeBrowse/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/goldenhelix.png)
@@ -58,6 +68,7 @@ multiple tags too. See the website to see all tags applied to tools
 - [Strand NGS](https://www.strand-ngs.com/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/strandngs.png)
 - [Bionano](https://bionanogenomics.com/technology/structural-variation/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bionano.png)
 - [Circa](https://omgenomics.com/circa) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/circa.png)
+- [ERGO](https://www.igenbio.com/ergo) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ergo.png)
 ## MSA
 - [AA](http://www.bioinformatics.org/strap/aa) (also see STRAP) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/aa.png)
 - [abrowse](https://github.com/ihh/abrowse) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/abrowse.png)
@@ -408,6 +419,9 @@ multiple tags too. See the website to see all tags applied to tools
 - [IdeoViz](https://www.bioconductor.org/packages/release/bioc/vignettes/IdeoViz/inst/doc/Vignette.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ideoviz.png)
 - [Flash Gviewer](http://gmod.org/wiki/Flashgviewer/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/flashgviewer.png)
 - [Ideogram viewer](https://bioinformatics.mdanderson.org/public-software/ideogramviewer/) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ideogramviewer.png)
+- [chromPlot](https://www.bioconductor.org/packages/release/bioc/vignettes/chromPlot/inst/doc/chromPlot.pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chromplot.png)
+- [PhenoGram](https://ritchielab.org/software/phenogram-downloads) (Can be web server or download) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phenogram.png)
+- [RIdeogram](https://github.com/TickingClock1992/RIdeogram) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rideogram.png)
 ## Mobile
 - [iGenomics](undefined) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/igenomics.png)
 ## Pangenome
@@ -451,6 +465,7 @@ multiple tags too. See the website to see all tags applied to tools
 - [methylartist](https://github.com/adamewing/methylartist) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
 - [Haploview](https://www.broadinstitute.org/haploview/haploview) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/haploview.png)
 - [CoolBox](undefined) (fork of pyGenomeTracks) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/coolbox.png)
+- [CrowsNest](https://pgsb.helmholtz-muenchen.de/crowsnest/help.html) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/crowsnest.png)
 ## Assembly
 - [vega](http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL) (Mentioned in https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf also note: vega standards for vertebrate genome annotation database) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vega.png)
 - [MIRA](http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html) (orig paper also describes mira here http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.7465&rep=rep1&type=pdf) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mira.png)
