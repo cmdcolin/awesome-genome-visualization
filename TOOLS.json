@@ -5860,7 +5860,7 @@
       "platform": ["Web", "Desktop"],
       "width": 856,
       "height": 522,
-      "github_stars": 0
+      "github_stars": 2
     },
     {
       "name": "CMPlot",
@@ -5982,6 +5982,15 @@
       },
       "width": 960,
       "height": 1056
+    },
+    {
+      "name": "pyCircos",
+      "img": "pycircos.png",
+      "url": "https://github.com/ponnhide/pyCircos",
+      "note": "See also https://github.com/ponnhide/plasmidviewer",
+      "width": 738,
+      "height": 268,
+      "github_stars": 95
     }
   ]
 }
