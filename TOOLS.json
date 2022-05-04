@@ -1793,7 +1793,7 @@
     },
     {
       "tags": ["Graph"],
-      "name": "odgi draw + odgi viz",
+      "name": "odgi draw + odgi viz + odgi inject",
       "language": ["C++"],
       "github": "https://github.com/pangenome/odgi",
       "img": "odgi.png",
@@ -1802,7 +1802,7 @@
         "year": 2021,
         "citations": 5
       },
-      "note": "Example from https://github.com/pangenome/pggb",
+      "note": "Example from https://github.com/pangenome/pggb, see also gene arrow map https://odgi.readthedocs.io/en/latest/rst/tutorials/injecting_gene_arrows.html",
       "url": "https://odgi.readthedocs.io/en/latest/index.html",
       "width": 2906,
       "height": 845,
