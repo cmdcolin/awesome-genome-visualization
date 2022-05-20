@@ -46,6 +46,7 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
         timeout = 1000
       }
       i++
+      timeout = 1000
     } catch (e) {
       console.error('got error, retrying', e)
       await setTimeout(timeout)

@@ -6041,6 +6041,20 @@
       },
       "width": 727,
       "height": 320
+    },
+    {
+      "name": "Prosite/MyDomains",
+      "img": "prosite.png",
+      "url": "https://prosite.expasy.org/mydomains",
+      "tags": ["Protein"],
+      "platform": ["Web", "Silo"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/nar/gkm977",
+        "year": 2007,
+        "citations": 319
+      },
+      "width": 561,
+      "height": 40
     }
   ]
 }
