@@ -6073,10 +6073,40 @@
       "url": "https://github.com/mcfrith/local-rearrangements",
       "tags": ["Dotplot", "SV"],
       "language": ["Python"],
-      "note": "Can color dotplots with annotations for e.g. exons, transposons, low complexity regions. See also last-dotplot",
+      "note": "Can color dotplots with annotations for e.g. exons, transposons, low complexity regions. See also last-dotplot. Nice figure using it here https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-020-00762-1/figures/4",
       "width": 199,
       "height": 713,
       "github_stars": 4
+    },
+    {
+      "name": "GeCoViz",
+      "img": "gecoviz.png",
+      "url": "https://gecoviz.cgmlab.org/",
+      "platform": ["Web", "Silo"],
+      "tags": ["Microbiology", "Comparative"],
+      "pub": {
+        "doi": "https://doi.org/10.1093/nar/gkac367",
+        "year": 2022,
+        "citations": 0
+      },
+      "width": 472,
+      "height": 443
+    },
+    {
+      "name": "GGisy",
+      "img": "ggisy.png",
+      "url": "https://github.com/Sanrrone/GGisy",
+      "language": ["Python", "R"],
+      "width": 544,
+      "height": 516
+    },
+    {
+      "name": "multiGenomicContext",
+      "url": "https://github.com/Sanrrone/multiGenomicContext",
+      "img": "multicontext.png",
+      "language": ["Python", "R"],
+      "width": 1145,
+      "height": 577
     }
   ]
 }
