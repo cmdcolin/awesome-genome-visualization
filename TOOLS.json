@@ -968,7 +968,7 @@
       "tags": ["Static", "Quantitative"],
       "width": 1677,
       "height": 2482,
-      "github_stars": 0
+      "github_stars": 1
     },
     {
       "name": "Samplot",
@@ -6056,6 +6056,27 @@
       },
       "width": 561,
       "height": 40
+    },
+    {
+      "name": "snpit",
+      "img": "snpit.png",
+      "url": "https://github.com/aineniamh/snipit",
+      "tags": ["Variation", "Population"],
+      "language": ["Python"],
+      "width": 750,
+      "height": 306,
+      "github_stars": 59
+    },
+    {
+      "name": "local-rearrangements",
+      "img": "local-rearrangements.png",
+      "url": "https://github.com/mcfrith/local-rearrangements",
+      "tags": ["Dotplot", "SV"],
+      "language": ["Python"],
+      "note": "Can color dotplots with annotations for e.g. exons, transposons, low complexity regions. See also last-dotplot",
+      "width": 199,
+      "height": 713,
+      "github_stars": 4
     }
   ]
 }
