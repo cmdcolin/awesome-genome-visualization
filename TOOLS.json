@@ -194,7 +194,7 @@
       "pub": {
         "doi": "10.1093/bioinformatics/btu531",
         "year": 2014,
-        "citations": 1389
+        "citations": 1405
       },
       "platform": ["Desktop"],
       "language": ["Java"],
@@ -214,11 +214,11 @@
         "url": "https://academic.oup.com/bioinformatics/article/32/22/3501/2525598?login=true",
         "doi": "10.1093/bioinformatics/btw474",
         "year": 2016,
-        "citations": 56
+        "citations": 57
       },
       "width": 1956,
       "height": 634,
-      "github_stars": 162
+      "github_stars": 161
     },
     {
       "tags": ["MSA"],
@@ -242,7 +242,7 @@
       "pub": {
         "doi": "10.1093/bioinformatics/15.4.305",
         "year": 1999,
-        "citations": 2273
+        "citations": 2277
       },
       "url": "http://espript.ibcp.fr/ESPript/ESPript/",
       "platform": ["Desktop"],
@@ -257,7 +257,7 @@
       "pub": {
         "doi": "10.1093/bioinformatics/btp033",
         "year": 2009,
-        "citations": 5750
+        "citations": 5793
       },
       "platform": ["Desktop"],
       "language": ["Java"],
@@ -334,7 +334,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/14.4.380",
         "year": 1998,
-        "citations": 223
+        "citations": 226
       },
       "img": "mview.png",
       "platform": ["Web"],
@@ -381,7 +381,7 @@
       "platform": ["Web"],
       "width": 595,
       "height": 243,
-      "github_stars": 15
+      "github_stars": 16
     },
     {
       "tags": ["MSA"],
@@ -431,7 +431,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/16.2.135",
         "year": 2000,
-        "citations": 240
+        "citations": 241
       },
       "url": "http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/texshade/texshade.pdf",
       "platform": ["Desktop"],
@@ -447,7 +447,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msv333",
         "year": 2015,
-        "citations": 39
+        "citations": 41
       },
       "platform": ["Web"],
       "width": 1378,
@@ -481,11 +481,11 @@
         "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004873",
         "doi": "https://doi.org/10.1371/journal.pcbi.1004873",
         "year": 2016,
-        "citations": 746
+        "citations": 760
       },
       "width": 885,
       "height": 1555,
-      "github_stars": 342
+      "github_stars": 348
     },
     {
       "tags": ["CNV", "Static"],
@@ -497,7 +497,7 @@
         "url": "https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-020-00343-x",
         "doi": "10.1186/s13072-020-00343-x",
         "year": 2020,
-        "citations": 13
+        "citations": 15
       },
       "width": 2172,
       "height": 498,
@@ -541,7 +541,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btx329",
         "year": 2017,
-        "citations": 18
+        "citations": 19
       },
       "language": ["R"],
       "width": 1914,
@@ -601,12 +601,12 @@
       "pub": {
         "doi": "10.1021/acssynbio.6b00252",
         "year": 2016,
-        "citations": 40
+        "citations": 41
       },
       "language": ["Python"],
       "width": 960,
       "height": 810,
-      "github_stars": 248
+      "github_stars": 247
     },
     {
       "name": "ExonIntron",
@@ -638,7 +638,7 @@
       "language": ["Python"],
       "width": 640,
       "height": 152,
-      "github_stars": 13
+      "github_stars": 14
     },
     {
       "tags": ["Static"],
@@ -647,7 +647,7 @@
       "pub": {
         "doi": "10.1038/ng.3200",
         "year": 2015,
-        "citations": 280
+        "citations": 283
       },
       "url": "http://software.broadinstitute.org/software/genomestrip/",
       "width": 1133,
@@ -662,7 +662,7 @@
       "pub": {
         "doi": "10.1109/TCBB.2013.68",
         "year": 2013,
-        "citations": 231
+        "citations": 237
       },
       "language": ["C"],
       "width": 700,
@@ -708,7 +708,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btq413",
         "year": 2010,
-        "citations": 429
+        "citations": 434
       },
       "language": ["R"],
       "width": 500,
@@ -725,11 +725,11 @@
         "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r77",
         "doi": "https://doi.org/10.1186/gb-2012-13-8-r77",
         "year": 2012,
-        "citations": 209
+        "citations": 211
       },
       "width": 600,
       "height": 600,
-      "github_stars": 90
+      "github_stars": 91
     },
     {
       "tags": ["Static", "Comparative"],
@@ -739,7 +739,7 @@
       "language": ["R", "ggplot2"],
       "width": 768,
       "height": 768,
-      "github_stars": 289
+      "github_stars": 296
     },
     {
       "tags": ["Static"],
@@ -749,12 +749,12 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1371%2Fjournal.pcbi.1006360",
         "year": 2018,
-        "citations": 84
+        "citations": 86
       },
       "language": ["R", "ggplot2"],
       "width": 3600,
       "height": 3330,
-      "github_stars": 82
+      "github_stars": 83
     },
     {
       "name": "GSSPlayground",
@@ -791,12 +791,12 @@
       "pub": {
         "doi": "https://doi.org/10.1007/978-1-4939-3578-9_16",
         "year": 2016,
-        "citations": 452
+        "citations": 456
       },
       "language": ["R"],
       "width": 720,
       "height": 480,
-      "github_stars": 32
+      "github_stars": 35
     },
     {
       "tags": ["Static", "Coverage"],
@@ -816,7 +816,7 @@
       "pub": {
         "doi": "https://doi.org/10.1186/s13059-015-0767-1",
         "year": 2015,
-        "citations": 120
+        "citations": 121
       },
       "url": "https://github.com/kcakdemir/HiCPlotter",
       "language": ["Python"],
@@ -844,7 +844,7 @@
       "language": ["Go"],
       "width": 1776,
       "height": 200,
-      "github_stars": 157
+      "github_stars": 159
     },
     {
       "tags": ["Static", "Protein"],
@@ -868,7 +868,7 @@
       "language": ["Python"],
       "width": 700,
       "height": 450,
-      "github_stars": 64
+      "github_stars": 65
     },
     {
       "tags": ["Single cell"],
@@ -931,12 +931,12 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btaa692",
         "year": 2020,
-        "citations": 64
+        "citations": 68
       },
       "tags": ["Static", "Hi-C"],
       "width": 743,
       "height": 591,
-      "github_stars": 563
+      "github_stars": 570
     },
     {
       "name": "RACER",
@@ -983,7 +983,7 @@
       "tags": ["Static", "SV", "Alignment viewer"],
       "width": 1202,
       "height": 602,
-      "github_stars": 357
+      "github_stars": 358
     },
     {
       "name": "SashimiPlot",
@@ -994,7 +994,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtv034",
         "year": 2015,
-        "citations": 103
+        "citations": 104
       },
       "tags": ["Static", "Expression", "Splicing"],
       "width": 1012,
@@ -1039,7 +1039,7 @@
         "url": "https://www.biorxiv.org/content/10.1101/845529v1.full.pdf",
         "doi": "https://doi.org/10.1101/845529",
         "year": 2019,
-        "citations": 12
+        "citations": 14
       },
       "width": 4553,
       "height": 821,
@@ -1064,7 +1064,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btu379",
         "year": 2014,
-        "citations": 141
+        "citations": 142
       },
       "tags": ["Static", "Multi"],
       "width": 589,
@@ -1140,7 +1140,7 @@
       "platform": ["Web", "Interactive"],
       "width": 741,
       "height": 215,
-      "github_stars": 15
+      "github_stars": 16
     },
     {
       "name": "trackViewer",
@@ -1151,12 +1151,12 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41592-019-0430-y",
         "year": 2019,
-        "citations": 59
+        "citations": 60
       },
       "tags": ["Static", "Lollipops", "Quantitative"],
       "width": 1152,
       "height": 960,
-      "github_stars": 31
+      "github_stars": 32
     },
     {
       "tags": ["Comparative", "Deadlink?"],
@@ -1181,7 +1181,7 @@
       "pub": {
         "doi": "https://doi.org/10.7717/peerj-cs.116",
         "year": 2017,
-        "citations": 33
+        "citations": 34
       },
       "platform": ["Web"],
       "language": ["JS", "D3", "Perl"],
@@ -1197,13 +1197,13 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/bti553",
         "year": 2005,
-        "citations": 1248
+        "citations": 1250
       },
       "language": ["Java"],
       "platform": ["Desktop"],
       "width": 648,
       "height": 530,
-      "github_stars": 165
+      "github_stars": 167
     },
     {
       "tags": ["Comparative"],
@@ -1249,7 +1249,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtp458",
         "year": 2009,
-        "citations": 62
+        "citations": 63
       },
       "platform": ["Web"],
       "width": 620,
@@ -1265,7 +1265,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btx144",
         "year": 2017,
-        "citations": 72
+        "citations": 73
       },
       "language": ["Perl"],
       "platform": ["Web", "Silo"],
@@ -1344,7 +1344,7 @@
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3065679/",
         "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtr039",
         "year": 2011,
-        "citations": 1691
+        "citations": 1711
       },
       "width": 5000,
       "height": 2171,
@@ -1361,11 +1361,11 @@
         "url": "https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF",
         "doi": "https://doi.org/10.1093/bioinformatics/btaa213",
         "year": 2020,
-        "citations": 28
+        "citations": 30
       },
       "width": 1000,
       "height": 300,
-      "github_stars": 383
+      "github_stars": 388
     },
     {
       "tags": ["Comparative"],
@@ -1382,7 +1382,7 @@
       "platform": ["Web"],
       "width": 1340,
       "height": 428,
-      "github_stars": 47
+      "github_stars": 46
     },
     {
       "tags": ["Comparative", "Gene order"],
@@ -1407,7 +1407,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1073%2Fpnas.1603910113",
         "year": 2016,
-        "citations": 167
+        "citations": 170
       },
       "url": "https://github.com/filip-husnik/genome-plots-processing",
       "language": ["Processing"],
@@ -1443,7 +1443,7 @@
       "platform": ["Package"],
       "width": 3000,
       "height": 1200,
-      "github_stars": 320
+      "github_stars": 327
     },
     {
       "tags": ["Comparative", "Linear", "Quantitative"],
@@ -1483,12 +1483,12 @@
       "pub": {
         "doi": "10.1186/s13059-014-0573-1",
         "year": 2015,
-        "citations": 248
+        "citations": 249
       },
       "platform": ["CLI"],
       "width": 833,
       "height": 257,
-      "github_stars": 503
+      "github_stars": 506
     },
     {
       "name": "MCScanX",
@@ -1498,7 +1498,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fnar%2Fgkr1293",
         "year": 2012,
-        "citations": 1982
+        "citations": 2024
       },
       "language": ["Perl"],
       "platform": ["CLI"],
@@ -1584,7 +1584,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/ng1562",
         "year": 2005,
-        "citations": 712
+        "citations": 713
       },
       "language": ["Perl"],
       "width": 570,
@@ -1623,11 +1623,11 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1186%2Fs12859-017-1939-7",
         "year": 2017,
-        "citations": 28
+        "citations": 29
       },
       "width": 778,
       "height": 539,
-      "github_stars": 46
+      "github_stars": 47
     },
     {
       "tags": ["Comparative"],
@@ -1688,7 +1688,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fnar%2Fgkh458",
         "year": 2004,
-        "citations": 1314
+        "citations": 1323
       },
       "width": 1222,
       "height": 348
@@ -1735,11 +1735,11 @@
         "url": "https://academic.oup.com/bioinformatics/article/31/20/3350/196114",
         "doi": "https://doi.org/10.1093/bioinformatics/btv383",
         "year": 2015,
-        "citations": 886
+        "citations": 903
       },
       "width": 440,
       "height": 157,
-      "github_stars": 437
+      "github_stars": 438
     },
     {
       "tags": ["Graph"],
@@ -1750,7 +1750,18 @@
       "language": ["Rust"],
       "width": 679,
       "height": 448,
-      "github_stars": 26
+      "github_stars": 35
+    },
+    {
+      "tags": ["SV", "CNV", "Breakends", "Graph"],
+      "name": "gGnomes",
+      "img": "ggnomesr.png",
+      "url": "https://github.com/mskilab/gGnome",
+      "language": ["R"],
+      "platform": ["Web"],
+      "width": 1536,
+      "height": 1920,
+      "github_stars": 22
     },
     {
       "tags": ["SV", "CNV", "Breakends", "Graph"],
@@ -1783,7 +1794,7 @@
       "pub": {
         "doi": "10.1186/s12859-019-3145-2",
         "year": 2019,
-        "citations": 11
+        "citations": 12
       },
       "language": ["JS"],
       "platform": ["Web"],
@@ -1800,13 +1811,13 @@
       "pub": {
         "doi": "https://doi.org/10.1101/2021.11.10.467921",
         "year": 2021,
-        "citations": 6
+        "citations": 8
       },
       "note": "Example from https://github.com/pangenome/pggb, see also gene arrow map https://odgi.readthedocs.io/en/latest/rst/tutorials/injecting_gene_arrows.html",
       "url": "https://odgi.readthedocs.io/en/latest/index.html",
       "width": 1389,
       "height": 1587,
-      "github_stars": 99
+      "github_stars": 108
     },
     {
       "tags": ["Graph"],
@@ -1816,7 +1827,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btz597",
         "year": 2019,
-        "citations": 17
+        "citations": 18
       },
       "language": ["JS"],
       "platform": ["Web"],
@@ -1849,7 +1860,7 @@
       "language": ["Python"],
       "width": 2244,
       "height": 598,
-      "github_stars": 64
+      "github_stars": 65
     },
     {
       "tags": ["Text based", "Alignment viewer"],
@@ -1865,7 +1876,7 @@
       "platform": ["CLI"],
       "width": 1368,
       "height": 632,
-      "github_stars": 176
+      "github_stars": 178
     },
     {
       "tags": ["Text based", "Coverage"],
@@ -1876,7 +1887,7 @@
       "platform": ["CLI"],
       "width": 637,
       "height": 166,
-      "github_stars": 82
+      "github_stars": 83
     },
     {
       "tags": ["Text based"],
@@ -1885,7 +1896,7 @@
       "pub": {
         "doi": "10.1186/1471-2105-10-421",
         "year": 2009,
-        "citations": 9458
+        "citations": 9543
       },
       "language": ["C++"],
       "platform": ["CLI"]
@@ -1972,12 +1983,12 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btp352",
         "year": 2009,
-        "citations": 33876
+        "citations": 34175
       },
       "img": "tview.png",
       "width": 1290,
       "height": 875,
-      "github_stars": 1198
+      "github_stars": 1207
     },
     {
       "tags": ["Text based"],
@@ -1987,7 +1998,7 @@
       "pub": {
         "doi": "https://doi.org/10.1101/gr.221028.117",
         "year": 2018,
-        "citations": 172
+        "citations": 175
       },
       "platform": ["CLI"],
       "width": 5360,
@@ -2002,7 +2013,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/nmeth.4267",
         "year": 2017,
-        "citations": 125
+        "citations": 128
       },
       "width": 4750,
       "height": 2046,
@@ -2015,11 +2026,11 @@
       "pub": {
         "doi": "https://doi.org/10.7717/peerj.1319",
         "year": 2015,
-        "citations": 924
+        "citations": 932
       },
       "url": "https://peerj.com/articles/1319/",
       "language": ["Python"],
-      "github_stars": 339
+      "github_stars": 340
     },
     {
       "tags": ["Circular"],
@@ -2069,12 +2080,12 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btu393",
         "year": 2014,
-        "citations": 1406
+        "citations": 1432
       },
       "language": ["R"],
       "width": 1181,
       "height": 1181,
-      "github_stars": 771
+      "github_stars": 778
     },
     {
       "tags": ["Circular", "Static"],
@@ -2086,7 +2097,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1101%2Fgr.092759.109",
         "year": 2009,
-        "citations": 6249
+        "citations": 6280
       },
       "language": ["Perl"],
       "width": 310,
@@ -2102,7 +2113,7 @@
       "platform": ["Web"],
       "width": 888,
       "height": 905,
-      "github_stars": 455
+      "github_stars": 456
     },
     {
       "tags": ["Circular"],
@@ -2112,7 +2123,7 @@
       "pub": {
         "doi": "http://dx.doi.org/10.1093%2Fbioinformatics%2Fbtn578",
         "year": 2008,
-        "citations": 597
+        "citations": 600
       },
       "platform": ["Desktop"],
       "language": ["Java"],
@@ -2148,7 +2159,7 @@
       "language": ["Perl"],
       "width": 324,
       "height": 324,
-      "github_stars": 50
+      "github_stars": 51
     },
     {
       "tags": ["Static"],
@@ -2158,7 +2169,7 @@
       "language": ["Python"],
       "width": 3000,
       "height": 3000,
-      "github_stars": 39
+      "github_stars": 43
     },
     {
       "tags": ["Circular", "Static"],
@@ -2169,7 +2180,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gkz238",
         "year": 2019,
-        "citations": 457
+        "citations": 470
       },
       "width": 1250,
       "height": 1250
@@ -2182,7 +2193,7 @@
       "platform": ["Web"],
       "width": 1848,
       "height": 633,
-      "github_stars": 102
+      "github_stars": 103
     },
     {
       "tags": ["Synthetic biology"],
@@ -2227,7 +2238,7 @@
       "pub": {
         "doi": "https://doi.org/10.1186/gb-2013-14-8-r93",
         "year": 2013,
-        "citations": 277
+        "citations": 278
       },
       "language": ["Java", "Groovy", "JS"],
       "width": 685,
@@ -2242,7 +2253,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gkz365",
         "year": 2019,
-        "citations": 470
+        "citations": 483
       },
       "width": 1378,
       "height": 575
@@ -2322,7 +2333,7 @@
         "url": "https://www.nature.com/articles/nsmb.3180",
         "doi": "https://doi.org/10.1038/nsmb.3180",
         "year": 2016,
-        "citations": 149
+        "citations": 153
       },
       "width": 243,
       "height": 312
@@ -2362,7 +2373,7 @@
         "url": "https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa680/5885081?redirectedFrom=fulltext",
         "doi": "https://doi.org/10.1093/bioinformatics/btaa680",
         "year": 2020,
-        "citations": 15
+        "citations": 16
       },
       "width": 720,
       "height": 405,
@@ -2378,7 +2389,7 @@
       "platform": ["Web"],
       "width": 1194,
       "height": 476,
-      "github_stars": 92
+      "github_stars": 93
     },
     {
       "tags": ["General", "Linear"],
@@ -2397,14 +2408,14 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41586-020-2308-7",
         "year": 2020,
-        "citations": 2730
+        "citations": 2816
       },
       "img": "gnomad.png",
       "twitter": "https://twitter.com/gnomad_project",
       "platform": ["Web", "Silo"],
       "width": 1081,
       "height": 599,
-      "github_stars": 57
+      "github_stars": 58
     },
     {
       "tags": ["SV", "Linear"],
@@ -2427,7 +2438,7 @@
       "pub": {
         "doi": "https://doi.org/10.1126/science.aaz1776",
         "year": 2020,
-        "citations": 821
+        "citations": 856
       },
       "url": "https://gtexportal.org/home/locusBrowserPage/ACTN3",
       "platform": ["Web"],
@@ -2441,7 +2452,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gky1120",
         "year": 2018,
-        "citations": 1739
+        "citations": 1778
       },
       "url": "https://www.ebi.ac.uk/gwas/variants/rs1558902",
       "platform": ["Web"],
@@ -2474,7 +2485,7 @@
       "pub": {
         "doi": "https://doi.org/10.1371/journal.pbio.3000586",
         "year": 2020,
-        "citations": 50
+        "citations": 51
       },
       "note": "made with vega/d3",
       "width": 1746,
@@ -2490,11 +2501,11 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btw379",
         "year": 2016,
-        "citations": 62
+        "citations": 63
       },
       "width": 1504,
       "height": 797,
-      "github_stars": 234
+      "github_stars": 243
     },
     {
       "tags": ["SV", "Alignment viewer"],
@@ -2542,7 +2553,7 @@
       "note": "web app using it here https://pathogenomics.sfu.ca/islandviewer uses D3, SVG",
       "width": 937,
       "height": 374,
-      "github_stars": 33
+      "github_stars": 32
     },
     {
       "tags": ["Special-purpose", "Deadlink?"],
@@ -2569,7 +2580,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btq419",
         "year": 2010,
-        "citations": 1801
+        "citations": 1816
       },
       "platform": ["Web"],
       "width": 488,
@@ -2605,7 +2616,7 @@
       },
       "width": 1378,
       "height": 476,
-      "github_stars": 34
+      "github_stars": 36
     },
     {
       "tags": ["Special-purpose", "Alignment viewer"],
@@ -2632,7 +2643,7 @@
       "language": ["Java"],
       "width": 1920,
       "height": 921,
-      "github_stars": 132
+      "github_stars": 133
     },
     {
       "tags": ["Special-purpose", "Coverage"],
@@ -2643,7 +2654,7 @@
       "url": "https://brentp.github.io/seqcover/#gene=AIFM1",
       "width": 1378,
       "height": 476,
-      "github_stars": 45
+      "github_stars": 44
     },
     {
       "tags": ["Special-purpose"],
@@ -2668,7 +2679,7 @@
       "pub": {
         "doi": "https://doi.org/10.1242/dmm.005439",
         "year": 2010,
-        "citations": 147
+        "citations": 152
       },
       "img": "sfari.jpg",
       "platform": ["Web", "Silo"],
@@ -2683,7 +2694,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/pcp/pcs183",
         "year": 2013,
-        "citations": 417
+        "citations": 421
       },
       "url": "https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22",
       "width": 1378,
@@ -2753,7 +2764,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/dnares/dsz022",
         "year": 2019,
-        "citations": 10
+        "citations": 11
       },
       "platform": ["Web"],
       "width": 1377,
@@ -2800,11 +2811,11 @@
       "pub": {
         "doi": "10.1093/bioinformatics/bts091",
         "year": 2012,
-        "citations": 1345
+        "citations": 1359
       },
       "width": 796,
       "height": 602,
-      "github_stars": 146
+      "github_stars": 149
     },
     {
       "tags": ["Special-purpose", "Annotation"],
@@ -2813,7 +2824,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/bty897",
         "year": 2018,
-        "citations": 556
+        "citations": 568
       },
       "url": "https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET",
       "platform": ["Web", "Silo"],
@@ -2881,7 +2892,7 @@
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937187/",
         "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtw069",
         "year": 2016,
-        "citations": 225
+        "citations": 228
       },
       "width": 800,
       "height": 398
@@ -2897,11 +2908,11 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1038%2Fnbt.1754",
         "year": 2011,
-        "citations": 8015
+        "citations": 8096
       },
       "width": 1124,
       "height": 1280,
-      "github_stars": 480
+      "github_stars": 481
     },
     {
       "tags": ["General", "SV", "Alignment viewer"],
@@ -2931,12 +2942,12 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bib/bbs012",
         "year": 2012,
-        "citations": 617
+        "citations": 624
       },
       "platform": ["Desktop"],
       "width": 520,
       "height": 408,
-      "github_stars": 28
+      "github_stars": 29
     },
     {
       "tags": ["Exotic", "GWAS"],
@@ -2984,7 +2995,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/30.1.38",
         "year": 2002,
-        "citations": 1024
+        "citations": 1025
       },
       "url": "https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237",
       "platform": ["Web", "Silo"],
@@ -3016,7 +3027,7 @@
       "note": "Original gbrowse paper https://doi.org/10.1101/gr.403602",
       "width": 800,
       "height": 552,
-      "github_stars": 47
+      "github_stars": 46
     },
     {
       "name": "GenomeMaps",
@@ -3069,13 +3080,13 @@
       "pub": {
         "doi": "10.1186/s13059-018-1486-1",
         "year": 2018,
-        "citations": 237
+        "citations": 240
       },
       "url": "https://higlass.io",
       "platform": ["Web", "Server"],
       "width": 1250,
       "height": 956,
-      "github_stars": 238
+      "github_stars": 239
     },
     {
       "tags": ["General", "Alignment viewer"],
@@ -3085,13 +3096,13 @@
       "pub": {
         "doi": "https://doi.org/10.1101/2020.05.03.075499",
         "year": 2020,
-        "citations": 19
+        "citations": 20
       },
       "url": "https://github.com/igvteam/igv.js/",
       "platform": ["Web"],
       "width": 1116,
       "height": 605,
-      "github_stars": 502
+      "github_stars": 505
     },
     {
       "tags": [
@@ -3111,11 +3122,11 @@
       "pub": {
         "doi": "https://doi.org/10.1186/s13059-016-0924-1",
         "year": 2016,
-        "citations": 436
+        "citations": 443
       },
       "width": 2120,
       "height": 1310,
-      "github_stars": 424
+      "github_stars": 425
     },
     {
       "tags": [
@@ -3137,7 +3148,7 @@
       "platform": ["Web"],
       "width": 1848,
       "height": 1964,
-      "github_stars": 84
+      "github_stars": 86
     },
     {
       "tags": ["General", "SV", "Alignment viewer", "Comparative"],
@@ -3165,7 +3176,7 @@
       "pub": {
         "doi": "10.1101/gr.266932.120",
         "year": 2020,
-        "citations": 16
+        "citations": 19
       },
       "platform": ["Web", "Silo"],
       "width": 1848,
@@ -3227,7 +3238,7 @@
       "pub": {
         "doi": "10.1101/gr.229102",
         "year": 2002,
-        "citations": 4110
+        "citations": 4135
       },
       "platform": ["Web", "Silo"],
       "width": 512,
@@ -3255,7 +3266,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gkz348",
         "year": 2019,
-        "citations": 126
+        "citations": 130
       },
       "language": ["JS", "React"],
       "note": "features redesign, there is also a legacy version",
@@ -3295,7 +3306,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.7717%2Fpeerj.4958",
         "year": 2018,
-        "citations": 193
+        "citations": 200
       },
       "url": "http://dgenies.toulouse.inra.fr/",
       "img": "dgenies.png",
@@ -3314,7 +3325,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbts378",
         "year": 2012,
-        "citations": 1206
+        "citations": 1218
       },
       "language": ["Python"],
       "width": 2560,
@@ -3408,7 +3419,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/bty395",
         "year": 2018,
-        "citations": 35
+        "citations": 36
       },
       "language": ["Python"],
       "platform": ["CLI"],
@@ -3481,7 +3492,7 @@
       "url": "https://github.com/ryought/mummer-idotplot",
       "language": ["JS", "Python"],
       "platform": ["Web", "CLI"],
-      "github_stars": 19
+      "github_stars": 21
     },
     {
       "tags": ["Dotplot", "Static", "Comparative"],
@@ -3492,7 +3503,7 @@
       "pub": {
         "doi": "10.1186/gb-2004-5-2-r12",
         "year": 2004,
-        "citations": 3635
+        "citations": 3664
       },
       "language": ["GNUPlot"],
       "width": 3300,
@@ -3556,7 +3567,7 @@
       "pub": {
         "doi": "10.1186/1471-2164-12-507",
         "year": 2011,
-        "citations": 235
+        "citations": 236
       },
       "platform": ["Desktop"],
       "width": 1201,
@@ -3635,11 +3646,11 @@
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5596920/",
         "doi": "https://dx.doi.org/10.1016%2Fj.cels.2015.07.012",
         "year": 2016,
-        "citations": 652
+        "citations": 661
       },
       "width": 765,
       "height": 674,
-      "github_stars": 160
+      "github_stars": 161
     },
     {
       "tags": ["Epigenomics", "Hi-C"],
@@ -3653,11 +3664,11 @@
         "url": "https://www.cell.com/fulltext/S2405-4712(18)30001-2",
         "doi": "https://doi.org/10.1016/j.cels.2018.01.001",
         "year": 2018,
-        "citations": 125
+        "citations": 126
       },
       "width": 761,
       "height": 467,
-      "github_stars": 13
+      "github_stars": 14
     },
     {
       "tags": ["Epigenomics", "Higlass integration"],
@@ -3673,7 +3684,7 @@
       "url": "https://github.com/Novartis/peax",
       "width": 640,
       "height": 427,
-      "github_stars": 58
+      "github_stars": 59
     },
     {
       "tags": ["Ideogram"],
@@ -3684,7 +3695,7 @@
       "platform": ["Web"],
       "width": 1116,
       "height": 507,
-      "github_stars": 220
+      "github_stars": 223
     },
     {
       "tags": ["Ideogram", "Static"],
@@ -3697,7 +3708,7 @@
       "language": ["SVG"],
       "width": 5113,
       "height": 1680,
-      "github_stars": 74
+      "github_stars": 76
     },
     {
       "tags": ["Ideogram", "Static"],
@@ -3714,12 +3725,12 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fbioinformatics%2Fbtx346",
         "year": 2017,
-        "citations": 282
+        "citations": 290
       },
       "language": ["R"],
       "width": 2329,
       "height": 1000,
-      "github_stars": 228
+      "github_stars": 230
     },
     {
       "tags": ["Ideogram"],
@@ -3750,7 +3761,7 @@
       "pub": {
         "doi": "10.1101/gr.229102",
         "year": 2002,
-        "citations": 4110
+        "citations": 4135
       },
       "platform": ["Web", "Form", "Silo"],
       "width": 950,
@@ -3770,7 +3781,7 @@
       },
       "width": 1521,
       "height": 1299,
-      "github_stars": 32
+      "github_stars": 33
     },
     {
       "tags": ["Pangenome"],
@@ -3807,12 +3818,12 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btab688",
         "year": 2021,
-        "citations": 1
+        "citations": 3
       },
       "url": "https://github.com/SouthGreenPlatform/panache",
       "width": 726,
       "height": 381,
-      "github_stars": 30
+      "github_stars": 31
     },
     {
       "tags": ["Pangenome", "Deadlink?"],
@@ -3824,11 +3835,11 @@
         "url": "https://academic.oup.com/nar/article/46/1/e5/4564799",
         "doi": "https://doi.org/10.1093/nar/gkx977",
         "year": 2017,
-        "citations": 128
+        "citations": 131
       },
       "width": 2756,
       "height": 1813,
-      "github_stars": 98
+      "github_stars": 99
     },
     {
       "tags": ["Pangenome", "JBrowse integration"],
@@ -3837,7 +3848,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gkw958",
         "year": 2016,
-        "citations": 78
+        "citations": 80
       },
       "platform": ["Web"],
       "url": "http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF",
@@ -3871,7 +3882,7 @@
         "url": "https://www.nature.com/articles/ng.3466",
         "doi": "https://doi.org/10.1038/ng.3466",
         "year": 2015,
-        "citations": 158
+        "citations": 163
       },
       "platform": ["Web"],
       "note": "Not open source",
@@ -3920,7 +3931,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41587-020-0546-8",
         "year": 2020,
-        "citations": 684
+        "citations": 710
       },
       "platform": ["Web"],
       "width": 550,
@@ -3941,7 +3952,7 @@
       "platform": ["Web"],
       "width": 433,
       "height": 390,
-      "github_stars": 56
+      "github_stars": 57
     },
     {
       "tags": ["Dotplot"],
@@ -3980,7 +3991,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41586-019-1742-x",
         "year": 2019,
-        "citations": 253
+        "citations": 256
       },
       "note": "readme says to cite this paper",
       "tags": ["Comparative"],
@@ -3996,7 +4007,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btq588",
         "year": 2010,
-        "citations": 217
+        "citations": 218
       },
       "platform": ["Web"],
       "language": ["Perl", "Java", "Java web start"],
@@ -4011,12 +4022,12 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41467-018-07641-9",
         "year": 2018,
-        "citations": 1127
+        "citations": 1151
       },
       "language": ["C++"],
       "width": 1050,
       "height": 1050,
-      "github_stars": 229
+      "github_stars": 232
     },
     {
       "name": "JGI/IMG",
@@ -4050,11 +4061,11 @@
         "url": "https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab007/6103786",
         "doi": "https://doi.org/10.1093/bioinformatics/btab007",
         "year": 2021,
-        "citations": 103
+        "citations": 110
       },
       "width": 2482,
       "height": 1753,
-      "github_stars": 320
+      "github_stars": 337
     },
     {
       "name": "PopSV",
@@ -4084,7 +4095,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41587-020-0503-6",
         "year": 2020,
-        "citations": 164
+        "citations": 171
       },
       "width": 1272,
       "height": 1334
@@ -4098,7 +4109,7 @@
       "pub": {
         "doi": "https://doi.org/10.1101/781013",
         "year": 2019,
-        "citations": 21
+        "citations": 23
       },
       "img": "linx.png",
       "tags": [
@@ -4112,14 +4123,14 @@
       ],
       "width": 1542,
       "height": 1690,
-      "github_stars": 104
+      "github_stars": 103
     },
     {
       "name": "PURPLE",
       "pub": {
         "doi": "https://doi.org/10.1101/781013",
         "year": 2019,
-        "citations": 21
+        "citations": 23
       },
       "note": "intermutation-distance rainfall plots/katagesis plots are not technically in genomic coordinates, but do indicate genomic cluster of variatnts",
       "url": "https://github.com/hartwigmedical/hmftools/blob/master/purity-ploidy-estimator/README.md",
@@ -4128,7 +4139,7 @@
       "img": "purple.png",
       "width": 600,
       "height": 675,
-      "github_stars": 104
+      "github_stars": 103
     },
     {
       "name": "SMRT View",
@@ -4190,11 +4201,11 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btw044",
         "year": 2016,
-        "citations": 306
+        "citations": 310
       },
       "width": 1622,
       "height": 760,
-      "github_stars": 461
+      "github_stars": 465
     },
     {
       "name": "bcftools cnv",
@@ -4205,7 +4216,7 @@
       "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
       "width": 1000,
       "height": 800,
-      "github_stars": 461
+      "github_stars": 465
     },
     {
       "name": "mocha",
@@ -4216,7 +4227,7 @@
       "pub": {
         "doi": "10.1038/s41586-018-0321-x",
         "year": 2018,
-        "citations": 159
+        "citations": 162
       },
       "language": ["C", "WDL", "R"],
       "width": 525,
@@ -4231,7 +4242,7 @@
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4856975/",
         "doi": "https://dx.doi.org/10.1093%2Fnar%2Fgkw022",
         "year": 2016,
-        "citations": 7
+        "citations": 8
       },
       "tags": ["MSA"],
       "img": "alvis.png",
@@ -4262,13 +4273,13 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btw325",
         "year": 2016,
-        "citations": 155
+        "citations": 156
       },
       "tags": ["CNV"],
       "language": ["R"],
       "width": 939,
       "height": 1026,
-      "github_stars": 183
+      "github_stars": 185
     },
     {
       "name": "NanoMethViz",
@@ -4295,12 +4306,12 @@
         "url": "https://academic.oup.com/bioinformatics/article/35/16/2853/5267826",
         "doi": "https://doi.org/10.1093/bioinformatics/bty1046",
         "year": 2018,
-        "citations": 10
+        "citations": 11
       },
       "tags": ["Graph"],
       "width": 951,
       "height": 351,
-      "github_stars": 40
+      "github_stars": 41
     },
     {
       "name": "Nextclade",
@@ -4311,7 +4322,7 @@
       "pub": {
         "doi": "https://doi.org/10.21105/joss.03773",
         "year": 2021,
-        "citations": 70
+        "citations": 79
       },
       "note": "Related usage on nextstrain app also",
       "width": 1378,
@@ -4328,11 +4339,11 @@
       "pub": {
         "doi": "http://dx.doi.org/10.1111/1755-0998.12549",
         "year": 2016,
-        "citations": 357
+        "citations": 363
       },
       "width": 1344,
       "height": 1344,
-      "github_stars": 187
+      "github_stars": 189
     },
     {
       "name": "asgart",
@@ -4364,7 +4375,7 @@
       "github": "https://github.com/marbl/MashMap",
       "width": 521,
       "height": 521,
-      "github_stars": 179
+      "github_stars": 180
     },
     {
       "name": "udon",
@@ -4403,7 +4414,7 @@
       "url": "https://github.com/adamewing/methylartist",
       "width": 1330,
       "height": 683,
-      "github_stars": 38
+      "github_stars": 40
     },
     {
       "name": "SWAV",
@@ -4428,7 +4439,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/nmeth.3578",
         "year": 2015,
-        "citations": 150
+        "citations": 153
       },
       "platform": ["Web"],
       "tags": ["Single cell", "CNV"],
@@ -4443,7 +4454,7 @@
       "pub": {
         "doi": "https://doi.org/10.1186/1471-2164-13-591",
         "year": 2012,
-        "citations": 183
+        "citations": 184
       },
       "tags": ["CNV"],
       "language": ["R"],
@@ -4467,13 +4478,13 @@
       "pub": {
         "doi": "10.1038/s41587-020-00795-2",
         "year": 2021,
-        "citations": 64
+        "citations": 67
       },
       "tags": ["Single cell", "CNV"],
       "language": ["R"],
       "width": 812,
       "height": 752,
-      "github_stars": 109
+      "github_stars": 111
     },
     {
       "name": "scCNV_heatmap",
@@ -4499,7 +4510,7 @@
       "tags": ["Single cell", "CNV"],
       "width": 580,
       "height": 935,
-      "github_stars": 56
+      "github_stars": 57
     },
     {
       "name": "RectChr",
@@ -4509,7 +4520,7 @@
       "language": ["Binary blob", "Perl"],
       "width": 635,
       "height": 760,
-      "github_stars": 46
+      "github_stars": 48
     },
     {
       "name": "LDBlockShow",
@@ -4518,14 +4529,14 @@
         "url": "https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbaa227/5939575?redirectedFrom=fulltext",
         "doi": "https://doi.org/10.1093/bib/bbaa227",
         "year": 2020,
-        "citations": 30
+        "citations": 31
       },
       "img": "ldblockshow.png",
       "language": ["C++", "Perl"],
       "tags": ["GWAS", "Population"],
       "width": 260,
       "height": 275,
-      "github_stars": 71
+      "github_stars": 72
     },
     {
       "name": "clinker (gene fusion software)",
@@ -4534,7 +4545,7 @@
         "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6065480/",
         "doi": "https://dx.doi.org/10.1093%2Fgigascience%2Fgiy079",
         "year": 2018,
-        "citations": 9
+        "citations": 11
       },
       "img": "clinker_fusion.png",
       "tags": ["Gene fusion"],
@@ -4552,12 +4563,12 @@
         "url": "https://genome.cshlp.org/content/31/3/448",
         "doi": "10.1101/gr.257246.119",
         "year": 2021,
-        "citations": 57
+        "citations": 58
       },
       "language": ["C++", "R"],
       "width": 480,
       "height": 280,
-      "github_stars": 137
+      "github_stars": 138
     },
     {
       "name": "FusionInspector",
@@ -4584,7 +4595,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41592-021-01164-w",
         "year": 2021,
-        "citations": 9
+        "citations": 12
       },
       "language": ["Python"],
       "width": 992,
@@ -4646,7 +4657,7 @@
       "note": "Used on InterProScan website https://www.ebi.ac.uk/interpro/",
       "width": 1211,
       "height": 425,
-      "github_stars": 73
+      "github_stars": 75
     },
     {
       "name": "ArchR",
@@ -4655,14 +4666,14 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41588-021-00790-6",
         "year": 2021,
-        "citations": 157
+        "citations": 167
       },
       "tags": ["Single cell"],
       "language": ["R"],
       "img": "archr.png",
       "width": 1500,
       "height": 1500,
-      "github_stars": 219
+      "github_stars": 224
     },
     {
       "name": "PGAP-X",
@@ -4675,7 +4686,7 @@
         "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-4337-7",
         "doi": "https://doi.org/10.1186/s12864-017-4337-7",
         "year": 2018,
-        "citations": 16
+        "citations": 17
       },
       "width": 778,
       "height": 248
@@ -4694,7 +4705,7 @@
       },
       "width": 1200,
       "height": 494,
-      "github_stars": 58
+      "github_stars": 59
     },
     {
       "name": "ProViz",
@@ -4777,7 +4788,7 @@
       "url": "https://github.com/jmw86069/splicejam",
       "width": 384,
       "height": 288,
-      "github_stars": 18
+      "github_stars": 19
     },
     {
       "name": "genomegraphs",
@@ -4826,7 +4837,7 @@
       },
       "width": 840,
       "height": 510,
-      "github_stars": 183
+      "github_stars": 185
     },
     {
       "name": "MIRA",
@@ -4852,7 +4863,7 @@
       "note": "Has nice description of a synteny pipeline here https://github.com/jherrero/oxford-plots/blob/master/examples/pig_X_Y.txt",
       "width": 2000,
       "height": 2000,
-      "github_stars": 6
+      "github_stars": 7
     },
     {
       "name": "IGGE",
@@ -4891,7 +4902,7 @@
       "tags": ["Repeats"],
       "width": 865,
       "height": 755,
-      "github_stars": 26
+      "github_stars": 27
     },
     {
       "name": "MEGA-X",
@@ -4901,7 +4912,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msab120",
         "year": 2021,
-        "citations": 383
+        "citations": 439
       },
       "note": "original paper from 1994 but actively updated. requires EULA for download",
       "tags": ["MSA", "Phylogenetics"],
@@ -4917,7 +4928,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/bth457",
         "year": 2004,
-        "citations": 10819
+        "citations": 10843
       },
       "language": ["Java"],
       "width": 800,
@@ -4943,12 +4954,12 @@
         "url": "https://www.biorxiv.org/content/10.1101/2021.04.29.441969v1.full.pdf",
         "doi": "https://doi.org/10.1101/2021.04.29.441969",
         "year": 2021,
-        "citations": 10
+        "citations": 11
       },
       "tags": ["Comparative", "Dotplot", "Circular"],
       "width": 1247,
       "height": 392,
-      "github_stars": 44
+      "github_stars": 45
     },
     {
       "name": "AmpliconArchitect",
@@ -4958,7 +4969,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41467-018-08200-y",
         "year": 2019,
-        "citations": 68
+        "citations": 69
       },
       "language": ["Python"],
       "tags": ["SV", "Cancer"],
@@ -4993,11 +5004,11 @@
         "url": "https://www.biorxiv.org/content/10.1101/2021.10.20.465046v1.full.pdf",
         "doi": "https://doi.org/10.1101/2021.10.20.465046",
         "year": 2021,
-        "citations": 0
+        "citations": 1
       },
       "width": 3841,
       "height": 1789,
-      "github_stars": 37
+      "github_stars": 38
     },
     {
       "name": "Trackplot",
@@ -5040,13 +5051,13 @@
         "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-402",
         "doi": "https://doi.org/10.1186/1471-2164-12-402",
         "year": 2011,
-        "citations": 1674
+        "citations": 1694
       },
       "language": ["Java"],
       "platform": ["Desktop"],
       "width": 1200,
       "height": 1075,
-      "github_stars": 11
+      "github_stars": 12
     },
     {
       "name": "Ideogram viewer",
@@ -5066,7 +5077,7 @@
       "language": ["R"],
       "width": 730,
       "height": 593,
-      "github_stars": 47
+      "github_stars": 58
     },
     {
       "name": "ggplot2 manhattan plot",
@@ -5086,13 +5097,13 @@
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msw046",
         "year": 2016,
-        "citations": 1052
+        "citations": 1068
       },
       "tags": ["MSA", "Phylogenetics"],
       "img": "ete.png",
       "width": 640,
       "height": 500,
-      "github_stars": 616
+      "github_stars": 619
     },
     {
       "name": "ggtree",
@@ -5104,11 +5115,11 @@
       "pub": {
         "doi": "https://doi.org/10.1111/2041-210X.12628",
         "year": 2016,
-        "citations": 1597
+        "citations": 1621
       },
       "width": 2100,
       "height": 1050,
-      "github_stars": 627
+      "github_stars": 631
     },
     {
       "name": "Phandango",
@@ -5120,11 +5131,11 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btx610",
         "year": 2017,
-        "citations": 239
+        "citations": 244
       },
       "width": 463,
       "height": 474,
-      "github_stars": 78
+      "github_stars": 79
     },
     {
       "url": "http://athina.biol.uoa.gr/bioinformatics/GENEVITO/",
@@ -5161,7 +5172,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1093%2Fnar%2Fgkn179",
         "year": 2008,
-        "citations": 705
+        "citations": 711
       },
       "platform": ["Web"],
       "language": ["JS"],
@@ -5196,7 +5207,7 @@
         "url": "https://f1000research.com/articles/10-1255/v1",
         "doi": "https://doi.org/10.12688/f1000research.74836.1",
         "year": 2021,
-        "citations": 0
+        "citations": 1
       },
       "url": "https://github.com/Oshlack/Slinker",
       "note": "See also, clinker (gene fusion software)",
@@ -5212,7 +5223,7 @@
       "language": ["R", "ggplot2"],
       "width": 1440,
       "height": 720,
-      "github_stars": 9
+      "github_stars": 10
     },
     {
       "name": "chromoMap",
@@ -5222,7 +5233,7 @@
         "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04556-z",
         "doi": "https://doi.org/10.1186/s12859-021-04556-z",
         "year": 2022,
-        "citations": 3
+        "citations": 4
       },
       "url": "https://lakshay-anand.github.io/chromoMap/index.html",
       "github": "https://github.com/Lakshay-Anand/chromoMap",
@@ -5251,7 +5262,7 @@
       "pub": {
         "doi": "https://doi.org/10.1186/s13059-014-0524-x",
         "year": 2014,
-        "citations": 853
+        "citations": 863
       },
       "url": "https://harvest.readthedocs.io/en/latest/content/gingr.html",
       "width": 2551,
@@ -5282,7 +5293,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gkw330",
         "year": 2016,
-        "citations": 67
+        "citations": 69
       },
       "tags": ["Comparative"],
       "width": 796,
@@ -5352,7 +5363,7 @@
       "tags": ["Comparative"],
       "width": 483,
       "height": 203,
-      "github_stars": 46
+      "github_stars": 47
     },
     {
       "name": "plotsr",
@@ -5368,7 +5379,7 @@
       "note": "Blurs the line between synteny and SV visualization, a good thing!",
       "width": 1298,
       "height": 863,
-      "github_stars": 118
+      "github_stars": 125
     },
     {
       "name": "seqvisr",
@@ -5391,7 +5402,7 @@
       },
       "tags": ["Protein"],
       "language": ["R", "ggplot2"],
-      "github_stars": 19,
+      "github_stars": 22,
       "width": 1649,
       "height": 1933
     },
@@ -5402,7 +5413,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btv362",
         "year": 2015,
-        "citations": 511
+        "citations": 515
       },
       "tags": ["Protein"],
       "platform": ["Silo", "Web", "Desktop"],
@@ -5470,7 +5481,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/bti113",
         "year": 2004,
-        "citations": 109
+        "citations": 110
       },
       "tags": ["Deadlink", "CNV", "ArrayCGH"],
       "platform": ["Desktop"],
@@ -5589,7 +5600,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msp259",
         "year": 2009,
-        "citations": 3971
+        "citations": 3980
       },
       "width": 927,
       "height": 524
@@ -5605,11 +5616,11 @@
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msz185",
         "year": 2019,
-        "citations": 66
+        "citations": 71
       },
       "width": 1059,
       "height": 355,
-      "github_stars": 235
+      "github_stars": 236
     },
     {
       "name": "numbat",
@@ -5640,7 +5651,7 @@
       },
       "width": 2100,
       "height": 900,
-      "github_stars": 43
+      "github_stars": 47
     },
     {
       "name": "CIAlign",
@@ -5655,7 +5666,7 @@
       "github": "https://github.com/KatyBrown/CIAlign",
       "width": 480,
       "height": 286,
-      "github_stars": 64
+      "github_stars": 66
     },
     {
       "name": "CoolBox",
@@ -5672,7 +5683,7 @@
       "language": ["Python"],
       "width": 760,
       "height": 408,
-      "github_stars": 166
+      "github_stars": 167
     },
     {
       "name": "CNANorm",
@@ -5824,7 +5835,7 @@
       "pub": {
         "doi": "https://doi.org/10.1101/gr.8.3.195",
         "year": 1998,
-        "citations": 2603
+        "citations": 2605
       },
       "tags": ["Academic license", "Assembly", "Alignment viewer"],
       "width": 650,
@@ -5876,11 +5887,11 @@
       "pub": {
         "doi": "10.1016/j.gpb.2020.10.007",
         "year": 2021,
-        "citations": 75
+        "citations": 81
       },
       "width": 525,
       "height": 675,
-      "github_stars": 302
+      "github_stars": 303
     },
     {
       "name": "chromPlot",
@@ -5903,7 +5914,7 @@
       "pub": {
         "doi": "https://doi.org/10.1186/1756-0381-6-18",
         "year": 2013,
-        "citations": 120
+        "citations": 121
       },
       "note": "Can be web server or download",
       "language": ["Ruby"],
@@ -5919,13 +5930,13 @@
       "pub": {
         "doi": "https://doi.org/10.7717/peerj-cs.251",
         "year": 2020,
-        "citations": 77
+        "citations": 81
       },
       "language": ["R"],
       "tags": ["Ideogram", "Comparative"],
       "width": 620,
       "height": 646,
-      "github_stars": 108
+      "github_stars": 109
     },
     {
       "name": "CrowsNest",
@@ -5962,7 +5973,7 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/12519973/",
         "doi": "https://doi.org/10.1093/nar/gkg148",
         "year": 2003,
-        "citations": 157
+        "citations": 158
       }
     },
     {
@@ -5973,7 +5984,7 @@
       "tags": ["Methylation", "Epigenomics"],
       "width": 750,
       "height": 619,
-      "github_stars": 7
+      "github_stars": 10
     },
     {
       "name": "sequenza",
@@ -5985,7 +5996,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/annonc/mdu479",
         "year": 2015,
-        "citations": 364
+        "citations": 370
       },
       "width": 960,
       "height": 1056
@@ -5997,7 +6008,7 @@
       "note": "See also https://github.com/ponnhide/plasmidviewer",
       "width": 738,
       "height": 268,
-      "github_stars": 119,
+      "github_stars": 123,
       "tags": ["Circular"],
       "language": ["Python"]
     },
@@ -6023,7 +6034,7 @@
       "pub": {
         "doi": "https://doi.org/10.1371/journal.pgen.1002453",
         "year": 2012,
-        "citations": 739
+        "citations": 742
       },
       "tags": ["Local ancestry"],
       "width": 1024,
@@ -6052,7 +6063,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gkm977",
         "year": 2007,
-        "citations": 319
+        "citations": 320
       },
       "width": 561,
       "height": 40
@@ -6065,7 +6076,7 @@
       "language": ["Python"],
       "width": 750,
       "height": 306,
-      "github_stars": 59
+      "github_stars": 62
     },
     {
       "name": "local-rearrangements",
@@ -6098,7 +6109,8 @@
       "url": "https://github.com/Sanrrone/GGisy",
       "language": ["Python", "R"],
       "width": 544,
-      "height": 516
+      "height": 516,
+      "github_stars": 10
     },
     {
       "name": "multiGenomicContext",
@@ -6106,7 +6118,8 @@
       "img": "multicontext.png",
       "language": ["Python", "R"],
       "width": 1145,
-      "height": 577
+      "height": 577,
+      "github_stars": 4
     }
   ]
 }
