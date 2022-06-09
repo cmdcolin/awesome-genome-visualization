@@ -221,8 +221,20 @@
       "github_stars": 161
     },
     {
+      "name": "rMSA",
+      "url": "https://github.com/mhahsler/rMSA/blob/master/vignettes/rMSA_vignette.pdf",
+      "note": "Can automate boxshade",
+      "github": "https://github.com/mhahsler/rMSA",
+      "img": "rmsa.png",
       "tags": ["MSA"],
+      "width": 650,
+      "height": 407,
+      "github_stars": 8
+    },
+    {
+      "tags": ["MSA", "Deadlink"],
       "name": "Boxshade",
+      "note": "Also available as a command line tool with `apt install boxshade`. See also rMSA which can automate running boxshade from within R",
       "img": "boxshade.png",
       "url": "https://embnet.vital-it.ch/software/BOX_form.html",
       "pub": {
@@ -231,7 +243,7 @@
         "year": 2000,
         "citations": 3
       },
-      "platform": ["Web"],
+      "platform": ["Web", "CLI"],
       "width": 915,
       "height": 249
     },
@@ -2718,12 +2730,19 @@
     },
     {
       "tags": ["MSA", "Deadlink"],
-      "name": "SNPViz",
+      "name": "SNIPViz",
+      "github": "https://github.com/yeastrc/snipviz",
+      "pub": {
+        "doi": "https://doi.org/10.1186/1756-0500-7-468",
+        "year": 2014,
+        "citations": 7
+      },
       "url": "http://www.yeastrc.org/snipviz/4.HTML_Config_retrieve_newick_and_fasta_from_server/snip_viz_HTML_config_with_newick_clustering.html",
       "img": "snpviz.png",
       "platform": ["Web"],
       "width": 1377,
-      "height": 519
+      "height": 519,
+      "github_stars": 19
     },
     {
       "tags": ["SV", "CNV"],
@@ -5595,7 +5614,7 @@
       "img": "seaview.png",
       "language": ["C++"],
       "platform": ["Desktop"],
-      "tags": ["MSA"],
+      "tags": ["MSA", "Phylogenetics"],
       "url": "http://doua.prabi.fr/software/seaview",
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msp259",
@@ -6110,7 +6129,8 @@
       "language": ["Python", "R"],
       "width": 544,
       "height": 516,
-      "github_stars": 10
+      "github_stars": 10,
+      "tags": ["Comparative", "Circular"]
     },
     {
       "name": "multiGenomicContext",
@@ -6119,7 +6139,24 @@
       "language": ["Python", "R"],
       "width": 1145,
       "height": 577,
-      "github_stars": 4
+      "github_stars": 4,
+      "tags": ["Comparative"]
+    },
+    {
+      "name": "ggmsa",
+      "note": "See also ggtree",
+      "url": "http://yulab-smu.top/ggmsa/",
+      "github": "https://github.com/YuLab-SMU/ggmsa",
+      "pub": {
+        "doi": "https://doi.org/10.1093/bib/bbac222",
+        "year": 2022,
+        "citations": 0
+      },
+      "img": "ggmsa.png",
+      "width": 825,
+      "height": 188,
+      "github_stars": 96,
+      "tags": ["MSA"]
     }
   ]
 }
