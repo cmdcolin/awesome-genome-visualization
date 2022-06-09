@@ -1741,6 +1741,7 @@
       "name": "Bandage",
       "img": "bandage.png",
       "url": "https://github.com/rrwick/Bandage/",
+      "note": "See also BandageNG https://github.com/asl/BandageNG",
       "language": ["C++"],
       "platform": ["Desktop"],
       "pub": {
@@ -5674,6 +5675,7 @@
     },
     {
       "name": "CIAlign",
+      "note": "Has useful utility functions to clean gaps and trim MSAs",
       "img": "cialign.png",
       "language": ["Python"],
       "tags": ["MSA"],
