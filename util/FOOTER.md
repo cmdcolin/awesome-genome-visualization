@@ -10,3 +10,5 @@ Send in PRs for more stuff!
 
 This README.md and TOOLS.json are CC0
 https://creativecommons.org/publicdomain/zero/1.0/
+
+The website code is MIT
