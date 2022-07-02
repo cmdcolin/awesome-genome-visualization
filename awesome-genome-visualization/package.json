@@ -18,10 +18,10 @@
     "postdeploy": "git push"
   },
   "dependencies": {
-    "gatsby": "^4.10.3",
+    "gatsby": "^4.17.2",
     "gh-pages": "^4.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "slugify": "^1.6.4",
     "use-query-params": "^1.2.2"
   }
