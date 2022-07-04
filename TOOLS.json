@@ -6155,6 +6155,7 @@
         "citations": 0
       },
       "img": "ggmsa.png",
+      "language": ["R"],
       "width": 825,
       "height": 188,
       "github_stars": 132,
@@ -6174,6 +6175,7 @@
       "name": "CView",
       "img": "cview.png",
       "tags": ["MSA"],
+      "language": ["Java"],
       "url": "https://sourceforge.net/projects/cview/",
       "pub": {
         "doi": "https://doi.org/10.1371/journal.pone.0259726",
@@ -6187,6 +6189,7 @@
       "name": "bigly",
       "img": "bigly.png",
       "tags": ["SV", "Coverage"],
+      "language": ["Go", "Python"],
       "url": "https://github.com/brentp/bigly",
       "width": 900,
       "height": 500,
@@ -6197,6 +6200,7 @@
       "img": "signac.png",
       "tags": ["Coverage", "Single cell"],
       "url": "https://github.com/timoast/signac/",
+      "language": ["R"],
       "pub": {
         "doi": "https://doi.org/10.1038/s41592-021-01282-5",
         "year": 2021,
@@ -6205,6 +6209,16 @@
       "width": 1400,
       "height": 1920,
       "github_stars": 173
+    },
+    {
+      "name": "pyGenomeViz",
+      "url": "https://github.com/moshi4/pyGenomeViz",
+      "tags": ["Comparative"],
+      "language": ["Python"],
+      "img": "pygenomeviz.png",
+      "width": 1291,
+      "height": 693,
+      "github_stars": 8
     }
   ]
 }
