@@ -6218,7 +6218,23 @@
       "img": "pygenomeviz.png",
       "width": 1291,
       "height": 693,
-      "github_stars": 8
+      "github_stars": 8,
+      "note": "See also https://github.com/moshi4/MGCplotter https://github.com/moshi4/GBKviz https://github.com/moshi4/plot_genome_align_fig"
+    },
+    {
+      "name": "SODA",
+      "url": "https://sodaviz.org/",
+      "github": "https://github.com/sodaviz/soda",
+      "language": ["JS", "TypeScript"],
+      "tags": ["Repeats", "Circular", "Linear"],
+      "img": "soda.png",
+      "pub": {
+        "doi": "https://doi.org/10.48550/arXiv.2205.06349"
+      },
+      "note": "Describes itself as a low-level library to create larger applications with",
+      "width": 971,
+      "height": 667,
+      "github_stars": 2
     }
   ]
 }
