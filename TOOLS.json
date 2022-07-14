@@ -18,7 +18,8 @@
     },
     {
       "tags": ["Commercial", "Microbiology"],
-      "name": "ATCC Genome Portal (American Type Culture Collection)",
+      "name": "ATCC Genome Portal",
+      "platform": ["Silo"],
       "img": "atcc.png",
       "url": "https://docs.onecodex.com/en/articles/3996697-using-the-genome-browser",
       "width": 2602,
@@ -130,6 +131,7 @@
       },
       "note": "also see STRAP",
       "img": "aa.png",
+      "language": ["JS"],
       "url": "http://www.bioinformatics.org/strap/aa",
       "platform": ["Web"],
       "width": 1222,
@@ -151,6 +153,7 @@
       "name": "alignment.js",
       "img": "alignmentjs.png",
       "url": "https://github.com/veg/alignment.js",
+      "language": ["JS"],
       "platform": ["Web"],
       "width": 2006,
       "height": 454,
@@ -172,6 +175,7 @@
       "tags": ["MSA"],
       "name": "AlignmentViewer",
       "img": "alignmentviewer.png",
+      "language": ["JS"],
       "github": "https://github.com/sanderlab/alignmentviewer",
       "url": "https://alignmentviewer.org/",
       "pub": {
@@ -227,6 +231,7 @@
       "github": "https://github.com/mhahsler/rMSA",
       "img": "rmsa.png",
       "tags": ["MSA"],
+      "language": ["R"],
       "width": 650,
       "height": 407,
       "github_stars": 8
@@ -257,7 +262,8 @@
         "citations": 2284
       },
       "url": "http://espript.ibcp.fr/ESPript/ESPript/",
-      "platform": ["Desktop"],
+      "platform": ["Web", "CLI"],
+      "note": "Primarily a web interface but can download a binary for linux https://espript.ibcp.fr/ESPript/ESPript/esp_faq.php",
       "width": 830,
       "height": 204
     },
@@ -315,6 +321,7 @@
       "tags": ["MSA"],
       "name": "MSABrowser",
       "img": "msabrowser.png",
+      "language": ["JS"],
       "github": "https://github.com/thekaplanlab/msabrowser",
       "url": "https://thekaplanlab.github.io/",
       "pub": {
@@ -349,7 +356,8 @@
         "citations": 236
       },
       "img": "mview.png",
-      "platform": ["Web"],
+      "note": "See also their web versions of clustal omega etc. which have similar outputs",
+      "platform": ["Web", "Silo"],
       "width": 1222,
       "height": 550
     },
@@ -358,7 +366,7 @@
       "name": "NCBI MSA Viewer",
       "url": "https://www.ncbi.nlm.nih.gov/projects/msaviewer/",
       "img": "ncbimsa.png",
-      "platform": ["Web", "CGI"],
+      "platform": ["Web", "CGI", "Silo"],
       "width": 1222,
       "height": 459
     },
@@ -456,6 +464,7 @@
       "img": "wasabi.png",
       "url": "http://wasabiapp.org/",
       "github": "https://github.com/veidenberg/wasabi",
+      "language": ["JS", "Python"],
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msv333",
         "year": 2015,
@@ -1180,6 +1189,7 @@
         "citations": 1
       },
       "url": "https://github.com/TGAC/Aequatus",
+      "language": ["JS", "Java"],
       "platform": ["Web", "Silo"],
       "width": 626,
       "height": 281,
@@ -1318,7 +1328,7 @@
       "github_stars": 9
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Ideogram"],
       "name": "CVit",
       "url": "https://sourceforge.net/projects/cvit/",
       "github": "https://github.com/ekcannon/CViT",
@@ -1335,8 +1345,9 @@
       "github_stars": 1
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Ideogram"],
       "name": "Cvit.js",
+      "language": ["JS"],
       "img": "cvitjs.png",
       "url": "https://github.com/LegumeFederation/cvitjs",
       "platform": ["Web"],
@@ -1408,6 +1419,7 @@
       },
       "img": "genome_context_viewer.png",
       "platform": ["Web", "Silo"],
+      "language": ["JS", "TypeScript"],
       "width": 2550,
       "height": 2010,
       "github_stars": 20
@@ -1554,6 +1566,8 @@
       "name": "Multiple genome viewer",
       "img": "mgv.png",
       "url": "http://www.informatics.jax.org/mgv/",
+      "github": "https://github.com/mgijax/mgv",
+      "language": ["JS", "VueJS"],
       "platform": ["Web", "Silo"],
       "pub": {
         "doi": "https://doi.org/10.1007/s00335-021-09904-1",
@@ -1561,7 +1575,8 @@
         "citations": 1
       },
       "width": 512,
-      "height": 341
+      "height": 341,
+      "github_stars": 7
     },
     {
       "tags": ["Comparative", "Gene order"],
@@ -1606,10 +1621,13 @@
       "tags": ["Comparative"],
       "name": "progressiveMauve viewer",
       "img": "progressive_mauve.png",
+      "github": "https://github.com/koadman/mauve",
+      "language": ["Java"],
       "url": "http://darlinglab.org/mauve/user-guide/viewer.html",
       "platform": ["Desktop"],
       "width": 638,
-      "height": 512
+      "height": 512,
+      "github_stars": 11
     },
     {
       "tags": ["Comparative", "Dotplot", "Linear"],
@@ -1710,6 +1728,7 @@
       "name": "XMatchView",
       "img": "xmatchview.png",
       "github": "https://github.com/bcgsc/xmatchview",
+      "language": ["Python"],
       "url": "https://www.bcgsc.ca/resources/software/xmatchview",
       "platform": ["Desktop"],
       "pub": {
@@ -2408,6 +2427,7 @@
       "tags": ["General", "Linear"],
       "name": "Genoverse",
       "url": "https://github.com/wtsi-web/Genoverse",
+      "language": ["JS"],
       "img": "genoverse.png",
       "platform": ["Web"],
       "width": 1194,
@@ -2418,6 +2438,7 @@
       "tags": ["Special-purpose", "Linear", "Population"],
       "name": "Gnomad browser",
       "url": "https://github.com/macarthur-lab/gnomadjs",
+      "language": ["JS"],
       "pub": {
         "doi": "https://doi.org/10.1038/s41586-020-2308-7",
         "year": 2020,
@@ -2477,6 +2498,7 @@
       "tags": ["Special-purpose", "Alignment viewer", "Assembly QC"],
       "name": "Hawkeye",
       "github": "https://github.com/peterhj/amos",
+      "language": ["C++"],
       "img": "hawkeye.png",
       "pub": {
         "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2007-8-3-r34",
@@ -2493,6 +2515,7 @@
       "tags": ["Population", "GWAS"],
       "name": "Human genome dating",
       "url": "https://human.genome.dating/region/chr1_13250000",
+      "language": ["JS"],
       "platform": ["Web"],
       "img": "human_genome_dating.png",
       "pub": {
@@ -2524,6 +2547,7 @@
       "tags": ["SV", "Alignment viewer"],
       "name": "InGAP-SV",
       "img": "ingap_sv.png",
+      "language": ["Java"],
       "url": "http://ingap.sourceforge.net/",
       "pub": {
         "doi": "10.1093/nar/gkr506",
