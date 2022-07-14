@@ -2645,6 +2645,7 @@
       "name": "Panoptes",
       "img": "panoptes.png",
       "github": "https://github.com/cggh/panoptes",
+      "language": ["Python", "JS"],
       "url": "https://www.malariagen.net/apps/ag1000g/phase1-AR3/index.html",
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btx410",
@@ -2774,6 +2775,7 @@
       "name": "SplitThreader",
       "img": "splitthreader.png",
       "github": "https://github.com/MariaNattestad/SplitThreader",
+      "language": ["JS", "PHP"],
       "url": "http://splitthreader.com/",
       "pub": {
         "doi": "https://doi.org/10.1101/087981",
@@ -2786,8 +2788,9 @@
       "github_stars": 65
     },
     {
-      "tags": ["Special-purpose", "Alignment viewer"],
+      "tags": ["Special-purpose", "Alignment viewer", "Assembly"],
       "name": "Staden",
+      "language": ["C", "Tcl/Tk"],
       "img": "staden.png",
       "url": "https://sourceforge.net/projects/staden/",
       "pub": {
