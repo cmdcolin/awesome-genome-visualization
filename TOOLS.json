@@ -4378,8 +4378,8 @@
     {
       "name": "vcfPlotein",
       "img": "vcfplotein.png",
-      "language": ["R"],
-      "tags": ["VCF", "Density"],
+      "language": ["javascript","d3","vue"],
+      "tags": ["Variant" ],
       "note": "image shows variant output output",
       "url": "https://vcfplotein.liigh.unam.mx/#/",
       "github": "https://github.com/redcpp/vcfplotein",
