@@ -4376,6 +4376,18 @@
       "height": 431
     },
     {
+      "name": "vcfPlotein",
+      "img": "vcfplotein.png",
+      "language": ["javascript","d3","vue"],
+      "tags": ["Variant" ],
+      "note": "image shows variant output output",
+      "url": "https://vcfplotein.liigh.unam.mx/#/",
+      "github": "https://github.com/redcpp/vcfplotein",
+      "width": 1344,
+      "height": 1344,
+      "github_stars": 4
+    },    
+    {
       "name": "vcfR",
       "img": "vcfr.png",
       "language": ["R"],
