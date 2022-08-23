@@ -11,7 +11,7 @@ Note that the organization on the GitHub README here is a best effort
 categorization using the first tag applied to each tool, but tools can have
 multiple tags too. See the website to see all tags applied to tools
 
-The general focus here is on things that plot things in genomic or sequence coordinate space
+The general focus here is on tools that plot things in genomic or sequence coordinate space
 
 Note: This list runs the gammut from bespoke and simple to more general-purpose
 and complex tools. Some are historical, or may be for more visual inspiration
