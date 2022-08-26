@@ -14,15 +14,20 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -f",
     "postdeploy": "git push"
   },
   "dependencies": {
-    "gatsby": "^4.18.2",
+    "gatsby": "^4.21.1",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "slugify": "^1.6.4",
-    "use-query-params": "^1.2.2"
+    "use-query-params": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6"
   }
 }
