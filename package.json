@@ -3,5 +3,8 @@
     "node-fetch": "^3.2.0",
     "prettier": "^2.5.1"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "deploy": "cd awesome-genome-visualization;npm run deploy; cd -"
+  }
 }
