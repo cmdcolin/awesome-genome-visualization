@@ -6369,6 +6369,21 @@
       "url": "https://gitlab.com/tprodanov/pileuppy",
       "width": 1213,
       "height": 805
+    },
+    {
+      "name": "ggcoverage",
+      "img": "ggcoverage.png",
+      "language": ["R"],
+      "tags": ["Coverage", "Ideogram", "CNV", "Splicing"],
+      "pub": {
+        "doi": "https://doi.org/10.1101/2022.09.01.503744",
+        "year": 2022,
+        "citations": 0
+      },
+      "url": "https://cran.r-project.org/web/packages/ggcoverage/vignettes/ggcoverage.html",
+      "github": "https://github.com/showteeth/ggcoverage",
+      "width": 1024,
+      "height": 717
     }
   ]
 }
