@@ -345,7 +345,6 @@ const IndexPage = () => {
   }, [filters, sort, selected, alreadyScrolledTo]);
 
   let tools = importedTools.slice();
-  console.log({ tools });
   if (sort.latest) {
     tools = tools.reverse();
   }
