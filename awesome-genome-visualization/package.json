@@ -18,7 +18,7 @@
     "postdeploy": "git push"
   },
   "dependencies": {
-    "gatsby": "^4.23.0",
+    "gatsby": "^4.24.3",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -26,7 +26,7 @@
     "use-query-params": "^2.1.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.45",
+    "@types/node": "^18.8.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6"
   }

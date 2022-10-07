@@ -1180,7 +1180,7 @@
       "github_stars": 39
     },
     {
-      "tags": ["Comparative", "Deadlink?"],
+      "tags": ["Comparative", "Deadlink"],
       "name": "Aequatus",
       "img": "aequatus.png",
       "pub": {
@@ -1531,7 +1531,7 @@
       "github_stars": 132
     },
     {
-      "tags": ["Comparative", "Deadlink?"],
+      "tags": ["Comparative", "Deadlink"],
       "name": "mGSV (multiple genome synteny viewer)",
       "img": "mgsv.jpg",
       "url": "https://github.com/kashmatic/mGSV",
@@ -2241,7 +2241,7 @@
       "tags": [
         "Special-purpose",
         "Historical",
-        "Deadlink?",
+        "Deadlink",
         "Gene structure",
         "Annotation",
         "Comparative"
@@ -2307,7 +2307,7 @@
       "height": 673
     },
     {
-      "tags": ["CNV", "Annotation", "Deadlink?"],
+      "tags": ["CNV", "Annotation", "Deadlink"],
       "name": "cnvCurator",
       "url": "http://www.acsu.buffalo.edu/~lm69/cnvCurator",
       "platform": ["Desktop"],
@@ -2593,7 +2593,7 @@
       "github_stars": 33
     },
     {
-      "tags": ["Special-purpose", "Deadlink?"],
+      "tags": ["Special-purpose", "Deadlink"],
       "name": "MagicViewer",
       "img": "magicviewer.jpeg",
       "url": "http://bioinformatics.zj.cn/magicviewer/",
@@ -2818,7 +2818,7 @@
       "height": 572
     },
     {
-      "tags": ["Special-purpose", "Transposons", "Deadlink?"],
+      "tags": ["Special-purpose", "Transposons", "Deadlink"],
       "platform": ["Web", "CGI", "Server"],
       "name": "TE-nest",
       "img": "tenest.jpg",
@@ -3431,7 +3431,7 @@
       "github_stars": 3
     },
     {
-      "tags": ["Dotplot", "Deadlink?"],
+      "tags": ["Dotplot", "Deadlink"],
       "name": "Dotplot (chirimoyo)",
       "url": "https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/",
       "platform": ["Web"]
@@ -3878,7 +3878,7 @@
       "github_stars": 32
     },
     {
-      "tags": ["Pangenome", "Deadlink?"],
+      "tags": ["Pangenome"],
       "name": "panX",
       "github": "https://github.com/neherlab/pan-genome-analysis",
       "img": "panx.jpeg",
@@ -5755,7 +5755,7 @@
     {
       "name": "GECO",
       "language": ["Java"],
-      "tags": ["Microbiology", "Compararive"],
+      "tags": ["Microbiology", "Comparative"],
       "img": "geco.png",
       "url": "http://bioinfo.mikrobio.med.uni-giessen.de/geco2/GecoMainServlet",
       "platform": ["Web", "Deadlink", "No binary or source available"],
@@ -6391,6 +6391,7 @@
       "url": "https://github.com/phageghost/python-genome-browser/blob/master/pygbrowse_demonstration.ipynb",
       "github": "https://github.com/phageghost/python-genome-browser/",
       "img": "pygbrowse.png",
+      "tags": ["Epigenomics", "Hi-C", "Coverage", "Gene structure"],
       "language": ["Python"],
       "width": 994,
       "height": 503,
@@ -6416,6 +6417,15 @@
       "width": 1776,
       "height": 440,
       "github_stars": 10
+    },
+    {
+      "name": "ezcharts",
+      "img": "ezcharts.png",
+      "tags": ["Ideogram"],
+      "language": ["Python"],
+      "github": "https://github.com/epi2me-labs/ezcharts",
+      "width": 1141,
+      "height": 569
     }
   ]
 }

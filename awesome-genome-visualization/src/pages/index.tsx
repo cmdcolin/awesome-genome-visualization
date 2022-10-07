@@ -127,7 +127,23 @@ const Card = ({
               : null}
           </p>
         ) : null}
-        {language ? <p>Language: {language.join(", ")}</p> : null}
+        {language ? (
+          <p>
+            Language:{" "}
+            {language.map((language, index) => [
+              index > 0 && ", ",
+              <a
+                key={language + "-" + index}
+                onClick={(event) => {
+                  setFilters({ ...filters, language });
+                  event.preventDefault();
+                }}
+              >
+                {language}
+              </a>,
+            ])}
+          </p>
+        ) : null}
         {tags ? (
           <p>
             Tags:{" "}
