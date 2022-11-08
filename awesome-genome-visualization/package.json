@@ -18,16 +18,16 @@
     "postdeploy": "git push"
   },
   "dependencies": {
-    "gatsby": "^4.24.3",
+    "gatsby": "^5.0.0",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "slugify": "^1.6.4",
-    "use-query-params": "^2.1.1"
+    "use-query-params": "^2.1.2"
   },
   "devDependencies": {
-    "@types/node": "^18.8.3",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6"
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8"
   }
 }
