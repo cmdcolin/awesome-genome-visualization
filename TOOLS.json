@@ -537,7 +537,7 @@
       },
       "width": 1000,
       "height": 1121,
-      "github_stars": 88
+      "github_stars": 90
     },
     {
       "tags": ["Static", "Epigenomics"],
@@ -627,7 +627,7 @@
       "language": ["Python"],
       "width": 960,
       "height": 810,
-      "github_stars": 255
+      "github_stars": 256
     },
     {
       "name": "ExonIntron",
@@ -1467,7 +1467,7 @@
       "platform": ["Package"],
       "width": 3000,
       "height": 1200,
-      "github_stars": 391
+      "github_stars": 392
     },
     {
       "tags": ["Comparative", "Linear", "Quantitative"],
@@ -1495,7 +1495,7 @@
       "platform": ["Web"],
       "width": 2112,
       "height": 1367,
-      "github_stars": 31
+      "github_stars": 32
     },
     {
       "tags": ["Comparative", "Dotplot", "Linear"],
@@ -1832,7 +1832,7 @@
       "platform": ["Web"],
       "width": 2880,
       "height": 1754,
-      "github_stars": 74
+      "github_stars": 75
     },
     {
       "tags": ["Graph"],
@@ -1994,7 +1994,7 @@
       },
       "language": ["C++"],
       "platform": ["CLI"],
-      "github_stars": 31
+      "github_stars": 32
     },
     {
       "tags": ["Text based", "Coverage"],
@@ -2035,7 +2035,7 @@
       "platform": ["CLI"],
       "width": 5360,
       "height": 1587,
-      "github_stars": 192
+      "github_stars": 193
     },
     {
       "tags": ["Text based"],
@@ -2145,7 +2145,7 @@
       "platform": ["Web"],
       "width": 888,
       "height": 905,
-      "github_stars": 472
+      "github_stars": 474
     },
     {
       "tags": ["Circular"],
@@ -2541,7 +2541,7 @@
       },
       "width": 1504,
       "height": 797,
-      "github_stars": 280
+      "github_stars": 281
     },
     {
       "tags": ["SV", "Alignments viewer"],
@@ -3325,7 +3325,7 @@
       "platform": ["Web"],
       "width": 2596,
       "height": 1938,
-      "github_stars": 50
+      "github_stars": 51
     },
     {
       "tags": ["General"],
@@ -4257,7 +4257,7 @@
       },
       "width": 1622,
       "height": 760,
-      "github_stars": 504
+      "github_stars": 505
     },
     {
       "name": "bcftools cnv",
@@ -4268,7 +4268,7 @@
       "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
       "width": 1000,
       "height": 800,
-      "github_stars": 504
+      "github_stars": 505
     },
     {
       "name": "mocha",
@@ -4411,7 +4411,7 @@
       },
       "width": 500,
       "height": 581,
-      "github_stars": 17
+      "github_stars": 18
     },
     {
       "name": "MashMap",
@@ -4536,7 +4536,7 @@
       "language": ["R"],
       "width": 812,
       "height": 752,
-      "github_stars": 128
+      "github_stars": 129
     },
     {
       "name": "scCNV_heatmap",
@@ -4725,7 +4725,7 @@
       "img": "archr.png",
       "width": 1500,
       "height": 1500,
-      "github_stars": 261
+      "github_stars": 262
     },
     {
       "name": "PGAP-X",
@@ -5721,7 +5721,7 @@
       "github": "https://github.com/KatyBrown/CIAlign",
       "width": 480,
       "height": 286,
-      "github_stars": 80
+      "github_stars": 82
     },
     {
       "name": "CoolBox",
@@ -6196,7 +6196,7 @@
       "language": ["R"],
       "width": 825,
       "height": 188,
-      "github_stars": 159,
+      "github_stars": 160,
       "tags": ["MSA"]
     },
     {
@@ -6246,7 +6246,7 @@
       },
       "width": 1400,
       "height": 1920,
-      "github_stars": 202
+      "github_stars": 203
     },
     {
       "name": "pyGenomeViz",
@@ -6438,7 +6438,7 @@
       "github": "https://github.com/kcleal/gw",
       "width": 2492,
       "height": 618,
-      "github_stars": 70
+      "github_stars": 72
     },
     {
       "name": "PretextView",
@@ -6458,7 +6458,7 @@
       "github": "https://github.com/moshi4/pyCirclize",
       "width": 1292,
       "height": 865,
-      "github_stars": 37
+      "github_stars": 38
     },
     {
       "name": "plasmapR",
@@ -6468,7 +6468,17 @@
       "github": "https://github.com/BradyAJohnston/plasmapR",
       "width": 2100,
       "height": 2100,
-      "github_stars": 41
+      "github_stars": 43
+    },
+    {
+      "name": "DrukBam",
+      "img": "drukbam.png",
+      "github": "https://github.com/StephanHolgerD/DrukBam",
+      "language": ["Python"],
+      "tags": ["Alignments viewer"],
+      "width": 1270,
+      "height": 742,
+      "github_stars": 8
     }
   ]
 }
