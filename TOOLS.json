@@ -3310,7 +3310,7 @@
       "github_stars": 12
     },
     {
-      "tags": ["General", "Epigenomics", "Hi-C"],
+      "tags": ["General", "Epigenomics", "Hi-C", "Comparative"],
       "name": "WashU epigenomics browser",
       "github": "https://github.com/lidaof/eg-react",
       "img": "washu.png",
@@ -3321,7 +3321,7 @@
         "citations": 167
       },
       "language": ["JS", "React"],
-      "note": "features redesign, there is also a legacy version",
+      "note": "The ReactJS is a redesign, there is also a legacy version. Note also, there are comparative features https://www.biorxiv.org/content/10.1101/2022.11.29.518374v1",
       "platform": ["Web"],
       "width": 2596,
       "height": 1938,
