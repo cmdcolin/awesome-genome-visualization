@@ -6539,6 +6539,14 @@
       "github_stars": 9,
       "width": 2250,
       "height": 2130
+    },
+    {
+      "name": "NGenomeSyn",
+      "img": "ngenomesyn.png",
+      "language": ["Perl"],
+      "pub": { "doi": "10.1093/bioinformatics/btad121" },
+      "github": "https://github.com/hewm2008/NGenomeSyn",
+      "note": "See also RectChr"
     }
   ]
 }
