@@ -1379,6 +1379,7 @@
       "img": "dnafeaturesviewer.png",
       "platform": ["Desktop"],
       "language": ["Python"],
+      "note": "See also https://github.com/Edinburgh-Genome-Foundry/Caravagene",
       "tags": ["Microbiology", "Synthetic biology"],
       "pub": {
         "url": "https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF",
@@ -6588,6 +6589,33 @@
       "github_stars": 89,
       "width": 1800,
       "height": 900
+    },
+    {
+      "name": "vcf2circos",
+      "url": "https://github.com/bioinfo-chru-strasbourg/vcf2circos",
+      "img": "vcf2circos.png",
+      "note": "Based on PCircos https://github.com/CJinny/PCircos",
+      "language": ["Python", "Plotly"],
+      "tags": ["SV", "CNV", "Circular"],
+      "width": 1514,
+      "height": 1002,
+      "github_stars": 7
+    },
+    {
+      "name": "OmicCircos",
+      "tags": ["Circular", "CNV", "Comparative", "SV", "Coverage"],
+      "language": ["R"],
+      "url": "http://bioconductor.org/packages/release/bioc/html/OmicCircos.html",
+      "img": "omiccircos.png",
+      "pub": {
+        "doi": "10.4137/CIN.S13495",
+        "year": 2014,
+        "citations": 122
+      },
+      "github": "https://github.com/CBIIT-CGBB/OmicCircos2",
+      "width": 831,
+      "height": 1568,
+      "github_stars": 1
     }
   ]
 }
