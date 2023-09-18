@@ -139,7 +139,7 @@
     },
     {
       "tags": ["MSA"],
-      "name": "abrowse",
+      "name": "abrowse (MSA viewer)",
       "language": ["JS"],
       "img": "abrowse.png",
       "url": "https://github.com/ihh/abrowse",
@@ -3799,9 +3799,9 @@
     {
       "tags": ["Ideogram"],
       "name": "NCBI Genome Decoration",
-      "url": "https://www.ncbi.nlm.nih.gov/genome/tools/gdp/",
+      "note": "Was located at https://www.ncbi.nlm.nih.gov/genome/tools/gdp/, sunsetted in 2023",
       "img": "ncbi_genome_decoration.png",
-      "platform": ["Web", "Form", "Silo"],
+      "platform": ["Web", "Form", "Silo", "Historical"],
       "width": 456,
       "height": 306
     },
@@ -6616,6 +6616,16 @@
       "width": 831,
       "height": 1568,
       "github_stars": 2
+    },
+    {
+      "name": "ABrowse (genome browser)",
+      "tags": ["General"],
+      "language": ["JavaScript"],
+      "tags": ["Historical"],
+      "note": "Had integrations with BioMart, Taverna",
+      "pub": {
+        "doi": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-2"
+      }
     }
   ]
 }
