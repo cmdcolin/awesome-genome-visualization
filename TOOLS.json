@@ -6647,5 +6647,23 @@
       "width": 949,
       "height": 696
     }
+    ,
+    {
+      "name": "Taxonium",
+      "note": "Genome variation visualisation in Taxonium is provided by the 'Treenome Viewer': https://academic.oup.com/bioinformatics/article/39/1/btac772/6858450"
+      "tags": ["Phylogenetics", "Microbiology"],
+      "img": "taxonium.png",
+      "language": ["JavaScript", "Python"],
+      "platform": ["Web"],
+      "url": "https://taxonium.org",
+      "pub": {
+        "doi": "10.7554/eLife.82392",
+        "year": 2022,
+        "citations": 22
+      },
+      "github_stars": 86,
+      "width": 1000,
+      "height": 525
+    }
   ]
 }
