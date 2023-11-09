@@ -5,6 +5,7 @@
       "name": "10x genomics/Loupe",
       "url": "https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants",
       "img": "10xgenomics.png",
+      "interactive": true,
       "width": 1600,
       "height": 300
     },
@@ -13,6 +14,7 @@
       "name": "Alamut",
       "img": "alamut.png",
       "url": "https://www.interactive-biosoftware.com/alamut-visual/",
+      "interactive": true,
       "width": 938,
       "height": 132
     },
@@ -22,6 +24,7 @@
       "platform": ["Silo"],
       "img": "atcc.png",
       "url": "https://docs.onecodex.com/en/articles/3996697-using-the-genome-browser",
+      "interactive": true,
       "width": 2602,
       "height": 1276
     },
@@ -187,7 +190,7 @@
       "platform": ["Web"],
       "width": 1848,
       "height": 716,
-      "github_stars": 23
+      "github_stars": 24
     },
     {
       "tags": ["MSA"],
@@ -204,7 +207,7 @@
       "language": ["Java"],
       "width": 400,
       "height": 241,
-      "github_stars": 100
+      "github_stars": 102
     },
     {
       "tags": ["MSA"],
@@ -332,7 +335,7 @@
       "platform": ["Web"],
       "width": 1654,
       "height": 290,
-      "github_stars": 27
+      "github_stars": 28
     },
     {
       "tags": ["MSA"],
@@ -489,7 +492,7 @@
       },
       "width": 4000,
       "height": 1800,
-      "github_stars": 23
+      "github_stars": 24
     },
     {
       "name": "CNVkit",
@@ -506,7 +509,7 @@
       },
       "width": 885,
       "height": 1555,
-      "github_stars": 435
+      "github_stars": 433
     },
     {
       "tags": ["CNV", "Static"],
@@ -522,7 +525,7 @@
       },
       "width": 2172,
       "height": 498,
-      "github_stars": 60
+      "github_stars": 59
     },
     {
       "tags": ["Static", "Alignments viewer"],
@@ -537,7 +540,7 @@
       },
       "width": 1000,
       "height": 1121,
-      "github_stars": 103
+      "github_stars": 104
     },
     {
       "tags": ["Static", "Epigenomics"],
@@ -612,7 +615,7 @@
       "language": ["Python"],
       "width": 1024,
       "height": 1024,
-      "github_stars": 127
+      "github_stars": 129
     },
     {
       "tags": ["Static", "Synthetic biology"],
@@ -627,7 +630,7 @@
       "language": ["Python"],
       "width": 960,
       "height": 810,
-      "github_stars": 277
+      "github_stars": 279
     },
     {
       "name": "ExonIntron",
@@ -703,7 +706,7 @@
       "language": ["Python"],
       "width": 900,
       "height": 591,
-      "github_stars": 134
+      "github_stars": 135
     },
     {
       "name": "GenomeView (java app)",
@@ -760,7 +763,7 @@
       "language": ["R", "ggplot2"],
       "width": 768,
       "height": 768,
-      "github_stars": 410
+      "github_stars": 420
     },
     {
       "tags": ["Static"],
@@ -775,7 +778,7 @@
       "language": ["R", "ggplot2"],
       "width": 3600,
       "height": 3330,
-      "github_stars": 101
+      "github_stars": 103
     },
     {
       "name": "GSSPlayground",
@@ -817,7 +820,7 @@
       "language": ["R"],
       "width": 720,
       "height": 480,
-      "github_stars": 53
+      "github_stars": 54
     },
     {
       "tags": ["Static", "Coverage"],
@@ -865,7 +868,7 @@
       "language": ["Go"],
       "width": 1776,
       "height": 200,
-      "github_stars": 175
+      "github_stars": 176
     },
     {
       "tags": ["Static", "Protein"],
@@ -889,7 +892,7 @@
       "language": ["Python"],
       "width": 700,
       "height": 450,
-      "github_stars": 76
+      "github_stars": 77
     },
     {
       "tags": ["Single cell"],
@@ -957,7 +960,7 @@
       "tags": ["Static", "Hi-C"],
       "width": 743,
       "height": 591,
-      "github_stars": 670
+      "github_stars": 674
     },
     {
       "name": "RACER",
@@ -1004,7 +1007,7 @@
       "tags": ["Static", "SV", "Alignments viewer"],
       "width": 1202,
       "height": 602,
-      "github_stars": 449
+      "github_stars": 453
     },
     {
       "name": "SashimiPlot",
@@ -1049,7 +1052,7 @@
       },
       "width": 950,
       "height": 550,
-      "github_stars": 40
+      "github_stars": 39
     },
     {
       "name": "SparK",
@@ -1091,7 +1094,7 @@
       "tags": ["Static", "Multi"],
       "width": 589,
       "height": 247,
-      "github_stars": 63
+      "github_stars": 64
     },
     {
       "name": "svist4get",
@@ -1226,7 +1229,7 @@
       "platform": ["Desktop"],
       "width": 648,
       "height": 530,
-      "github_stars": 207
+      "github_stars": 212
     },
     {
       "tags": ["Comparative"],
@@ -1390,7 +1393,7 @@
       },
       "width": 1000,
       "height": 300,
-      "github_stars": 497
+      "github_stars": 503
     },
     {
       "tags": ["Comparative"],
@@ -1424,7 +1427,7 @@
       "language": ["JS", "Typescript"],
       "width": 2550,
       "height": 2010,
-      "github_stars": 31
+      "github_stars": 32
     },
     {
       "tags": ["Comparative"],
@@ -1469,7 +1472,7 @@
       "platform": ["Package"],
       "width": 3000,
       "height": 1200,
-      "github_stars": 486
+      "github_stars": 493
     },
     {
       "tags": ["Comparative", "Linear", "Quantitative"],
@@ -1486,7 +1489,7 @@
       "platform": ["Web"],
       "width": 1680,
       "height": 1050,
-      "github_stars": 136
+      "github_stars": 135
     },
     {
       "tags": ["Comparative"],
@@ -1514,7 +1517,7 @@
       "platform": ["CLI"],
       "width": 833,
       "height": 257,
-      "github_stars": 627
+      "github_stars": 631
     },
     {
       "name": "MCScanX",
@@ -1629,7 +1632,7 @@
       "platform": ["Desktop"],
       "width": 638,
       "height": 512,
-      "github_stars": 17
+      "github_stars": 18
     },
     {
       "tags": ["Comparative", "Dotplot", "Linear"],
@@ -1695,7 +1698,7 @@
       "github": "https://github.com/kiranbandi/synvisio",
       "width": 1920,
       "height": 1080,
-      "github_stars": 70
+      "github_stars": 69
     },
     {
       "tags": ["Comparative", "Ideogram"],
@@ -1784,7 +1787,7 @@
       "language": ["Rust"],
       "width": 679,
       "height": 448,
-      "github_stars": 56
+      "github_stars": 57
     },
     {
       "tags": ["SV", "CNV", "Breakends", "Graph"],
@@ -1851,7 +1854,7 @@
       "url": "https://odgi.readthedocs.io/en/latest/index.html",
       "width": 1389,
       "height": 1587,
-      "github_stars": 163
+      "github_stars": 166
     },
     {
       "tags": ["Graph"],
@@ -1878,7 +1881,7 @@
       "platform": ["CLI"],
       "width": 1096,
       "height": 712,
-      "github_stars": 103
+      "github_stars": 105
     },
     {
       "tags": ["Text based", "MSA"],
@@ -1894,7 +1897,7 @@
       "language": ["Python"],
       "width": 2244,
       "height": 598,
-      "github_stars": 95
+      "github_stars": 97
     },
     {
       "tags": ["Text based", "Alignments viewer"],
@@ -1910,7 +1913,7 @@
       "platform": ["CLI"],
       "width": 1368,
       "height": 632,
-      "github_stars": 187
+      "github_stars": 188
     },
     {
       "tags": ["Text based", "Coverage"],
@@ -2022,7 +2025,7 @@
       "img": "tview.png",
       "width": 1290,
       "height": 875,
-      "github_stars": 1448
+      "github_stars": 1457
     },
     {
       "tags": ["Text based"],
@@ -2037,7 +2040,7 @@
       "platform": ["CLI"],
       "width": 5360,
       "height": 1587,
-      "github_stars": 211
+      "github_stars": 213
     },
     {
       "tags": ["Text based"],
@@ -2064,7 +2067,7 @@
       },
       "url": "https://peerj.com/articles/1319/",
       "language": ["Python"],
-      "github_stars": 385
+      "github_stars": 389
     },
     {
       "tags": ["Circular"],
@@ -2119,7 +2122,7 @@
       "language": ["R"],
       "width": 1181,
       "height": 1181,
-      "github_stars": 899
+      "github_stars": 905
     },
     {
       "tags": ["Circular", "Static"],
@@ -2136,7 +2139,7 @@
       "language": ["Perl"],
       "width": 310,
       "height": 427,
-      "github_stars": 64
+      "github_stars": 65
     },
     {
       "tags": ["Circular"],
@@ -2147,7 +2150,7 @@
       "platform": ["Web"],
       "width": 888,
       "height": 905,
-      "github_stars": 494
+      "github_stars": 495
     },
     {
       "tags": ["Circular"],
@@ -2227,7 +2230,7 @@
       "platform": ["Web"],
       "width": 1848,
       "height": 633,
-      "github_stars": 179
+      "github_stars": 184
     },
     {
       "tags": ["Synthetic biology"],
@@ -2423,7 +2426,7 @@
       "platform": ["Web"],
       "width": 1194,
       "height": 476,
-      "github_stars": 142
+      "github_stars": 145
     },
     {
       "tags": ["General", "Linear"],
@@ -2451,7 +2454,7 @@
       "platform": ["Web", "Silo"],
       "width": 1081,
       "height": 599,
-      "github_stars": 72
+      "github_stars": 73
     },
     {
       "tags": ["SV", "Linear"],
@@ -2543,7 +2546,7 @@
       },
       "width": 1504,
       "height": 797,
-      "github_stars": 334
+      "github_stars": 337
     },
     {
       "tags": ["SV", "Alignments viewer"],
@@ -2683,7 +2686,7 @@
       "language": ["Java"],
       "width": 1920,
       "height": 921,
-      "github_stars": 146
+      "github_stars": 147
     },
     {
       "tags": ["Special-purpose", "Coverage"],
@@ -2787,7 +2790,7 @@
       "platform": ["Web"],
       "width": 2698,
       "height": 1778,
-      "github_stars": 66
+      "github_stars": 65
     },
     {
       "tags": ["Special-purpose", "Alignments viewer", "Assembly"],
@@ -2864,7 +2867,7 @@
       },
       "width": 796,
       "height": 602,
-      "github_stars": 181
+      "github_stars": 182
     },
     {
       "tags": ["Special-purpose", "Annotation"],
@@ -2961,7 +2964,7 @@
       },
       "width": 1124,
       "height": 1280,
-      "github_stars": 573
+      "github_stars": 576
     },
     {
       "tags": ["General", "SV", "Alignments viewer"],
@@ -3118,7 +3121,7 @@
       },
       "width": 1549,
       "height": 777,
-      "github_stars": 144
+      "github_stars": 145
     },
     {
       "tags": ["General", "Epigenomics", "Hi-C"],
@@ -3135,7 +3138,7 @@
       "platform": ["Web", "Server"],
       "width": 1250,
       "height": 956,
-      "github_stars": 279
+      "github_stars": 282
     },
     {
       "tags": ["General", "Alignments viewer"],
@@ -3151,7 +3154,7 @@
       "platform": ["Web"],
       "width": 1116,
       "height": 605,
-      "github_stars": 594
+      "github_stars": 596
     },
     {
       "tags": [
@@ -3202,7 +3205,7 @@
       "platform": ["Web"],
       "width": 1848,
       "height": 1964,
-      "github_stars": 159
+      "github_stars": 160
     },
     {
       "tags": ["General", "SV", "Alignments viewer", "Comparative"],
@@ -3297,7 +3300,7 @@
       "platform": ["Web", "Silo"],
       "width": 512,
       "height": 131,
-      "github_stars": 192
+      "github_stars": 193
     },
     {
       "tags": ["General", "Quantitative", "Epigenomics", "Deadlink"],
@@ -3399,7 +3402,7 @@
       "language": ["Python"],
       "width": 1500,
       "height": 1564,
-      "github_stars": 11
+      "github_stars": 12
     },
     {
       "tags": ["Dotplot", "Comparative"],
@@ -3454,7 +3457,7 @@
       "platform": ["Web"],
       "width": 700,
       "height": 450,
-      "github_stars": 157
+      "github_stars": 159
     },
     {
       "tags": ["Dotplot"],
@@ -3479,7 +3482,7 @@
       "platform": ["CLI"],
       "width": 759,
       "height": 564,
-      "github_stars": 80
+      "github_stars": 81
     },
     {
       "tags": ["Dotplot", "Comparative"],
@@ -3496,7 +3499,7 @@
       },
       "width": 1088,
       "height": 856,
-      "github_stars": 52
+      "github_stars": 54
     },
     {
       "tags": ["Dotplot", "Comparative"],
@@ -3562,7 +3565,7 @@
       "language": ["GNUPlot"],
       "width": 3300,
       "height": 2550,
-      "github_stars": 387
+      "github_stars": 390
     },
     {
       "tags": ["Dotplot", "Comparative"],
@@ -3592,7 +3595,7 @@
       "language": ["R"],
       "width": 800,
       "height": 800,
-      "github_stars": 16
+      "github_stars": 18
     },
     {
       "tags": ["Epigenomics"],
@@ -3670,7 +3673,7 @@
       },
       "width": 1377,
       "height": 507,
-      "github_stars": 66
+      "github_stars": 65
     },
     {
       "tags": ["Epigenomics", "Hi-C", "Higlass integration"],
@@ -3687,7 +3690,7 @@
       "url": "http://hipiler.higlass.io",
       "width": 1116,
       "height": 507,
-      "github_stars": 12
+      "github_stars": 13
     },
     {
       "tags": ["Epigenomics", "Hi-C"],
@@ -3704,7 +3707,7 @@
       },
       "width": 765,
       "height": 674,
-      "github_stars": 208
+      "github_stars": 213
     },
     {
       "tags": ["Epigenomics", "Hi-C"],
@@ -3749,7 +3752,7 @@
       "platform": ["Web"],
       "width": 1116,
       "height": 507,
-      "github_stars": 260
+      "github_stars": 261
     },
     {
       "tags": ["Ideogram", "Static"],
@@ -3762,7 +3765,7 @@
       "language": ["SVG"],
       "width": 5113,
       "height": 1680,
-      "github_stars": 79
+      "github_stars": 81
     },
     {
       "tags": ["Ideogram", "Static"],
@@ -3784,7 +3787,7 @@
       "language": ["R"],
       "width": 2329,
       "height": 1000,
-      "github_stars": 269
+      "github_stars": 271
     },
     {
       "tags": ["Ideogram"],
@@ -3820,7 +3823,7 @@
       "platform": ["Web", "Form", "Silo"],
       "width": 950,
       "height": 546,
-      "github_stars": 192
+      "github_stars": 193
     },
     {
       "tags": ["Mobile", "Alignments viewer"],
@@ -3877,7 +3880,7 @@
       "url": "https://github.com/SouthGreenPlatform/panache",
       "width": 726,
       "height": 381,
-      "github_stars": 35
+      "github_stars": 36
     },
     {
       "tags": ["Pangenome"],
@@ -3893,7 +3896,7 @@
       },
       "width": 2756,
       "height": 1813,
-      "github_stars": 118
+      "github_stars": 122
     },
     {
       "tags": ["Pangenome", "JBrowse integration"],
@@ -3973,7 +3976,7 @@
       "platform": ["Web"],
       "width": 959,
       "height": 259,
-      "github_stars": 66
+      "github_stars": 67
     },
     {
       "tags": ["Heatmap", "Population"],
@@ -4006,7 +4009,7 @@
       "platform": ["Web"],
       "width": 433,
       "height": 390,
-      "github_stars": 72
+      "github_stars": 73
     },
     {
       "tags": ["Dotplot"],
@@ -4051,7 +4054,7 @@
       "tags": ["Comparative"],
       "width": 2050,
       "height": 2384,
-      "github_stars": 2
+      "github_stars": 3
     },
     {
       "name": "Gview",
@@ -4081,7 +4084,7 @@
       "language": ["C++"],
       "width": 1050,
       "height": 1050,
-      "github_stars": 309
+      "github_stars": 316
     },
     {
       "name": "JGI/IMG",
@@ -4119,7 +4122,7 @@
       },
       "width": 2482,
       "height": 1753,
-      "github_stars": 462
+      "github_stars": 467
     },
     {
       "name": "PopSV",
@@ -4177,7 +4180,7 @@
       ],
       "width": 1542,
       "height": 1690,
-      "github_stars": 153
+      "github_stars": 156
     },
     {
       "name": "PURPLE",
@@ -4193,7 +4196,7 @@
       "img": "purple.png",
       "width": 600,
       "height": 675,
-      "github_stars": 153
+      "github_stars": 156
     },
     {
       "name": "SMRT View",
@@ -4259,7 +4262,7 @@
       },
       "width": 1622,
       "height": 760,
-      "github_stars": 562
+      "github_stars": 567
     },
     {
       "name": "bcftools cnv",
@@ -4270,7 +4273,7 @@
       "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
       "width": 1000,
       "height": 800,
-      "github_stars": 562
+      "github_stars": 567
     },
     {
       "name": "mocha",
@@ -4286,7 +4289,7 @@
       "language": ["C", "WDL", "R"],
       "width": 525,
       "height": 525,
-      "github_stars": 67
+      "github_stars": 68
     },
     {
       "name": "ALVIS (MSA viewer)",
@@ -4333,7 +4336,7 @@
       "language": ["R"],
       "width": 939,
       "height": 1026,
-      "github_stars": 192
+      "github_stars": 194
     },
     {
       "name": "NanoMethViz",
@@ -4365,7 +4368,7 @@
       "tags": ["Graph"],
       "width": 951,
       "height": 351,
-      "github_stars": 58
+      "github_stars": 60
     },
     {
       "name": "Nextclade",
@@ -4397,7 +4400,7 @@
       },
       "width": 1344,
       "height": 1344,
-      "github_stars": 220
+      "github_stars": 221
     },
     {
       "name": "asgart",
@@ -4429,7 +4432,7 @@
       "github": "https://github.com/marbl/MashMap",
       "width": 521,
       "height": 521,
-      "github_stars": 230
+      "github_stars": 239
     },
     {
       "name": "udon",
@@ -4468,7 +4471,7 @@
       "url": "https://github.com/adamewing/methylartist",
       "width": 1330,
       "height": 683,
-      "github_stars": 86
+      "github_stars": 87
     },
     {
       "name": "SWAV",
@@ -4538,7 +4541,7 @@
       "language": ["R"],
       "width": 812,
       "height": 752,
-      "github_stars": 172
+      "github_stars": 175
     },
     {
       "name": "scCNV_heatmap",
@@ -4564,7 +4567,7 @@
       "tags": ["Single cell", "CNV"],
       "width": 580,
       "height": 935,
-      "github_stars": 73
+      "github_stars": 74
     },
     {
       "name": "RectChr",
@@ -4574,7 +4577,7 @@
       "language": ["Binary blob", "Perl"],
       "width": 635,
       "height": 760,
-      "github_stars": 63
+      "github_stars": 61
     },
     {
       "name": "LDBlockShow",
@@ -4622,7 +4625,7 @@
       "language": ["C++", "R"],
       "width": 480,
       "height": 280,
-      "github_stars": 196
+      "github_stars": 197
     },
     {
       "name": "FusionInspector",
@@ -4654,7 +4657,7 @@
       "language": ["Python"],
       "width": 992,
       "height": 609,
-      "github_stars": 45
+      "github_stars": 46
     },
     {
       "name": "alen",
@@ -4711,7 +4714,7 @@
       "note": "Used on InterProScan website https://www.ebi.ac.uk/interpro/",
       "width": 1211,
       "height": 425,
-      "github_stars": 105
+      "github_stars": 107
     },
     {
       "name": "ArchR",
@@ -4727,7 +4730,7 @@
       "img": "archr.png",
       "width": 1500,
       "height": 1500,
-      "github_stars": 312
+      "github_stars": 317
     },
     {
       "name": "PGAP-X",
@@ -4785,7 +4788,7 @@
       "language": ["Python"],
       "width": 479,
       "height": 260,
-      "github_stars": 35
+      "github_stars": 36
     },
     {
       "name": "SVPV",
@@ -4827,7 +4830,7 @@
       "tags": ["Comparative", "Genetic map"],
       "width": 1114,
       "height": 765,
-      "github_stars": 34
+      "github_stars": 35
     },
     {
       "name": "splicejam",
@@ -4891,7 +4894,7 @@
       },
       "width": 840,
       "height": 510,
-      "github_stars": 260
+      "github_stars": 261
     },
     {
       "name": "MIRA",
@@ -4956,7 +4959,7 @@
       "tags": ["Repeats"],
       "width": 865,
       "height": 755,
-      "github_stars": 30
+      "github_stars": 31
     },
     {
       "name": "MEGA-X",
@@ -5078,7 +5081,7 @@
       "language": ["R"],
       "width": 850,
       "height": 500,
-      "github_stars": 84
+      "github_stars": 87
     },
     {
       "name": "gcMapExplorer",
@@ -5137,7 +5140,7 @@
       "language": ["R"],
       "width": 730,
       "height": 593,
-      "github_stars": 140
+      "github_stars": 145
     },
     {
       "name": "ggplot2 manhattan plot",
@@ -5163,7 +5166,7 @@
       "img": "ete.png",
       "width": 640,
       "height": 500,
-      "github_stars": 720
+      "github_stars": 723
     },
     {
       "name": "ggtree",
@@ -5179,7 +5182,7 @@
       },
       "width": 2100,
       "height": 1050,
-      "github_stars": 758
+      "github_stars": 763
     },
     {
       "name": "Phandango",
@@ -5240,7 +5243,7 @@
       "note": "See also CGView comparison tool and other related https://paulstothard.github.io/cgview_comparison_tool/",
       "width": 926,
       "height": 443,
-      "github_stars": 30
+      "github_stars": 32
     },
     {
       "name": "miropeats",
@@ -5311,7 +5314,7 @@
       "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
       "width": 1776,
       "height": 700,
-      "github_stars": 13
+      "github_stars": 16
     },
     {
       "name": "Gingr",
@@ -5343,7 +5346,7 @@
       },
       "width": 703,
       "height": 393,
-      "github_stars": 56
+      "github_stars": 58
     },
     {
       "name": "SimpleSynteny",
@@ -5439,7 +5442,7 @@
       "note": "Blurs the line between synteny and SV visualization, a good thing! see also https://github.com/schneebergerlab/syri",
       "width": 1298,
       "height": 863,
-      "github_stars": 228
+      "github_stars": 232
     },
     {
       "name": "seqvisr",
@@ -5447,7 +5450,7 @@
       "url": "https://github.com/vragh/seqvisr/",
       "language": ["R"],
       "tags": ["MSA", "Protein"],
-      "github_stars": 5,
+      "github_stars": 6,
       "width": 307,
       "height": 346
     },
@@ -5462,7 +5465,7 @@
       },
       "tags": ["Protein"],
       "language": ["R", "ggplot2"],
-      "github_stars": 29,
+      "github_stars": 30,
       "width": 1649,
       "height": 1933
     },
@@ -5635,7 +5638,7 @@
       "language": ["C", "R"],
       "width": 1000,
       "height": 1000,
-      "github_stars": 35
+      "github_stars": 37
     },
     {
       "name": "r2cat",
@@ -5698,7 +5701,7 @@
       "github": "https://github.com/kharchenkolab/numbat",
       "width": 840,
       "height": 672,
-      "github_stars": 120
+      "github_stars": 126
     },
     {
       "name": "ggtranscript",
@@ -5713,7 +5716,7 @@
       },
       "width": 2100,
       "height": 900,
-      "github_stars": 99
+      "github_stars": 101
     },
     {
       "name": "CIAlign",
@@ -5746,7 +5749,7 @@
       "language": ["Python"],
       "width": 760,
       "height": 408,
-      "github_stars": 200
+      "github_stars": 202
     },
     {
       "name": "CNANorm",
@@ -5939,7 +5942,7 @@
       "platform": ["Web", "Desktop"],
       "width": 856,
       "height": 522,
-      "github_stars": 11
+      "github_stars": 12
     },
     {
       "name": "CMPlot",
@@ -5954,7 +5957,7 @@
       },
       "width": 525,
       "height": 675,
-      "github_stars": 427
+      "github_stars": 436
     },
     {
       "name": "chromPlot",
@@ -5999,7 +6002,7 @@
       "tags": ["Ideogram", "Comparative"],
       "width": 620,
       "height": 646,
-      "github_stars": 136
+      "github_stars": 138
     },
     {
       "name": "CrowsNest",
@@ -6051,7 +6054,7 @@
       },
       "width": 750,
       "height": 619,
-      "github_stars": 35
+      "github_stars": 37
     },
     {
       "name": "sequenza",
@@ -6075,7 +6078,7 @@
       "note": "See also https://github.com/ponnhide/plasmidviewer",
       "width": 738,
       "height": 268,
-      "github_stars": 273,
+      "github_stars": 276,
       "tags": ["Circular"],
       "language": ["Python"]
     },
@@ -6143,7 +6146,7 @@
       "language": ["Python"],
       "width": 750,
       "height": 306,
-      "github_stars": 89
+      "github_stars": 91
     },
     {
       "name": "local-rearrangements",
@@ -6204,7 +6207,7 @@
       "language": ["R"],
       "width": 825,
       "height": 188,
-      "github_stars": 177,
+      "github_stars": 179,
       "tags": ["MSA"]
     },
     {
@@ -6254,7 +6257,7 @@
       },
       "width": 1400,
       "height": 1920,
-      "github_stars": 257
+      "github_stars": 262
     },
     {
       "name": "pyGenomeViz",
@@ -6264,7 +6267,7 @@
       "img": "pygenomeviz.png",
       "width": 1291,
       "height": 693,
-      "github_stars": 172,
+      "github_stars": 181,
       "note": "See also https://github.com/moshi4/MGCplotter https://github.com/moshi4/GBKviz https://github.com/moshi4/plot_genome_align_fig"
     },
     {
@@ -6369,7 +6372,7 @@
       "url": "https://github.com/jordanlab/tagore",
       "width": 600,
       "height": 258,
-      "github_stars": 28
+      "github_stars": 29
     },
     {
       "name": "pileuppy",
@@ -6394,7 +6397,7 @@
       "github": "https://github.com/showteeth/ggcoverage",
       "width": 1024,
       "height": 717,
-      "github_stars": 131
+      "github_stars": 132
     },
     {
       "name": "python-genome-browser aka pygbrowse",
@@ -6413,7 +6416,7 @@
       "img": "wally.png",
       "tags": ["Alignments viewer"],
       "url": "https://github.com/tobiasrausch/wally",
-      "github_stars": 80,
+      "github_stars": 82,
       "width": 676,
       "height": 538
     },
@@ -6426,7 +6429,7 @@
       "img": "alignoth.png",
       "width": 1776,
       "height": 440,
-      "github_stars": 42
+      "github_stars": 41
     },
     {
       "name": "ezcharts",
@@ -6436,7 +6439,7 @@
       "github": "https://github.com/epi2me-labs/ezcharts",
       "width": 1141,
       "height": 569,
-      "github_stars": 7
+      "github_stars": 8
     },
     {
       "name": "gw",
@@ -6446,7 +6449,7 @@
       "github": "https://github.com/kcleal/gw",
       "width": 2492,
       "height": 618,
-      "github_stars": 113
+      "github_stars": 115
     },
     {
       "name": "PretextView",
@@ -6456,7 +6459,7 @@
       "github": "https://github.com/wtsi-hpag/PretextView",
       "width": 1616,
       "height": 1616,
-      "github_stars": 19
+      "github_stars": 20
     },
     {
       "name": "pyCirclize",
@@ -6466,7 +6469,7 @@
       "github": "https://github.com/moshi4/pyCirclize",
       "width": 1292,
       "height": 865,
-      "github_stars": 436
+      "github_stars": 450
     },
     {
       "name": "plasmapR",
@@ -6476,7 +6479,7 @@
       "github": "https://github.com/BradyAJohnston/plasmapR",
       "width": 2100,
       "height": 2100,
-      "github_stars": 59
+      "github_stars": 61
     },
     {
       "name": "DrukBam",
@@ -6486,7 +6489,7 @@
       "tags": ["Alignments viewer"],
       "width": 1270,
       "height": 742,
-      "github_stars": 15
+      "github_stars": 16
     },
     {
       "github": "https://github.com/matted/genome_coverage_plotter",
@@ -6531,7 +6534,7 @@
       "language": ["R"],
       "width": 884,
       "height": 594,
-      "github_stars": 16
+      "github_stars": 17
     },
     {
       "name": "GeMo",
@@ -6561,7 +6564,7 @@
       "note": "See also RectChr",
       "width": 710,
       "height": 612,
-      "github_stars": 102
+      "github_stars": 106
     },
     {
       "name": "chromsyn",
@@ -6574,7 +6577,7 @@
       },
       "width": 1500,
       "height": 975,
-      "github_stars": 14
+      "github_stars": 15
     },
     {
       "name": "pixy",
@@ -6663,6 +6666,50 @@
       "github_stars": 86,
       "width": 1000,
       "height": 525
+    },
+    {
+      "name": "MosaicCatcher pipeline",
+      "tags": ["Single cell", "Strand-seq"],
+      "img": "mosaicatcher.png",
+      "github": "https://github.com/friendsofstrandseq/mosaicatcher-pipeline",
+      "language": ["R", "Python", "SnakeMake"],
+      "width": 2483,
+      "height": 3524,
+      "github_stars": 20
+    },
+    {
+      "name": "TogoStanza Protein Browser",
+      "img": "togostanza.png",
+      "tags": ["Protein"],
+      "language": ["JS"],
+      "url": "https://db-dev.jpostdb.org/ts/stanza/protein_browser/help.html",
+      "width": 1474,
+      "height": 889
+    },
+    {
+      "name": "ReConPlot",
+      "img": "reconplot.png",
+      "github": "https://github.com/cortes-ciriano-lab/ReConPlot",
+      "language": ["R"],
+      "tags": ["SV", "CNV"],
+      "pub": {
+        "doi": "10.1101/2023.02.24.529890",
+        "year": 2023,
+        "citations": 1
+      },
+      "width": 917,
+      "height": 430,
+      "github_stars": 10
+    },
+    {
+      "name": "rich-msa",
+      "language": ["Python"],
+      "tags": ["Text-based", "MSA"],
+      "github": "https://github.com/althonos/rich-msa",
+      "img": "richmsa.png",
+      "width": 933,
+      "height": 921,
+      "github_stars": 69
     }
   ]
 }
