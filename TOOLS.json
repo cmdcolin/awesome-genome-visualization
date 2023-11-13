@@ -525,7 +525,7 @@
       },
       "width": 2172,
       "height": 498,
-      "github_stars": 59
+      "github_stars": 60
     },
     {
       "tags": ["Static", "Alignments viewer"],
@@ -763,7 +763,7 @@
       "language": ["R", "ggplot2"],
       "width": 768,
       "height": 768,
-      "github_stars": 420
+      "github_stars": 421
     },
     {
       "tags": ["Static"],
@@ -892,7 +892,7 @@
       "language": ["Python"],
       "width": 700,
       "height": 450,
-      "github_stars": 77
+      "github_stars": 78
     },
     {
       "tags": ["Single cell"],
@@ -951,16 +951,17 @@
       "name": "pyGenomeTracks",
       "url": "https://github.com/deeptools/pyGenomeTracks",
       "language": ["Python"],
+      "note": "See also https://pypi.org/project/gtracks/ which is a separate project that is powered by pyGenomeTracks",
       "img": "pygenometracks.png",
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btaa692",
         "year": 2020,
         "citations": 166
       },
-      "tags": ["Static", "Hi-C"],
+      "tags": ["Static", "Hi-C", "General"],
       "width": 743,
       "height": 591,
-      "github_stars": 674
+      "github_stars": 673
     },
     {
       "name": "RACER",
@@ -1229,7 +1230,7 @@
       "platform": ["Desktop"],
       "width": 648,
       "height": 530,
-      "github_stars": 212
+      "github_stars": 211
     },
     {
       "tags": ["Comparative"],
@@ -1375,7 +1376,7 @@
       },
       "width": 5000,
       "height": 2171,
-      "github_stars": 76
+      "github_stars": 78
     },
     {
       "name": "Edinburgh-Genome-Foundry/DnaFeaturesViewer",
@@ -1393,7 +1394,7 @@
       },
       "width": 1000,
       "height": 300,
-      "github_stars": 503
+      "github_stars": 504
     },
     {
       "tags": ["Comparative"],
@@ -1472,7 +1473,7 @@
       "platform": ["Package"],
       "width": 3000,
       "height": 1200,
-      "github_stars": 493
+      "github_stars": 494
     },
     {
       "tags": ["Comparative", "Linear", "Quantitative"],
@@ -1533,7 +1534,7 @@
       "platform": ["CLI"],
       "width": 1424,
       "height": 1380,
-      "github_stars": 166
+      "github_stars": 167
     },
     {
       "tags": ["Comparative", "Deadlink"],
@@ -1698,7 +1699,7 @@
       "github": "https://github.com/kiranbandi/synvisio",
       "width": 1920,
       "height": 1080,
-      "github_stars": 69
+      "github_stars": 70
     },
     {
       "tags": ["Comparative", "Ideogram"],
@@ -1758,7 +1759,7 @@
         "year": 2019,
         "citations": 11
       },
-      "github_stars": 71
+      "github_stars": 72
     },
     {
       "tags": ["Graph"],
@@ -1776,7 +1777,7 @@
       },
       "width": 440,
       "height": 157,
-      "github_stars": 526
+      "github_stars": 527
     },
     {
       "tags": ["Graph"],
@@ -1854,7 +1855,7 @@
       "url": "https://odgi.readthedocs.io/en/latest/index.html",
       "width": 1389,
       "height": 1587,
-      "github_stars": 166
+      "github_stars": 167
     },
     {
       "tags": ["Graph"],
@@ -1999,7 +2000,7 @@
       },
       "language": ["C++"],
       "platform": ["CLI"],
-      "github_stars": 35
+      "github_stars": 36
     },
     {
       "tags": ["Text based", "Coverage"],
@@ -2025,7 +2026,7 @@
       "img": "tview.png",
       "width": 1290,
       "height": 875,
-      "github_stars": 1457
+      "github_stars": 1463
     },
     {
       "tags": ["Text based"],
@@ -2040,7 +2041,7 @@
       "platform": ["CLI"],
       "width": 5360,
       "height": 1587,
-      "github_stars": 213
+      "github_stars": 214
     },
     {
       "tags": ["Text based"],
@@ -2054,7 +2055,7 @@
       },
       "width": 4750,
       "height": 2046,
-      "github_stars": 84
+      "github_stars": 85
     },
     {
       "tags": ["Circular"],
@@ -2150,7 +2151,7 @@
       "platform": ["Web"],
       "width": 888,
       "height": 905,
-      "github_stars": 495
+      "github_stars": 496
     },
     {
       "tags": ["Circular"],
@@ -2206,7 +2207,7 @@
       "language": ["Python"],
       "width": 3000,
       "height": 3000,
-      "github_stars": 80
+      "github_stars": 79
     },
     {
       "tags": ["Circular", "Static"],
@@ -2280,7 +2281,7 @@
       "language": ["Java", "Groovy", "JS"],
       "width": 685,
       "height": 384,
-      "github_stars": 118
+      "github_stars": 119
     },
     {
       "tags": ["Synthetic biology"],
@@ -2426,7 +2427,7 @@
       "platform": ["Web"],
       "width": 1194,
       "height": 476,
-      "github_stars": 145
+      "github_stars": 146
     },
     {
       "tags": ["General", "Linear"],
@@ -2627,7 +2628,7 @@
       "platform": ["Web"],
       "width": 488,
       "height": 310,
-      "github_stars": 140
+      "github_stars": 141
     },
     {
       "tags": ["Alignments viewer"],
@@ -2867,7 +2868,7 @@
       },
       "width": 796,
       "height": 602,
-      "github_stars": 182
+      "github_stars": 183
     },
     {
       "tags": ["Special-purpose", "Annotation"],
@@ -3371,7 +3372,7 @@
       "platform": ["Web"],
       "width": 500,
       "height": 500,
-      "github_stars": 82
+      "github_stars": 83
     },
     {
       "tags": ["Dotplot", "Static", "Comparative"],
@@ -3457,7 +3458,7 @@
       "platform": ["Web"],
       "width": 700,
       "height": 450,
-      "github_stars": 159
+      "github_stars": 158
     },
     {
       "tags": ["Dotplot"],
@@ -3565,7 +3566,7 @@
       "language": ["GNUPlot"],
       "width": 3300,
       "height": 2550,
-      "github_stars": 390
+      "github_stars": 391
     },
     {
       "tags": ["Dotplot", "Comparative"],
@@ -4084,7 +4085,7 @@
       "language": ["C++"],
       "width": 1050,
       "height": 1050,
-      "github_stars": 316
+      "github_stars": 318
     },
     {
       "name": "JGI/IMG",
@@ -4122,7 +4123,7 @@
       },
       "width": 2482,
       "height": 1753,
-      "github_stars": 467
+      "github_stars": 468
     },
     {
       "name": "PopSV",
@@ -4262,7 +4263,7 @@
       },
       "width": 1622,
       "height": 760,
-      "github_stars": 567
+      "github_stars": 569
     },
     {
       "name": "bcftools cnv",
@@ -4273,7 +4274,7 @@
       "url": "https://samtools.github.io/bcftools/howtos/cnv-calling.html",
       "width": 1000,
       "height": 800,
-      "github_stars": 567
+      "github_stars": 569
     },
     {
       "name": "mocha",
@@ -4471,7 +4472,7 @@
       "url": "https://github.com/adamewing/methylartist",
       "width": 1330,
       "height": 683,
-      "github_stars": 87
+      "github_stars": 88
     },
     {
       "name": "SWAV",
@@ -4714,7 +4715,7 @@
       "note": "Used on InterProScan website https://www.ebi.ac.uk/interpro/",
       "width": 1211,
       "height": 425,
-      "github_stars": 107
+      "github_stars": 108
     },
     {
       "name": "ArchR",
@@ -4730,7 +4731,7 @@
       "img": "archr.png",
       "width": 1500,
       "height": 1500,
-      "github_stars": 317
+      "github_stars": 318
     },
     {
       "name": "PGAP-X",
@@ -4788,7 +4789,7 @@
       "language": ["Python"],
       "width": 479,
       "height": 260,
-      "github_stars": 36
+      "github_stars": 37
     },
     {
       "name": "SVPV",
@@ -5065,7 +5066,7 @@
       },
       "width": 3841,
       "height": 1789,
-      "github_stars": 63
+      "github_stars": 65
     },
     {
       "name": "Trackplot",
@@ -5198,7 +5199,7 @@
       },
       "width": 463,
       "height": 474,
-      "github_stars": 104
+      "github_stars": 105
     },
     {
       "url": "http://athina.biol.uoa.gr/bioinformatics/GENEVITO/",
@@ -5286,7 +5287,7 @@
       "language": ["R", "ggplot2"],
       "width": 1440,
       "height": 720,
-      "github_stars": 24
+      "github_stars": 25
     },
     {
       "name": "chromoMap",
@@ -5314,7 +5315,7 @@
       "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
       "width": 1776,
       "height": 700,
-      "github_stars": 16
+      "github_stars": 17
     },
     {
       "name": "Gingr",
@@ -5442,7 +5443,7 @@
       "note": "Blurs the line between synteny and SV visualization, a good thing! see also https://github.com/schneebergerlab/syri",
       "width": 1298,
       "height": 863,
-      "github_stars": 232
+      "github_stars": 233
     },
     {
       "name": "seqvisr",
@@ -5732,7 +5733,7 @@
       "github": "https://github.com/KatyBrown/CIAlign",
       "width": 480,
       "height": 286,
-      "github_stars": 99
+      "github_stars": 98
     },
     {
       "name": "CoolBox",
@@ -6002,7 +6003,7 @@
       "tags": ["Ideogram", "Comparative"],
       "width": 620,
       "height": 646,
-      "github_stars": 138
+      "github_stars": 139
     },
     {
       "name": "CrowsNest",
@@ -6146,7 +6147,7 @@
       "language": ["Python"],
       "width": 750,
       "height": 306,
-      "github_stars": 91
+      "github_stars": 92
     },
     {
       "name": "local-rearrangements",
@@ -6207,7 +6208,7 @@
       "language": ["R"],
       "width": 825,
       "height": 188,
-      "github_stars": 179,
+      "github_stars": 180,
       "tags": ["MSA"]
     },
     {
@@ -6257,7 +6258,7 @@
       },
       "width": 1400,
       "height": 1920,
-      "github_stars": 262
+      "github_stars": 263
     },
     {
       "name": "pyGenomeViz",
@@ -6267,7 +6268,7 @@
       "img": "pygenomeviz.png",
       "width": 1291,
       "height": 693,
-      "github_stars": 181,
+      "github_stars": 182,
       "note": "See also https://github.com/moshi4/MGCplotter https://github.com/moshi4/GBKviz https://github.com/moshi4/plot_genome_align_fig"
     },
     {
@@ -6429,7 +6430,7 @@
       "img": "alignoth.png",
       "width": 1776,
       "height": 440,
-      "github_stars": 41
+      "github_stars": 43
     },
     {
       "name": "ezcharts",
@@ -6469,7 +6470,7 @@
       "github": "https://github.com/moshi4/pyCirclize",
       "width": 1292,
       "height": 865,
-      "github_stars": 450
+      "github_stars": 452
     },
     {
       "name": "plasmapR",
@@ -6524,7 +6525,7 @@
       "img": "pgrtk.png",
       "width": 1109,
       "height": 385,
-      "github_stars": 0
+      "github_stars": 7
     },
     {
       "name": "asynt",
@@ -6534,7 +6535,7 @@
       "language": ["R"],
       "width": 884,
       "height": 594,
-      "github_stars": 17
+      "github_stars": 18
     },
     {
       "name": "GeMo",
@@ -6564,7 +6565,7 @@
       "note": "See also RectChr",
       "width": 710,
       "height": 612,
-      "github_stars": 106
+      "github_stars": 109
     },
     {
       "name": "chromsyn",
@@ -6710,6 +6711,16 @@
       "width": 933,
       "height": 921,
       "github_stars": 69
+    },
+    {
+      "name": "gtracks",
+      "tags": ["General"],
+      "language": ["Python"],
+      "note": "Powered by pyGenomeTracks",
+      "url": "https://gitlab.com/salk-tm/gtracks",
+      "img": "gtracks.png",
+      "width": 1133,
+      "height": 297
     }
   ]
 }
