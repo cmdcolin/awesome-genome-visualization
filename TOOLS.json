@@ -540,7 +540,7 @@
       },
       "width": 1000,
       "height": 1121,
-      "github_stars": 104
+      "github_stars": 105
     },
     {
       "tags": ["Static", "Epigenomics"],
@@ -615,7 +615,7 @@
       "language": ["Python"],
       "width": 1024,
       "height": 1024,
-      "github_stars": 137
+      "github_stars": 138
     },
     {
       "tags": ["Static", "Synthetic biology"],
@@ -1394,7 +1394,7 @@
       },
       "width": 1000,
       "height": 300,
-      "github_stars": 511
+      "github_stars": 512
     },
     {
       "tags": ["Comparative"],
@@ -1534,7 +1534,7 @@
       "platform": ["CLI"],
       "width": 1424,
       "height": 1380,
-      "github_stars": 171
+      "github_stars": 172
     },
     {
       "tags": ["Comparative", "Deadlink"],
@@ -1777,7 +1777,7 @@
       },
       "width": 440,
       "height": 157,
-      "github_stars": 533
+      "github_stars": 534
     },
     {
       "tags": ["Graph"],
@@ -2026,7 +2026,7 @@
       "img": "tview.png",
       "width": 1290,
       "height": 875,
-      "github_stars": 1479
+      "github_stars": 1481
     },
     {
       "tags": ["Text based"],
@@ -3271,7 +3271,7 @@
       "platform": ["Web"],
       "width": 1086,
       "height": 597,
-      "github_stars": 270
+      "github_stars": 271
     },
     {
       "tags": ["General"],
@@ -3788,7 +3788,7 @@
       "language": ["R"],
       "width": 2329,
       "height": 1000,
-      "github_stars": 272
+      "github_stars": 273
     },
     {
       "tags": ["Ideogram"],
@@ -3839,7 +3839,7 @@
       },
       "width": 1521,
       "height": 1299,
-      "github_stars": 35
+      "github_stars": 36
     },
     {
       "tags": ["Pangenome"],
@@ -4123,7 +4123,7 @@
       },
       "width": 2482,
       "height": 1753,
-      "github_stars": 474
+      "github_stars": 475
     },
     {
       "name": "PopSV",
@@ -4542,7 +4542,7 @@
       "language": ["R"],
       "width": 812,
       "height": 752,
-      "github_stars": 175
+      "github_stars": 176
     },
     {
       "name": "scCNV_heatmap",
@@ -4731,7 +4731,7 @@
       "img": "archr.png",
       "width": 1500,
       "height": 1500,
-      "github_stars": 321
+      "github_stars": 322
     },
     {
       "name": "PGAP-X",
@@ -4895,7 +4895,7 @@
       },
       "width": 840,
       "height": 510,
-      "github_stars": 261
+      "github_stars": 262
     },
     {
       "name": "MIRA",
@@ -5287,7 +5287,7 @@
       "language": ["R", "ggplot2"],
       "width": 1440,
       "height": 720,
-      "github_stars": 29
+      "github_stars": 30
     },
     {
       "name": "chromoMap",
@@ -6398,7 +6398,7 @@
       "github": "https://github.com/showteeth/ggcoverage",
       "width": 1024,
       "height": 717,
-      "github_stars": 174
+      "github_stars": 176
     },
     {
       "name": "python-genome-browser aka pygbrowse",
@@ -6578,7 +6578,7 @@
       },
       "width": 1500,
       "height": 975,
-      "github_stars": 16
+      "github_stars": 17
     },
     {
       "name": "pixy",
@@ -6733,6 +6733,17 @@
       "width": 1199,
       "height": 1591,
       "github_stars": 6
+    },
+    {
+      "name": "syntR",
+      "img": "syntr.png",
+      "github": "https://github.com/ksamuk/syntR",
+      "url": "https://www.samuklab.com/syntR/articles/syntr_tutorial.html",
+      "language": ["R"],
+      "tags": ["Comparative", "Dotplot"],
+      "width": 1152,
+      "height": 1152,
+      "github_stars": 4
     }
   ]
 }
