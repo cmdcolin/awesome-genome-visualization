@@ -3859,6 +3859,7 @@
     {
       "tags": ["Pangenome"],
       "name": "Panacaea",
+      "language": ["Perl"],
       "pub": {
         "doi": "https://doi.org/10.1186/s12859-018-2250-y",
         "year": 2018,
@@ -4991,7 +4992,8 @@
       "note": "original paper from 1994 but actively updated. requires EULA for download",
       "tags": ["MSA", "Phylogenetics"],
       "width": 665,
-      "height": 450
+      "height": 450,
+      "github_stars": 3
     },
     {
       "name": "Haploview",
@@ -6857,7 +6859,14 @@
       "github": "https://github.com/PacificBiosciences/trgt",
       "url": "trvz.png",
       "tags": ["Repeats", "Graph"],
-      "pub": { "doi": "https://doi.org/10.1101/2023.05.12.540470" }
+      "pub": {
+        "doi": "https://doi.org/10.1101/2023.05.12.540470",
+        "year": 2023,
+        "citations": 5
+      },
+      "width": 3154,
+      "height": 2261,
+      "github_stars": 70
     }
   ]
 }

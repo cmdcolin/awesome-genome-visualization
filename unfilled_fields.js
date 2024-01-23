@@ -10,3 +10,15 @@ tools.forEach(r => {
     console.log('no language', r.name, r.github, r.url)
   }
 })
+
+tools.forEach(r => {
+  if (!r.pub) {
+    console.log('no pub', r.name, r.github, r.url)
+  }
+})
+
+tools.forEach(r => {
+  if (!r.img) {
+    console.log('no img', r.name, r.github, r.url)
+  }
+})
