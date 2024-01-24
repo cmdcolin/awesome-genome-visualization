@@ -2830,12 +2830,13 @@
       "platform": ["Web", "CGI", "Server"],
       "name": "TE-nest",
       "img": "tenest.jpg",
+      "github": "https://github.com/cmdcolin/TEnest",
       "pub": {
         "doi": "https://doi.org/10.1104/pp.107.110353",
         "year": 2007,
         "citations": 55
       },
-      "note": "this was an online tool that does not appear to exist anymore see https://web.archive.org/web/20170712104431/http://www.plantgdb.org/tool/TEnest/",
+      "note": "this was an online tool that does not appear to exist anymore see https://web.archive.org/web/20170712104431/http://www.plantgdb.org/tool/TEnest/. the github link is re-hosted source code also downloaded from archive.org",
       "width": 637,
       "height": 847
     },
@@ -6856,8 +6857,7 @@
       "name": "TRVZ (TRGT tandem repeat genotyping visualizer)",
       "img": "trvz.png",
       "language": ["Rust"],
-      "github": "https://github.com/PacificBiosciences/trgt",
-      "url": "trvz.png",
+      "url": "https://github.com/PacificBiosciences/trgt",
       "tags": ["Repeats", "Graph"],
       "pub": {
         "doi": "https://doi.org/10.1101/2023.05.12.540470",

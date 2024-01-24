@@ -22,3 +22,9 @@ tools.forEach(r => {
     console.log('no img', r.name, r.github, r.url)
   }
 })
+
+tools.forEach(r => {
+  if (!r.url && !r.github) {
+    console.log('no url or github', r.name, r.github, r.url)
+  }
+})
