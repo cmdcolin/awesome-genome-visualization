@@ -5,7 +5,7 @@
       "name": "10x genomics/Loupe",
       "url": "https://support.10xgenomics.com/genome-exome/software/visualization/latest/structural-variants",
       "img": "10xgenomics.png",
-      "interactive": true,
+      "interactive": ["true"],
       "width": 1600,
       "height": 300
     },
@@ -14,7 +14,7 @@
       "name": "Alamut",
       "img": "alamut.png",
       "url": "https://www.interactive-biosoftware.com/alamut-visual/",
-      "interactive": true,
+      "interactive": ["true"],
       "width": 938,
       "height": 132
     },
@@ -24,7 +24,7 @@
       "platform": ["Silo"],
       "img": "atcc.png",
       "url": "https://docs.onecodex.com/en/articles/3996697-using-the-genome-browser",
-      "interactive": true,
+      "interactive": ["true"],
       "width": 2602,
       "height": 1276
     },
@@ -33,6 +33,7 @@
       "name": "Benchling",
       "img": "benchling.png",
       "url": "https://www.benchling.com/",
+      "interactive": ["true"],
       "width": 1710,
       "height": 896
     },
@@ -41,6 +42,7 @@
       "name": "CLC Genomics workbench",
       "img": "clcgenomics.png",
       "url": "https://digitalinsights.qiagen.com/news/blog/discovery/structural-variant-detection-using-clc-genomics-workbench/",
+      "interactive": ["true"],
       "width": 600,
       "height": 455
     },
@@ -49,6 +51,7 @@
       "name": "DNASTAR",
       "img": "dnastar.png",
       "url": "https://www.dnastar.com/",
+      "interactive": ["true"],
       "width": 438,
       "height": 253
     },
@@ -57,6 +60,7 @@
       "name": "Geneious",
       "img": "geneious.png",
       "url": "https://www.geneious.com/",
+      "interactive": ["true"],
       "width": 1000,
       "height": 600
     },
@@ -65,6 +69,7 @@
       "name": "Genestack",
       "img": "genestack.png",
       "url": "https://genestack.com/blog/2015/05/28/navigation-in-genestack-genome-browser/",
+      "interactive": ["true"],
       "width": 1256,
       "height": 556
     },
@@ -72,7 +77,9 @@
       "tags": ["Commercial"],
       "name": "Golden Helix",
       "img": "goldenhelix.png",
-      "url": "http://goldenhelix.com/GenomeBrowse/",
+      "url": "https://www.goldenhelix.com/products/GenomeBrowse/",
+      "note": "Free for academic use",
+      "interactive": ["true"],
       "width": 360,
       "height": 245
     },
@@ -81,6 +88,7 @@
       "name": "Lucid viewer",
       "img": "lucidalign.png",
       "url": "https://lucidalign.com/",
+      "interactive": ["true"],
       "width": 1024,
       "height": 540
     },
@@ -2249,7 +2257,6 @@
     },
     {
       "tags": [
-        "Special-purpose",
         "Historical",
         "Deadlink",
         "Gene structure",
@@ -2323,6 +2330,7 @@
       "url": "http://www.acsu.buffalo.edu/~lm69/cnvCurator",
       "platform": ["Desktop"],
       "img": "cnvcurator.png",
+      "interactive": ["true"],
       "language": ["Java"],
       "pub": {
         "url": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0766-y",
@@ -2334,26 +2342,30 @@
       "height": 476
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": ["Gene structure", "Coverage", "Variation"],
+      "interactive": ["true"],
       "name": "D3GB",
       "github": "https://github.com/BioinfoUSAL/D3GB",
+      "note": "Live link http://d3gb.usal.es/docs/HumanGenomeBrowser/index.html?r=12:121113963-121213963 doesn't work anymore",
       "img": "d3gb.png",
       "url": "http://d3gb.usal.es/",
-      "language": ["JS", "D3"],
+      "language": ["JS", "D3", "R"],
       "pub": {
         "doi": "https://doi.org/10.1089/cmb.2016.0213",
         "year": 2017,
         "citations": 12
       },
       "platform": ["Web"],
+      "interactive": ["true"],
       "width": 970,
       "height": 360,
       "github_stars": 0
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": ["Exotic"],
       "img": "dnaskittle.png",
       "github": "https://github.com/josiahseaman/skittle",
+      "language": ["Python", "JS"],
       "name": "DNASkittle",
       "url": "https://www.dnaskittle.com/",
       "pub": {
@@ -2367,7 +2379,7 @@
       "github_stars": 7
     },
     {
-      "tags": ["Special-purpose", "Epigenomics"],
+      "tags": ["Epigenomics"],
       "name": "EaSeq",
       "img": "easeq.png",
       "url": "https://easeq.net/screenshots/",
@@ -2382,7 +2394,7 @@
       "height": 312
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": ["Exotic"],
       "name": "FluentDNA",
       "img": "fluentdna.jpeg",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/",
@@ -2412,6 +2424,7 @@
       "github": "https://github.com/MariaNattestad/ribbon",
       "img": "genomeribbon.png",
       "platform": ["Web"],
+      "interactive": ["true"],
       "pub": {
         "url": "https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btaa680/5885081?redirectedFrom=fulltext",
         "doi": "https://doi.org/10.1093/bioinformatics/btaa680",
@@ -2430,6 +2443,7 @@
       "url": "https://genomespy.app/",
       "language": ["JS", "WebGL"],
       "platform": ["Web"],
+      "interactive": ["true"],
       "width": 1194,
       "height": 476,
       "github_stars": 150
@@ -2446,7 +2460,7 @@
       "github_stars": 102
     },
     {
-      "tags": ["Special-purpose", "Linear", "Population"],
+      "tags": ["Linear", "Population"],
       "name": "Gnomad browser",
       "url": "https://github.com/macarthur-lab/gnomadjs",
       "language": ["JS"],
@@ -2506,7 +2520,7 @@
       "height": 533
     },
     {
-      "tags": ["Special-purpose", "Alignments viewer", "Assembly QC"],
+      "tags": ["Alignments viewer", "Assembly QC"],
       "name": "Hawkeye",
       "github": "https://github.com/peterhj/amos",
       "language": ["C++"],
@@ -2586,7 +2600,7 @@
       "height": 359
     },
     {
-      "tags": ["Special-purpose"],
+      "tags": ["Microbiology", "Circular", "Linear"],
       "name": "IslandViewer and IslandPlot",
       "url": "https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565",
       "img": "islandplot.png",
@@ -2604,7 +2618,7 @@
       "github_stars": 33
     },
     {
-      "tags": ["Special-purpose", "Deadlink"],
+      "tags": ["Alignment viewer"],
       "name": "MagicViewer",
       "img": "magicviewer.jpeg",
       "url": "http://bioinformatics.zj.cn/magicviewer/",
@@ -2652,7 +2666,7 @@
       "github_stars": 4
     },
     {
-      "tags": ["Special-purpose", "Population"],
+      "tags": ["Population"],
       "name": "Panoptes",
       "img": "panoptes.png",
       "github": "https://github.com/cggh/panoptes",
@@ -2668,7 +2682,7 @@
       "github_stars": 37
     },
     {
-      "tags": ["Special-purpose", "Alignments viewer"],
+      "tags": ["Alignments viewer"],
       "name": "MapView",
       "img": "mapview.jpg",
       "url": "https://sites.google.com/site/wjwdavy/",
@@ -2684,7 +2698,7 @@
       "height": 397
     },
     {
-      "tags": ["Special-purpose", "Alignments viewer"],
+      "tags": ["Alignments viewer"],
       "name": "NGB",
       "img": "ngb.png",
       "url": "https://github.com/epam/NGB",
@@ -2695,7 +2709,7 @@
       "github_stars": 151
     },
     {
-      "tags": ["Special-purpose", "Coverage"],
+      "tags": ["Coverage"],
       "name": "SeqCover",
       "img": "seqcover.png",
       "github": "https://github.com/brentp/seqcover",
@@ -2722,7 +2736,7 @@
       "github_stars": 8
     },
     {
-      "tags": ["Special-purpose", "CNV"],
+      "tags": ["CNV"],
       "name": "SFARI",
       "url": "https://gene.sfari.org/database/human-gene/",
       "pub": {
@@ -2736,7 +2750,7 @@
       "height": 367
     },
     {
-      "tags": ["Special-purpose", "Alignments viewer"],
+      "tags": ["Alignments viewer"],
       "name": "Short read assembly browser",
       "img": "short_read_assembly_browser.png",
       "platform": ["Web", "Silo"],
@@ -2750,7 +2764,7 @@
       "height": 476
     },
     {
-      "tags": ["Special-purpose", "CNV"],
+      "tags": ["CNV"],
       "name": "SNPitty",
       "url": "https://bitbucket.org/ccbc/snpitty/src/master/",
       "language": ["R"],
@@ -2799,7 +2813,7 @@
       "github_stars": 66
     },
     {
-      "tags": ["Special-purpose", "Alignments viewer", "Assembly"],
+      "tags": ["Alignments viewer", "Assembly"],
       "name": "Staden",
       "language": ["C", "Tcl/Tk"],
       "img": "staden.png",
@@ -2814,7 +2828,7 @@
       "height": 939
     },
     {
-      "tags": ["Special-purpose", "Pangenome"],
+      "tags": ["Pangenome"],
       "name": "TASUKE",
       "img": "tasuke.png",
       "url": "https://ricegenome.dna.affrc.go.jp/",
@@ -2829,7 +2843,7 @@
       "height": 572
     },
     {
-      "tags": ["Special-purpose", "Transposons", "Deadlink"],
+      "tags": ["Transposons", "Deadlink"],
       "language": ["Perl"],
       "platform": ["Web", "CGI", "Server"],
       "name": "TE-nest",
@@ -2846,7 +2860,7 @@
       "github_stars": 0
     },
     {
-      "tags": ["Special-purpose", "Transposons"],
+      "tags": ["Transposons"],
       "name": "Transposcope",
       "github": "https://github.com/FenyoLab/transposcope",
       "img": "transposcope.png",
@@ -2879,7 +2893,7 @@
       "github_stars": 190
     },
     {
-      "tags": ["Special-purpose", "Annotation"],
+      "tags": ["Annotation"],
       "name": "Varsome",
       "img": "varsome.png",
       "pub": {
@@ -2893,7 +2907,7 @@
       "height": 572
     },
     {
-      "tags": ["Special-purpose", "Splicing"],
+      "tags": ["Splicing"],
       "name": "Vials",
       "pub": {
         "doi": "10.1109/TVCG.2015.2467911",
@@ -2906,7 +2920,7 @@
       "github_stars": 14
     },
     {
-      "tags": ["Special-purpose", "Quantitative"],
+      "tags": ["Quantitative"],
       "name": "wasm bigwig demo browser",
       "img": "wasm_bigwig.png",
       "url": "https://shk656461.github.io/index.html",
@@ -6887,6 +6901,7 @@
     },
     {
       "name": "SGTK (scaffold graph toolkit)",
+      "interactive": ["true"],
       "language": ["JS", "C++"],
       "tags": ["Graph"],
       "img": "sgtk.png",

@@ -19,9 +19,11 @@ interface Tool {
   pub?: { url?: string; doi: string; year?: number; citations?: number }
   note?: string
   alt_url?: string
+  interactive?: string[]
 }
 
 interface Filter {
+  interactive?: string
   tag?: string
   language?: string
   platform?: string
@@ -72,6 +74,7 @@ const Card = ({
     pub,
     note,
     alt_url,
+    interactive,
   },
   filters,
   setFilters,
@@ -106,6 +109,9 @@ const Card = ({
           <p className="link">
             Alt url <a href={alt_url}>{alt_url}</a>
           </p>
+        ) : null}
+        {interactive ? (
+          <p className="interactive">Interactive: {interactive?.join(',')}</p>
         ) : null}
         {pub ? (
           <p>
@@ -214,7 +220,7 @@ const TagFilters = ({
   })
   return (
     <div className="form-group">
-      <label htmlFor="tag-select">Filter based on tag: </label>
+      <label htmlFor="tag-select">Filter on tag: </label>
       <select
         id="tag-select"
         value={filters.tag || ''}
@@ -246,7 +252,7 @@ const LanguageFilters = ({
   })
   return (
     <div className="form-group">
-      <label htmlFor="language-select">Filter based on language: </label>
+      <label htmlFor="language-select">Filter on language: </label>
       <select
         value={filters.language || ''}
         id="language-select"
@@ -280,7 +286,7 @@ const PlatformFilters = ({
   })
   return (
     <div className="form-group">
-      <label htmlFor="platform-select">Filter based on platform: </label>
+      <label htmlFor="platform-select">Filter on platform: </label>
       <select
         value={filters.platform || ''}
         id="platform-select"
@@ -298,6 +304,44 @@ const PlatformFilters = ({
     </div>
   )
 }
+
+const InteractiveFilters = ({
+  tools,
+  setFilters,
+  filters,
+}: {
+  tools: Tool[]
+  filters: Filter
+  setFilters: (arg: Filter) => void
+}) => {
+  const interactive = new Set<string>()
+  tools.forEach(tool => {
+    tool.interactive?.forEach(cat => interactive.add(cat))
+  })
+  return (
+    <div className="form-group">
+      <label htmlFor="interactive-select">Filter on interactivity: </label>
+      <select
+        value={filters.interactive || ''}
+        id="interactive-select"
+        onChange={event =>
+          setFilters({
+            ...filters,
+            interactive: event.target.value,
+          })
+        }
+      >
+        <option value="">-- select an option --</option>
+        {[...interactive].sort().map(tag => (
+          <option key={tag} id={tag}>
+            {tag}
+          </option>
+        ))}
+      </select>
+    </div>
+  )
+}
+
 const IndexPage = () => {
   const [filters, setFilters] = useState<Filter>({})
   const [alreadyScrolledTo, setAlreadyScrolledTo] = useState(false)
@@ -308,7 +352,7 @@ const IndexPage = () => {
     citations?: number
   }>({})
   const [selected, setSelected] = useState<{ selected?: string }>({})
-  const { language, tag, platform } = filters
+  const { language, tag, platform, interactive } = filters
 
   useEffect(() => {
     const {
@@ -394,9 +438,10 @@ const IndexPage = () => {
   }
 
   const filteredTools = tools
-    .filter(tool => (language ? tool.language?.includes(language) : true))
-    .filter(tool => (tag ? tool.tags?.includes(tag) : true))
-    .filter(tool => (platform ? tool.platform?.includes(platform) : true))
+    .filter(t => (language ? t.language?.includes(language) : true))
+    .filter(t => (tag ? t.tags?.includes(tag) : true))
+    .filter(t => (platform ? t.platform?.includes(platform) : true))
+    .filter(t => (interactive ? t.interactive?.includes(interactive) : true))
 
   const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
 
@@ -486,6 +531,11 @@ const IndexPage = () => {
         />
         <PlatformFilters
           tools={importedTools}
+          filters={filters}
+          setFilters={setFilters}
+        />
+        <InteractiveFilters
+          tools={tools}
           filters={filters}
           setFilters={setFilters}
         />
