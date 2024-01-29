@@ -539,6 +539,10 @@ const IndexPage = () => {
           filters={filters}
           setFilters={setFilters}
         />
+        <span>
+          Note: tagging interactivity is a work in progress (as are other tags,
+          feel free to contribute on github)
+        </span>
       </div>
 
       <Cards

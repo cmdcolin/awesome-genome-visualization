@@ -2620,6 +2620,7 @@
     {
       "tags": ["Alignment viewer"],
       "name": "MagicViewer",
+      "language": ["Java"],
       "img": "magicviewer.jpeg",
       "url": "http://bioinformatics.zj.cn/magicviewer/",
       "platform": ["Desktop"],
@@ -2637,8 +2638,8 @@
       "name": "Locuszoom",
       "github": "https://github.com/statgen/locuszoom",
       "img": "locuszoom.png",
-      "note": "Also see locuszoom.js http://locuszoom.org/locuszoomjs.php",
       "url": "http://locuszoom.org/",
+      "language": ["R", "Python"],
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btq419",
         "year": 2010,
@@ -2648,6 +2649,13 @@
       "width": 488,
       "height": 310,
       "github_stars": 142
+    },
+    {
+      "name": "Locuszoom.js",
+      "url": "http://locuszoom.org/locuszoomjs.php",
+      "github": "https://github.com/statgen/locuszoom",
+      "platform": ["Web"],
+      "pub": { "doi": "https://doi.org/10.1093/bioinformatics/btab186" }
     },
     {
       "tags": ["Alignments viewer"],
@@ -2843,7 +2851,7 @@
       "height": 572
     },
     {
-      "tags": ["Transposons", "Deadlink"],
+      "tags": ["Transposons", "Repeats", "Deadlink"],
       "language": ["Perl"],
       "platform": ["Web", "CGI", "Server"],
       "name": "TE-nest",
@@ -2860,7 +2868,7 @@
       "github_stars": 0
     },
     {
-      "tags": ["Transposons"],
+      "tags": ["Transposons", "Repeasts"],
       "name": "Transposcope",
       "github": "https://github.com/FenyoLab/transposcope",
       "img": "transposcope.png",
