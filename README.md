@@ -473,6 +473,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genome_plots_processing.png)
 - [Genomicus](https://www.genomicus.biologie.ens.fr/genomicus/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomicus.png)
+- [geneviewer](https://nvelden.github.io/geneviewer/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/geneviewer.png)
 - [gggenomes](https://github.com/thackl/gggenomes)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gggenomes.png)
 - [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
