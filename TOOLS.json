@@ -661,6 +661,7 @@
       "height": 970,
       "github_stars": 103
     },
+
     {
       "tags": ["Static", "Gene structure"],
       "name": "Geneviz",
@@ -6980,6 +6981,17 @@
       "width": 5905,
       "height": 2362,
       "github_stars": 37
+    },
+    {
+      "tags": ["Static", "Comparative"],
+      "name": "geneviewer",
+      "img": "geneviewer.png",
+      "url": "https://nvelden.github.io/geneviewer/",
+      "github": "https://github.com/nvelden/geneviewer",
+      "language": ["R"],
+      "width": 1492,
+      "height": 1247,
+      "github_stars": 4
     }
   ]
 }
