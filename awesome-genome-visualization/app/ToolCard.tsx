@@ -141,17 +141,14 @@ export default function ToolCard({
             className={expanded ? 'expanded' : ''}
             width={width}
             height={height}
-            src={'awesome-genome-visualization/' + img}
+            src={img}
           />
         ) : (
           <p className="no-screenshot">No screenshot</p>
         )}
         {expanded ? (
           <div className="modal-backdrop">
-            <img
-              alt={`screenshot of ${name}`}
-              src={'awesome-genome-visualization/' + img}
-            />
+            <img alt={`screenshot of ${name}`} src={img} />
           </div>
         ) : null}
       </figure>
