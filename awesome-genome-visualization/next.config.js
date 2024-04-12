@@ -1,17 +1,9 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = {
+export default {
   reactStrictMode: true,
-  swcMinify: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   output: 'export',
-  productionBrowserSourceMaps: true,
-
-  images: {
-    loader: 'akamai',
-    path: '/',
-  },
+  basePath: '/awesome-genome-visualization',
 }
-
-export default nextConfig

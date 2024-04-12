@@ -19,17 +19,13 @@ export default function ToolCards({
   setSelected: (arg: { selected: string }) => void
   setFilters: (arg: Filter) => void
 }) {
-  return (
-    <>
-      {tools.map(tool => (
-        <ToolCard
-          tool={tool}
-          key={tool.name}
-          setSelected={setSelected}
-          setFilters={setFilters}
-          filters={filters}
-        />
-      ))}
-    </>
-  )
+  return tools.map(tool => (
+    <ToolCard
+      tool={tool}
+      key={tool.name}
+      setSelected={setSelected}
+      setFilters={setFilters}
+      filters={filters}
+    />
+  ))
 }

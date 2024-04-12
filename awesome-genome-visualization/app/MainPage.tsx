@@ -4,13 +4,12 @@ import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 
 // locals
-import tools from './TOOLS'
 import ToolCards from './ToolCards'
 import InteractiveFilters from './InteractiveFilters'
 import PlatformFilters from './PlatformFilters'
 import TagFilters from './TagFilters'
 import LanguageFilters from './LanguageFilters'
-const { tools: importedTools } = tools
+import { Tool } from '@/lib/api'
 
 interface Filter {
   interactive?: string
@@ -21,8 +20,10 @@ interface Filter {
 
 const coerseN = (arg: unknown) => (arg ? Number(arg) : undefined)
 const coerseS = (arg: unknown) => (arg ? String(arg) : undefined)
+const coerseB = (arg: string) =>
+  arg ? (JSON.parse(arg) as boolean) : undefined
 
-export default function MainPage() {
+export default function MainPage({ tools }: { tools: Tool[] }) {
   const [filters, setFilters] = useState<Filter>({})
   const [alreadyScrolledTo, setAlreadyScrolledTo] = useState(false)
   const [sort, setSort] = useState<{
@@ -58,7 +59,7 @@ export default function MainPage() {
         stars: coerseN(starsURL),
       })
     } else {
-      setSort({ latest: Boolean(latestURL) })
+      setSort({ latest: coerseB(latestURL || 'true') })
     }
     if (selectedURL) {
       setSelected({ selected: `${selectedURL}` })
@@ -76,7 +77,6 @@ export default function MainPage() {
 
   useEffect(() => {
     const params = queryString.stringify({ ...filters, ...sort, ...selected })
-    console.log({ params })
     if (params) {
       window.history.pushState(null, '', '?' + params)
     }
@@ -90,10 +90,7 @@ export default function MainPage() {
     }
   }, [filters, sort, selected, alreadyScrolledTo])
 
-  let tools = importedTools.slice()
-  if (sort.latest) {
-    tools = tools.reverse()
-  }
+  tools = sort.latest ? tools.slice().reverse() : tools.slice()
 
   const y = sort.year
   if (y !== undefined) {
@@ -186,7 +183,9 @@ export default function MainPage() {
         <button onClick={() => setSort({ latest: true })}>
           Recently added
         </button>
-        <button onClick={() => setSort({})}>Least recently added</button>
+        <button onClick={() => setSort({ latest: false })}>
+          Least recently added
+        </button>
         <button onClick={() => setSort({ year: -1 })}>Year (dec)</button>
         <button onClick={() => setSort({ year: 1 })}>Year (asc)</button>
         <button onClick={() => setSort({ citations: -1 })}>
@@ -209,18 +208,14 @@ export default function MainPage() {
       </p>
 
       <div id="filters">
-        <TagFilters
-          tools={importedTools}
-          filters={filters}
-          setFilters={setFilters}
-        />
+        <TagFilters tools={tools} filters={filters} setFilters={setFilters} />
         <LanguageFilters
-          tools={importedTools}
+          tools={tools}
           filters={filters}
           setFilters={setFilters}
         />
         <PlatformFilters
-          tools={importedTools}
+          tools={tools}
           filters={filters}
           setFilters={setFilters}
         />
