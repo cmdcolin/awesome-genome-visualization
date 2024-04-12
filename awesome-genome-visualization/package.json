@@ -1,33 +1,33 @@
 {
-  "name": "awesome-genome-visualization",
-  "version": "1.0.0",
   "private": true,
-  "license": "MIT",
-  "description": "awesome-genome-visualization",
-  "author": "Colin",
-  "keywords": [
-    "gatsby"
-  ],
+  "type": "module",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -f",
-    "postdeploy": "git push"
+    "dev": "next --turbo",
+    "build": "next build",
+    "start": "next dev",
+    "lint": "next lint",
+    "predeploy": "npm run build && touch out/.nojekyll",
+    "deploy": "gh-pages -d out -t true",
+    "postdeploy": "git push --follow-tags"
   },
   "dependencies": {
-    "gatsby": "^5.12.7",
-    "gh-pages": "^6.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "slugify": "^1.6.4",
-    "use-query-params": "^2.2.0"
+    "next": "^14.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "slugify": "^1.6.6"
   },
   "devDependencies": {
-    "@types/node": "^18.15.0",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11"
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   }
 }
