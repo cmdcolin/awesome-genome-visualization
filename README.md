@@ -384,6 +384,8 @@ wider community! And feel free to send PRs for more tools!
 - [bcftools roh](https://samtools.github.io/bcftools/howtos/roh-calling.html)
   (Plots runs of homozygosity, has interactive plot-roh.py helper too)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bcftools_roh.png)
+- [geneviewer](https://nvelden.github.io/geneviewer/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/geneviewer.png)
 
 ## Gene fusion
 
@@ -835,6 +837,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcf2circos.png)
 - [ReConPlot](undefined)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/reconplot.png)
+- [SVhawkeye](https://github.com/yywan0913/SVhawkeye)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svhawkeye.jpg)
 
 ## Text based
 
@@ -874,8 +878,7 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/circleator.png)
 - [circlize](https://github.com/jokergoo/circlize)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/circlize.jpeg)
-- [Circos](http://circos.ca/) (the github repo is not up to date with the latest
-  code)
+- [Circos](http://circos.ca/) (no official github to my knowledge)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/circos.png)
 - [CircosJS](https://github.com/nicgirault/circosJS)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/circosjs.png)
@@ -1237,6 +1240,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gcmapexplorer.png)
 - [PretextView](undefined)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pretextview.jpg)
+- [figeno](https://github.com/CompEpigen/figeno)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/figeno.png)
 
 ## Deadlink
 
