@@ -7030,6 +7030,27 @@
       "width": 4868,
       "height": 5454,
       "github_stars": 2
+    },
+    {
+      "name": "SYNY",
+      "img": "syny.png",
+      "url": "https://github.com/PombertLab/SYNY",
+      "language": ["Perl", "Python"],
+      "tags": [
+        "Comparative",
+        "Dotplot",
+        "Linear synteny",
+        "Circular",
+        "Ideogram"
+      ]
+    },
+    {
+      "name": "chrov",
+      "img": "chrov.png",
+      "url": "https://github.com/rraadd88/chrov",
+      "language": ["Python"],
+      "tags": ["Lollipop", "Ideogram", "Circular", "CNV"],
+      "note": "See also usage in https://github.com/rraadd88/beditor"
     }
   ]
 }
