@@ -7042,7 +7042,9 @@
         "Linear synteny",
         "Circular",
         "Ideogram"
-      ]
+      ],
+      "width": 1692,
+      "height": 2446
     },
     {
       "name": "chrov",
@@ -7050,7 +7052,9 @@
       "url": "https://github.com/rraadd88/chrov",
       "language": ["Python"],
       "tags": ["Lollipop", "Ideogram", "Circular", "CNV"],
-      "note": "See also usage in https://github.com/rraadd88/beditor"
+      "note": "See also usage in https://github.com/rraadd88/beditor",
+      "width": 576,
+      "height": 1106
     }
   ]
 }
