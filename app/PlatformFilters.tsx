@@ -14,12 +14,16 @@ export default function PlatformFilters({
 }: {
   tools: Tool[]
   filters: Filter
-  setFilters: (arg: Filter) => void
+  setFilters: (argument: Filter) => void
 }) {
   const platform = new Set<string>()
-  tools.forEach(tool => {
-    tool.platform?.forEach(cat => platform.add(cat))
-  })
+  for (const tool of tools) {
+    if (tool.platform) {
+      for (const cat of tool.platform) {
+        platform.add(cat)
+      }
+    }
+  }
   return (
     <div className="form-group">
       <label htmlFor="platform-select">Filter on platform: </label>

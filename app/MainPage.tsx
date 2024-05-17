@@ -18,10 +18,10 @@ interface Filter {
   platform?: string
 }
 
-const coerseN = (arg: unknown) => (arg ? Number(arg) : undefined)
-const coerseS = (arg: unknown) => (arg ? String(arg) : undefined)
-const coerseB = (arg: string) =>
-  arg ? (JSON.parse(arg) as boolean) : undefined
+const coerseN = (argument: unknown) => (argument ? Number(argument) : undefined)
+const coerseS = (argument: unknown) => (argument ? String(argument) : undefined)
+const coerseB = (argument: string) =>
+  argument ? (JSON.parse(argument) as boolean) : undefined
 
 export default function MainPage({ tools }: { tools: Tool[] }) {
   const [filters, setFilters] = useState<Filter>({})
@@ -35,15 +35,15 @@ export default function MainPage({ tools }: { tools: Tool[] }) {
   const [selected, setSelected] = useState<{ selected?: string }>({})
   const { language, tag, platform, interactive } = filters
 
-  const searchParams = useSearchParams()
-  const selectedURL = searchParams.get('selected')
-  const languageURL = searchParams.get('language')
-  const tagURL = searchParams.get('tag')
-  const platformURL = searchParams.get('platform')
-  const latestURL = searchParams.get('latest')
-  const citationsURL = searchParams.get('citations')
-  const yearURL = searchParams.get('year')
-  const starsURL = searchParams.get('stars')
+  const searchParameters = useSearchParams()
+  const selectedURL = searchParameters.get('selected')
+  const languageURL = searchParameters.get('language')
+  const tagURL = searchParameters.get('tag')
+  const platformURL = searchParameters.get('platform')
+  const latestURL = searchParameters.get('latest')
+  const citationsURL = searchParameters.get('citations')
+  const yearURL = searchParameters.get('year')
+  const starsURL = searchParameters.get('stars')
 
   useEffect(() => {
     setFilters({
@@ -76,9 +76,13 @@ export default function MainPage({ tools }: { tools: Tool[] }) {
   ])
 
   useEffect(() => {
-    const params = queryString.stringify({ ...filters, ...sort, ...selected })
-    if (params) {
-      window.history.pushState(null, '', '?' + params)
+    const parameters = queryString.stringify({
+      ...filters,
+      ...sort,
+      ...selected,
+    })
+    if (parameters) {
+      window.history.pushState(null, '', '?' + parameters)
     }
 
     if (selected.selected && !alreadyScrolledTo) {
@@ -90,7 +94,7 @@ export default function MainPage({ tools }: { tools: Tool[] }) {
     }
   }, [filters, sort, selected, alreadyScrolledTo])
 
-  tools = sort.latest ? tools.slice().reverse() : tools.slice()
+  tools = sort.latest ? [...tools].reverse() : [...tools]
 
   const y = sort.year
   if (y !== undefined) {

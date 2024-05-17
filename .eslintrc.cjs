@@ -9,6 +9,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:unicorn/recommended',
   ],
   parserOptions: {
     project: './tsconfig.json',
@@ -20,5 +21,7 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/prefer-nullish-coalescing': 0,
     'jsx-a11y/alt-text': 0,
+    'unicorn/prefer-node-protocol': 0,
+    curly: 2,
   },
 }

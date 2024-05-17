@@ -16,8 +16,8 @@ export default function ToolCards({
 }: {
   tools: Tool[]
   filters: Filter
-  setSelected: (arg: { selected: string }) => void
-  setFilters: (arg: Filter) => void
+  setSelected: (argument: { selected: string }) => void
+  setFilters: (argument: Filter) => void
 }) {
   return tools.map(tool => (
     <ToolCard

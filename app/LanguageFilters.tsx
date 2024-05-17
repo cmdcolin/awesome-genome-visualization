@@ -14,12 +14,16 @@ export default function LanguageFilters({
 }: {
   tools: Tool[]
   filters: Filter
-  setFilters: (arg: Filter) => void
+  setFilters: (argument: Filter) => void
 }) {
   const languages = new Set<string>()
-  tools.forEach(tool => {
-    tool.language?.forEach(cat => languages.add(cat))
-  })
+  for (const tool of tools) {
+    if (tool.language) {
+      for (const cat of tool.language) {
+        languages.add(cat)
+      }
+    }
+  }
   return (
     <div className="form-group">
       <label htmlFor="language-select">Filter on language: </label>

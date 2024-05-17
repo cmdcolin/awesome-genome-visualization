@@ -14,12 +14,16 @@ export default function TagFilters({
 }: {
   tools: Tool[]
   filters: Filter
-  setFilters: (arg: Filter) => void
+  setFilters: (argument: Filter) => void
 }) {
   const tags = new Set<string>()
-  tools.forEach(tool => {
-    tool.tags?.forEach(cat => tags.add(cat))
-  })
+  for (const tool of tools) {
+    if (tool.tags) {
+      for (const cat of tool.tags) {
+        tags.add(cat)
+      }
+    }
+  }
   return (
     <div className="form-group">
       <label htmlFor="tag-select">Filter on tag: </label>

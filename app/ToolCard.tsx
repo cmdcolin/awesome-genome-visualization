@@ -32,11 +32,11 @@ export default function ToolCard({
 }: {
   tool: Tool
   filters: Filter
-  setSelected: (arg: { selected: string }) => void
-  setFilters: (arg: Filter) => void
+  setSelected: (argument: { selected: string }) => void
+  setFilters: (argument: Filter) => void
 }) {
   const [expanded, setExpanded] = useState(false)
-  const slug = slugify(name, { remove: /[*+~.()'"!:@]/g })
+  const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
   return (
     <div className="card">
       <div>
@@ -79,9 +79,9 @@ export default function ToolCard({
               </a>
             ) : null}{' '}
             {pub.year ? ` (${pub.year})` : null}
-            {pub.citations !== undefined
-              ? ` (# citations ${pub.citations})`
-              : null}
+            {pub.citations === undefined
+              ? null
+              : ` (# citations ${pub.citations})`}
           </p>
         ) : null}
         {language ? (

@@ -14,12 +14,16 @@ export default function InteractiveFilters({
 }: {
   tools: Tool[]
   filters: Filter
-  setFilters: (arg: Filter) => void
+  setFilters: (argument: Filter) => void
 }) {
   const interactive = new Set<string>()
-  tools.forEach(tool => {
-    tool.interactive?.forEach(cat => interactive.add(cat))
-  })
+  for (const tool of tools) {
+    if (tool.interactive) {
+      for (const cat of tool.interactive) {
+        interactive.add(cat)
+      }
+    }
+  }
   return (
     <div className="form-group">
       <label htmlFor="interactive-select">Filter on interactivity: </label>
