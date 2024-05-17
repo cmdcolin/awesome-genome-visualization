@@ -22,6 +22,9 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 0,
     'jsx-a11y/alt-text': 0,
     'unicorn/prefer-node-protocol': 0,
+    'unicorn/no-null': 0,
+    'unicorn/filename-case': 0,
+
     curly: 2,
   },
 }
