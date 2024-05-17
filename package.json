@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "prettier": "^3.1.1"
-  },
-  "type": "module",
-  "scripts": {
-    "deploy": "cd awesome-genome-visualization;npm run deploy; cd -"
-  }
-}
