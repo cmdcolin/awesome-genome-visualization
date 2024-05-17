@@ -7067,6 +7067,19 @@
       "width": 576,
       "height": 1106,
       "github_stars": 3
+    },
+    {
+      "name": "waragraph",
+      "img": "waragraph.png",
+      "tags": ["Graph"],
+      "url": "https://chfi.github.io/waragraph/",
+      "github": "https://github.com/chfi/waragraph",
+      "note": "Deployed to the web via wasm",
+      "language": ["Rust"],
+      "platform": ["Web", "Desktop"],
+      "width": 1783,
+      "height": 901,
+      "github_stars": 20
     }
   ]
 }
