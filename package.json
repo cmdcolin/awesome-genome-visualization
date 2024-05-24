@@ -11,9 +11,9 @@
     "postdeploy": "git push --follow-tags"
   },
   "dependencies": {
-    "next": "^14.0.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "next": "next",
+    "react": "next",
+    "react-dom": "next",
     "slugify": "^1.6.6"
   },
   "devDependencies": {
