@@ -5179,7 +5179,7 @@
     {
       "name": "GENESPACE",
       "url": "https://github.com/jtlovell/GENESPACE/",
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Pangenome"],
       "img": "genespace.png",
       "pub": {
         "doi": "https://doi.org/10.7554/eLife.78526",
@@ -5493,8 +5493,8 @@
         "year": 2022,
         "citations": 4
       },
-      "tags": ["Comparative", "SV"],
-      "note": "Blurs the line between synteny and SV visualization, a good thing! see also https://github.com/schneebergerlab/syri",
+      "tags": ["Comparative", "SV", "Pangenome"],
+      "note": "see also https://github.com/schneebergerlab/syri",
       "width": 1298,
       "height": 863,
       "github_stars": 261
@@ -7013,7 +7013,7 @@
       "language": ["Python", "R"],
       "url": "https://github.com/yywan0913/SVhawkeye",
       "pub": {
-        "doi": " https://doi.org/10.3389/fgene.2024.1352443",
+        "doi": "https://doi.org/10.3389/fgene.2024.1352443",
         "year": 2024,
         "citations": 0
       },
