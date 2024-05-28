@@ -747,7 +747,7 @@
       "height": 300
     },
     {
-      "tags": ["Static", "Ideogram", "Circular", "Multi"],
+      "tags": ["Static", "Ideogram", "Circular"],
       "name": "ggbio",
       "url": "http://www.bioconductor.org/packages/2.11/bioc/vignettes/ggbio/inst/doc/ggbio.pdf",
       "github": "https://github.com/lawremi/ggbio",
@@ -815,7 +815,7 @@
       "github_stars": 39
     },
     {
-      "tags": ["Static", "Alignments viewer", "Quantitative", "Multi"],
+      "tags": ["Static", "Alignments viewer", "Quantitative"],
       "name": "Gviz",
       "img": "gviz.png",
       "url": "https://bioconductor.org/packages/release/bioc/html/Gviz.html",
@@ -930,7 +930,7 @@
     {
       "name": "pauvre",
       "github": "https://github.com/conchoecia/pauvre",
-      "tags": ["Static", "Misc QC", "Comparative"],
+      "tags": ["Static", "Comparative", "Multi-way synteny"],
       "img": "pauvre.png",
       "language": ["Python"],
       "platform": ["CLI"],
@@ -1100,7 +1100,7 @@
         "year": 2014,
         "citations": 172
       },
-      "tags": ["Static", "Multi"],
+      "tags": ["Static"],
       "width": 589,
       "height": 247,
       "github_stars": 67
@@ -1422,7 +1422,7 @@
       "github_stars": 49
     },
     {
-      "tags": ["Comparative", "Gene order"],
+      "tags": ["Comparative", "Gene order", "Pangenome"],
       "name": "Genome Context Viewer",
       "github": "https://github.com/legumeinfo/gcv",
       "url": "https://www.legumefederation.org/gcv/phytozome_10_2/",
@@ -1836,7 +1836,7 @@
       "github_stars": 8
     },
     {
-      "tags": ["Graph", "Multi", "Alignments viewer", "Circular", "SV"],
+      "tags": ["Graph", "Alignments viewer", "Circular", "SV"],
       "name": "MoMi-G",
       "img": "momig.png",
       "url": "https://github.com/MoMI-G/MoMI-G",
@@ -2489,7 +2489,7 @@
       "height": 745
     },
     {
-      "tags": ["Expression", "Linear", "LD"],
+      "tags": ["Expression", "Linear", "Linkage disequilibrium"],
       "img": "gtex_locus.png",
       "name": "GTEX Locus browser",
       "pub": {
@@ -2503,7 +2503,7 @@
       "height": 767
     },
     {
-      "tags": ["Population", "LD", "GWAS"],
+      "tags": ["Population", "Linkage disequilibrium", "GWAS"],
       "name": "GWAS catalog browser",
       "img": "gwascatalog.png",
       "pub": {
@@ -2824,7 +2824,7 @@
       "github_stars": 66
     },
     {
-      "tags": ["Alignments viewer", "Assembly"],
+      "tags": ["Alignments viewer", "Assembly QC"],
       "name": "Staden",
       "language": ["C", "Tcl/Tk"],
       "img": "staden.png",
@@ -2871,7 +2871,7 @@
       "github_stars": 1
     },
     {
-      "tags": ["Transposons", "Repeasts"],
+      "tags": ["Transposons", "Repeats"],
       "name": "Transposcope",
       "github": "https://github.com/FenyoLab/transposcope",
       "img": "transposcope.png",
@@ -3274,7 +3274,7 @@
       "height": 697
     },
     {
-      "tags": ["General", "Multi"],
+      "tags": ["General"],
       "name": "Nucleome browser",
       "img": "nucleome.png",
       "url": "https://vis.nucleome.org/v1/main.html",
@@ -3860,7 +3860,7 @@
       "github_stars": 208
     },
     {
-      "tags": ["Mobile", "Alignments viewer"],
+      "tags": ["Mobile app", "Alignments viewer"],
       "name": "iGenomics",
       "language": ["Objective-C"],
       "github": "https://github.com/stuckinaboot/iGenomics",
@@ -4155,7 +4155,7 @@
     },
     {
       "name": "clinker",
-      "tags": ["Comparative", "Gene order"],
+      "tags": ["Comparative", "Gene order", "Multi-way synteny"],
       "language": ["JS"],
       "img": "clinker.png",
       "url": "https://github.com/gamcil/clinker",
@@ -4363,7 +4363,7 @@
         "year": 2021,
         "citations": 12
       },
-      "tags": ["QC", "Assembly"],
+      "tags": ["Assembly QC"],
       "img": "alvis_chimeric.png",
       "width": 708,
       "height": 396,
@@ -4436,7 +4436,7 @@
       "name": "vcfR",
       "img": "vcfr.png",
       "language": ["R"],
-      "tags": ["QC", "Population", "Coverage"],
+      "tags": ["Population", "Coverage"],
       "note": "image shows chromoqc output",
       "url": "https://knausb.github.io/vcfR_documentation/",
       "github": "https://github.com/knausb/vcfR",
@@ -4733,7 +4733,7 @@
     {
       "name": "vega",
       "url": "http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL",
-      "tags": ["Assembly", "Historical", "Genetic map"],
+      "tags": ["Assembly QC", "Historical", "Genetic map"],
       "platform": ["Web"],
       "pub": {
         "doi": "https://doi.org/10.1093/nar/gki135",
@@ -4947,7 +4947,7 @@
       "name": "MIRA",
       "language": ["C++"],
       "img": "mira.png",
-      "tags": ["Assembly", "Alignments viewer", "Historical"],
+      "tags": ["Assembly QC", "Alignments viewer", "Historical"],
       "url": "http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html",
       "pub": {
         "doi": "https://dx.doi.org/10.1101%2Fgr.1917404",
@@ -5028,7 +5028,7 @@
     },
     {
       "name": "Haploview",
-      "tags": ["Population", "LD"],
+      "tags": ["Population", "Linkage disequilibrium"],
       "img": "haploview.png",
       "url": "https://www.broadinstitute.org/haploview/haploview",
       "platform": ["Desktop"],
@@ -5085,8 +5085,8 @@
       "github_stars": 127
     },
     {
-      "name": "PGV",
-      "img": "pgv.png",
+      "name": "PGV (pangenome tool)",
+      "img": "pgv1.png",
       "url": "https://github.com/ucrbioinfo/PGV",
       "language": ["Python"],
       "platform": ["Web"],
@@ -5298,7 +5298,7 @@
     {
       "name": "miropeats",
       "img": "miropeats.png",
-      "tags": ["Comparative", "Repeats", "Synteny", "Historical"],
+      "tags": ["Comparative", "Repeats", "Historical"],
       "language": ["Perl", "C"],
       "note": "image from 2021 paper https://www.biorxiv.org/content/10.1101/2021.12.08.471837v1.full.pdf",
       "pub": {
@@ -5959,7 +5959,7 @@
         "year": 1998,
         "citations": 2676
       },
-      "tags": ["Academic license", "Assembly", "Alignments viewer"],
+      "tags": ["Academic license", "Assembly QC", "Alignments viewer"],
       "width": 650,
       "height": 994
     },
@@ -6150,7 +6150,7 @@
       "width": 1632,
       "height": 2147,
       "github_stars": 73,
-      "tags": ["GWAS", "Gene structure", "LD"],
+      "tags": ["GWAS", "Gene structure", "Linkage disequilibrium"],
       "language": ["Julia"]
     },
     {
@@ -6610,7 +6610,7 @@
     },
     {
       "name": "NGenomeSyn",
-      "tags": ["Comparative", "Multi-way synteny", "Synteny"],
+      "tags": ["Comparative", "Multi-way synteny"],
       "img": "ngenomesyn.png",
       "language": ["Perl"],
       "pub": {
@@ -6628,7 +6628,7 @@
       "name": "chromsyn",
       "img": "chromsyn.png",
       "github": "https://github.com/slimsuite/chromsyn",
-      "tags": ["Comparative", "Synteny", "Multi-way"],
+      "tags": ["Comparative", "Multi-way synteny"],
       "language": ["R"],
       "doi": {
         "pub": "10.1101/2022.04.22.489119"
@@ -6764,7 +6764,7 @@
     {
       "name": "rich-msa",
       "language": ["Python"],
-      "tags": ["Text-based", "MSA"],
+      "tags": ["Text based", "MSA"],
       "github": "https://github.com/althonos/rich-msa",
       "img": "richmsa.png",
       "width": 933,
@@ -6805,7 +6805,7 @@
     {
       "name": "GCSnap",
       "img": "gcsnap.png",
-      "tags": ["Comparative", "Synteny"],
+      "tags": ["Comparative"],
       "github": "https://github.com/JoanaMPereira/GCsnap",
       "pub": {
         "doi": "https://doi.org/10.1016/j.jmb.2021.166943",
@@ -6847,7 +6847,7 @@
       "img": "moddotplot.png",
       "url": "https://github.com/marbl/ModDotPlot",
       "language": ["Python"],
-      "tags": ["Comparative", "Heatmap", "Repeats"],
+      "tags": ["Comparative", "Dotplot", "Heatmap", "Repeats"],
       "width": 1926,
       "height": 1296,
       "github_stars": 90
@@ -6855,7 +6855,7 @@
     {
       "name": "odp (oxford dot plots)",
       "img": "odp.png",
-      "tags": ["Comparative", "Macrosynteny", "Synteny", "Snakemake"],
+      "tags": ["Comparative", "Dotplot", "Snakemake", "Multi-way synteny"],
       "url": "https://github.com/conchoecia/odp",
       "language": ["Python"],
       "pub": {
@@ -6928,10 +6928,10 @@
       "github_stars": 27
     },
     {
-      "name": "pgv",
+      "name": "pgv (graph tool)",
       "github": "https://github.com/w-gao/pgv",
       "url": "https://w-gao.github.io/pgv/",
-      "img": "pgv.png",
+      "img": "pgv2.png",
       "tags": ["Graph"],
       "language": ["JS", "Python"],
       "width": 1281,
@@ -6967,7 +6967,7 @@
       "name": "ntSynt",
       "img": "ntsynt.png",
       "language": ["R"],
-      "tags": ["Comparative", "Synteny", "Multi-way synteny"],
+      "tags": ["Comparative", "Multi-way synteny"],
       "github": "https://github.com/bcgsc/ntSynt/",
       "url": "https://github.com/bcgsc/ntSynt/tree/main/visualization_scripts",
       "pub": {
@@ -6994,7 +6994,7 @@
     {
       "name": "figeno",
       "img": "figeno.png",
-      "tags": ["Hi-C", "Epigenetics", "Methylation", "Alignment viewer"],
+      "tags": ["Hi-C", "Epigenomics", "Methylation", "Alignments viewer"],
       "language": ["Python", "JS"],
       "url": "https://github.com/CompEpigen/figeno",
       "pub": {
@@ -7049,9 +7049,9 @@
       "tags": [
         "Comparative",
         "Dotplot",
-        "Linear synteny",
         "Circular",
-        "Ideogram"
+        "Ideogram",
+        "Multi-way synteny"
       ],
       "width": 1692,
       "height": 2446,
@@ -7062,7 +7062,7 @@
       "img": "chrov.png",
       "url": "https://github.com/rraadd88/chrov",
       "language": ["Python"],
-      "tags": ["Lollipop", "Ideogram", "Circular", "CNV"],
+      "tags": ["Ideogram", "Lollipops", "Circular", "CNV"],
       "note": "See also usage in https://github.com/rraadd88/beditor",
       "width": 576,
       "height": 1106,

@@ -18,9 +18,9 @@ interface Filter {
   platform?: string
 }
 
-const coerseN = (argument: unknown) => (argument ? Number(argument) : undefined)
-const coerseS = (argument: unknown) => (argument ? String(argument) : undefined)
-const coerseB = (argument: string) =>
+const coerceN = (argument: unknown) => (argument ? Number(argument) : undefined)
+const coerceS = (argument: unknown) => (argument ? String(argument) : undefined)
+const coerceB = (argument: string) =>
   argument ? (JSON.parse(argument) as boolean) : undefined
 
 export default function MainPage({ tools }: { tools: Tool[] }) {
@@ -47,19 +47,19 @@ export default function MainPage({ tools }: { tools: Tool[] }) {
 
   useEffect(() => {
     setFilters({
-      language: coerseS(languageURL),
-      tag: coerseS(tagURL),
-      platform: coerseS(platformURL),
+      language: coerceS(languageURL),
+      tag: coerceS(tagURL),
+      platform: coerceS(platformURL),
     })
 
     if (citationsURL || yearURL || starsURL) {
       setSort({
-        citations: coerseN(citationsURL),
-        year: coerseN(yearURL),
-        stars: coerseN(starsURL),
+        citations: coerceN(citationsURL),
+        year: coerceN(yearURL),
+        stars: coerceN(starsURL),
       })
     } else {
-      setSort({ latest: coerseB(latestURL || 'true') })
+      setSort({ latest: coerceB(latestURL || 'true') })
     }
     if (selectedURL) {
       setSelected({ selected: `${selectedURL}` })

@@ -290,6 +290,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/coverageplotter.png)
 - [genome_coverage_plotter](undefined)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genome-coverage-plotter.png)
+- [SeeNV](https://github.com/MSBradshaw/SeeNV)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seenv.png)
 
 ## Static
 
@@ -560,8 +562,7 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/evolutionaryhighway.jpg)
 - [Smash++](https://github.com/smortezah/smashpp)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/smashpp.png)
-- [plotsr](https://github.com/schneebergerlab/plotsr) (Blurs the line between
-  synteny and SV visualization, a good thing! see also
+- [plotsr](https://github.com/schneebergerlab/plotsr) (see also
   https://github.com/schneebergerlab/syri)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plotsr.png)
 - [GenomeMatcher](http://www.ige.tohoku.ac.jp/joho/gmProject/gmmanual.html)
@@ -625,6 +626,8 @@ wider community! And feel free to send PRs for more tools!
 - [ntSynt](https://github.com/bcgsc/ntSynt/tree/main/visualization_scripts)
   (Uses gggenomes)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ntsynt.png)
+- [SYNY](https://github.com/PombertLab/SYNY)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syny.png)
 
 ## Single cell
 
@@ -797,10 +800,12 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vrpg.png)
 - [SGTK (scaffold graph toolkit)](https://olga24912.github.io/SGTK/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sgtk.png)
-- [pgv](https://w-gao.github.io/pgv/)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgv.png)
+- [pgv (graph tool)](https://w-gao.github.io/pgv/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgv2.png)
 - [VAG](undefined)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vag.jpg)
+- [waragraph](https://chfi.github.io/waragraph/) (Deployed to the web via wasm)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/waragraph.png)
 
 ## SV
 
@@ -868,6 +873,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hipstr.png)
 - [pileuppy](https://gitlab.com/tprodanov/pileuppy)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pileuppy.png)
+- [rich-msa](undefined)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/richmsa.png)
 
 ## Circular
 
@@ -996,6 +1003,9 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/panoptes.png)
 - [PopSV](https://github.com/jmonlong/PopSV/blob/master/3-Visualization.md)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/popsv.png)
+- [vcfR](https://knausb.github.io/vcfR_documentation/) (image shows chromoqc
+  output)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcfr.png)
 - [SWAV](http://swav.popgenetics.net/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/swav.png)
 - [Haploview](https://www.broadinstitute.org/haploview/haploview)
@@ -1012,6 +1022,17 @@ wider community! And feel free to send PRs for more tools!
 
 - [Icarus QUAST](http://quast.sourceforge.net/icarus.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/icarus.png)
+- [ALVIS (chimeric alignment viewer)](https://github.com/SR-Martin/alvis)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alvis_chimeric.png)
+- [vega](http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL)
+  (Mentioned in
+  https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf also
+  note: vega standards for vertebrate genome annotation database)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vega.png)
+- [MIRA](http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html)
+  (orig paper also describes mira here
+  http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.7465&rep=rep1&type=pdf)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mira.png)
 
 ## Alignment viewer
 
@@ -1061,8 +1082,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rpan.png)
 - [PGAP-X](https://pgapx.zhaopage.com/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgapx.png)
-- [PGV](https://github.com/ucrbioinfo/PGV)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgv.png)
+- [PGV (pangenome tool)](https://github.com/ucrbioinfo/PGV)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgv1.png)
 - [Phandango](https://jameshadfield.github.io/phandango/#/examples)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phandango.png)
 
@@ -1130,8 +1151,11 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tagore.png)
 - [ezcharts](undefined)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ezcharts.png)
+- [chrov](https://github.com/rraadd88/chrov) (See also usage in
+  https://github.com/rraadd88/beditor)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chrov.png)
 
-## Mobile
+## Mobile app
 
 - [iGenomics](undefined)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/igenomics.png)
@@ -1185,14 +1209,6 @@ wider community! And feel free to send PRs for more tools!
 - [TRVZ (TRGT tandem repeat genotyping visualizer)](https://github.com/PacificBiosciences/trgt)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/trvz.png)
 
-## QC
-
-- [ALVIS (chimeric alignment viewer)](https://github.com/SR-Martin/alvis)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alvis_chimeric.png)
-- [vcfR](https://knausb.github.io/vcfR_documentation/) (image shows chromoqc
-  output)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcfr.png)
-
 ## Methylation
 
 - [NanoMethViz](http://www.bioconductor.org/packages/release/bioc/html/NanoMethViz.html)
@@ -1219,18 +1235,6 @@ wider community! And feel free to send PRs for more tools!
 
 - [methylartist](https://github.com/adamewing/methylartist)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
-
-## Assembly
-
-- [vega](http://vega.archive.ensembl.org/Homo_sapiens/Location/Chromosome?r=6-QBL)
-  (Mentioned in
-  https://www.biorxiv.org/content/10.1101/2021.07.02.450883v1.full.pdf also
-  note: vega standards for vertebrate genome annotation database)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vega.png)
-- [MIRA](http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html)
-  (orig paper also describes mira here
-  http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.7465&rep=rep1&type=pdf)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mira.png)
 
 ## Hi-C
 
@@ -1282,11 +1286,6 @@ wider community! And feel free to send PRs for more tools!
 
 - [GeMo](undefined)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gemo.png)
-
-## Text-based
-
-- [rich-msa](undefined)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/richmsa.png)
 
 ## K-mer
 
