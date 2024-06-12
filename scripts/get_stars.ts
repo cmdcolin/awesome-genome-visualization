@@ -1,13 +1,10 @@
 import fs from 'fs'
 
-import { setTimeout } from 'timers/promises'
-
 const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
 
 ;(async () => {
-  let timeout = 1000
   let count = 0
-  for (let i = 0; i < data.tools.length; ) {
+  for (let i = 0; i < data.tools.length; i++) {
     const d = data.tools[i]
 
     try {
@@ -20,13 +17,7 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
       } else if (github && (process.env.ALL_STARS || !d.github_stars)) {
         github = github.replace('https://github.com/', '').replace(/\/$/, '')
 
-        console.log(
-          i + '/' + data.tools.length,
-          'curr waittime',
-          timeout,
-          'github',
-          github,
-        )
+        console.log(i + '/' + data.tools.length, 'github', github)
         const url = `https://api.github.com/repos/${github}`
 
         const response = await fetch(url, {
@@ -36,23 +27,13 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
           },
         })
         if (!response.ok) {
-          throw new Error(
-            `failed ${response.statusText} ${await response.text()}`,
-          )
+          throw new Error(`HTTP ${response.status} ${await response.text()}`)
         }
         const { stargazers_count } = await response.json()
         d.github_stars = +stargazers_count
-        timeout = 1000
       }
-      i++
-      timeout = 1000
     } catch (e) {
-      console.error('got error, retrying', e)
-      await setTimeout(timeout)
-      timeout = timeout * 2
-      if (timeout >= 4000) {
-        i++
-      }
+      console.error('got error', e)
     }
   }
   console.log(count, data.tools.length)

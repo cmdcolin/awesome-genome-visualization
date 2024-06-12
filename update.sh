@@ -1,6 +1,6 @@
 #!/bin/bash
 identify -format "%f %wx%h\n" public/*.jpg public/*.jpeg public/*.png > dims.txt
-node scripts/get_dimensions.js
-node scripts/get_citations.js
-node scripts/get_stars.js
+yarn tsx scripts/get_dimensions.ts
+yarn tsx scripts/get_citations.ts
+yarn tsx scripts/get_stars.ts
 npx prettier --write TOOLS.json

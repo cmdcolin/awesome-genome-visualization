@@ -10,7 +10,7 @@ const d2 = Object.fromEntries(
     .map(line => line.split(' ')),
 )
 
-data.tools = data.tools.map(d => {
+data.tools = data.tools.map((d: any) => {
   if (d2[d.img]) {
     const entry = d2[d.img]
     const [width, height] = entry.split('x')

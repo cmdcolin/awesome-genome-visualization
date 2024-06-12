@@ -11,23 +11,24 @@
     "postdeploy": "git push --follow-tags"
   },
   "dependencies": {
-    "next": "next",
-    "react": "next",
-    "react-dom": "next",
-    "slugify": "^1.6.6"
+    "next": "^15.0.0-rc.0",
+    "react": "^19.0.0-rc-f3e09d6328-20240612",
+    "react-dom": "^19.0.0-rc-f3e09d6328-20240612",
+    "slugify": "^1.6.6",
+    "tsx": "^4.15.5"
   },
   "devDependencies": {
     "@types/jest": "^29.5.4",
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.14.2",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.0.11",
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
     "eslint": "^8.52.0",
-    "eslint-config-next": "^14.0.0",
-    "eslint-plugin-unicorn": "^53.0.0",
+    "eslint-config-next": "^14.2.4",
+    "eslint-plugin-unicorn": "^54.0.0",
     "gh-pages": "^6.0.0",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2"
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.5"
   }
 }
