@@ -1,6 +1,7 @@
 import fs from 'fs'
+import { fetchJSON, readTOOLS } from './util'
 
-const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
+const data = readTOOLS()
 
 ;(async () => {
   for (let i = 0; i < data.tools.length; i++) {
@@ -22,15 +23,10 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
         }
         console.log(i + '/' + data.tools.length, 'doi', doi)
         const url = doi.startsWith('http') ? doi : 'https://doi.org/' + doi
-        const response = await fetch(url, {
+        const json = await fetchJSON(url, {
           headers: { Accept: 'application/json' },
         })
-        if (!response.ok) {
-          throw new Error(
-            `failed ${response.statusText} ${await response.text()}`,
-          )
-        }
-        const json = await response.json()
+
         d.pub.year = +json.published['date-parts'][0][0]
         d.pub.citations = +json['is-referenced-by-count']
       }

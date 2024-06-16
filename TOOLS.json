@@ -1070,7 +1070,6 @@
       "img": "spark.png",
       "tags": ["Static", "Hi-C", "Quantitative"],
       "pub": {
-        "url": "https://www.biorxiv.org/content/10.1101/845529v1.full.pdf",
         "doi": "https://doi.org/10.1101/845529",
         "year": 2019,
         "citations": 41
@@ -1265,7 +1264,6 @@
       "language": ["Python"],
       "img": "chromatiblock.png",
       "pub": {
-        "url": "https://www.biorxiv.org/content/10.1101/800920v2.full.pdf",
         "doi": "https://doi.org/10.21105/joss.02451",
         "year": 2020,
         "citations": 1
@@ -1331,7 +1329,6 @@
       "platform": ["Desktop"],
       "img": "crossbrowse.png",
       "pub": {
-        "url": "https://www.biorxiv.org/content/10.1101/272880v1.full",
         "doi": "https://doi.org/10.1101/272880",
         "year": 2018,
         "citations": 0
@@ -2949,7 +2946,6 @@
       "platform": ["Desktop"],
       "language": ["Java"],
       "pub": {
-        "url": "https://www.biorxiv.org/content/10.1101/126482v1.full",
         "doi": "https://doi.org/10.1038/s41596-018-0052-3",
         "year": 2018,
         "citations": 27
@@ -5058,7 +5054,6 @@
       "url": "https://github.com/SunPengChuan/wgdi",
       "language": ["Python"],
       "pub": {
-        "url": "https://www.biorxiv.org/content/10.1101/2021.04.29.441969v1.full.pdf",
         "doi": "https://doi.org/10.1101/2021.04.29.441969",
         "year": 2021,
         "citations": 45
@@ -5109,7 +5104,6 @@
       "language": ["C++"],
       "note": "See also GraphAlignmentViewer, similar look and from illumina also",
       "pub": {
-        "url": "https://www.biorxiv.org/content/10.1101/2021.10.20.465046v1.full.pdf",
         "doi": "https://doi.org/10.1101/2021.10.20.465046",
         "year": 2021,
         "citations": 3
@@ -6335,7 +6329,9 @@
       "tags": ["Repeats", "Circular", "Linear"],
       "img": "soda.png",
       "pub": {
-        "doi": "https://doi.org/10.48550/arXiv.2205.06349"
+        "doi": "https://doi.org/10.1093/nargab/lqac077",
+        "year": 2022,
+        "citations": 3
       },
       "note": "Describes itself as a low-level library to create larger applications with",
       "width": 971,
@@ -6848,7 +6844,7 @@
       "url": "https://github.com/marbl/ModDotPlot",
       "language": ["Python"],
       "pub": {
-        "doi": "https://www.biorxiv.org/content/10.1101/2024.04.15.589623v1"
+        "doi": "10.1101/2024.04.15.589623v1"
       },
       "tags": ["Comparative", "Dotplot", "Heatmap", "Repeats"],
       "width": 1926,

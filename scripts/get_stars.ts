@@ -1,7 +1,7 @@
 import fs from 'fs'
+import { fetchJSON, readTOOLS } from './util'
 
-const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
-
+const data = readTOOLS()
 ;(async () => {
   let count = 0
   for (let i = 0; i < data.tools.length; i++) {
@@ -20,16 +20,13 @@ const data = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
         console.log(i + '/' + data.tools.length, 'github', github)
         const url = `https://api.github.com/repos/${github}`
 
-        const response = await fetch(url, {
+        const { stargazers_count } = await fetchJSON(url, {
           headers: {
             Accept: 'application/json',
             Authorization: `token ${process.env.GITHUB_AUTH}`,
           },
         })
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status} ${await response.text()}`)
-        }
-        const { stargazers_count } = await response.json()
+
         d.github_stars = +stargazers_count
       }
     } catch (e) {
