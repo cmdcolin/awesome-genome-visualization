@@ -82,7 +82,7 @@ export default function MainPage({ tools }: { tools: Tool[] }) {
       ...selected,
     })
     if (parameters) {
-      window.history.pushState(null, '', '?' + parameters)
+      window.history.replaceState(null, '', '?' + parameters)
     }
 
     if (selected.selected && !alreadyScrolledTo) {
