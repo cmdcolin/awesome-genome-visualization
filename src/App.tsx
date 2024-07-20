@@ -9,10 +9,11 @@ import PlatformFilters from './PlatformFilters'
 import TagFilters from './TagFilters'
 import LanguageFilters from './LanguageFilters'
 import ToolCard from './ToolCard'
+import ToolTable from './ToolTable'
 
 export default function App() {
   const store = useAppStore()
-  const { selected, filters, sort } = store
+  const { selected, mode, filters, sort } = store
   const { language, tag, platform, interactive } = filters
 
   useEffect(() => {
@@ -148,12 +149,32 @@ export default function App() {
         <PlatformFilters tools={tools} />
         <InteractiveFilters tools={tools} />
       </div>
-
-      <div className="mt-6 flex flex-col space-y-8">
-        {filteredTools.map(tool => (
-          <ToolCard tool={tool} key={tool.name} />
-        ))}
+      <div>
+        <label htmlFor="grid">Grid</label>
+        <input
+          id="grid"
+          type="radio"
+          checked={mode === 'grid'}
+          onChange={() => store.setMode('grid')}
+        />
+        <label htmlFor="list">List</label>
+        <input
+          id="list"
+          type="radio"
+          checked={mode === 'list'}
+          onChange={() => store.setMode('list')}
+        />
       </div>
+
+      {mode === 'list' ? (
+        <div className="mt-6 flex flex-col space-y-8">
+          {filteredTools.map(tool => (
+            <ToolCard tool={tool} key={tool.name} />
+          ))}
+        </div>
+      ) : (
+        <ToolTable tools={filteredTools} />
+      )}
       <p>
         Note: if you would like your tool removed or screenshot removed (for
         copyright purposes for example) let me know

@@ -1,6 +1,13 @@
 import { create } from 'zustand'
 import queryString from 'query-string'
 
+interface Pub {
+  url?: string
+  doi: string
+  year?: number
+  citations?: number
+}
+
 export interface Tool {
   name: string
   url?: string
@@ -13,12 +20,7 @@ export interface Tool {
   twitter?: string
   platform?: string[]
   github_stars?: number
-  pub?: {
-    url?: string
-    doi: string
-    year?: number
-    citations?: number
-  }
+  pub?: Pub
   note?: string
   alt_url?: string
   interactive?: string[]
@@ -36,9 +38,11 @@ interface FilterState {
   interactive?: string
 }
 interface AppState {
+  mode: string
   filters: FilterState
   sort: SortState
   selected?: string
+  setMode: (arg: string) => void
   setSort: (arg: SortState) => void
   setFilters: (arg: FilterState) => void
   setSelected: (arg?: string) => void
@@ -50,6 +54,7 @@ const {
   tag,
   platform,
   interactive,
+  mode,
   latest,
   citations,
   year,
@@ -97,6 +102,7 @@ export function setStringArray(key: string, val: string[]) {
 }
 
 export const useAppStore = create<AppState>()(set => ({
+  mode: coerceString(mode) ?? 'grid',
   filters: {
     language: coerceString(language),
     tag: coerceString(tag),
@@ -105,11 +111,12 @@ export const useAppStore = create<AppState>()(set => ({
   },
   selected: coerceString(selected),
   sort: {
-    latest: coerceBoolean(latest),
+    latest: coerceBoolean(latest) ?? true,
     citations: coerceNumber(citations),
     stars: coerceNumber(stars),
     year: coerceNumber(year),
   },
+  setMode: mode => set(() => ({ mode })),
   setSort: sort => set(() => ({ sort })),
   setFilters: filters => set(() => ({ filters })),
   setSelected: selected => set(() => ({ selected })),
