@@ -13,7 +13,7 @@ export function readJSON(file: string) {
 }
 
 export function readTOOLS() {
-  return JSON.parse(fs.readFileSync('src/TOOLS.json', 'utf8')) as {
+  return JSON.parse(fs.readFileSync('TOOLS.json', 'utf8')) as {
     tools: {
       name: string
       github?: string

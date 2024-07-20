@@ -1,5 +1,5 @@
 import fs from 'fs'
-const tools = JSON.parse(fs.readFileSync('src/TOOLS.json', 'utf8')).tools
+const tools = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8')).tools
 
 tools.forEach((r: any) => {
   if (!r.tags) {

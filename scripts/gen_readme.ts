@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-const res = JSON.parse(fs.readFileSync('src/TOOLS.json', 'utf8'))
+const res = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
 const header = fs.readFileSync('util/HEADER.md', 'utf8')
 const footer = fs.readFileSync('util/FOOTER.md', 'utf8')
 const categories = {} as Record<string, any[]>

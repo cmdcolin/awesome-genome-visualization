@@ -34,5 +34,5 @@ const data = readTOOLS()
       console.error('got error, not retrying', e)
     }
   }
-  fs.writeFileSync('src/TOOLS.json', JSON.stringify(data, null, 2))
+  fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2))
 })()

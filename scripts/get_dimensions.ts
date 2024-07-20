@@ -14,7 +14,7 @@ const d2 = Object.fromEntries(
 )
 
 fs.writeFileSync(
-  'src/TOOLS.json',
+  'TOOLS.json',
   JSON.stringify(
     {
       ...data,

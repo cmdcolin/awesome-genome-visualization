@@ -34,5 +34,5 @@ const data = readTOOLS()
     }
   }
   console.log(count, data.tools.length)
-  fs.writeFileSync('src/TOOLS.json', JSON.stringify(data, null, 2))
+  fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2))
 })()

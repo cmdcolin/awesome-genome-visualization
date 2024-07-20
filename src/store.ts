@@ -102,7 +102,7 @@ export function setStringArray(key: string, val: string[]) {
 }
 
 export const useAppStore = create<AppState>()(set => ({
-  mode: coerceString(mode) ?? 'grid',
+  mode: coerceString(mode) ?? 'list',
   filters: {
     language: coerceString(language),
     tag: coerceString(tag),
