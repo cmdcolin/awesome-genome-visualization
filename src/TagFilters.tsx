@@ -1,21 +1,8 @@
-import { Tool } from '@/lib/api'
+import { Tool, useAppStore } from './store'
 
-interface Filter {
-  interactive?: string
-  tag?: string
-  language?: string
-  platform?: string
-}
-
-export default function TagFilters({
-  tools,
-  setFilters,
-  filters,
-}: {
-  tools: Tool[]
-  filters: Filter
-  setFilters: (argument: Filter) => void
-}) {
+export default function TagFilters({ tools }: { tools: Tool[] }) {
+  const store = useAppStore()
+  const { filters } = store
   const tags = new Set<string>()
   for (const tool of tools) {
     if (tool.tags) {
@@ -30,7 +17,9 @@ export default function TagFilters({
       <select
         id="tag-select"
         value={filters.tag || ''}
-        onChange={event => setFilters({ ...filters, tag: event.target.value })}
+        onChange={event =>
+          store.setFilters({ ...filters, tag: event.target.value })
+        }
       >
         <option value="">-- select an option --</option>
         {[...tags].sort().map(tag => (

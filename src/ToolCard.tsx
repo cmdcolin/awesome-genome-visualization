@@ -1,15 +1,9 @@
 import { useState } from 'react'
 import slugify from 'slugify'
-import { Tool } from '@/lib/api'
+import { Tool, useAppStore } from './store'
+import ImageDialog from './ImageDialog'
 
-interface Filter {
-  interactive?: string
-  tag?: string
-  language?: string
-  platform?: string
-}
 export default function ToolCard({
-  setSelected,
   tool: {
     name,
     url,
@@ -27,37 +21,34 @@ export default function ToolCard({
     alt_url,
     interactive,
   },
-  filters,
-  setFilters,
 }: {
   tool: Tool
-  filters: Filter
-  setSelected: (argument: { selected: string }) => void
-  setFilters: (argument: Filter) => void
 }) {
+  const store = useAppStore()
+  const { filters } = store
   const [expanded, setExpanded] = useState(false)
   const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
   return (
-    <div className="card">
+    <div className="bg-white dark:bg-[#333] flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-sm shadow-[#ccc] dark:shadow-[#333]">
       <div>
-        <h3>
+        <h3 className="m-0">
           <a
             id={slug}
             href="#"
-            style={{ color: 'black', cursor: 'pointer' }}
+            className="no-underline hover:underline text-inherit"
             onClick={event => {
-              setSelected({ selected: '#' + slug })
+              store.setSelected('#' + slug)
               event.preventDefault()
             }}
           >
             {name}
           </a>
         </h3>
-        <p className="link">
+        <p>
           <a href={url}>{url}</a>
         </p>
         {alt_url ? (
-          <p className="link">
+          <p>
             Alt url <a href={alt_url}>{alt_url}</a>
           </p>
         ) : null}
@@ -90,9 +81,10 @@ export default function ToolCard({
             {language.map((language, index) => [
               index > 0 && ', ',
               <a
+                href="#"
                 key={language + '-' + index}
                 onClick={event => {
-                  setFilters({ ...filters, language })
+                  store.setFilters({ ...filters, language })
                   event.preventDefault()
                 }}
               >
@@ -107,9 +99,10 @@ export default function ToolCard({
             {tags.map((tag, index) => [
               index > 0 && ', ',
               <a
+                href="#"
                 key={tag + '-' + index}
                 onClick={event => {
-                  setFilters({ ...filters, tag })
+                  store.setFilters({ ...filters, tag })
                   event.preventDefault()
                 }}
               >
@@ -133,24 +126,20 @@ export default function ToolCard({
         {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}
         {platform ? <p>Platform: {platform.join(', ')}</p> : null}
       </div>
-      <figure role="presentation" onClick={() => setExpanded(state => !state)}>
+      <figure className="m-0" onClick={() => setExpanded(state => !state)}>
         {img ? (
           <img
             alt={`screenshot of ${name}`}
             loading="lazy"
-            className={expanded ? 'expanded' : ''}
+            className="max-w-sm max-h-sm w-full h-auto"
             width={width}
             height={height}
             src={img}
           />
         ) : (
-          <p className="no-screenshot">No screenshot</p>
+          <p>No screenshot</p>
         )}
-        {expanded ? (
-          <div className="modal-backdrop">
-            <img alt={`screenshot of ${name}`} src={img} />
-          </div>
-        ) : null}
+        {expanded && img ? <ImageDialog open img={img} /> : null}
       </figure>
     </div>
   )

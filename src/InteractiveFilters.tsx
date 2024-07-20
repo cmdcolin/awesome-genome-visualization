@@ -1,21 +1,8 @@
-import { Tool } from '@/lib/api'
+import { Tool, useAppStore } from './store'
 
-interface Filter {
-  interactive?: string
-  tag?: string
-  language?: string
-  platform?: string
-}
-
-export default function InteractiveFilters({
-  tools,
-  setFilters,
-  filters,
-}: {
-  tools: Tool[]
-  filters: Filter
-  setFilters: (argument: Filter) => void
-}) {
+export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
+  const store = useAppStore()
+  const { filters } = store
   const interactive = new Set<string>()
   for (const tool of tools) {
     if (tool.interactive) {
@@ -25,13 +12,13 @@ export default function InteractiveFilters({
     }
   }
   return (
-    <div className="form-group">
+    <div>
       <label htmlFor="interactive-select">Filter on interactivity: </label>
       <select
         value={filters.interactive || ''}
         id="interactive-select"
         onChange={event =>
-          setFilters({
+          store.setFilters({
             ...filters,
             interactive: event.target.value,
           })

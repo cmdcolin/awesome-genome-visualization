@@ -1,30 +1,48 @@
-/** @type {import("eslint").Linter.Config} */
 module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
-    'next/core-web-vitals',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:react/jsx-runtime',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:unicorn/recommended',
   ],
-  parserOptions: {
-    project: './tsconfig.json',
-  },
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'vite.config.ts'],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    tsconfigRootDir: __dirname,
+    project: './tsconfig.app.json',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  plugins: ['react-refresh'],
   rules: {
-    '@next/next/no-img-element': 0,
-    '@typescript-eslint/ban-ts-comment': 0,
-    '@typescript-eslint/prefer-nullish-coalescing': 0,
-    'jsx-a11y/alt-text': 0,
-    'unicorn/prefer-node-protocol': 0,
-    'unicorn/no-null': 0,
-    'unicorn/filename-case': 0,
+    'no-console': [
+      'warn',
+      {
+        allow: ['error', 'warn'],
+      },
+    ],
+    '@typescript-eslint/restrict-template-expressions': 'off',
 
-    curly: 2,
+    'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-null': 'off',
+    'unicorn/no-nested-ternary': 'off',
+    'unicorn/filename-case': 'off',
+    'react/react-in-jsx-scope': 'off',
+
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
   },
 }
