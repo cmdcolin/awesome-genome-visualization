@@ -2759,20 +2759,6 @@
       "height": 367
     },
     {
-      "tags": ["Alignments viewer"],
-      "name": "Short read assembly browser",
-      "img": "short_read_assembly_browser.png",
-      "platform": ["Web", "Silo"],
-      "pub": {
-        "doi": "https://doi.org/10.1093/pcp/pcs183",
-        "year": 2013,
-        "citations": 583
-      },
-      "url": "https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22",
-      "width": 1378,
-      "height": 476
-    },
-    {
       "tags": ["CNV"],
       "name": "SNPitty",
       "url": "https://bitbucket.org/ccbc/snpitty/src/master/",

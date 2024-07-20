@@ -1,21 +1,8 @@
-import { Tool } from '@/lib/api'
+import { Tool, useAppStore } from './store'
 
-interface Filter {
-  interactive?: string
-  tag?: string
-  language?: string
-  platform?: string
-}
-
-export default function PlatformFilters({
-  tools,
-  setFilters,
-  filters,
-}: {
-  tools: Tool[]
-  filters: Filter
-  setFilters: (argument: Filter) => void
-}) {
+export default function PlatformFilters({ tools }: { tools: Tool[] }) {
+  const store = useAppStore()
+  const { filters } = store
   const platform = new Set<string>()
   for (const tool of tools) {
     if (tool.platform) {
@@ -25,13 +12,13 @@ export default function PlatformFilters({
     }
   }
   return (
-    <div className="form-group">
+    <div>
       <label htmlFor="platform-select">Filter on platform: </label>
       <select
         value={filters.platform || ''}
         id="platform-select"
         onChange={event =>
-          setFilters({ ...filters, platform: event.target.value })
+          store.setFilters({ ...filters, platform: event.target.value })
         }
       >
         <option value="">-- select an option --</option>

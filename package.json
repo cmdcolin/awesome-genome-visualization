@@ -1,34 +1,40 @@
 {
+  "name": "awesome-genome-visualization",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "next --turbo",
-    "build": "next build",
-    "start": "next dev",
-    "lint": "next lint",
-    "predeploy": "npm run build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out -t true",
-    "postdeploy": "git push --follow-tags"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "postdeploy": "git push"
   },
   "dependencies": {
-    "next": "^15.0.0-rc.0",
-    "react": "^19.0.0-rc-f3e09d6328-20240612",
-    "react-dom": "^19.0.0-rc-f3e09d6328-20240612",
+    "autoprefixer": "^10.4.19",
+    "eslint-plugin-unicorn": "^54.0.0",
+    "postcss": "^8.4.39",
+    "query-string": "^9.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "slugify": "^1.6.6",
-    "tsx": "^4.15.5"
+    "tailwindcss": "^3.4.4",
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.4",
-    "@types/node": "^20.14.2",
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.0.11",
-    "@typescript-eslint/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/parser": "^7.13.0",
-    "eslint": "^8.52.0",
-    "eslint-config-next": "^14.2.4",
-    "eslint-plugin-unicorn": "^54.0.0",
-    "gh-pages": "^6.0.0",
-    "prettier": "^3.3.2",
-    "typescript": "^5.4.5"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
   }
 }

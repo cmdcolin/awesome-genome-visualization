@@ -1,21 +1,8 @@
-import { Tool } from '@/lib/api'
+import { Tool, useAppStore } from './store'
 
-interface Filter {
-  interactive?: string
-  tag?: string
-  language?: string
-  platform?: string
-}
-
-export default function LanguageFilters({
-  tools,
-  setFilters,
-  filters,
-}: {
-  tools: Tool[]
-  filters: Filter
-  setFilters: (argument: Filter) => void
-}) {
+export default function LanguageFilters({ tools }: { tools: Tool[] }) {
+  const store = useAppStore()
+  const { filters } = store
   const languages = new Set<string>()
   for (const tool of tools) {
     if (tool.language) {
@@ -25,13 +12,13 @@ export default function LanguageFilters({
     }
   }
   return (
-    <div className="form-group">
+    <div>
       <label htmlFor="language-select">Filter on language: </label>
       <select
         value={filters.language || ''}
         id="language-select"
         onChange={event =>
-          setFilters({ ...filters, language: event.target.value })
+          store.setFilters({ ...filters, language: event.target.value })
         }
       >
         <option value="">-- select an option --</option>
