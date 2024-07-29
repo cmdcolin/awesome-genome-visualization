@@ -4,7 +4,7 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
   const cell =
     'border border-solid dark:border-[#555] border-[#aaa] max-w-80 text-ellipsis overflow-hidden p-1'
   return (
-    <table className="bg-white dark:bg-[#333] border-collapse border border-solid border-gray-500 text-xs">
+    <table className="border-collapse text-xs">
       <thead>
         <tr>
           <th className={cell}>Name</th>
