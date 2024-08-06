@@ -3,6 +3,10 @@ import slugify from 'slugify'
 import { Tool, useAppStore } from './store'
 import ImageDialog from './ImageDialog'
 
+function ellipses(f = '', n = 40) {
+  return f.slice(0, n) + (f.length > n ? '...' : '')
+}
+
 export default function ToolCard({
   tool: {
     name,
@@ -45,11 +49,11 @@ export default function ToolCard({
           </a>
         </h3>
         <p>
-          <a href={url}>{url}</a>
+          <a href={url}>{ellipses(url)}</a>
         </p>
         {alt_url ? (
           <p>
-            Alt url <a href={alt_url}>{alt_url}</a>
+            Alt url <a href={alt_url}>{ellipses(alt_url)}</a>
           </p>
         ) : null}
         {interactive ? (
@@ -57,7 +61,7 @@ export default function ToolCard({
         ) : null}
         {pub ? (
           <p>
-            Publication: {pub.url ? <a href={pub.url}>(direct link)</a> : null}{' '}
+            Publication:{' '}
             {pub.doi ? (
               <a
                 href={

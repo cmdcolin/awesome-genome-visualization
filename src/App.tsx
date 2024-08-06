@@ -167,7 +167,7 @@ export default function App() {
       </div>
 
       {mode === 'list' ? (
-        <div className="mt-6 flex flex-col space-y-8">
+        <div className="mt-6 flex flex-col space-y-8 overflow-hidden">
           {filteredTools.map(tool => (
             <ToolCard tool={tool} key={tool.name} />
           ))}
