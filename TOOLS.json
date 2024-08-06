@@ -2434,14 +2434,19 @@
     {
       "tags": ["CNV", "GWAS", "Linear", "MSA"],
       "name": "GenomeSpy",
+      "pub": {
+        "doi": "https://doi.org/10.1093/gigascience/giae040",
+        "year": 2024,
+        "citations": 0
+      },
       "img": "genomespy.png",
       "github": "https://github.com/genome-spy/genome-spy",
       "url": "https://genomespy.app/",
       "language": ["JS", "WebGL"],
       "platform": ["Web"],
       "interactive": ["true"],
-      "width": 1194,
-      "height": 476,
+      "width": 738,
+      "height": 800,
       "github_stars": 166
     },
     {
