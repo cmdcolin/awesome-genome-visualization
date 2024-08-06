@@ -31,22 +31,22 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
                       }
                     >
                       link {pub.year ? `(${pub.year})` : ''}{' '}
-                      {pub.citations !== undefined
-                        ? `(${pub.citations} citations)`
-                        : ''}
+                      {pub.citations === undefined
+                        ? ''
+                        : `(${pub.citations} citations)`}
                     </a>
                   ) : null}
                 </>
               ) : null}
             </td>
             <td className={cell}>
-              <a href={url} target="_blank">
+              <a href={url} target="_blank" rel="noreferrer">
                 {url}
               </a>{' '}
               {github && github !== url ? <a href={github}>{github}</a> : null}
             </td>
             <td className={cell}>
-              <a href={img} target="_blank">
+              <a href={img} target="_blank" rel="noreferrer">
                 {img}
               </a>
             </td>
