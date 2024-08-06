@@ -20,17 +20,14 @@ body {
 
 a {
   color: #0468bf;
-  max-width: 100%;
   white-space: nowrap;
-  display: inline-block;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 a:visited {
   color: #05aff2;
 }
 p {
   margin: 0.5em 0;
+  text-overflow: ellipsis;
 }
 
 @media (prefers-color-scheme: dark) {
