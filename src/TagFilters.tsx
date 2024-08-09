@@ -1,4 +1,4 @@
-import { Tool, useAppStore } from './store'
+import { type Tool, useAppStore } from './store'
 
 export default function TagFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()

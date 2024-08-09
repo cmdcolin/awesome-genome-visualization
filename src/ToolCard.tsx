@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import slugify from 'slugify'
-import { Tool, useAppStore } from './store'
+import { type Tool, useAppStore } from './store'
 import ImageDialog from './ImageDialog'
 
 function ellipses(f = '', n = 40) {
@@ -41,7 +41,7 @@ export default function ToolCard({
             href="#"
             className="no-underline hover:underline text-inherit"
             onClick={event => {
-              store.setSelected('#' + slug)
+              store.setSelected(`#${slug}`)
               event.preventDefault()
             }}
           >
@@ -67,7 +67,7 @@ export default function ToolCard({
                 href={
                   pub.doi.startsWith('http')
                     ? pub.doi
-                    : 'https://dx.doi.org/' + pub.doi
+                    : `https://dx.doi.org/${pub.doi}`
                 }
               >
                 (doi link)
@@ -86,7 +86,7 @@ export default function ToolCard({
               index > 0 && ', ',
               <a
                 href="#"
-                key={language + '-' + index}
+                key={`${language}-${index}`}
                 onClick={event => {
                   store.setFilters({ ...filters, language })
                   event.preventDefault()
@@ -104,7 +104,7 @@ export default function ToolCard({
               index > 0 && ', ',
               <a
                 href="#"
-                key={tag + '-' + index}
+                key={`${tag}-${index}`}
                 onClick={event => {
                   store.setFilters({ ...filters, tag })
                   event.preventDefault()

@@ -1,4 +1,4 @@
-import { Tool, useAppStore } from './store'
+import { type Tool, useAppStore } from './store'
 
 export default function LanguageFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
