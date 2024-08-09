@@ -23,7 +23,7 @@ export default function App() {
       selected,
     })
     if (parameters) {
-      window.history.replaceState(null, '', '?' + parameters)
+      window.history.replaceState(null, '', `?${parameters}`)
     }
   }, [filters, sort, selected])
 
@@ -41,7 +41,7 @@ export default function App() {
   const y = sort.year
   if (y !== undefined) {
     tools = tools.sort(
-      (a, b) => +(a.pub?.year || Infinity * y) - +(b.pub?.year || Infinity * y),
+      (a, b) => +(a.pub?.year || Number.POSITIVE_INFINITY * y) - +(b.pub?.year || Number.POSITIVE_INFINITY * y),
     )
     if (sort.year === -1) {
       tools = tools.reverse()
@@ -52,8 +52,8 @@ export default function App() {
   if (c !== undefined) {
     tools = tools.sort(
       (a, b) =>
-        +(a.pub?.citations || Infinity * c) -
-        +(b.pub?.citations || Infinity * c),
+        +(a.pub?.citations || Number.POSITIVE_INFINITY * c) -
+        +(b.pub?.citations || Number.POSITIVE_INFINITY * c),
     )
     if (sort.citations === -1) {
       tools = tools.reverse()
@@ -64,7 +64,7 @@ export default function App() {
   if (s !== undefined) {
     tools = tools.sort(
       (a, b) =>
-        +(a.github_stars || Infinity * s) - +(b.github_stars || Infinity * s),
+        +(a.github_stars || Number.POSITIVE_INFINITY * s) - +(b.github_stars || Number.POSITIVE_INFINITY * s),
     )
     if (sort.stars === -1) {
       tools = tools.reverse()

@@ -1,4 +1,4 @@
-import { Tool } from './store'
+import type { Tool } from './store'
 
 export default function ToolTable({ tools }: { tools: Tool[] }) {
   const cell =
@@ -27,7 +27,7 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
                       href={
                         pub.doi.startsWith('http')
                           ? pub.doi
-                          : 'https://dx.doi.org/' + pub.doi
+                          : `https://dx.doi.org/${pub.doi}`
                       }
                     >
                       link {pub.year ? `(${pub.year})` : ''}{' '}
