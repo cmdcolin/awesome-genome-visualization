@@ -98,7 +98,7 @@ function coerceBoolean(argument: unknown) {
 }
 
 export function setStringArray(key: string, val: string[]) {
-  return localStorage.setItem(key, JSON.stringify(val))
+  localStorage.setItem(key, JSON.stringify(val))
 }
 
 export const useAppStore = create<AppState>()(set => ({
@@ -116,8 +116,16 @@ export const useAppStore = create<AppState>()(set => ({
     stars: coerceNumber(stars),
     year: coerceNumber(year),
   },
-  setMode: mode => set(() => ({ mode })),
-  setSort: sort => set(() => ({ sort })),
-  setFilters: filters => set(() => ({ filters })),
-  setSelected: selected => set(() => ({ selected })),
+  setMode: mode => {
+    set(() => ({ mode }))
+  },
+  setSort: sort => {
+    set(() => ({ sort }))
+  },
+  setFilters: filters => {
+    set(() => ({ filters }))
+  },
+  setSelected: selected => {
+    set(() => ({ selected }))
+  },
 }))

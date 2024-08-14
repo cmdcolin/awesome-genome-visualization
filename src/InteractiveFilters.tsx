@@ -3,11 +3,12 @@ import { type Tool, useAppStore } from './store'
 export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
   const { filters } = store
-  const interactive = new Set<string>()
+  const { interactive = '' } = filters
+  const interactives = new Set<string>()
   for (const tool of tools) {
     if (tool.interactive) {
       for (const cat of tool.interactive) {
-        interactive.add(cat)
+        interactives.add(cat)
       }
     }
   }
@@ -15,17 +16,17 @@ export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
     <div>
       <label htmlFor="interactive-select">Filter on interactivity: </label>
       <select
-        value={filters.interactive || ''}
+        value={interactive}
         id="interactive-select"
-        onChange={event =>
+        onChange={event => {
           store.setFilters({
             ...filters,
             interactive: event.target.value,
           })
-        }
+        }}
       >
         <option value="">-- select an option --</option>
-        {[...interactive].sort().map(tag => (
+        {[...interactives].sort().map(tag => (
           <option key={tag} id={tag}>
             {tag}
           </option>

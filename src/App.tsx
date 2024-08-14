@@ -41,7 +41,9 @@ export default function App() {
   const y = sort.year
   if (y !== undefined) {
     tools = tools.sort(
-      (a, b) => +(a.pub?.year || Number.POSITIVE_INFINITY * y) - +(b.pub?.year || Number.POSITIVE_INFINITY * y),
+      (a, b) =>
+        +(a.pub?.year ?? Number.POSITIVE_INFINITY * y) -
+        +(b.pub?.year ?? Number.POSITIVE_INFINITY * y),
     )
     if (sort.year === -1) {
       tools = tools.reverse()
@@ -52,8 +54,8 @@ export default function App() {
   if (c !== undefined) {
     tools = tools.sort(
       (a, b) =>
-        +(a.pub?.citations || Number.POSITIVE_INFINITY * c) -
-        +(b.pub?.citations || Number.POSITIVE_INFINITY * c),
+        +(a.pub?.citations ?? Number.POSITIVE_INFINITY * c) -
+        +(b.pub?.citations ?? Number.POSITIVE_INFINITY * c),
     )
     if (sort.citations === -1) {
       tools = tools.reverse()
@@ -64,7 +66,8 @@ export default function App() {
   if (s !== undefined) {
     tools = tools.sort(
       (a, b) =>
-        +(a.github_stars || Number.POSITIVE_INFINITY * s) - +(b.github_stars || Number.POSITIVE_INFINITY * s),
+        +(a.github_stars ?? Number.POSITIVE_INFINITY * s) -
+        +(b.github_stars ?? Number.POSITIVE_INFINITY * s),
     )
     if (sort.stars === -1) {
       tools = tools.reverse()
@@ -94,53 +97,125 @@ export default function App() {
 
       <p className="max-w-lg">
         Filters:
-        <button onClick={() => store.setFilters({})}>Clear filters</button>
-        <button onClick={() => store.setFilters({ tag: 'General' })}>
+        <button
+          onClick={() => {
+            store.setFilters({})
+          }}
+        >
+          Clear filters
+        </button>
+        <button
+          onClick={() => {
+            store.setFilters({ tag: 'General' })
+          }}
+        >
           General-purpose genome browsers
         </button>
-        <button onClick={() => store.setFilters({ tag: 'Comparative' })}>
+        <button
+          onClick={() => {
+            store.setFilters({ tag: 'Comparative' })
+          }}
+        >
           Synteny/comparative browsers
         </button>
-        <button onClick={() => store.setFilters({ tag: 'Dotplot' })}>
+        <button
+          onClick={() => {
+            store.setFilters({ tag: 'Dotplot' })
+          }}
+        >
           Dotplot viewer
         </button>
-        <button onClick={() => store.setFilters({ tag: 'MSA' })}>
+        <button
+          onClick={() => {
+            store.setFilters({ tag: 'MSA' })
+          }}
+        >
           MSA viewer
         </button>
-        <button onClick={() => store.setFilters({ tag: 'Graph' })}>
+        <button
+          onClick={() => {
+            store.setFilters({ tag: 'Graph' })
+          }}
+        >
           Graph genome
         </button>
-        <button onClick={() => store.setFilters({ tag: 'Text based' })}>
+        <button
+          onClick={() => {
+            store.setFilters({ tag: 'Text based' })
+          }}
+        >
           Text based
         </button>
       </p>
       <p className="max-w-lg">
         Sorts:
-        <button onClick={() => store.setSort({ latest: true })}>
+        <button
+          onClick={() => {
+            store.setSort({ latest: true })
+          }}
+        >
           Recently added
         </button>
-        <button onClick={() => store.setSort({ latest: false })}>
+        <button
+          onClick={() => {
+            store.setSort({ latest: false })
+          }}
+        >
           Least recently added
         </button>
-        <button onClick={() => store.setSort({ year: -1 })}>Year (dec)</button>
-        <button onClick={() => store.setSort({ year: 1 })}>Year (asc)</button>
-        <button onClick={() => store.setSort({ citations: -1 })}>
+        <button
+          onClick={() => {
+            store.setSort({ year: -1 })
+          }}
+        >
+          Year (dec)
+        </button>
+        <button
+          onClick={() => {
+            store.setSort({ year: 1 })
+          }}
+        >
+          Year (asc)
+        </button>
+        <button
+          onClick={() => {
+            store.setSort({ citations: -1 })
+          }}
+        >
           Number citations (dec)
         </button>
-        <button onClick={() => store.setSort({ citations: 1 })}>
+        <button
+          onClick={() => {
+            store.setSort({ citations: 1 })
+          }}
+        >
           Number citations (asc)
         </button>
-        <button onClick={() => store.setSort({ stars: -1 })}>
+        <button
+          onClick={() => {
+            store.setSort({ stars: -1 })
+          }}
+        >
           Github stars (dec)
         </button>
-        <button onClick={() => store.setSort({ stars: 1 })}>
+        <button
+          onClick={() => {
+            store.setSort({ stars: 1 })
+          }}
+        >
           Github stars (asc)
         </button>
       </p>
 
       <p>
         Selection:
-        <button onClick={() => store.setSelected()}>Clear selection</button>
+        <button
+          onClick={() => {
+            store.setSelected()
+          }}
+        >
+          Clear selection
+        </button>
       </p>
 
       <div>
@@ -155,14 +230,18 @@ export default function App() {
           id="grid"
           type="radio"
           checked={mode === 'grid'}
-          onChange={() => store.setMode('grid')}
+          onChange={() => {
+            store.setMode('grid')
+          }}
         />
         <label htmlFor="list">List</label>
         <input
           id="list"
           type="radio"
           checked={mode === 'list'}
-          onChange={() => store.setMode('list')}
+          onChange={() => {
+            store.setMode('list')
+          }}
         />
       </div>
 

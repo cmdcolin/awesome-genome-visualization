@@ -3,6 +3,7 @@ import { type Tool, useAppStore } from './store'
 export default function TagFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
   const { filters } = store
+  const { tag = '' } = filters
   const tags = new Set<string>()
   for (const tool of tools) {
     if (tool.tags) {
@@ -16,10 +17,13 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
       <label htmlFor="tag-select">Filter on tag: </label>
       <select
         id="tag-select"
-        value={filters.tag || ''}
-        onChange={event =>
-          store.setFilters({ ...filters, tag: event.target.value })
-        }
+        value={tag}
+        onChange={event => {
+          store.setFilters({
+            ...filters,
+            tag: event.target.value,
+          })
+        }}
       >
         <option value="">-- select an option --</option>
         {[...tags].sort().map(tag => (

@@ -57,7 +57,7 @@ export default function ToolCard({
           </p>
         ) : null}
         {interactive ? (
-          <p className="interactive">Interactive: {interactive?.join(',')}</p>
+          <p className="interactive">Interactive: {interactive.join(',')}</p>
         ) : null}
         {pub ? (
           <p>
@@ -130,7 +130,12 @@ export default function ToolCard({
         {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}
         {platform ? <p>Platform: {platform.join(', ')}</p> : null}
       </div>
-      <figure className="m-0" onClick={() => setExpanded(state => !state)}>
+      <figure
+        className="m-0"
+        onClick={() => {
+          setExpanded(state => !state)
+        }}
+      >
         {img ? (
           <img
             alt={`screenshot of ${name}`}

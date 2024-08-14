@@ -3,6 +3,7 @@ import { type Tool, useAppStore } from './store'
 export default function LanguageFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
   const { filters } = store
+  const { language = '' } = filters
   const languages = new Set<string>()
   for (const tool of tools) {
     if (tool.language) {
@@ -15,11 +16,14 @@ export default function LanguageFilters({ tools }: { tools: Tool[] }) {
     <div>
       <label htmlFor="language-select">Filter on language: </label>
       <select
-        value={filters.language || ''}
+        value={language}
         id="language-select"
-        onChange={event =>
-          store.setFilters({ ...filters, language: event.target.value })
-        }
+        onChange={event => {
+          store.setFilters({
+            ...filters,
+            language: event.target.value,
+          })
+        }}
       >
         <option value="">-- select an option --</option>
         {[...languages].sort().map(tag => (
