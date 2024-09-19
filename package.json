@@ -23,7 +23,7 @@
     "slugify": "^1.6.6",
     "tailwindcss": "^3.4.4",
     "tsx": "^4.16.2",
-    "zustand": "^4.5.4"
+    "zustand": "^5.0.0-rc.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
@@ -34,7 +34,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^9.8.0",
     "eslint-plugin-react": "^7.34.3",
-    "eslint-plugin-react-hooks": "next",
+    "eslint-plugin-react-hooks": "^5.1.0-rc-e740d4b1-20240919",
     "eslint-plugin-react-refresh": "^0.4.7",
     "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
