@@ -517,7 +517,7 @@
       },
       "width": 885,
       "height": 1555,
-      "github_stars": 546
+      "github_stars": 547
     },
     {
       "tags": ["CNV", "Static"],
@@ -878,7 +878,12 @@
       "language": ["Go"],
       "width": 1776,
       "height": 200,
-      "github_stars": 180
+      "github_stars": 180,
+      "pub": {
+        "doi": "https://doi.org/10.1371/journal.pone.0160519",
+        "year": 2016,
+        "citations": 107
+      }
     },
     {
       "tags": ["Static", "Protein"],
@@ -1635,6 +1640,11 @@
       "tags": ["Comparative"],
       "name": "progressiveMauve viewer",
       "img": "progressive_mauve.png",
+      "pub": {
+        "doi": "10.1101/gr.2289704",
+        "year": 2004,
+        "citations": 3732
+      },
       "github": "https://github.com/koadman/mauve",
       "language": ["Java"],
       "url": "http://darlinglab.org/mauve/user-guide/viewer.html",
@@ -1676,8 +1686,13 @@
     {
       "tags": ["Comparative"],
       "img": "jax_synteny_browser.png",
-      "name": "Synteny browser",
+      "name": "JAX Synteny browser",
       "url": "https://github.com/TheJacksonLaboratory/syntenybrowser",
+      "pub": {
+        "doi": "10.1007/s00335-019-09821-4",
+        "year": 2019,
+        "citations": 18
+      },
       "platform": ["Web"],
       "width": 1848,
       "height": 815,
@@ -1705,6 +1720,11 @@
       "language": ["JS", "D3"],
       "url": "https://synvisio.github.io/",
       "github": "https://github.com/kiranbandi/synvisio",
+      "pub": {
+        "doi": "10.1007/978-1-0716-2067-0_16",
+        "year": 2022,
+        "citations": 17
+      },
       "width": 1920,
       "height": 1080,
       "github_stars": 82
@@ -3591,7 +3611,7 @@
       "language": ["GNUPlot"],
       "width": 3300,
       "height": 2550,
-      "github_stars": 451
+      "github_stars": 453
     },
     {
       "tags": ["Dotplot", "Comparative"],
@@ -4160,7 +4180,7 @@
       },
       "width": 2482,
       "height": 1753,
-      "github_stars": 521
+      "github_stars": 520
     },
     {
       "name": "PopSV",
@@ -4769,7 +4789,7 @@
       "img": "archr.png",
       "width": 1500,
       "height": 1500,
-      "github_stars": 381
+      "github_stars": 382
     },
     {
       "name": "PGAP-X",
@@ -6506,7 +6526,7 @@
       },
       "width": 2492,
       "height": 618,
-      "github_stars": 274
+      "github_stars": 275
     },
     {
       "name": "PretextView",
@@ -6526,7 +6546,7 @@
       "github": "https://github.com/moshi4/pyCirclize",
       "width": 1292,
       "height": 865,
-      "github_stars": 739
+      "github_stars": 740
     },
     {
       "name": "plasmapR",
@@ -7156,6 +7176,20 @@
       "width": 1262,
       "height": 1040,
       "github_stars": 8
+    },
+    {
+      "name": "AGFusion",
+      "img": "agfusion.png",
+      "tags": ["Gene fusion"],
+      "url": "https://github.com/murphycj/AGFusion",
+      "pub": {
+        "doi": "https://doi.org/10.1101/080903",
+        "year": 2016,
+        "citations": 17
+      },
+      "width": 837,
+      "height": 560,
+      "github_stars": 59
     }
   ]
 }
