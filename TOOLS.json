@@ -7206,6 +7206,19 @@
       "width": 1871,
       "height": 912,
       "github_stars": 71
+    },
+    {
+      "name": "wgatools",
+      "img": "wgatools.png",
+      "tags": ["Text based", "MSA", "Dotplot", "Multi-way", "Comparative"],
+      "url": "https://github.com/wjwei-handsome/wgatools",
+      "pub": {
+        "doi": "https://doi.org/10.48550/arXiv.2409.08569"
+      },
+      "language": ["Rust"],
+      "width": 1421,
+      "height": 791,
+      "github_stars": 119
     }
   ]
 }
