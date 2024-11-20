@@ -64,6 +64,7 @@ export default tseslint.config(
       'unicorn/no-null': 'off',
       'unicorn/no-nested-ternary': 'off',
       'unicorn/filename-case': 'off',
+      'unicorn/prefer-global-this': 'off',
       'react/react-in-jsx-scope': 'off',
 
       'react-refresh/only-export-components': [
