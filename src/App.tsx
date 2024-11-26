@@ -83,7 +83,7 @@ export default function App() {
   const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
 
   return (
-    <main className="m-auto max-w-7xl">
+    <div className="m-auto max-w-7xl">
       <h1>awesome-genome-visualization</h1>
       <p>
         This is a companion website for the github repo{' '}
@@ -98,6 +98,7 @@ export default function App() {
       <p className="max-w-lg">
         Filters:
         <button
+          className="btn"
           onClick={() => {
             store.setFilters({})
           }}
@@ -105,6 +106,7 @@ export default function App() {
           Clear filters
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setFilters({ tag: 'General' })
           }}
@@ -112,6 +114,7 @@ export default function App() {
           General-purpose genome browsers
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setFilters({ tag: 'Comparative' })
           }}
@@ -119,6 +122,7 @@ export default function App() {
           Synteny/comparative browsers
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setFilters({ tag: 'Dotplot' })
           }}
@@ -126,6 +130,7 @@ export default function App() {
           Dotplot viewer
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setFilters({ tag: 'MSA' })
           }}
@@ -133,6 +138,7 @@ export default function App() {
           MSA viewer
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setFilters({ tag: 'Graph' })
           }}
@@ -140,6 +146,7 @@ export default function App() {
           Graph genome
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setFilters({ tag: 'Text based' })
           }}
@@ -150,6 +157,7 @@ export default function App() {
       <p className="max-w-lg">
         Sorts:
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ latest: true })
           }}
@@ -157,6 +165,7 @@ export default function App() {
           Recently added
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ latest: false })
           }}
@@ -164,6 +173,7 @@ export default function App() {
           Least recently added
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ year: -1 })
           }}
@@ -171,6 +181,7 @@ export default function App() {
           Year (dec)
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ year: 1 })
           }}
@@ -178,6 +189,7 @@ export default function App() {
           Year (asc)
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ citations: -1 })
           }}
@@ -185,6 +197,7 @@ export default function App() {
           Number citations (dec)
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ citations: 1 })
           }}
@@ -192,6 +205,7 @@ export default function App() {
           Number citations (asc)
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ stars: -1 })
           }}
@@ -199,6 +213,7 @@ export default function App() {
           Github stars (dec)
         </button>
         <button
+          className="btn"
           onClick={() => {
             store.setSort({ stars: 1 })
           }}
@@ -210,6 +225,7 @@ export default function App() {
       <p>
         Selection:
         <button
+          className="btn"
           onClick={() => {
             store.setSelected()
           }}
@@ -258,6 +274,6 @@ export default function App() {
         Note: if you would like your tool removed or screenshot removed (for
         copyright purposes for example) let me know
       </p>
-    </main>
+    </div>
   )
 }

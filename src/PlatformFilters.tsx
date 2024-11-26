@@ -18,6 +18,7 @@ export default function PlatformFilters({ tools }: { tools: Tool[] }) {
       <select
         value={platform}
         id="platform-select"
+        className="select select-bordered w-full max-w-xs"
         onChange={event => {
           store.setFilters({
             ...filters,

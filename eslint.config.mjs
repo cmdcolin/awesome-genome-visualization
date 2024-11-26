@@ -57,6 +57,7 @@ export default tseslint.config(
           allow: ['error', 'warn'],
         },
       ],
+      '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/no-non-null-assertion': 'off',
       '@typescript-eslint/no-base-to-string': 'off',
       '@typescript-eslint/restrict-template-expressions': 'off',

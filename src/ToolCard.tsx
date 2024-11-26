@@ -33,9 +33,9 @@ export default function ToolCard({
   const [expanded, setExpanded] = useState(false)
   const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
   return (
-    <div className="bg-white dark:bg-[#333] flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-sm shadow-[#ccc] dark:shadow-[#333]">
+    <div className="bg-white dark:bg-[#333] flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
       <div>
-        <h3 className="m-0">
+        <h3 className="m-0 text-xl">
           <a
             id={slug}
             href="#"
@@ -117,21 +117,23 @@ export default function ToolCard({
         ) : null}
         {note ? <p>Note: {note}</p> : null}
         {twitter ? (
-          <p className="link">
+          <>
             Twitter: <a href={twitter}>{twitter}</a>
-          </p>
+          </>
         ) : null}
         {github ? (
-          <p className="link">
-            Github: <a href={github}>{github}</a>
-          </p>
+          <>
+            Github:{' '}
+            <a className="link link-hover" href={github}>
+              {github}
+            </a>
+          </>
         ) : null}
 
         {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}
         {platform ? <p>Platform: {platform.join(', ')}</p> : null}
       </div>
       <figure
-        className="m-0"
         onClick={() => {
           setExpanded(state => !state)
         }}
@@ -140,7 +142,7 @@ export default function ToolCard({
           <img
             alt={`screenshot of ${name}`}
             loading="lazy"
-            className="max-w-sm max-h-sm w-full h-auto"
+            className="max-h-sm h-auto max-w-sm"
             width={width}
             height={height}
             src={img}

@@ -17,6 +17,7 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
       <label htmlFor="tag-select">Filter on tag: </label>
       <select
         id="tag-select"
+        className="select select-bordered"
         value={tag}
         onChange={event => {
           store.setFilters({

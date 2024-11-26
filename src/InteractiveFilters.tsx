@@ -18,6 +18,7 @@ export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
       <select
         value={interactive}
         id="interactive-select"
+        className="select select-bordered w-full max-w-xs"
         onChange={event => {
           store.setFilters({
             ...filters,

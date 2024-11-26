@@ -18,6 +18,7 @@ export default function LanguageFilters({ tools }: { tools: Tool[] }) {
       <select
         value={language}
         id="language-select"
+        className="select select-bordered w-full max-w-xs"
         onChange={event => {
           store.setFilters({
             ...filters,
