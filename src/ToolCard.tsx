@@ -2,6 +2,7 @@ import { useState } from 'react'
 import slugify from 'slugify'
 import { type Tool, useAppStore } from './store'
 import ImageDialog from './ImageDialog'
+import Link from './Link'
 
 function ellipses(f = '', n = 40) {
   return f.slice(0, n) + (f.length > n ? '...' : '')
@@ -36,24 +37,25 @@ export default function ToolCard({
     <div className="bg-white dark:bg-[#333] flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
       <div>
         <h3 className="m-0 text-xl">
-          <a
+          <Link
             id={slug}
             href="#"
-            className="no-underline hover:underline text-inherit"
             onClick={event => {
               store.setSelected(`#${slug}`)
               event.preventDefault()
             }}
           >
             {name}
-          </a>
+          </Link>
         </h3>
-        <p>
-          <a href={url}>{ellipses(url)}</a>
-        </p>
+        {url ? (
+          <p>
+            <Link href={url}>{ellipses(url)}</Link>
+          </p>
+        ) : null}
         {alt_url ? (
           <p>
-            Alt url <a href={alt_url}>{ellipses(alt_url)}</a>
+            Alt url <Link href={alt_url}>{ellipses(alt_url)}</Link>
           </p>
         ) : null}
         {interactive ? (
@@ -63,7 +65,7 @@ export default function ToolCard({
           <p>
             Publication:{' '}
             {pub.doi ? (
-              <a
+              <Link
                 href={
                   pub.doi.startsWith('http')
                     ? pub.doi
@@ -71,7 +73,7 @@ export default function ToolCard({
                 }
               >
                 (doi link)
-              </a>
+              </Link>
             ) : null}{' '}
             {pub.year ? ` (${pub.year})` : null}
             {pub.citations === undefined
@@ -84,7 +86,7 @@ export default function ToolCard({
             Language:{' '}
             {language.map((language, index) => [
               index > 0 && ', ',
-              <a
+              <Link
                 href="#"
                 key={`${language}-${index}`}
                 onClick={event => {
@@ -93,7 +95,7 @@ export default function ToolCard({
                 }}
               >
                 {language}
-              </a>,
+              </Link>,
             ])}
           </p>
         ) : null}
@@ -102,7 +104,7 @@ export default function ToolCard({
             Tags:{' '}
             {tags.map((tag, index) => [
               index > 0 && ', ',
-              <a
+              <Link
                 href="#"
                 key={`${tag}-${index}`}
                 onClick={event => {
@@ -111,22 +113,19 @@ export default function ToolCard({
                 }}
               >
                 {tag}
-              </a>,
+              </Link>,
             ])}
           </p>
         ) : null}
         {note ? <p>Note: {note}</p> : null}
         {twitter ? (
           <>
-            Twitter: <a href={twitter}>{twitter}</a>
+            Twitter: <Link href={twitter}>{twitter}</Link>
           </>
         ) : null}
         {github ? (
           <>
-            Github:{' '}
-            <a className="link link-hover" href={github}>
-              {github}
-            </a>
+            Github: <Link href={github}>{github}</Link>
           </>
         ) : null}
 

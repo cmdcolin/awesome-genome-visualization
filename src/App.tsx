@@ -10,6 +10,7 @@ import TagFilters from './TagFilters'
 import LanguageFilters from './LanguageFilters'
 import ToolCard from './ToolCard'
 import ToolTable from './ToolTable'
+import Link from './Link'
 
 export default function App() {
   const store = useAppStore()
@@ -83,15 +84,15 @@ export default function App() {
   const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
 
   return (
-    <div className="m-auto max-w-7xl">
+    <div className="m-auto neutral max-w-7xl">
       <h1>awesome-genome-visualization</h1>
       <p>
         This is a companion website for the github repo{' '}
-        <a href={githubURL}>{githubURL}</a>
+        <Link href={githubURL}>{githubURL}</Link>
       </p>
       <p>
         Also check out our twitter account{' '}
-        <a href="https://twitter.com/awesomegenomev1">@awesomegenomev1</a>
+        <Link href="https://twitter.com/awesomegenomev1">@awesomegenomev1</Link>
       </p>
       <p>Feel free to submit PRs to add more tools</p>
 

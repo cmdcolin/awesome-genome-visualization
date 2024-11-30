@@ -1,3 +1,4 @@
+import Link from './Link'
 import type { Tool } from './store'
 
 export default function ToolTable({ tools }: { tools: Tool[] }) {
@@ -23,7 +24,7 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
               {pub ? (
                 <>
                   {pub.doi ? (
-                    <a
+                    <Link
                       href={
                         pub.doi.startsWith('http')
                           ? pub.doi
@@ -34,21 +35,27 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
                       {pub.citations === undefined
                         ? ''
                         : `(${pub.citations} citations)`}
-                    </a>
+                    </Link>
                   ) : null}
                 </>
               ) : null}
             </td>
             <td className={cell}>
-              <a href={url} target="_blank" rel="noreferrer">
-                {url}
-              </a>{' '}
-              {github && github !== url ? <a href={github}>{github}</a> : null}
+              {url ? (
+                <Link href={url} target="_blank" rel="noreferrer">
+                  {url}
+                </Link>
+              ) : null}{' '}
+              {github && github !== url ? (
+                <Link href={github}>{github}</Link>
+              ) : null}
             </td>
             <td className={cell}>
-              <a href={img} target="_blank" rel="noreferrer">
-                {img}
-              </a>
+              {img ? (
+                <Link href={img} target="_blank" rel="noreferrer">
+                  {img}
+                </Link>
+              ) : null}
             </td>
           </tr>
         ))}
