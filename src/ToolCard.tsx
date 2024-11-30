@@ -36,7 +36,7 @@ export default function ToolCard({
   return (
     <div className="bg-white dark:bg-[#333] flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
       <div>
-        <h3 className="m-0 text-xl">
+        <h3 className="m-0 text-xl mb-4">
           <Link
             id={slug}
             href="#"
