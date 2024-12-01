@@ -7267,6 +7267,22 @@
       "width": 1700,
       "height": 2186,
       "github_stars": 59
+    },
+    {
+      "name": "topr",
+      "img": "topr.png",
+      "tags": ["Manhattan", "GWAS", "ggplot2"],
+      "note": "Includes locuszoom style plot",
+      "language": ["R"],
+      "github": "https://github.com/totajuliusd/topr/",
+      "pub": {
+        "doi": "https://doi.org/10.1186/s12859-023-05301-4",
+        "year": 2023,
+        "citations": 4
+      },
+      "width": 2046,
+      "height": 2082,
+      "github_stars": 49
     }
   ]
 }
