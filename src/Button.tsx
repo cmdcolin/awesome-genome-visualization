@@ -6,7 +6,7 @@ export default function Button({
   onClick: () => void
 }) {
   return (
-    <button onClick={onClick} className="btn bg-slate-700">
+    <button onClick={onClick} className="btn font-normal p-1 bg-slate-700">
       {children}
     </button>
   )

@@ -82,9 +82,19 @@ export default function App() {
     .filter(t => (platform ? t.platform?.includes(platform) : true))
     .filter(t => (interactive ? t.interactive?.includes(interactive) : true))
 
+  const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
   return (
     <div className="m-auto max-w-7xl flex flex-col gap-4">
-      <Header />
+      <h1 className="text-3xl">awesome-genome-visualization</h1>
+      <p>
+        This is a companion website for the github repo{' '}
+        <Link href={githubURL}>{githubURL}</Link>
+      </p>
+      <p>
+        Also check out our twitter account{' '}
+        <Link href="https://twitter.com/awesomegenomev1">@awesomegenomev1</Link>
+      </p>
+      <p>Feel free to submit PRs to add more tools</p>
       <FilterButtons />
       <SortButtons />
       <ClearSelection />
@@ -257,24 +267,6 @@ function FilterButtons() {
         Text based
       </Button>
     </p>
-  )
-}
-
-function Header() {
-  const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
-  return (
-    <div>
-      <h1 className="text-3xl">awesome-genome-visualization</h1>
-      <p>
-        This is a companion website for the github repo{' '}
-        <Link href={githubURL}>{githubURL}</Link>
-      </p>
-      <p>
-        Also check out our twitter account{' '}
-        <Link href="https://twitter.com/awesomegenomev1">@awesomegenomev1</Link>
-      </p>
-      <p>Feel free to submit PRs to add more tools</p>
-    </div>
   )
 }
 

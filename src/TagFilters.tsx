@@ -1,3 +1,4 @@
+import Button from './Button'
 import { type Tool, useAppStore } from './store'
 
 export default function TagFilters({ tools }: { tools: Tool[] }) {
@@ -33,6 +34,13 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
           </option>
         ))}
       </select>
+      <Button
+        onClick={() => {
+          store.setFilters({ ...filters, tag: undefined })
+        }}
+      >
+        Clear
+      </Button>
     </div>
   )
 }
