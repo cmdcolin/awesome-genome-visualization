@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import queryString from 'query-string'
 import { tools as importedTools } from './TOOLS.json'
-import { Tool, useAppStore } from './store'
+import { type Tool, useAppStore } from './store'
 
 // locals
 import InteractiveFilters from './InteractiveFilters'
