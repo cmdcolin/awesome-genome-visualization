@@ -34,7 +34,7 @@ export default function ToolCard({
   const [expanded, setExpanded] = useState(false)
   const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
   return (
-    <div className="bg-white dark:bg-[#333] flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
+    <div className="flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
       <div>
         <h3 className="m-0 text-xl mb-4">
           <Link
