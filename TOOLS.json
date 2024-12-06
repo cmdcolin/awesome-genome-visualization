@@ -4218,7 +4218,7 @@
     {
       "name": "LINX",
       "note": "part of the PURPLE/GRIDSS/LINX pipeline",
-      "url": "https://github.com/hartwigmedical/hmftools/blob/master/linx/README.md",
+      "url": "https://github.com/hartwigmedical/hmftools/tree/master/linx",
       "language": ["Java", "Circos integration"],
       "github": "https://github.com/hartwigmedical/hmftools",
       "pub": {
@@ -4247,7 +4247,7 @@
         "year": 2019,
         "citations": 39
       },
-      "note": "intermutation-distance rainfall plots/katagesis plots are not technically in genomic coordinates, but do indicate genomic cluster of variatnts",
+      "note": "intermutation-distance rainfall plots/katagesis plots are not technically in genomic coordinates, but do indicate genomic cluster of variants",
       "url": "https://github.com/hartwigmedical/hmftools/blob/master/purity-ploidy-estimator/README.md",
       "github": "https://github.com/hartwigmedical/hmftools",
       "tags": ["CNV", "Cancer"],
