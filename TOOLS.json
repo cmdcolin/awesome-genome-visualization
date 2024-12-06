@@ -2500,7 +2500,7 @@
       "github_stars": 80
     },
     {
-      "tags": ["SV", "Linear"],
+      "tags": ["SV", "Linear", "Deadlink"],
       "name": "Gremlin",
       "img": "gremlin.png",
       "url": "http://compbio.cs.brown.edu/projects/gremlin/",
@@ -5280,7 +5280,7 @@
       "url": "http://explorer.cancerregulome.org/all_pairs/?dataset=TCGA_ACC",
       "img": "cancerregulome.png",
       "tags": ["Circular", "Cancer", "SV"],
-      "platform": ["Web"],
+      "platform": ["Web", "Silo"],
       "language": ["JS"],
       "github": "https://github.com/cancerregulome/RegulomeExplorer",
       "width": 1852,
