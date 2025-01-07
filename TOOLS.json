@@ -7283,6 +7283,14 @@
       "width": 2046,
       "height": 2082,
       "github_stars": 49
+    },
+    {
+      "name": "Mumento",
+      "img": "mumnto.png",
+      "tags": ["Multi-way synteny", "Comparative", "Pangenome"],
+      "github": "github.com/vikshiv/mumemto",
+      "pub": { "doi": "https://doi.org/10.1101/2025.01.05.631388" },
+      "language": ["Python", "C++"]
     }
   ]
 }
