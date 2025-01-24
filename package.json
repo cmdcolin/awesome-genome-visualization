@@ -14,16 +14,16 @@
     "postdeploy": "git push"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.0-beta.3",
+    "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "^0.5.15",
-    "@tailwindcss/vite": "^4.0.0-beta.3",
-    "daisyui": "^5.0.0-alpha.41",
+    "@tailwindcss/vite": "^4.0.0",
+    "daisyui": "^5.0.0-beta.2",
     "eslint-plugin-unicorn": "^56.0.0",
     "query-string": "^9.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "slugify": "^1.6.6",
-    "tailwindcss": "^4.0.0-beta.3",
+    "tailwindcss": "^4.0.0",
     "tsx": "^4.16.2",
     "zustand": "^5.0.0"
   },
