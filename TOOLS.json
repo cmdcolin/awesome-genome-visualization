@@ -7298,6 +7298,16 @@
       "width": 1230,
       "height": 591,
       "github_stars": 61
+    },
+    {
+      "name": "locuszoomr",
+      "language": ["R"],
+      "tags": ["Manhattan", "GWAS", "Linkage disequilibrium"],
+      "url": "https://cran.r-project.org/web/packages/locuszoomr/vignettes/locuszoomr.html",
+      "github": "https://github.com/myles-lewis/locuszoomr",
+      "img": "locuszoomr.jpg",
+      "note": "See also easylabel for manhattan plots https://cran.r-project.org/web/packages/easylabel/vignettes/easylabel.html",
+      "pub": { "doi": "https://doi.org/10.1093/bioadv/vbaf006" }
     }
   ]
 }
