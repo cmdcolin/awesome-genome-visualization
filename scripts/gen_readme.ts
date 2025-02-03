@@ -22,23 +22,25 @@ Object.entries(categories)
   })
   .map(([category, tools]) => {
     console.log('## ' + category)
-    tools.forEach(tool => {
-      console.log(
-        '- ' +
-          '[' +
-          tool.name +
-          '](' +
-          tool.url +
-          ')' +
-          (tool.note ? ' (' + tool.note + ')' : '') +
-          (tool.publication ? ' [(pub)](' + tool.publication.url + ')' : '') +
-          (tool.img
-            ? ' [(img)](https://cmdcolin.github.io/awesome-genome-visualization/' +
-              tool.img +
-              ')'
-            : ''),
-      )
-    })
+    tools
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .forEach(tool => {
+        console.log(
+          '- ' +
+            '[' +
+            tool.name +
+            '](' +
+            (tool.url || tool.github) +
+            ')' +
+            (tool.note ? ' (' + tool.note + ')' : '') +
+            (tool.publication ? ' [(pub)](' + tool.publication.url + ')' : '') +
+            (tool.img
+              ? ' [(img)](https://cmdcolin.github.io/awesome-genome-visualization/' +
+                tool.img +
+                ')'
+              : ''),
+        )
+      })
   })
 
 console.log(footer)
