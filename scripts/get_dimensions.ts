@@ -1,7 +1,7 @@
 //run this in the static dir folder
 //identify -format "%f %wx%h\n" *.jpg *.png > ../../dims.txt
 import fs from 'fs'
-import { readTOOLS } from './util'
+import { readTOOLS } from './util.ts'
 
 const data = readTOOLS()
 

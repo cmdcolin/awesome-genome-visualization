@@ -1,6 +1,6 @@
 #!/bin/bash
-identify -format "%f %wx%h\n" public/*.jpg public/*.jpeg public/*.png > dims.txt
-yarn tsx scripts/get_dimensions.ts
-yarn tsx scripts/get_citations.ts
-yarn tsx scripts/get_stars.ts
+identify -format "%f %wx%h\n" public/*.jpg public/*.jpeg public/*.png >dims.txt
+node --experimental-strip-types scripts/get_dimensions.ts
+node --experimental-strip-types scripts/get_citations.ts
+node --experimental-strip-types scripts/get_stars.ts
 npx prettier --write TOOLS.json

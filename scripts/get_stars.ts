@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { fetchJSON, readTOOLS } from './util'
+import { fetchJSON, readTOOLS } from './util.ts'
 
 const data = readTOOLS()
 ;(async () => {

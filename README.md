@@ -6,7 +6,8 @@ genome-browser-like implementations
 See the new companion website here
 https://cmdcolin.github.io/awesome-genome-visualization/
 
-Follow the BlueSky https://bsky.app/profile/awesomegenomeviz.bsky.social or Mastodon account https://genomic.social/@awesomegenomevisualization
+Follow the BlueSky https://bsky.app/profile/awesomegenomeviz.bsky.social or
+Mastodon account https://genomic.social/@awesomegenomevisualization
 
 Note that the organization on the GitHub README here is a best effort
 categorization using the first tag applied to each tool, but tools can have
