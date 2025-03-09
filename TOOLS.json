@@ -5969,7 +5969,7 @@
         "year": 1998,
         "citations": 2705
       },
-      "tags": ["Academic license", "Assembly QC", "Alignments viewer"],
+      "tags": ["Assembly QC", "Alignments viewer", "Academic license"],
       "width": 650,
       "height": 994
     },
@@ -6488,6 +6488,7 @@
       "img": "wally.png",
       "tags": ["Alignments viewer", "Dotplot", "SV"],
       "url": "https://github.com/tobiasrausch/wally",
+      "note": "Available via the web from compiling to wasm",
       "github_stars": 111,
       "width": 676,
       "height": 538

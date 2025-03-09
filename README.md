@@ -6,8 +6,7 @@ genome-browser-like implementations
 See the new companion website here
 https://cmdcolin.github.io/awesome-genome-visualization/
 
-Follow the BlueSky https://bsky.app/profile/awesomegenomeviz.bsky.social or
-Mastodon account https://genomic.social/@awesomegenomevisualization
+Follow the Twitter account here too :) https://twitter.com/awesomegenomev1
 
 Note that the organization on the GitHub README here is a best effort
 categorization using the first tag applied to each tool, but tools can have
@@ -23,11 +22,6 @@ only
 I also encourage you to make your own visualization, things like R make this so
 much easier! But also consider making your visualization code re-usable for the
 wider community! And feel free to send PRs for more tools!
-
-## Academic license
-
-- [Consed](http://bozeman.mbt.washington.edu/consed/consed.html)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/consed.png)
 
 ## General
 
@@ -140,7 +134,8 @@ wider community! And feel free to send PRs for more tools!
 - [udon](https://github.com/ocxtal/udon) (Uses an advanced data structure for
   pileup, so visually a basic example but likely just a small demo)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/udon.png)
-- [wally](https://github.com/tobiasrausch/wally)
+- [wally](https://github.com/tobiasrausch/wally) (Available via the web from
+  compiling to wasm)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wally.png)
 
 ## Annotation
@@ -157,6 +152,8 @@ wider community! And feel free to send PRs for more tools!
 
 - [ALVIS (chimeric alignment viewer)](https://github.com/SR-Martin/alvis)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alvis_chimeric.png)
+- [Consed](http://bozeman.mbt.washington.edu/consed/consed.html)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/consed.png)
 - [Icarus QUAST](http://quast.sourceforge.net/icarus.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/icarus.png)
 - [MIRA](http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html)
@@ -397,6 +394,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggisy.png)
 - [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/give_hic.png)
+- [Gmaj](https://www.bx.psu.edu/miller_lab/dist/CHAP/docs/gmaj_geneconv.html)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gmaj.png)
 - [GSSPlayground](https://github.com/orangeSi/GSSplayground)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gssplayground.png)
 - [JAX Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser)
@@ -1308,6 +1307,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/depthplot.png)
 - [Samtools tview](http://www.htslib.org/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tview.png)
+- [SeqSizzle](https://github.com/ChangqingW/SeqSizzle)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqsizzle.png)
 - [SvABA](https://github.com/walaj/svaba#alignmentstxtgz)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svaba.png)
 - [VizAln (from HipSTR)](https://github.com/tfwillems/HipSTR)
