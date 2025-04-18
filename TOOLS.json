@@ -6703,7 +6703,7 @@
     {
       "name": "ABrowse (genome browser)",
       "img": "abrowse2.png",
-      "tags": ["General", "Historical"],
+      "tags": ["Historical", "General"],
       "language": ["JS"],
       "platform": ["Web"],
       "note": "Had integrations with BioMart, Taverna",
@@ -7126,7 +7126,7 @@
       "img": "svbyeye.png",
       "github": "https://github.com/daewoooo/SVbyEye/",
       "url": "https://htmlpreview.github.io/?https://github.com/daewoooo/SVbyEye/blob/master/man/doc/SVbyEye.html",
-      "tags": ["Multi-way synteny", "Comparative"],
+      "tags": ["Multi-way synteny", "Comparative", "SV"],
       "pub": {
         "doi": "10.1101/2024.09.11.612418",
         "year": 2024,
@@ -7144,7 +7144,7 @@
       "github": "https://github.com/OpenGene/GeneFuse",
       "url": "https://opengene.org/GeneFuse/report.html",
       "language": ["C", "C++"],
-      "tags": ["Gene fusion", "Text based"],
+      "tags": ["Gene fusion", "Text based", "SV"],
       "pub": {
         "doi": "10.7150/ijbs.24626",
         "year": 2018,
