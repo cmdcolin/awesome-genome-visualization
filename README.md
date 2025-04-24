@@ -1265,6 +1265,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svhawkeye.jpg)
 - [SVPV](https://github.com/VCCRI/SVPV)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svpv.jpg)
+- [SVTopo](https://github.com/PacificBiosciences/SVTopo)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svtopo.png)
 - [vcf2circos](https://github.com/bioinfo-chru-strasbourg/vcf2circos) (Based on
   PCircos https://github.com/CJinny/PCircos)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcf2circos.png)
