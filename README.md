@@ -1128,6 +1128,8 @@ wider community! And feel free to send PRs for more tools!
 
 ## Splicing
 
+- [IsoVis](https://isomix.org/isovis/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/isovis.png)
 - [Slinker](https://github.com/Oshlack/Slinker) (See also, clinker (gene fusion
   software))
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/slinker.png)
