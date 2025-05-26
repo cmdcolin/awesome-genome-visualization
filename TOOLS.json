@@ -7407,6 +7407,25 @@
       "width": 1254,
       "height": 944,
       "github_stars": 34
+    },
+    {
+      "name": "IsoVis",
+      "tags": ["Splicing"],
+      "url": "https://isomix.org/isovis/",
+      "platform": ["Web", "Desktop"],
+      "interactive": ["true"],
+      "img": "isovis.png",
+      "width": 1664,
+      "height": 752,
+      "github": "https://github.com/ClarkLaboratory/IsoVis",
+      "github_stars": 9,
+      "language": ["JS"],
+      "pub": {
+        "url": "https://academic.oup.com/nar/article/52/W1/W341/7665639",
+        "doi": "https://doi.org/10.1093/nar/gkae343",
+        "year": 2024,
+        "citations": 3
+      }
     }
   ]
 }
