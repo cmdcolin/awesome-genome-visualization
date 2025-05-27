@@ -7426,6 +7426,13 @@
         "year": 2024,
         "citations": 3
       }
+    },
+    {
+      "name": "tgv (terminal genome viewer)",
+      "tags": ["Text based", "Alignments", "Coverage"],
+      "img": "tgv.png",
+      "github": "https://github.com/zeqianli/tgv/",
+      "language": ["Rust"]
     }
   ]
 }
