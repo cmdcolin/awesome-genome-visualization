@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import slugify from 'slugify'
 import { type Tool, useAppStore } from './store'
-import ImageDialog from './ImageDialog'
 import Link from './Link'
+import ToolFigure from './ToolFigure'
 
 function ellipses(f = '', n = 40) {
   return f.slice(0, n) + (f.length > n ? '...' : '')
 }
 
-export default function ToolCard({
-  tool: {
+export default function ToolCard({ tool }: { tool: Tool }) {
+  const {
     name,
     url,
     language,
@@ -25,10 +25,7 @@ export default function ToolCard({
     note,
     alt_url,
     interactive,
-  },
-}: {
-  tool: Tool
-}) {
+  } = tool
   const store = useAppStore()
   const { filters } = store
   const [expanded, setExpanded] = useState(false)
@@ -132,25 +129,14 @@ export default function ToolCard({
         {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}
         {platform ? <p>Platform: {platform.join(', ')}</p> : null}
       </div>
-      <figure
-        onClick={() => {
-          setExpanded(state => !state)
-        }}
-      >
-        {img ? (
-          <img
-            alt={`screenshot of ${name}`}
-            loading="lazy"
-            className="max-h-sm h-auto max-w-sm"
-            width={width}
-            height={height}
-            src={img}
-          />
-        ) : (
-          <p>No screenshot</p>
-        )}
-        {expanded && img ? <ImageDialog open img={img} /> : null}
-      </figure>
+      <ToolFigure
+        img={img}
+        name={name}
+        width={width}
+        height={height}
+        expanded={expanded}
+        setExpanded={setExpanded}
+      />
     </div>
   )
 }
