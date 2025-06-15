@@ -90,10 +90,7 @@ export default function App() {
         This is a companion website for the github repo{' '}
         <Link href={githubURL}>{githubURL}</Link>
       </p>
-      <p>
-        Also check out our twitter account{' '}
-        <Link href="https://twitter.com/awesomegenomev1">@awesomegenomev1</Link>
-      </p>
+
       <p>Feel free to submit PRs to add more tools</p>
       <FilterButtons />
       <SortButtons />
