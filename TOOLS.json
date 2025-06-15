@@ -7435,6 +7435,21 @@
       "width": 828,
       "height": 456,
       "github_stars": 345
+    },
+    {
+      "name": "Genomics 2 Proteins Portal",
+      "tags": ["Protein", "Comparative"],
+      "img": "g2pportal.png",
+      "url": "https://g2p.broadinstitute.org/",
+      "platform": ["Web"],
+      "interactive": ["true"],
+      "width": 2820,
+      "height": 1522,
+      "pub": {
+        "url": "https://www.nature.com/articles/s41592-024-02409-0",
+        "doi": "https://doi.org/10.1038/s41592-024-02409-0",
+        "year": 2024
+      }
     }
   ]
 }

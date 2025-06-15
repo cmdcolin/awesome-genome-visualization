@@ -1059,6 +1059,8 @@ wider community! And feel free to send PRs for more tools!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/aquaria.png)
 - [drawProteins](https://github.com/brennanpincardiff/drawProteins)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/drawprotein.png)
+- [Genomics 2 Proteins Portal](https://g2p.broadinstitute.org/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/g2pportal.png)
 - [IBS (Illustrator for Biological Sequences)](http://ibs.biocuckoo.org/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ibs.jpg)
 - [nightingale/protvista](https://ebi-webcomponents.github.io/nightingale/#/msa)
