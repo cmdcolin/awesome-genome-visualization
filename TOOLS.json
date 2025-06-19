@@ -517,7 +517,7 @@
       },
       "width": 885,
       "height": 1555,
-      "github_stars": 582
+      "github_stars": 581
     },
     {
       "tags": ["CNV", "Static"],
@@ -971,7 +971,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btaa692",
         "year": 2020,
-        "citations": 367
+        "citations": 368
       },
       "tags": ["Static", "Hi-C", "General"],
       "width": 743,
@@ -1965,7 +1965,7 @@
       "pub": {
         "doi": "10.1186/1471-2105-10-421",
         "year": 2009,
-        "citations": 16589
+        "citations": 16590
       },
       "language": ["C++"],
       "platform": ["CLI"]
@@ -2053,7 +2053,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/bioinformatics/btp352",
         "year": 2009,
-        "citations": 52036
+        "citations": 52038
       },
       "img": "tview.png",
       "width": 1290,
@@ -3004,7 +3004,7 @@
       "pub": {
         "doi": "https://dx.doi.org/10.1038%2Fnbt.1754",
         "year": 2011,
-        "citations": 12860
+        "citations": 12861
       },
       "width": 1124,
       "height": 1280,
@@ -4046,7 +4046,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41587-020-0546-8",
         "year": 2020,
-        "citations": 2894
+        "citations": 2896
       },
       "platform": ["Web"],
       "width": 550,
@@ -5030,7 +5030,7 @@
       "pub": {
         "doi": "https://doi.org/10.1093/molbev/msab120",
         "year": 2021,
-        "citations": 13256
+        "citations": 13260
       },
       "note": "original paper from 1994 but actively updated. requires EULA for download",
       "tags": ["MSA", "Phylogenetics"],
@@ -5238,7 +5238,7 @@
       "pub": {
         "doi": "https://doi.org/10.1111/2041-210X.12628",
         "year": 2016,
-        "citations": 3656
+        "citations": 3655
       },
       "width": 2100,
       "height": 1050,
@@ -6887,7 +6887,7 @@
       "pub": {
         "doi": "https://doi.org/10.1038/s41586-023-05936-6",
         "year": 2023,
-        "citations": 243
+        "citations": 244
       },
       "note": "Pub is not for visualization tool, but it is suggested to cite this paper",
       "width": 1000,
@@ -7451,6 +7451,15 @@
         "year": 2024,
         "citations": 3
       }
+    },
+    {
+      "name": "MCGV",
+      "img": "mcgv.png",
+      "tags": ["Multi-way synteny"],
+      "platform": ["Web", "Silo"],
+      "url": "https://www.ncbi.nlm.nih.gov/mcgv/cm/mcgv/help",
+      "width": 1000,
+      "height": 305
     }
   ]
 }
