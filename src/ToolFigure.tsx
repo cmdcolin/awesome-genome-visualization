@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction } from 'react'
+import type { Dispatch, SetStateAction } from 'react'
 import ImageDialog from './ImageDialog'
 
 interface ToolFigureProps {
@@ -21,14 +21,16 @@ export default function ToolFigure({
   return (
     <figure
       onClick={() => {
-        setExpanded(state => !state)
+        if (window.innerWidth >= 640) {
+          setExpanded(state => !state)
+        }
       }}
     >
       {img ? (
         <img
           alt={`screenshot of ${name}`}
           loading="lazy"
-          className="max-h-sm h-auto max-w-sm"
+          className="max-h-sm h-auto w-full max-w-sm"
           width={width}
           height={height}
           src={img}

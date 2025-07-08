@@ -10,8 +10,8 @@ export default function ImageDialog({
   const ref = useDialogShown(open)
   return (
     <dialog ref={ref} className="modal">
-      <div className="modal-box w-11/12 max-w-5xl max-h-[80vh]">
-        <img src={img} />
+      <div className="modal-box p-0 w-auto h-auto max-w-[80vw] max-h-[80vh]">
+        <img src={img} className="max-w-full max-h-full object-contain" />
       </div>
     </dialog>
   )
