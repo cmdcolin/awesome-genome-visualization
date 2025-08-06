@@ -3,7 +3,6 @@ import queryString from 'query-string'
 import { tools as importedTools } from './TOOLS.json'
 import { type Tool, useAppStore } from './store'
 
-// locals
 import InteractiveFilters from './InteractiveFilters'
 import PlatformFilters from './PlatformFilters'
 import TagFilters from './TagFilters'
@@ -38,41 +37,41 @@ export default function App() {
     }
   }, [selected])
 
-  let tools = sort.latest ? [...importedTools].reverse() : [...importedTools]
+  let tools = sort.latest ? [...importedTools].toReversed() : [...importedTools]
 
   const y = sort.year
   if (y !== undefined) {
-    tools = tools.sort(
+    tools = tools.toSorted(
       (a, b) =>
-        +(a.pub?.year ?? Number.POSITIVE_INFINITY * y) -
-        +(b.pub?.year ?? Number.POSITIVE_INFINITY * y),
+        (a.pub?.year ?? Number.POSITIVE_INFINITY * y) -
+        (b.pub?.year ?? Number.POSITIVE_INFINITY * y),
     )
     if (sort.year === -1) {
-      tools = tools.reverse()
+      tools = tools.toReversed()
     }
   }
 
   const c = sort.citations
   if (c !== undefined) {
-    tools = tools.sort(
+    tools = tools.toSorted(
       (a, b) =>
-        +(a.pub?.citations ?? Number.POSITIVE_INFINITY * c) -
-        +(b.pub?.citations ?? Number.POSITIVE_INFINITY * c),
+        (a.pub?.citations ?? Number.POSITIVE_INFINITY * c) -
+        (b.pub?.citations ?? Number.POSITIVE_INFINITY * c),
     )
     if (sort.citations === -1) {
-      tools = tools.reverse()
+      tools = tools.toReversed()
     }
   }
 
   const s = sort.stars
   if (s !== undefined) {
-    tools = tools.sort(
+    tools = tools.toSorted(
       (a, b) =>
-        +(a.github_stars ?? Number.POSITIVE_INFINITY * s) -
-        +(b.github_stars ?? Number.POSITIVE_INFINITY * s),
+        (a.github_stars ?? Number.POSITIVE_INFINITY * s) -
+        (b.github_stars ?? Number.POSITIVE_INFINITY * s),
     )
     if (sort.stars === -1) {
-      tools = tools.reverse()
+      tools = tools.toReversed()
     }
   }
 
