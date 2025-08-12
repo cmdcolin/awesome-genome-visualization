@@ -3,6 +3,8 @@ import slugify from 'slugify'
 import { type Tool, useAppStore } from './store'
 import Link from './Link'
 import ToolFigure from './ToolFigure'
+import Markdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 function ellipses(f = '', n = 40) {
   return f.slice(0, n) + (f.length > n ? '...' : '')
@@ -114,7 +116,22 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             ])}
           </p>
         ) : null}
-        {note ? <p>Note: {note}</p> : null}
+        {note ? (
+          <div>
+            <Markdown
+              remarkPlugins={[remarkGfm]}
+              components={{
+                a: ({ href, children, ...props }) => (
+                  <a href={href} className="link" {...props}>
+                    {children}
+                  </a>
+                ),
+              }}
+            >
+              {'Note: ' + note}
+            </Markdown>
+          </div>
+        ) : null}
         {twitter ? (
           <>
             Twitter: <Link href={twitter}>{twitter}</Link>
