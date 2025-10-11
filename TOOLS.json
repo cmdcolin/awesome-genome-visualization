@@ -7461,6 +7461,21 @@
       "url": "https://www.ncbi.nlm.nih.gov/mcgv/cm/mcgv/help",
       "width": 1000,
       "height": 305
+    },
+    {
+      "name": "paf2dotplot",
+      "img": "paf2dotplot.png",
+      "note": "Based on dotPlotly",
+      "tags": ["Comparative", "Dotplot"],
+      "url": "https://github.com/moold/paf2dotplot",
+      "language": ["R"]
+    },
+    {
+      "name": "paf2dot",
+      "img": "paf2dot.png",
+      "tags": ["Comparative", "Dotplot"],
+      "url": "https://github.com/pangenome/paf2dot",
+      "language": ["GNUPlot"]
     }
   ]
 }
