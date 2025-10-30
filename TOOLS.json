@@ -537,7 +537,7 @@
       "github_stars": 72
     },
     {
-      "tags": ["Static", "Alignments viewer"],
+      "tags": ["Static", "Alignments"],
       "language": ["Python"],
       "img": "bamsnap.png",
       "name": "BAMSnap",
@@ -705,7 +705,7 @@
       "github_stars": 325
     },
     {
-      "tags": ["Static", "SV", "Alignments viewer"],
+      "tags": ["Static", "SV", "Alignments"],
       "name": "GenomeView",
       "img": "genomeview.png",
       "url": "https://github.com/nspies/genomeview",
@@ -730,13 +730,13 @@
         "citations": 132
       },
       "language": ["Java"],
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "width": 640,
       "height": 496,
       "github_stars": 8
     },
     {
-      "tags": ["Static", "Comparative"],
+      "tags": ["Static", "Comparative", "Multi-way synteny"],
       "name": "genoPlotR",
       "img": "genoplotr.png",
       "url": "http://genoplotr.r-forge.r-project.org/",
@@ -796,7 +796,7 @@
       "img": "gssplayground.png",
       "url": "https://github.com/orangeSi/GSSplayground",
       "language": ["Perl"],
-      "tags": ["Comparative", "Static", "Alignments viewer"],
+      "tags": ["Comparative", "Static", "Alignments"],
       "width": 1300,
       "height": 700,
       "github_stars": 33
@@ -818,7 +818,7 @@
       "github_stars": 41
     },
     {
-      "tags": ["Static", "Alignments viewer", "Quantitative", "Ideogram"],
+      "tags": ["Static", "Alignments", "Quantitative", "Ideogram"],
       "name": "Gviz",
       "img": "gviz.png",
       "url": "https://bioconductor.org/packages/release/bioc/html/Gviz.html",
@@ -860,7 +860,7 @@
       "github_stars": 19
     },
     {
-      "tags": ["Static", "Alignments viewer"],
+      "tags": ["Static", "Alignments"],
       "name": "JVarKit BamToSVG",
       "img": "bamtosvg.jpg",
       "pub": {
@@ -1021,7 +1021,7 @@
         "citations": 98
       },
       "img": "samplot.jpg",
-      "tags": ["Static", "SV", "Alignments viewer"],
+      "tags": ["Static", "SV", "Alignments"],
       "width": 1202,
       "height": 602,
       "github_stars": 555
@@ -1473,7 +1473,7 @@
       "height": 1438
     },
     {
-      "tags": ["Comparative"],
+      "tags": ["Comparative", "Multi-way synteny"],
       "name": "gggenomes",
       "url": "https://github.com/thackl/gggenomes",
       "img": "gggenomes.png",
@@ -1857,7 +1857,7 @@
       "github_stars": 12
     },
     {
-      "tags": ["Graph", "Alignments viewer", "Circular", "SV"],
+      "tags": ["Graph", "Alignments", "Circular", "SV"],
       "name": "MoMi-G",
       "img": "momig.png",
       "url": "https://github.com/MoMI-G/MoMI-G",
@@ -1933,7 +1933,7 @@
       "github_stars": 116
     },
     {
-      "tags": ["Text based", "Alignments viewer"],
+      "tags": ["Text based", "Alignments"],
       "name": "ASCIIGenome",
       "img": "asciigenome.png",
       "url": "https://github.com/dariober/ASCIIGenome",
@@ -1993,7 +1993,7 @@
     },
     {
       "name": "pyBamView",
-      "tags": ["Alignments viewer", "Static"],
+      "tags": ["Alignments", "Static"],
       "url": "https://mgymrek.github.io/pybamview/",
       "platform": ["CLI"],
       "img": "pybamview.png",
@@ -2045,7 +2045,7 @@
       "height": 446
     },
     {
-      "tags": ["Text based", "Alignments viewer"],
+      "tags": ["Text based", "Alignments"],
       "name": "Samtools tview",
       "url": "http://www.htslib.org/",
       "github": "https://github.com/samtools/samtools",
@@ -2329,7 +2329,7 @@
       "height": 575
     },
     {
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "name": "Chromatic",
       "url": "https://chromatic.nci.nih.gov/",
       "img": "chromatic.png",
@@ -2427,7 +2427,7 @@
       "height": 256
     },
     {
-      "tags": ["Alignments viewer", "Linear"],
+      "tags": ["Alignments", "Linear"],
       "name": "Gambit",
       "img": "gambit.png",
       "url": "http://labsergen.langebio.cinvestav.mx/bioinformatics/jacob/?p=473",
@@ -2436,7 +2436,7 @@
       "height": 671
     },
     {
-      "tags": ["SV", "Alignments viewer"],
+      "tags": ["SV", "Alignments"],
       "name": "Ribbon",
       "language": ["JS"],
       "url": "http://genomeribbon.com/",
@@ -2544,7 +2544,7 @@
       "height": 533
     },
     {
-      "tags": ["Alignments viewer", "Assembly QC"],
+      "tags": ["Alignments", "Assembly QC"],
       "name": "Hawkeye",
       "github": "https://github.com/peterhj/amos",
       "language": ["C++"],
@@ -2593,7 +2593,7 @@
       "github_stars": 469
     },
     {
-      "tags": ["SV", "Alignments viewer"],
+      "tags": ["SV", "Alignments"],
       "name": "InGAP-SV",
       "img": "ingap_sv.png",
       "language": ["Java"],
@@ -2642,7 +2642,7 @@
       "github_stars": 33
     },
     {
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "name": "MagicViewer",
       "language": ["Java"],
       "img": "magicviewer.jpeg",
@@ -2687,7 +2687,7 @@
       "github_stars": 162
     },
     {
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "name": "LookSeq",
       "github": "https://github.com/magnusmanske/lookseq",
       "img": "lookseq.png",
@@ -2719,7 +2719,7 @@
       "github_stars": 37
     },
     {
-      "tags": ["Alignments viewer", "Historical", "Deadlink"],
+      "tags": ["Alignments", "Historical", "Deadlink"],
       "name": "MapView",
       "img": "mapview.jpg",
       "url": "https://web.archive.org/web/20201023093840/https://sites.google.com/site/wjwdavymapview/mapview/MapView.zip?attredirects=0",
@@ -2735,7 +2735,7 @@
       "height": 397
     },
     {
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "name": "NGB",
       "img": "ngb.png",
       "url": "https://github.com/epam/NGB",
@@ -2836,7 +2836,7 @@
       "github_stars": 67
     },
     {
-      "tags": ["Alignments viewer", "Assembly QC"],
+      "tags": ["Alignments", "Assembly QC"],
       "name": "Staden",
       "language": ["C", "Tcl/Tk"],
       "img": "staden.png",
@@ -2970,7 +2970,7 @@
       "github_stars": 4
     },
     {
-      "tags": ["General", "Historical", "Alignments viewer"],
+      "tags": ["General", "Historical", "Alignments"],
       "img": "celera.jpeg",
       "name": "Celera genome browser",
       "url": "https://www.csee.umbc.edu/~turner/presentations/bvw2002/sld009.htm",
@@ -2979,7 +2979,7 @@
       "height": 600
     },
     {
-      "tags": ["General", "Alignments viewer"],
+      "tags": ["General", "Alignments"],
       "name": "IGB",
       "img": "igb.jpg",
       "url": "https://bioviz.org/",
@@ -2995,7 +2995,7 @@
       "height": 398
     },
     {
-      "tags": ["General", "Alignments viewer", "SV", "Quantitative"],
+      "tags": ["General", "Alignments", "SV", "Quantitative"],
       "name": "IGV",
       "img": "igv.jpg",
       "language": ["Java"],
@@ -3012,7 +3012,7 @@
       "github_stars": 700
     },
     {
-      "tags": ["General", "SV", "Alignments viewer"],
+      "tags": ["General", "SV", "Alignments"],
       "name": "Savant",
       "img": "savant.jpg",
       "github": "https://github.com/compbio-UofT/savant",
@@ -3030,7 +3030,7 @@
       "github_stars": 12
     },
     {
-      "tags": ["General", "Alignments viewer"],
+      "tags": ["General", "Alignments"],
       "name": "Tablet",
       "github": "https://github.com/cropgeeks/tablet",
       "img": "tablet.jpeg",
@@ -3071,7 +3071,7 @@
       "github_stars": 0
     },
     {
-      "tags": ["General", "Alignments viewer"],
+      "tags": ["General", "Alignments"],
       "name": "Biodalliance",
       "github": "https://github.com/dasmoth/dalliance",
       "url": "http://www.biodalliance.org/",
@@ -3188,7 +3188,7 @@
       "github_stars": 334
     },
     {
-      "tags": ["General", "Alignments viewer"],
+      "tags": ["General", "Alignments"],
       "name": "IGV.js",
       "language": ["JS"],
       "img": "igvjs.png",
@@ -3204,13 +3204,7 @@
       "github_stars": 693
     },
     {
-      "tags": [
-        "General",
-        "Alignments viewer",
-        "SV",
-        "Quantitative",
-        "Gene structure"
-      ],
+      "tags": ["General", "Alignments", "SV", "Quantitative", "Gene structure"],
       "name": "JBrowse",
       "note": "See also JBrowse plugin registry https://gmod.github.io/jbrowse-registry. Runs on the web or as a desktop app using Electron",
       "img": "jbrowse.png",
@@ -3234,7 +3228,7 @@
         "Comparative",
         "Dotplot",
         "Circular",
-        "Alignments viewer",
+        "Alignments",
         "Quantitative",
         "Hi-C"
       ],
@@ -3255,7 +3249,7 @@
       "github_stars": 260
     },
     {
-      "tags": ["General", "SV", "Alignments viewer", "Comparative"],
+      "tags": ["General", "SV", "Alignments", "Comparative"],
       "name": "Kero-BROWSE",
       "img": "kerobrowse.png",
       "url": "https://kero.hgc.jp/examples/CLCL/hg38/index.html",
@@ -3873,7 +3867,7 @@
       "github_stars": 246
     },
     {
-      "tags": ["Mobile app", "Alignments viewer"],
+      "tags": ["Mobile app", "Alignments"],
       "name": "iGenomics",
       "language": ["Objective-C"],
       "github": "https://github.com/stuckinaboot/iGenomics",
@@ -3997,14 +3991,7 @@
       "github_stars": 34
     },
     {
-      "tags": [
-        "CNV",
-        "Linear",
-        "Cancer",
-        "Lollipops",
-        "SV",
-        "Alignments viewer"
-      ],
+      "tags": ["CNV", "Linear", "Cancer", "Lollipops", "SV", "Alignments"],
       "name": "GenomePaint",
       "img": "genomepaint.png",
       "url": "https://genomepaint.stjude.cloud/",
@@ -4497,7 +4484,7 @@
     {
       "name": "udon",
       "img": "udon.png",
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "url": "https://github.com/ocxtal/udon",
       "language": ["Rust"],
       "note": "Uses an advanced data structure for pileup, so visually a basic example but likely just a small demo",
@@ -4960,7 +4947,7 @@
       "name": "MIRA",
       "language": ["C++"],
       "img": "mira.png",
-      "tags": ["Assembly QC", "Alignments viewer", "Historical"],
+      "tags": ["Assembly QC", "Alignments", "Historical"],
       "url": "http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html",
       "pub": {
         "doi": "https://dx.doi.org/10.1101%2Fgr.1917404",
@@ -5578,7 +5565,7 @@
     {
       "name": "Genovar",
       "img": "genovar.png",
-      "tags": ["CNV", "ArrayCGH", "Alignments viewer"],
+      "tags": ["CNV", "ArrayCGH", "Alignments"],
       "language": ["Java"],
       "pub": {
         "doi": "https://dx.doi.org/10.1186%2F1471-2105-13-S7-S12",
@@ -5970,7 +5957,7 @@
         "year": 1998,
         "citations": 2742
       },
-      "tags": ["Assembly QC", "Alignments viewer", "Academic license"],
+      "tags": ["Assembly QC", "Alignments", "Academic license"],
       "width": 650,
       "height": 994
     },
@@ -6090,7 +6077,7 @@
         "MSA",
         "SV",
         "Coverage",
-        "Alignments viewer",
+        "Alignments",
         "Comparative",
         "Annotation",
         "Variation",
@@ -6487,7 +6474,7 @@
       "name": "wally",
       "language": ["C++"],
       "img": "wally.png",
-      "tags": ["Alignments viewer", "Dotplot", "SV"],
+      "tags": ["Alignments", "Dotplot", "SV"],
       "url": "https://github.com/tobiasrausch/wally",
       "note": "Available via the web from compiling to wasm",
       "github_stars": 120,
@@ -6497,7 +6484,7 @@
     {
       "name": "alignoth",
       "language": ["Rust", "Vega"],
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "github": "https://github.com/koesterlab/alignoth",
       "url": "http://htmlpreview.github.io/?https://github.com/koesterlab/alignoth/blob/main/examples/plot.html",
       "img": "alignoth.png",
@@ -6518,7 +6505,7 @@
     {
       "name": "gw",
       "img": "gw.png",
-      "tags": ["Alignments viewer", "Variation"],
+      "tags": ["Alignments", "Variation"],
       "language": ["C++", "OpenGL"],
       "github": "https://github.com/kcleal/gw",
       "pub": {
@@ -6565,7 +6552,7 @@
       "img": "drukbam.png",
       "github": "https://github.com/StephanHolgerD/DrukBam",
       "language": ["Python"],
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "width": 1270,
       "height": 742,
       "github_stars": 21
@@ -6805,7 +6792,7 @@
     },
     {
       "name": "bamscope",
-      "tags": ["Alignments viewer"],
+      "tags": ["Alignments"],
       "language": ["Kotlin"],
       "url": "https://github.com/jslfree080/bamscope",
       "img": "bamscope.png",
@@ -7020,7 +7007,7 @@
     {
       "name": "figeno",
       "img": "figeno.png",
-      "tags": ["Hi-C", "Epigenomics", "Methylation", "Alignments viewer"],
+      "tags": ["Hi-C", "Epigenomics", "Methylation", "Alignments"],
       "language": ["Python", "JS"],
       "url": "https://github.com/CompEpigen/figeno",
       "pub": {
@@ -7035,7 +7022,7 @@
     {
       "name": "SVhawkeye",
       "img": "svhawkeye.jpg",
-      "tags": ["SV", "Alignments viewer"],
+      "tags": ["SV", "Alignments"],
       "language": ["Python", "R"],
       "url": "https://github.com/yywan0913/SVhawkeye",
       "pub": {
