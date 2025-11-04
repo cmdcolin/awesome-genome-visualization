@@ -7469,6 +7469,20 @@
       "width": 1400,
       "height": 1400,
       "github_stars": 1
+    },
+    {
+      "name": "TidyLocalSynteny",
+      "img": "tidylocalsynteny.png",
+      "language": ["R"],
+      "tags": ["Comparative", "Multi-way synteny"],
+      "github": "https://github.com/cxli233/TidyLocalSynteny"
+    },
+    {
+      "name": "PangyPlot",
+      "img": "pangyplot.png",
+      "tags": ["Graph"],
+      "language": ["Python"],
+      "pub": { "doi": "10.1101/2025.10.31.684064v1" }
     }
   ]
 }
