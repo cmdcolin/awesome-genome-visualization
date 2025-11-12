@@ -7494,6 +7494,22 @@
       "width": 533,
       "height": 379,
       "github_stars": 13
+    },
+    {
+      "name": "vitessce",
+      "note": "Uses higlass, web based with (optional) Python and R integrations, not all visualization are 'genome coordinates'",
+      "tags": ["Single cell"],
+      "language": ["JS", "Python", "R", "Higlass integration"],
+      "url": "https://vitessce.io/",
+      "github": "https://github.com/vitessce/vitessce",
+      "pub": {
+        "doi": "https://doi.org/10.1038/s41592-024-02436-x",
+        "year": 2024,
+        "citations": 30
+      },
+      "img": "vitessce.png",
+      "width": 3104,
+      "height": 1870
     }
   ]
 }

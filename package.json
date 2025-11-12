@@ -10,7 +10,7 @@
     "readme": "node --experimental-strip-types scripts/gen_readme.ts > README.md",
     "format": "prettier --write .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
     "postdeploy": "git push"
   },
