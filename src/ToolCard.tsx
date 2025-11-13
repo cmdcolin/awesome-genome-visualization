@@ -1,13 +1,106 @@
 import { useState } from 'react'
 import slugify from 'slugify'
-import { type Tool, useAppStore } from './store'
+import { type Tool, useAppStore, type FilterState } from './store'
 import Link from './Link'
 import ToolFigure from './ToolFigure'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
-function ellipses(f = '', n = 40) {
+const MAX_URL_DISPLAY_LENGTH = 40
+
+function ellipses(f = '', n = MAX_URL_DISPLAY_LENGTH) {
   return f.slice(0, n) + (f.length > n ? '...' : '')
+}
+
+function formatDoiUrl(doi: string) {
+  return doi.startsWith('http') ? doi : `https://dx.doi.org/${doi}`
+}
+
+interface Pub {
+  url?: string
+  doi: string
+  year?: number
+  citations?: number
+}
+
+function ToolCardPublication({ pub }: { pub: Pub }) {
+  return (
+    <p>
+      Publication:{' '}
+      {pub.doi ? <Link href={formatDoiUrl(pub.doi)}>(doi link)</Link> : null}{' '}
+      {pub.year ? ` (${pub.year})` : null}
+      {pub.citations === undefined ? null : ` (# citations ${pub.citations})`}
+    </p>
+  )
+}
+
+function ToolCardLinks({
+  url,
+  alt_url,
+  twitter,
+  github,
+}: {
+  url?: string
+  alt_url?: string
+  twitter?: string
+  github?: string
+}) {
+  return (
+    <>
+      {url ? (
+        <p>
+          <Link href={url}>{ellipses(url)}</Link>
+        </p>
+      ) : null}
+      {alt_url ? (
+        <p>
+          Alt url <Link href={alt_url}>{ellipses(alt_url)}</Link>
+        </p>
+      ) : null}
+      {twitter ? (
+        <>
+          Twitter: <Link href={twitter}>{twitter}</Link>
+        </>
+      ) : null}
+      {github ? (
+        <>
+          Github: <Link href={github}>{github}</Link>
+        </>
+      ) : null}
+    </>
+  )
+}
+
+function FilterableList({
+  label,
+  items,
+  filterKey,
+}: {
+  label: string
+  items: string[]
+  filterKey: keyof FilterState
+}) {
+  const store = useAppStore()
+  const { filters } = store
+
+  return (
+    <p>
+      {label}:{' '}
+      {items.map((item, index) => [
+        index > 0 && ', ',
+        <Link
+          href="#"
+          key={`${item}-${index}`}
+          onClick={event => {
+            store.setFilters({ ...filters, [filterKey]: item })
+            event.preventDefault()
+          }}
+        >
+          {item}
+        </Link>,
+      ])}
+    </p>
+  )
 }
 
 export default function ToolCard({ tool }: { tool: Tool }) {
@@ -29,9 +122,9 @@ export default function ToolCard({ tool }: { tool: Tool }) {
     interactive,
   } = tool
   const store = useAppStore()
-  const { filters } = store
   const [expanded, setExpanded] = useState(false)
   const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
+
   return (
     <div className="flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
       <div>
@@ -47,75 +140,19 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             {name}
           </Link>
         </h3>
-        {url ? (
-          <p>
-            <Link href={url}>{ellipses(url)}</Link>
-          </p>
-        ) : null}
-        {alt_url ? (
-          <p>
-            Alt url <Link href={alt_url}>{ellipses(alt_url)}</Link>
-          </p>
-        ) : null}
+
+        <ToolCardLinks url={url} alt_url={alt_url} twitter={twitter} github={github} />
+
         {interactive ? (
           <p className="interactive">Interactive: {interactive.join(',')}</p>
         ) : null}
-        {pub ? (
-          <p>
-            Publication:{' '}
-            {pub.doi ? (
-              <Link
-                href={
-                  pub.doi.startsWith('http')
-                    ? pub.doi
-                    : `https://dx.doi.org/${pub.doi}`
-                }
-              >
-                (doi link)
-              </Link>
-            ) : null}{' '}
-            {pub.year ? ` (${pub.year})` : null}
-            {pub.citations === undefined
-              ? null
-              : ` (# citations ${pub.citations})`}
-          </p>
-        ) : null}
-        {language ? (
-          <p>
-            Language:{' '}
-            {language.map((language, index) => [
-              index > 0 && ', ',
-              <Link
-                href="#"
-                key={`${language}-${index}`}
-                onClick={event => {
-                  store.setFilters({ ...filters, language })
-                  event.preventDefault()
-                }}
-              >
-                {language}
-              </Link>,
-            ])}
-          </p>
-        ) : null}
-        {tags ? (
-          <p>
-            Tags:{' '}
-            {tags.map((tag, index) => [
-              index > 0 && ', ',
-              <Link
-                href="#"
-                key={`${tag}-${index}`}
-                onClick={event => {
-                  store.setFilters({ ...filters, tag })
-                  event.preventDefault()
-                }}
-              >
-                {tag}
-              </Link>,
-            ])}
-          </p>
-        ) : null}
+
+        {pub ? <ToolCardPublication pub={pub} /> : null}
+
+        {language ? <FilterableList label="Language" items={language} filterKey="language" /> : null}
+
+        {tags ? <FilterableList label="Tags" items={tags} filterKey="tag" /> : null}
+
         {note ? (
           <div>
             <Markdown
@@ -131,16 +168,6 @@ export default function ToolCard({ tool }: { tool: Tool }) {
               {'Note: ' + note}
             </Markdown>
           </div>
-        ) : null}
-        {twitter ? (
-          <>
-            Twitter: <Link href={twitter}>{twitter}</Link>
-          </>
-        ) : null}
-        {github ? (
-          <>
-            Github: <Link href={github}>{github}</Link>
-          </>
         ) : null}
 
         {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}

@@ -1,6 +1,8 @@
 import type { Dispatch, SetStateAction } from 'react'
 import ImageDialog from './ImageDialog'
 
+const MOBILE_BREAKPOINT = 640
+
 interface ToolFigureProps {
   img?: string
   name: string
@@ -21,7 +23,7 @@ export default function ToolFigure({
   return (
     <figure
       onClick={() => {
-        if (window.innerWidth >= 640) {
+        if (window.innerWidth >= MOBILE_BREAKPOINT) {
           setExpanded(state => !state)
         }
       }}
@@ -38,7 +40,9 @@ export default function ToolFigure({
       ) : (
         <p>No screenshot</p>
       )}
-      {expanded && img ? <ImageDialog open img={img} /> : null}
+      {expanded && img ? (
+        <ImageDialog open img={img} alt={`screenshot of ${name}`} />
+      ) : null}
     </figure>
   )
 }

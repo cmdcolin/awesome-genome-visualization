@@ -28,15 +28,16 @@ export default function LanguageFilters({ tools }: { tools: Tool[] }) {
         }}
       >
         <option value="">-- select an option --</option>
-        {[...languages].sort().map(tag => (
-          <option key={tag} id={tag}>
-            {tag}
+        {[...languages].sort().map(lang => (
+          <option key={lang} id={lang}>
+            {lang}
           </option>
         ))}
       </select>
       <Button
         onClick={() => {
-          store.setFilters({ ...filters, language: undefined })
+          const { language, ...rest } = filters
+          store.setFilters(rest)
         }}
       >
         Clear

@@ -1,6 +1,10 @@
 import Link from './Link'
 import type { Tool } from './store'
 
+function formatDoiUrl(doi: string) {
+  return doi.startsWith('http') ? doi : `https://dx.doi.org/${doi}`
+}
+
 export default function ToolTable({ tools }: { tools: Tool[] }) {
   const cell =
     'border border-solid dark:border-[#555] border-[#aaa] max-w-80 text-ellipsis overflow-hidden p-1'
@@ -21,23 +25,13 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
             <td className={cell}>{name}</td>
             <td className={cell}>{tags?.join(', ')}</td>
             <td className={cell}>
-              {pub ? (
-                <>
-                  {pub.doi ? (
-                    <Link
-                      href={
-                        pub.doi.startsWith('http')
-                          ? pub.doi
-                          : `https://dx.doi.org/${pub.doi}`
-                      }
-                    >
-                      link {pub.year ? `(${pub.year})` : ''}{' '}
-                      {pub.citations === undefined
-                        ? ''
-                        : `(${pub.citations} citations)`}
-                    </Link>
-                  ) : null}
-                </>
+              {pub?.doi ? (
+                <Link href={formatDoiUrl(pub.doi)}>
+                  link {pub.year ? `(${pub.year})` : ''}{' '}
+                  {pub.citations === undefined
+                    ? ''
+                    : `(${pub.citations} citations)`}
+                </Link>
               ) : null}
             </td>
             <td className={cell}>

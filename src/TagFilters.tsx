@@ -36,7 +36,8 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
       </select>
       <Button
         onClick={() => {
-          store.setFilters({ ...filters, tag: undefined })
+          const { tag, ...rest } = filters
+          store.setFilters(rest)
         }}
       >
         Clear

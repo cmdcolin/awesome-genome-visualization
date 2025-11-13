@@ -28,15 +28,16 @@ export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
         }}
       >
         <option value="">-- select an option --</option>
-        {[...interactives].sort().map(tag => (
-          <option key={tag} id={tag}>
-            {tag}
+        {[...interactives].sort().map(item => (
+          <option key={item} id={item}>
+            {item}
           </option>
         ))}
       </select>
       <Button
         onClick={() => {
-          store.setFilters({ ...filters, interactive: undefined })
+          const { interactive, ...rest } = filters
+          store.setFilters(rest)
         }}
       >
         Clear

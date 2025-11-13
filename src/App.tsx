@@ -3,10 +3,7 @@ import queryString from 'query-string'
 import { tools as importedTools } from './TOOLS.json'
 import { type Tool, useAppStore } from './store'
 
-import InteractiveFilters from './InteractiveFilters'
-import PlatformFilters from './PlatformFilters'
-import TagFilters from './TagFilters'
-import LanguageFilters from './LanguageFilters'
+import FilterSelect from './FilterSelect'
 import ToolCard from './ToolCard'
 import ToolTable from './ToolTable'
 import Link from './Link'
@@ -23,9 +20,11 @@ export default function App() {
       ...sort,
       selected,
     })
-    if (parameters) {
-      window.history.replaceState(null, '', `?${parameters}`)
-    }
+    window.history.replaceState(
+      null,
+      '',
+      parameters ? `?${parameters}` : window.location.pathname,
+    )
   }, [filters, sort, selected])
 
   useEffect(() => {
@@ -39,40 +38,30 @@ export default function App() {
 
   let tools = sort.latest ? [...importedTools].toReversed() : [...importedTools]
 
-  const y = sort.year
-  if (y !== undefined) {
-    tools = tools.toSorted(
-      (a, b) =>
-        (a.pub?.year ?? Number.POSITIVE_INFINITY * y) -
-        (b.pub?.year ?? Number.POSITIVE_INFINITY * y),
-    )
-    if (sort.year === -1) {
-      tools = tools.toReversed()
-    }
+  // Helper function to sort by a numeric field with optional direction
+  const sortByField = (
+    items: Tool[],
+    getValue: (item: Tool) => number | undefined,
+    direction: number,
+  ) => {
+    const sorted = items.toSorted((a, b) => {
+      const aVal = getValue(a) ?? Number.POSITIVE_INFINITY
+      const bVal = getValue(b) ?? Number.POSITIVE_INFINITY
+      return aVal - bVal
+    })
+    return direction === -1 ? sorted.toReversed() : sorted
   }
 
-  const c = sort.citations
-  if (c !== undefined) {
-    tools = tools.toSorted(
-      (a, b) =>
-        (a.pub?.citations ?? Number.POSITIVE_INFINITY * c) -
-        (b.pub?.citations ?? Number.POSITIVE_INFINITY * c),
-    )
-    if (sort.citations === -1) {
-      tools = tools.toReversed()
-    }
+  if (sort.year !== undefined) {
+    tools = sortByField(tools, t => t.pub?.year, sort.year)
   }
 
-  const s = sort.stars
-  if (s !== undefined) {
-    tools = tools.toSorted(
-      (a, b) =>
-        (a.github_stars ?? Number.POSITIVE_INFINITY * s) -
-        (b.github_stars ?? Number.POSITIVE_INFINITY * s),
-    )
-    if (sort.stars === -1) {
-      tools = tools.toReversed()
-    }
+  if (sort.citations !== undefined) {
+    tools = sortByField(tools, t => t.pub?.citations, sort.citations)
+  }
+
+  if (sort.stars !== undefined) {
+    tools = sortByField(tools, t => t.github_stars, sort.stars)
   }
 
   const filteredTools = tools
@@ -143,125 +132,51 @@ function GridSelector() {
   )
 }
 
+const sortOptions = [
+  { label: 'Recently added', sort: { latest: true } },
+  { label: 'Least recently added', sort: { latest: false } },
+  { label: 'Year (dec)', sort: { year: -1 } },
+  { label: 'Year (asc)', sort: { year: 1 } },
+  { label: 'Number citations (dec)', sort: { citations: -1 } },
+  { label: 'Number citations (asc)', sort: { citations: 1 } },
+  { label: 'Github stars (dec)', sort: { stars: -1 } },
+  { label: 'Github stars (asc)', sort: { stars: 1 } },
+] as const
+
 function SortButtons() {
   const store = useAppStore()
   return (
     <p className="max-w-lg">
       Sorts:
-      <Button
-        onClick={() => {
-          store.setSort({ latest: true })
-        }}
-      >
-        Recently added
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ latest: false })
-        }}
-      >
-        Least recently added
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ year: -1 })
-        }}
-      >
-        Year (dec)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ year: 1 })
-        }}
-      >
-        Year (asc)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ citations: -1 })
-        }}
-      >
-        Number citations (dec)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ citations: 1 })
-        }}
-      >
-        Number citations (asc)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ stars: -1 })
-        }}
-      >
-        Github stars (dec)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ stars: 1 })
-        }}
-      >
-        Github stars (asc)
-      </Button>
+      {sortOptions.map(({ label, sort }) => (
+        <Button key={label} onClick={() => store.setSort(sort)}>
+          {label}
+        </Button>
+      ))}
     </p>
   )
 }
+
+const filterPresets = [
+  { label: 'Clear filters', filters: {} },
+  { label: 'General-purpose genome browsers', filters: { tag: 'General' } },
+  { label: 'Synteny/comparative browsers', filters: { tag: 'Comparative' } },
+  { label: 'Dotplot viewer', filters: { tag: 'Dotplot' } },
+  { label: 'MSA viewer', filters: { tag: 'MSA' } },
+  { label: 'Graph genome', filters: { tag: 'Graph' } },
+  { label: 'Text based', filters: { tag: 'Text based' } },
+] as const
 
 function FilterButtons() {
   const store = useAppStore()
   return (
     <p className="max-w-lg">
       Filters:
-      <Button
-        onClick={() => {
-          store.setFilters({})
-        }}
-      >
-        Clear filters
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'General' })
-        }}
-      >
-        General-purpose genome browsers
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'Comparative' })
-        }}
-      >
-        Synteny/comparative browsers
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'Dotplot' })
-        }}
-      >
-        Dotplot viewer
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'MSA' })
-        }}
-      >
-        MSA viewer
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'Graph' })
-        }}
-      >
-        Graph genome
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'Text based' })
-        }}
-      >
-        Text based
-      </Button>
+      {filterPresets.map(({ label, filters }) => (
+        <Button key={label} onClick={() => store.setFilters(filters)}>
+          {label}
+        </Button>
+      ))}
     </p>
   )
 }
@@ -285,10 +200,30 @@ function ClearSelection() {
 function FilterSelectors({ tools }: { tools: Tool[] }) {
   return (
     <div>
-      <TagFilters tools={tools} />
-      <LanguageFilters tools={tools} />
-      <PlatformFilters tools={tools} />
-      <InteractiveFilters tools={tools} />
+      <FilterSelect
+        tools={tools}
+        filterKey="tag"
+        label="Filter on tag"
+        getValues={tool => tool.tags}
+      />
+      <FilterSelect
+        tools={tools}
+        filterKey="language"
+        label="Filter on language"
+        getValues={tool => tool.language}
+      />
+      <FilterSelect
+        tools={tools}
+        filterKey="platform"
+        label="Filter on platform"
+        getValues={tool => tool.platform}
+      />
+      <FilterSelect
+        tools={tools}
+        filterKey="interactive"
+        label="Filter on interactivity"
+        getValues={tool => tool.interactive}
+      />
     </div>
   )
 }

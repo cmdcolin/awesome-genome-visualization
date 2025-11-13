@@ -88,13 +88,26 @@ export function getStringArray(key: string, def = [] as string[]): string[] {
 }
 
 function coerceNumber(argument: unknown) {
-  return argument ? Number(argument) : undefined
+  if (!argument) return undefined
+  // Handle arrays by taking first element
+  const value = Array.isArray(argument) ? argument[0] : argument
+  const num = Number(value)
+  return Number.isNaN(num) ? undefined : num
 }
 function coerceString(argument: unknown) {
-  return argument ? String(argument) : undefined
+  if (!argument) return undefined
+  // Handle arrays by taking first element
+  return Array.isArray(argument) ? String(argument[0]) : String(argument)
 }
 function coerceBoolean(argument: unknown) {
-  return argument ? (JSON.parse(`${argument}`) as boolean) : undefined
+  if (!argument) return undefined
+  // Handle arrays by taking first element
+  const value = Array.isArray(argument) ? argument[0] : argument
+  try {
+    return JSON.parse(`${value}`) as boolean
+  } catch {
+    return undefined
+  }
 }
 
 export function setStringArray(key: string, val: string[]) {

@@ -28,15 +28,16 @@ export default function PlatformFilters({ tools }: { tools: Tool[] }) {
         }}
       >
         <option value="">-- select an option --</option>
-        {[...platforms].sort().map(tag => (
-          <option key={tag} id={tag}>
-            {tag}
+        {[...platforms].sort().map(plat => (
+          <option key={plat} id={plat}>
+            {plat}
           </option>
         ))}
       </select>
       <Button
         onClick={() => {
-          store.setFilters({ ...filters, platform: undefined })
+          const { platform, ...rest } = filters
+          store.setFilters(rest)
         }}
       >
         Clear
