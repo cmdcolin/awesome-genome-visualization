@@ -7,9 +7,9 @@ I will basically incorporate any suggestion and the definition of a genome
 visualization is pretty loose
 
 The README on the github website is automatically generated from TOOLS.json. If
-you want, you can submit a PR against the README.md format, but I'd prefer if you
-update the TOOLS.json with your tool, and add a picture to the
-public/ folder too!
+you want, you can submit a PR against the README.md format, but I'd prefer if
+you update the TOOLS.json with your tool, and add a picture to the public/
+folder too!
 
 ## Deploying
 
