@@ -15,35 +15,35 @@
     "postdeploy": "git push"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.15",
-    "@tailwindcss/vite": "^4.0.0",
-    "daisyui": "^5.0.0-beta.2",
+    "@tailwindcss/vite": "^4.1.18",
+    "daisyui": "^5.5.14",
     "eslint-plugin-unicorn": "^62.0.0",
-    "nuqs": "^2.4.3",
+    "nuqs": "^2.8.6",
     "query-string": "^9.2.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
     "slugify": "^1.6.6",
-    "tailwindcss": "^4.0.0",
-    "zustand": "^5.0.0"
+    "tailwindcss": "^4.1.18",
+    "zustand": "^5.0.10"
   },
   "devDependencies": {
-    "@eslint/js": "^9.29.0",
-    "@types/react": "^19.0.0",
+    "@eslint/js": "^9.39.2",
+    "@types/react": "^19.2.8",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",
-    "eslint": "^9.29.0",
+    "eslint": "^9.39.2",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^7.0.0",
-    "eslint-plugin-react-refresh": "^0.4.7",
+    "eslint-plugin-react-refresh": "^0.4.26",
     "gh-pages": "^6.1.1",
-    "globals": "^16.0.0",
-    "prettier": "^3.3.3",
+    "globals": "^17.0.0",
+    "prettier": "^3.8.0",
     "typescript": "^5.2.2",
-    "typescript-eslint": "^8.1.0",
-    "vite": "^7.0.0"
+    "typescript-eslint": "^8.53.1",
+    "vite": "^7.3.1"
   }
 }
