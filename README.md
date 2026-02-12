@@ -987,6 +987,8 @@ community! And feel free to send PRs for more tools!
 - [rMSA](https://github.com/mhahsler/rMSA/blob/master/vignettes/rMSA_vignette.pdf)
   (Can automate boxshade)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rmsa.png)
+- [salti](https://github.com/Sam-Sims/salti)
+  [(img)][https://cmdcolin.github.io/awesome-genome-visualization/salti.png]
 - [Seaview](http://doua.prabi.fr/software/seaview)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seaview.png)
 - [seqotron](https://github.com/4ment/seqotron)
