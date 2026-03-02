@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import slugify from 'slugify'
 import { type Tool, useAppStore } from './store'
+import { toolSlug } from './toolSlug'
 import Link from './Link'
 import ToolFigure from './ToolFigure'
 import Markdown from 'react-markdown'
@@ -31,18 +31,14 @@ export default function ToolCard({ tool }: { tool: Tool }) {
   const store = useAppStore()
   const { filters } = store
   const [expanded, setExpanded] = useState(false)
-  const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
+  const slug = toolSlug(name)
   return (
     <div className="flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
       <div>
         <h3 className="m-0 text-xl mb-4">
           <Link
             id={slug}
-            href="#"
-            onClick={event => {
-              store.setSelected(`#${slug}`)
-              event.preventDefault()
-            }}
+            href={`${import.meta.env.BASE_URL}/tools/${slug}/`}
           >
             {name}
           </Link>

@@ -18,6 +18,7 @@ export default function ToolFigure({
   expanded,
   setExpanded,
 }: ToolFigureProps) {
+  const imgSrc = img ? `${import.meta.env.BASE_URL}/${img}` : undefined
   return (
     <figure
       onClick={() => {
@@ -26,19 +27,19 @@ export default function ToolFigure({
         }
       }}
     >
-      {img ? (
+      {imgSrc ? (
         <img
           alt={`screenshot of ${name}`}
           loading="lazy"
           className="max-h-sm h-auto w-full max-w-sm"
           width={width}
           height={height}
-          src={img}
+          src={imgSrc}
         />
       ) : (
         <p>No screenshot</p>
       )}
-      {expanded && img ? <ImageDialog open img={img} /> : null}
+      {expanded && imgSrc ? <ImageDialog open img={imgSrc} /> : null}
     </figure>
   )
 }

@@ -4,20 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "astro dev",
+    "build": "astro build",
     "lint": "eslint --report-unused-disable-directives --max-warnings 0",
     "readme": "node --experimental-strip-types scripts/gen_readme.ts > README.md",
     "format": "prettier --write .",
-    "preview": "vite preview",
+    "preview": "astro preview",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
     "postdeploy": "git push"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.2.1",
-    "@tailwindcss/typography": "^0.5.15",
+    "@astrojs/react": "^4.2.0",
     "@tailwindcss/vite": "^4.2.1",
+    "astro": "^5.7.0",
     "daisyui": "^5.5.19",
     "eslint-plugin-unicorn": "^63.0.0",
     "query-string": "^9.2.1",
@@ -33,16 +33,13 @@
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.0.0",
-    "@vitejs/plugin-react": "^5.1.4",
     "eslint": "^10.0.2",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^7.0.0",
-    "eslint-plugin-react-refresh": "^0.5.2",
     "gh-pages": "^6.1.1",
     "globals": "^17.4.0",
     "prettier": "^3.8.1",
     "typescript": "^5.2.2",
-    "typescript-eslint": "^8.56.1",
-    "vite": "^7.3.1"
+    "typescript-eslint": "^8.56.1"
   }
 }

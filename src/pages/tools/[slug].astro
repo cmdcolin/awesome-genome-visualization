@@ -1,0 +1,138 @@
+---
+import { toolSlug } from '../../toolSlug'
+import Layout from '../../layouts/Layout.astro'
+import toolsData from '../../../TOOLS.json'
+
+export function getStaticPaths() {
+  return toolsData.tools.map(tool => ({
+    params: { slug: toolSlug(tool.name) },
+    props: { tool },
+  }))
+}
+
+const { tool } = Astro.props
+const {
+  name,
+  url,
+  alt_url,
+  pub,
+  language,
+  tags,
+  platform,
+  github,
+  github_stars,
+  note,
+  img,
+  interactive,
+} = tool
+
+const base = import.meta.env.BASE_URL
+const imgUrl = img ? `${base}/${img}` : undefined
+---
+
+<Layout
+  title={`${name} - awesome-genome-visualization`}
+  description={`${name} genome visualization tool`}
+>
+  <div class="m-auto max-w-4xl flex flex-col gap-4 p-4">
+    <h1 class="text-3xl">{name}</h1>
+
+    {
+      url ? (
+        <p>
+          URL: <a href={url} class="link">{url}</a>
+        </p>
+      ) : null
+    }
+
+    {
+      alt_url ? (
+        <p>
+          Alt URL: <a href={alt_url} class="link">{alt_url}</a>
+        </p>
+      ) : null
+    }
+
+    {
+      pub ? (
+        <p>
+          Publication:{' '}
+          {pub.doi ? (
+            <a
+              href={
+                pub.doi.startsWith('http')
+                  ? pub.doi
+                  : `https://dx.doi.org/${pub.doi}`
+              }
+              class="link"
+            >
+              (doi link)
+            </a>
+          ) : null}
+          {pub.year ? ` (${pub.year})` : null}
+          {pub.citations !== undefined
+            ? ` (# citations ${pub.citations})`
+            : null}
+        </p>
+      ) : null
+    }
+
+    {
+      language ? (
+        <p>
+          Language:{' '}
+          {language.map((lang, index) => (
+            <>
+              {index > 0 ? ', ' : ''}
+              <a href={`${base}/?language=${encodeURIComponent(lang)}`} class="link">
+                {lang}
+              </a>
+            </>
+          ))}
+        </p>
+      ) : null
+    }
+
+    {
+      tags ? (
+        <p>
+          Tags:{' '}
+          {tags.map((tag, index) => (
+            <>
+              {index > 0 ? ', ' : ''}
+              <a href={`${base}/?tag=${encodeURIComponent(tag)}`} class="link">
+                {tag}
+              </a>
+            </>
+          ))}
+        </p>
+      ) : null
+    }
+
+    {platform ? <p>Platform: {platform.join(', ')}</p> : null}
+
+    {interactive ? <p>Interactive: {interactive.join(', ')}</p> : null}
+
+    {github ? (
+      <p>
+        Github: <a href={github} class="link">{github}</a>
+      </p>
+    ) : null}
+
+    {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}
+
+    {note ? <p>Note: {note}</p> : null}
+
+    {
+      imgUrl ? (
+        <figure>
+          <img src={imgUrl} alt={`Screenshot of ${name}`} class="max-w-full" />
+        </figure>
+      ) : null
+    }
+
+    <p>
+      <a href={base} class="link">← Back to catalog</a>
+    </p>
+  </div>
+</Layout>
