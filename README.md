@@ -1147,6 +1147,7 @@ community! And feel free to send PRs for more tools!
 
 ## Special-purpose
 
+- [dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis)
 - [SEQing](https://github.com/malewins/SEQing)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqing.png)
 - [UGENE](http://ugene.net/)
