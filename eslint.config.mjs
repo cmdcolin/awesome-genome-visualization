@@ -1,25 +1,22 @@
 import eslint from '@eslint/js'
 import eslintPluginReact from 'eslint-plugin-react'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
-import eslintPluginReactRefresh from 'eslint-plugin-react-refresh'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
   {
     ignores: [
-      'vite.config.ts',
-      'tailwind.config.js',
-      'postcss.config.js',
       'eslint.config.mjs',
       'scripts/*',
       'dist/*',
+      '.astro/*',
     ],
   },
   {
     languageOptions: {
       parserOptions: {
-        project: ['./tsconfig.app.json'],
+        project: ['./tsconfig.json'],
         tsconfigRootDir: import.meta.dirname,
       },
     },
@@ -43,13 +40,6 @@ export default tseslint.config(
   },
   eslintPluginUnicorn.configs['flat/recommended'],
   {
-    // in main config for TSX/JSX source files
-    plugins: {
-      'react-refresh': eslintPluginReactRefresh,
-    },
-    rules: {},
-  },
-  {
     rules: {
       'no-console': [
         'warn',
@@ -68,13 +58,6 @@ export default tseslint.config(
       'unicorn/prefer-global-this': 'off',
       'unicorn/no-array-sort': 'off',
       'react/react-in-jsx-scope': 'off',
-
-      'react-refresh/only-export-components': [
-        'warn',
-        {
-          allowConstantExport: true,
-        },
-      ],
     },
   },
 )

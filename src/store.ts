@@ -1,5 +1,4 @@
 import { create } from 'zustand'
-import queryString from 'query-string'
 
 interface Pub {
   url?: string
@@ -48,18 +47,17 @@ interface AppState {
   setSelected: (arg?: string) => void
 }
 
-const {
-  selected,
-  language,
-  tag,
-  platform,
-  interactive,
-  mode,
-  latest,
-  citations,
-  year,
-  stars,
-} = queryString.parse(window.location.search)
+const params = new URLSearchParams(window.location.search)
+const selected = params.get('selected')
+const language = params.get('language')
+const tag = params.get('tag')
+const platform = params.get('platform')
+const interactive = params.get('interactive')
+const mode = params.get('mode')
+const latest = params.get('latest')
+const citations = params.get('citations')
+const year = params.get('year')
+const stars = params.get('stars')
 
 export function getBool(key: string, def = false): boolean {
   try {

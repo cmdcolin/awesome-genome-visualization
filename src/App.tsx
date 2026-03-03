@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import queryString from 'query-string'
 import { tools as importedTools } from './TOOLS.json'
 import { type Tool, useAppStore } from './store'
 
@@ -18,13 +17,15 @@ export default function App() {
   const { language, tag, platform, interactive } = filters
 
   useEffect(() => {
-    const parameters = queryString.stringify({
-      ...filters,
-      ...sort,
-      selected,
-    })
-    if (parameters) {
-      window.history.replaceState(null, '', `?${parameters}`)
+    const params = new URLSearchParams()
+    for (const [key, val] of Object.entries({ ...filters, ...sort, selected })) {
+      if (val !== undefined && val !== null) {
+        params.set(key, String(val))
+      }
+    }
+    const paramString = params.toString()
+    if (paramString) {
+      window.history.replaceState(null, '', `?${paramString}`)
     }
   }, [filters, sort, selected])
 
@@ -84,7 +85,6 @@ export default function App() {
   const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
   return (
     <div className="m-auto max-w-7xl flex flex-col gap-4">
-      <h1 className="text-3xl">awesome-genome-visualization</h1>
       <p>
         This is a companion website for the github repo{' '}
         <Link href={githubURL}>{githubURL}</Link>
