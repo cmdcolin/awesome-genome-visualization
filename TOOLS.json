@@ -7552,7 +7552,8 @@
       "github": "https://github.com/ranwez-search/SeqTUI",
       "img": "seqtui.png",
       "tags": ["MSA", "Text based"],
-      "language": ["Rust"]
+      "language": ["Rust"],
+      "github_stars": 36
     },
     {
       "name": "OpenVectorEditor",
@@ -7605,15 +7606,19 @@
       "tags": ["Multi-way synteny", "Comparative", "WebGL"],
       "language": ["JS"],
       "width": 2080,
-      "height": 703
+      "height": 703,
+      "github_stars": 5
     },
     {
       "name": "PanAbyss",
       "github": "https://github.com/Pange31/PanAbyss",
-      "note": "Exploring and visualizing large pangenome graphs with PanAbyss: search by coordinates or annotations, identify regions shared by individuals or populations, and access other interactive features.",
+      "note": "Exploring and visualizing large pangenome graphs with PanAbyss: search by coordinates or annotations, identify regions shared by individuals or populations, and access other interactive features. Uses cytoscape.js",
       "img": "panabyss.png",
       "tags": ["Pangenome", "Graph", "Comparative", "Population"],
-      "language": ["Python"]
+      "language": ["Python", "JS"],
+      "width": 1916,
+      "height": 895,
+      "github_stars": 1
     }
   ]
 }
