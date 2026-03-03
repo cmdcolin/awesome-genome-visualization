@@ -7606,6 +7606,14 @@
       "language": ["JS"],
       "width": 2080,
       "height": 703
+    },
+    {
+      "name": "PanAbyss",
+      "github": "https://github.com/Pange31/PanAbyss",
+      "note": "Exploring and visualizing large pangenome graphs with PanAbyss: search by coordinates or annotations, identify regions shared by individuals or populations, and access other interactive features.",
+      "img": "panabyss.png",
+      "tags": ["Pangenome", "Graph", "Comparative", "Population"],
+      "language": ["Python"]
     }
   ]
 }
