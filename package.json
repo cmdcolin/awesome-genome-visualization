@@ -33,7 +33,7 @@
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.0.0",
-    "@vitejs/plugin-react": "^5.1.4",
+    "@vitejs/plugin-react": "^6.0.1",
     "eslint": "^10.0.2",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^7.0.0",
@@ -41,8 +41,8 @@
     "gh-pages": "^6.1.1",
     "globals": "^17.4.0",
     "prettier": "^3.8.1",
-    "typescript": "^5.2.2",
+    "typescript": "^6.0.2",
     "typescript-eslint": "^8.56.1",
-    "vite": "^7.3.1"
+    "vite": "^8.0.3"
   }
 }
