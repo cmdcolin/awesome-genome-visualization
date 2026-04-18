@@ -1,38 +1,52 @@
 import fs from 'fs'
-import { fetchJSON, readTOOLS } from './util.ts'
+import { fetchJSON, readTOOLS, pLimit, sleep, getRawDoi } from './util.ts'
 
 const data = readTOOLS()
 
 ;(async () => {
-  for (let i = 0; i < data.tools.length; i++) {
-    const d = data.tools[i]
-
-    try {
-      if (d.pub) {
-        const doi = d.pub.doi
+  const limit = pLimit(3)
+  const tasks = data.tools.map((d, i) =>
+    limit(async () => {
+      try {
+        if (!d.pub || (d.pub.year && !process.env.ALL_CITATIONS)) {
+          return
+        }
+        const rawDoi = getRawDoi(d.pub.doi)
         if (
-          doi.includes('zenodo') ||
-          doi.includes('figshare') ||
-          doi.includes('10.13140/RG.2.2.15289.39522')
+          rawDoi.includes('zenodo') ||
+          rawDoi.includes('figshare') ||
+          rawDoi.includes('10.13140/RG.2.2.15289.39522')
         ) {
-          continue
+          return
         }
 
-        if (d.pub.year && !process.env.ALL_CITATIONS) {
-          continue
-        }
-        console.log(i + '/' + data.tools.length, 'doi', doi)
-        const url = doi.startsWith('http') ? doi : 'https://doi.org/' + doi
-        const json = await fetchJSON(url, {
-          headers: { Accept: 'application/json' },
-        })
+        await sleep(500)
+        console.log(`${i}/${data.tools.length} doi ${rawDoi}`)
 
-        d.pub.year = +json.published['date-parts'][0][0]
-        d.pub.citations = +json['is-referenced-by-count']
+        const headers = {
+          Accept: 'application/json',
+          'User-Agent':
+            'Awesome-Genome-Visualization/1.0 (https://github.com/GMOD/awesome-genome-visualization; mailto:colin.diesh@gmail.com)',
+        }
+
+        if (rawDoi.startsWith('10.48550')) {
+          const json = await fetchJSON(
+            `https://api.datacite.org/dois/${rawDoi}`,
+            { headers },
+          )
+          d.pub.year = +json.data.attributes.publicationYear
+          d.pub.citations = +json.data.attributes.citationCount
+        } else {
+          const json = await fetchJSON(`https://doi.org/${rawDoi}`, { headers })
+          d.pub.year = +json.published['date-parts'][0][0]
+          d.pub.citations = +json['is-referenced-by-count']
+        }
+      } catch (e) {
+        console.error('DOI failed', d.pub?.doi, e)
       }
-    } catch (e) {
-      console.error('got error, not retrying', e)
-    }
-  }
+    }),
+  )
+
+  await Promise.all(tasks)
   fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2))
 })()
