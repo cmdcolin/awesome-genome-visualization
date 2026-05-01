@@ -1,0 +1,10 @@
+.link {
+  color: LinkText;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:focus {
+  outline: 2px solid Highlight;
+  outline-offset: 2px;
+}

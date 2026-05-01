@@ -1,5 +1,6 @@
 import Button from './Button'
 import { type Tool, useAppStore } from './store'
+import styles from './FilterGroup.module.css'
 
 export default function PlatformFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
@@ -14,33 +15,35 @@ export default function PlatformFilters({ tools }: { tools: Tool[] }) {
     }
   }
   return (
-    <div>
-      <label htmlFor="platform-select">Filter on platform: </label>
-      <select
-        value={platform}
-        id="platform-select"
-        className="select select-bordered w-full max-w-xs"
-        onChange={event => {
-          store.setFilters({
-            ...filters,
-            platform: event.target.value,
-          })
-        }}
-      >
-        <option value="">-- select an option --</option>
-        {[...platforms].sort().map(tag => (
-          <option key={tag} id={tag}>
-            {tag}
-          </option>
-        ))}
-      </select>
-      <Button
-        onClick={() => {
-          store.setFilters({ ...filters, platform: undefined })
-        }}
-      >
-        Clear
-      </Button>
+    <div className={styles.group}>
+      <label htmlFor="platform-select" className={styles.labelWithSelect}>Filter on platform: </label>
+      <div className={styles.controls}>
+        <select
+          value={platform}
+          id="platform-select"
+          className={styles.select}
+          onChange={event => {
+            store.setFilters({
+              ...filters,
+              platform: event.target.value,
+            })
+          }}
+        >
+          <option value="">-- select an option --</option>
+          {[...platforms].sort().map(tag => (
+            <option key={tag} id={tag}>
+              {tag}
+            </option>
+          ))}
+        </select>
+        <Button
+          onClick={() => {
+            store.setFilters({ ...filters, platform: undefined })
+          }}
+        >
+          Clear
+        </Button>
+      </div>
     </div>
   )
 }

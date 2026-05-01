@@ -1,5 +1,6 @@
 import type { Dispatch, SetStateAction } from 'react'
 import ImageDialog from './ImageDialog'
+import styles from './ToolFigure.module.css'
 
 interface ToolFigureProps {
   img?: string
@@ -20,6 +21,7 @@ export default function ToolFigure({
 }: ToolFigureProps) {
   return (
     <figure
+      className={styles.figure}
       onClick={() => {
         if (window.innerWidth >= 640) {
           setExpanded(state => !state)
@@ -30,7 +32,7 @@ export default function ToolFigure({
         <img
           alt={`screenshot of ${name}`}
           loading="lazy"
-          className="max-h-sm h-auto w-full max-w-sm"
+          className={styles.image}
           width={width}
           height={height}
           src={img}

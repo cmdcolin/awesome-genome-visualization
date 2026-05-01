@@ -1,5 +1,6 @@
 import Button from './Button'
 import { type Tool, useAppStore } from './store'
+import styles from './FilterGroup.module.css'
 
 export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
@@ -14,33 +15,35 @@ export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
     }
   }
   return (
-    <div>
-      <label htmlFor="interactive-select">Filter on interactivity: </label>
-      <select
-        value={interactive}
-        id="interactive-select"
-        className="select select-bordered w-full max-w-xs"
-        onChange={event => {
-          store.setFilters({
-            ...filters,
-            interactive: event.target.value,
-          })
-        }}
-      >
-        <option value="">-- select an option --</option>
-        {[...interactives].sort().map(tag => (
-          <option key={tag} id={tag}>
-            {tag}
-          </option>
-        ))}
-      </select>
-      <Button
-        onClick={() => {
-          store.setFilters({ ...filters, interactive: undefined })
-        }}
-      >
-        Clear
-      </Button>
+    <div className={styles.group}>
+      <label htmlFor="interactive-select" className={styles.labelWithSelect}>Filter on interactivity: </label>
+      <div className={styles.controls}>
+        <select
+          value={interactive}
+          id="interactive-select"
+          className={styles.select}
+          onChange={event => {
+            store.setFilters({
+              ...filters,
+              interactive: event.target.value,
+            })
+          }}
+        >
+          <option value="">-- select an option --</option>
+          {[...interactives].sort().map(tag => (
+            <option key={tag} id={tag}>
+              {tag}
+            </option>
+          ))}
+        </select>
+        <Button
+          onClick={() => {
+            store.setFilters({ ...filters, interactive: undefined })
+          }}
+        >
+          Clear
+        </Button>
+      </div>
     </div>
   )
 }

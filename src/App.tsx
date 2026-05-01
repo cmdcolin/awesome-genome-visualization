@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import queryString from 'query-string'
 import { tools as importedTools } from './TOOLS.json'
 import { type Tool, useAppStore } from './store'
+import styles from './App.module.css'
 
 import InteractiveFilters from './InteractiveFilters'
 import PlatformFilters from './PlatformFilters'
@@ -83,8 +84,8 @@ export default function App() {
 
   const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
   return (
-    <div className="m-auto max-w-7xl flex flex-col gap-4">
-      <h1 className="text-3xl">awesome-genome-visualization</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>awesome-genome-visualization</h1>
       <p>
         This is a companion website for the github repo{' '}
         <Link href={githubURL}>{githubURL}</Link>
@@ -98,7 +99,7 @@ export default function App() {
       <GridSelector />
 
       {mode === 'list' ? (
-        <div className="mt-6 flex flex-col space-y-8 overflow-hidden">
+        <div className={styles.listContainer}>
           {filteredTools.map(tool => (
             <ToolCard tool={tool} key={tool.name} />
           ))}
@@ -118,22 +119,20 @@ function GridSelector() {
   const store = useAppStore()
   const { mode } = store
   return (
-    <div className="flex gap-2">
-      <label htmlFor="grid">Grid</label>
+    <div className={styles.controls}>
+      <label htmlFor="grid" className={styles.label}>Grid</label>
       <input
         id="grid"
         type="radio"
-        className="radio radio-sm"
         checked={mode === 'grid'}
         onChange={() => {
           store.setMode('grid')
         }}
       />
-      <label htmlFor="list">List</label>
+      <label htmlFor="list" className={styles.label}>List</label>
       <input
         id="list"
         type="radio"
-        className="radio radio-sm"
         checked={mode === 'list'}
         onChange={() => {
           store.setMode('list')
@@ -146,7 +145,7 @@ function GridSelector() {
 function SortButtons() {
   const store = useAppStore()
   return (
-    <p className="max-w-lg">
+    <p className={styles.note}>
       Sorts:
       <Button
         onClick={() => {
@@ -211,7 +210,7 @@ function SortButtons() {
 function FilterButtons() {
   const store = useAppStore()
   return (
-    <p className="max-w-lg">
+    <p className={styles.note}>
       Filters:
       <Button
         onClick={() => {

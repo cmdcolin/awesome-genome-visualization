@@ -1,0 +1,28 @@
+.group {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.label {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.labelWithSelect {
+  display: inline-block;
+  margin-right: 0;
+  white-space: nowrap;
+}
+
+.select {
+  flex: 1;
+  max-width: 28rem;
+}
+
+.controls {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}

@@ -1,5 +1,6 @@
 import Button from './Button'
 import { type Tool, useAppStore } from './store'
+import styles from './FilterGroup.module.css'
 
 export default function TagFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
@@ -14,33 +15,35 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
     }
   }
   return (
-    <div className="form-group">
-      <label htmlFor="tag-select">Filter on tag: </label>
-      <select
-        id="tag-select"
-        className="select select-bordered"
-        value={tag}
-        onChange={event => {
-          store.setFilters({
-            ...filters,
-            tag: event.target.value,
-          })
-        }}
-      >
-        <option value="">-- select an option --</option>
-        {[...tags].sort().map(tag => (
-          <option key={tag} id={tag}>
-            {tag}
-          </option>
-        ))}
-      </select>
-      <Button
-        onClick={() => {
-          store.setFilters({ ...filters, tag: undefined })
-        }}
-      >
-        Clear
-      </Button>
+    <div className={styles.group}>
+      <label htmlFor="tag-select" className={styles.labelWithSelect}>Filter on tag: </label>
+      <div className={styles.controls}>
+        <select
+          id="tag-select"
+          className={styles.select}
+          value={tag}
+          onChange={event => {
+            store.setFilters({
+              ...filters,
+              tag: event.target.value,
+            })
+          }}
+        >
+          <option value="">-- select an option --</option>
+          {[...tags].sort().map(tag => (
+            <option key={tag} id={tag}>
+              {tag}
+            </option>
+          ))}
+        </select>
+        <Button
+          onClick={() => {
+            store.setFilters({ ...filters, tag: undefined })
+          }}
+        >
+          Clear
+        </Button>
+      </div>
     </div>
   )
 }

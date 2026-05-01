@@ -1,0 +1,44 @@
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+}
+
+.title {
+  font-size: 1.875rem;
+  margin: var(--spacing-sm) 0;
+}
+
+.link {
+  text-decoration: underline;
+  color: var(--color-link);
+}
+
+.link:visited {
+  color: var(--color-link-visited);
+}
+
+.note {
+  max-width: 32rem;
+}
+
+.listContainer {
+  margin-top: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  overflow: hidden;
+}
+
+.controls {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.label {
+  margin-right: var(--spacing-sm);
+}

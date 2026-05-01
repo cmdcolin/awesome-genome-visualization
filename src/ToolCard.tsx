@@ -5,6 +5,7 @@ import Link from './Link'
 import ToolFigure from './ToolFigure'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import styles from './ToolCard.module.css'
 
 function ellipses(f = '', n = 40) {
   return f.slice(0, n) + (f.length > n ? '...' : '')
@@ -33,9 +34,9 @@ export default function ToolCard({ tool }: { tool: Tool }) {
   const [expanded, setExpanded] = useState(false)
   const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
   return (
-    <div className="flex flex-col lg:flex-row justify-between border border-[#ccc] dark:border-[#666] border-solid p-4 shadow-xs shadow-[#ccc] dark:shadow-[#333]">
-      <div>
-        <h3 className="m-0 text-xl mb-4">
+    <div className={styles.container}>
+      <div className={styles.content}>
+        <h3 className={styles.title}>
           <Link
             id={slug}
             href="#"
@@ -48,20 +49,20 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           </Link>
         </h3>
         {url ? (
-          <p>
+          <p className={styles.text}>
             <Link href={url}>{ellipses(url)}</Link>
           </p>
         ) : null}
         {alt_url ? (
-          <p>
+          <p className={styles.text}>
             Alt url <Link href={alt_url}>{ellipses(alt_url)}</Link>
           </p>
         ) : null}
         {interactive ? (
-          <p className="interactive">Interactive: {interactive.join(',')}</p>
+          <p className={`${styles.text} ${styles.interactive}`}>Interactive: {interactive.join(',')}</p>
         ) : null}
         {pub ? (
-          <p>
+          <p className={styles.metadata}>
             Publication:{' '}
             {pub.doi ? (
               <Link
@@ -81,7 +82,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           </p>
         ) : null}
         {language ? (
-          <p>
+          <p className={styles.metadata}>
             Language:{' '}
             {language.map((language, index) => [
               index > 0 && ', ',
@@ -99,7 +100,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           </p>
         ) : null}
         {tags ? (
-          <p>
+          <p className={styles.metadata}>
             Tags:{' '}
             {tags.map((tag, index) => [
               index > 0 && ', ',
@@ -133,18 +134,18 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           </div>
         ) : null}
         {twitter ? (
-          <>
+          <p className={styles.metadata}>
             Twitter: <Link href={twitter}>{twitter}</Link>
-          </>
+          </p>
         ) : null}
         {github ? (
-          <>
+          <p className={styles.metadata}>
             Github: <Link href={github}>{github}</Link>
-          </>
+          </p>
         ) : null}
 
-        {github_stars ? <p>Github Stargazers: {github_stars}</p> : null}
-        {platform ? <p>Platform: {platform.join(', ')}</p> : null}
+        {github_stars ? <p className={styles.metadata}>Github Stargazers: {github_stars}</p> : null}
+        {platform ? <p className={styles.metadata}>Platform: {platform.join(', ')}</p> : null}
       </div>
       <ToolFigure
         img={img}

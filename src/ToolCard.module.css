@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  border: 1px solid CanvasText;
+  padding: var(--spacing-md);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin: 0 0 var(--spacing-md) 0;
+}
+
+.titleLink {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+.titleLink:hover {
+  color: var(--color-link-visited);
+}
+
+.titleLink:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+.text {
+  margin: var(--spacing-sm) 0;
+}
+
+.interactive {
+  font-style: italic;
+}
+
+.metadata {
+  margin: var(--spacing-xs) 0;
+}

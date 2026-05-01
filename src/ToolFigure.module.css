@@ -1,0 +1,11 @@
+.figure {
+  cursor: pointer;
+  margin: 0;
+}
+
+.image {
+  max-height: 24rem;
+  height: auto;
+  width: 100%;
+  max-width: 24rem;
+}

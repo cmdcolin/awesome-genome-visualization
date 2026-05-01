@@ -1,1 +1,98 @@
-@import 'tailwindcss';
+:root {
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  --focus-outline: 2px solid Highlight;
+  --focus-offset: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin: var(--spacing-sm) 0;
+}
+
+a {
+  color: LinkText;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:focus {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  margin-right: var(--spacing-xs);
+}
+
+label {
+  display: inline-block;
+  margin-right: var(--spacing-sm);
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 0.75rem;
+}
+
+thead {
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid CanvasText;
+  padding: var(--spacing-xs);
+  max-width: 20rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+dialog {
+  border: 1px solid CanvasText;
+  padding: var(--spacing-lg);
+  background-color: Canvas;
+  color: CanvasText;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+}

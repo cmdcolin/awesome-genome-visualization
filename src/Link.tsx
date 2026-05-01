@@ -1,3 +1,5 @@
+import styles from './Link.module.css'
+
 export default function Link({
   id,
   href,
@@ -20,7 +22,7 @@ export default function Link({
       target={target}
       rel={rel}
       href={href}
-      className="link"
+      className={styles.link}
     >
       {children}
     </a>

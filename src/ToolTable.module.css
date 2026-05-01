@@ -1,0 +1,13 @@
+.table {
+  border-collapse: collapse;
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+.cell {
+  border: 1px solid CanvasText;
+  max-width: 20rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: var(--spacing-xs);
+}

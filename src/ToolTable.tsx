@@ -1,26 +1,25 @@
 import Link from './Link'
 import type { Tool } from './store'
+import styles from './ToolTable.module.css'
 
 export default function ToolTable({ tools }: { tools: Tool[] }) {
-  const cell =
-    'border border-solid dark:border-[#555] border-[#aaa] max-w-80 text-ellipsis overflow-hidden p-1'
   return (
-    <table className="border-collapse text-xs">
+    <table className={styles.table}>
       <thead>
         <tr>
-          <th className={cell}>Name</th>
-          <th className={cell}>Tags</th>
-          <th className={cell}>Pub</th>
-          <th className={cell}>URL</th>
-          <th className={cell}>IMG</th>
+          <th className={styles.cell}>Name</th>
+          <th className={styles.cell}>Tags</th>
+          <th className={styles.cell}>Pub</th>
+          <th className={styles.cell}>URL</th>
+          <th className={styles.cell}>IMG</th>
         </tr>
       </thead>
       <tbody>
         {tools.map(({ name, github, pub, tags, img, url }) => (
           <tr key={name}>
-            <td className={cell}>{name}</td>
-            <td className={cell}>{tags?.join(', ')}</td>
-            <td className={cell}>
+            <td className={styles.cell}>{name}</td>
+            <td className={styles.cell}>{tags?.join(', ')}</td>
+            <td className={styles.cell}>
               {pub ? (
                 <>
                   {pub.doi ? (
@@ -40,7 +39,7 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
                 </>
               ) : null}
             </td>
-            <td className={cell}>
+            <td className={styles.cell}>
               {url ? (
                 <Link href={url} target="_blank" rel="noreferrer">
                   {url}
@@ -50,7 +49,7 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
                 <Link href={github}>{github}</Link>
               ) : null}
             </td>
-            <td className={cell}>
+            <td className={styles.cell}>
               {img ? (
                 <Link href={img} target="_blank" rel="noreferrer">
                   {img}
