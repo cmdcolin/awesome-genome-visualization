@@ -1,11 +1,12 @@
 import eslint from '@eslint/js'
+import { defineConfig } from 'eslint/config'
 import eslintPluginReact from 'eslint-plugin-react'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
 import eslintPluginReactRefresh from 'eslint-plugin-react-refresh'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import tseslint from 'typescript-eslint'
 
-export default tseslint.config(
+export default defineConfig(
   {
     ignores: [
       'vite.config.ts',
@@ -26,7 +27,7 @@ export default tseslint.config(
 
     settings: {
       react: {
-        version: 'detect',
+        version: 'v19.2.5',
       },
     },
   },
