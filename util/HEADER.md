@@ -21,6 +21,10 @@ and complex tools. Some are historical, or may be for more visual inspiration
 only
 
 I also encourage you to make your own visualization, things like R, ggplot2,
-matplotlib, and (the elephant in the room: coding agents) make this much easier!
-But also consider making your visualization code re-usable for the wider
-community! And feel free to send PRs for more tools!
+matplotlib, and (the elephant in the room: coding agents, but careful with
+these, they can hamper your learning if you become overly reliant on them) make
+this much easier! But also consider making your visualization code re-usable for
+the wider community! And feel free to send PRs for more tools!
+
+Finally, at least 68% (372/543) tools in this list have written publications for
+their tools. They went through the effort to write it up, cite these tools!!
