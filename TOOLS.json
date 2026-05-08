@@ -1910,7 +1910,7 @@
       "github_stars": 224
     },
     {
-      "tags": ["based", "MSA"],
+      "tags": ["Text based", "MSA"],
       "name": "Alan",
       "img": "alan.png",
       "url": "https://github.com/mpdunne/alan",
@@ -1921,7 +1921,7 @@
       "github_stars": 129
     },
     {
-      "tags": ["based", "MSA"],
+      "tags": ["Text based", "MSA"],
       "name": "Alv",
       "img": "alv.png",
       "url": "https://github.com/arvestad/alv",
@@ -1937,7 +1937,7 @@
       "github_stars": 120
     },
     {
-      "tags": ["based", "Alignments"],
+      "tags": ["Text based", "Alignments"],
       "name": "ASCIIGenome",
       "img": "asciigenome.png",
       "url": "https://github.com/dariober/ASCIIGenome",
@@ -1953,7 +1953,7 @@
       "github_stars": 246
     },
     {
-      "tags": ["based"],
+      "tags": ["Text based"],
       "name": "BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)",
       "url": "ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/",
       "pub": {
@@ -1965,7 +1965,7 @@
       "platform": ["CLI"]
     },
     {
-      "tags": ["based"],
+      "tags": ["Text based"],
       "name": "Hapviz",
       "url": "https://github.com/ekg/hapviz",
       "img": "hapviz.png",
@@ -1976,7 +1976,7 @@
       "github_stars": 11
     },
     {
-      "tags": ["based"],
+      "tags": ["Text based"],
       "name": "plotReads",
       "img": "plotreads.png",
       "url": "http://campuspress.yale.edu/knightlab/ruddle/plotreads/",
@@ -2001,7 +2001,7 @@
       "height": 695
     },
     {
-      "tags": ["based"],
+      "tags": ["Text based"],
       "name": "Rna Alignment Viewers (Colorstock, SScolor, Ratón)",
       "url": "http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no",
       "img": "rnaalignment.png",
@@ -2017,7 +2017,7 @@
       "height": 286
     },
     {
-      "tags": ["based"],
+      "tags": ["Text based"],
       "name": "Sam2pairwise",
       "url": "https://github.com/mlafave/sam2pairwise",
       "pub": {
@@ -2030,7 +2030,7 @@
       "github_stars": 44
     },
     {
-      "tags": ["based", "Coverage"],
+      "tags": ["Text based", "Coverage"],
       "name": "Samtools depth visualization",
       "language": ["C"],
       "img": "depthplot.png",
@@ -2040,7 +2040,7 @@
       "height": 446
     },
     {
-      "tags": ["based", "Alignments"],
+      "tags": ["Text based", "Alignments"],
       "name": "Samtools tview",
       "url": "http://www.htslib.org/",
       "github": "https://github.com/samtools/samtools",
@@ -2057,7 +2057,7 @@
       "github_stars": 1891
     },
     {
-      "tags": ["based", "Coverage"],
+      "tags": ["Text based", "Coverage"],
       "name": "Samtools coverage",
       "url": "http://www.htslib.org/",
       "github": "https://github.com/samtools/samtools",
@@ -2074,7 +2074,7 @@
       "github_stars": 1891
     },
     {
-      "tags": ["based"],
+      "tags": ["Text based"],
       "name": "SvABA",
       "img": "svaba.png",
       "url": "https://github.com/walaj/svaba#alignmentstxtgz",
@@ -2089,7 +2089,7 @@
       "github_stars": 255
     },
     {
-      "tags": ["based"],
+      "tags": ["Text based"],
       "name": "VizAln (from HipSTR)",
       "img": "hipstr.png",
       "url": "https://github.com/tfwillems/HipSTR",
@@ -4724,7 +4724,7 @@
     {
       "name": "alen",
       "url": "https://github.com/jakobnissen/alen",
-      "tags": ["MSA", "based"],
+      "tags": ["MSA", "Text based"],
       "language": ["Rust"],
       "img": "alen.png",
       "width": 823,
@@ -6455,7 +6455,7 @@
       "name": "pileuppy",
       "img": "pileuppy.png",
       "language": ["Python"],
-      "tags": ["based"],
+      "tags": ["Text based"],
       "url": "https://gitlab.com/tprodanov/pileuppy",
       "width": 1213,
       "height": 805
@@ -6796,7 +6796,7 @@
     {
       "name": "rich-msa",
       "language": ["Python"],
-      "tags": ["based", "MSA"],
+      "tags": ["Text based", "MSA"],
       "github": "https://github.com/althonos/rich-msa",
       "img": "richmsa.png",
       "width": 933,
@@ -7154,7 +7154,7 @@
       "github": "https://github.com/OpenGene/GeneFuse",
       "url": "https://opengene.org/GeneFuse/report.html",
       "language": ["C", "C++"],
-      "tags": ["Gene fusion", "based", "SV"],
+      "tags": ["Gene fusion", "Text based", "SV"],
       "pub": {
         "doi": "10.7150/ijbs.24626",
         "year": 2018,
@@ -7222,7 +7222,7 @@
     {
       "name": "wgatools",
       "img": "wgatools.png",
-      "tags": ["based", "MSA", "Dotplot", "Comparative"],
+      "tags": ["Text based", "MSA", "Dotplot", "Comparative"],
       "url": "https://github.com/wjwei-handsome/wgatools",
       "pub": {
         "doi": "10.1093/bioinformatics/btaf132",
@@ -7361,7 +7361,7 @@
     {
       "name": "SeqSizzle",
       "img": "seqsizzle.png",
-      "tags": ["based"],
+      "tags": ["Text based"],
       "language": ["Rust"],
       "github": "https://github.com/ChangqingW/SeqSizzle",
       "width": 1794,
@@ -7443,7 +7443,7 @@
     },
     {
       "name": "tgv (terminal genome viewer)",
-      "tags": ["based", "Alignments", "Coverage"],
+      "tags": ["Text based", "Alignments", "Coverage"],
       "img": "tgv.png",
       "github": "https://github.com/zeqianli/tgv/",
       "language": ["Rust"],
