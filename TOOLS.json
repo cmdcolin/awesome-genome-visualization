@@ -1953,17 +1953,6 @@
       "github_stars": 246
     },
     {
-      "tags": ["based", "Coverage"],
-      "name": "Bamcov",
-      "img": "bamcov.png",
-      "url": "https://github.com/fbreitwieser/bamcov",
-      "language": ["C"],
-      "platform": ["CLI"],
-      "width": 637,
-      "height": 166,
-      "github_stars": 100
-    },
-    {
       "tags": ["based"],
       "name": "BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)",
       "url": "ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/",
@@ -2065,6 +2054,23 @@
       "img": "tview.png",
       "width": 1290,
       "height": 875,
+      "github_stars": 1891
+    },
+    {
+      "tags": ["based", "Coverage"],
+      "name": "Samtools coverage",
+      "url": "http://www.htslib.org/",
+      "github": "https://github.com/samtools/samtools",
+      "img": "samtools_coverage.png",
+      "language": ["C"],
+      "platform": ["CLI"],
+      "pub": {
+        "doi": "10.1093/bioinformatics/btp352",
+        "year": 2009,
+        "citations": 57648
+      },
+      "width": 637,
+      "height": 166,
       "github_stars": 1891
     },
     {
