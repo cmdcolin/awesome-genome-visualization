@@ -16,7 +16,9 @@ export default function PlatformFilters({ tools }: { tools: Tool[] }) {
   }
   return (
     <div className={styles.group}>
-      <label htmlFor="platform-select" className={styles.labelWithSelect}>Filter on platform: </label>
+      <label htmlFor="platform-select" className={styles.labelWithSelect}>
+        Filter on platform:{' '}
+      </label>
       <div className={styles.controls}>
         <select
           value={platform}

@@ -59,7 +59,9 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           </p>
         ) : null}
         {interactive ? (
-          <p className={`${styles.text} ${styles.interactive}`}>Interactive: {interactive.join(',')}</p>
+          <p className={`${styles.text} ${styles.interactive}`}>
+            Interactive: {interactive.join(',')}
+          </p>
         ) : null}
         {pub ? (
           <p className={styles.metadata}>
@@ -144,8 +146,12 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           </p>
         ) : null}
 
-        {github_stars ? <p className={styles.metadata}>Github Stargazers: {github_stars}</p> : null}
-        {platform ? <p className={styles.metadata}>Platform: {platform.join(', ')}</p> : null}
+        {github_stars ? (
+          <p className={styles.metadata}>Github Stargazers: {github_stars}</p>
+        ) : null}
+        {platform ? (
+          <p className={styles.metadata}>Platform: {platform.join(', ')}</p>
+        ) : null}
       </div>
       <ToolFigure
         img={img}

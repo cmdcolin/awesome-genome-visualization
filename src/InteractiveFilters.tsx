@@ -16,7 +16,9 @@ export default function InteractiveFilters({ tools }: { tools: Tool[] }) {
   }
   return (
     <div className={styles.group}>
-      <label htmlFor="interactive-select" className={styles.labelWithSelect}>Filter on interactivity: </label>
+      <label htmlFor="interactive-select" className={styles.labelWithSelect}>
+        Filter on interactivity:{' '}
+      </label>
       <div className={styles.controls}>
         <select
           value={interactive}

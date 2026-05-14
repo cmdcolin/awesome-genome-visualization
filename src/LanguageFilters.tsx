@@ -16,7 +16,9 @@ export default function LanguageFilters({ tools }: { tools: Tool[] }) {
   }
   return (
     <div className={styles.group}>
-      <label htmlFor="language-select" className={styles.labelWithSelect}>Filter on language: </label>
+      <label htmlFor="language-select" className={styles.labelWithSelect}>
+        Filter on language:{' '}
+      </label>
       <div className={styles.controls}>
         <select
           value={language}

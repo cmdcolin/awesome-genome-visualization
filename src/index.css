@@ -14,7 +14,9 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
+    Cantarell, 'Helvetica Neue', sans-serif;
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
@@ -22,7 +24,12 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: var(--spacing-md);
   margin-bottom: var(--spacing-sm);
   font-weight: 600;
@@ -51,7 +58,7 @@ a:focus {
   outline-offset: var(--focus-offset);
 }
 
-input[type="radio"] {
+input[type='radio'] {
   cursor: pointer;
   margin-right: var(--spacing-xs);
 }
@@ -70,7 +77,8 @@ thead {
   font-weight: bold;
 }
 
-th, td {
+th,
+td {
   border: 1px solid CanvasText;
   padding: var(--spacing-xs);
   max-width: 20rem;

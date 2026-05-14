@@ -16,7 +16,9 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
   }
   return (
     <div className={styles.group}>
-      <label htmlFor="tag-select" className={styles.labelWithSelect}>Filter on tag: </label>
+      <label htmlFor="tag-select" className={styles.labelWithSelect}>
+        Filter on tag:{' '}
+      </label>
       <div className={styles.controls}>
         <select
           id="tag-select"

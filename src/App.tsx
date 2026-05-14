@@ -120,7 +120,9 @@ function GridSelector() {
   const { mode } = store
   return (
     <div className={styles.controls}>
-      <label htmlFor="grid" className={styles.label}>Grid</label>
+      <label htmlFor="grid" className={styles.label}>
+        Grid
+      </label>
       <input
         id="grid"
         type="radio"
@@ -129,7 +131,9 @@ function GridSelector() {
           store.setMode('grid')
         }}
       />
-      <label htmlFor="list" className={styles.label}>List</label>
+      <label htmlFor="list" className={styles.label}>
+        List
+      </label>
       <input
         id="list"
         type="radio"
