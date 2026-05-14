@@ -1826,6 +1826,7 @@
       "height": 448,
       "github_stars": 77
     },
+
     {
       "tags": ["Graph", "Pangenome"],
       "name": "gfalook",
@@ -7654,6 +7655,18 @@
       "width": 1916,
       "height": 895,
       "github_stars": 1
+    },
+    {
+      "tags": ["Graph", "Pangenome"],
+      "name": "gfalook",
+      "url": "https://github.com/pangenome/gfalook",
+      "language": ["Rust"],
+      "platform": ["CLI"],
+      "github_stars": 11,
+      "img": "gfalook.png",
+      "width": 1504,
+      "height": 1338,
+      "note": "See also odgi viz"
     }
   ]
 }
