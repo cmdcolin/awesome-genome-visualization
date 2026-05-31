@@ -3,7 +3,6 @@ import { defineConfig } from 'eslint/config'
 import eslintPluginReact from 'eslint-plugin-react'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
 import eslintPluginReactRefresh from 'eslint-plugin-react-refresh'
-import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import tseslint from 'typescript-eslint'
 
 export default defineConfig(
@@ -42,7 +41,6 @@ export default defineConfig(
     },
     rules: eslintPluginReactHooks.configs.recommended.rules,
   },
-  eslintPluginUnicorn.configs['flat/recommended'],
   {
     // in main config for TSX/JSX source files
     plugins: {
@@ -62,14 +60,7 @@ export default defineConfig(
       '@typescript-eslint/no-non-null-assertion': 'off',
       '@typescript-eslint/no-base-to-string': 'off',
       '@typescript-eslint/restrict-template-expressions': 'off',
-      'unicorn/prevent-abbreviations': 'off',
-      'unicorn/no-null': 'off',
-      'unicorn/no-nested-ternary': 'off',
-      'unicorn/filename-case': 'off',
-      'unicorn/prefer-global-this': 'off',
-      'unicorn/no-array-sort': 'off',
       'react/react-in-jsx-scope': 'off',
-
       'react-refresh/only-export-components': [
         'warn',
         {
