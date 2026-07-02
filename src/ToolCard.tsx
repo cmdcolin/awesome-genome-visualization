@@ -32,7 +32,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
   const store = useAppStore()
   const { filters } = store
   const [expanded, setExpanded] = useState(false)
-  const slug = slugify(name, { remove: /[!"'()*+.:@~]/g })
+  const slug = slugify(name, { lower: true, strict: true })
   return (
     <div className={styles.container}>
       <div className={styles.content}>

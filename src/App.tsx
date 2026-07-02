@@ -31,7 +31,7 @@ export default function App() {
 
   useEffect(() => {
     if (selected) {
-      const target = document.querySelector(selected)
+      const target = document.getElementById(selected.replace(/^#/, ''))
       if (target) {
         target.scrollIntoView({ block: 'start' })
       }
