@@ -878,6 +878,8 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 ## Manhattan
 
+- [ggwas](https://bczech.github.io/ggwas/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggwas.png)
 - [locuszoomr](https://cran.r-project.org/web/packages/locuszoomr/vignettes/locuszoomr.html)
   (See also easylabel for manhattan plots
   https://cran.r-project.org/web/packages/easylabel/vignettes/easylabel.html)
