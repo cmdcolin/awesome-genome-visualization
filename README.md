@@ -39,6 +39,10 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/biodalliance.png)
 - [Celera genome browser](https://www.csee.umbc.edu/~turner/presentations/bvw2002/sld009.htm)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/celera.jpeg)
+- [CodeXomics](https://scilence2022.github.io/CodeXomics/) (AI-native genome
+  browser: conversational agents drive the view and run BLAST, primer design,
+  and structure lookups; MCP server and plugin architecture included)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/codexomics.png)
 - [Ensembl genome browser](https://useast.ensembl.org/Homo_sapiens/Location/View?r=17:63992802-64038237)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ensembl.png)
 - [Ensembl genome browser 2020 edition](http://2020.ensembl.org/)
