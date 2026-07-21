@@ -19,3 +19,5 @@ jobs:
       - run: pnpm check-duplicates
       - run: pnpm lint
       - run: pnpm build
+      - name: README up to date with TOOLS.json
+        run: pnpm readme && git diff --exit-status README.md
