@@ -78,7 +78,7 @@ export default function App() {
 
   const filteredTools = tools
     .filter(t => (language ? t.language?.includes(language) : true))
-    .filter(t => (tag ? t.tags?.includes(tag) : true))
+    .filter(t => (tag ? t.tags.includes(tag) : true))
     .filter(t => (platform ? t.platform?.includes(platform) : true))
     .filter(t => (interactive ? t.interactive?.includes(interactive) : true))
 
