@@ -151,17 +151,14 @@ their tools. They went through the effort to write it up, cite these tools!!
 - [Varsome](<https://varsome.com/security-validation/?next=/variant/hg19/NM_000088.3(COL1A1):c.658C%3ET>)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/varsome.png)
 
-## Assembly
-
-- [GCI](https://github.com/yeeus/GCI)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gci.jpg)
-
 ## Assembly QC
 
 - [ALVIS (chimeric alignment viewer)](https://github.com/SR-Martin/alvis)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alvis_chimeric.png)
 - [Consed](http://bozeman.mbt.washington.edu/consed/consed.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/consed.png)
+- [GCI](https://github.com/yeeus/GCI)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gci.jpg)
 - [Genome Puzzle Master (GPM)](https://jianwei-zhang.github.io/LIMS/GPM-Manual.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gpm.png)
 - [Icarus QUAST](http://quast.sourceforge.net/icarus.html)
@@ -477,6 +474,13 @@ their tools. They went through the effort to write it up, cite these tools!!
   https://github.com/moshi4/MGCplotter https://github.com/moshi4/GBKviz
   https://github.com/moshi4/plot_genome_align_fig)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pygenomeviz.png)
+- [QUAAK](https://github.com/YingZhou001/Quaak) (Quick Unique k-mer Assembly
+  Assessment Kit. Uses unique k-mers to compare reference and query genomes,
+  building synteny blocks to assess assembly completeness and flag large
+  structural variations. Outputs reference-centric block-mapping plots. Sample
+  image from
+  https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=submissions/76E3F239-A9A6-4B6B-840F-B49053807394--R3_verkko-v2.3.2_hybrid_assembly_qc/HG00146/quaak/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/quaak.png)
 - [r2cat](https://github.com/phuseman/r2cat)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/r2cat.jpeg)
 - [RectChr](https://github.com/BGI-shenzhen/RectChr)
@@ -770,6 +774,7 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ldblockshow.png)
 - [Locuszoom](http://locuszoom.org/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locuszoom.png)
+- [Locuszoom.js](http://locuszoom.org/locuszoomjs.php)
 - [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/purescript.png)
 
@@ -1037,6 +1042,14 @@ their tools. They went through the effort to write it up, cite these tools!!
   (AKA plotAVA)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svbyeye.png)
 
+## Nanopore
+
+- [CurrentView](https://github.com/genometechlab/currentview) (Visualize and
+  compare nanopore ionic current signals from POD5 files aligned to a reference
+  via BAM. Overlay conditions, run statistics, GMM fitting, and UMAP, with an
+  optional Dash web app.)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/currentview.png)
+
 ## Pangenome
 
 - [Pan-Tetris](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547177/)
@@ -1151,6 +1164,14 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/stainedglass.png)
 - [TRVZ (TRGT tandem repeat genotyping visualizer)](https://github.com/PacificBiosciences/trgt)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/trvz.png)
+
+## Sanger
+
+- [ab1lens](https://fishka.bio/ab1lens) (Free, browser-based Sanger / .ab1
+  chromatogram viewer. View and compare raw vs analyzed traces and basecalls,
+  align a read to a reference to find mismatches, and export a high-resolution
+  image. Runs entirely client-side — data never leaves the browser.)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ab1lens.jpg)
 
 ## Single cell
 
@@ -1334,14 +1355,18 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/aplasmideditor.png)
 - [Chopchop](http://chopchop.cbu.uib.no/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chopchop.png)
+- [OpenVectorEditor](https://teselagen.github.io/tg-oss/ove/#/Editor)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/openvectoreditor.png)
 - [plascad](https://github.com/David-OConnor/plascad)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plascad.png)
 - [plasmapR](https://github.com/BradyAJohnston/plasmapR)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plasmapr.png)
 - [seqviz](https://github.com/Lattice-Automation/seqviz#viewer)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqviz.png)
+- [VectorBee](https://www.vectorbee.com/en/) (Not open source, but is free)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vectorbee.png)
 
-## Text based
+## Text-based
 
 - [Alan](https://github.com/mpdunne/alan)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alan.png)
@@ -1391,20 +1416,12 @@ their tools. They went through the effort to write it up, cite these tools!!
 - [Transposcope](https://github.com/FenyoLab/transposcope)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/transposcope.png)
 
-## Uncategorized
-
-- [Locuszoom.js](http://locuszoom.org/locuszoomjs.php)
-- [OpenVectorEditor](https://teselagen.github.io/tg-oss/ove/#/Editor)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/openvectoreditor.png)
-- [phasius](https://github.com/wdecoster/phasius)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phasius.png)
-- [VectorBee](https://www.vectorbee.com/en/) (Not open source, but is free)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vectorbee.png)
-
 ## Variation
 
 - [NucFreq](https://github.com/mrvollger/NucFreq)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nucfreq.png)
+- [phasius](https://github.com/wdecoster/phasius)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phasius.png)
 - [snpit](https://github.com/aineniamh/snipit)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snpit.png)
 - [vcfPlotein](https://vcfplotein.liigh.unam.mx/#/)
