@@ -10,6 +10,16 @@
       "height": 300
     },
     {
+      "tags": ["Sanger", "Chromatogram", "Alignments"],
+      "name": "ab1lens",
+      "url": "https://fishka.bio/ab1lens",
+      "img": "ab1lens.jpg",
+      "interactive": ["true"],
+      "note": "Free, browser-based Sanger / .ab1 chromatogram viewer. View and compare raw vs analyzed traces and basecalls, align a read to a reference to find mismatches, and export a high-resolution image. Runs entirely client-side — data never leaves the browser.",
+      "width": 2720,
+      "height": 1720
+    },
+    {
       "tags": ["Commercial"],
       "name": "Alamut",
       "img": "alamut.png",
