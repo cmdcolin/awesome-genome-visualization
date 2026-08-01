@@ -7716,6 +7716,16 @@
       "width": 4800,
       "height": 3240,
       "github_stars": 9
+    },
+    {
+      "tags": ["Plasmid", "Circular", "Linear", "Annotation"],
+      "name": "gbatlas",
+      "url": "https://fishka.bio/gbatlas",
+      "img": "gbatlas.jpg",
+      "interactive": ["true"],
+      "note": "Free, browser-based GenBank / GenPept viewer. Shows an interactive linear and circular feature map alongside the annotated source text and the sequence, translates CDS features using the record's own genetic code, and overlays computed ORF and restriction-site layers. Handles multi-record files. Runs entirely client-side — data never leaves the browser.",
+      "width": 2720,
+      "height": 1720
     }
   ]
 }
