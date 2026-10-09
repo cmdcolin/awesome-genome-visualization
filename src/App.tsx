@@ -232,28 +232,28 @@ function FilterButtons() {
       </Button>
       <Button
         onClick={() => {
-          store.setFilters({ tag: 'Dotplot' })
+          store.setFilters({ tag: 'view:Dotplot' })
         }}
       >
         Dotplot viewer
       </Button>
       <Button
         onClick={() => {
-          store.setFilters({ tag: 'MSA' })
+          store.setFilters({ tag: 'data:MSA' })
         }}
       >
         MSA viewer
       </Button>
       <Button
         onClick={() => {
-          store.setFilters({ tag: 'Graph' })
+          store.setFilters({ tag: 'data:Genome graph' })
         }}
       >
         Graph genome
       </Button>
       <Button
         onClick={() => {
-          store.setFilters({ tag: 'Text based' })
+          store.setFilters({ tag: 'ui:Terminal' })
         }}
       >
         Text based
