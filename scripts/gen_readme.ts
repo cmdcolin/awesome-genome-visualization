@@ -4,6 +4,8 @@ const res = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
 const header = fs.readFileSync('util/HEADER.md', 'utf8')
 const footer = fs.readFileSync('util/FOOTER.md', 'utf8')
 const categories = {} as Record<string, any[]>
+const pinnedCategory = 'kind:Genome browser'
+const heading = (category: string) => category.split(':').pop() as string
 
 console.log(header)
 
@@ -18,10 +20,13 @@ res.tools.forEach((tool: any) => {
 
 Object.entries(categories)
   .sort(([categoryA], [categoryB]) => {
-    return categoryA === 'General' ? -1 : categoryA.localeCompare(categoryB)
+    if (categoryA === pinnedCategory || categoryB === pinnedCategory) {
+      return categoryA === pinnedCategory ? -1 : 1
+    }
+    return heading(categoryA).localeCompare(heading(categoryB))
   })
   .map(([category, tools]) => {
-    console.log('## ' + category)
+    console.log('## ' + heading(category))
     tools
       .sort((a, b) => a.name.localeCompare(b.name))
       .forEach(tool => {

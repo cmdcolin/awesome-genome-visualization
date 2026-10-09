@@ -225,14 +225,14 @@ function FilterButtons() {
       </Button>
       <Button
         onClick={() => {
-          store.setFilters({ tag: 'General' })
+          store.setFilters({ tag: 'kind:Genome browser' })
         }}
       >
         General-purpose genome browsers
       </Button>
       <Button
         onClick={() => {
-          store.setFilters({ tag: 'Comparative' })
+          store.setFilters({ tag: 'task:Comparative' })
         }}
       >
         Synteny/comparative browsers

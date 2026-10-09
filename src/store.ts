@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import queryString from 'query-string'
+import tagRemap from './tagRemap.json'
 
 interface Pub {
   url?: string
@@ -93,6 +94,10 @@ function coerceNumber(argument: unknown) {
 function coerceString(argument: unknown) {
   return argument ? String(argument) : undefined
 }
+function remapLegacyTag(tag?: string) {
+  const replacements: Partial<Record<string, string[]>> = tagRemap
+  return replacements[tag ?? '']?.[0] ?? tag
+}
 function coerceBoolean(argument: unknown) {
   return argument ? (JSON.parse(`${argument}`) as boolean) : undefined
 }
@@ -105,7 +110,7 @@ export const useAppStore = create<AppState>()(set => ({
   mode: coerceString(mode) ?? 'list',
   filters: {
     language: coerceString(language),
-    tag: coerceString(tag),
+    tag: remapLegacyTag(coerceString(tag)),
     platform: coerceString(platform),
     interactive: coerceString(interactive),
   },
