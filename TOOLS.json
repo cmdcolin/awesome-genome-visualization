@@ -1802,7 +1802,7 @@
       "github_stars": 42
     },
     {
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "name": "AGB assembly graph browser",
       "img": "agb.jpeg",
       "github": "https://github.com/almiheenko/AGB",
@@ -1819,7 +1819,7 @@
       "height": 1044
     },
     {
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "name": "Bandage",
       "img": "bandage.png",
       "url": "https://github.com/rrwick/Bandage/",
@@ -1837,7 +1837,7 @@
       "github_stars": 678
     },
     {
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "name": "gfaestus",
       "img": "gfaestus.png",
       "url": "https://github.com/chfi/gfaestus",
@@ -1848,7 +1848,7 @@
       "github_stars": 80
     },
     {
-      "tags": ["data:Graph", "data:Pangenome", "task:Comparative"],
+      "tags": ["data:Genome graph", "data:Pangenome", "task:Comparative"],
       "name": "gfalook",
       "url": "https://github.com/pangenome/gfalook",
       "language": ["Rust"],
@@ -1860,7 +1860,7 @@
       "note": "See also odgi viz"
     },
     {
-      "tags": ["data:SV", "data:CNV", "data:Breakend", "data:Graph"],
+      "tags": ["data:SV", "data:CNV", "data:Breakend", "data:Genome graph"],
       "name": "gGnomes",
       "img": "ggnomesr.png",
       "url": "https://github.com/mskilab/gGnome",
@@ -1871,7 +1871,7 @@
       "github_stars": 42
     },
     {
-      "tags": ["data:SV", "data:CNV", "data:Breakend", "data:Graph"],
+      "tags": ["data:SV", "data:CNV", "data:Breakend", "data:Genome graph"],
       "name": "gGnomes.js",
       "img": "ggnomes.png",
       "url": "https://github.com/mskilab/gGnome.js",
@@ -1882,7 +1882,7 @@
       "github_stars": 27
     },
     {
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "name": "graphgenomeviewer",
       "img": "graphgenomeviewer.png",
       "url": "https://cmdcolin.github.io/graphgenomeviewer/",
@@ -1894,7 +1894,12 @@
       "github_stars": 13
     },
     {
-      "tags": ["data:Graph", "data:Read alignment", "view:Circular", "data:SV"],
+      "tags": [
+        "data:Genome graph",
+        "data:Read alignment",
+        "view:Circular",
+        "data:SV"
+      ],
       "name": "MoMi-G",
       "img": "momig.png",
       "url": "https://github.com/MoMI-G/MoMI-G",
@@ -1910,7 +1915,7 @@
       "github_stars": 100
     },
     {
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "name": "odgi draw + odgi viz + odgi inject",
       "language": ["C++"],
       "github": "https://github.com/pangenome/odgi",
@@ -1927,7 +1932,7 @@
       "github_stars": 251
     },
     {
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "name": "sequence tube map",
       "img": "sequence_tube_map.png",
       "url": "https://github.com/vgteam/sequenceTubeMap",
@@ -2624,7 +2629,7 @@
       "height": 1352
     },
     {
-      "tags": ["task:Assembly QC", "data:Graph"],
+      "tags": ["task:Assembly QC", "data:Genome graph"],
       "name": "Icarus QUAST",
       "img": "icarus.png",
       "url": "http://quast.sourceforge.net/icarus.html",
@@ -2964,7 +2969,7 @@
       "github_stars": 283
     },
     {
-      "tags": ["task:Annotation"],
+      "tags": ["task:Variant interpretation"],
       "name": "Varsome",
       "img": "varsome.png",
       "pub": {
@@ -4293,7 +4298,7 @@
     },
     {
       "name": "Shasta",
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "url": "https://chanzuckerberg.github.io/shasta/ComputationalMethods.html#ReadGraph",
       "note": "Uses graphviz",
       "img": "shasta.png",
@@ -4320,7 +4325,7 @@
       },
       "img": "linx.png",
       "tags": [
-        "data:Graph",
+        "data:Genome graph",
         "data:SV",
         "data:Breakend",
         "view:Circular",
@@ -4516,7 +4521,7 @@
         "year": 2018,
         "citations": 48
       },
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "width": 951,
       "height": 351,
       "github_stars": 76
@@ -4939,7 +4944,7 @@
       "name": "panGraphViewer",
       "url": "https://github.com/TF-Chan-Lab/panGraphViewer",
       "img": "pangraphviewer.jpg",
-      "tags": ["data:Graph", "data:Pangenome", "task:Comparative"],
+      "tags": ["data:Genome graph", "data:Pangenome", "task:Comparative"],
       "language": ["Python"],
       "width": 479,
       "height": 260,
@@ -5079,7 +5084,7 @@
     },
     {
       "name": "IGGE",
-      "tags": ["data:Graph", "view:Novel layout"],
+      "tags": ["data:Genome graph", "view:Novel layout"],
       "note": "Not open source",
       "img": "igge.png",
       "url": "https://github.com/immersivegraphgenomeexplorer/IGGE",
@@ -6508,7 +6513,7 @@
       "name": "ctag",
       "img": "ctag.png",
       "github": "https://github.com/AbeelLab/ctag",
-      "tags": ["data:Graph", "field:Population"],
+      "tags": ["data:Genome graph", "field:Population"],
       "note": "See also hygene https://github.com/ProgrammingLife2017/hygene",
       "language": ["Java", "Scala"],
       "width": 916,
@@ -6717,7 +6722,7 @@
         "year": 2023,
         "citations": 56
       },
-      "tags": ["data:Graph", "data:Pangenome", "task:Comparative"],
+      "tags": ["data:Genome graph", "data:Pangenome", "task:Comparative"],
       "language": ["Rust"],
       "img": "pgrtk.png",
       "width": 1109,
@@ -6843,7 +6848,7 @@
     },
     {
       "name": "VRPG",
-      "tags": ["data:Graph", "data:Pangenome", "task:Comparative"],
+      "tags": ["data:Genome graph", "data:Pangenome", "task:Comparative"],
       "img": "vrpg.png",
       "language": ["C++", "Python"],
       "platform": ["Web"],
@@ -7050,7 +7055,7 @@
       "img": "trvz.png",
       "language": ["Rust"],
       "url": "https://github.com/PacificBiosciences/trgt",
-      "tags": ["data:Repeat", "data:Graph"],
+      "tags": ["data:Repeat", "data:Genome graph"],
       "pub": {
         "doi": "10.1101/2023.05.12.540470",
         "year": 2023,
@@ -7076,7 +7081,7 @@
       "name": "SGTK (scaffold graph toolkit)",
       "interactive": ["true"],
       "language": ["JS", "C++"],
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "img": "sgtk.png",
       "url": "https://olga24912.github.io/SGTK/",
       "github": "https://github.com/olga24912/SGTK",
@@ -7094,7 +7099,7 @@
       "github": "https://github.com/w-gao/pgv",
       "url": "https://w-gao.github.io/pgv/",
       "img": "pgv2.png",
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "language": ["JS", "Python"],
       "width": 1281,
       "height": 874,
@@ -7117,7 +7122,7 @@
         "year": 2023,
         "citations": 3
       },
-      "tags": ["data:Graph", "data:Pangenome", "task:Comparative"],
+      "tags": ["data:Genome graph", "data:Pangenome", "task:Comparative"],
       "img": "vag.jpg",
       "github": "https://github.com/lipingfangs/VAG",
       "language": ["Python", "JS"],
@@ -7237,7 +7242,7 @@
     {
       "name": "waragraph",
       "img": "waragraph.png",
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "url": "https://chfi.github.io/waragraph/",
       "github": "https://github.com/chfi/waragraph",
       "note": "Deployed to the web via wasm",
@@ -7382,7 +7387,7 @@
     {
       "name": "strangepg",
       "img": "strangepg.png",
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "github": "https://github.com/qwx9/strangepg",
       "language": ["C"],
       "width": 1280,
@@ -7644,7 +7649,7 @@
     {
       "name": "PangyPlot",
       "img": "pangyplot.png",
-      "tags": ["data:Graph"],
+      "tags": ["data:Genome graph"],
       "github": "https://github.com/ScottMastro/pangyplot",
       "language": ["Python"],
       "pub": {
@@ -7776,7 +7781,7 @@
       "img": "panabyss.png",
       "tags": [
         "data:Pangenome",
-        "data:Graph",
+        "data:Genome graph",
         "task:Comparative",
         "field:Population"
       ],
