@@ -75,7 +75,8 @@ their tools. They went through the effort to write it up, cite these tools!!
 - [Golden Helix](https://www.goldenhelix.com/products/GenomeBrowse/) (Free for
   academic use)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/goldenhelix.png)
-- [Gosling](https://gosling.js.org/)
+- [Gosling](https://gosling.js.org/) (Comparative views are limited to band
+  tracks, see https://gosling.js.org/?example=BAND)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gosling.png)
 - [gtracks](https://gitlab.com/salk-tm/gtracks) (Powered by pyGenomeTracks)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gtracks.png)
@@ -109,6 +110,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nucleome.png)
 - [Panoptes](https://www.malariagen.net/apps/ag1000g/phase1-AR3/index.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/panoptes.png)
+- [Persephone](https://persephonesoft.com/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/persephone.jpg)
 - [Pileup.js](https://github.com/hammerlab/pileup.js)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pileupjs.png)
 - [Savant](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/)
@@ -172,6 +175,7 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 ## BLAST
 
+- [BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 - [SequenceServer](https://sequenceserver.com/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sequenceserver.png)
 
@@ -310,17 +314,11 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 - Combo (Based on the tool 'Argo')
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/combo.png)
-- [Comparative assembly hub snake track](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/comparative_assembly_hub.png)
-- [FastANI](https://github.com/ParBLiSS/FastANI)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/fastani.jpg)
 - [Multiple genome viewer](http://www.informatics.jax.org/mgv/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mgv.png)
 - [Parasight](https://baileylab.brown.edu/parasight/galframe.html) (Examples at
   https://ratparalogy.gs.washington.edu/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/parasight.png)
-- [Persephone](https://persephonesoft.com/)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/persephone.jpg)
 
 ## Coverage
 
@@ -334,6 +332,10 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hagfish.png)
 - [Millefy](https://github.com/yuifu/millefy)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/millefy.png)
+- [Samtools coverage](http://www.htslib.org/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/samtools_coverage.png)
+- [Samtools depth visualization](https://twitter.com/yokofakun/status/1178686978541441025)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/depthplot.png)
 - [SeqCover](https://brentp.github.io/seqcover/#gene=AIFM1)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqcover.png)
 - [SEQing](https://github.com/malewins/SEQing)
@@ -770,6 +772,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/currentview.png)
 - [methylartist](https://github.com/adamewing/methylartist)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
+- [SeqSizzle](https://github.com/ChangqingW/SeqSizzle)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqsizzle.png)
 
 ## Manhattan
 
@@ -794,6 +798,8 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 ## Microbiology
 
+- [FastANI](https://github.com/ParBLiSS/FastANI)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/fastani.jpg)
 - [GeneViTo](http://athina.biol.uoa.gr/bioinformatics/GENEVITO/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genevito.jpg)
 - [IslandViewer and IslandPlot](https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565)
@@ -808,6 +814,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   STRAP) [(img)](https://cmdcolin.github.io/awesome-genome-visualization/aa.png)
 - [abrowse (MSA viewer)](https://github.com/ihh/abrowse)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/abrowse.png)
+- [Alan](https://github.com/mpdunne/alan)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alan.png)
 - [alen](https://github.com/jakobnissen/alen)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alen.png)
 - [alignfigR](https://cran.r-project.org/web/packages/alignfigR/vignettes/my-vignette.html)
@@ -823,6 +831,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alitreeviz.png)
 - [AliView](http://www.ormbunkar.se/aliview/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/aliview.png)
+- [Alv](https://github.com/arvestad/alv)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alv.png)
 - [ALVIS (MSA viewer)](https://www.ebi.ac.uk/research/goldman/software/alvis)
   (Introduces sequence bundles concept, also see web app version
   https://www.ebi.ac.uk/goldman-srv/sequencebundles/ source code
@@ -884,9 +894,13 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/react-msa-viewer.png)
 - [react-msaview](https://github.com/GMOD/react-msaview)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/react-msaview.png)
+- [rich-msa](https://github.com/althonos/rich-msa)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/richmsa.png)
 - [rMSA](https://github.com/mhahsler/rMSA/blob/master/vignettes/rMSA_vignette.pdf)
   (Can automate boxshade)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rmsa.png)
+- [Rna Alignment Viewers (Colorstock, SScolor, Ratón)](http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rnaalignment.png)
 - [salti](https://github.com/Sam-Sims/salti)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/salti.png)
 - [Seaview](http://doua.prabi.fr/software/seaview)
@@ -907,6 +921,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/texshade.png)
 - [Wasabi](http://wasabiapp.org/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wasabi.png)
+- [wgatools](https://github.com/wjwei-handsome/wgatools)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wgatools.png)
 
 ## Multi-way synteny
 
@@ -1069,6 +1085,8 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 - [alignoth](http://htmlpreview.github.io/?https://github.com/koesterlab/alignoth/blob/main/examples/plot.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alignoth.png)
+- [ASCIIGenome](https://github.com/dariober/ASCIIGenome)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/asciigenome.png)
 - [bamscope](https://github.com/jslfree080/bamscope)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamscope.png)
 - [BAMSnap](https://github.com/parklab/bamsnap)
@@ -1087,6 +1105,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gviz.png)
 - [gw](https://github.com/kcleal/gw)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gw.png)
+- [Hapviz](https://github.com/ekg/hapviz)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hapviz.png)
 - [Hawkeye](https://github.com/peterhj/amos)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hawkeye.png)
 - [iGenomics](https://github.com/stuckinaboot/iGenomics)
@@ -1104,16 +1124,27 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mapview.jpg)
 - [NGB](https://github.com/epam/NGB)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ngb.png)
+- [pileuppy](https://gitlab.com/tprodanov/pileuppy)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pileuppy.png)
+- [plotReads](http://campuspress.yale.edu/knightlab/ruddle/plotreads/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plotreads.png)
 - [pyBamView](https://mgymrek.github.io/pybamview/) (See supplementary info for
   more figures, supports padded SAM/BAM which is fairly rare)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pybamview.png)
+- [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
+- [Samtools tview](http://www.htslib.org/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tview.png)
 - [shabam](https://github.com/dlrice/shabam)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shabam.png)
 - [Staden](https://sourceforge.net/projects/staden/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/staden.png)
+- [tgv (terminal genome viewer)](https://github.com/zeqianli/tgv/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tgv.png)
 - [udon](https://github.com/ocxtal/udon) (Uses an advanced data structure for
   pileup, so visually a basic example but likely just a small demo)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/udon.png)
+- [VizAln (from HipSTR)](https://github.com/tfwillems/HipSTR)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hipstr.png)
 - [wally](https://github.com/tobiasrausch/wally) (Available via the web from
   compiling to wasm)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wally.png)
@@ -1264,6 +1295,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/smrtview.png)
 - [SplitThreader](http://splitthreader.com/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/splitthreader.png)
+- [SvABA](https://github.com/walaj/svaba#alignmentstxtgz)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svaba.png)
 - [SVhawkeye](https://github.com/yywan0913/SVhawkeye)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svhawkeye.jpg)
 - [SVPV](https://github.com/VCCRI/SVPV)
@@ -1357,43 +1390,6 @@ their tools. They went through the effort to write it up, cite these tools!!
 - [VectorBee](https://www.vectorbee.com/en/) (Not open source, but is free)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vectorbee.png)
 
-## Terminal
-
-- [Alan](https://github.com/mpdunne/alan)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alan.png)
-- [Alv](https://github.com/arvestad/alv)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alv.png)
-- [ASCIIGenome](https://github.com/dariober/ASCIIGenome)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/asciigenome.png)
-- [BLAST+ (reading -outfmt 0 pairwise output is the original CLI bioinformatics!)](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
-- [Hapviz](https://github.com/ekg/hapviz)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hapviz.png)
-- [pileuppy](https://gitlab.com/tprodanov/pileuppy)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pileuppy.png)
-- [plotReads](http://campuspress.yale.edu/knightlab/ruddle/plotreads/)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plotreads.png)
-- [rich-msa](https://github.com/althonos/rich-msa)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/richmsa.png)
-- [Rna Alignment Viewers (Colorstock, SScolor, Ratón)](http://biowiki.org/wiki/index.php?title=Rna_Alignment_Viewers&redirect=no)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rnaalignment.png)
-- [Sam2pairwise](https://github.com/mlafave/sam2pairwise)
-- [Samtools coverage](http://www.htslib.org/)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/samtools_coverage.png)
-- [Samtools depth visualization](https://twitter.com/yokofakun/status/1178686978541441025)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/depthplot.png)
-- [Samtools tview](http://www.htslib.org/)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tview.png)
-- [SeqSizzle](https://github.com/ChangqingW/SeqSizzle)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqsizzle.png)
-- [SvABA](https://github.com/walaj/svaba#alignmentstxtgz)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svaba.png)
-- [tgv (terminal genome viewer)](https://github.com/zeqianli/tgv/)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tgv.png)
-- [VizAln (from HipSTR)](https://github.com/tfwillems/HipSTR)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hipstr.png)
-- [wgatools](https://github.com/wjwei-handsome/wgatools)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/wgatools.png)
-
 ## Transposon
 
 - [TE-nest](https://github.com/cmdcolin/TEnest) (This was an online tool that
@@ -1418,6 +1414,8 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 - [AliTV](https://alitvteam.github.io/AliTV/d3/AliTV.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alitv.png)
+- [Comparative assembly hub snake track](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/comparative_assembly_hub.png)
 - [Genome-plots-processing](https://github.com/filip-husnik/genome-plots-processing)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genome_plots_processing.png)
 - [mauve-viewer](https://github.com/nconrad/mauve-viewer)
