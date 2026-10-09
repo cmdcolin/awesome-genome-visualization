@@ -2,8 +2,19 @@ import Button from './Button'
 import { type Tool, useAppStore } from './store'
 import styles from './FilterGroup.module.css'
 
-// tags used on fewer tools than this drop into a collapsed "Rare tags" group
-const COMMON_TAG_THRESHOLD = 3
+const facetOrder = [
+  'kind',
+  'task',
+  'data',
+  'view',
+  'field',
+  'ui',
+  'platform',
+  'stack',
+  'with',
+  'license',
+  'status',
+]
 
 export default function TagFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
@@ -16,9 +27,11 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
       counts.set(t, (counts.get(t) ?? 0) + 1)
     }
   }
-  const sorted = [...counts.entries()].sort((a, b) => a[0].localeCompare(b[0]))
-  const common = sorted.filter(([, n]) => n >= COMMON_TAG_THRESHOLD)
-  const rare = sorted.filter(([, n]) => n < COMMON_TAG_THRESHOLD)
+  const byFacet = new Map<string, [string, number][]>()
+  for (const entry of [...counts].sort((a, b) => a[0].localeCompare(b[0]))) {
+    const facet = entry[0].split(':')[0]
+    byFacet.set(facet, [...(byFacet.get(facet) ?? []), entry])
+  }
 
   const option = ([t, n]: [string, number]) => (
     <option key={t} value={t}>
@@ -41,10 +54,13 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
           }}
         >
           <option value="">-- select an option --</option>
-          <optgroup label="Common tags">{common.map(option)}</optgroup>
-          <optgroup label={`Rare tags (used on <${COMMON_TAG_THRESHOLD} tools)`}>
-            {rare.map(option)}
-          </optgroup>
+          {facetOrder
+            .filter(facet => byFacet.has(facet))
+            .map(facet => (
+              <optgroup key={facet} label={facet}>
+                {byFacet.get(facet)?.map(option)}
+              </optgroup>
+            ))}
         </select>
         <Button
           onClick={() => {

@@ -4,10 +4,7 @@ import { tools as importedTools } from './TOOLS.json'
 import { type Tool, useAppStore } from './store'
 import styles from './App.module.css'
 
-import InteractiveFilters from './InteractiveFilters'
-import PlatformFilters from './PlatformFilters'
 import TagFilters from './TagFilters'
-import LanguageFilters from './LanguageFilters'
 import ToolCard from './ToolCard'
 import ToolTable from './ToolTable'
 import Link from './Link'
@@ -16,7 +13,7 @@ import Button from './Button'
 export default function App() {
   const store = useAppStore()
   const { selected, mode, filters, sort } = store
-  const { language, tag, platform, interactive } = filters
+  const { tag } = filters
 
   useEffect(() => {
     const parameters = queryString.stringify({
@@ -76,11 +73,7 @@ export default function App() {
     }
   }
 
-  const filteredTools = tools
-    .filter(t => (language ? t.language?.includes(language) : true))
-    .filter(t => (tag ? t.tags.includes(tag) : true))
-    .filter(t => (platform ? t.platform?.includes(platform) : true))
-    .filter(t => (interactive ? t.interactive?.includes(interactive) : true))
+  const filteredTools = tools.filter(t => (tag ? t.tags.includes(tag) : true))
 
   const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
   return (
@@ -289,9 +282,6 @@ function FilterSelectors({ tools }: { tools: Tool[] }) {
   return (
     <div>
       <TagFilters tools={tools} />
-      <LanguageFilters tools={tools} />
-      <PlatformFilters tools={tools} />
-      <InteractiveFilters tools={tools} />
     </div>
   )
 }

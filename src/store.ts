@@ -12,19 +12,16 @@ interface Pub {
 export interface Tool {
   name: string
   url?: string
-  language?: string[]
   tags?: string[]
   img?: string
   width?: number
   height?: number
   github?: string
   twitter?: string
-  platform?: string[]
   github_stars?: number
   pub?: Pub
   note?: string
   alt_url?: string
-  interactive?: string[]
 }
 interface SortState {
   citations?: number
@@ -33,10 +30,7 @@ interface SortState {
   latest?: boolean
 }
 interface FilterState {
-  language?: string
   tag?: string
-  platform?: string
-  interactive?: string
 }
 interface AppState {
   mode: string
@@ -54,7 +48,6 @@ const {
   language,
   tag,
   platform,
-  interactive,
   mode,
   latest,
   citations,
@@ -98,6 +91,15 @@ function remapLegacyTag(tag?: string) {
   const replacements: Partial<Record<string, string[]>> = tagRemap
   return replacements[tag ?? '']?.[0] ?? tag
 }
+function legacyFilterTag(tag?: string, language?: string, platform?: string) {
+  if (tag) {
+    return tag
+  }
+  if (language) {
+    return `stack:${language}`
+  }
+  return platform ? `platform:${platform}` : undefined
+}
 function coerceBoolean(argument: unknown) {
   return argument ? (JSON.parse(`${argument}`) as boolean) : undefined
 }
@@ -109,10 +111,11 @@ export function setStringArray(key: string, val: string[]) {
 export const useAppStore = create<AppState>()(set => ({
   mode: coerceString(mode) ?? 'list',
   filters: {
-    language: coerceString(language),
-    tag: remapLegacyTag(coerceString(tag)),
-    platform: coerceString(platform),
-    interactive: coerceString(interactive),
+    tag: legacyFilterTag(
+      remapLegacyTag(coerceString(tag)),
+      coerceString(language),
+      coerceString(platform),
+    ),
   },
   selected: coerceString(selected),
   sort: {

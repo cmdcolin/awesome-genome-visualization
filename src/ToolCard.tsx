@@ -15,19 +15,16 @@ export default function ToolCard({ tool }: { tool: Tool }) {
   const {
     name,
     url,
-    language,
     tags,
     img,
     width,
     height,
     github,
     twitter,
-    platform,
     github_stars,
     pub,
     note,
     alt_url,
-    interactive,
   } = tool
   const store = useAppStore()
   const { filters } = store
@@ -58,11 +55,6 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             Alt url <Link href={alt_url}>{ellipses(alt_url)}</Link>
           </p>
         ) : null}
-        {interactive ? (
-          <p className={`${styles.text} ${styles.interactive}`}>
-            Interactive: {interactive.join(',')}
-          </p>
-        ) : null}
         {pub ? (
           <p className={styles.metadata}>
             Publication:{' '}
@@ -81,24 +73,6 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             {pub.citations === undefined
               ? null
               : ` (# citations ${pub.citations})`}
-          </p>
-        ) : null}
-        {language ? (
-          <p className={styles.metadata}>
-            Language:{' '}
-            {language.map((language, index) => [
-              index > 0 && ', ',
-              <Link
-                href="#"
-                key={`${language}-${index}`}
-                onClick={event => {
-                  store.setFilters({ ...filters, language })
-                  event.preventDefault()
-                }}
-              >
-                {language}
-              </Link>,
-            ])}
           </p>
         ) : null}
         {tags ? (
@@ -148,9 +122,6 @@ export default function ToolCard({ tool }: { tool: Tool }) {
 
         {github_stars ? (
           <p className={styles.metadata}>Github Stargazers: {github_stars}</p>
-        ) : null}
-        {platform ? (
-          <p className={styles.metadata}>Platform: {platform.join(', ')}</p>
         ) : null}
       </div>
       <ToolFigure
