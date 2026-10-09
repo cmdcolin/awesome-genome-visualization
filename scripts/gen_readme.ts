@@ -32,11 +32,9 @@ Object.entries(categories)
       .forEach(tool => {
         console.log(
           '- ' +
-            '[' +
-            tool.name +
-            '](' +
-            (tool.url || tool.github) +
-            ')' +
+            (tool.url || tool.github
+              ? '[' + tool.name + '](' + (tool.url || tool.github) + ')'
+              : tool.name) +
             (tool.note ? ' (' + tool.note + ')' : '') +
             (tool.publication ? ' [(pub)](' + tool.publication.url + ')' : '') +
             (tool.img

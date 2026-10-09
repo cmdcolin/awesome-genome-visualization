@@ -31,7 +31,7 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 ## Genome browser
 
-- [ABrowse (genome browser)](undefined) (Had integrations with BioMart, Taverna)
+- ABrowse (genome browser) (Had integrations with BioMart, Taverna)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/abrowse2.png)
 - [Argo](https://web.archive.org/web/20070924141423/http://www.broad.mit.edu/annotation/argo/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/argo.png)
@@ -249,7 +249,7 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamscale.png)
 - [bcftools cnv](https://samtools.github.io/bcftools/howtos/cnv-calling.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bcftools_cnv.png)
-- [CGH-Explorer](undefined)
+- CGH-Explorer
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cghexplorer.jpg)
 - [CNANorm](https://www.bioconductor.org/packages/release/bioc/html/CNAnorm.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cnanorm.png)
@@ -287,7 +287,7 @@ their tools. They went through the effort to write it up, cite these tools!!
 - [mocha](https://github.com/freeseek/mocha) (Has a full analysis pipeline
   associated with end result visualizations)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mocha.png)
-- [Orchestral](undefined)
+- Orchestral
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/orchestral.png)
 - [PURPLE](https://github.com/hartwigmedical/hmftools/blob/master/purity-ploidy-estimator/README.md)
   (intermutation-distance rainfall plots/katagesis plots are not technically in
@@ -304,12 +304,11 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snoopcgh.jpg)
 - [SNPitty](https://bitbucket.org/ccbc/snpitty/src/master/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snpitty.jpg)
-- [VAMP](undefined)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vamp.jpg)
+- VAMP [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vamp.jpg)
 
 ## Comparative genomics
 
-- [Combo](undefined) (Based on the tool 'Argo')
+- Combo (Based on the tool 'Argo')
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/combo.png)
 - [Comparative assembly hub snake track](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/comparative_assembly_hub.png)
@@ -365,7 +364,7 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/maze.png)
 - [Discoplot](https://github.com/mjsull/DiscoPlot)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/discoplot.png)
-- [DNAVis](undefined)
+- DNAVis
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dnavis.png)
 - [Dot](https://dot.sandbox.bio/) (Python data preparation script)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dot.png)
@@ -502,7 +501,7 @@ their tools. They went through the effort to write it up, cite these tools!!
 
 ## Gene order
 
-- [BactoGENIE](undefined)
+- BactoGENIE
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bactogenie.png)
 - [clinker](https://github.com/gamcil/clinker)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/clinker.png)
@@ -701,7 +700,7 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/karyoploter.png)
 - [KaryotypeSVG](https://github.com/andreasprlic/karyotypeSVG)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/karyotypesvg.png)
-- [NCBI Genome Decoration](undefined) (Was located at
+- NCBI Genome Decoration (Was located at
   https://www.ncbi.nlm.nih.gov/genome/tools/gdp/, sunsetted in 2023)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ncbi_genome_decoration.png)
 - [PhenoGram](https://ritchielab.org/software/phenogram-downloads) (Can be web
@@ -1320,7 +1319,7 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pygenomeviz.png)
 - [SafFire](https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/saffire.png)
-- [ShinySyn](undefined)
+- ShinySyn
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shinysyn.png)
 - [SimpleSynteny](https://www.dveltri.com/simplesynteny/about.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/simplesynteny.jpg)
@@ -1329,7 +1328,7 @@ their tools. They went through the effort to write it up, cite these tools!!
 - [Sybil](http://sybil.sourceforge.net/) (Download
   https://sourceforge.net/projects/sybil/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sybil.png)
-- [SynBrowse](undefined)
+- SynBrowse
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/synbrowse.png)
 - [Synima](https://github.com/rhysf/Synima)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/synima.png)
