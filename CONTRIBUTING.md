@@ -16,26 +16,26 @@ folder too!
 Every tag is `facet:Value`. The facet list is closed; values are free-form.
 `pnpm check-tags` enforces the rules below.
 
-| Facet      | Answers                       | Examples                                         |
-| ---------- | ----------------------------- | ------------------------------------------------ |
-| `kind`     | what sort of tool it is       | Genome browser                                   |
-| `task`     | what you use it for           | Comparative, Assembly QC, Variant interpretation |
-| `data`     | what it shows                 | Read alignment, SV, Synteny, Signal track        |
-| `view`     | what the picture looks like   | Dotplot, Circular, Ideogram, Sashimi             |
-| `field`    | research area                 | Cancer, Microbiology, Single cell                |
-| `ui`       | how you interact              | Static (image or SVG output only)                |
-| `license`  | terms of use                  | Commercial, Academic                             |
-| `status`   | whether it is alive           | Deadlink, Historical, Unavailable                |
-| `with`     | what it plugs into            | JBrowse, HiGlass, UCSC                           |
-| `platform` | unusual hardware or OS        | Large display, Mobile                            |
-| `stack`    | implementation, if it matters | ggplot2                                          |
+| Facet      | Answers                       | Examples                                   |
+| ---------- | ----------------------------- | ------------------------------------------ |
+| `kind`     | what sort of tool it is       | Genome browser                             |
+| `task`     | what you use it for           | Assembly QC, Variant interpretation        |
+| `data`     | what it shows                 | Read alignment, SV, Synteny, Signal track  |
+| `view`     | what the picture looks like   | Dotplot, Circular, Ideogram, Sashimi       |
+| `field`    | research area                 | Comparative genomics, Cancer, Microbiology |
+| `ui`       | how you interact              | Static (image or SVG output only)          |
+| `license`  | terms of use                  | Commercial, Academic                       |
+| `status`   | whether it is alive           | Deadlink, Historical, Unavailable          |
+| `with`     | what it plugs into            | JBrowse, HiGlass, UCSC                     |
+| `platform` | unusual hardware or OS        | Large display, Mobile                      |
+| `stack`    | implementation, if it matters | ggplot2                                    |
 
 - `kind`, `task`, `data`, `view` and `field` are content tags. The first tag
   must be one, and the README files the tool under it. Put flag tags last.
 - Use singular nouns and sentence case. Proper names keep their case.
 - Aim for at most four content tags.
 - `data:Synteny`, `data:Multi-way synteny`, `data:Pangenome` and
-  `data:Gene order` also need `task:Comparative`.
+  `data:Gene order` also need `field:Comparative genomics`.
 - `src/tagRemap.json` maps the pre-prefix tag names to the current ones, so old
   `?tag=` links keep working.
 

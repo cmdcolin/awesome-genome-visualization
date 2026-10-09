@@ -47,9 +47,9 @@ tools.forEach((tool: any) => {
   }
   if (
     tags.some(t => impliesComparative.includes(t)) &&
-    !tags.includes('task:Comparative')
+    !tags.includes('field:Comparative genomics')
   ) {
-    report(tool.name, 'needs task:Comparative')
+    report(tool.name, 'needs field:Comparative genomics')
   }
 })
 

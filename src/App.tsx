@@ -232,7 +232,7 @@ function FilterButtons() {
       </Button>
       <Button
         onClick={() => {
-          store.setFilters({ tag: 'task:Comparative' })
+          store.setFilters({ tag: 'field:Comparative genomics' })
         }}
       >
         Synteny/comparative browsers
