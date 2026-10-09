@@ -33,7 +33,7 @@ Every tag is `facet:Value`. The facet list is closed; values are free-form.
 - `kind`, `task`, `data`, `view` and `field` are content tags. The first tag
   must be one, and the README files the tool under it. Put flag tags last.
 - Use singular nouns and sentence case. Proper names keep their case.
-- Aim for at most four content tags.
+- Use at most four content tags.
 - `field:Comparative genomics` is the umbrella for cross-genome tools.
   `data:Synteny`, `data:Whole-genome alignment`, `data:Multi-way synteny`,
   `data:Pangenome` and `data:Gene order` all need it. List it after the specific

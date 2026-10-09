@@ -143,6 +143,11 @@ their tools. They went through the effort to write it up, cite these tools!!
 - [Zenbu](http://fantom.gsc.riken.jp/zenbu/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/zenbu.png)
 
+## Annotation
+
+- [ERGO](https://www.igenbio.com/ergo)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ergo.png)
+
 ## Assembly QC
 
 - [ALVIS (chimeric alignment viewer)](https://github.com/SR-Martin/alvis)
@@ -402,8 +407,6 @@ their tools. They went through the effort to write it up, cite these tools!!
   (Also has 2024 citation here
   https://onlinelibrary.wiley.com/doi/10.1002/imt2.211)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mcscan_python.png)
-- [MCScanX](https://github.com/wyp1125/MCScanX)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mcscanx.png)
 - [mcutils](https://github.com/mchaisso/mcutils)
   (https://twitter.com/mjpchaisson/status/1040363992206569472)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mcutils_dotplot.jpeg)
@@ -575,9 +578,6 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/graphgenomeviewer.png)
 - [IGGE](https://github.com/immersivegraphgenomeexplorer/IGGE) (Not open source)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/igge.png)
-- [LINX](https://github.com/hartwigmedical/hmftools/tree/master/linx) (part of
-  the PURPLE/GRIDSS/LINX pipeline)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/linx.png)
 - [MoMi-G](https://github.com/MoMI-G/MoMI-G)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/momig.png)
 - [odgi draw + odgi viz + odgi inject](https://odgi.readthedocs.io/en/latest/index.html)
@@ -840,8 +840,6 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cialign.png)
 - [CView](https://sourceforge.net/projects/cview/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cview.png)
-- [ERGO](https://www.igenbio.com/ergo)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ergo.png)
 - [ESPript](http://espript.ibcp.fr/ESPript/ESPript/) (Primarily a web interface
   but can download a binary for linux
   https://espript.ibcp.fr/ESPript/ESPript/esp_faq.php)
@@ -1239,6 +1237,9 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ingap_sv.png)
 - [Introgression browser](https://git.wageningenur.nl/aflit001/ibrowser)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/introgression_browser.png)
+- [LINX](https://github.com/hartwigmedical/hmftools/tree/master/linx) (part of
+  the PURPLE/GRIDSS/LINX pipeline)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/linx.png)
 - [NeoLoopFinder](https://github.com/XiaoTaoWang/NeoLoopFinder)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/neoloopfinder.png)
 - [Pairoscope](http://pairoscope.sourceforge.net/)
@@ -1305,6 +1306,8 @@ their tools. They went through the effort to write it up, cite these tools!!
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomematcher.png)
 - [JAX Synteny browser](https://github.com/TheJacksonLaboratory/syntenybrowser)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/jax_synteny_browser.png)
+- [MCScanX](https://github.com/wyp1125/MCScanX)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mcscanx.png)
 - [mGSV (multiple genome synteny viewer)](https://github.com/kashmatic/mGSV)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mgsv.jpg)
 - [MizBee](http://www.cs.utah.edu/~miriah/mizbee/Overview.html)

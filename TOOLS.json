@@ -1626,10 +1626,9 @@
     {
       "name": "MCScanX",
       "tags": [
+        "data:Synteny",
         "view:Dotplot",
         "view:Circular",
-        "view:Linear",
-        "view:Ideogram",
         "field:Comparative genomics",
         "platform:CLI",
         "stack:Perl"
@@ -3394,9 +3393,7 @@
     {
       "tags": [
         "kind:Genome browser",
-        "field:Epigenomics",
         "view:Linear",
-        "view:Circular",
         "data:Signal track",
         "field:Comparative genomics",
         "with:HiGlass",
@@ -3467,7 +3464,6 @@
         "data:Read alignment",
         "data:SV",
         "data:Signal track",
-        "data:Gene structure",
         "platform:Web",
         "platform:Desktop",
         "stack:JS"
@@ -3489,12 +3485,8 @@
     {
       "tags": [
         "kind:Genome browser",
-        "data:SV",
         "view:Dotplot",
-        "view:Circular",
         "data:Read alignment",
-        "data:Signal track",
-        "data:Hi-C",
         "field:Comparative genomics",
         "platform:Web",
         "stack:JS",
@@ -3542,9 +3534,7 @@
       "tags": [
         "kind:Genome browser",
         "data:SV",
-        "field:Epigenomics",
         "data:Gene structure",
-        "data:Splicing",
         "platform:Web",
         "platform:Portal"
       ],
@@ -4363,11 +4353,9 @@
     {
       "tags": [
         "data:CNV",
-        "view:Linear",
         "field:Cancer",
         "view:Lollipop",
         "data:SV",
-        "data:Read alignment",
         "platform:Web"
       ],
       "name": "GenomePaint",
@@ -4492,7 +4480,6 @@
       "name": "Gview",
       "tags": [
         "view:Circular",
-        "view:Linear",
         "data:Pangenome",
         "field:Comparative genomics",
         "field:Microbiology",
@@ -4617,11 +4604,8 @@
       },
       "img": "linx.png",
       "tags": [
-        "data:Genome graph",
         "data:SV",
-        "data:Breakend",
         "view:Circular",
-        "view:Linear",
         "data:Gene fusion",
         "field:Cancer",
         "with:Circos",
@@ -5687,8 +5671,6 @@
       "img": "phandango.png",
       "tags": [
         "data:Pangenome",
-        "data:GWAS",
-        "data:MSA",
         "data:Phylogeny",
         "field:Comparative genomics",
         "field:Microbiology",
@@ -6675,12 +6657,8 @@
     },
     {
       "tags": [
-        "data:MSA",
-        "data:SV",
-        "data:Coverage",
-        "data:Read alignment",
         "task:Annotation",
-        "data:Small variant",
+        "data:Read alignment",
         "data:Expression",
         "field:Comparative genomics",
         "license:Commercial"
@@ -7357,7 +7335,6 @@
         "view:Circular",
         "data:CNV",
         "data:SV",
-        "data:Coverage",
         "field:Comparative genomics",
         "stack:R"
       ],
@@ -7800,7 +7777,6 @@
       "tags": [
         "view:Dotplot",
         "view:Circular",
-        "view:Ideogram",
         "data:Multi-way synteny",
         "field:Comparative genomics",
         "stack:Perl",

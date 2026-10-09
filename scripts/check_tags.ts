@@ -48,9 +48,7 @@ tools.forEach((tool: any) => {
   }
   const content = tags.filter(t => contentFacets.includes(facetOf(t)))
   if (content.length > maxContentTags) {
-    console.log(
-      `${tool.name}: ${content.length} content tags (max ${maxContentTags})`,
-    )
+    report(tool.name, `${content.length} content tags (max ${maxContentTags})`)
   }
   if (
     tags.some(t => impliesComparative.includes(t)) &&
