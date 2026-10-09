@@ -5,9 +5,12 @@ const tools = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8')).tools
 const contentFacets = ['kind', 'task', 'data', 'view', 'field']
 const metaFacets = ['ui', 'license', 'status', 'with', 'platform', 'stack']
 const facets = new Set([...contentFacets, ...metaFacets])
+const specificFacets = ['kind', 'task', 'data', 'view']
 const maxContentTags = 4
+const umbrella = 'field:Comparative genomics'
 const impliesComparative = [
   'data:Synteny',
+  'data:Whole-genome alignment',
   'data:Multi-way synteny',
   'data:Pangenome',
   'data:Gene order',
@@ -39,6 +42,10 @@ tools.forEach((tool: any) => {
   if (!contentFacets.includes(facetOf(tags[0]))) {
     report(tool.name, `first tag "${tags[0]}" must be a content tag`)
   }
+  const specific = tags.filter(t => specificFacets.includes(facetOf(t)))
+  if (tags[0] === umbrella && specific.length) {
+    report(tool.name, `${umbrella} must come after ${specific[0]}`)
+  }
   const content = tags.filter(t => contentFacets.includes(facetOf(t)))
   if (content.length > maxContentTags) {
     console.log(
@@ -47,9 +54,9 @@ tools.forEach((tool: any) => {
   }
   if (
     tags.some(t => impliesComparative.includes(t)) &&
-    !tags.includes('field:Comparative genomics')
+    !tags.includes(umbrella)
   ) {
-    report(tool.name, 'needs field:Comparative genomics')
+    report(tool.name, `needs ${umbrella}`)
   }
 })
 

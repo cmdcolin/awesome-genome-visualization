@@ -34,8 +34,10 @@ Every tag is `facet:Value`. The facet list is closed; values are free-form.
   must be one, and the README files the tool under it. Put flag tags last.
 - Use singular nouns and sentence case. Proper names keep their case.
 - Aim for at most four content tags.
-- `data:Synteny`, `data:Multi-way synteny`, `data:Pangenome` and
-  `data:Gene order` also need `field:Comparative genomics`.
+- `field:Comparative genomics` is the umbrella for cross-genome tools.
+  `data:Synteny`, `data:Whole-genome alignment`, `data:Multi-way synteny`,
+  `data:Pangenome` and `data:Gene order` all need it. List it after the specific
+  tags, so the README files the tool under the specific one.
 - `src/tagRemap.json` maps the pre-prefix tag names to the current ones, so old
   `?tag=` links keep working.
 

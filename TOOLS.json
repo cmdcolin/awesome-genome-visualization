@@ -19,7 +19,12 @@
       "height": 132
     },
     {
-      "tags": ["field:Microbiology", "license:Commercial"],
+      "tags": [
+        "kind:Genome browser",
+        "view:Linear",
+        "field:Microbiology",
+        "license:Commercial"
+      ],
       "name": "ATCC Genome Portal",
       "platform": ["Silo"],
       "img": "atcc.png",
@@ -56,7 +61,13 @@
       "height": 253
     },
     {
-      "tags": ["field:Synthetic biology", "license:Commercial"],
+      "tags": [
+        "kind:Genome browser",
+        "data:MSA",
+        "data:Chromatogram",
+        "field:Synthetic biology",
+        "license:Commercial"
+      ],
       "name": "Geneious",
       "img": "geneious.png",
       "url": "https://www.geneious.com/",
@@ -93,7 +104,13 @@
       "height": 540
     },
     {
-      "tags": ["field:Synthetic biology", "license:Commercial"],
+      "tags": [
+        "data:MSA",
+        "data:Chromatogram",
+        "data:Plasmid",
+        "field:Synthetic biology",
+        "license:Commercial"
+      ],
       "name": "MacVector",
       "img": "macvector.png",
       "url": "https://macvector.com/",
@@ -627,7 +644,7 @@
       "github_stars": 217
     },
     {
-      "tags": ["field:Synthetic biology", "ui:Static"],
+      "tags": ["view:Linear", "field:Synthetic biology", "ui:Static"],
       "name": "DNAPlotLib",
       "img": "dnaplotlib.png",
       "url": "https://github.com/VoigtLab/dnaplotlib",
@@ -739,8 +756,8 @@
     },
     {
       "tags": [
-        "field:Comparative genomics",
         "data:Multi-way synteny",
+        "field:Comparative genomics",
         "ui:Static"
       ],
       "name": "genoPlotR",
@@ -773,7 +790,12 @@
       "github_stars": 117
     },
     {
-      "tags": ["field:Comparative genomics", "ui:Static"],
+      "tags": [
+        "data:Gene order",
+        "view:Linear",
+        "field:Comparative genomics",
+        "ui:Static"
+      ],
       "name": "GGgenes",
       "img": "gggenes.png",
       "url": "https://github.com/wilkox/gggenes",
@@ -803,8 +825,8 @@
       "url": "https://github.com/orangeSi/GSSplayground",
       "language": ["Perl"],
       "tags": [
-        "field:Comparative genomics",
         "data:Read alignment",
+        "field:Comparative genomics",
         "ui:Static"
       ],
       "width": 1300,
@@ -928,7 +950,7 @@
       "github_stars": 96
     },
     {
-      "tags": ["field:Single cell"],
+      "tags": ["data:Coverage", "kind:Genome browser", "field:Single cell"],
       "name": "Millefy",
       "img": "millefy.png",
       "url": "https://github.com/yuifu/millefy",
@@ -956,8 +978,8 @@
       "name": "pauvre",
       "github": "https://github.com/conchoecia/pauvre",
       "tags": [
-        "field:Comparative genomics",
         "data:Multi-way synteny",
+        "field:Comparative genomics",
         "ui:Static"
       ],
       "img": "pauvre.png",
@@ -1221,7 +1243,7 @@
       "github_stars": 79
     },
     {
-      "tags": ["field:Comparative genomics", "status:Deadlink"],
+      "tags": ["data:Synteny", "field:Comparative genomics", "status:Deadlink"],
       "name": "Aequatus",
       "img": "aequatus.png",
       "pub": {
@@ -1237,7 +1259,12 @@
       "github_stars": 8
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Whole-genome alignment",
+        "view:Linear",
+        "view:Circular",
+        "field:Comparative genomics"
+      ],
       "name": "AliTV",
       "img": "alitv.png",
       "url": "https://alitvteam.github.io/AliTV/d3/AliTV.html",
@@ -1252,7 +1279,7 @@
       "height": 1923
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "field:Comparative genomics"],
       "name": "Artemis comparison tool (ACT)",
       "github": "https://github.com/sanger-pathogens/Artemis",
       "img": "artemis_act.png",
@@ -1269,7 +1296,7 @@
       "github_stars": 271
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["kind:Genome browser", "field:Comparative genomics"],
       "name": "Biodalliance comparative demo",
       "github": "https://github.com/dasmoth/dalliance",
       "url": "http://biodalliance.org/dev/test-comparative.html",
@@ -1287,8 +1314,8 @@
     },
     {
       "tags": [
-        "field:Comparative genomics",
         "data:Pangenome",
+        "field:Comparative genomics",
         "field:Microbiology"
       ],
       "name": "Chromatiblock",
@@ -1306,7 +1333,7 @@
       "github_stars": 32
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Genetic map", "field:Comparative genomics"],
       "name": "CMap",
       "github": "https://github.com/gmod/cmap",
       "url": "http://gmod.org/wiki/CMap",
@@ -1324,9 +1351,9 @@
     },
     {
       "tags": [
-        "field:Comparative genomics",
         "view:Dotplot",
         "view:Linear",
+        "field:Comparative genomics",
         "with:JBrowse"
       ],
       "name": "CoGe",
@@ -1360,7 +1387,7 @@
       "height": 140
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["kind:Genome browser", "field:Comparative genomics"],
       "name": "CrossBrowse",
       "url": "https://github.com/shenkers/CrossBrowse",
       "language": ["Java"],
@@ -1376,7 +1403,7 @@
       "github_stars": 9
     },
     {
-      "tags": ["field:Comparative genomics", "view:Ideogram"],
+      "tags": ["view:Ideogram", "field:Comparative genomics"],
       "name": "CVit",
       "url": "https://sourceforge.net/projects/cvit/",
       "github": "https://github.com/ekcannon/CViT",
@@ -1393,7 +1420,7 @@
       "github_stars": 2
     },
     {
-      "tags": ["field:Comparative genomics", "view:Ideogram"],
+      "tags": ["view:Ideogram", "field:Comparative genomics"],
       "name": "Cvit.js",
       "language": ["JS"],
       "img": "cvitjs.png",
@@ -1404,7 +1431,7 @@
       "github_stars": 12
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["view:Linear", "data:Synteny", "field:Comparative genomics"],
       "name": "EasyFig",
       "github": "https://github.com/mjsull/Easyfig",
       "img": "easyfig.png",
@@ -1428,7 +1455,12 @@
       "platform": ["Desktop"],
       "language": ["Python"],
       "note": "See also https://github.com/Edinburgh-Genome-Foundry/Caravagene",
-      "tags": ["field:Microbiology", "field:Synthetic biology"],
+      "tags": [
+        "view:Linear",
+        "view:Circular",
+        "field:Microbiology",
+        "field:Synthetic biology"
+      ],
       "pub": {
         "url": "https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF",
         "doi": "10.1093/bioinformatics/btaa213",
@@ -1440,7 +1472,7 @@
       "github_stars": 705
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "field:Comparative genomics"],
       "name": "GBrowse_syn",
       "github": "https://github.com/GMOD/GBrowse",
       "url": "http://gmod.org/wiki/GBrowse_syn",
@@ -1458,9 +1490,9 @@
     },
     {
       "tags": [
-        "field:Comparative genomics",
         "data:Gene order",
-        "data:Pangenome"
+        "data:Pangenome",
+        "field:Comparative genomics"
       ],
       "name": "Genome Context Viewer",
       "github": "https://github.com/legumeinfo/gcv",
@@ -1478,7 +1510,11 @@
       "github_stars": 47
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Whole-genome alignment",
+        "view:Linear",
+        "field:Comparative genomics"
+      ],
       "name": "Genome-plots-processing",
       "img": "genome_plots_processing.png",
       "pub": {
@@ -1493,7 +1529,7 @@
       "github_stars": 3
     },
     {
-      "tags": ["field:Comparative genomics", "view:Ideogram", "view:Dotplot"],
+      "tags": ["view:Ideogram", "view:Dotplot", "field:Comparative genomics"],
       "name": "Genomicus",
       "url": "https://www.genomicus.biologie.ens.fr/genomicus/",
       "pub": {
@@ -1507,7 +1543,7 @@
       "height": 1438
     },
     {
-      "tags": ["field:Comparative genomics", "data:Multi-way synteny"],
+      "tags": ["data:Multi-way synteny", "field:Comparative genomics"],
       "name": "gggenomes",
       "url": "https://github.com/thackl/gggenomes",
       "img": "gggenomes.png",
@@ -1524,9 +1560,9 @@
     },
     {
       "tags": [
-        "field:Comparative genomics",
         "view:Linear",
-        "data:Signal track"
+        "data:Signal track",
+        "field:Comparative genomics"
       ],
       "name": "GIVE",
       "github": "https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine",
@@ -1544,7 +1580,11 @@
       "github_stars": 145
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Whole-genome alignment",
+        "data:Synteny",
+        "field:Comparative genomics"
+      ],
       "name": "mauve-viewer",
       "img": "mauve_viewer.png",
       "url": "https://github.com/nconrad/mauve-viewer",
@@ -1555,7 +1595,7 @@
       "github_stars": 45
     },
     {
-      "tags": ["field:Comparative genomics", "view:Dotplot", "view:Linear"],
+      "tags": ["view:Dotplot", "view:Linear", "field:Comparative genomics"],
       "name": "MCScan (python version)",
       "img": "mcscan_python.png",
       "url": "https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)",
@@ -1575,11 +1615,11 @@
     {
       "name": "MCScanX",
       "tags": [
-        "field:Comparative genomics",
         "view:Dotplot",
         "view:Circular",
         "view:Linear",
-        "view:Ideogram"
+        "view:Ideogram",
+        "field:Comparative genomics"
       ],
       "url": "https://github.com/wyp1125/MCScanX",
       "img": "mcscanx.png",
@@ -1595,7 +1635,7 @@
       "github_stars": 298
     },
     {
-      "tags": ["field:Comparative genomics", "status:Deadlink"],
+      "tags": ["data:Synteny", "field:Comparative genomics", "status:Deadlink"],
       "name": "mGSV (multiple genome synteny viewer)",
       "img": "mgsv.jpg",
       "url": "https://github.com/kashmatic/mGSV",
@@ -1610,7 +1650,7 @@
       "github_stars": 6
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "field:Comparative genomics"],
       "name": "MizBee",
       "img": "mizbee.jpg",
       "language": ["Processing"],
@@ -1643,7 +1683,7 @@
       "github_stars": 12
     },
     {
-      "tags": ["field:Comparative genomics", "data:Gene order"],
+      "tags": ["data:Gene order", "field:Comparative genomics"],
       "name": "OMA local synteny browser",
       "img": "oma.png",
       "pub": {
@@ -1657,7 +1697,7 @@
       "height": 688
     },
     {
-      "tags": ["field:Comparative genomics", "view:Dotplot", "view:Linear"],
+      "tags": ["view:Dotplot", "view:Linear", "field:Comparative genomics"],
       "name": "pafr",
       "img": "pafr.png",
       "url": "https://github.com/dwinter/pafr",
@@ -1682,7 +1722,12 @@
       "height": 285
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Whole-genome alignment",
+        "data:Synteny",
+        "view:Linear",
+        "field:Comparative genomics"
+      ],
       "name": "progressiveMauve viewer",
       "img": "progressive_mauve.png",
       "pub": {
@@ -1699,7 +1744,7 @@
       "github_stars": 36
     },
     {
-      "tags": ["field:Comparative genomics", "view:Dotplot", "view:Linear"],
+      "tags": ["view:Dotplot", "view:Linear", "field:Comparative genomics"],
       "name": "SyMap",
       "url": "http://www.agcol.arizona.edu/software/symap/",
       "platform": ["Desktop"],
@@ -1713,7 +1758,7 @@
       "height": 1131
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "view:Linear", "field:Comparative genomics"],
       "name": "Synima",
       "img": "synima.png",
       "url": "https://github.com/rhysf/Synima",
@@ -1729,7 +1774,7 @@
       "github_stars": 67
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "field:Comparative genomics"],
       "img": "jax_synteny_browser.png",
       "name": "JAX Synteny browser",
       "url": "https://github.com/TheJacksonLaboratory/syntenybrowser",
@@ -1745,9 +1790,9 @@
     },
     {
       "tags": [
-        "field:Comparative genomics",
         "view:Dotplot",
         "view:Linear",
+        "field:Comparative genomics",
         "field:Microbiology"
       ],
       "name": "SynTView",
@@ -1764,7 +1809,7 @@
       "height": 1152
     },
     {
-      "tags": ["field:Comparative genomics", "view:Linear", "view:Dotplot"],
+      "tags": ["view:Linear", "view:Dotplot", "field:Comparative genomics"],
       "name": "SynVisio",
       "img": "synvisio.png",
       "language": ["JS", "D3"],
@@ -1780,7 +1825,7 @@
       "github_stars": 93
     },
     {
-      "tags": ["field:Comparative genomics", "view:Ideogram"],
+      "tags": ["view:Ideogram", "field:Comparative genomics"],
       "name": "Tripal MapViewer",
       "language": ["PHP", "JS"],
       "github": "https://github.com/statonlab/tripal_map",
@@ -1795,7 +1840,7 @@
       "github_stars": 1
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Whole-genome alignment", "field:Comparative genomics"],
       "name": "VISTA browser",
       "url": "http://pipeline.lbl.gov/cgi-bin/gateway2",
       "img": "vista.png",
@@ -1809,7 +1854,7 @@
       "height": 348
     },
     {
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "data:Repeat", "field:Comparative genomics"],
       "name": "XMatchView",
       "img": "xmatchview.png",
       "github": "https://github.com/bcgsc/xmatchview",
@@ -2336,7 +2381,7 @@
       "height": 1250
     },
     {
-      "tags": ["field:Synthetic biology"],
+      "tags": ["view:Circular", "view:Linear", "field:Synthetic biology"],
       "img": "seqviz.png",
       "name": "seqviz",
       "url": "https://github.com/Lattice-Automation/seqviz#viewer",
@@ -2346,7 +2391,7 @@
       "github_stars": 312
     },
     {
-      "tags": ["field:Synthetic biology"],
+      "tags": ["data:Plasmid", "view:Circular", "field:Synthetic biology"],
       "img": "aplasmideditor.png",
       "twitter": "https://twitter.com/apeplasmid?lang=en",
       "name": "ApE (a plasmid editor)",
@@ -2478,7 +2523,7 @@
       "github_stars": 7
     },
     {
-      "tags": ["field:Epigenomics"],
+      "tags": ["view:Heatmap", "kind:Genome browser", "field:Epigenomics"],
       "name": "EaSeq",
       "img": "easeq.png",
       "url": "https://easeq.net/screenshots/",
@@ -2784,7 +2829,7 @@
       "github_stars": 6
     },
     {
-      "tags": ["field:Population"],
+      "tags": ["kind:Genome browser", "field:Population"],
       "name": "Panoptes",
       "img": "panoptes.png",
       "github": "https://github.com/cggh/panoptes",
@@ -3241,8 +3286,8 @@
         "field:Epigenomics",
         "view:Linear",
         "view:Circular",
-        "field:Comparative genomics",
         "data:Signal track",
+        "field:Comparative genomics",
         "with:HiGlass"
       ],
       "name": "Gosling",
@@ -3321,12 +3366,12 @@
       "tags": [
         "kind:Genome browser",
         "data:SV",
-        "field:Comparative genomics",
         "view:Dotplot",
         "view:Circular",
         "data:Read alignment",
         "data:Signal track",
-        "data:Hi-C"
+        "data:Hi-C",
+        "field:Comparative genomics"
       ],
       "name": "JBrowse 2",
       "note": "See gallery for more examples https://jbrowse.org/jb2/gallery",
@@ -3748,8 +3793,8 @@
     {
       "tags": [
         "view:Dotplot",
-        "field:Comparative genomics",
         "data:Multi-way synteny",
+        "field:Comparative genomics",
         "ui:Static"
       ],
       "name": "syntenyPlotByR",
@@ -3795,7 +3840,12 @@
       "github_stars": 33
     },
     {
-      "tags": ["field:Epigenomics"],
+      "tags": [
+        "kind:Genome browser",
+        "data:Signal track",
+        "data:Gene structure",
+        "field:Epigenomics"
+      ],
       "name": "cisGenome Browser",
       "img": "cisgenome.png",
       "pub": {
@@ -3810,7 +3860,7 @@
       "height": 857
     },
     {
-      "tags": ["field:Epigenomics", "with:HiGlass"],
+      "tags": ["data:Signal track", "field:Epigenomics", "with:HiGlass"],
       "name": "Epilogos",
       "language": ["Python"],
       "img": "epilogos.jpg",
@@ -3822,7 +3872,7 @@
       "github_stars": 49
     },
     {
-      "tags": ["field:Epigenomics"],
+      "tags": ["kind:Genome browser", "field:Epigenomics"],
       "name": "Epiviz",
       "img": "epiviz.png",
       "github": "https://github.com/epiviz/epiviz",
@@ -3891,7 +3941,7 @@
       "github_stars": 24
     },
     {
-      "tags": ["field:Epigenomics", "with:HiGlass"],
+      "tags": ["data:Signal track", "field:Epigenomics", "with:HiGlass"],
       "name": "Peax",
       "img": "peax.png",
       "language": ["JS"],
@@ -4228,7 +4278,7 @@
         "citations": 813
       },
       "note": "readme says to cite this paper",
-      "tags": ["field:Comparative genomics"],
+      "tags": ["view:Linear", "data:Gene order", "field:Comparative genomics"],
       "width": 2050,
       "height": 2384,
       "github_stars": 10
@@ -4239,8 +4289,8 @@
         "view:Circular",
         "view:Linear",
         "data:Pangenome",
-        "field:Microbiology",
-        "field:Comparative genomics"
+        "field:Comparative genomics",
+        "field:Microbiology"
       ],
       "url": "https://server.gview.ca/examples",
       "img": "gview.png",
@@ -4293,9 +4343,9 @@
     {
       "name": "clinker",
       "tags": [
-        "field:Comparative genomics",
         "data:Gene order",
-        "data:Multi-way synteny"
+        "data:Multi-way synteny",
+        "field:Comparative genomics"
       ],
       "language": ["JS"],
       "img": "clinker.png",
@@ -4667,7 +4717,12 @@
     },
     {
       "name": "SWAV",
-      "tags": ["field:Population", "status:Deadlink"],
+      "tags": [
+        "kind:Genome browser",
+        "data:Signal track",
+        "field:Population",
+        "status:Deadlink"
+      ],
       "pub": {
         "url": "https://www.nature.com/articles/s41598-019-57038-x",
         "doi": "10.1038/s41598-019-57038-x",
@@ -4765,8 +4820,8 @@
       "img": "rectchr.png",
       "url": "https://github.com/BGI-shenzhen/RectChr",
       "tags": [
-        "field:Comparative genomics",
         "view:Ideogram",
+        "field:Comparative genomics",
         "ui:Static",
         "status:Limited code"
       ],
@@ -5027,7 +5082,7 @@
         "year": 2019,
         "citations": 23
       },
-      "tags": ["field:Comparative genomics", "data:Genetic map"],
+      "tags": ["data:Genetic map", "field:Comparative genomics"],
       "width": 1114,
       "height": 765,
       "github_stars": 47
@@ -5139,7 +5194,7 @@
     },
     {
       "name": "PipMaker",
-      "tags": ["field:Comparative genomics", "data:Repeat", "task:Annotation"],
+      "tags": ["data:Repeat", "task:Annotation", "field:Comparative genomics"],
       "url": "http://pipmaker.bx.psu.edu/pipmaker/",
       "note": "See also MultiPipMaker http://pipmaker.bx.psu.edu/pipmaker/mpm-example/index.html",
       "img": "pipmaker.png",
@@ -5215,7 +5270,7 @@
         "year": 2021,
         "citations": 45
       },
-      "tags": ["field:Comparative genomics", "view:Dotplot", "view:Circular"],
+      "tags": ["view:Dotplot", "view:Circular", "field:Comparative genomics"],
       "width": 1247,
       "height": 392,
       "github_stars": 175
@@ -5303,7 +5358,7 @@
       "name": "BRIG",
       "img": "brig.jpg",
       "github": "https://github.com/happykhan/BRIG",
-      "tags": ["field:Comparative genomics", "view:Circular"],
+      "tags": ["view:Circular", "field:Comparative genomics"],
       "url": "http://brig.sourceforge.net",
       "pub": {
         "url": "https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-402",
@@ -5330,7 +5385,7 @@
     {
       "name": "GENESPACE",
       "url": "https://github.com/jtlovell/GENESPACE/",
-      "tags": ["field:Comparative genomics", "data:Pangenome"],
+      "tags": ["data:Pangenome", "field:Comparative genomics"],
       "img": "genespace.png",
       "pub": {
         "doi": "10.7554/eLife.78526",
@@ -5396,8 +5451,8 @@
         "data:GWAS",
         "data:MSA",
         "data:Phylogeny",
-        "field:Microbiology",
-        "field:Comparative genomics"
+        "field:Comparative genomics",
+        "field:Microbiology"
       ],
       "pub": {
         "doi": "10.1093/bioinformatics/btx610",
@@ -5457,8 +5512,8 @@
       "name": "miropeats",
       "img": "miropeats.png",
       "tags": [
-        "field:Comparative genomics",
         "data:Repeat",
+        "field:Comparative genomics",
         "status:Historical"
       ],
       "language": ["Perl", "C"],
@@ -5493,7 +5548,12 @@
     {
       "name": "syntenyPlotteR",
       "img": "syntenyplotter.png",
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Synteny",
+        "view:Linear",
+        "view:Ideogram",
+        "field:Comparative genomics"
+      ],
       "url": "https://github.com/marta-fb/syntenyPlotteR",
       "language": ["R", "ggplot2"],
       "pub": {
@@ -5508,7 +5568,7 @@
     {
       "name": "chromoMap",
       "img": "chromomap.png",
-      "tags": ["field:Comparative genomics", "view:Ideogram"],
+      "tags": ["view:Ideogram", "field:Comparative genomics"],
       "pub": {
         "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04556-z",
         "doi": "10.1186/s12859-021-04556-z",
@@ -5525,7 +5585,12 @@
     {
       "name": "SafFire",
       "img": "saffire.png",
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Synteny",
+        "data:Whole-genome alignment",
+        "view:Linear",
+        "field:Comparative genomics"
+      ],
       "github": "https://github.com/mrvollger/SafFire",
       "language": ["JS"],
       "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
@@ -5579,7 +5644,12 @@
         "year": 2016,
         "citations": 126
       },
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Synteny",
+        "data:Gene order",
+        "view:Linear",
+        "field:Comparative genomics"
+      ],
       "width": 796,
       "height": 277
     },
@@ -5591,7 +5661,7 @@
         "citations": 119
       },
       "img": "cinteny.png",
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "field:Comparative genomics"],
       "url": "http://cinteny.cchmc.org/",
       "platform": ["Web", "Server"],
       "width": 1200,
@@ -5616,6 +5686,7 @@
       "img": "autograph.png",
       "url": "http://autograph.genouest.org/",
       "tags": [
+        "data:Synteny",
         "field:Comparative genomics",
         "status:Deadlink",
         "status:Historical"
@@ -5632,7 +5703,11 @@
       "name": "EvolutionHighway",
       "img": "evolutionaryhighway.jpg",
       "url": "http://eh-demo.ncsa.illinois.edu/",
-      "tags": ["field:Comparative genomics", "status:Historical"],
+      "tags": [
+        "data:Synteny",
+        "field:Comparative genomics",
+        "status:Historical"
+      ],
       "note": "The 'evolutionary highway' image type is reproduced in some other packages e.g. https://github.com/marta-fb/syntenyPlotteR, paper https://doi.org/10.1126/science.1111387",
       "language": ["Java", "Applet"],
       "width": 715,
@@ -5648,7 +5723,7 @@
         "year": 2020,
         "citations": 17
       },
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "view:Linear", "field:Comparative genomics"],
       "width": 483,
       "height": 203,
       "github_stars": 56
@@ -5663,7 +5738,7 @@
         "year": 2022,
         "citations": 6
       },
-      "tags": ["field:Comparative genomics", "data:SV", "data:Pangenome"],
+      "tags": ["data:SV", "data:Pangenome", "field:Comparative genomics"],
       "note": "see also https://github.com/schneebergerlab/syri",
       "width": 1298,
       "height": 863,
@@ -5782,7 +5857,12 @@
       "language": ["Objective-C"],
       "twitter": "https://twitter.com/GenomeMatcher",
       "url": "http://www.ige.tohoku.ac.jp/joho/gmProject/gmmanual.html",
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Synteny",
+        "view:Dotplot",
+        "data:Whole-genome alignment",
+        "field:Comparative genomics"
+      ],
       "platform": ["Desktop", "Mac"],
       "pub": {
         "doi": "10.1186/1471-2105-9-376",
@@ -5802,7 +5882,7 @@
         "year": 2005,
         "citations": 6
       },
-      "tags": ["field:Comparative genomics", "status:Deadlink"],
+      "tags": ["view:Dotplot", "field:Comparative genomics", "status:Deadlink"],
       "width": 679,
       "height": 803
     },
@@ -5816,7 +5896,12 @@
         "year": 2005,
         "citations": 56
       },
-      "tags": ["field:Comparative genomics", "with:GBrowse"],
+      "tags": [
+        "data:Synteny",
+        "kind:Genome browser",
+        "field:Comparative genomics",
+        "with:GBrowse"
+      ],
       "width": 520,
       "height": 446
     },
@@ -5830,7 +5915,7 @@
         "year": 2007,
         "citations": 53
       },
-      "tags": ["field:Comparative genomics", "with:GBrowse"],
+      "tags": ["data:Synteny", "field:Comparative genomics", "with:GBrowse"],
       "url": "http://sybil.sourceforge.net/",
       "note": "Download https://sourceforge.net/projects/sybil/",
       "width": 687,
@@ -5847,7 +5932,7 @@
         "citations": 56
       },
       "url": "http://bioinfo.konkuk.ac.kr/synteny_portal/",
-      "tags": ["field:Comparative genomics", "view:Circular"],
+      "tags": ["view:Circular", "field:Comparative genomics"],
       "width": 1280,
       "height": 647
     },
@@ -5860,7 +5945,7 @@
         "year": 2019,
         "citations": 52
       },
-      "tags": ["field:Comparative genomics", "view:Dotplot"],
+      "tags": ["view:Dotplot", "field:Comparative genomics"],
       "language": ["C", "R"],
       "width": 1000,
       "height": 1000,
@@ -5875,7 +5960,7 @@
         "year": 2009,
         "citations": 114
       },
-      "tags": ["field:Comparative genomics", "view:Dotplot"],
+      "tags": ["view:Dotplot", "field:Comparative genomics"],
       "language": ["Java"],
       "github_stars": 3,
       "width": 1800,
@@ -5900,7 +5985,7 @@
       "name": "SequenceServer",
       "img": "sequenceserver.png",
       "language": ["Ruby", "JS"],
-      "tags": ["data:BLAST", "field:Comparative genomics", "view:Circular"],
+      "tags": ["data:BLAST", "view:Circular", "field:Comparative genomics"],
       "platform": ["Web"],
       "url": "https://sequenceserver.com/",
       "github": "https://github.com/wurmlab/sequenceserver",
@@ -5994,7 +6079,12 @@
     {
       "name": "GECO",
       "language": ["Java"],
-      "tags": ["field:Microbiology", "field:Comparative genomics"],
+      "tags": [
+        "view:Linear",
+        "data:Gene order",
+        "field:Comparative genomics",
+        "field:Microbiology"
+      ],
       "img": "geco.png",
       "url": "http://bioinfo.mikrobio.med.uni-giessen.de/geco2/GecoMainServlet",
       "platform": ["Web", "Deadlink", "No binary or source available"],
@@ -6029,7 +6119,7 @@
         "year": 2011,
         "citations": 44
       },
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Whole-genome alignment", "field:Comparative genomics"],
       "width": 2016,
       "height": 1027
     },
@@ -6042,6 +6132,7 @@
         "citations": 14
       },
       "tags": [
+        "data:Gene order",
         "field:Comparative genomics",
         "field:Microbiology",
         "platform:Large display",
@@ -6059,6 +6150,7 @@
         "citations": 27
       },
       "tags": [
+        "data:Gene order",
         "field:Comparative genomics",
         "status:Deadlink",
         "status:Unavailable"
@@ -6071,7 +6163,12 @@
     {
       "name": "TreeBrowser (MicrobesOnline)",
       "img": "treegenome.png",
-      "tags": ["field:Comparative genomics", "with:GBrowse"],
+      "tags": [
+        "data:Phylogeny",
+        "data:Gene order",
+        "field:Comparative genomics",
+        "with:GBrowse"
+      ],
       "pub": {
         "doi": "10.1093/nar/gkp919",
         "year": 2009,
@@ -6158,7 +6255,7 @@
       "url": "https://oist.github.io/GenomicBreaks/articles/GenomicBreaks.html",
       "github": "https://github.com/oist/GenomicBreaks/",
       "language": ["R", "ggplot2"],
-      "tags": ["field:Comparative genomics", "view:Dotplot"],
+      "tags": ["view:Dotplot", "field:Comparative genomics"],
       "width": 700,
       "height": 866,
       "github_stars": 6
@@ -6168,8 +6265,8 @@
       "img": "genomesyn.png",
       "url": "https://github.com/jmsong2/GenomeSyn",
       "tags": [
-        "field:Comparative genomics",
         "view:Ideogram",
+        "field:Comparative genomics",
         "status:Deadlink"
       ],
       "language": ["Perl"],
@@ -6241,7 +6338,7 @@
     {
       "name": "CrowsNest",
       "img": "crowsnest.png",
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "field:Comparative genomics"],
       "url": "https://pgsb.helmholtz-muenchen.de/crowsnest/help.html",
       "pub": {
         "doi": "10.1007/978-1-4939-3167-5_8",
@@ -6257,10 +6354,10 @@
         "data:SV",
         "data:Coverage",
         "data:Read alignment",
-        "field:Comparative genomics",
         "task:Annotation",
         "data:Small variant",
         "data:Expression",
+        "field:Comparative genomics",
         "license:Commercial"
       ],
       "name": "ERGO",
@@ -6402,7 +6499,11 @@
       "img": "gecoviz.png",
       "url": "https://gecoviz.cgmlab.org/",
       "platform": ["Web", "Silo"],
-      "tags": ["field:Microbiology", "field:Comparative genomics"],
+      "tags": [
+        "data:Gene order",
+        "field:Comparative genomics",
+        "field:Microbiology"
+      ],
       "pub": {
         "doi": "10.1093/nar/gkac367",
         "year": 2022,
@@ -6419,7 +6520,7 @@
       "width": 544,
       "height": 516,
       "github_stars": 25,
-      "tags": ["field:Comparative genomics", "view:Circular"]
+      "tags": ["view:Circular", "field:Comparative genomics"]
     },
     {
       "name": "multiGenomicContext",
@@ -6429,7 +6530,7 @@
       "width": 1145,
       "height": 577,
       "github_stars": 11,
-      "tags": ["field:Comparative genomics"]
+      "tags": ["data:Gene order", "view:Linear", "field:Comparative genomics"]
     },
     {
       "name": "ggmsa",
@@ -6451,7 +6552,7 @@
     {
       "name": "AccuSyn",
       "language": ["JS"],
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "view:Circular", "field:Comparative genomics"],
       "url": "https://accusyn.usask.ca/",
       "github": "https://github.com/jorgenunezsiri/accusyn",
       "img": "accusyn.png",
@@ -6501,7 +6602,7 @@
     {
       "name": "pyGenomeViz",
       "url": "https://github.com/moshi4/pyGenomeViz",
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "view:Linear", "field:Comparative genomics"],
       "language": ["Python"],
       "img": "pygenomeviz.png",
       "width": 1291,
@@ -6534,7 +6635,7 @@
         "year": 2022,
         "citations": 25
       },
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "view:Dotplot", "field:Comparative genomics"],
       "language": ["R", "Shiny"],
       "width": 480,
       "height": 808
@@ -6542,7 +6643,12 @@
     {
       "name": "JBR",
       "img": "jbr.png",
-      "tags": ["field:Epigenomics"],
+      "tags": [
+        "kind:Genome browser",
+        "data:Signal track",
+        "data:Read alignment",
+        "field:Epigenomics"
+      ],
       "language": ["Java"],
       "note": "Not open source, at least not on github",
       "url": "https://artyomovlab.wustl.edu/jbr/2018_h3k27ac_aging/",
@@ -6561,7 +6667,7 @@
       "img": "clonifier.png",
       "github": "https://github.com/dlesl/clonifier",
       "language": ["Rust", "Typescript", "React"],
-      "tags": ["field:Microbiology", "field:Synthetic biology"],
+      "tags": ["data:Plasmid", "field:Microbiology", "field:Synthetic biology"],
       "note": "per github: 'A web app for viewing plasmid maps & genomes, and simulating PCR and Gibson assembly'",
       "platform": ["Web"],
       "url": "https://dlesl.github.io/clonifier/",
@@ -6583,7 +6689,11 @@
     {
       "name": "NCBI CGV",
       "img": "cgv.png",
-      "tags": ["field:Comparative genomics"],
+      "tags": [
+        "data:Synteny",
+        "data:Whole-genome alignment",
+        "field:Comparative genomics"
+      ],
       "platform": ["Silo"],
       "url": "https://ncbiinsights.ncbi.nlm.nih.gov/2022/07/05/cgv-beta-release/",
       "width": 512,
@@ -6796,7 +6906,7 @@
     {
       "name": "asynt",
       "github": "https://github.com/simonhmartin/asynt",
-      "tags": ["field:Comparative genomics", "view:Dotplot"],
+      "tags": ["view:Dotplot", "field:Comparative genomics"],
       "img": "asynt.png",
       "language": ["R"],
       "width": 884,
@@ -6820,7 +6930,7 @@
     },
     {
       "name": "NGenomeSyn",
-      "tags": ["field:Comparative genomics", "data:Multi-way synteny"],
+      "tags": ["data:Multi-way synteny", "field:Comparative genomics"],
       "img": "ngenomesyn.png",
       "language": ["Perl"],
       "pub": {
@@ -6838,7 +6948,7 @@
       "name": "chromsyn",
       "img": "chromsyn.png",
       "github": "https://github.com/slimsuite/chromsyn",
-      "tags": ["field:Comparative genomics", "data:Multi-way synteny"],
+      "tags": ["data:Multi-way synteny", "field:Comparative genomics"],
       "language": ["R"],
       "doi": {
         "pub": "10.1101/2022.04.22.489119"
@@ -6878,9 +6988,9 @@
       "tags": [
         "view:Circular",
         "data:CNV",
-        "field:Comparative genomics",
         "data:SV",
-        "data:Coverage"
+        "data:Coverage",
+        "field:Comparative genomics"
       ],
       "language": ["R"],
       "url": "http://bioconductor.org/packages/release/bioc/html/OmicCircos.html",
@@ -7017,7 +7127,7 @@
       "github": "https://github.com/ksamuk/syntR",
       "url": "https://www.samuklab.com/syntR/articles/syntr_tutorial.html",
       "language": ["R"],
-      "tags": ["field:Comparative genomics", "view:Dotplot"],
+      "tags": ["view:Dotplot", "field:Comparative genomics"],
       "width": 1152,
       "height": 1152,
       "github_stars": 5
@@ -7025,7 +7135,7 @@
     {
       "name": "GCSnap",
       "img": "gcsnap.png",
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Gene order", "field:Comparative genomics"],
       "github": "https://github.com/JoanaMPereira/GCsnap",
       "pub": {
         "doi": "10.1016/j.jmb.2021.166943",
@@ -7073,10 +7183,10 @@
         "citations": 8
       },
       "tags": [
-        "field:Comparative genomics",
         "view:Dotplot",
         "view:Heatmap",
-        "data:Repeat"
+        "data:Repeat",
+        "field:Comparative genomics"
       ],
       "width": 1926,
       "height": 1296,
@@ -7086,9 +7196,9 @@
       "name": "odp (oxford dot plots)",
       "img": "odp.png",
       "tags": [
-        "field:Comparative genomics",
         "view:Dotplot",
         "data:Multi-way synteny",
+        "field:Comparative genomics",
         "with:Snakemake"
       ],
       "url": "https://github.com/conchoecia/odp",
@@ -7214,7 +7324,7 @@
       "name": "ntSynt",
       "img": "ntsynt.png",
       "language": ["R"],
-      "tags": ["field:Comparative genomics", "data:Multi-way synteny"],
+      "tags": ["data:Multi-way synteny", "field:Comparative genomics"],
       "github": "https://github.com/bcgsc/ntSynt-viz",
       "pub": {
         "doi": "10.1101/2025.01.15.633221",
@@ -7227,7 +7337,12 @@
       "github_stars": 67
     },
     {
-      "tags": ["field:Comparative genomics", "ui:Static"],
+      "tags": [
+        "data:Gene order",
+        "data:Gene structure",
+        "field:Comparative genomics",
+        "ui:Static"
+      ],
       "name": "geneviewer",
       "img": "geneviewer.png",
       "url": "https://nvelden.github.io/geneviewer/",
@@ -7298,11 +7413,11 @@
       },
       "language": ["Perl", "Python"],
       "tags": [
-        "field:Comparative genomics",
         "view:Dotplot",
         "view:Circular",
         "view:Ideogram",
-        "data:Multi-way synteny"
+        "data:Multi-way synteny",
+        "field:Comparative genomics"
       ],
       "width": 1692,
       "height": 2446,
@@ -7353,8 +7468,8 @@
       "url": "https://htmlpreview.github.io/?https://github.com/daewoooo/SVbyEye/blob/master/man/doc/SVbyEye.html",
       "tags": [
         "data:Multi-way synteny",
-        "field:Comparative genomics",
-        "data:SV"
+        "data:SV",
+        "field:Comparative genomics"
       ],
       "pub": {
         "doi": "10.1093/bioinformatics/btaf332",
@@ -7429,8 +7544,8 @@
       "url": "https://github.com/art-egorov/lovis4u",
       "tags": [
         "field:Microbiology",
-        "field:Comparative genomics",
-        "data:Multi-way synteny"
+        "data:Multi-way synteny",
+        "field:Comparative genomics"
       ],
       "language": ["Python"],
       "pub": {
@@ -7486,7 +7601,7 @@
     {
       "name": "ziplign",
       "img": "tna.png",
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:Synteny", "data:BLAST", "field:Comparative genomics"],
       "github": "https://github.com/martinghunt/ziplign",
       "language": ["Godot"],
       "note": "ACT (Artemis Comparison Tool) replacement",
@@ -7530,8 +7645,8 @@
       "img": "mumemto.png",
       "tags": [
         "data:Multi-way synteny",
-        "field:Comparative genomics",
-        "data:Pangenome"
+        "data:Pangenome",
+        "field:Comparative genomics"
       ],
       "github": "https://github.com/vikshiv/mumemto",
       "pub": {
@@ -7579,7 +7694,7 @@
     {
       "name": "Gmaj",
       "language": ["Java"],
-      "tags": ["field:Comparative genomics"],
+      "tags": ["data:MSA", "field:Comparative genomics"],
       "url": "https://www.bx.psu.edu/miller_lab/dist/CHAP/docs/gmaj_geneconv.html",
       "img": "gmaj.png",
       "pub": {
@@ -7638,9 +7753,9 @@
       "github": "https://github.com/satoshikawato/gbdraw",
       "language": ["Python"],
       "tags": [
-        "field:Comparative genomics",
         "view:Circular",
-        "data:Multi-way synteny"
+        "data:Multi-way synteny",
+        "field:Comparative genomics"
       ],
       "width": 2000,
       "height": 2222,
@@ -7716,7 +7831,7 @@
       "name": "paf2dotplot",
       "img": "paf2dotplot.png",
       "note": "Based on dotPlotly",
-      "tags": ["field:Comparative genomics", "view:Dotplot"],
+      "tags": ["view:Dotplot", "field:Comparative genomics"],
       "url": "https://github.com/moold/paf2dotplot",
       "language": ["R"],
       "width": 720,
@@ -7726,7 +7841,7 @@
     {
       "name": "paf2dot",
       "img": "paf2dot.png",
-      "tags": ["field:Comparative genomics", "view:Dotplot"],
+      "tags": ["view:Dotplot", "field:Comparative genomics"],
       "url": "https://github.com/pangenome/paf2dot",
       "language": ["GNUPlot"],
       "width": 1400,
@@ -7737,7 +7852,7 @@
       "name": "TidyLocalSynteny",
       "img": "tidylocalsynteny.png",
       "language": ["R"],
-      "tags": ["field:Comparative genomics", "data:Multi-way synteny"],
+      "tags": ["data:Multi-way synteny", "field:Comparative genomics"],
       "github": "https://github.com/cxli233/TidyLocalSynteny",
       "width": 1200,
       "height": 600,
@@ -7761,7 +7876,12 @@
     {
       "name": "vitessce",
       "note": "Uses higlass, web based with (optional) Python and R integrations, not all visualization are 'genome coordinates'",
-      "tags": ["field:Single cell"],
+      "tags": [
+        "view:Heatmap",
+        "data:Expression",
+        "data:Signal track",
+        "field:Single cell"
+      ],
       "language": ["JS", "Python", "R", "HiGlass integration"],
       "url": "https://vitessce.io/",
       "github": "https://github.com/vitessce/vitessce",
@@ -7943,10 +8063,10 @@
       "language": ["Python", "C", "Shell"],
       "platform": ["CLI"],
       "tags": [
-        "field:Comparative genomics",
         "data:SV",
         "task:Assembly QC",
-        "data:K-mer"
+        "data:K-mer",
+        "field:Comparative genomics"
       ],
       "img": "quaak.png",
       "github": "https://github.com/YingZhou001/Quaak",
