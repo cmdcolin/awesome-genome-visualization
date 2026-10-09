@@ -9,6 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint --report-unused-disable-directives --max-warnings 0",
     "check-duplicates": "node --experimental-strip-types scripts/check_duplicates.ts",
+    "check-tags": "node --experimental-strip-types scripts/check_tags.ts",
     "readme": "node --experimental-strip-types scripts/gen_readme.ts > README.md && prettier --write README.md",
     "format": "prettier --write .",
     "preview": "vite preview"
