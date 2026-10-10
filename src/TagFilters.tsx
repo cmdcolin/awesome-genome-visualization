@@ -1,20 +1,7 @@
 import Button from './Button'
 import { type Tool, useAppStore } from './store'
 import styles from './FilterGroup.module.css'
-
-const facetOrder = [
-  'kind',
-  'task',
-  'data',
-  'view',
-  'field',
-  'ui',
-  'platform',
-  'stack',
-  'with',
-  'license',
-  'status',
-]
+import { facetOrder, splitTag } from './facets'
 
 export default function TagFilters({ tools }: { tools: Tool[] }) {
   const store = useAppStore()
@@ -29,7 +16,7 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
   }
   const byFacet = new Map<string, [string, number][]>()
   for (const entry of [...counts].sort((a, b) => a[0].localeCompare(b[0]))) {
-    const facet = entry[0].split(':')[0]
+    const { facet } = splitTag(entry[0])
     byFacet.set(facet, [...(byFacet.get(facet) ?? []), entry])
   }
 

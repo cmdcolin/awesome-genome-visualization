@@ -6,16 +6,39 @@ import ToolFigure from './ToolFigure'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import styles from './ToolCard.module.css'
+import { contentFacets, metaFacetLabels, splitTag } from './facets'
 
 function ellipses(f = '', n = 40) {
   return f.slice(0, n) + (f.length > n ? '...' : '')
+}
+
+function TagRow({ label, tags }: { label: string; tags: string[] }) {
+  const store = useAppStore()
+  return tags.length ? (
+    <p className={styles.metadata}>
+      {label}:{' '}
+      {tags.map((tag, index) => [
+        index > 0 && ', ',
+        <Link
+          href="#"
+          key={tag}
+          onClick={event => {
+            store.setFilters({ ...store.filters, tag })
+            event.preventDefault()
+          }}
+        >
+          {splitTag(tag).value}
+        </Link>,
+      ])}
+    </p>
+  ) : null
 }
 
 export default function ToolCard({ tool }: { tool: Tool }) {
   const {
     name,
     url,
-    tags,
+    tags = [],
     img,
     width,
     height,
@@ -27,7 +50,6 @@ export default function ToolCard({ tool }: { tool: Tool }) {
     alt_url,
   } = tool
   const store = useAppStore()
-  const { filters } = store
   const [expanded, setExpanded] = useState(false)
   const slug = slugify(name, { lower: true, strict: true })
   return (
@@ -75,24 +97,17 @@ export default function ToolCard({ tool }: { tool: Tool }) {
               : ` (# citations ${pub.citations})`}
           </p>
         ) : null}
-        {tags ? (
-          <p className={styles.metadata}>
-            Tags:{' '}
-            {tags.map((tag, index) => [
-              index > 0 && ', ',
-              <Link
-                href="#"
-                key={`${tag}-${index}`}
-                onClick={event => {
-                  store.setFilters({ ...filters, tag })
-                  event.preventDefault()
-                }}
-              >
-                {tag}
-              </Link>,
-            ])}
-          </p>
-        ) : null}
+        <TagRow
+          label="Tags"
+          tags={tags.filter(t => contentFacets.includes(splitTag(t).facet))}
+        />
+        {Object.entries(metaFacetLabels).map(([facet, label]) => (
+          <TagRow
+            key={facet}
+            label={label}
+            tags={tags.filter(t => splitTag(t).facet === facet)}
+          />
+        ))}
         {note ? (
           <div>
             <Markdown
