@@ -2125,7 +2125,8 @@
       },
       "width": 1594,
       "height": 422,
-      "github_stars": 229
+      "github_stars": 229,
+      "note": "See also https://github.com/cmdcolin/sequenceTubeMap, a fork with modernizations"
     },
     {
       "tags": ["data:MSA", "ui:Terminal", "platform:CLI", "stack:Bash"],
@@ -8689,6 +8690,56 @@
       "width": 4800,
       "height": 3240,
       "github_stars": 9
+    },
+    {
+      "name": "BandageJS",
+      "tags": [
+        "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
+        "platform:Web",
+        "stack:Typescript"
+      ],
+      "img": "bandagejs.png",
+      "url": "https://github.com/GMOD/BandageJS",
+      "note": "Bandage-style GFA viewer in the browser. Highlights walks and reads one region at a time from a whole-genome pangenome. Demo https://jbrowse.org/demos/bandagejs/",
+      "width": 1400,
+      "height": 800,
+      "github_stars": 2
+    },
+    {
+      "name": "ggbandage",
+      "tags": [
+        "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
+        "ui:Static",
+        "stack:R",
+        "stack:ggplot2"
+      ],
+      "img": "ggbandage.png",
+      "url": "https://github.com/GMOD/ggbandage",
+      "note": "Draws genome graphs as ggplot2 layers, laid out as Bandage lays them out",
+      "width": 1500,
+      "height": 600,
+      "github_stars": 8
+    },
+    {
+      "name": "ggtubemap",
+      "tags": [
+        "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
+        "ui:Static",
+        "stack:R",
+        "stack:ggplot2"
+      ],
+      "img": "ggtubemap.png",
+      "url": "https://github.com/GMOD/ggtubemap",
+      "note": "Draws sequenceTubeMap-style tube maps as ggplot2 layers",
+      "width": 1350,
+      "height": 383,
+      "github_stars": 0
     }
   ]
 }

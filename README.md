@@ -572,6 +572,10 @@ feasible.
 - [Bandage](https://github.com/rrwick/Bandage/) (See also BandageNG
   https://github.com/asl/BandageNG)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bandage.png)
+- [BandageJS](https://github.com/GMOD/BandageJS) (Bandage-style GFA viewer in
+  the browser. Highlights walks and reads one region at a time from a
+  whole-genome pangenome. Demo https://jbrowse.org/demos/bandagejs/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bandagejs.png)
 - [ctag](https://github.com/AbeelLab/ctag) (See also hygene
   https://github.com/ProgrammingLife2017/hygene)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ctag.png)
@@ -582,6 +586,12 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfalook.png)
 - [GfaViz](https://github.com/ggonnella/gfaviz)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfaviz.png)
+- [ggbandage](https://github.com/GMOD/ggbandage) (Draws genome graphs as ggplot2
+  layers, laid out as Bandage lays them out)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggbandage.png)
+- [ggtubemap](https://github.com/GMOD/ggtubemap) (Draws sequenceTubeMap-style
+  tube maps as ggplot2 layers)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggtubemap.png)
 - [graphgenomeviewer](https://cmdcolin.github.io/graphgenomeviewer/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/graphgenomeviewer.png)
 - [IGGE](https://github.com/immersivegraphgenomeexplorer/IGGE) (Not open source)
@@ -600,7 +610,8 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgrtk.png)
 - [pgv (graph tool)](https://w-gao.github.io/pgv/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgv2.png)
-- [sequence tube map](https://github.com/vgteam/sequenceTubeMap)
+- [sequence tube map](https://github.com/vgteam/sequenceTubeMap) (See also
+  https://github.com/cmdcolin/sequenceTubeMap, a fork with modernizations)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sequence_tube_map.png)
 - [SGTK (scaffold graph toolkit)](https://olga24912.github.io/SGTK/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sgtk.png)
