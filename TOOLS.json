@@ -550,7 +550,8 @@
       },
       "width": 1000,
       "height": 1121,
-      "github_stars": 127
+      "github_stars": 127,
+      "note": "See also Bamsnap-LRS, a rewrite with long-read support"
     },
     {
       "tags": ["field:Epigenomics", "ui:Static"],
@@ -5530,7 +5531,8 @@
       },
       "width": 840,
       "height": 510,
-      "github_stars": 371
+      "github_stars": 371,
+      "note": "See also Plotgardener App, a graphical interface https://github.com/rishabhsvemuri/ThePlotgardenerApp"
     },
     {
       "name": "MIRA",
@@ -7896,11 +7898,10 @@
         "field:Comparative genomics",
         "stack:R"
       ],
-      "github": "https://github.com/bcgsc/ntSynt-viz",
+      "github": "https://github.com/BirolLab/ntSynt-viz",
       "pub": {
-        "doi": "10.1101/2025.01.15.633221",
-        "year": 2025,
-        "citations": 23
+        "doi": "10.1093/jeb/voag079",
+        "year": 2026
       },
       "note": "Uses gggenomes",
       "width": 5905,
@@ -8754,6 +8755,291 @@
       "note": "Bandage-style de novo assembly graph viewer in the browser, rendered with WebGL. Demo https://mdondrup.github.io/SloppyyGFA/",
       "width": 1400,
       "height": 850,
+      "github_stars": 1
+    },
+    {
+      "name": "PG2 (PanGenoGrapher)",
+      "tags": [
+        "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
+        "platform:Web",
+        "stack:Typescript"
+      ],
+      "img": "pg2.png",
+      "url": "https://github.com/iVis-at-Bilkent/pangenographer",
+      "note": "Web tool for layout and visual analysis of pangenome graphs, with BLAST search over segments. Demo http://pg2.cs.bilkent.edu.tr",
+      "pub": {
+        "doi": "10.1186/s12859-026-06555-4",
+        "year": 2026
+      },
+      "width": 1600,
+      "height": 1278,
+      "github_stars": 9
+    },
+    {
+      "name": "SaVanache",
+      "tags": [
+        "data:Pangenome",
+        "data:Genome graph",
+        "field:Comparative genomics",
+        "platform:Web"
+      ],
+      "url": "https://forge.ird.fr/diade/savanache",
+      "note": "Indexes and views pangenome variation graphs; from the same group as Panache. Demo https://savanache.ird.fr",
+      "pub": {
+        "doi": "10.64898/2026.05.05.722901",
+        "year": 2026
+      }
+    },
+    {
+      "name": "SynFlow",
+      "tags": [
+        "data:SV",
+        "data:Synteny",
+        "field:Comparative genomics",
+        "with:JBrowse",
+        "platform:Web",
+        "stack:JS"
+      ],
+      "img": "synflow.png",
+      "url": "https://github.com/SouthGreenPlatform/SynFlow",
+      "note": "Interactive viewer for structural variation between chains of genomes. Demo https://synflow.southgreen.fr",
+      "pub": {
+        "doi": "10.1093/bioinformatics/btag567",
+        "year": 2026
+      },
+      "width": 1291,
+      "height": 179,
+      "github_stars": 9
+    },
+    {
+      "name": "theBIGbam",
+      "tags": [
+        "data:Read alignment",
+        "field:Microbiology",
+        "platform:Web",
+        "stack:Python",
+        "stack:Rust"
+      ],
+      "img": "thebigbam.png",
+      "url": "https://github.com/bhagavadgitadu22/theBIGbam",
+      "note": "Genome browser and alignment viewer for large metagenomic and metatranscriptomic datasets, with circular mapping support",
+      "pub": {
+        "doi": "10.1093/bioinformatics/btag459",
+        "year": 2026
+      },
+      "width": 1600,
+      "height": 772,
+      "github_stars": 5
+    },
+    {
+      "name": "VicMAG",
+      "tags": [
+        "view:Circular",
+        "field:Microbiology",
+        "ui:Static",
+        "stack:Python"
+      ],
+      "img": "vicmag.png",
+      "url": "https://github.com/TsudaYusuke/VicMAG",
+      "note": "Plots many circular metagenome-assembled genomes at once, highlighting virulence and antimicrobial resistance genes",
+      "pub": {
+        "doi": "10.1093/nargab/lqag109",
+        "year": 2026
+      },
+      "width": 1554,
+      "height": 1600,
+      "github_stars": 3
+    },
+    {
+      "name": "SQANTI-browser",
+      "tags": ["field:Transcriptomics", "data:Long read", "with:UCSC"],
+      "url": "https://github.com/ConesaLab/SQANTI-browser",
+      "note": "Loads SQANTI3-classified long-read transcriptomes into the UCSC Genome Browser for filtering and curation",
+      "pub": {
+        "doi": "10.64898/2026.05.25.727625",
+        "year": 2026
+      },
+      "github_stars": 10
+    },
+    {
+      "name": "Bamsnap-LRS",
+      "tags": [
+        "data:Read alignment",
+        "data:Long read",
+        "data:SV",
+        "ui:Static",
+        "platform:CLI",
+        "stack:Python"
+      ],
+      "img": "bamsnap_lrs.png",
+      "url": "https://github.com/comery/Bamsnap-LRS",
+      "note": "Batch snapshots of long-read alignments, rewritten from BAMSnap",
+      "pub": {
+        "doi": "10.64898/2026.06.21.733121",
+        "year": 2026
+      },
+      "width": 1600,
+      "height": 407,
+      "github_stars": 14
+    },
+    {
+      "name": "XVCF",
+      "tags": ["data:Small variant", "field:Cancer", "stack:R", "stack:Shiny"],
+      "img": "xvcf.png",
+      "url": "https://github.com/rashidma/XVCF",
+      "note": "Shiny app for visualization and quality control of VCF and annotated somatic variant data",
+      "pub": {
+        "doi": "10.1016/j.slast.2026.100447",
+        "year": 2026
+      },
+      "width": 494,
+      "height": 723,
+      "github_stars": 1
+    },
+    {
+      "name": "A-liner",
+      "tags": [
+        "data:Whole-genome alignment",
+        "view:Linear",
+        "field:Comparative genomics",
+        "ui:Static",
+        "stack:Python"
+      ],
+      "img": "a_liner.png",
+      "url": "https://github.com/mokuno3430/a-liner",
+      "note": "Linear alignment plots for genome comparisons, with gene, exon, scatter and highlight tracks",
+      "pub": {
+        "doi": "10.1093/bioinformatics/btag408",
+        "year": 2026
+      },
+      "width": 1200,
+      "height": 461,
+      "github_stars": 28
+    },
+    {
+      "name": "VIJB",
+      "tags": ["task:Accessibility", "with:JBrowse", "stack:Python"],
+      "url": "https://github.com/NiBuMNHN/VIJB",
+      "note": "Companion to JBrowse that makes genome browsing usable for visually impaired people",
+      "pub": {
+        "doi": "10.1093/bioinformatics/btag396",
+        "year": 2026
+      },
+      "github_stars": 0
+    },
+    {
+      "name": "CHITRA",
+      "tags": [
+        "data:Synteny",
+        "data:SV",
+        "field:Comparative genomics",
+        "platform:Web",
+        "stack:Typescript",
+        "stack:D3"
+      ],
+      "img": "chitra.png",
+      "url": "https://github.com/BioinformaticsOnLine/CHITRA",
+      "note": "Interactive synteny block and breakpoint viewer for chromosomal rearrangements, with linear and chord views. Demo https://chitra.bioinformaticsonline.com",
+      "pub": {
+        "doi": "10.1093/bioadv/vbag200",
+        "year": 2026
+      },
+      "width": 1600,
+      "height": 1220,
+      "github_stars": 12
+    },
+    {
+      "name": "SyntenyPair Explorer",
+      "tags": [
+        "data:Synteny",
+        "field:Comparative genomics",
+        "platform:Web",
+        "stack:JS"
+      ],
+      "img": "syntenypair_explorer.png",
+      "url": "https://github.com/GibbonsLabGenomics/SyntenyPair-Explorer",
+      "note": "Installation-free pairwise synteny viewer that reads BLAST or MCScan output and GFF3. Demo https://gibbonslabgenomics.github.io/SyntenyPair-Explorer/",
+      "pub": {
+        "doi": "10.64898/2026.07.23.740353",
+        "year": 2026
+      },
+      "width": 1400,
+      "height": 900,
+      "github_stars": 1
+    },
+    {
+      "name": "Hobrac",
+      "tags": [
+        "view:Dotplot",
+        "field:Comparative genomics",
+        "platform:CLI",
+        "stack:Python"
+      ],
+      "img": "hobrac.png",
+      "url": "https://github.com/Genoscope-LBGB/hobrac",
+      "note": "Finds a reference genome by homology and draws dotplots against it, including BUSCO-gene dotplots",
+      "pub": {
+        "doi": "10.64898/2026.07.17.739168",
+        "year": 2026
+      },
+      "width": 1600,
+      "height": 1600,
+      "github_stars": 19
+    },
+    {
+      "name": "ProleTRact",
+      "tags": ["data:Repeat", "platform:Web", "stack:Typescript"],
+      "img": "proletract.png",
+      "url": "https://github.com/Lionward/ProleTRact",
+      "note": "Tandem repeat viewer that shows motif composition of alleles; companion to the TandemTwister genotyper. Demo https://lionward.github.io/ProleTRact/",
+      "pub": {
+        "doi": "10.1093/nargab/lqag096",
+        "year": 2026
+      },
+      "width": 1600,
+      "height": 1485,
+      "github_stars": 6
+    },
+    {
+      "name": "bacircos",
+      "tags": [
+        "view:Circular",
+        "data:Synteny",
+        "field:Microbiology",
+        "field:Comparative genomics",
+        "platform:CLI",
+        "stack:Rust"
+      ],
+      "img": "bacircos.png",
+      "url": "https://github.com/sablokg/bacircos",
+      "note": "Circular plots of bacterial genomes, MAGs and multi-genome synteny",
+      "pub": {
+        "doi": "10.20944/preprints202609.2579.v1",
+        "year": 2026
+      },
+      "width": 900,
+      "height": 900,
+      "github_stars": 0
+    },
+    {
+      "name": "LocusBlend",
+      "tags": [
+        "data:GWAS",
+        "data:Linkage disequilibrium",
+        "platform:Web",
+        "stack:Python"
+      ],
+      "img": "locusblend.png",
+      "url": "https://github.com/Belloy-Lab/LocusBlend",
+      "note": "Regional GWAS plots that color variants by LD with several index variants at once, plus locus compare plots. Demo https://locusblend.wustl.edu",
+      "pub": {
+        "doi": "10.64898/2026.07.15.26358129",
+        "year": 2026
+      },
+      "width": 970,
+      "height": 945,
       "github_stars": 1
     }
   ]

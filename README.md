@@ -153,6 +153,11 @@ feasible.
 - [Zenbu](http://fantom.gsc.riken.jp/zenbu/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/zenbu.png)
 
+## Accessibility
+
+- [VIJB](https://github.com/NiBuMNHN/VIJB) (Companion to JBrowse that makes
+  genome browsing usable for visually impaired people)
+
 ## Annotation
 
 - [ERGO](https://www.igenbio.com/ergo)
@@ -197,6 +202,9 @@ feasible.
 ## Circular
 
 - [Anvio](https://peerj.com/articles/1319/)
+- [bacircos](https://github.com/sablokg/bacircos) (Circular plots of bacterial
+  genomes, MAGs and multi-genome synteny)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bacircos.png)
 - [BioCircos.js](http://bioinfo.ibp.ac.cn/biocircos/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/biocircos.png)
 - [BRICK (BRIG-like circular knowledgebase)](https://brick.ink/) (See also BRIG)
@@ -251,6 +259,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqviz.png)
 - [SyntenyPortal](http://bioinfo.konkuk.ac.kr/synteny_portal/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syntenyportal.png)
+- [VicMAG](https://github.com/TsudaYusuke/VicMAG) (Plots many circular
+  metagenome-assembled genomes at once, highlighting virulence and antimicrobial
+  resistance genes)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vicmag.png)
 
 ## CNV
 
@@ -397,6 +409,9 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gepard.jpeg)
 - [ggplot2 mummerplot](https://jmonlong.github.io/Hippocamplus/2017/09/19/mummerplots-with-ggplot2/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mummerplot_ggplot2.png)
+- [Hobrac](https://github.com/Genoscope-LBGB/hobrac) (Finds a reference genome
+  by homology and draws dotplots against it, including BUSCO-gene dotplots)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hobrac.png)
 - [iLambda Dotplot](https://github.com/iLambda/dotplot)
 - [Jdot](https://github.com/LyonsLab/jdot)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/jdot.png)
@@ -607,6 +622,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pangraphviewer.jpg)
 - [PangyPlot](https://github.com/ScottMastro/pangyplot)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pangyplot.png)
+- [PG2 (PanGenoGrapher)](https://github.com/iVis-at-Bilkent/pangenographer) (Web
+  tool for layout and visual analysis of pangenome graphs, with BLAST search
+  over segments. Demo http://pg2.cs.bilkent.edu.tr)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pg2.png)
 - [PGR-TK](https://github.com/cschin/pgr-tk)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pgrtk.png)
 - [pgv (graph tool)](https://w-gao.github.io/pgv/)
@@ -644,6 +663,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggplot2_manhattan.png)
 - [LDBlockShow](https://github.com/BGI-shenzhen/LDBlockShow)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ldblockshow.png)
+- [LocusBlend](https://github.com/Belloy-Lab/LocusBlend) (Regional GWAS plots
+  that color variants by LD with several index variants at once, plus locus
+  compare plots. Demo https://locusblend.wustl.edu)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locusblend.png)
 - [Locuszoom](http://locuszoom.org/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locuszoom.png)
 - [Locuszoom.js](http://locuszoom.org/locuszoomjs.php)
@@ -674,7 +697,9 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gcmapexplorer.png)
 - [HiCPlotter](https://github.com/kcakdemir/HiCPlotter)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/hicplotter.jpg)
-- [Plotgardener](https://github.com/PhanstielLab/plotgardener/)
+- [Plotgardener](https://github.com/PhanstielLab/plotgardener/) (See also
+  Plotgardener App, a graphical interface
+  https://github.com/rishabhsvemuri/ThePlotgardenerApp)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plotgardener.png)
 - [PretextView](https://github.com/wtsi-hpag/PretextView)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pretextview.jpg)
@@ -964,7 +989,7 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mumemto.png)
 - [NGenomeSyn](https://github.com/hewm2008/NGenomeSyn) (See also RectChr)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ngenomesyn.png)
-- [ntSynt](https://github.com/bcgsc/ntSynt-viz) (Uses gggenomes)
+- [ntSynt](https://github.com/BirolLab/ntSynt-viz) (Uses gggenomes)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ntsynt.png)
 - [pauvre](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6991124/figure/fig-3/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pauvre.png)
@@ -1019,6 +1044,9 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phandango.png)
 - [RPAN (3kricedb)](http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rpan.png)
+- [SaVanache](https://forge.ird.fr/diade/savanache) (Indexes and views pangenome
+  variation graphs; from the same group as Panache. Demo
+  https://savanache.ird.fr)
 - [TASUKE](https://tasuke-wiki.dna.naro.go.jp/) (Visualization of multiple
   genomes resequencing data from species having larger genome. Requires a LAMP
   server )
@@ -1112,8 +1140,12 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/asciigenome.png)
 - [bamscope](https://github.com/jslfree080/bamscope)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamscope.png)
-- [BAMSnap](https://github.com/parklab/bamsnap)
+- [BAMSnap](https://github.com/parklab/bamsnap) (See also Bamsnap-LRS, a rewrite
+  with long-read support)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamsnap.png)
+- [Bamsnap-LRS](https://github.com/comery/Bamsnap-LRS) (Batch snapshots of
+  long-read alignments, rewritten from BAMSnap)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamsnap_lrs.png)
 - [Chromatic](https://chromatic.nci.nih.gov/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chromatic.png)
 - [DrukBam](https://github.com/StephanHolgerD/DrukBam)
@@ -1163,6 +1195,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/staden.png)
 - [tgv (terminal genome viewer)](https://github.com/zeqianli/tgv/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tgv.png)
+- [theBIGbam](https://github.com/bhagavadgitadu22/theBIGbam) (Genome browser and
+  alignment viewer for large metagenomic and metatranscriptomic datasets, with
+  circular mapping support)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/thebigbam.png)
 - [udon](https://github.com/ocxtal/udon) (Uses an advanced data structure for
   pileup, so visually a basic example but likely just a small demo)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/udon.png)
@@ -1183,6 +1219,10 @@ feasible.
 - [PipMaker](http://pipmaker.bx.psu.edu/pipmaker/) (See also MultiPipMaker
   http://pipmaker.bx.psu.edu/pipmaker/mpm-example/index.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pipmaker.png)
+- [ProleTRact](https://github.com/Lionward/ProleTRact) (Tandem repeat viewer
+  that shows motif composition of alleles; companion to the TandemTwister
+  genotyper. Demo https://lionward.github.io/ProleTRact/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/proletract.png)
 - [REPAVER](https://gitlab.com/gringer/bioinfscripts/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/repaver.jpg)
 - [REViewer](https://github.com/Illumina/REViewer) (See also
@@ -1247,6 +1287,9 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snpit.png)
 - [vcfPlotein](https://vcfplotein.liigh.unam.mx/#/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcfplotein.png)
+- [XVCF](https://github.com/rashidma/XVCF) (Shiny app for visualization and
+  quality control of VCF and annotated somatic variant data)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/xvcf.png)
 
 ## Splicing
 
@@ -1332,6 +1375,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svviz.png)
 - [svviz2](https://github.com/nspies/svviz2)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/svviz2.png)
+- [SynFlow](https://github.com/SouthGreenPlatform/SynFlow) (Interactive viewer
+  for structural variation between chains of genomes. Demo
+  https://synflow.southgreen.fr)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/synflow.png)
 - [vcf2circos](https://github.com/bioinfo-chru-strasbourg/vcf2circos) (Based on
   PCircos https://github.com/CJinny/PCircos)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcf2circos.png)
@@ -1346,6 +1393,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/artemis_act.png)
 - [AutoGraph](http://autograph.genouest.org/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/autograph.png)
+- [CHITRA](https://github.com/BioinformaticsOnLine/CHITRA) (Interactive synteny
+  block and breakpoint viewer for chromosomal rearrangements, with linear and
+  chord views. Demo https://chitra.bioinformaticsonline.com)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chitra.png)
 - [Cinteny](http://cinteny.cchmc.org/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cinteny.png)
 - [CrowsNest](https://pgsb.helmholtz-muenchen.de/crowsnest/help.html)
@@ -1388,6 +1439,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/synbrowse.png)
 - [Synima](https://github.com/rhysf/Synima)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/synima.png)
+- [SyntenyPair Explorer](https://github.com/GibbonsLabGenomics/SyntenyPair-Explorer)
+  (Installation-free pairwise synteny viewer that reads BLAST or MCScan output
+  and GFF3. Demo https://gibbonslabgenomics.github.io/SyntenyPair-Explorer/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syntenypair_explorer.png)
 - [syntenyPlotteR](https://github.com/marta-fb/syntenyPlotteR)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syntenyplotter.png)
 - [XMatchView](https://www.bcgsc.ca/resources/software/xmatchview)
@@ -1413,6 +1468,12 @@ feasible.
 - [VectorBee](https://www.vectorbee.com/en/) (Not open source, but is free)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vectorbee.png)
 
+## Transcriptomics
+
+- [SQANTI-browser](https://github.com/ConesaLab/SQANTI-browser) (Loads
+  SQANTI3-classified long-read transcriptomes into the UCSC Genome Browser for
+  filtering and curation)
+
 ## Transposon
 
 - [TE-nest](https://github.com/cmdcolin/TEnest) (This was an online tool that
@@ -1435,6 +1496,9 @@ feasible.
 
 ## Whole-genome alignment
 
+- [A-liner](https://github.com/mokuno3430/a-liner) (Linear alignment plots for
+  genome comparisons, with gene, exon, scatter and highlight tracks)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/a_liner.png)
 - [AliTV](https://alitvteam.github.io/AliTV/d3/AliTV.html)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alitv.png)
 - [Comparative assembly hub snake track](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/)
