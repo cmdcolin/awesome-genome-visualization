@@ -1044,9 +1044,9 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phandango.png)
 - [RPAN (3kricedb)](http://cgm.sjtu.edu.cn/3kricedb/visualization/?tracks=DNA%2Cgene%2CPF)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rpan.png)
-- [SaVanache](https://forge.ird.fr/diade/savanache) (Indexes and views pangenome
-  variation graphs; from the same group as Panache. Demo
-  https://savanache.ird.fr)
+- [SaVanache](https://savanache.ird.fr) (Indexes and views pangenome variation
+  graphs; from the same group as Panache. Source
+  https://forge.ird.fr/diade/savanache)
 - [TASUKE](https://tasuke-wiki.dna.naro.go.jp/) (Visualization of multiple
   genomes resequencing data from species having larger genome. Requires a LAMP
   server )

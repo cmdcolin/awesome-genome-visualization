@@ -8783,10 +8783,11 @@
         "data:Pangenome",
         "data:Genome graph",
         "field:Comparative genomics",
-        "platform:Web"
+        "platform:Web",
+        "status:Deadlink"
       ],
-      "url": "https://forge.ird.fr/diade/savanache",
-      "note": "Indexes and views pangenome variation graphs; from the same group as Panache. Demo https://savanache.ird.fr",
+      "url": "https://savanache.ird.fr",
+      "note": "Indexes and views pangenome variation graphs; from the same group as Panache. Source https://forge.ird.fr/diade/savanache",
       "pub": {
         "doi": "10.64898/2026.05.05.722901",
         "year": 2026
