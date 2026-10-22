@@ -590,7 +590,8 @@ feasible.
   layers, laid out as Bandage lays them out)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggbandage.png)
 - [ggtubemap](https://github.com/GMOD/ggtubemap) (Draws sequenceTubeMap-style
-  tube maps as ggplot2 layers)
+  tube maps as ggplot2 layers. See also sequenceTubeMap
+  https://github.com/vgteam/sequenceTubeMap)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggtubemap.png)
 - [graphgenomeviewer](https://cmdcolin.github.io/graphgenomeviewer/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/graphgenomeviewer.png)
@@ -618,6 +619,10 @@ feasible.
 - [Shasta](https://chanzuckerberg.github.io/shasta/ComputationalMethods.html#ReadGraph)
   (Uses graphviz)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shasta.png)
+- [SloppyyGFA](https://github.com/mdondrup/SloppyyGFA) (Bandage-style de novo
+  assembly graph viewer in the browser, rendered with WebGL. Demo
+  https://mdondrup.github.io/SloppyyGFA/)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sloppyygfa.png)
 - [strangepg](https://github.com/qwx9/strangepg)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/strangepg.png)
 - [VAG](https://github.com/lipingfangs/VAG)

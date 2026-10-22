@@ -8736,10 +8736,25 @@
       ],
       "img": "ggtubemap.png",
       "url": "https://github.com/GMOD/ggtubemap",
-      "note": "Draws sequenceTubeMap-style tube maps as ggplot2 layers",
+      "note": "Draws sequenceTubeMap-style tube maps as ggplot2 layers. See also sequenceTubeMap https://github.com/vgteam/sequenceTubeMap",
       "width": 1350,
       "height": 383,
       "github_stars": 0
+    },
+    {
+      "name": "SloppyyGFA",
+      "tags": [
+        "data:Genome graph",
+        "platform:Web",
+        "stack:Typescript",
+        "stack:WebGL"
+      ],
+      "img": "sloppyygfa.png",
+      "url": "https://github.com/mdondrup/SloppyyGFA",
+      "note": "Bandage-style de novo assembly graph viewer in the browser, rendered with WebGL. Demo https://mdondrup.github.io/SloppyyGFA/",
+      "width": 1400,
+      "height": 850,
+      "github_stars": 1
     }
   ]
 }
