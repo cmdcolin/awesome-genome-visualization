@@ -49,12 +49,14 @@ literally.
 
 ## Deploying
 
-    cd awesome-genome-visualization
-    yarn deploy
+Push to `main`. The Deploy workflow builds the site and publishes it to GitHub
+Pages.
 
 ## Updating README.md
 
-    node index.js > README.md
+    pnpm readme
+
+The Update README workflow also regenerates it on push.
 
 ## Automatically update TOOLS.json
 
