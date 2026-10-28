@@ -1,5 +1,4 @@
 import { create } from 'zustand'
-import queryString from 'query-string'
 import tagRemap from './tagRemap.json'
 
 interface Pub {
@@ -53,7 +52,7 @@ const {
   citations,
   year,
   stars,
-} = queryString.parse(window.location.search)
+} = Object.fromEntries(new URLSearchParams(window.location.search))
 
 export function getBool(key: string, def = false): boolean {
   try {

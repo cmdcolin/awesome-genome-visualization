@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import queryString from 'query-string'
 import { tools as importedTools } from './TOOLS.json'
 import { type Tool, useAppStore } from './store'
 import styles from './App.module.css'
@@ -16,13 +15,18 @@ export default function App() {
   const { tag } = filters
 
   useEffect(() => {
-    const parameters = queryString.stringify({
+    const parameters = new URLSearchParams()
+    for (const [key, value] of Object.entries({
       ...filters,
       ...sort,
       selected,
-    })
-    if (parameters) {
-      window.history.replaceState(null, '', `?${parameters}`)
+    })) {
+      if (value !== undefined) {
+        parameters.set(key, String(value))
+      }
+    }
+    if (parameters.size) {
+      window.history.replaceState(null, '', `?${parameters.toString()}`)
     }
   }, [filters, sort, selected])
 
