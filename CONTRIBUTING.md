@@ -41,6 +41,12 @@ Every tag is `facet:Value`. The facet list is closed; values are free-form.
 - `src/tagRemap.json` maps the pre-prefix tag names to the current ones, so old
   `?tag=` links keep working.
 
+## Notes
+
+A tool's `note` is plain text. Bare URLs become links and `code` in backticks
+renders as code. Other markdown, such as `**bold**` or `[text](url)`, shows
+literally.
+
 ## Deploying
 
     cd awesome-genome-visualization
