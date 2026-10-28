@@ -17,9 +17,6 @@
   "dependencies": {
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1",
-    "slugify": "^1.6.9",
     "zustand": "^5.0.16"
   },
   "devDependencies": {

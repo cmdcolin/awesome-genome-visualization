@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import slugify from 'slugify'
 import { type Tool, useAppStore } from './store'
 import Link from './Link'
 import ToolFigure from './ToolFigure'
-import Markdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import Note from './Note'
+import { slug as toSlug } from './slug'
 import styles from './ToolCard.module.css'
 import { contentFacets, metaFacetLabels, splitTag } from './facets'
 
@@ -51,7 +50,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
   } = tool
   const store = useAppStore()
   const [expanded, setExpanded] = useState(false)
-  const slug = slugify(name, { lower: true, strict: true })
+  const slug = toSlug(name)
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -110,18 +109,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
         ))}
         {note ? (
           <div>
-            <Markdown
-              remarkPlugins={[remarkGfm]}
-              components={{
-                a: ({ href, children, ...props }) => (
-                  <a href={href} className="link" {...props}>
-                    {children}
-                  </a>
-                ),
-              }}
-            >
-              {'Note: ' + note}
-            </Markdown>
+            <Note>{'Note: ' + note}</Note>
           </div>
         ) : null}
         {twitter ? (
