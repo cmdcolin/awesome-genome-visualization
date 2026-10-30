@@ -13,4 +13,5 @@ diff clean.
 Every axis is a `facet:Value` tag (see `CONTRIBUTING.md`): content (`kind`,
 `task`, `data`, `view`, `field`) plus `ui`, `license`, `status`, `with`,
 `platform` and `stack`. Prefer adding a free-form tag value over inventing an
-enumerated or numeric scale. `pnpm check-tags` enforces the rules.
+enumerated or numeric scale. `pnpm check-tags` enforces the rules, and
+`pnpm check-tools` rejects unknown keys and missing images.
