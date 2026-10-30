@@ -22,117 +22,101 @@ export interface Tool {
   note?: string
   alt_url?: string
 }
-interface SortState {
-  citations?: number
-  year?: number
-  stars?: number
-  latest?: boolean
+
+export type SortBy = 'added' | 'year' | 'citations' | 'stars'
+
+export interface Sort {
+  by: SortBy
+  dir: 1 | -1
 }
-interface FilterState {
-  tag?: string
-}
+
+type Mode = 'list' | 'grid'
+
 interface AppState {
-  mode: string
-  filters: FilterState
-  sort: SortState
-  selected?: string
-  setMode: (arg: string) => void
-  setSort: (arg: SortState) => void
-  setFilters: (arg: FilterState) => void
-  setSelected: (arg?: string) => void
+  mode: Mode
+  tag?: string
+  sort: Sort
+  setMode: (mode: Mode) => void
+  setSort: (sort: Sort) => void
+  setTag: (tag?: string) => void
 }
 
-const {
-  selected,
-  language,
-  tag,
-  platform,
-  mode,
-  latest,
-  citations,
-  year,
-  stars,
-} = Object.fromEntries(new URLSearchParams(window.location.search))
+const defaultSort: Sort = { by: 'added', dir: -1 }
 
-export function getBool(key: string, def = false): boolean {
-  try {
-    return JSON.parse(
-      localStorage.getItem(key) ?? JSON.stringify(def),
-    ) as boolean
-  } catch (error) {
-    console.error(error)
-    return def
+const params = new URLSearchParams(window.location.search)
+
+function parseSort(): Sort {
+  for (const by of ['year', 'citations', 'stars'] as const) {
+    const dir = params.get(by)
+    if (dir === '1' || dir === '-1') {
+      return { by, dir: +dir as 1 | -1 }
+    }
   }
+  return params.get('latest') === 'false'
+    ? { by: 'added', dir: 1 }
+    : defaultSort
 }
 
-export function setBool(key: string, val: boolean) {
-  localStorage.setItem(key, JSON.stringify(val))
-}
-
-export function getStringArray(key: string, def = [] as string[]): string[] {
-  try {
-    return JSON.parse(
-      localStorage.getItem(key) ?? JSON.stringify(def),
-    ) as string[]
-  } catch (error) {
-    console.error(error)
-    return def
-  }
-}
-
-function coerceNumber(argument: unknown) {
-  return argument ? Number(argument) : undefined
-}
-function coerceString(argument: unknown) {
-  return argument ? String(argument) : undefined
-}
-function remapLegacyTag(tag?: string) {
+function parseTag() {
   const replacements: Partial<Record<string, string[]>> = tagRemap
-  return replacements[tag ?? '']?.[0] ?? tag
-}
-function legacyFilterTag(tag?: string, language?: string, platform?: string) {
+  const tag = params.get('tag')
+  const language = params.get('language')
+  const platform = params.get('platform')
   if (tag) {
-    return tag
+    return replacements[tag]?.[0] ?? tag
   }
   if (language) {
     return `stack:${language}`
   }
   return platform ? `platform:${platform}` : undefined
 }
-function coerceBoolean(argument: unknown) {
-  return argument ? (JSON.parse(`${argument}`) as boolean) : undefined
-}
 
-export function setStringArray(key: string, val: string[]) {
-  localStorage.setItem(key, JSON.stringify(val))
+const legacySelected = params.get('selected')
+if (legacySelected) {
+  window.location.hash = legacySelected.replace(/^#/, '')
 }
 
 export const useAppStore = create<AppState>()(set => ({
-  mode: coerceString(mode) ?? 'list',
-  filters: {
-    tag: legacyFilterTag(
-      remapLegacyTag(coerceString(tag)),
-      coerceString(language),
-      coerceString(platform),
-    ),
-  },
-  selected: coerceString(selected),
-  sort: {
-    latest: coerceBoolean(latest) ?? true,
-    citations: coerceNumber(citations),
-    stars: coerceNumber(stars),
-    year: coerceNumber(year),
-  },
+  mode: params.get('mode') === 'grid' ? 'grid' : 'list',
+  tag: parseTag(),
+  sort: parseSort(),
   setMode: mode => {
-    set(() => ({ mode }))
+    set({ mode })
   },
   setSort: sort => {
-    set(() => ({ sort }))
+    set({ sort })
   },
-  setFilters: filters => {
-    set(() => ({ filters }))
-  },
-  setSelected: selected => {
-    set(() => ({ selected }))
+  setTag: tag => {
+    set({ tag })
   },
 }))
+
+function toSearch({ mode, tag, sort }: AppState) {
+  const p = new URLSearchParams()
+  if (tag) {
+    p.set('tag', tag)
+  }
+  if (sort.by === 'added') {
+    if (sort.dir === 1) {
+      p.set('latest', 'false')
+    }
+  } else {
+    p.set(sort.by, String(sort.dir))
+  }
+  if (mode === 'grid') {
+    p.set('mode', mode)
+  }
+  return p.size ? `?${p}` : ''
+}
+
+export function tagHref(tag: string) {
+  return `?${new URLSearchParams({ tag })}`
+}
+
+function syncUrl(state: AppState) {
+  const { pathname, hash } = window.location
+  window.history.replaceState(null, '', pathname + toSearch(state) + hash)
+}
+
+syncUrl(useAppStore.getState())
+useAppStore.subscribe(syncUrl)

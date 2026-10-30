@@ -12,15 +12,6 @@
   margin: var(--spacing-sm) 0;
 }
 
-.link {
-  text-decoration: underline;
-  color: var(--color-link);
-}
-
-.link:visited {
-  color: var(--color-link-visited);
-}
-
 .note {
   max-width: 32rem;
 }

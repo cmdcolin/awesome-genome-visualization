@@ -1,16 +1,22 @@
-import { useDialogShown } from './util'
 import styles from './ImageDialog.module.css'
 
 export default function ImageDialog({
-  open,
   img,
+  onClose,
 }: {
-  open: boolean
   img: string
+  onClose: () => void
 }) {
-  const ref = useDialogShown(open)
   return (
-    <dialog ref={ref} className={styles.dialog}>
+    <dialog
+      ref={el => {
+        if (el && !el.open) {
+          el.showModal()
+        }
+      }}
+      onClose={onClose}
+      className={styles.dialog}
+    >
       <div className={styles.container}>
         <img src={img} className={styles.image} />
       </div>

@@ -1,4 +1,5 @@
 import Link from './Link'
+import { doiUrl } from './doi'
 import type { Tool } from './store'
 import styles from './ToolTable.module.css'
 
@@ -23,13 +24,7 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
               {pub ? (
                 <>
                   {pub.doi ? (
-                    <Link
-                      href={
-                        pub.doi.startsWith('http')
-                          ? pub.doi
-                          : `https://dx.doi.org/${pub.doi}`
-                      }
-                    >
+                    <Link href={doiUrl(pub.doi)}>
                       link {pub.year ? `(${pub.year})` : ''}{' '}
                       {pub.citations === undefined
                         ? ''

@@ -4,9 +4,8 @@ import styles from './FilterGroup.module.css'
 import { facetOrder, splitTag } from './facets'
 
 export default function TagFilters({ tools }: { tools: Tool[] }) {
-  const store = useAppStore()
-  const { filters } = store
-  const { tag = '' } = filters
+  const tag = useAppStore(s => s.tag)
+  const setTag = useAppStore(s => s.setTag)
 
   const counts = new Map<string, number>()
   for (const tool of tools) {
@@ -35,9 +34,9 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
         <select
           id="tag-select"
           className={styles.select}
-          value={tag}
+          value={tag ?? ''}
           onChange={event => {
-            store.setFilters({ ...filters, tag: event.target.value })
+            setTag(event.target.value || undefined)
           }}
         >
           <option value="">-- select an option --</option>
@@ -51,7 +50,7 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
         </select>
         <Button
           onClick={() => {
-            store.setFilters({ ...filters, tag: undefined })
+            setTag()
           }}
         >
           Clear

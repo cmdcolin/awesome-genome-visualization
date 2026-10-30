@@ -1,3 +1,5 @@
+import Link from './Link'
+
 const tokens = /`([^`]+)`|https?:\/\/[^\s<]+/g
 
 function trimUrl(url: string) {
@@ -29,9 +31,9 @@ export default function Note({ children }: { children: string }) {
     } else {
       const url = trimUrl(text)
       parts.push(
-        <a key={start} href={url} className="link">
+        <Link key={start} href={url}>
           {url}
-        </a>,
+        </Link>,
       )
       cursor = start + url.length
     }

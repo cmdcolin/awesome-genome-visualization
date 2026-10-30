@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { tools as importedTools } from './TOOLS.json'
-import { type Tool, useAppStore } from './store'
+import { type Sort, type SortBy, type Tool, useAppStore } from './store'
 import styles from './App.module.css'
 
 import TagFilters from './TagFilters'
@@ -9,77 +9,69 @@ import ToolTable from './ToolTable'
 import Link from './Link'
 import Button from './Button'
 
+const allTools: Tool[] = importedTools
+
+const sortKeys: Record<
+  Exclude<SortBy, 'added'>,
+  (t: Tool) => number | undefined
+> = {
+  year: t => t.pub?.year,
+  citations: t => t.pub?.citations,
+  stars: t => t.github_stars,
+}
+
+function sortTools({ by, dir }: Sort) {
+  if (by === 'added') {
+    return dir === 1 ? allTools : allTools.toReversed()
+  }
+  const key = sortKeys[by]
+  return allTools.toSorted((a, b) => {
+    const ka = key(a)
+    const kb = key(b)
+    if (ka === undefined || kb === undefined) {
+      return (ka === undefined ? 1 : 0) - (kb === undefined ? 1 : 0)
+    }
+    return (ka - kb) * dir
+  })
+}
+
+const sortButtons: [string, Sort][] = [
+  ['Recently added', { by: 'added', dir: -1 }],
+  ['Least recently added', { by: 'added', dir: 1 }],
+  ['Year (dec)', { by: 'year', dir: -1 }],
+  ['Year (asc)', { by: 'year', dir: 1 }],
+  ['Number citations (dec)', { by: 'citations', dir: -1 }],
+  ['Number citations (asc)', { by: 'citations', dir: 1 }],
+  ['Github stars (dec)', { by: 'stars', dir: -1 }],
+  ['Github stars (asc)', { by: 'stars', dir: 1 }],
+]
+
+const filterButtons: [string, string][] = [
+  ['General-purpose genome browsers', 'kind:Genome browser'],
+  ['Synteny/comparative browsers', 'field:Comparative genomics'],
+  ['Dotplot viewer', 'view:Dotplot'],
+  ['MSA viewer', 'data:MSA'],
+  ['Graph genome', 'data:Genome graph'],
+  ['Text based', 'ui:Terminal'],
+]
+
+const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
+
 export default function App() {
-  const store = useAppStore()
-  const { selected, mode, filters, sort } = store
-  const { tag } = filters
+  const mode = useAppStore(s => s.mode)
+  const tag = useAppStore(s => s.tag)
+  const sort = useAppStore(s => s.sort)
 
   useEffect(() => {
-    const parameters = new URLSearchParams()
-    for (const [key, value] of Object.entries({
-      ...filters,
-      ...sort,
-      selected,
-    })) {
-      if (value !== undefined) {
-        parameters.set(key, String(value))
-      }
+    const id = decodeURIComponent(window.location.hash.slice(1))
+    if (id) {
+      document.getElementById(id)?.scrollIntoView({ block: 'start' })
     }
-    if (parameters.size) {
-      window.history.replaceState(null, '', `?${parameters.toString()}`)
-    }
-  }, [filters, sort, selected])
+  }, [])
 
-  useEffect(() => {
-    if (selected) {
-      const target = document.getElementById(selected.replace(/^#/, ''))
-      if (target) {
-        target.scrollIntoView({ block: 'start' })
-      }
-    }
-  }, [selected])
+  const tools = sortTools(sort)
+  const filteredTools = tag ? tools.filter(t => t.tags?.includes(tag)) : tools
 
-  let tools = sort.latest ? [...importedTools].toReversed() : [...importedTools]
-
-  const y = sort.year
-  if (y !== undefined) {
-    tools = tools.toSorted(
-      (a, b) =>
-        (a.pub?.year ?? Number.POSITIVE_INFINITY * y) -
-        (b.pub?.year ?? Number.POSITIVE_INFINITY * y),
-    )
-    if (sort.year === -1) {
-      tools = tools.toReversed()
-    }
-  }
-
-  const c = sort.citations
-  if (c !== undefined) {
-    tools = tools.toSorted(
-      (a, b) =>
-        (a.pub?.citations ?? Number.POSITIVE_INFINITY * c) -
-        (b.pub?.citations ?? Number.POSITIVE_INFINITY * c),
-    )
-    if (sort.citations === -1) {
-      tools = tools.toReversed()
-    }
-  }
-
-  const s = sort.stars
-  if (s !== undefined) {
-    tools = tools.toSorted(
-      (a, b) =>
-        (a.github_stars ?? Number.POSITIVE_INFINITY * s) -
-        (b.github_stars ?? Number.POSITIVE_INFINITY * s),
-    )
-    if (sort.stars === -1) {
-      tools = tools.toReversed()
-    }
-  }
-
-  const filteredTools = tools.filter(t => (tag ? t.tags.includes(tag) : true))
-
-  const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>awesome-genome-visualization</h1>
@@ -91,9 +83,8 @@ export default function App() {
       <p>Feel free to submit PRs to add more tools</p>
       <FilterButtons />
       <SortButtons />
-      <ClearSelection />
-      <FilterSelectors tools={tools} />
-      <GridSelector />
+      <TagFilters tools={tools} />
+      <ModeSelector />
 
       {mode === 'list' ? (
         <div className={styles.listContainer}>
@@ -112,9 +103,9 @@ export default function App() {
   )
 }
 
-function GridSelector() {
-  const store = useAppStore()
-  const { mode } = store
+function ModeSelector() {
+  const mode = useAppStore(s => s.mode)
+  const setMode = useAppStore(s => s.setMode)
   return (
     <div className={styles.controls}>
       <label htmlFor="grid" className={styles.label}>
@@ -125,7 +116,7 @@ function GridSelector() {
         type="radio"
         checked={mode === 'grid'}
         onChange={() => {
-          store.setMode('grid')
+          setMode('grid')
         }}
       />
       <label htmlFor="list" className={styles.label}>
@@ -136,7 +127,7 @@ function GridSelector() {
         type="radio"
         checked={mode === 'list'}
         onChange={() => {
-          store.setMode('list')
+          setMode('list')
         }}
       />
     </div>
@@ -144,148 +135,46 @@ function GridSelector() {
 }
 
 function SortButtons() {
-  const store = useAppStore()
+  const setSort = useAppStore(s => s.setSort)
   return (
     <p className={styles.note}>
       Sorts:
-      <Button
-        onClick={() => {
-          store.setSort({ latest: true })
-        }}
-      >
-        Recently added
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ latest: false })
-        }}
-      >
-        Least recently added
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ year: -1 })
-        }}
-      >
-        Year (dec)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ year: 1 })
-        }}
-      >
-        Year (asc)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ citations: -1 })
-        }}
-      >
-        Number citations (dec)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ citations: 1 })
-        }}
-      >
-        Number citations (asc)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ stars: -1 })
-        }}
-      >
-        Github stars (dec)
-      </Button>
-      <Button
-        onClick={() => {
-          store.setSort({ stars: 1 })
-        }}
-      >
-        Github stars (asc)
-      </Button>
+      {sortButtons.map(([label, sort]) => (
+        <Button
+          key={label}
+          onClick={() => {
+            setSort(sort)
+          }}
+        >
+          {label}
+        </Button>
+      ))}
     </p>
   )
 }
 
 function FilterButtons() {
-  const store = useAppStore()
+  const setTag = useAppStore(s => s.setTag)
   return (
     <p className={styles.note}>
       Filters:
       <Button
         onClick={() => {
-          store.setFilters({})
+          setTag()
         }}
       >
         Clear filters
       </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'kind:Genome browser' })
-        }}
-      >
-        General-purpose genome browsers
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'field:Comparative genomics' })
-        }}
-      >
-        Synteny/comparative browsers
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'view:Dotplot' })
-        }}
-      >
-        Dotplot viewer
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'data:MSA' })
-        }}
-      >
-        MSA viewer
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'data:Genome graph' })
-        }}
-      >
-        Graph genome
-      </Button>
-      <Button
-        onClick={() => {
-          store.setFilters({ tag: 'ui:Terminal' })
-        }}
-      >
-        Text based
-      </Button>
+      {filterButtons.map(([label, tag]) => (
+        <Button
+          key={tag}
+          onClick={() => {
+            setTag(tag)
+          }}
+        >
+          {label}
+        </Button>
+      ))}
     </p>
-  )
-}
-
-function ClearSelection() {
-  const store = useAppStore()
-  return (
-    <p>
-      Selection:
-      <Button
-        onClick={() => {
-          store.setSelected()
-        }}
-      >
-        Clear selection
-      </Button>
-    </p>
-  )
-}
-
-function FilterSelectors({ tools }: { tools: Tool[] }) {
-  return (
-    <div>
-      <TagFilters tools={tools} />
-    </div>
   )
 }

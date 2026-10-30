@@ -1,24 +1,19 @@
-import type { Dispatch, SetStateAction } from 'react'
+import { useState } from 'react'
 import ImageDialog from './ImageDialog'
 import styles from './ToolFigure.module.css'
-
-interface ToolFigureProps {
-  img?: string
-  name: string
-  width?: number
-  height?: number
-  expanded: boolean
-  setExpanded: Dispatch<SetStateAction<boolean>>
-}
 
 export default function ToolFigure({
   img,
   name,
   width,
   height,
-  expanded,
-  setExpanded,
-}: ToolFigureProps) {
+}: {
+  img?: string
+  name: string
+  width?: number
+  height?: number
+}) {
+  const [expanded, setExpanded] = useState(false)
   return (
     <figure
       className={styles.figure}
@@ -40,7 +35,14 @@ export default function ToolFigure({
       ) : (
         <p>No screenshot</p>
       )}
-      {expanded && img ? <ImageDialog open img={img} /> : null}
+      {expanded && img ? (
+        <ImageDialog
+          img={img}
+          onClose={() => {
+            setExpanded(false)
+          }}
+        />
+      ) : null}
     </figure>
   )
 }

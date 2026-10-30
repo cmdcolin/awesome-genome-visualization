@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import { type Tool, useAppStore } from './store'
+import { type Tool, tagHref, useAppStore } from './store'
 import Link from './Link'
 import ToolFigure from './ToolFigure'
 import Note from './Note'
 import { slug as toSlug } from './slug'
+import { doiUrl } from './doi'
 import styles from './ToolCard.module.css'
 import { contentFacets, metaFacetLabels, splitTag } from './facets'
 
@@ -12,17 +12,17 @@ function ellipses(f = '', n = 40) {
 }
 
 function TagRow({ label, tags }: { label: string; tags: string[] }) {
-  const store = useAppStore()
+  const setTag = useAppStore(s => s.setTag)
   return tags.length ? (
     <p className={styles.metadata}>
       {label}:{' '}
       {tags.map((tag, index) => [
         index > 0 && ', ',
         <Link
-          href="#"
+          href={tagHref(tag)}
           key={tag}
           onClick={event => {
-            store.setFilters({ ...store.filters, tag })
+            setTag(tag)
             event.preventDefault()
           }}
         >
@@ -48,21 +48,12 @@ export default function ToolCard({ tool }: { tool: Tool }) {
     note,
     alt_url,
   } = tool
-  const store = useAppStore()
-  const [expanded, setExpanded] = useState(false)
   const slug = toSlug(name)
   return (
     <div className={styles.container}>
       <div className={styles.content}>
         <h3 className={styles.title}>
-          <Link
-            id={slug}
-            href="#"
-            onClick={event => {
-              store.setSelected(`#${slug}`)
-              event.preventDefault()
-            }}
-          >
+          <Link id={slug} href={`#${slug}`}>
             {name}
           </Link>
         </h3>
@@ -79,17 +70,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
         {pub ? (
           <p className={styles.metadata}>
             Publication:{' '}
-            {pub.doi ? (
-              <Link
-                href={
-                  pub.doi.startsWith('http')
-                    ? pub.doi
-                    : `https://dx.doi.org/${pub.doi}`
-                }
-              >
-                (doi link)
-              </Link>
-            ) : null}{' '}
+            {pub.doi ? <Link href={doiUrl(pub.doi)}>(doi link)</Link> : null}{' '}
             {pub.year ? ` (${pub.year})` : null}
             {pub.citations === undefined
               ? null
@@ -123,18 +104,11 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           </p>
         ) : null}
 
-        {github_stars ? (
+        {github_stars === undefined ? null : (
           <p className={styles.metadata}>Github Stargazers: {github_stars}</p>
-        ) : null}
+        )}
       </div>
-      <ToolFigure
-        img={img}
-        name={name}
-        width={width}
-        height={height}
-        expanded={expanded}
-        setExpanded={setExpanded}
-      />
+      <ToolFigure img={img} name={name} width={width} height={height} />
     </div>
   )
 }
