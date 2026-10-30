@@ -16,6 +16,8 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm check-duplicates
+      - run: pnpm check-tools
+      - run: pnpm check-tags
+      - run: pnpm prettier --check .
       - run: pnpm lint
       - run: pnpm build

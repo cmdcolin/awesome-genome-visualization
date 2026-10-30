@@ -1,10 +1,7 @@
-import fs from 'fs'
+import { contentFacets, facetOrder } from '../src/facets.ts'
+import { readTOOLS } from './util.ts'
 
-const tools = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8')).tools
-
-const contentFacets = ['kind', 'task', 'data', 'view', 'field']
-const metaFacets = ['ui', 'license', 'status', 'with', 'platform', 'stack']
-const facets = new Set([...contentFacets, ...metaFacets])
+const facets = new Set(facetOrder)
 const specificFacets = ['kind', 'task', 'data', 'view']
 const maxContentTags = 4
 const umbrella = 'field:Comparative genomics'
@@ -24,15 +21,15 @@ function report(name: string, message: string) {
   errors++
 }
 
-tools.forEach((tool: any) => {
-  const tags: string[] = tool.tags ?? []
+for (const tool of readTOOLS().tools) {
+  const tags = tool.tags ?? []
   if (!tags.length) {
     report(tool.name, 'no tags')
-    return
+    continue
   }
   for (const tag of tags) {
-    const [facet, value] = tag.split(':')
-    if (!value || !facets.has(facet)) {
+    const i = tag.indexOf(':')
+    if (i < 1 || i === tag.length - 1 || !facets.has(tag.slice(0, i))) {
       report(tool.name, `"${tag}" is not facet:Value with a known facet`)
     }
   }
@@ -56,7 +53,7 @@ tools.forEach((tool: any) => {
   ) {
     report(tool.name, `needs ${umbrella}`)
   }
-})
+}
 
 if (errors) {
   console.log(`${errors} errors`)

@@ -1,5 +1,6 @@
-import { execSync } from 'child_process'
+import { execFileSync } from 'child_process'
 import fs from 'fs'
+import type { Tool } from '../src/store.ts'
 
 export async function fetchJSON(
   url: string,
@@ -14,6 +15,7 @@ export async function fetchJSON(
     try {
       const res = await fetch(url, { ...fetchArgs, signal: controller.signal })
       if (res.status === 429) {
+        lastError = new Error(`HTTP 429 on ${url}`)
         const retryAfter = res.headers.get('Retry-After')
         const wait = retryAfter
           ? parseInt(retryAfter) * 1000
@@ -21,7 +23,7 @@ export async function fetchJSON(
         console.warn(
           `Rate limited (429) on ${url}. Waiting ${wait}ms before retry ${i + 1}/${retries}...`,
         )
-        await new Promise(resolve => setTimeout(resolve, wait))
+        await sleep(wait)
         continue
       }
       if (!res.ok) {
@@ -34,8 +36,7 @@ export async function fetchJSON(
         i < retries &&
         (e.name === 'AbortError' || e.message.includes('fetch'))
       ) {
-        const wait = Math.pow(2, i) * 1000
-        await new Promise(resolve => setTimeout(resolve, wait))
+        await sleep(Math.pow(2, i) * 1000)
         continue
       }
       throw e
@@ -46,11 +47,11 @@ export async function fetchJSON(
   throw lastError
 }
 
-export function runCommand(command: string) {
+export function runCommand(file: string, args: string[]) {
   try {
-    return execSync(command, { encoding: 'utf8' })
+    return execFileSync(file, args, { encoding: 'utf8' })
   } catch (e: any) {
-    throw new Error(`Command failed: ${command}\n${e.stderr || e.message}`)
+    throw new Error(`Command failed: ${file}\n${e.stderr || e.message}`)
   }
 }
 
@@ -59,37 +60,25 @@ export function sleep(ms: number) {
 }
 
 export function getOwnerRepo(url: string) {
-  const match = url.match(/github\.com\/([^/]+)\/([^/]+)/)
+  const match = url.match(/github\.com\/([^/]+)\/([^/#?]+)/)
   if (match) {
     const owner = match[1]
-    const repo = match[2].replace(/\.git$/, '').replace(/\/$/, '')
+    const repo = match[2].replace(/\.git$/, '')
     return { owner, repo }
   }
   return undefined
 }
 
 export function getRawDoi(doi: string) {
-  return doi
-    .replace('https://doi.org/', '')
-    .replace('http://doi.org/', '')
-    .replace('https://dx.doi.org/', '')
-    .replace('http://dx.doi.org/', '')
-}
-
-export function readJSON(file: string) {
-  return JSON.parse(fs.readFileSync(file, 'utf8'))
+  return doi.replace(/^https?:\/\/(dx\.)?doi\.org\//, '')
 }
 
 export function readTOOLS() {
-  return JSON.parse(fs.readFileSync('TOOLS.json', 'utf8')) as {
-    tools: {
-      name: string
-      github?: string
-      github_stars?: number
-      url?: string
-      pub?: { doi: string; year?: number; citations?: number }
-    }[]
-  }
+  return JSON.parse(fs.readFileSync('TOOLS.json', 'utf8')) as { tools: Tool[] }
+}
+
+export function writeTOOLS(data: { tools: Tool[] }) {
+  fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2) + '\n')
 }
 
 export function pLimit(concurrency: number) {
@@ -111,8 +100,7 @@ export function pLimit(concurrency: number) {
       active++
     }
     try {
-      const result = await fn()
-      return result
+      return await fn()
     } finally {
       next()
     }

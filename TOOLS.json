@@ -6247,8 +6247,7 @@
       "name": "SnoopCGH",
       "img": "snoopcgh.jpg",
       "url": "http://snoopcgh.sourceforge.net/",
-      "playform": ["Desktop"],
-      "tags": ["data:CNV", "data:ArrayCGH", "stack:Java"],
+      "tags": ["data:CNV", "data:ArrayCGH", "platform:Desktop", "stack:Java"],
       "pub": {
         "doi": "10.1093/bioinformatics/btp488",
         "year": 2009,
@@ -6706,9 +6705,9 @@
         "stack:Java"
       ],
       "url": "https://web.archive.org/web/20070924141423/http://www.broad.mit.edu/annotation/argo/",
-      "notes": "See also the tool 'Combo', a comparative version",
       "width": 450,
-      "height": 338
+      "height": 338,
+      "note": "See also the tool 'Combo', a comparative version"
     },
     {
       "name": "Combo",
@@ -7503,12 +7502,14 @@
         "field:Comparative genomics",
         "stack:R"
       ],
-      "doi": {
-        "pub": "10.1101/2022.04.22.489119"
-      },
       "width": 1500,
       "height": 975,
-      "github_stars": 33
+      "github_stars": 33,
+      "pub": {
+        "doi": "10.1101/2022.04.22.489119",
+        "year": 2022,
+        "citations": 41
+      }
     },
     {
       "name": "pixy",
@@ -7523,12 +7524,14 @@
         "stack:R",
         "stack:ggplot2"
       ],
-      "doi": {
-        "pub": "https://doi.org/10.1111/1755-0998.13326"
-      },
       "github_stars": 170,
       "width": 1800,
-      "height": 900
+      "height": 900,
+      "pub": {
+        "doi": "https://doi.org/10.1111/1755-0998.13326",
+        "year": 2021,
+        "citations": 747
+      }
     },
     {
       "name": "vcf2circos",
@@ -8543,14 +8546,15 @@
     {
       "name": "SeqTUI",
       "github": "https://github.com/ranwez-search/SeqTUI",
-      "img": "seqtui.png",
+      "img": "seqtui.jpg",
       "tags": ["data:MSA", "ui:Terminal", "stack:Rust"],
-      "github_stars": 47
+      "github_stars": 47,
+      "width": 1842,
+      "height": 1072
     },
     {
       "name": "OpenVectorEditor",
       "tags": ["field:Synthetic biology", "data:Plasmid", "stack:JS"],
-      "img": "openvectoreditor.png",
       "github": "https://github.com/TeselaGen/tg-oss",
       "url": "https://teselagen.github.io/tg-oss/ove/#/Editor",
       "github_stars": 106
@@ -8558,7 +8562,6 @@
     {
       "name": "VectorBee",
       "tags": ["field:Synthetic biology", "data:Plasmid"],
-      "img": "vectorbee.png",
       "url": "https://www.vectorbee.com/en/",
       "note": "Not open source, but is free"
     },

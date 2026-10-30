@@ -1,49 +1,44 @@
 import fs from 'fs'
+import type { Tool } from '../src/store.ts'
+import { doiUrl } from '../src/doi.ts'
+import { readTOOLS } from './util.ts'
 
-const res = JSON.parse(fs.readFileSync('TOOLS.json', 'utf8'))
-const header = fs.readFileSync('util/HEADER.md', 'utf8')
-const footer = fs.readFileSync('util/FOOTER.md', 'utf8')
-const categories = {} as Record<string, any[]>
+const { tools } = readTOOLS()
 const pinnedCategory = 'kind:Genome browser'
-const heading = (category: string) => category.split(':').pop() as string
+const heading = (category: string) => category.split(':').pop()!
 
-console.log(header)
+const withPub = tools.filter(t => t.pub).length
+const pubStats = `${Math.floor((100 * withPub) / tools.length)}% (${withPub}/${tools.length})`
+console.log(
+  fs.readFileSync('util/HEADER.md', 'utf8').replace('{{pubStats}}', pubStats),
+)
 
-res.tools.forEach((tool: any) => {
-  const tags = tool['tags'] || []
-  const firsttag = tags[0] || 'Uncategorized'
-  if (!categories[firsttag]) {
-    categories[firsttag] = []
+const categories = Map.groupBy(tools, t => t.tags?.[0] ?? 'Uncategorized')
+
+function line(tool: Tool) {
+  const href = tool.url ?? tool.github
+  return [
+    '- ',
+    href ? `[${tool.name}](${href})` : tool.name,
+    tool.note ? ` (${tool.note})` : '',
+    tool.pub ? ` [(pub)](${doiUrl(tool.pub.doi)})` : '',
+    tool.img
+      ? ` [(img)](https://cmdcolin.github.io/awesome-genome-visualization/${tool.img})`
+      : '',
+  ].join('')
+}
+
+for (const [category, list] of [...categories].sort(([a], [b]) =>
+  a === pinnedCategory || b === pinnedCategory
+    ? a === pinnedCategory
+      ? -1
+      : 1
+    : heading(a).localeCompare(heading(b)),
+)) {
+  console.log('## ' + heading(category))
+  for (const tool of list.sort((a, b) => a.name.localeCompare(b.name))) {
+    console.log(line(tool))
   }
-  categories[firsttag].push(tool)
-})
+}
 
-Object.entries(categories)
-  .sort(([categoryA], [categoryB]) => {
-    if (categoryA === pinnedCategory || categoryB === pinnedCategory) {
-      return categoryA === pinnedCategory ? -1 : 1
-    }
-    return heading(categoryA).localeCompare(heading(categoryB))
-  })
-  .map(([category, tools]) => {
-    console.log('## ' + heading(category))
-    tools
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .forEach(tool => {
-        console.log(
-          '- ' +
-            (tool.url || tool.github
-              ? '[' + tool.name + '](' + (tool.url || tool.github) + ')'
-              : tool.name) +
-            (tool.note ? ' (' + tool.note + ')' : '') +
-            (tool.publication ? ' [(pub)](' + tool.publication.url + ')' : '') +
-            (tool.img
-              ? ' [(img)](https://cmdcolin.github.io/awesome-genome-visualization/' +
-                tool.img +
-                ')'
-              : ''),
-        )
-      })
-  })
-
-console.log(footer)
+console.log(fs.readFileSync('util/FOOTER.md', 'utf8'))

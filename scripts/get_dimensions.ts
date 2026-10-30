@@ -1,11 +1,10 @@
-//run this in the static dir folder
-//identify -format "%f %wx%h\n" *.jpg *.png > ../../dims.txt
+// reads dims.txt, written by update.sh with ImageMagick's identify
 import fs from 'fs'
-import { readTOOLS } from './util.ts'
+import { readTOOLS, writeTOOLS } from './util.ts'
 
 const data = readTOOLS()
 
-const d2 = Object.fromEntries(
+const dims = Object.fromEntries(
   fs
     .readFileSync('dims.txt', 'utf8')
     .split('\n')
@@ -13,22 +12,13 @@ const d2 = Object.fromEntries(
     .map(line => line.split(' ')),
 )
 
-fs.writeFileSync(
-  'TOOLS.json',
-  JSON.stringify(
-    {
-      ...data,
-      tools: data.tools.map((d: any) => {
-        if (d2[d.img]) {
-          const entry = d2[d.img]
-          const [width, height] = entry.split('x')
-          return { ...d, width: +width, height: +height }
-        } else {
-          return d
-        }
-      }),
-    },
-    null,
-    2,
-  ),
-)
+for (const tool of data.tools) {
+  const entry = tool.img ? dims[tool.img] : undefined
+  if (entry) {
+    const [width, height] = entry.split('x')
+    tool.width = +width
+    tool.height = +height
+  }
+}
+
+writeTOOLS(data)

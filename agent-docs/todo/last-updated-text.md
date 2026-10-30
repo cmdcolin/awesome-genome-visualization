@@ -4,7 +4,8 @@ description: Add last updated text to the site.
 metadata:
   category: ready
   area: site
-  first_move: "Find where the page renders its header or footer and add the date."
+  first_move:
+    'Find where the page renders its header or footer and add the date.'
   order: 1
 ---
 

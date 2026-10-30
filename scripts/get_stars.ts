@@ -1,5 +1,10 @@
-import fs from 'fs'
-import { fetchJSON, readTOOLS, runCommand, getOwnerRepo } from './util.ts'
+import {
+  fetchJSON,
+  readTOOLS,
+  writeTOOLS,
+  runCommand,
+  getOwnerRepo,
+} from './util.ts'
 
 const data = readTOOLS()
 
@@ -23,11 +28,14 @@ async function getStars() {
     try {
       let response: any
       try {
-        const result = runCommand(
-          `gh api graphql -f query='${query.replace(/'/g, "'\\''")}'`,
-        )
+        const result = runCommand('gh', [
+          'api',
+          'graphql',
+          '-f',
+          `query=${query}`,
+        ])
         response = JSON.parse(result)
-      } catch (e) {
+      } catch {
         response = await fetchJSON('https://api.github.com/graphql', {
           method: 'POST',
           headers: {
@@ -49,7 +57,7 @@ async function getStars() {
     }
   }
 
-  fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2))
+  writeTOOLS(data)
 }
 
 getStars()

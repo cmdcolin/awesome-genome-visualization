@@ -1,5 +1,11 @@
-import fs from 'fs'
-import { fetchJSON, readTOOLS, pLimit, sleep, getRawDoi } from './util.ts'
+import {
+  fetchJSON,
+  readTOOLS,
+  writeTOOLS,
+  pLimit,
+  sleep,
+  getRawDoi,
+} from './util.ts'
 
 const data = readTOOLS()
 
@@ -48,5 +54,5 @@ const data = readTOOLS()
   )
 
   await Promise.all(tasks)
-  fs.writeFileSync('TOOLS.json', JSON.stringify(data, null, 2))
+  writeTOOLS(data)
 })()

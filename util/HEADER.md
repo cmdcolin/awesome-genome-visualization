@@ -26,7 +26,7 @@ these, they can hamper your learning if you become overly reliant on them) make
 this much easier! But also consider making your visualization code re-usable for
 the wider community! And feel free to send PRs for more tools!
 
-Finally, at least 68% (372/543) tools in this list have written publications for
+Finally, at least {{pubStats}} tools in this list have written publications for
 their tools. They went through the effort to write it up, cite these tools!!
 
 New rule: 2026-10-11 I will no longer be accepting tools without source
