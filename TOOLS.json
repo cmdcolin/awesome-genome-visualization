@@ -1124,6 +1124,25 @@
       "github_stars": 46
     },
     {
+      "name": "SNPduo",
+      "url": "https://web.archive.org/web/20210518090714/http://pevsnerlab.kennedykrieger.org/SNPduo/",
+      "img": "snpduo.png",
+      "tags": [
+        "data:Small variant",
+        "field:Human genetics",
+        "ui:Static",
+        "status:Deadlink",
+        "platform:Web"
+      ],
+      "pub": {
+        "doi": "10.1371/journal.pone.0006711",
+        "year": 2009,
+        "citations": 42
+      },
+      "width": 535,
+      "height": 441
+    },
+    {
       "name": "SparK",
       "url": "https://github.com/harbourlab/SparK",
       "img": "spark.png",
@@ -3090,6 +3109,24 @@
       "img": "sfari.jpg",
       "width": 745,
       "height": 367
+    },
+    {
+      "name": "Short read assembly browser",
+      "img": "short_read_assembly_browser.png",
+      "tags": [
+        "data:Read alignment",
+        "field:Plant",
+        "platform:Web",
+        "platform:Portal"
+      ],
+      "pub": {
+        "doi": "https://doi.org/10.1093/pcp/pcs183",
+        "year": 2013,
+        "citations": 583
+      },
+      "url": "https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22",
+      "width": 1378,
+      "height": 476
     },
     {
       "tags": ["data:CNV", "platform:Web", "stack:R"],

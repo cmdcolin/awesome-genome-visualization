@@ -26,7 +26,7 @@ these, they can hamper your learning if you become overly reliant on them) make
 this much easier! But also consider making your visualization code re-usable for
 the wider community! And feel free to send PRs for more tools!
 
-Finally, at least 68% (391/569) tools in this list have written publications for
+Finally, at least 68% (393/571) tools in this list have written publications for
 their tools. They went through the effort to write it up, cite these tools!!
 
 New rule: 2026-10-11 I will no longer be accepting tools without source
@@ -1479,6 +1479,9 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tview.png)
 - [shabam](https://github.com/dlrice/shabam)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shabam.png)
+- [Short read assembly browser](https://rapdb.dna.affrc.go.jp/AssemblyBrowser2/index.html?ref=%22chr01%22&run_id=%22G4toI1%22&start=%22234780%22&end=%22236631%22)
+  [(pub)](https://doi.org/10.1093/pcp/pcs183)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/short_read_assembly_browser.png)
 - [Staden](https://sourceforge.net/projects/staden/)
   [(pub)](https://doi.org/10.1093/bioinformatics/btq268)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/staden.png)
@@ -1592,6 +1595,9 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nucfreq.png)
 - [phasius](https://github.com/wdecoster/phasius)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phasius.png)
+- [SNPduo](https://web.archive.org/web/20210518090714/http://pevsnerlab.kennedykrieger.org/SNPduo/)
+  [(pub)](https://doi.org/10.1371/journal.pone.0006711)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snpduo.png)
 - [snpit](https://github.com/aineniamh/snipit)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/snpit.png)
 - [vcfPlotein](https://vcfplotein.liigh.unam.mx/#/)
