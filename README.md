@@ -26,7 +26,7 @@ these, they can hamper your learning if you become overly reliant on them) make
 this much easier! But also consider making your visualization code re-usable for
 the wider community! And feel free to send PRs for more tools!
 
-Finally, at least 68% (393/572) tools in this list have written publications for
+Finally, at least 68% (395/574) tools in this list have written publications for
 their tools. They went through the effort to write it up, cite these tools!!
 
 New rule: 2026-10-11 I will no longer be accepting tools without source
@@ -1020,6 +1020,12 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methylartist.png)
 - [SeqSizzle](https://github.com/ChangqingW/SeqSizzle)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqsizzle.png)
+- [Squigualiser](https://github.com/hiruna72/squigualiser) (Interactive HTML
+  plots of nanopore raw signal aligned to basecalled reads or a reference,
+  including multi-read pileups and separate tracks for comparing alignment
+  methods or samples. Examples https://hiruna72.github.io/squigualiser/)
+  [(pub)](https://doi.org/10.1093/bioinformatics/btae501)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/squigualiser.png)
 
 ## Manhattan
 
@@ -1539,6 +1545,11 @@ feasible.
 - [StainedGlass](https://github.com/mrvollger/StainedGlass)
   [(pub)](https://doi.org/10.1093/bioinformatics/btac018)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/stainedglass.png)
+- [TRviz](https://github.com/Jong-hun-Park/trviz) (Decomposes tandem repeat
+  alleles into motifs, aligns them, and plots motif composition across many
+  samples so VNTR structure can be compared between haplotypes)
+  [(pub)](https://doi.org/10.1093/bioadv/vbad058)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/trviz.png)
 - [TRVZ (TRGT tandem repeat genotyping visualizer)](https://github.com/PacificBiosciences/trgt)
   [(pub)](https://doi.org/10.1101/2023.05.12.540470)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/trvz.png)

@@ -9118,6 +9118,47 @@
       "width": 1800,
       "height": 1245,
       "github_stars": 19
+    },
+    {
+      "name": "TRviz",
+      "tags": [
+        "data:Repeat",
+        "field:Human genetics",
+        "ui:Static",
+        "platform:Library",
+        "stack:Python"
+      ],
+      "img": "trviz.png",
+      "url": "https://github.com/Jong-hun-Park/trviz",
+      "note": "Decomposes tandem repeat alleles into motifs, aligns them, and plots motif composition across many samples so VNTR structure can be compared between haplotypes",
+      "pub": {
+        "doi": "10.1093/bioadv/vbad058",
+        "year": 2023,
+        "citations": 12
+      },
+      "width": 1000,
+      "height": 1300,
+      "github_stars": 11
+    },
+    {
+      "name": "Squigualiser",
+      "tags": [
+        "data:Long read",
+        "data:Raw signal",
+        "platform:CLI",
+        "stack:Python"
+      ],
+      "img": "squigualiser.png",
+      "url": "https://github.com/hiruna72/squigualiser",
+      "note": "Interactive HTML plots of nanopore raw signal aligned to basecalled reads or a reference, including multi-read pileups and separate tracks for comparing alignment methods or samples. Examples https://hiruna72.github.io/squigualiser/",
+      "pub": {
+        "doi": "10.1093/bioinformatics/btae501",
+        "year": 2024,
+        "citations": 12
+      },
+      "width": 1317,
+      "height": 744,
+      "github_stars": 130
     }
   ]
 }
