@@ -9099,6 +9099,25 @@
       "width": 970,
       "height": 945,
       "github_stars": 1
+    },
+    {
+      "name": "Mahi-mahi",
+      "tags": [
+        "data:Repeat",
+        "data:Long read",
+        "data:Methylation",
+        "field:Human genetics",
+        "ui:Static",
+        "license:Academic",
+        "platform:CLI",
+        "stack:Python"
+      ],
+      "img": "mahi-mahi.png",
+      "url": "https://github.com/nanoporetech/mahi-mahi",
+      "note": "Nanopore tandem repeat genotyper from Oxford Nanopore that plots per-read motif composition and CpG methylation for each locus, split by haplotype, plus read-length clustering plots and a tagged BAM for IGV",
+      "width": 1800,
+      "height": 1245,
+      "github_stars": 19
     }
   ]
 }

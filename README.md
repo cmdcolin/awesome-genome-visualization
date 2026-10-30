@@ -26,7 +26,7 @@ these, they can hamper your learning if you become overly reliant on them) make
 this much easier! But also consider making your visualization code re-usable for
 the wider community! And feel free to send PRs for more tools!
 
-Finally, at least 68% (393/571) tools in this list have written publications for
+Finally, at least 68% (393/572) tools in this list have written publications for
 their tools. They went through the effort to write it up, cite these tools!!
 
 New rule: 2026-10-11 I will no longer be accepting tools without source
@@ -1506,6 +1506,11 @@ feasible.
 
 - [GraphAlignmentViewer](https://github.com/Illumina/GraphAlignmentViewer)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/graphalignmentviewer.png)
+- [Mahi-mahi](https://github.com/nanoporetech/mahi-mahi) (Nanopore tandem repeat
+  genotyper from Oxford Nanopore that plots per-read motif composition and CpG
+  methylation for each locus, split by haplotype, plus read-length clustering
+  plots and a tagged BAM for IGV)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mahi-mahi.png)
 - [miropeats](http://www.littlest.co.uk/software/bioinf/old_packages/miropeats/)
   (image from 2021 paper
   https://www.biorxiv.org/content/10.1101/2021.12.08.471837v1.full.pdf)
