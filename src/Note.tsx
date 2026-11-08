@@ -5,7 +5,7 @@ const tokens = /`([^`]+)`|https?:\/\/[^\s<]+/g
 function trimUrl(url: string) {
   let end = url.length
   while (end > 0) {
-    const last = url[end - 1]
+    const last = url.charAt(end - 1)
     const unbalanced =
       last === ')' &&
       url.slice(0, end).split(')').length > url.slice(0, end).split('(').length
@@ -25,7 +25,7 @@ export default function Note({ children }: { children: string }) {
     const [text, code] = match
     const start = match.index
     parts.push(children.slice(cursor, start))
-    if (code) {
+    if (code !== undefined) {
       parts.push(<code key={start}>{code}</code>)
       cursor = start + text.length
     } else {

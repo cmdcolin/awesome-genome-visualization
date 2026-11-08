@@ -18,6 +18,6 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm check-tools
       - run: pnpm check-tags
-      - run: pnpm prettier --check .
+      - run: pnpm format:check
       - run: pnpm lint
       - run: pnpm build

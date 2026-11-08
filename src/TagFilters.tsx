@@ -3,6 +3,14 @@ import { type Tool, useAppStore } from './store'
 import styles from './FilterGroup.module.css'
 import { facetOrder, splitTag } from './facets'
 
+function option([t, n]: [string, number]) {
+  return (
+    <option key={t} value={t}>
+      {t} ({n})
+    </option>
+  )
+}
+
 export default function TagFilters({ tools }: { tools: Tool[] }) {
   const tag = useAppStore(s => s.tag)
   const setTag = useAppStore(s => s.setTag)
@@ -14,16 +22,12 @@ export default function TagFilters({ tools }: { tools: Tool[] }) {
     }
   }
   const byFacet = new Map<string, [string, number][]>()
-  for (const entry of [...counts].sort((a, b) => a[0].localeCompare(b[0]))) {
+  for (const entry of [...counts].toSorted((a, b) =>
+    a[0].localeCompare(b[0]),
+  )) {
     const { facet } = splitTag(entry[0])
     byFacet.set(facet, [...(byFacet.get(facet) ?? []), entry])
   }
-
-  const option = ([t, n]: [string, number]) => (
-    <option key={t} value={t}>
-      {t} ({n})
-    </option>
-  )
 
   return (
     <div className={styles.group}>

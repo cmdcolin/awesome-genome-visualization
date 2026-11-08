@@ -23,7 +23,7 @@ export default function ToolFigure({
         }
       }}
     >
-      {img ? (
+      {img !== undefined ? (
         <img
           alt={`screenshot of ${name}`}
           loading="lazy"
@@ -35,7 +35,7 @@ export default function ToolFigure({
       ) : (
         <p>No screenshot</p>
       )}
-      {expanded && img ? (
+      {expanded && img !== undefined ? (
         <ImageDialog
           img={img}
           onClose={() => {

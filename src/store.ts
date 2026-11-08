@@ -45,11 +45,16 @@ const defaultSort: Sort = { by: 'added', dir: -1 }
 
 const params = new URLSearchParams(window.location.search)
 
+function param(name: string) {
+  const value = params.get(name)
+  return value === null || value === '' ? undefined : value
+}
+
 function parseSort(): Sort {
   for (const by of ['year', 'citations', 'stars'] as const) {
     const dir = params.get(by)
     if (dir === '1' || dir === '-1') {
-      return { by, dir: +dir as 1 | -1 }
+      return { by, dir: dir === '1' ? 1 : -1 }
     }
   }
   return params.get('latest') === 'false'
@@ -59,20 +64,20 @@ function parseSort(): Sort {
 
 function parseTag() {
   const replacements: Partial<Record<string, string[]>> = tagRemap
-  const tag = params.get('tag')
-  const language = params.get('language')
-  const platform = params.get('platform')
-  if (tag) {
+  const tag = param('tag')
+  const language = param('language')
+  const platform = param('platform')
+  if (tag !== undefined) {
     return replacements[tag]?.[0] ?? tag
   }
-  if (language) {
+  if (language !== undefined) {
     return `stack:${language}`
   }
-  return platform ? `platform:${platform}` : undefined
+  return platform !== undefined ? `platform:${platform}` : undefined
 }
 
-const legacySelected = params.get('selected')
-if (legacySelected) {
+const legacySelected = param('selected')
+if (legacySelected !== undefined) {
   window.location.hash = legacySelected.replace(/^#/, '')
 }
 
@@ -93,7 +98,7 @@ export const useAppStore = create<AppState>()(set => ({
 
 function toSearch({ mode, tag, sort }: AppState) {
   const p = new URLSearchParams()
-  if (tag) {
+  if (tag !== undefined) {
     p.set('tag', tag)
   }
   if (sort.by === 'added') {

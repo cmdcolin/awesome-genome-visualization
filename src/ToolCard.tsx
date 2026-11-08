@@ -57,12 +57,12 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             {name}
           </Link>
         </h3>
-        {url ? (
+        {url !== undefined ? (
           <p className={styles.text}>
             <Link href={url}>{ellipses(url)}</Link>
           </p>
         ) : null}
-        {alt_url ? (
+        {alt_url !== undefined ? (
           <p className={styles.text}>
             Alt url <Link href={alt_url}>{ellipses(alt_url)}</Link>
           </p>
@@ -71,7 +71,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           <p className={styles.metadata}>
             Publication:{' '}
             {pub.doi ? <Link href={doiUrl(pub.doi)}>(doi link)</Link> : null}{' '}
-            {pub.year ? ` (${pub.year})` : null}
+            {pub.year !== undefined ? ` (${pub.year})` : null}
             {pub.citations === undefined
               ? null
               : ` (# citations ${pub.citations})`}
@@ -88,17 +88,17 @@ export default function ToolCard({ tool }: { tool: Tool }) {
             tags={tags.filter(t => splitTag(t).facet === facet)}
           />
         ))}
-        {note ? (
+        {note !== undefined ? (
           <div>
             <Note>{'Note: ' + note}</Note>
           </div>
         ) : null}
-        {twitter ? (
+        {twitter !== undefined ? (
           <p className={styles.metadata}>
             Twitter: <Link href={twitter}>{twitter}</Link>
           </p>
         ) : null}
-        {github ? (
+        {github !== undefined ? (
           <p className={styles.metadata}>
             Github: <Link href={github}>{github}</Link>
           </p>

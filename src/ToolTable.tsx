@@ -25,7 +25,7 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
                 <>
                   {pub.doi ? (
                     <Link href={doiUrl(pub.doi)}>
-                      link {pub.year ? `(${pub.year})` : ''}{' '}
+                      link {pub.year !== undefined ? `(${pub.year})` : ''}{' '}
                       {pub.citations === undefined
                         ? ''
                         : `(${pub.citations} citations)`}
@@ -35,17 +35,17 @@ export default function ToolTable({ tools }: { tools: Tool[] }) {
               ) : null}
             </td>
             <td className={styles.cell}>
-              {url ? (
+              {url !== undefined ? (
                 <Link href={url} target="_blank" rel="noreferrer">
                   {url}
                 </Link>
               ) : null}{' '}
-              {github && github !== url ? (
+              {github !== undefined && github !== url ? (
                 <Link href={github}>{github}</Link>
               ) : null}
             </td>
             <td className={styles.cell}>
-              {img ? (
+              {img !== undefined ? (
                 <Link href={img} target="_blank" rel="noreferrer">
                   {img}
                 </Link>

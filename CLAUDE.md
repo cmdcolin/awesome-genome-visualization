@@ -1,12 +1,12 @@
 # awesome-genome-visualization
 
-## `TOOLS.json` is prettier-formatted
+## `TOOLS.json` is oxfmt-formatted
 
 `TOOLS.json` lives at the root (`src/TOOLS.json` is a symlink to it). Edit it
 programmatically with `json.load`, mutate,
 `json.dump(..., indent=2, ensure_ascii=False)`, then run
-`npx prettier --write TOOLS.json`. A round-trip of the unmodified file should
-diff clean.
+`pnpm exec oxfmt TOOLS.json`. A round-trip of the unmodified file should diff
+clean.
 
 ## The filter axes
 

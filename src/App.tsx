@@ -70,7 +70,10 @@ export default function App() {
   }, [])
 
   const tools = sortTools(sort)
-  const filteredTools = tag ? tools.filter(t => t.tags?.includes(tag)) : tools
+  const filteredTools =
+    tag !== undefined
+      ? tools.filter(t => t.tags?.includes(tag) ?? false)
+      : tools
 
   return (
     <div className={styles.container}>
