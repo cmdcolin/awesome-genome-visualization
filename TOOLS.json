@@ -175,7 +175,12 @@
       "height": 478
     },
     {
-      "tags": ["data:SV", "license:Commercial"],
+      "tags": [
+        "data:SV",
+        "field:Human genetics",
+        "field:Cancer",
+        "license:Commercial"
+      ],
       "img": "bionano.png",
       "name": "Bionano",
       "url": "https://bionanogenomics.com/technology/structural-variation/",
@@ -183,7 +188,7 @@
       "height": 295
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS"],
+      "tags": ["data:MSA", "task:Annotation", "platform:Web", "stack:JS"],
       "name": "AA (alignment annotator)",
       "pub": {
         "doi": "10.1093/nar/gku400",
@@ -197,7 +202,13 @@
       "height": 539
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS"],
+      "tags": [
+        "data:MSA",
+        "data:Phylogeny",
+        "data:Protein",
+        "platform:Web",
+        "stack:JS"
+      ],
       "name": "abrowse (MSA viewer)",
       "img": "abrowse.png",
       "url": "https://github.com/ihh/abrowse",
@@ -206,7 +217,13 @@
       "github_stars": 12
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS", "license:MIT"],
+      "tags": [
+        "data:MSA",
+        "data:Phylogeny",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT"
+      ],
       "name": "alignment.js",
       "img": "alignmentjs.png",
       "url": "https://github.com/veg/alignment.js",
@@ -226,7 +243,13 @@
       "github_stars": 1
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS", "license:MIT"],
+      "tags": [
+        "data:MSA",
+        "data:Protein",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT"
+      ],
       "name": "AlignmentViewer",
       "img": "alignmentviewer.png",
       "github": "https://github.com/sanderlab/alignmentviewer",
@@ -318,7 +341,13 @@
       "height": 249
     },
     {
-      "tags": ["data:MSA", "ui:Static", "platform:Web", "platform:CLI"],
+      "tags": [
+        "data:MSA",
+        "data:Protein",
+        "ui:Static",
+        "platform:Web",
+        "platform:CLI"
+      ],
       "name": "ESPript",
       "img": "espript.png",
       "pub": {
@@ -332,7 +361,13 @@
       "height": 204
     },
     {
-      "tags": ["data:MSA", "platform:Desktop", "stack:Java"],
+      "tags": [
+        "data:MSA",
+        "data:Protein",
+        "data:Phylogeny",
+        "platform:Desktop",
+        "stack:Java"
+      ],
       "name": "Jalview",
       "img": "jalview.jpg",
       "url": "https://www.jalview.org/",
@@ -376,7 +411,13 @@
       "github_stars": 19
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS", "license:MIT"],
+      "tags": [
+        "data:MSA",
+        "data:Protein",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT"
+      ],
       "name": "MSABrowser",
       "img": "msabrowser.png",
       "github": "https://github.com/thekaplanlab/msabrowser",
@@ -407,7 +448,13 @@
       "github_stars": 9
     },
     {
-      "tags": ["data:MSA", "platform:Web", "platform:Portal", "stack:Perl"],
+      "tags": [
+        "data:MSA",
+        "data:BLAST",
+        "platform:Web",
+        "platform:Portal",
+        "stack:Perl"
+      ],
       "name": "MView",
       "url": "https://www.ebi.ac.uk/Tools/msa/mview/",
       "pub": {
@@ -465,6 +512,7 @@
     {
       "tags": [
         "data:MSA",
+        "data:Phylogeny",
         "platform:Web",
         "stack:JS",
         "stack:React",
@@ -480,6 +528,7 @@
     {
       "tags": [
         "data:MSA",
+        "data:Phylogeny",
         "platform:Desktop",
         "stack:Objective-C",
         "license:GPL-3.0"
@@ -548,6 +597,8 @@
     {
       "tags": [
         "data:CNV",
+        "field:Cancer",
+        "view:Heatmap",
         "ui:Static",
         "platform:CLI",
         "stack:Python",
@@ -583,7 +634,15 @@
       "github_stars": 616
     },
     {
-      "tags": ["data:CNV", "ui:Static", "platform:CLI", "stack:C", "stack:R"],
+      "tags": [
+        "data:CNV",
+        "data:Coverage",
+        "field:Epigenomics",
+        "ui:Static",
+        "platform:CLI",
+        "stack:C",
+        "stack:R"
+      ],
       "name": "BAMScale",
       "img": "bamscale.png",
       "url": "https://github.com/NLM-DIR/BAMscale",
@@ -658,6 +717,8 @@
     {
       "tags": [
         "data:CNV",
+        "data:Coverage",
+        "field:Population",
         "ui:Static",
         "platform:Library",
         "stack:R",
@@ -678,6 +739,7 @@
     {
       "tags": [
         "data:CNV",
+        "field:Human genetics",
         "ui:Static",
         "platform:Library",
         "stack:R",
@@ -767,6 +829,8 @@
     {
       "tags": [
         "data:Gene structure",
+        "data:Coverage",
+        "data:Splicing",
         "ui:Static",
         "platform:Library",
         "stack:Python",
@@ -1003,6 +1067,7 @@
     {
       "tags": [
         "data:Coverage",
+        "view:Dotplot",
         "ui:Static",
         "platform:CLI",
         "stack:Python",
@@ -1017,7 +1082,13 @@
       "github_stars": 37
     },
     {
-      "tags": ["data:Hi-C", "ui:Static", "platform:CLI", "stack:Python"],
+      "tags": [
+        "data:Hi-C",
+        "view:Heatmap",
+        "ui:Static",
+        "platform:CLI",
+        "stack:Python"
+      ],
       "name": "HiCPlotter",
       "img": "hicplotter.jpg",
       "pub": {
@@ -2001,6 +2072,7 @@
     },
     {
       "tags": [
+        "kind:Genome browser",
         "field:Comparative genomics",
         "platform:Web",
         "platform:Portal",
@@ -2057,7 +2129,7 @@
       "github_stars": 83
     },
     {
-      "tags": ["field:Comparative genomics", "stack:Perl"],
+      "tags": ["data:SV", "field:Comparative genomics", "stack:Perl"],
       "name": "Parasight",
       "img": "parasight.png",
       "url": "https://baileylab.brown.edu/parasight/galframe.html",
@@ -2262,7 +2334,12 @@
       "github_stars": 42
     },
     {
-      "tags": ["data:Genome graph", "platform:Web", "stack:Python"],
+      "tags": [
+        "data:Genome graph",
+        "task:Assembly QC",
+        "platform:Web",
+        "stack:Python"
+      ],
       "name": "AGB assembly graph browser",
       "img": "agb.jpeg",
       "github": "https://github.com/almiheenko/AGB",
@@ -2621,6 +2698,7 @@
     {
       "tags": [
         "data:SV",
+        "field:Cancer",
         "ui:Terminal",
         "platform:CLI",
         "stack:C++",
@@ -2641,6 +2719,7 @@
     {
       "tags": [
         "data:Read alignment",
+        "data:Repeat",
         "ui:Terminal",
         "platform:CLI",
         "license:GPL-2.0"
@@ -2693,12 +2772,18 @@
       "tags": ["view:Circular", "platform:Desktop", "license:Commercial"],
       "name": "Circa",
       "img": "circa.png",
-      "url": "https://omgenomics.com/circa",
+      "url": "https://circa.omgenomics.com/",
       "width": 1158,
       "height": 1158
     },
     {
-      "tags": ["view:Circular", "ui:Static", "platform:CLI", "stack:Perl"],
+      "tags": [
+        "view:Circular",
+        "field:Comparative genomics",
+        "ui:Static",
+        "platform:CLI",
+        "stack:Perl"
+      ],
       "name": "Circleator",
       "github": "https://github.com/jonathancrabtree/Circleator",
       "img": "circleator.png",
@@ -2751,7 +2836,12 @@
       "github_stars": 534
     },
     {
-      "tags": ["view:Circular", "platform:Desktop", "stack:Java"],
+      "tags": [
+        "view:Circular",
+        "view:Linear",
+        "platform:Desktop",
+        "stack:Java"
+      ],
       "name": "DNAPlotter",
       "img": "dnaplotter.jpg",
       "url": "https://www.sanger.ac.uk/science/tools/dnaplotter",
@@ -2823,7 +2913,7 @@
       "github_stars": 109
     },
     {
-      "tags": ["view:Circular", "ui:Static", "platform:Web"],
+      "tags": ["view:Circular", "view:Linear", "ui:Static", "platform:Web"],
       "name": "OGDRAW",
       "img": "ogdraw.png",
       "url": "https://chlorobox.mpimp-golm.mpg.de/OGDraw.html",
@@ -2925,7 +3015,12 @@
       "height": 575
     },
     {
-      "tags": ["data:Read alignment", "platform:Web", "stack:WASM"],
+      "tags": [
+        "data:Read alignment",
+        "field:Cancer",
+        "platform:Web",
+        "stack:WASM"
+      ],
       "name": "Chromatic",
       "url": "https://chromatic.nci.nih.gov/",
       "img": "chromatic.png",
@@ -2985,6 +3080,8 @@
     {
       "tags": [
         "view:Novel layout",
+        "data:Repeat",
+        "view:Heatmap",
         "platform:Web",
         "stack:Python",
         "stack:JS",
@@ -3024,7 +3121,14 @@
       "height": 312
     },
     {
-      "tags": ["view:Novel layout", "platform:Web", "stack:Python"],
+      "tags": [
+        "view:Novel layout",
+        "task:Assembly QC",
+        "data:Whole-genome alignment",
+        "field:Comparative genomics",
+        "platform:Web",
+        "stack:Python"
+      ],
       "name": "FluentDNA",
       "img": "fluentdna.jpeg",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7203487/",
@@ -3406,6 +3510,8 @@
     {
       "tags": [
         "data:Read alignment",
+        "kind:Genome browser",
+        "data:SV",
         "platform:Web",
         "stack:Java",
         "license:MIT"
@@ -3827,7 +3933,12 @@
       "github_stars": 5
     },
     {
-      "tags": ["view:Novel layout", "platform:Desktop", "stack:Java"],
+      "tags": [
+        "view:Novel layout",
+        "data:BLAST",
+        "platform:Desktop",
+        "stack:Java"
+      ],
       "name": "Cylindrical alignment app",
       "github": "https://github.com/lesfoster/cylindrical-alignment-app",
       "img": "cylindrical_alignment_viewer.png",
@@ -4103,7 +4214,13 @@
       "height": 697
     },
     {
-      "tags": ["kind:Genome browser", "platform:Web", "stack:JS"],
+      "tags": [
+        "kind:Genome browser",
+        "data:Hi-C",
+        "field:Epigenomics",
+        "platform:Web",
+        "stack:JS"
+      ],
       "name": "Nucleome browser",
       "img": "nucleome.png",
       "url": "https://vis.nucleome.org/v1/main.html",
@@ -4388,6 +4505,8 @@
     {
       "tags": [
         "view:Dotplot",
+        "data:Repeat",
+        "data:Transposon",
         "ui:Static",
         "platform:CLI",
         "stack:Python",
@@ -4760,7 +4879,12 @@
       "github_stars": 320
     },
     {
-      "tags": ["view:Ideogram", "ui:Static", "stack:SVG"],
+      "tags": [
+        "view:Ideogram",
+        "field:Human genetics",
+        "ui:Static",
+        "stack:SVG"
+      ],
       "name": "Ideogram",
       "img": "rcollins_ideogram.png",
       "url": "https://github.com/RCollins13/HumanIdiogramLibrary",
@@ -6247,7 +6371,13 @@
       "name": "oxford-plots",
       "url": "https://github.com/jherrero/oxford-plots",
       "img": "oxford.png",
-      "tags": ["view:Dotplot", "stack:R", "stack:Perl"],
+      "tags": [
+        "view:Dotplot",
+        "data:Synteny",
+        "field:Comparative genomics",
+        "stack:R",
+        "stack:Perl"
+      ],
       "note": "Has nice description of a synteny pipeline here https://github.com/jherrero/oxford-plots/blob/master/examples/pig_X_Y.txt",
       "width": 2000,
       "height": 2000,
@@ -6292,7 +6422,13 @@
       "name": "GraphAlignmentViewer",
       "img": "graphalignmentviewer.png",
       "url": "https://github.com/Illumina/GraphAlignmentViewer",
-      "tags": ["data:Repeat", "ui:Static", "platform:CLI", "stack:Python"],
+      "tags": [
+        "data:Repeat",
+        "data:Read alignment",
+        "ui:Static",
+        "platform:CLI",
+        "stack:Python"
+      ],
       "width": 865,
       "height": 755,
       "github_stars": 36
@@ -6467,7 +6603,7 @@
         "year": 2017,
         "citations": 28
       },
-      "tags": ["data:Hi-C", "stack:Python", "license:GPL-3.0"],
+      "tags": ["data:Hi-C", "view:Heatmap", "stack:Python", "license:GPL-3.0"],
       "width": 576,
       "height": 309,
       "github_stars": 23
@@ -6499,7 +6635,7 @@
       "name": "Ideogram viewer",
       "url": "https://bioinformatics.mdanderson.org/public-software/ideogramviewer/",
       "img": "ideogramviewer.png",
-      "tags": ["view:Ideogram", "platform:Web", "stack:JS"],
+      "tags": ["view:Ideogram", "field:Cancer", "platform:Web", "stack:JS"],
       "width": 926,
       "height": 394
     },
@@ -6531,6 +6667,7 @@
       "img": "ggplot2_manhattan.png",
       "tags": [
         "data:GWAS",
+        "view:Manhattan",
         "ui:Static",
         "platform:Library",
         "stack:R",
@@ -7293,6 +7430,7 @@
       "img": "ggtranscript.png",
       "tags": [
         "data:Gene structure",
+        "data:Splicing",
         "ui:Static",
         "platform:Library",
         "stack:R"
@@ -7313,6 +7451,7 @@
       "img": "cialign.png",
       "tags": [
         "data:MSA",
+        "view:Sequence logo",
         "ui:Static",
         "platform:CLI",
         "stack:Python",
@@ -7605,7 +7744,14 @@
     {
       "name": "CMPlot",
       "img": "cmplot.png",
-      "tags": ["data:GWAS", "ui:Static", "platform:Library", "stack:R"],
+      "tags": [
+        "data:GWAS",
+        "view:Manhattan",
+        "view:Circular",
+        "ui:Static",
+        "platform:Library",
+        "stack:R"
+      ],
       "github": "https://github.com/YinLiLin/CMplot",
       "pub": {
         "doi": "10.1016/j.gpb.2020.10.007",
@@ -7760,6 +7906,7 @@
       "github_stars": 375,
       "tags": [
         "view:Circular",
+        "data:Phylogeny",
         "ui:Static",
         "platform:Library",
         "stack:Python",
@@ -7931,7 +8078,13 @@
       "width": 825,
       "height": 188,
       "github_stars": 220,
-      "tags": ["data:MSA", "ui:Static", "platform:Library", "stack:R"]
+      "tags": [
+        "data:MSA",
+        "view:Sequence logo",
+        "ui:Static",
+        "platform:Library",
+        "stack:R"
+      ]
     },
     {
       "name": "AccuSyn",
@@ -8137,6 +8290,9 @@
       "img": "vcfplotein.png",
       "tags": [
         "data:Small variant",
+        "view:Lollipop",
+        "task:Variant interpretation",
+        "field:Human genetics",
         "stack:JS",
         "stack:D3",
         "stack:Vue",
@@ -8280,7 +8436,8 @@
       "github": "https://github.com/epi2me-labs/ezcharts",
       "width": 1141,
       "height": 569,
-      "github_stars": 23
+      "github_stars": 23,
+      "url": "https://github.com/epi2me-labs/ezcharts"
     },
     {
       "name": "gw",
@@ -8307,7 +8464,12 @@
     {
       "name": "PretextView",
       "img": "pretextview.jpg",
-      "tags": ["data:Hi-C", "platform:Desktop", "stack:C++"],
+      "tags": [
+        "data:Hi-C",
+        "task:Assembly QC",
+        "platform:Desktop",
+        "stack:C++"
+      ],
       "github": "https://github.com/sanger-tol/PretextView",
       "width": 1616,
       "height": 1616,
@@ -8318,6 +8480,7 @@
       "img": "pycirclize.png",
       "tags": [
         "view:Circular",
+        "data:Phylogeny",
         "ui:Static",
         "platform:Library",
         "stack:Python",
@@ -8757,6 +8920,7 @@
       "img": "bamdash.png",
       "tags": [
         "data:Coverage",
+        "field:Virology",
         "ui:Static",
         "platform:CLI",
         "stack:Python",
@@ -8873,7 +9037,12 @@
     },
     {
       "name": "SGTK (scaffold graph toolkit)",
-      "tags": ["data:Genome graph", "stack:JS", "stack:C++"],
+      "tags": [
+        "data:Genome graph",
+        "task:Assembly QC",
+        "stack:JS",
+        "stack:C++"
+      ],
       "img": "sgtk.png",
       "url": "https://olga24912.github.io/SGTK/",
       "github": "https://github.com/olga24912/SGTK",
@@ -8893,6 +9062,8 @@
       "img": "pgv2.png",
       "tags": [
         "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
         "platform:Web",
         "stack:JS",
         "stack:Python",
@@ -9083,6 +9254,8 @@
       "img": "waragraph.png",
       "tags": [
         "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
         "platform:Web",
         "platform:Desktop",
         "stack:Rust"
@@ -9279,6 +9452,8 @@
       "img": "strangepg.png",
       "tags": [
         "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
         "platform:Desktop",
         "stack:C",
         "license:MIT"
@@ -9632,6 +9807,8 @@
       "img": "pangyplot.png",
       "tags": [
         "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
         "platform:Web",
         "stack:Python",
         "license:MIT"
@@ -9768,6 +9945,7 @@
       "name": "pyideogram",
       "tags": [
         "view:Ideogram",
+        "data:Gene structure",
         "ui:Static",
         "platform:Library",
         "stack:Python",
@@ -9964,6 +10142,7 @@
       "name": "SloppyyGFA",
       "tags": [
         "data:Genome graph",
+        "task:Assembly QC",
         "platform:Web",
         "stack:TypeScript",
         "stack:WebGL",
@@ -10164,6 +10343,8 @@
       "name": "VIJB",
       "tags": [
         "task:Accessibility",
+        "data:Signal track",
+        "data:Gene structure",
         "stack:Python",
         "with:JBrowse",
         "license:GPL-3.0"
