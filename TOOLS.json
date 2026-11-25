@@ -2157,7 +2157,7 @@
         "data:CNV",
         "data:Breakend",
         "data:Genome graph",
-        "platform:Web",
+        "platform:Library",
         "stack:R",
         "license:MIT"
       ],
@@ -2999,7 +2999,7 @@
       "height": 1352
     },
     {
-      "tags": ["task:Assembly QC", "data:Genome graph", "platform:Web"],
+      "tags": ["task:Assembly QC", "platform:Web"],
       "name": "Icarus QUAST",
       "img": "icarus.png",
       "url": "http://quast.sourceforge.net/icarus.html",
@@ -3673,11 +3673,16 @@
       "height": 648
     },
     {
-      "tags": ["kind:Genome browser", "platform:Web", "stack:Perl"],
+      "tags": [
+        "kind:Genome browser",
+        "platform:Web",
+        "stack:Perl",
+        "status:Historical"
+      ],
       "name": "GBrowse 2",
       "github": "https://github.com/GMOD/GBrowse",
       "img": "gbrowse.png",
-      "url": "http://gmod.org/wiki/GBrowse",
+      "url": "https://gmod.org/wiki/GBrowse_2.0_HOWTO",
       "pub": {
         "doi": "10.1093/bib/bbt001",
         "year": 2013,
@@ -4986,7 +4991,7 @@
     },
     {
       "name": "PopSV",
-      "tags": ["field:Population", "data:SV", "platform:Web", "stack:R"],
+      "tags": ["field:Population", "data:SV", "platform:Library", "stack:R"],
       "url": "https://github.com/jmonlong/PopSV/blob/master/3-Visualization.md",
       "github": "https://github.com/jmonlong/PopSV",
       "pub": {
@@ -5060,7 +5065,7 @@
     },
     {
       "name": "SMRT View",
-      "tags": ["data:SV", "status:Archived"],
+      "tags": ["data:SV", "status:Deadlink"],
       "note": "wiki page https://github.com/PacificBiosciences/DevNet/wiki/SMRT-View",
       "github": "https://github.com/PacificBiosciences/DevNet",
       "url": "http://files.pacb.com/software/smrtanalysis/2.3.0/doc/smrtview/help/Webhelp/App_View_Epipro.htm",
@@ -7698,7 +7703,7 @@
         "year": 2022,
         "citations": 1
       },
-      "url": "https://cran.r-project.org/web/packages/ggcoverage/vignettes/ggcoverage.html",
+      "url": "https://showteeth.github.io/ggcoverage/",
       "github": "https://github.com/showteeth/ggcoverage",
       "width": 1024,
       "height": 717,
@@ -8795,14 +8800,13 @@
     {
       "name": "Genome Puzzle Master (GPM)",
       "img": "gpm.png",
-      "github": "https://github.com/Jianwei-Zhang/CGAT",
       "pub": {
         "doi": "10.1093/bioinformatics/btw370",
         "year": 2016,
         "citations": 28
       },
       "tags": ["task:Assembly QC", "stack:JS"],
-      "url": "https://jianwei-zhang.github.io/LIMS/GPM-Manual.html",
+      "url": "https://github.com/Jianwei-Zhang/CGAT",
       "width": 1107,
       "height": 709,
       "github_stars": 39
