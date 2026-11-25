@@ -10581,8 +10581,8 @@
         "year": 2026,
         "citations": 0
       },
-      "width": 1885,
-      "height": 916,
+      "width": 1856,
+      "height": 896,
       "github_stars": 1
     },
     {
@@ -10653,27 +10653,6 @@
       "width": 1600,
       "height": 989,
       "github_stars": 2
-    },
-    {
-      "name": "OLIVE (Optical Looping Interactive Viewing Engine)",
-      "tags": [
-        "field:Epigenomics",
-        "data:Chromatin tracing",
-        "platform:Web",
-        "stack:JS"
-      ],
-      "github": "https://github.com/faryabiLab/chromatin-traces-vis",
-      "url": "https://faryabilab.github.io/chromatin-traces-vis/",
-      "note": "Web viewer for optical chromatin tracing data that reconstructs and shows the 3D fibers of individual alleles, queryable by pairwise distances between segments",
-      "pub": {
-        "doi": "10.1101/2025.06.18.660347",
-        "year": 2025,
-        "citations": 0
-      },
-      "github_stars": 1,
-      "img": "olive.png",
-      "width": 1600,
-      "height": 1000
     }
   ]
 }

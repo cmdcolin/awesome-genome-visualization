@@ -26,7 +26,7 @@ these, they can hamper your learning if you become overly reliant on them) make
 this much easier! But also consider making your visualization code re-usable for
 the wider community! And feel free to send PRs for more tools!
 
-Finally, at least 69% (401/579) tools in this list have written publications for
+Finally, at least 69% (400/578) tools in this list have written publications for
 their tools. They went through the effort to write it up, cite these tools!!
 
 New rule: 2026-10-11 I will no longer be accepting tools without source
@@ -610,11 +610,6 @@ feasible.
 - [Methplotlib](https://github.com/wdecoster/methplotlib)
   [(pub)](https://doi.org/10.1093/bioinformatics/btaa093)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methplotlib.jpg)
-- [OLIVE (Optical Looping Interactive Viewing Engine)](https://faryabilab.github.io/chromatin-traces-vis/)
-  (Web viewer for optical chromatin tracing data that reconstructs and shows the
-  3D fibers of individual alleles, queryable by pairwise distances between
-  segments) [(pub)](https://doi.org/10.1101/2025.06.18.660347)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/olive.png)
 - [python-genome-browser aka pygbrowse](https://github.com/phageghost/python-genome-browser/blob/master/pygbrowse_demonstration.ipynb)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pygbrowse.png)
 
