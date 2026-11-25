@@ -3,16 +3,25 @@ import { type Tool, useAppStore } from './store'
 import styles from './FilterGroup.module.css'
 import { facetLabels, facetOrder, splitTag, tagLabel } from './facets'
 
-const quickPicks: [string, string][] = [
-  ['Genome browsers', 'kind:Genome browser'],
-  ['Comparative', 'field:Comparative genomics'],
-  ['Dotplots', 'view:Dotplot'],
-  ['MSA', 'data:MSA'],
-  ['Genome graphs', 'data:Genome graph'],
-  ['Terminal', 'ui:Terminal'],
-]
+export function SearchInput() {
+  const query = useAppStore(s => s.query)
+  const setQuery = useAppStore(s => s.setQuery)
+  return (
+    <input
+      id="search"
+      type="search"
+      aria-label="Search tools"
+      className={`${styles.control} ${styles.search}`}
+      placeholder="Search name, note or tag"
+      value={query}
+      onChange={event => {
+        setQuery(event.target.value)
+      }}
+    />
+  )
+}
 
-function TagSelect({ tools }: { tools: Tool[] }) {
+export function TagSelect({ tools }: { tools: Tool[] }) {
   const tags = useAppStore(s => s.tags)
   const addTag = useAppStore(s => s.addTag)
 
@@ -35,14 +44,15 @@ function TagSelect({ tools }: { tools: Tool[] }) {
   return (
     <select
       id="tag-select"
-      className={styles.select}
+      aria-label="Filter by tag"
+      className={styles.control}
       value=""
       onChange={event => {
         addTag(event.target.value)
       }}
     >
       <option value="">
-        {tags.length ? 'Narrow further…' : 'Choose a tag…'}
+        {tags.length ? 'Narrow further…' : 'Filter by tag…'}
       </option>
       {facetOrder
         .filter(facet => byFacet.has(facet))
@@ -59,79 +69,35 @@ function TagSelect({ tools }: { tools: Tool[] }) {
   )
 }
 
-export default function TagFilters({ tools }: { tools: Tool[] }) {
+export function ActiveTags() {
   const tags = useAppStore(s => s.tags)
-  const query = useAppStore(s => s.query)
   const setTags = useAppStore(s => s.setTags)
   const removeTag = useAppStore(s => s.removeTag)
   const setQuery = useAppStore(s => s.setQuery)
 
-  return (
-    <div className={styles.panel}>
-      <div className={styles.row}>
-        <label htmlFor="search" className={styles.label}>
-          Search
-        </label>
-        <input
-          id="search"
-          type="search"
-          className={styles.search}
-          placeholder="Name, note or tag"
-          value={query}
-          onChange={event => {
-            setQuery(event.target.value)
+  return tags.length ? (
+    <div className={styles.wrap}>
+      {tags.map(tag => (
+        <button
+          key={tag}
+          type="button"
+          className={styles.chip}
+          aria-label={`Remove filter ${tagLabel(tag)}`}
+          onClick={() => {
+            removeTag(tag)
           }}
-        />
-      </div>
-      <div className={styles.row}>
-        <label htmlFor="tag-select" className={styles.label}>
-          Filter
-        </label>
-        <TagSelect tools={tools} />
-      </div>
-      <div className={styles.row}>
-        <span className={styles.label}>Popular</span>
-        <div className={styles.wrap}>
-          {quickPicks.map(([label, tag]) => (
-            <Button
-              key={tag}
-              onClick={() => {
-                setTags([tag])
-              }}
-            >
-              {label}
-            </Button>
-          ))}
-        </div>
-      </div>
-      {tags.length ? (
-        <div className={styles.row}>
-          <span className={styles.label}>Active</span>
-          <div className={styles.wrap}>
-            {tags.map(tag => (
-              <button
-                key={tag}
-                type="button"
-                className={styles.chip}
-                aria-label={`Remove filter ${tagLabel(tag)}`}
-                onClick={() => {
-                  removeTag(tag)
-                }}
-              >
-                {tagLabel(tag)} <span aria-hidden="true">×</span>
-              </button>
-            ))}
-            <Button
-              onClick={() => {
-                setTags([])
-                setQuery('')
-              }}
-            >
-              Clear all
-            </Button>
-          </div>
-        </div>
-      ) : null}
+        >
+          {tagLabel(tag)} <span aria-hidden="true">×</span>
+        </button>
+      ))}
+      <Button
+        onClick={() => {
+          setTags([])
+          setQuery('')
+        }}
+      >
+        Clear all
+      </Button>
     </div>
-  )
+  ) : null
 }

@@ -2,8 +2,9 @@ import { useEffect } from 'react'
 import { tools as importedTools } from './TOOLS.json'
 import { type Sort, type SortBy, type Tool, useAppStore } from './store'
 import styles from './App.module.css'
+import filterStyles from './FilterGroup.module.css'
 
-import TagFilters from './TagFilters'
+import { ActiveTags, SearchInput, TagSelect } from './TagFilters'
 import ToolCard from './ToolCard'
 import ToolTable from './ToolTable'
 import Link from './Link'
@@ -91,18 +92,17 @@ export default function App() {
         repo <Link href={githubURL}>{githubURL}</Link>. Pull requests that add
         tools are welcome.
       </p>
-      {toolsUpdated !== undefined ? (
-        <p className={styles.updated}>List last updated {toolsUpdated}</p>
-      ) : null}
-
-      <TagFilters tools={filteredTools} />
       <div className={styles.toolbar}>
+        <SearchInput />
+        <TagSelect tools={filteredTools} />
         <SortSelect />
         <ModeSelector />
-        <p className={styles.count} aria-live="polite">
-          Showing {filteredTools.length} of {allTools.length} tools
-        </p>
       </div>
+      <ActiveTags />
+      <p className={styles.count} aria-live="polite">
+        Showing {filteredTools.length} of {allTools.length} tools
+        {toolsUpdated !== undefined ? ` · list updated ${toolsUpdated}` : ''}
+      </p>
 
       {filteredTools.length === 0 ? (
         <p>
@@ -137,22 +137,21 @@ function ModeSelector() {
   const mode = useAppStore(s => s.mode)
   const setMode = useAppStore(s => s.setMode)
   return (
-    <fieldset className={styles.controls}>
-      <legend className={styles.legend}>View</legend>
+    <div className={filterStyles.segmented} role="group" aria-label="View">
       {(['cards', 'table'] as const).map(m => (
-        <label key={m} className={styles.label}>
-          <input
-            type="radio"
-            name="mode"
-            checked={mode === m}
-            onChange={() => {
-              setMode(m)
-            }}
-          />
+        <button
+          key={m}
+          type="button"
+          className={filterStyles.control}
+          aria-pressed={mode === m}
+          onClick={() => {
+            setMode(m)
+          }}
+        >
           {m === 'cards' ? 'Cards' : 'Table'}
-        </label>
+        </button>
       ))}
-    </fieldset>
+    </div>
   )
 }
 
@@ -160,28 +159,25 @@ function SortSelect() {
   const sort = useAppStore(s => s.sort)
   const setSort = useAppStore(s => s.setSort)
   return (
-    <div className={styles.controls}>
-      <label htmlFor="sort" className={styles.legend}>
-        Sort
-      </label>
-      <select
-        id="sort"
-        value={sortValue(sort)}
-        onChange={event => {
-          const option = sortOptions.find(
-            ([, s]) => sortValue(s) === event.target.value,
-          )
-          if (option) {
-            setSort(option[1])
-          }
-        }}
-      >
-        {sortOptions.map(([label, s]) => (
-          <option key={label} value={sortValue(s)}>
-            {label}
-          </option>
-        ))}
-      </select>
-    </div>
+    <select
+      id="sort"
+      aria-label="Sort"
+      className={filterStyles.control}
+      value={sortValue(sort)}
+      onChange={event => {
+        const option = sortOptions.find(
+          ([, s]) => sortValue(s) === event.target.value,
+        )
+        if (option) {
+          setSort(option[1])
+        }
+      }}
+    >
+      {sortOptions.map(([label, s]) => (
+        <option key={label} value={sortValue(s)}>
+          {label}
+        </option>
+      ))}
+    </select>
   )
 }

@@ -1,43 +1,31 @@
-.panel {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-md);
-  border: 1px solid CanvasText;
+.control {
+  font: inherit;
+  height: 2.25rem;
+  padding: 0 var(--spacing-sm);
+  border: 1px solid GrayText;
+  border-radius: 4px;
+  background: Canvas;
+  color: CanvasText;
+  min-width: 0;
 }
 
-.row {
-  display: flex;
-  align-items: baseline;
-  gap: var(--spacing-sm);
-}
-
-.label {
-  flex: 0 0 4.5rem;
-  margin: 0;
-  font-weight: 600;
+.search {
+  flex: 1 1 16rem;
+  max-width: 28rem;
 }
 
 .wrap {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: var(--spacing-xs);
-}
-
-.search,
-.select {
-  flex: 1;
-  max-width: 28rem;
-  min-width: 0;
-  font: inherit;
-  padding: var(--spacing-xs);
 }
 
 .chip {
   font: inherit;
   cursor: pointer;
   padding: 0 var(--spacing-sm);
-  border: 1px solid CanvasText;
+  border: 1px solid GrayText;
   border-radius: 1rem;
   background: Canvas;
   color: CanvasText;
@@ -48,19 +36,32 @@
   color: HighlightText;
 }
 
+.segmented {
+  display: inline-flex;
+}
+
+.segmented .control {
+  cursor: pointer;
+}
+
+.segmented .control:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.segmented .control:last-child {
+  border-radius: 0 4px 4px 0;
+  border-left: 0;
+}
+
+.segmented .control[aria-pressed='true'] {
+  background: Highlight;
+  color: HighlightText;
+  border-color: Highlight;
+}
+
 @media (max-width: 480px) {
-  .row {
-    flex-direction: column;
-    align-items: stretch;
-    gap: var(--spacing-xs);
-  }
-
-  .label {
-    flex-basis: auto;
-  }
-
-  .search,
-  .select {
+  .search {
     max-width: none;
+    flex-basis: 100%;
   }
 }
