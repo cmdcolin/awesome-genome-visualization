@@ -75,5 +75,8 @@
   "Transposons": ["data:Transposon"],
   "UCSC integration": ["with:UCSC"],
   "Variation": ["data:Small variant"],
-  "ggplot2": ["stack:ggplot2"]
+  "ggplot2": ["stack:ggplot2"],
+  "stack:Typescript": ["stack:TypeScript"],
+  "stack:VueJS": ["stack:Vue"],
+  "stack:Bash": ["stack:Shell"]
 }

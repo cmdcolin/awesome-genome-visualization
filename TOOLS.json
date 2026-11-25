@@ -25,8 +25,8 @@
         "kind:Genome browser",
         "view:Linear",
         "field:Microbiology",
-        "license:Commercial",
-        "platform:Portal"
+        "platform:Portal",
+        "license:Commercial"
       ],
       "name": "ATCC Genome Portal",
       "img": "atcc.png",
@@ -183,7 +183,7 @@
       "github_stars": 12
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS"],
+      "tags": ["data:MSA", "platform:Web", "stack:JS", "license:MIT"],
       "name": "alignment.js",
       "img": "alignmentjs.png",
       "url": "https://github.com/veg/alignment.js",
@@ -192,7 +192,7 @@
       "github_stars": 12
     },
     {
-      "tags": ["data:MSA", "stack:Java"],
+      "tags": ["data:MSA", "stack:Java", "license:GPL-3.0"],
       "name": "AlignmentComparator",
       "img": "alignmentcomparator.png",
       "github": "https://github.com/bioinfweb/AlignmentComparator",
@@ -203,7 +203,7 @@
       "github_stars": 1
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS"],
+      "tags": ["data:MSA", "platform:Web", "stack:JS", "license:MIT"],
       "name": "AlignmentViewer",
       "img": "alignmentviewer.png",
       "github": "https://github.com/sanderlab/alignmentviewer",
@@ -219,7 +219,7 @@
       "github_stars": 35
     },
     {
-      "tags": ["data:MSA", "platform:Desktop", "stack:Java"],
+      "tags": ["data:MSA", "platform:Desktop", "stack:Java", "license:GPL-3.0"],
       "name": "AliView",
       "img": "aliview.png",
       "url": "http://www.ormbunkar.se/aliview/",
@@ -234,7 +234,13 @@
       "github_stars": 163
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS"],
+      "tags": [
+        "data:MSA",
+        "platform:Web",
+        "stack:JS",
+        "license:BSL-1.0",
+        "status:Archived"
+      ],
       "name": "BioJS MSA",
       "url": "https://msa.biojs.net/",
       "img": "biojsmsa.png",
@@ -255,13 +261,13 @@
       "note": "Can automate boxshade",
       "github": "https://github.com/mhahsler/rMSA",
       "img": "rmsa.png",
-      "tags": ["data:MSA", "stack:R"],
+      "tags": ["data:MSA", "stack:R", "license:GPL-3.0"],
       "width": 650,
       "height": 407,
       "github_stars": 12
     },
     {
-      "tags": ["data:MSA", "status:Deadlink", "platform:Web", "platform:CLI"],
+      "tags": ["data:MSA", "platform:Web", "platform:CLI", "status:Deadlink"],
       "name": "Boxshade",
       "note": "Also available as a command line tool with `apt install boxshade`. See also rMSA which can automate running boxshade from within R",
       "img": "boxshade.png",
@@ -303,7 +309,7 @@
       "height": 377
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS"],
+      "tags": ["data:MSA", "platform:Web", "stack:JS", "license:GPL-2.0"],
       "name": "JSAV",
       "img": "jsav.png",
       "github": "https://github.com/AndrewCRMartin/JSAV",
@@ -319,7 +325,7 @@
       "github_stars": 11
     },
     {
-      "tags": ["view:Sequence logo", "platform:Web", "stack:JS"],
+      "tags": ["view:Sequence logo", "platform:Web", "stack:JS", "license:MIT"],
       "name": "LogoJS",
       "img": "logojs.png",
       "github": "https://github.com/weng-lab/logojs-package",
@@ -334,7 +340,7 @@
       "github_stars": 19
     },
     {
-      "tags": ["data:MSA", "platform:Web", "stack:JS"],
+      "tags": ["data:MSA", "platform:Web", "stack:JS", "license:MIT"],
       "name": "MSABrowser",
       "img": "msabrowser.png",
       "github": "https://github.com/thekaplanlab/msabrowser",
@@ -387,7 +393,12 @@
       "height": 459
     },
     {
-      "tags": ["data:MSA", "platform:Desktop", "stack:Python"],
+      "tags": [
+        "data:MSA",
+        "platform:Desktop",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "name": "pyBoxshade",
       "img": "pyboxshade.png",
       "url": "https://github.com/mdbaron42/pyBoxshade",
@@ -408,10 +419,10 @@
     {
       "tags": [
         "data:MSA",
-        "status:Deadlink",
         "platform:Web",
         "stack:JS",
-        "stack:React"
+        "stack:React",
+        "status:Deadlink"
       ],
       "name": "React MSAViewer",
       "img": "react-msa-viewer.png",
@@ -422,16 +433,21 @@
       "github_stars": 25
     },
     {
-      "tags": ["data:MSA", "stack:JS", "stack:React"],
+      "tags": ["data:MSA", "stack:JS", "stack:React", "license:MIT"],
       "name": "react-msaview",
       "img": "react-msaview.png",
-      "url": "https://github.com/GMOD/react-msaview",
+      "url": "https://github.com/GMOD/JBrowseMSA",
       "width": 1177,
       "height": 413,
       "github_stars": 27
     },
     {
-      "tags": ["data:MSA", "platform:Desktop", "stack:Objective-C"],
+      "tags": [
+        "data:MSA",
+        "platform:Desktop",
+        "stack:Objective-C",
+        "license:GPL-3.0"
+      ],
       "name": "seqotron",
       "img": "seqotron.png",
       "url": "https://github.com/4ment/seqotron",
@@ -477,7 +493,8 @@
         "field:Evolution",
         "platform:Web",
         "stack:JS",
-        "stack:Python"
+        "stack:Python",
+        "license:AGPL-3.0"
       ],
       "name": "Wasabi",
       "img": "wasabi.png",
@@ -493,7 +510,7 @@
       "github_stars": 17
     },
     {
-      "tags": ["data:CNV", "ui:Static", "stack:Python"],
+      "tags": ["data:CNV", "ui:Static", "stack:Python", "license:GPL-3.0"],
       "name": "aCNVViewer",
       "img": "acnvviewer.png",
       "url": "https://github.com/FJD-CEPH/aCNViewer",
@@ -527,7 +544,7 @@
       "tags": ["data:CNV", "ui:Static", "stack:C", "stack:R"],
       "name": "BAMScale",
       "img": "bamscale.png",
-      "url": "https://github.com/ncbi/BAMscale",
+      "url": "https://github.com/NLM-DIR/BAMscale",
       "pub": {
         "url": "https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-020-00343-x",
         "doi": "10.1186/s13072-020-00343-x",
@@ -539,7 +556,12 @@
       "github_stars": 75
     },
     {
-      "tags": ["data:Read alignment", "ui:Static", "stack:Python"],
+      "tags": [
+        "data:Read alignment",
+        "ui:Static",
+        "stack:Python",
+        "license:MIT"
+      ],
       "img": "bamsnap.png",
       "name": "BAMSnap",
       "url": "https://github.com/parklab/bamsnap",
@@ -554,7 +576,7 @@
       "note": "See also Bamsnap-LRS, a rewrite with long-read support"
     },
     {
-      "tags": ["field:Epigenomics", "ui:Static"],
+      "tags": ["field:Epigenomics", "ui:Static", "license:MIT"],
       "name": "ChIA-Pipe",
       "img": "chiapipe.png",
       "url": "https://github.com/TheJacksonLaboratory/ChIA-PIPE",
@@ -589,7 +611,7 @@
       "github_stars": 39
     },
     {
-      "tags": ["data:CNV", "ui:Static", "stack:R"],
+      "tags": ["data:CNV", "ui:Static", "stack:R", "license:MIT"],
       "name": "CNView",
       "img": "cnview.jpg",
       "url": "https://github.com/RCollins13/CNView",
@@ -603,7 +625,7 @@
       "github_stars": 73
     },
     {
-      "tags": ["data:CNV", "ui:Static", "stack:R"],
+      "tags": ["data:CNV", "ui:Static", "stack:R", "license:MIT"],
       "name": "CNVPlot",
       "img": "cnvplot.jpg",
       "url": "https://github.com/dantaki/CNVplot",
@@ -617,7 +639,7 @@
       "github_stars": 16
     },
     {
-      "tags": ["data:CNV", "ui:Static", "stack:Python"],
+      "tags": ["data:CNV", "ui:Static", "stack:Python", "license:MIT"],
       "name": "CNVpytor",
       "img": "cnvpytor.png",
       "url": "https://github.com/abyzovlab/CNVpytor",
@@ -635,7 +657,8 @@
         "view:Linear",
         "field:Synthetic biology",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "name": "DNAPlotLib",
       "img": "dnaplotlib.png",
@@ -672,7 +695,12 @@
       "github_stars": 121
     },
     {
-      "tags": ["data:Gene structure", "ui:Static", "stack:Python"],
+      "tags": [
+        "data:Gene structure",
+        "ui:Static",
+        "stack:Python",
+        "license:MIT"
+      ],
       "name": "Geneviz",
       "img": "geneviz.png",
       "url": "https://jrderuiter.github.io/geneviz/usage.html",
@@ -712,7 +740,13 @@
       "github_stars": 343
     },
     {
-      "tags": ["data:SV", "data:Read alignment", "ui:Static", "stack:Python"],
+      "tags": [
+        "data:SV",
+        "data:Read alignment",
+        "ui:Static",
+        "stack:Python",
+        "license:MIT"
+      ],
       "name": "GenomeView",
       "img": "genomeview.png",
       "url": "https://github.com/nspies/genomeview",
@@ -735,7 +769,7 @@
         "year": 2011,
         "citations": 151
       },
-      "tags": ["data:Read alignment", "stack:Java"],
+      "tags": ["data:Read alignment", "stack:Java", "license:GPL-3.0"],
       "width": 640,
       "height": 496,
       "github_stars": 8
@@ -803,7 +837,8 @@
         "field:Transcriptomics",
         "ui:Static",
         "stack:R",
-        "stack:ggplot2"
+        "stack:ggplot2",
+        "license:MIT"
       ],
       "name": "GGsashimi",
       "img": "ggsashimi.png",
@@ -825,7 +860,8 @@
         "data:Read alignment",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:Perl"
+        "stack:Perl",
+        "status:Archived"
       ],
       "width": 1300,
       "height": 700,
@@ -858,7 +894,8 @@
         "data:Signal track",
         "view:Ideogram",
         "ui:Static",
-        "stack:R"
+        "stack:R",
+        "license:Artistic-2.0"
       ],
       "name": "Gviz",
       "img": "gviz.png",
@@ -874,7 +911,7 @@
       "github_stars": 95
     },
     {
-      "tags": ["data:Coverage", "ui:Static", "stack:Python"],
+      "tags": ["data:Coverage", "ui:Static", "stack:Python", "license:GPL-3.0"],
       "name": "Hagfish",
       "img": "hagfish.png",
       "url": "https://github.com/mfiers/hagfish/wiki/Plots",
@@ -911,7 +948,13 @@
       "height": 591
     },
     {
-      "tags": ["data:Protein", "view:Lollipop", "ui:Static", "stack:Go"],
+      "tags": [
+        "data:Protein",
+        "view:Lollipop",
+        "ui:Static",
+        "stack:Go",
+        "license:GPL-3.0"
+      ],
       "name": "Lollipops",
       "img": "lollipops.png",
       "url": "https://github.com/joiningdata/lollipops",
@@ -925,7 +968,7 @@
       }
     },
     {
-      "tags": ["data:Protein", "ui:Static", "status:Deadlink", "platform:Web"],
+      "tags": ["data:Protein", "ui:Static", "platform:Web", "status:Deadlink"],
       "name": "Mason",
       "img": "mason.png",
       "url": "http://www.yeastrc.org/mason/",
@@ -937,7 +980,8 @@
         "field:Epigenomics",
         "data:Methylation",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "name": "Methplotlib",
       "url": "https://github.com/wdecoster/methplotlib",
@@ -1004,7 +1048,7 @@
       "name": "PureScript genetics browser",
       "url": "https://github.com/chfi/purescript-genetics-browser",
       "img": "purescript.png",
-      "tags": ["data:GWAS", "platform:Web", "stack:Purescript"],
+      "tags": ["data:GWAS", "platform:Web", "stack:Purescript", "license:MIT"],
       "width": 1848,
       "height": 663,
       "github_stars": 7
@@ -1019,7 +1063,13 @@
         "year": 2020,
         "citations": 617
       },
-      "tags": ["data:Hi-C", "kind:Genome browser", "ui:Static", "stack:Python"],
+      "tags": [
+        "data:Hi-C",
+        "kind:Genome browser",
+        "ui:Static",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "width": 743,
       "height": 591,
       "github_stars": 908
@@ -1063,7 +1113,13 @@
         "citations": 136
       },
       "img": "samplot.jpg",
-      "tags": ["data:SV", "data:Read alignment", "ui:Static", "stack:Python"],
+      "tags": [
+        "data:SV",
+        "data:Read alignment",
+        "ui:Static",
+        "stack:Python",
+        "license:MIT"
+      ],
       "width": 1202,
       "height": 602,
       "github_stars": 576
@@ -1095,7 +1151,12 @@
       "name": "shabam",
       "url": "https://github.com/dlrice/shabam",
       "img": "shabam.png",
-      "tags": ["data:Read alignment", "ui:Static", "stack:Python"],
+      "tags": [
+        "data:Read alignment",
+        "ui:Static",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "width": 790,
       "height": 203,
       "github_stars": 7
@@ -1131,8 +1192,8 @@
         "data:Small variant",
         "field:Human genetics",
         "ui:Static",
-        "status:Deadlink",
-        "platform:Web"
+        "platform:Web",
+        "status:Deadlink"
       ],
       "pub": {
         "doi": "10.1371/journal.pone.0006711",
@@ -1144,7 +1205,7 @@
     },
     {
       "name": "SparK",
-      "url": "https://github.com/harbourlab/SparK",
+      "url": "https://github.com/StefanKurtenbach/SparK",
       "img": "spark.png",
       "tags": ["data:Hi-C", "data:Signal track", "ui:Static", "stack:Python"],
       "pub": {
@@ -1164,7 +1225,8 @@
         "data:Splicing",
         "field:Transcriptomics",
         "ui:Static",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "width": 1152,
       "height": 384,
@@ -1216,7 +1278,13 @@
     {
       "name": "svviz",
       "url": "https://github.com/svviz/svviz",
-      "tags": ["data:SV", "data:Insertion", "ui:Static", "stack:Python"],
+      "tags": [
+        "data:SV",
+        "data:Insertion",
+        "ui:Static",
+        "stack:Python",
+        "license:MIT"
+      ],
       "img": "svviz.png",
       "pub": {
         "doi": "10.1093/bioinformatics/btv478",
@@ -1251,7 +1319,13 @@
         "year": 2016,
         "citations": 3
       },
-      "tags": ["data:Gene structure", "platform:Web", "stack:R", "stack:JS"],
+      "tags": [
+        "data:Gene structure",
+        "platform:Web",
+        "stack:R",
+        "stack:JS",
+        "license:Apache-2.0"
+      ],
       "width": 741,
       "height": 215,
       "github_stars": 19
@@ -1275,11 +1349,12 @@
       "tags": [
         "data:Synteny",
         "field:Comparative genomics",
-        "status:Deadlink",
         "platform:Web",
         "platform:Portal",
         "stack:JS",
-        "stack:Java"
+        "stack:Java",
+        "license:GPL-3.0",
+        "status:Deadlink"
       ],
       "name": "Aequatus",
       "img": "aequatus.png",
@@ -1288,7 +1363,7 @@
         "year": 2018,
         "citations": 1
       },
-      "url": "https://github.com/TGAC/Aequatus",
+      "url": "https://github.com/EarlhamInst/Aequatus",
       "width": 626,
       "height": 281,
       "github_stars": 8
@@ -1336,7 +1411,12 @@
       "github_stars": 273
     },
     {
-      "tags": ["kind:Genome browser", "platform:Web", "stack:JS"],
+      "tags": [
+        "kind:Genome browser",
+        "platform:Web",
+        "stack:JS",
+        "license:BSD-2-Clause"
+      ],
       "name": "Biodalliance comparative demo",
       "github": "https://github.com/dasmoth/dalliance",
       "url": "http://biodalliance.org/dev/test-comparative.html",
@@ -1356,7 +1436,8 @@
         "field:Comparative genomics",
         "field:Microbiology",
         "platform:Web",
-        "stack:Python"
+        "stack:Python",
+        "license:GPL-3.0"
       ],
       "name": "Chromatiblock",
       "url": "https://github.com/mjsull/chromatiblock",
@@ -1396,10 +1477,11 @@
         "view:Dotplot",
         "view:Linear",
         "field:Comparative genomics",
-        "with:JBrowse",
         "platform:Web",
         "platform:Portal",
-        "stack:Perl"
+        "stack:Perl",
+        "with:JBrowse",
+        "license:BSD-2-Clause"
       ],
       "name": "CoGe",
       "github": "https://github.com/LyonsLab/coge",
@@ -1420,8 +1502,8 @@
         "view:Linear",
         "data:SV",
         "field:Comparative genomics",
-        "with:UCSC",
-        "platform:Web"
+        "platform:Web",
+        "with:UCSC"
       ],
       "name": "Comparative assembly hub snake track",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296145/",
@@ -1440,7 +1522,8 @@
         "kind:Genome browser",
         "field:Comparative genomics",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:Apache-2.0"
       ],
       "name": "CrossBrowse",
       "url": "https://github.com/shenkers/CrossBrowse",
@@ -1481,7 +1564,8 @@
         "field:Plant",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "name": "Cvit.js",
       "img": "cvitjs.png",
@@ -1523,7 +1607,8 @@
         "field:Microbiology",
         "field:Synthetic biology",
         "platform:Desktop",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "pub": {
         "url": "https://academic.oup.com/bioinformatics/article-abstract/36/15/4350/5868559?redirectedFrom=PDF",
@@ -1564,7 +1649,8 @@
         "platform:Web",
         "platform:Portal",
         "stack:JS",
-        "stack:Typescript"
+        "stack:TypeScript",
+        "license:Apache-2.0"
       ],
       "name": "Genome Context Viewer",
       "github": "https://github.com/legumeinfo/gcv",
@@ -1584,7 +1670,8 @@
         "data:Whole-genome alignment",
         "view:Linear",
         "field:Comparative genomics",
-        "stack:Processing"
+        "stack:Processing",
+        "license:MIT"
       ],
       "name": "Genome-plots-processing",
       "img": "genome_plots_processing.png",
@@ -1642,7 +1729,8 @@
         "data:Signal track",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:Apache-2.0"
       ],
       "name": "GIVE",
       "github": "https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine",
@@ -1663,11 +1751,12 @@
         "data:Synteny",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "name": "mauve-viewer",
       "img": "mauve_viewer.png",
-      "url": "https://github.com/nconrad/mauve-viewer",
+      "url": "https://github.com/PATRIC3/mauve-viewer",
       "width": 2112,
       "height": 1367,
       "github_stars": 45
@@ -1678,7 +1767,8 @@
         "view:Linear",
         "field:Comparative genomics",
         "platform:CLI",
-        "stack:Python"
+        "stack:Python",
+        "license:BSD-2-Clause"
       ],
       "name": "MCScan (python version)",
       "img": "mcscan_python.png",
@@ -1702,7 +1792,8 @@
         "view:Circular",
         "field:Comparative genomics",
         "platform:CLI",
-        "stack:Perl"
+        "stack:Perl",
+        "license:BSD-2-Clause"
       ],
       "url": "https://github.com/wyp1125/MCScanX",
       "img": "mcscanx.png",
@@ -1719,9 +1810,9 @@
       "tags": [
         "data:Synteny",
         "field:Comparative genomics",
-        "status:Deadlink",
         "platform:Web",
-        "platform:Portal"
+        "platform:Portal",
+        "status:Deadlink"
       ],
       "name": "mGSV (multiple genome synteny viewer)",
       "img": "mgsv.jpg",
@@ -1760,7 +1851,8 @@
         "platform:Web",
         "platform:Portal",
         "stack:JS",
-        "stack:VueJS"
+        "stack:Vue",
+        "license:MIT"
       ],
       "name": "Multiple genome viewer",
       "img": "mgv.png",
@@ -1829,7 +1921,8 @@
         "view:Linear",
         "field:Comparative genomics",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:GPL-2.0"
       ],
       "name": "progressiveMauve viewer",
       "img": "progressive_mauve.png",
@@ -1868,7 +1961,8 @@
         "view:Linear",
         "field:Comparative genomics",
         "platform:CLI",
-        "stack:Perl"
+        "stack:Perl",
+        "license:MIT"
       ],
       "name": "Synima",
       "img": "synima.png",
@@ -1923,7 +2017,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "stack:JS",
-        "stack:D3"
+        "stack:D3",
+        "license:MIT"
       ],
       "name": "SynVisio",
       "img": "synvisio.png",
@@ -1944,7 +2039,8 @@
         "field:Plant",
         "field:Comparative genomics",
         "stack:PHP",
-        "stack:JS"
+        "stack:JS",
+        "license:GPL-2.0"
       ],
       "name": "Tripal MapViewer",
       "github": "https://github.com/statonlab/tripal_map",
@@ -1982,11 +2078,13 @@
         "data:Repeat",
         "field:Comparative genomics",
         "platform:Desktop",
-        "stack:Python"
+        "stack:Python",
+        "license:GPL-3.0",
+        "status:Archived"
       ],
       "name": "XMatchView",
       "img": "xmatchview.png",
-      "github": "https://github.com/bcgsc/xmatchview",
+      "github": "https://github.com/BirolLab/xmatchview",
       "url": "https://www.bcgsc.ca/resources/software/xmatchview",
       "pub": {
         "doi": "10.21105/joss.00497",
@@ -2013,7 +2111,12 @@
       "height": 1044
     },
     {
-      "tags": ["data:Genome graph", "platform:Desktop", "stack:C++"],
+      "tags": [
+        "data:Genome graph",
+        "platform:Desktop",
+        "stack:C++",
+        "license:GPL-3.0"
+      ],
       "name": "Bandage",
       "img": "bandage.png",
       "url": "https://github.com/rrwick/Bandage/",
@@ -2029,7 +2132,7 @@
       "github_stars": 684
     },
     {
-      "tags": ["data:Genome graph", "stack:Rust"],
+      "tags": ["data:Genome graph", "stack:Rust", "license:MIT"],
       "name": "gfaestus",
       "img": "gfaestus.png",
       "url": "https://github.com/chfi/gfaestus",
@@ -2044,7 +2147,8 @@
         "data:Pangenome",
         "field:Comparative genomics",
         "platform:CLI",
-        "stack:Rust"
+        "stack:Rust",
+        "license:MIT"
       ],
       "name": "gfalook",
       "url": "https://github.com/pangenome/gfalook",
@@ -2061,11 +2165,12 @@
         "data:Breakend",
         "data:Genome graph",
         "platform:Web",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "name": "gGnomes",
       "img": "ggnomesr.png",
-      "url": "https://github.com/mskilab/gGnome",
+      "url": "https://github.com/mskilab-org/gGnome",
       "width": 1536,
       "height": 1920,
       "github_stars": 42
@@ -2077,17 +2182,18 @@
         "data:Breakend",
         "data:Genome graph",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "name": "gGnomes.js",
       "img": "ggnomes.png",
-      "url": "https://github.com/mskilab/gGnome.js",
+      "url": "https://github.com/mskilab-org/gGnome.js",
       "width": 1222,
       "height": 575,
       "github_stars": 27
     },
     {
-      "tags": ["data:Genome graph", "platform:Web", "stack:JS"],
+      "tags": ["data:Genome graph", "platform:Web", "stack:JS", "license:MIT"],
       "name": "graphgenomeviewer",
       "img": "graphgenomeviewer.png",
       "url": "https://cmdcolin.github.io/graphgenomeviewer/",
@@ -2103,7 +2209,8 @@
         "view:Circular",
         "data:SV",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "name": "MoMi-G",
       "img": "momig.png",
@@ -2118,7 +2225,7 @@
       "github_stars": 100
     },
     {
-      "tags": ["data:Genome graph", "stack:C++"],
+      "tags": ["data:Genome graph", "stack:C++", "license:MIT"],
       "name": "odgi draw + odgi viz + odgi inject",
       "github": "https://github.com/pangenome/odgi",
       "img": "odgi.png",
@@ -2134,7 +2241,7 @@
       "github_stars": 253
     },
     {
-      "tags": ["data:Genome graph", "platform:Web", "stack:JS"],
+      "tags": ["data:Genome graph", "platform:Web", "stack:JS", "license:MIT"],
       "name": "sequence tube map",
       "img": "sequence_tube_map.png",
       "url": "https://github.com/vgteam/sequenceTubeMap",
@@ -2149,7 +2256,7 @@
       "note": "See also https://github.com/cmdcolin/sequenceTubeMap, a fork with modernizations"
     },
     {
-      "tags": ["data:MSA", "ui:Terminal", "platform:CLI", "stack:Bash"],
+      "tags": ["data:MSA", "ui:Terminal", "platform:CLI", "stack:Shell"],
       "name": "Alan",
       "img": "alan.png",
       "url": "https://github.com/mpdunne/alan",
@@ -2158,7 +2265,13 @@
       "github_stars": 132
     },
     {
-      "tags": ["data:MSA", "ui:Terminal", "platform:CLI", "stack:Python"],
+      "tags": [
+        "data:MSA",
+        "ui:Terminal",
+        "platform:CLI",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "name": "Alv",
       "img": "alv.png",
       "url": "https://github.com/arvestad/alv",
@@ -2176,7 +2289,8 @@
         "data:Read alignment",
         "ui:Terminal",
         "platform:CLI",
-        "stack:Java"
+        "stack:Java",
+        "license:MIT"
       ],
       "name": "ASCIIGenome",
       "img": "asciigenome.png",
@@ -2316,7 +2430,7 @@
       "github_stars": 1983
     },
     {
-      "tags": ["data:SV", "ui:Terminal", "platform:CLI"],
+      "tags": ["data:SV", "ui:Terminal", "platform:CLI", "license:GPL-3.0"],
       "name": "SvABA",
       "img": "svaba.png",
       "url": "https://github.com/walaj/svaba#alignmentstxtgz",
@@ -2330,7 +2444,7 @@
       "github_stars": 258
     },
     {
-      "tags": ["data:Read alignment", "ui:Terminal"],
+      "tags": ["data:Read alignment", "ui:Terminal", "license:GPL-2.0"],
       "name": "VizAln (from HipSTR)",
       "img": "hipstr.png",
       "url": "https://github.com/tfwillems/HipSTR",
@@ -2344,7 +2458,12 @@
       "github_stars": 108
     },
     {
-      "tags": ["view:Circular", "field:Microbiology", "stack:Python"],
+      "tags": [
+        "view:Circular",
+        "field:Microbiology",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "name": "Anvio",
       "github": "https://github.com/merenlab/anvio",
       "pub": {
@@ -2369,7 +2488,7 @@
       "height": 600
     },
     {
-      "tags": ["view:Circular", "license:Commercial", "platform:Desktop"],
+      "tags": ["view:Circular", "platform:Desktop", "license:Commercial"],
       "name": "Circa",
       "img": "circa.png",
       "url": "https://omgenomics.com/circa",
@@ -2421,7 +2540,7 @@
       "github_stars": 68
     },
     {
-      "tags": ["view:Circular", "platform:Web", "stack:JS"],
+      "tags": ["view:Circular", "platform:Web", "stack:JS", "license:MIT"],
       "name": "CircosJS",
       "img": "circosjs.png",
       "url": "https://github.com/nicgirault/circosJS",
@@ -2447,7 +2566,8 @@
         "view:Circular",
         "view:Linear",
         "platform:Desktop",
-        "stack:Perl"
+        "stack:Perl",
+        "license:GPL-3.0"
       ],
       "name": "GenomeProjector",
       "url": "https://github.com/gaou/g-language/wiki",
@@ -2468,7 +2588,8 @@
         "view:Circular",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:Perl"
+        "stack:Perl",
+        "license:GPL-3.0"
       ],
       "name": "JupiterPlot",
       "img": "jupiterplot.png",
@@ -2487,7 +2608,8 @@
         "view:Circular",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "name": "mummer2circos",
       "img": "mummer2circos.png",
@@ -2514,7 +2636,8 @@
         "view:Circular",
         "view:Linear",
         "field:Synthetic biology",
-        "platform:Web"
+        "platform:Web",
+        "license:MIT"
       ],
       "img": "seqviz.png",
       "name": "seqviz",
@@ -2541,10 +2664,10 @@
       "tags": [
         "data:Gene structure",
         "task:Annotation",
-        "status:Historical",
-        "status:Deadlink",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "status:Historical",
+        "status:Deadlink"
       ],
       "name": "Apollo",
       "img": "apollo.jpg",
@@ -2563,11 +2686,11 @@
       "tags": [
         "data:Gene structure",
         "task:Annotation",
-        "with:JBrowse",
         "platform:Web",
         "stack:Java",
         "stack:Groovy",
-        "stack:JS"
+        "stack:JS",
+        "with:JBrowse"
       ],
       "img": "webapollo.jpg",
       "name": "Apollo aka WebApollo",
@@ -2613,9 +2736,9 @@
       "tags": [
         "data:CNV",
         "task:Annotation",
-        "status:Deadlink",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "status:Deadlink"
       ],
       "name": "cnvCurator",
       "url": "http://www.acsu.buffalo.edu/~lm69/cnvCurator",
@@ -2654,7 +2777,13 @@
       "github_stars": 0
     },
     {
-      "tags": ["view:Novel layout", "platform:Web", "stack:Python", "stack:JS"],
+      "tags": [
+        "view:Novel layout",
+        "platform:Web",
+        "stack:Python",
+        "stack:JS",
+        "license:GPL-2.0"
+      ],
       "img": "dnaskittle.png",
       "github": "https://github.com/josiahseaman/skittle",
       "name": "DNASkittle",
@@ -2709,7 +2838,13 @@
       "height": 671
     },
     {
-      "tags": ["data:SV", "data:Read alignment", "platform:Web", "stack:JS"],
+      "tags": [
+        "data:SV",
+        "data:Read alignment",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT"
+      ],
       "name": "Ribbon",
       "url": "http://genomeribbon.com/",
       "github": "https://github.com/MariaNattestad/ribbon",
@@ -2732,7 +2867,8 @@
         "data:MSA",
         "platform:Web",
         "stack:JS",
-        "stack:WebGL"
+        "stack:WebGL",
+        "license:MIT"
       ],
       "name": "GenomeSpy",
       "pub": {
@@ -2755,7 +2891,7 @@
         "stack:JS"
       ],
       "name": "Genoverse",
-      "url": "https://github.com/wtsi-web/Genoverse",
+      "url": "https://github.com/DECIPHER-genomics/Genoverse",
       "img": "genoverse.png",
       "width": 1194,
       "height": 476,
@@ -2768,10 +2904,11 @@
         "field:Human genetics",
         "platform:Web",
         "platform:Portal",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "name": "Gnomad browser",
-      "url": "https://github.com/macarthur-lab/gnomadjs",
+      "url": "https://github.com/broadinstitute/gnomad-browser",
       "pub": {
         "doi": "10.1038/s41586-020-2308-7",
         "year": 2020,
@@ -2784,7 +2921,7 @@
       "github_stars": 92
     },
     {
-      "tags": ["data:SV", "view:Linear", "status:Deadlink", "platform:Web"],
+      "tags": ["data:SV", "view:Linear", "platform:Web", "status:Deadlink"],
       "name": "Gremlin",
       "img": "gremlin.png",
       "url": "http://compbio.cs.brown.edu/projects/gremlin/",
@@ -2928,7 +3065,8 @@
         "view:Linear",
         "platform:Web",
         "stack:JS",
-        "stack:D3"
+        "stack:D3",
+        "license:GPL-2.0"
       ],
       "name": "IslandViewer and IslandPlot",
       "url": "https://bl.ocks.org/lairdm/c6c235dbfa6e6ee61565",
@@ -2965,7 +3103,8 @@
         "field:Human genetics",
         "platform:Web",
         "stack:R",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "name": "Locuszoom",
       "github": "https://github.com/statgen/locuszoom",
@@ -2986,7 +3125,8 @@
         "data:GWAS",
         "data:Linkage disequilibrium",
         "field:Human genetics",
-        "platform:Web"
+        "platform:Web",
+        "license:MIT"
       ],
       "url": "http://locuszoom.org/locuszoomjs.php",
       "github": "https://github.com/statgen/locuszoom",
@@ -3037,9 +3177,9 @@
     {
       "tags": [
         "data:Read alignment",
+        "platform:Desktop",
         "status:Historical",
-        "status:Deadlink",
-        "platform:Desktop"
+        "status:Deadlink"
       ],
       "name": "MapView",
       "img": "mapview.jpg",
@@ -3055,7 +3195,12 @@
       "height": 397
     },
     {
-      "tags": ["data:Read alignment", "platform:Web", "stack:Java"],
+      "tags": [
+        "data:Read alignment",
+        "platform:Web",
+        "stack:Java",
+        "license:MIT"
+      ],
       "name": "NGB",
       "img": "ngb.png",
       "url": "https://github.com/epam/NGB",
@@ -3064,7 +3209,12 @@
       "github_stars": 171
     },
     {
-      "tags": ["data:Coverage", "field:Human genetics", "platform:Web"],
+      "tags": [
+        "data:Coverage",
+        "field:Human genetics",
+        "platform:Web",
+        "license:MIT"
+      ],
       "name": "SeqCover",
       "img": "seqcover.png",
       "github": "https://github.com/brentp/seqcover",
@@ -3078,7 +3228,8 @@
         "data:Coverage",
         "data:Splicing",
         "platform:Web",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "name": "SEQing",
       "img": "seqing.png",
@@ -3143,7 +3294,7 @@
       "height": 361
     },
     {
-      "tags": ["data:MSA", "status:Deadlink", "platform:Web"],
+      "tags": ["data:MSA", "platform:Web", "status:Deadlink"],
       "name": "SNIPViz",
       "github": "https://github.com/yeastrc/snipviz",
       "pub": {
@@ -3164,7 +3315,9 @@
         "field:Cancer",
         "platform:Web",
         "stack:JS",
-        "stack:PHP"
+        "stack:PHP",
+        "license:MIT",
+        "status:Archived"
       ],
       "name": "SplitThreader",
       "img": "splitthreader.png",
@@ -3222,10 +3375,10 @@
         "data:Transposon",
         "data:Repeat",
         "field:Plant",
-        "status:Deadlink",
         "platform:Web",
         "platform:Server",
-        "stack:Perl"
+        "stack:Perl",
+        "status:Deadlink"
       ],
       "name": "TE-nest",
       "img": "tenest.jpg",
@@ -3241,7 +3394,13 @@
       "github_stars": 2
     },
     {
-      "tags": ["data:Transposon", "data:Repeat", "platform:Web", "stack:JS"],
+      "tags": [
+        "data:Transposon",
+        "data:Repeat",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT"
+      ],
       "name": "Transposcope",
       "github": "https://github.com/FenyoLab/transposcope",
       "img": "transposcope.png",
@@ -3259,7 +3418,8 @@
         "kind:Genome browser",
         "data:MSA",
         "platform:Desktop",
-        "stack:C++"
+        "stack:C++",
+        "license:GPL-2.0"
       ],
       "name": "UGENE",
       "img": "ugene.png",
@@ -3293,7 +3453,13 @@
       "height": 572
     },
     {
-      "tags": ["data:Splicing", "field:Transcriptomics", "platform:Web"],
+      "tags": [
+        "data:Splicing",
+        "field:Transcriptomics",
+        "platform:Web",
+        "license:BSD-3-Clause",
+        "status:Archived"
+      ],
       "name": "Vials",
       "pub": {
         "doi": "10.1109/TVCG.2015.2467911",
@@ -3313,7 +3479,12 @@
       "height": 279
     },
     {
-      "tags": ["kind:Genome browser", "platform:Desktop", "stack:Java"],
+      "tags": [
+        "kind:Genome browser",
+        "platform:Desktop",
+        "stack:Java",
+        "license:AGPL-3.0"
+      ],
       "name": "BasePlayer",
       "url": "https://baseplayer.fi/",
       "github": "https://github.com/rkataine/BasePlayer",
@@ -3331,8 +3502,8 @@
       "tags": [
         "kind:Genome browser",
         "data:Read alignment",
-        "status:Historical",
-        "platform:Desktop"
+        "platform:Desktop",
+        "status:Historical"
       ],
       "img": "celera.jpeg",
       "name": "Celera genome browser",
@@ -3366,7 +3537,8 @@
         "data:SV",
         "data:Signal track",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:MIT"
       ],
       "name": "IGV",
       "img": "igv.jpg",
@@ -3387,7 +3559,8 @@
         "data:SV",
         "data:Read alignment",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "status:Archived"
       ],
       "name": "Savant",
       "img": "savant.jpg",
@@ -3409,7 +3582,8 @@
         "data:Read alignment",
         "field:Plant",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:BSD-2-Clause"
       ],
       "name": "Tablet",
       "github": "https://github.com/cropgeeks/tablet",
@@ -3425,11 +3599,18 @@
       "github_stars": 43
     },
     {
-      "tags": ["view:Novel layout", "data:GWAS", "platform:Web", "stack:JS"],
+      "tags": [
+        "view:Novel layout",
+        "data:GWAS",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT",
+        "status:Archived"
+      ],
       "name": "BigTop",
       "img": "bigtop.png",
       "url": "https://blog.dnanexus.com/2019-05-21-bigtop-data-visualization/",
-      "github": "https://github.com/dnanexus/bigtop",
+      "github": "https://github.com/dnanexus-archive/bigtop",
       "width": 537,
       "height": 310,
       "github_stars": 5
@@ -3450,7 +3631,8 @@
         "kind:Genome browser",
         "data:Read alignment",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:BSD-2-Clause"
       ],
       "name": "Biodalliance",
       "github": "https://github.com/dasmoth/dalliance",
@@ -3528,8 +3710,9 @@
         "kind:Genome browser",
         "data:Read alignment",
         "data:Small variant",
-        "status:Deadlink",
-        "stack:JS"
+        "stack:JS",
+        "license:GPL-2.0",
+        "status:Deadlink"
       ],
       "width": 489,
       "height": 640,
@@ -3541,12 +3724,13 @@
         "view:Linear",
         "data:Signal track",
         "field:Comparative genomics",
-        "with:HiGlass",
         "platform:Web",
         "stack:JS",
         "stack:WebGL",
-        "stack:Typescript",
-        "stack:React"
+        "stack:TypeScript",
+        "stack:React",
+        "with:HiGlass",
+        "license:MIT"
       ],
       "name": "Gosling",
       "img": "gosling.png",
@@ -3570,7 +3754,8 @@
         "platform:Web",
         "platform:Server",
         "stack:JS",
-        "stack:WebGL"
+        "stack:WebGL",
+        "license:MIT"
       ],
       "name": "HiGlass",
       "img": "higlass.png",
@@ -3590,7 +3775,8 @@
         "kind:Genome browser",
         "data:Read alignment",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "name": "IGV.js",
       "img": "igvjs.png",
@@ -3636,8 +3822,9 @@
         "field:Comparative genomics",
         "platform:Web",
         "stack:JS",
-        "stack:Typescript",
-        "stack:React"
+        "stack:TypeScript",
+        "stack:React",
+        "license:Apache-2.0"
       ],
       "name": "JBrowse 2",
       "note": "See gallery for more examples https://jbrowse.org/jb2/gallery",
@@ -3711,7 +3898,13 @@
       "height": 471
     },
     {
-      "tags": ["kind:Genome browser", "data:SV", "platform:Web", "stack:JS"],
+      "tags": [
+        "kind:Genome browser",
+        "data:SV",
+        "platform:Web",
+        "stack:JS",
+        "license:Apache-2.0"
+      ],
       "name": "Pileup.js",
       "pub": {
         "doi": "10.1093/bioinformatics/btw167",
@@ -3763,10 +3956,11 @@
         "kind:Genome browser",
         "data:Signal track",
         "field:Epigenomics",
-        "status:Deadlink",
         "platform:Web",
         "stack:JS",
-        "stack:WebGL"
+        "stack:WebGL",
+        "license:MIT",
+        "status:Deadlink"
       ],
       "name": "Valis browser",
       "url": "https://valis.bio/",
@@ -3821,7 +4015,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "width": 3000,
       "height": 3000,
@@ -3834,7 +4029,8 @@
         "platform:Web",
         "stack:JS",
         "stack:Python",
-        "stack:D3"
+        "stack:D3",
+        "license:GPL-3.0"
       ],
       "name": "D-GENIES",
       "github": "https://github.com/genotoul-bioinfo/dgenies",
@@ -3854,7 +4050,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "name": "Delly-maze",
       "img": "maze.png",
@@ -3874,7 +4071,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:GPL-3.0"
       ],
       "name": "Discoplot",
       "img": "discoplot.png",
@@ -3894,7 +4092,8 @@
         "field:Comparative genomics",
         "platform:Web",
         "stack:JS",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "name": "Dot",
       "url": "https://dot.sandbox.bio/",
@@ -3906,7 +4105,13 @@
       "github_stars": 39
     },
     {
-      "tags": ["view:Dotplot", "platform:Web", "stack:JS", "stack:React"],
+      "tags": [
+        "view:Dotplot",
+        "platform:Web",
+        "stack:JS",
+        "stack:React",
+        "status:Archived"
+      ],
       "name": "Dotlet",
       "img": "dotlet.png",
       "github": "https://github.com/sib-swiss/dotlet",
@@ -3922,12 +4127,12 @@
       "github_stars": 4
     },
     {
-      "tags": ["view:Dotplot", "status:Deadlink", "platform:Web"],
+      "tags": ["view:Dotplot", "platform:Web", "status:Deadlink"],
       "name": "Dotplot (chirimoyo)",
       "url": "https://chirimoyo.ac.uma.es/bitlab/portfolio/dotplot/"
     },
     {
-      "tags": ["view:Dotplot", "platform:Web"],
+      "tags": ["view:Dotplot", "platform:Web", "license:MIT"],
       "name": "iLambda Dotplot",
       "url": "https://github.com/iLambda/dotplot",
       "github_stars": 2
@@ -3938,7 +4143,8 @@
         "field:Comparative genomics",
         "platform:Web",
         "stack:R",
-        "stack:Shiny"
+        "stack:Shiny",
+        "license:MIT"
       ],
       "name": "dotPlotly",
       "url": "https://github.com/tpoorten/dotPlotly/",
@@ -3957,10 +4163,15 @@
       "height": 454
     },
     {
-      "tags": ["view:Dotplot", "platform:CLI", "stack:Python"],
+      "tags": [
+        "view:Dotplot",
+        "platform:CLI",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "name": "FlexiDot",
       "img": "flexidot.png",
-      "url": "https://github.com/molbio-dresden/flexidot",
+      "url": "https://github.com/flexidot-bio/flexidot",
       "pub": {
         "doi": "10.1093/bioinformatics/bty395",
         "year": 2018,
@@ -3975,7 +4186,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:MIT"
       ],
       "name": "Gepard",
       "github": "https://github.com/univieCUBE/gepard",
@@ -3995,7 +4207,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "name": "Jdot",
       "url": "https://github.com/LyonsLab/jdot",
@@ -4040,7 +4253,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "name": "Minidot",
       "img": "minidot.png",
@@ -4067,7 +4281,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:GNUplot"
+        "stack:GNUplot",
+        "license:Artistic-2.0"
       ],
       "name": "Mummerplot",
       "img": "mummerplot.png",
@@ -4095,7 +4310,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:GPL-3.0"
       ],
       "name": "Redotable",
       "img": "redotable.png",
@@ -4110,7 +4326,8 @@
         "data:Multi-way synteny",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:R"
+        "stack:R",
+        "license:GPL-3.0"
       ],
       "name": "syntenyPlotByR",
       "img": "synteny_plot_by_r.png",
@@ -4138,7 +4355,9 @@
         "field:Epigenomics",
         "data:CNV",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:MIT",
+        "status:Archived"
       ],
       "name": "Chipster",
       "img": "chipster.jpg",
@@ -4178,9 +4397,10 @@
       "tags": [
         "data:Signal track",
         "field:Epigenomics",
-        "with:HiGlass",
         "platform:Web",
-        "stack:Python"
+        "stack:Python",
+        "with:HiGlass",
+        "license:GPL-3.0"
       ],
       "name": "Epilogos",
       "img": "epilogos.jpg",
@@ -4216,9 +4436,10 @@
       "tags": [
         "field:Epigenomics",
         "data:Hi-C",
-        "with:HiGlass",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "with:HiGlass",
+        "license:MIT"
       ],
       "name": "HiPiler",
       "img": "hipiler.png",
@@ -4238,7 +4459,8 @@
         "field:Epigenomics",
         "data:Hi-C",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:MIT"
       ],
       "name": "Juicebox",
       "img": "juicebox.jpg",
@@ -4254,9 +4476,15 @@
       "github_stars": 306
     },
     {
-      "tags": ["field:Epigenomics", "data:Hi-C", "platform:Web", "stack:JS"],
+      "tags": [
+        "field:Epigenomics",
+        "data:Hi-C",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT"
+      ],
       "name": "Juicebox.js",
-      "github": "https://github.com/igvteam/juicebox.js",
+      "github": "https://github.com/aidenlab/juicebox.js",
       "img": "juiceboxjs.jpg",
       "url": "http://www.igv.org/doc/juiceboxjs.html",
       "pub": {
@@ -4273,9 +4501,9 @@
       "tags": [
         "data:Signal track",
         "field:Epigenomics",
-        "with:HiGlass",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "with:HiGlass"
       ],
       "name": "Peax",
       "img": "peax.png",
@@ -4333,7 +4561,13 @@
       "github_stars": 380
     },
     {
-      "tags": ["view:Ideogram", "platform:Web", "stack:JS", "stack:SVG"],
+      "tags": [
+        "view:Ideogram",
+        "platform:Web",
+        "stack:JS",
+        "stack:SVG",
+        "license:BSD-2-Clause"
+      ],
       "name": "KaryotypeSVG",
       "url": "https://github.com/andreasprlic/karyotypeSVG",
       "img": "karyotypesvg.png",
@@ -4344,9 +4578,9 @@
     {
       "tags": [
         "view:Ideogram",
-        "status:Historical",
         "platform:Web",
-        "platform:Portal"
+        "platform:Portal",
+        "status:Historical"
       ],
       "name": "NCBI Genome Decoration",
       "note": "Was located at https://www.ncbi.nlm.nih.gov/genome/tools/gdp/, sunsetted in 2023",
@@ -4370,7 +4604,12 @@
       "github_stars": 279
     },
     {
-      "tags": ["data:Read alignment", "platform:Mobile", "stack:Objective-C"],
+      "tags": [
+        "data:Read alignment",
+        "platform:Mobile",
+        "stack:Objective-C",
+        "license:MIT"
+      ],
       "name": "iGenomics",
       "github": "https://github.com/stuckinaboot/iGenomics",
       "img": "igenomics.png",
@@ -4401,7 +4640,8 @@
         "data:Pangenome",
         "field:Microbiology",
         "field:Comparative genomics",
-        "stack:Perl"
+        "stack:Perl",
+        "license:GPL-2.0"
       ],
       "name": "Panacaea",
       "pub": {
@@ -4421,7 +4661,8 @@
         "field:Plant",
         "field:Comparative genomics",
         "stack:JS",
-        "stack:VueJS"
+        "stack:Vue",
+        "license:MIT"
       ],
       "name": "Panache",
       "img": "panache.png",
@@ -4439,7 +4680,8 @@
       "tags": [
         "data:Pangenome",
         "field:Microbiology",
-        "field:Comparative genomics"
+        "field:Comparative genomics",
+        "license:GPL-3.0"
       ],
       "name": "panX",
       "github": "https://github.com/neherlab/pan-genome-analysis",
@@ -4460,8 +4702,8 @@
         "data:Pangenome",
         "field:Plant",
         "field:Comparative genomics",
-        "with:JBrowse",
-        "platform:Web"
+        "platform:Web",
+        "with:JBrowse"
       ],
       "name": "RPAN (3kricedb)",
       "img": "rpan.png",
@@ -4475,7 +4717,13 @@
       "height": 633
     },
     {
-      "tags": ["data:Protein", "data:MSA", "platform:Web", "stack:JS"],
+      "tags": [
+        "data:Protein",
+        "data:MSA",
+        "platform:Web",
+        "stack:JS",
+        "license:MIT"
+      ],
       "name": "Protael",
       "img": "protael.png",
       "github": "https://github.com/sanshu/protaeljs",
@@ -4556,7 +4804,8 @@
         "field:Population",
         "field:Cancer",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:Apache-2.0"
       ],
       "name": "UCSC Xena",
       "img": "xena.png",
@@ -4641,7 +4890,8 @@
         "data:Gene order",
         "field:Comparative genomics",
         "platform:CLI",
-        "stack:Perl"
+        "stack:Perl",
+        "license:GPL-3.0"
       ],
       "width": 2050,
       "height": 2384,
@@ -4671,7 +4921,12 @@
     },
     {
       "name": "FastANI",
-      "tags": ["field:Microbiology", "field:Comparative genomics", "stack:C++"],
+      "tags": [
+        "field:Microbiology",
+        "field:Comparative genomics",
+        "stack:C++",
+        "license:Apache-2.0"
+      ],
       "img": "fastani.jpg",
       "url": "https://github.com/ParBLiSS/FastANI",
       "pub": {
@@ -4701,7 +4956,13 @@
     {
       "name": "covviz",
       "github": "https://github.com/brwnj/covviz",
-      "tags": ["data:CNV", "data:Coverage", "field:Population", "stack:JS"],
+      "tags": [
+        "data:CNV",
+        "data:Coverage",
+        "field:Population",
+        "stack:JS",
+        "license:MIT"
+      ],
       "url": "https://brwnj.github.io/covviz/",
       "img": "covviz.png",
       "width": 1177,
@@ -4715,7 +4976,8 @@
         "data:Multi-way synteny",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "img": "clinker.png",
       "url": "https://github.com/gamcil/clinker",
@@ -4779,8 +5041,9 @@
         "view:Circular",
         "data:Gene fusion",
         "field:Cancer",
+        "stack:Java",
         "with:Circos",
-        "stack:Java"
+        "license:GPL-3.0"
       ],
       "width": 1542,
       "height": 1690,
@@ -4796,7 +5059,7 @@
       "note": "intermutation-distance rainfall plots/katagesis plots are not technically in genomic coordinates, but do indicate genomic cluster of variants",
       "url": "https://github.com/hartwigmedical/hmftools/blob/master/purity-ploidy-estimator/README.md",
       "github": "https://github.com/hartwigmedical/hmftools",
-      "tags": ["data:CNV", "field:Cancer"],
+      "tags": ["data:CNV", "field:Cancer", "license:GPL-3.0"],
       "img": "purple.png",
       "width": 600,
       "height": 675,
@@ -4804,7 +5067,7 @@
     },
     {
       "name": "SMRT View",
-      "tags": ["data:SV"],
+      "tags": ["data:SV", "status:Archived"],
       "note": "wiki page https://github.com/PacificBiosciences/DevNet/wiki/SMRT-View",
       "github": "https://github.com/PacificBiosciences/DevNet",
       "url": "http://files.pacb.com/software/smrtanalysis/2.3.0/doc/smrtview/help/Webhelp/App_View_Epipro.htm",
@@ -4833,7 +5096,12 @@
     },
     {
       "name": "spinteny",
-      "tags": ["view:Novel layout", "field:Comparative genomics", "stack:JS"],
+      "tags": [
+        "view:Novel layout",
+        "field:Comparative genomics",
+        "stack:JS",
+        "license:MPL-2.0"
+      ],
       "url": "https://github.com/skinner/spinteny",
       "img": "spinteny.png",
       "width": 656,
@@ -4897,7 +5165,8 @@
         "field:Human genetics",
         "stack:C",
         "stack:WDL",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "pub": {
         "doi": "10.1038/s41586-018-0321-x",
@@ -4948,7 +5217,7 @@
         "year": 2016,
         "citations": 312
       },
-      "tags": ["data:CNV", "field:Cancer", "stack:R"],
+      "tags": ["data:CNV", "field:Cancer", "stack:R", "license:CC0-1.0"],
       "width": 939,
       "height": 1026,
       "github_stars": 227
@@ -4963,7 +5232,12 @@
       },
       "url": "http://www.bioconductor.org/packages/release/bioc/html/NanoMethViz.html",
       "img": "nanomethviz.png",
-      "tags": ["data:Methylation", "field:Epigenomics", "stack:R"],
+      "tags": [
+        "data:Methylation",
+        "field:Epigenomics",
+        "stack:R",
+        "license:Apache-2.0"
+      ],
       "width": 672,
       "height": 480,
       "github_stars": 37
@@ -5029,7 +5303,8 @@
         "view:Ideogram",
         "view:Circular",
         "view:Linear",
-        "stack:Rust"
+        "stack:Rust",
+        "license:GPL-3.0"
       ],
       "pub": {
         "url": "https://academic.oup.com/bioinformatics/article/34/16/2708/4948616",
@@ -5089,7 +5364,8 @@
         "data:Long read",
         "data:Methylation",
         "field:Epigenomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "pub": {
         "doi": "10.1101/2021.07.22.453313",
@@ -5134,7 +5410,8 @@
         "data:CNV",
         "platform:Web",
         "stack:PHP",
-        "stack:JS"
+        "stack:JS",
+        "license:BSD-2-Clause"
       ],
       "width": 2000,
       "height": 1400,
@@ -5208,8 +5485,8 @@
         "view:Ideogram",
         "field:Comparative genomics",
         "ui:Static",
-        "status:Limited code",
-        "stack:Perl"
+        "stack:Perl",
+        "status:Limited code"
       ],
       "width": 635,
       "height": 760,
@@ -5225,7 +5502,13 @@
         "citations": 578
       },
       "img": "ldblockshow.png",
-      "tags": ["data:GWAS", "field:Population", "stack:C++", "stack:Perl"],
+      "tags": [
+        "data:GWAS",
+        "field:Population",
+        "stack:C++",
+        "stack:Perl",
+        "license:MIT"
+      ],
       "width": 260,
       "height": 275,
       "github_stars": 232
@@ -5240,7 +5523,12 @@
         "citations": 20
       },
       "img": "clinker_fusion.png",
-      "tags": ["data:Gene fusion", "field:Transcriptomics", "stack:R"],
+      "tags": [
+        "data:Gene fusion",
+        "field:Transcriptomics",
+        "stack:R",
+        "license:MIT"
+      ],
       "width": 644,
       "height": 717,
       "github_stars": 53
@@ -5304,7 +5592,7 @@
     {
       "name": "alen",
       "url": "https://github.com/jakobnissen/alen",
-      "tags": ["data:MSA", "ui:Terminal", "stack:Rust"],
+      "tags": ["data:MSA", "ui:Terminal", "stack:Rust", "license:MIT"],
       "img": "alen.png",
       "width": 823,
       "height": 486,
@@ -5329,8 +5617,8 @@
       "tags": [
         "task:Assembly QC",
         "data:Genetic map",
-        "status:Historical",
-        "platform:Web"
+        "platform:Web",
+        "status:Historical"
       ],
       "pub": {
         "doi": "10.1093/nar/gki135",
@@ -5351,7 +5639,8 @@
         "data:MSA",
         "platform:Web",
         "stack:JS",
-        "stack:Typescript"
+        "stack:TypeScript",
+        "license:MIT"
       ],
       "pub": {
         "doi": "10.1093/bioinformatics/btx120",
@@ -5377,7 +5666,8 @@
         "field:Single cell",
         "field:Epigenomics",
         "data:Signal track",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "img": "archr.png",
       "width": 1500,
@@ -5407,7 +5697,13 @@
       "name": "MAVIS",
       "img": "mavis.png",
       "github": "https://github.com/bcgsc/mavis",
-      "tags": ["data:Gene fusion", "data:SV", "field:Cancer", "stack:Python"],
+      "tags": [
+        "data:Gene fusion",
+        "data:SV",
+        "field:Cancer",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "url": "http://mavis.bcgsc.ca/",
       "pub": {
         "doi": "10.1093/bioinformatics/bty621",
@@ -5441,7 +5737,8 @@
         "data:Genome graph",
         "data:Pangenome",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "width": 479,
       "height": 260,
@@ -5451,7 +5748,7 @@
       "name": "SVPV",
       "img": "svpv.jpg",
       "url": "https://github.com/VCCRI/SVPV",
-      "tags": ["data:SV", "data:Coverage", "stack:Python"],
+      "tags": ["data:SV", "data:Coverage", "stack:Python", "license:MIT"],
       "pub": {
         "url": "https://academic.oup.com/bioinformatics/article/33/13/2032/3056003",
         "doi": "10.1093/bioinformatics/btx117",
@@ -5467,7 +5764,12 @@
       "github": "https://github.com/kauralasoo/wiggleplotr",
       "img": "wiggleplotr.png",
       "url": "http://bioconductor.org/packages/devel/bioc/vignettes/wiggleplotr/inst/doc/wiggleplotr.html",
-      "tags": ["data:Coverage", "field:Transcriptomics", "stack:R"],
+      "tags": [
+        "data:Coverage",
+        "field:Transcriptomics",
+        "stack:R",
+        "license:Apache-2.0"
+      ],
       "width": 576,
       "height": 384,
       "github_stars": 44
@@ -5486,7 +5788,8 @@
         "field:Plant",
         "field:Comparative genomics",
         "stack:JS",
-        "stack:D3"
+        "stack:D3",
+        "license:GPL-3.0"
       ],
       "width": 1114,
       "height": 765,
@@ -5536,7 +5839,8 @@
         "view:Ideogram",
         "data:Signal track",
         "data:Splicing",
-        "stack:R"
+        "stack:R",
+        "license:GPL-2.0"
       ],
       "github": "https://github.com/shraddhapai/IdeoViz",
       "url": "https://www.bioconductor.org/packages/release/bioc/vignettes/IdeoViz/inst/doc/Vignette.pdf",
@@ -5550,9 +5854,9 @@
       "tags": [
         "view:Ideogram",
         "data:Genetic map",
-        "status:Historical",
         "platform:Web",
-        "stack:ActionScript"
+        "stack:ActionScript",
+        "status:Historical"
       ],
       "url": "http://gmod.org/wiki/Flashgviewer/",
       "width": 499,
@@ -5579,8 +5883,8 @@
       "tags": [
         "task:Assembly QC",
         "data:Read alignment",
-        "status:Historical",
-        "stack:C++"
+        "stack:C++",
+        "status:Historical"
       ],
       "url": "http://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html",
       "pub": {
@@ -5656,7 +5960,8 @@
         "data:Phylogeny",
         "field:Evolution",
         "platform:Desktop",
-        "stack:Pascal"
+        "stack:Pascal",
+        "license:GPL-3.0"
       ],
       "width": 665,
       "height": 450,
@@ -5686,7 +5991,13 @@
       "img": "alitreeviz.png",
       "github": "https://github.com/lipme/alitreeviz",
       "url": "https://www.npmjs.com/package/alitreeviz",
-      "tags": ["data:MSA", "data:Phylogeny", "field:Evolution", "stack:JS"],
+      "tags": [
+        "data:MSA",
+        "data:Phylogeny",
+        "field:Evolution",
+        "stack:JS",
+        "license:Apache-2.0"
+      ],
       "width": 1905,
       "height": 918,
       "github_stars": 5
@@ -5705,7 +6016,8 @@
         "view:Circular",
         "field:Plant",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:BSD-2-Clause"
       ],
       "width": 1247,
       "height": 392,
@@ -5741,7 +6053,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "width": 1914,
       "height": 2132,
@@ -5750,7 +6063,12 @@
     {
       "name": "REViewer",
       "img": "reviewer.png",
-      "tags": ["data:Repeat", "field:Human genetics", "stack:C++"],
+      "tags": [
+        "data:Repeat",
+        "field:Human genetics",
+        "stack:C++",
+        "status:Archived"
+      ],
       "url": "https://github.com/Illumina/REViewer",
       "note": "See also GraphAlignmentViewer, similar look and from illumina also",
       "pub": {
@@ -5790,7 +6108,7 @@
         "year": 2017,
         "citations": 28
       },
-      "tags": ["data:Hi-C", "stack:Python"],
+      "tags": ["data:Hi-C", "stack:Python", "license:GPL-3.0"],
       "width": 576,
       "height": 309,
       "github_stars": 23
@@ -5804,7 +6122,8 @@
         "field:Microbiology",
         "field:Comparative genomics",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "license:GPL-3.0"
       ],
       "url": "http://brig.sourceforge.net",
       "pub": {
@@ -5858,7 +6177,13 @@
         "year": 2016,
         "citations": 2432
       },
-      "tags": ["data:MSA", "data:Phylogeny", "field:Evolution", "stack:Python"],
+      "tags": [
+        "data:MSA",
+        "data:Phylogeny",
+        "field:Evolution",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "img": "ete.png",
       "width": 640,
       "height": 500,
@@ -5895,7 +6220,8 @@
         "data:Phylogeny",
         "field:Comparative genomics",
         "field:Microbiology",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "pub": {
         "doi": "10.1093/bioinformatics/btx610",
@@ -5949,7 +6275,8 @@
         "view:Circular",
         "field:Microbiology",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:GPL-3.0"
       ],
       "url": "http://cgview.ca/",
       "github": "https://github.com/paulstothard/cgview",
@@ -5970,9 +6297,9 @@
       "tags": [
         "data:Repeat",
         "field:Comparative genomics",
-        "status:Historical",
         "stack:Perl",
-        "stack:C"
+        "stack:C",
+        "status:Historical"
       ],
       "note": "image from 2021 paper https://www.biorxiv.org/content/10.1101/2021.12.08.471837v1.full.pdf",
       "pub": {
@@ -5992,7 +6319,8 @@
         "data:Splicing",
         "data:Coverage",
         "field:Transcriptomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "pub": {
         "url": "https://f1000research.com/articles/10-1255/v1",
@@ -6017,7 +6345,7 @@
         "stack:R",
         "stack:ggplot2"
       ],
-      "url": "https://github.com/marta-fb/syntenyPlotteR",
+      "url": "https://github.com/Farre-lab/syntenyPlotteR",
       "pub": {
         "doi": "10.1093/bioadv/vbad161",
         "year": 2023,
@@ -6053,7 +6381,7 @@
         "field:Comparative genomics",
         "stack:JS"
       ],
-      "github": "https://github.com/mrvollger/SafFire",
+      "github": "https://github.com/vollgerlab/SafFire",
       "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
       "width": 1776,
       "height": 700,
@@ -6082,16 +6410,17 @@
     {
       "name": "StainedGlass",
       "img": "stainedglass.png",
-      "github": "https://github.com/mrvollger/StainedGlass",
+      "github": "https://github.com/vollgerlab/StainedGlass",
       "tags": [
         "data:Repeat",
         "view:Heatmap",
-        "with:HiGlass",
         "platform:Web",
         "platform:CLI",
         "stack:R",
         "stack:Python",
-        "stack:JS"
+        "stack:JS",
+        "with:HiGlass",
+        "license:MIT"
       ],
       "pub": {
         "doi": "10.1093/bioinformatics/btac018",
@@ -6184,9 +6513,9 @@
         "data:Synteny",
         "field:Evolution",
         "field:Comparative genomics",
-        "status:Historical",
         "platform:Web",
-        "stack:Java"
+        "stack:Java",
+        "status:Historical"
       ],
       "note": "The 'evolutionary highway' image type is reproduced in some other packages e.g. https://github.com/marta-fb/syntenyPlotteR, paper https://doi.org/10.1126/science.1111387",
       "width": 715,
@@ -6205,7 +6534,8 @@
         "data:Synteny",
         "view:Linear",
         "field:Comparative genomics",
-        "stack:C++"
+        "stack:C++",
+        "license:GPL-3.0"
       ],
       "width": 483,
       "height": 203,
@@ -6224,7 +6554,8 @@
         "data:SV",
         "data:Pangenome",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "note": "see also https://github.com/schneebergerlab/syri",
       "width": 1298,
@@ -6324,10 +6655,10 @@
       "tags": [
         "data:CNV",
         "data:ArrayCGH",
-        "status:Deadlink",
         "platform:Web",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "status:Deadlink"
       ],
       "width": 520,
       "height": 399
@@ -6343,9 +6674,9 @@
       "tags": [
         "data:CNV",
         "data:ArrayCGH",
-        "status:Deadlink",
         "platform:Desktop",
-        "stack:Java"
+        "stack:Java",
+        "status:Deadlink"
       ],
       "width": 520,
       "height": 324
@@ -6382,10 +6713,10 @@
       "tags": [
         "view:Dotplot",
         "field:Comparative genomics",
-        "status:Deadlink",
         "platform:Desktop",
         "stack:C++",
-        "stack:OpenGL"
+        "stack:OpenGL",
+        "status:Deadlink"
       ],
       "width": 679,
       "height": 803
@@ -6402,9 +6733,9 @@
         "data:Synteny",
         "kind:Genome browser",
         "field:Comparative genomics",
-        "with:GBrowse",
         "platform:Web",
-        "stack:Perl"
+        "stack:Perl",
+        "with:GBrowse"
       ],
       "width": 520,
       "height": 446
@@ -6421,9 +6752,9 @@
         "data:Synteny",
         "field:Microbiology",
         "field:Comparative genomics",
-        "with:GBrowse",
         "platform:Web",
-        "stack:Perl"
+        "stack:Perl",
+        "with:GBrowse"
       ],
       "url": "http://sybil.sourceforge.net/",
       "note": "Download https://sourceforge.net/projects/sybil/",
@@ -6461,7 +6792,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "stack:C",
-        "stack:R"
+        "stack:R",
+        "license:GPL-3.0"
       ],
       "width": 1000,
       "height": 1000,
@@ -6476,7 +6808,12 @@
         "year": 2009,
         "citations": 114
       },
-      "tags": ["view:Dotplot", "field:Comparative genomics", "stack:Java"],
+      "tags": [
+        "view:Dotplot",
+        "field:Comparative genomics",
+        "stack:Java",
+        "license:GPL-3.0"
+      ],
       "github_stars": 3,
       "width": 1800,
       "height": 1598
@@ -6508,7 +6845,8 @@
         "view:Circular",
         "platform:Web",
         "stack:Ruby",
-        "stack:JS"
+        "stack:JS",
+        "license:AGPL-3.0"
       ],
       "url": "https://sequenceserver.com/",
       "github": "https://github.com/wurmlab/sequenceserver",
@@ -6554,7 +6892,7 @@
       "name": "CIAlign",
       "note": "Has useful utility functions to clean gaps and trim MSAs",
       "img": "cialign.png",
-      "tags": ["data:MSA", "stack:Python"],
+      "tags": ["data:MSA", "stack:Python", "license:MIT"],
       "pub": {
         "doi": "10.7717/peerj.12983",
         "year": 2022,
@@ -6579,7 +6917,8 @@
         "data:Hi-C",
         "platform:CLI",
         "platform:Web",
-        "stack:Python"
+        "stack:Python",
+        "license:GPL-3.0"
       ],
       "note": "fork of pyGenomeTracks",
       "width": 760,
@@ -6606,10 +6945,10 @@
         "data:Gene order",
         "field:Comparative genomics",
         "field:Microbiology",
-        "status:Deadlink",
-        "status:Unavailable",
         "platform:Web",
-        "stack:Java"
+        "stack:Java",
+        "status:Deadlink",
+        "status:Unavailable"
       ],
       "img": "geco.png",
       "url": "http://bioinfo.mikrobio.med.uni-giessen.de/geco2/GecoMainServlet",
@@ -6631,10 +6970,10 @@
       },
       "tags": [
         "data:CNV",
-        "status:Unavailable",
         "platform:Large display",
         "stack:C++",
-        "stack:OpenGL"
+        "stack:OpenGL",
+        "status:Unavailable"
       ],
       "width": 770,
       "height": 355
@@ -6668,8 +7007,8 @@
         "data:Gene order",
         "field:Comparative genomics",
         "field:Microbiology",
-        "status:Unavailable",
-        "platform:Large display"
+        "platform:Large display",
+        "status:Unavailable"
       ],
       "width": 600,
       "height": 199
@@ -6686,10 +7025,10 @@
         "data:Gene order",
         "field:Microbiology",
         "field:Comparative genomics",
-        "status:Deadlink",
-        "status:Unavailable",
         "platform:Web",
-        "platform:Portal"
+        "platform:Portal",
+        "status:Deadlink",
+        "status:Unavailable"
       ],
       "url": "http://www.nwrce.org/psat",
       "width": 496,
@@ -6703,10 +7042,10 @@
         "data:Gene order",
         "field:Microbiology",
         "field:Comparative genomics",
-        "with:GBrowse",
         "platform:Web",
         "platform:Portal",
-        "stack:Perl"
+        "stack:Perl",
+        "with:GBrowse"
       ],
       "pub": {
         "doi": "10.1093/nar/gkp919",
@@ -6725,7 +7064,12 @@
         "year": 2009,
         "citations": 11
       },
-      "tags": ["kind:Genome browser", "platform:Web", "stack:Java"],
+      "tags": [
+        "kind:Genome browser",
+        "platform:Web",
+        "stack:Java",
+        "license:Apache-2.0"
+      ],
       "github": "https://github.com/utgenome/utgb",
       "url": "http://utgenome.org/",
       "width": 359,
@@ -6739,9 +7083,9 @@
         "kind:Genome browser",
         "task:Annotation",
         "data:Gene structure",
-        "status:Deadlink",
         "platform:Web",
-        "stack:Java"
+        "stack:Java",
+        "status:Deadlink"
       ],
       "url": "https://web.archive.org/web/20070924141423/http://www.broad.mit.edu/annotation/argo/",
       "width": 450,
@@ -6783,7 +7127,7 @@
         "year": 2019,
         "citations": 21
       },
-      "tags": ["data:CNV", "stack:R", "stack:Shiny"],
+      "tags": ["data:CNV", "stack:R", "stack:Shiny", "license:GPL-3.0"],
       "width": 312,
       "height": 287,
       "github_stars": 4
@@ -6810,10 +7154,10 @@
       "tags": [
         "view:Ideogram",
         "field:Comparative genomics",
-        "status:Deadlink",
         "platform:Web",
         "platform:Desktop",
-        "stack:Perl"
+        "stack:Perl",
+        "status:Deadlink"
       ],
       "width": 856,
       "height": 522,
@@ -6918,7 +7262,12 @@
       "name": "modbamtools",
       "img": "modbamtools.png",
       "url": "https://github.com/rrazaghi/modbamtools",
-      "tags": ["data:Methylation", "field:Epigenomics", "stack:Python"],
+      "tags": [
+        "data:Methylation",
+        "field:Epigenomics",
+        "stack:Python",
+        "license:Apache-2.0"
+      ],
       "pub": {
         "doi": "10.1101/2022.07.07.499188",
         "year": 2022,
@@ -6950,7 +7299,7 @@
       "width": 738,
       "height": 268,
       "github_stars": 375,
-      "tags": ["view:Circular", "stack:Python"]
+      "tags": ["view:Circular", "stack:Python", "license:GPL-3.0"]
     },
     {
       "name": "GeneticsMakie.jl",
@@ -6969,7 +7318,8 @@
         "data:Gene structure",
         "data:Linkage disequilibrium",
         "field:Human genetics",
-        "stack:Julia"
+        "stack:Julia",
+        "license:MIT"
       ]
     },
     {
@@ -7019,7 +7369,8 @@
         "data:Small variant",
         "field:Population",
         "field:Virology",
-        "stack:Python"
+        "stack:Python",
+        "license:GPL-3.0"
       ],
       "width": 750,
       "height": 306,
@@ -7029,7 +7380,7 @@
       "name": "local-rearrangements",
       "img": "local-rearrangements.png",
       "url": "https://github.com/mcfrith/local-rearrangements",
-      "tags": ["view:Dotplot", "data:SV", "stack:Python"],
+      "tags": ["view:Dotplot", "data:SV", "stack:Python", "license:MIT"],
       "note": "Can color dotplots with annotations for e.g. exons, transposons, low complexity regions. See also last-dotplot. Nice figure using it here https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-020-00762-1/figures/4",
       "width": 199,
       "height": 713,
@@ -7065,7 +7416,8 @@
         "view:Circular",
         "field:Comparative genomics",
         "stack:Python",
-        "stack:R"
+        "stack:R",
+        "license:Apache-2.0"
       ]
     },
     {
@@ -7080,7 +7432,8 @@
         "view:Linear",
         "field:Comparative genomics",
         "stack:Python",
-        "stack:R"
+        "stack:R",
+        "license:GPL-3.0"
       ]
     },
     {
@@ -7105,7 +7458,8 @@
         "data:Synteny",
         "view:Circular",
         "field:Comparative genomics",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "url": "https://accusyn.usask.ca/",
       "github": "https://github.com/jorgenunezsiri/accusyn",
@@ -7130,7 +7484,13 @@
     {
       "name": "bigly",
       "img": "bigly.png",
-      "tags": ["data:SV", "data:Coverage", "stack:Go", "stack:Python"],
+      "tags": [
+        "data:SV",
+        "data:Coverage",
+        "stack:Go",
+        "stack:Python",
+        "license:Apache-2.0"
+      ],
       "url": "https://github.com/brentp/bigly",
       "width": 900,
       "height": 500,
@@ -7145,7 +7505,7 @@
         "field:Epigenomics",
         "stack:R"
       ],
-      "url": "https://github.com/timoast/signac/",
+      "url": "https://github.com/stuart-lab/signac/",
       "pub": {
         "doi": "10.1038/s41592-021-01282-5",
         "year": 2021,
@@ -7162,7 +7522,8 @@
         "data:Synteny",
         "view:Linear",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "img": "pygenomeviz.png",
       "width": 1291,
@@ -7179,7 +7540,8 @@
         "view:Circular",
         "view:Linear",
         "stack:JS",
-        "stack:Typescript"
+        "stack:TypeScript",
+        "license:BSD-3-Clause"
       ],
       "img": "soda.png",
       "pub": {
@@ -7242,8 +7604,9 @@
         "field:Synthetic biology",
         "platform:Web",
         "stack:Rust",
-        "stack:Typescript",
-        "stack:React"
+        "stack:TypeScript",
+        "stack:React",
+        "license:GPL-3.0"
       ],
       "note": "per github: 'A web app for viewing plasmid maps & genomes, and simulating PCR and Gibson assembly'",
       "url": "https://dlesl.github.io/clonifier/",
@@ -7282,7 +7645,13 @@
     {
       "name": "vcfPlotein",
       "img": "vcfplotein.png",
-      "tags": ["data:Small variant", "stack:JS", "stack:D3", "stack:VueJS"],
+      "tags": [
+        "data:Small variant",
+        "stack:JS",
+        "stack:D3",
+        "stack:Vue",
+        "license:MIT"
+      ],
       "url": "https://vcfplotein.liigh.unam.mx/#/",
       "github": "https://github.com/redcpp/vcfplotein",
       "width": 1162,
@@ -7301,7 +7670,12 @@
     {
       "name": "tagore",
       "img": "tagore.png",
-      "tags": ["view:Ideogram", "data:Local ancestry", "stack:Python"],
+      "tags": [
+        "view:Ideogram",
+        "data:Local ancestry",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "url": "https://github.com/jordanlab/tagore",
       "width": 600,
       "height": 258,
@@ -7346,7 +7720,8 @@
         "data:Hi-C",
         "data:Coverage",
         "data:Gene structure",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "width": 994,
       "height": 503,
@@ -7355,7 +7730,13 @@
     {
       "name": "wally",
       "img": "wally.png",
-      "tags": ["data:Read alignment", "view:Dotplot", "data:SV", "stack:C++"],
+      "tags": [
+        "data:Read alignment",
+        "view:Dotplot",
+        "data:SV",
+        "stack:C++",
+        "license:BSD-3-Clause"
+      ],
       "url": "https://github.com/tobiasrausch/wally",
       "note": "Available via the web from compiling to wasm",
       "github_stars": 127,
@@ -7364,8 +7745,13 @@
     },
     {
       "name": "alignoth",
-      "tags": ["data:Read alignment", "stack:Rust", "stack:Vega"],
-      "github": "https://github.com/koesterlab/alignoth",
+      "tags": [
+        "data:Read alignment",
+        "stack:Rust",
+        "stack:Vega",
+        "license:MIT"
+      ],
+      "github": "https://github.com/alignoth/alignoth",
       "url": "http://htmlpreview.github.io/?https://github.com/koesterlab/alignoth/blob/main/examples/plot.html",
       "img": "alignoth.png",
       "pub": {
@@ -7395,7 +7781,8 @@
         "platform:Desktop",
         "platform:CLI",
         "stack:C++",
-        "stack:OpenGL"
+        "stack:OpenGL",
+        "license:MIT"
       ],
       "github": "https://github.com/kcleal/gw",
       "pub": {
@@ -7411,7 +7798,7 @@
       "name": "PretextView",
       "img": "pretextview.jpg",
       "tags": ["data:Hi-C", "stack:C++"],
-      "github": "https://github.com/wtsi-hpag/PretextView",
+      "github": "https://github.com/sanger-tol/PretextView",
       "width": 1616,
       "height": 1616,
       "github_stars": 64
@@ -7419,7 +7806,7 @@
     {
       "name": "pyCirclize",
       "img": "pycirclize.png",
-      "tags": ["view:Circular", "stack:Python"],
+      "tags": ["view:Circular", "stack:Python", "license:MIT"],
       "github": "https://github.com/moshi4/pyCirclize",
       "width": 1292,
       "height": 865,
@@ -7447,20 +7834,21 @@
       "github": "https://github.com/matted/genome_coverage_plotter",
       "name": "genome_coverage_plotter",
       "img": "genome-coverage-plotter.png",
-      "tags": ["data:CNV", "data:Coverage", "stack:Python"],
+      "tags": ["data:CNV", "data:Coverage", "stack:Python", "license:MIT"],
       "github_stars": 5,
       "width": 1600,
       "height": 400
     },
     {
-      "github": "https://github.com/mrvollger/NucFreq",
+      "github": "https://github.com/vollgerlab/NucFreq",
       "name": "NucFreq",
       "img": "nucfreq.png",
       "tags": [
         "data:Small variant",
         "data:Coverage",
         "stack:Python",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "width": 1600,
       "height": 400,
@@ -7478,7 +7866,8 @@
         "data:Genome graph",
         "data:Pangenome",
         "field:Comparative genomics",
-        "stack:Rust"
+        "stack:Rust",
+        "status:Archived"
       ],
       "img": "pgrtk.png",
       "width": 1109,
@@ -7488,7 +7877,12 @@
     {
       "name": "asynt",
       "github": "https://github.com/simonhmartin/asynt",
-      "tags": ["view:Dotplot", "field:Comparative genomics", "stack:R"],
+      "tags": [
+        "view:Dotplot",
+        "field:Comparative genomics",
+        "stack:R",
+        "license:GPL-3.0"
+      ],
       "img": "asynt.png",
       "width": 884,
       "height": 594,
@@ -7500,7 +7894,8 @@
         "data:Local ancestry",
         "view:Ideogram",
         "field:Plant",
-        "stack:JS"
+        "stack:JS",
+        "license:GPL-3.0"
       ],
       "img": "gemo.png",
       "github": "https://github.com/SouthGreenPlatform/GeMo",
@@ -7518,7 +7913,8 @@
       "tags": [
         "data:Multi-way synteny",
         "field:Comparative genomics",
-        "stack:Perl"
+        "stack:Perl",
+        "license:MIT"
       ],
       "img": "ngenomesyn.png",
       "pub": {
@@ -7539,7 +7935,8 @@
       "tags": [
         "data:Multi-way synteny",
         "field:Comparative genomics",
-        "stack:R"
+        "stack:R",
+        "license:GPL-3.0"
       ],
       "width": 1500,
       "height": 975,
@@ -7561,7 +7958,8 @@
         "data:Small variant",
         "stack:Python",
         "stack:R",
-        "stack:ggplot2"
+        "stack:ggplot2",
+        "license:MIT"
       ],
       "github_stars": 171,
       "width": 1800,
@@ -7583,7 +7981,8 @@
         "view:Circular",
         "field:Human genetics",
         "stack:Python",
-        "stack:Plotly"
+        "stack:Plotly",
+        "license:AGPL-3.0"
       ],
       "width": 1514,
       "height": 1002,
@@ -7609,9 +8008,9 @@
       "img": "abrowse2.png",
       "tags": [
         "kind:Genome browser",
-        "status:Historical",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "status:Historical"
       ],
       "note": "Had integrations with BioMart, Taverna",
       "pub": {
@@ -7630,7 +8029,8 @@
         "field:Comparative genomics",
         "platform:Web",
         "stack:C++",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "img": "vrpg.png",
       "url": "https://github.com/codeatcg/VRPG",
@@ -7671,9 +8071,10 @@
       "tags": [
         "field:Single cell",
         "data:Strand-seq",
-        "with:Snakemake",
         "stack:R",
-        "stack:Python"
+        "stack:Python",
+        "with:Snakemake",
+        "license:MIT"
       ],
       "img": "mosaicatcher.png",
       "github": "https://github.com/friendsofstrandseq/mosaicatcher-pipeline",
@@ -7693,7 +8094,13 @@
       "name": "ReConPlot",
       "img": "reconplot.png",
       "github": "https://github.com/cortes-ciriano-lab/ReConPlot",
-      "tags": ["data:SV", "data:CNV", "field:Cancer", "stack:R"],
+      "tags": [
+        "data:SV",
+        "data:CNV",
+        "field:Cancer",
+        "stack:R",
+        "license:GPL-3.0"
+      ],
       "pub": {
         "doi": "10.1101/2023.02.24.529890",
         "year": 2023,
@@ -7705,7 +8112,7 @@
     },
     {
       "name": "rich-msa",
-      "tags": ["data:MSA", "ui:Terminal", "stack:Python"],
+      "tags": ["data:MSA", "ui:Terminal", "stack:Python", "license:MIT"],
       "github": "https://github.com/althonos/rich-msa",
       "img": "richmsa.png",
       "width": 933,
@@ -7723,7 +8130,7 @@
     },
     {
       "name": "bamscope",
-      "tags": ["data:Read alignment", "stack:Kotlin"],
+      "tags": ["data:Read alignment", "stack:Kotlin", "license:MIT"],
       "url": "https://github.com/jslfree080/bamscope",
       "img": "bamscope.png",
       "width": 1199,
@@ -7743,7 +8150,12 @@
     {
       "name": "GCSnap",
       "img": "gcsnap.png",
-      "tags": ["data:Gene order", "field:Comparative genomics", "stack:Python"],
+      "tags": [
+        "data:Gene order",
+        "field:Comparative genomics",
+        "stack:Python",
+        "license:GPL-3.0"
+      ],
       "github": "https://github.com/JoanaMPereira/GCsnap",
       "pub": {
         "doi": "10.1016/j.jmb.2021.166943",
@@ -7762,7 +8174,8 @@
         "data:Gene structure",
         "view:Sashimi",
         "field:Transcriptomics",
-        "stack:Python"
+        "stack:Python",
+        "license:BSD-3-Clause"
       ],
       "pub": {
         "doi": "10.1371/journal.pcbi.1011477",
@@ -7778,7 +8191,7 @@
       "name": "BAMdash",
       "url": "https://github.com/jonas-fuchs/BAMdash/",
       "img": "bamdash.png",
-      "tags": ["data:Coverage", "stack:Python"],
+      "tags": ["data:Coverage", "stack:Python", "license:GPL-3.0"],
       "width": 1494,
       "height": 636,
       "github_stars": 57
@@ -7797,7 +8210,8 @@
         "view:Heatmap",
         "data:Repeat",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "width": 1926,
       "height": 1296,
@@ -7810,8 +8224,9 @@
         "view:Dotplot",
         "data:Multi-way synteny",
         "field:Comparative genomics",
+        "stack:Python",
         "with:Snakemake",
-        "stack:Python"
+        "license:MIT"
       ],
       "url": "https://github.com/conchoecia/odp",
       "pub": {
@@ -7867,7 +8282,8 @@
         "view:Circular",
         "field:Comparative genomics",
         "field:Microbiology",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "width": 1096,
       "height": 836,
@@ -7893,7 +8309,7 @@
       "github": "https://github.com/w-gao/pgv",
       "url": "https://w-gao.github.io/pgv/",
       "img": "pgv2.png",
-      "tags": ["data:Genome graph", "stack:JS", "stack:Python"],
+      "tags": ["data:Genome graph", "stack:JS", "stack:Python", "license:MIT"],
       "width": 1281,
       "height": 874,
       "github_stars": 21
@@ -7904,7 +8320,8 @@
         "data:K-mer",
         "data:Pangenome",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "url": "https://github.com/kjenike/panagram",
       "img": "panagram.png",
@@ -7927,7 +8344,7 @@
         "stack:JS"
       ],
       "img": "vag.jpg",
-      "github": "https://github.com/lipingfangs/VAG",
+      "github": "https://github.com/lipingfangs/VAP",
       "width": 1694,
       "height": 667,
       "github_stars": 26
@@ -7938,7 +8355,8 @@
       "tags": [
         "data:Multi-way synteny",
         "field:Comparative genomics",
-        "stack:R"
+        "stack:R",
+        "license:GPL-3.0"
       ],
       "github": "https://github.com/BirolLab/ntSynt-viz",
       "pub": {
@@ -7976,7 +8394,8 @@
         "data:Methylation",
         "data:Read alignment",
         "stack:Python",
-        "stack:JS"
+        "stack:JS",
+        "license:GPL-3.0"
       ],
       "url": "https://github.com/CompEpigen/figeno",
       "pub": {
@@ -8037,7 +8456,8 @@
         "data:Multi-way synteny",
         "field:Comparative genomics",
         "stack:Perl",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "width": 1692,
       "height": 2446,
@@ -8052,7 +8472,8 @@
         "view:Lollipop",
         "view:Circular",
         "data:CNV",
-        "stack:Python"
+        "stack:Python",
+        "license:GPL-3.0"
       ],
       "note": "See also usage in https://github.com/rraadd88/beditor",
       "width": 576,
@@ -8098,7 +8519,8 @@
         "data:Multi-way synteny",
         "data:SV",
         "field:Comparative genomics",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "pub": {
         "doi": "10.1093/bioinformatics/btaf332",
@@ -8121,7 +8543,8 @@
         "field:Cancer",
         "ui:Terminal",
         "stack:C",
-        "stack:C++"
+        "stack:C++",
+        "license:MIT"
       ],
       "pub": {
         "doi": "10.7150/ijbs.24626",
@@ -8140,7 +8563,8 @@
         "field:Synthetic biology",
         "data:Plasmid",
         "view:Circular",
-        "stack:Rust"
+        "stack:Rust",
+        "license:MIT"
       ],
       "width": 1157,
       "height": 1690,
@@ -8163,7 +8587,7 @@
     {
       "name": "AGFusion",
       "img": "agfusion.png",
-      "tags": ["data:Gene fusion", "field:Cancer"],
+      "tags": ["data:Gene fusion", "field:Cancer", "license:MIT"],
       "url": "https://github.com/murphycj/AGFusion",
       "pub": {
         "doi": "10.1101/080903",
@@ -8183,7 +8607,8 @@
         "field:Microbiology",
         "data:Multi-way synteny",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:WTFPL"
       ],
       "pub": {
         "doi": "10.1101/2024.09.11.612399",
@@ -8202,7 +8627,8 @@
         "view:Dotplot",
         "field:Comparative genomics",
         "ui:Terminal",
-        "stack:Rust"
+        "stack:Rust",
+        "license:MIT"
       ],
       "url": "https://github.com/wjwei-handsome/wgatools",
       "pub": {
@@ -8217,9 +8643,9 @@
     {
       "name": "dep",
       "img": "dep.png",
-      "tags": ["data:Coverage", "stack:C"],
+      "tags": ["data:Coverage", "stack:C", "license:MIT"],
       "note": "Can handle very deep coverage",
-      "github": "https://github.com/slw287r/dep",
+      "github": "https://github.com/gpsz/dep",
       "width": 1315,
       "height": 870,
       "github_stars": 7
@@ -8227,7 +8653,7 @@
     {
       "name": "strangepg",
       "img": "strangepg.png",
-      "tags": ["data:Genome graph", "stack:C"],
+      "tags": ["data:Genome graph", "stack:C", "license:MIT"],
       "github": "https://github.com/qwx9/strangepg",
       "width": 1280,
       "height": 1307,
@@ -8240,7 +8666,8 @@
         "data:Synteny",
         "data:BLAST",
         "field:Comparative genomics",
-        "stack:Godot"
+        "stack:Godot",
+        "license:MIT"
       ],
       "github": "https://github.com/martinghunt/ziplign",
       "note": "ACT (Artemis Comparison Tool) replacement",
@@ -8251,7 +8678,12 @@
     {
       "name": "GCI",
       "img": "gci.jpg",
-      "tags": ["task:Assembly QC", "data:Coverage", "stack:Python"],
+      "tags": [
+        "task:Assembly QC",
+        "data:Coverage",
+        "stack:Python",
+        "license:MIT"
+      ],
       "github": "https://github.com/yeeus/GCI",
       "pub": {
         "doi": "10.1093/bioinformatics/btae633",
@@ -8285,7 +8717,8 @@
         "data:Pangenome",
         "field:Comparative genomics",
         "stack:Python",
-        "stack:C++"
+        "stack:C++",
+        "license:GPL-3.0"
       ],
       "github": "https://github.com/vikshiv/mumemto",
       "pub": {
@@ -8303,7 +8736,8 @@
         "view:Manhattan",
         "data:GWAS",
         "data:Linkage disequilibrium",
-        "stack:R"
+        "stack:R",
+        "license:GPL-3.0"
       ],
       "url": "https://cran.r-project.org/web/packages/locuszoomr/vignettes/locuszoomr.html",
       "github": "https://github.com/myles-lewis/locuszoomr",
@@ -8320,7 +8754,12 @@
     },
     {
       "name": "winpca",
-      "tags": ["data:Local ancestry", "field:Population", "stack:Python"],
+      "tags": [
+        "data:Local ancestry",
+        "field:Population",
+        "stack:Python",
+        "license:MIT"
+      ],
       "github": "https://github.com/MoritzBlumer/winpca",
       "img": "winpca.png",
       "pub": {
@@ -8348,7 +8787,12 @@
     {
       "name": "SeqSizzle",
       "img": "seqsizzle.png",
-      "tags": ["data:Long read", "ui:Terminal", "stack:Rust"],
+      "tags": [
+        "data:Long read",
+        "ui:Terminal",
+        "stack:Rust",
+        "license:AGPL-3.0"
+      ],
       "github": "https://github.com/ChangqingW/SeqSizzle",
       "width": 1794,
       "height": 1216,
@@ -8357,7 +8801,7 @@
     {
       "name": "Genome Puzzle Master (GPM)",
       "img": "gpm.png",
-      "github": "https://github.com/Jianwei-Zhang/LIMS",
+      "github": "https://github.com/Jianwei-Zhang/CGAT",
       "pub": {
         "doi": "10.1093/bioinformatics/btw370",
         "year": 2016,
@@ -8392,7 +8836,8 @@
         "view:Circular",
         "data:Multi-way synteny",
         "field:Comparative genomics",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "width": 2000,
       "height": 2222,
@@ -8402,9 +8847,14 @@
       "name": "CGView.js",
       "img": "cgviewjs.png",
       "url": "https://js.cgview.ca/",
-      "github": "https://github.com/stothard-group/cgview-js",
+      "github": "https://github.com/sciguy/cgview-js",
       "note": "Used by proksee",
-      "tags": ["view:Circular", "field:Comparative genomics", "stack:JS"],
+      "tags": [
+        "view:Circular",
+        "field:Comparative genomics",
+        "stack:JS",
+        "license:Apache-2.0"
+      ],
       "width": 1254,
       "height": 944,
       "github_stars": 50
@@ -8416,7 +8866,8 @@
         "field:Transcriptomics",
         "platform:Web",
         "platform:Desktop",
-        "stack:JS"
+        "stack:JS",
+        "license:MPL-2.0"
       ],
       "url": "https://isomix.org/isovis/",
       "img": "isovis.png",
@@ -8437,7 +8888,8 @@
         "data:Read alignment",
         "data:Coverage",
         "ui:Terminal",
-        "stack:Rust"
+        "stack:Rust",
+        "license:MIT"
       ],
       "img": "tgv.png",
       "github": "https://github.com/zeqianli/tgv/",
@@ -8481,7 +8933,12 @@
       "name": "paf2dotplot",
       "img": "paf2dotplot.png",
       "note": "Based on dotPlotly",
-      "tags": ["view:Dotplot", "field:Comparative genomics", "stack:R"],
+      "tags": [
+        "view:Dotplot",
+        "field:Comparative genomics",
+        "stack:R",
+        "license:GPL-3.0"
+      ],
       "url": "https://github.com/moold/paf2dotplot",
       "width": 720,
       "height": 576,
@@ -8502,7 +8959,8 @@
       "tags": [
         "data:Multi-way synteny",
         "field:Comparative genomics",
-        "stack:R"
+        "stack:R",
+        "license:MIT"
       ],
       "github": "https://github.com/cxli233/TidyLocalSynteny",
       "width": 1200,
@@ -8512,8 +8970,8 @@
     {
       "name": "PangyPlot",
       "img": "pangyplot.png",
-      "tags": ["data:Genome graph", "stack:Python"],
-      "github": "https://github.com/ScottMastro/pangyplot",
+      "tags": ["data:Genome graph", "stack:Python", "license:MIT"],
+      "github": "https://github.com/strug-hub/pangyplot",
       "pub": {
         "doi": "10.1101/2025.10.31.684064",
         "year": 2025,
@@ -8531,10 +8989,11 @@
         "data:Expression",
         "data:Signal track",
         "field:Single cell",
-        "with:HiGlass",
         "stack:JS",
         "stack:Python",
-        "stack:R"
+        "stack:R",
+        "with:HiGlass",
+        "license:MIT"
       ],
       "url": "https://vitessce.io/",
       "github": "https://github.com/vitessce/vitessce",
@@ -8577,7 +9036,7 @@
         "year": 2025,
         "citations": 0
       },
-      "tags": ["data:MSA", "ui:Terminal", "stack:Rust"],
+      "tags": ["data:MSA", "ui:Terminal", "stack:Rust", "license:MIT"],
       "width": 831,
       "height": 464,
       "github_stars": 36
@@ -8586,14 +9045,19 @@
       "name": "SeqTUI",
       "github": "https://github.com/ranwez-search/SeqTUI",
       "img": "seqtui.jpg",
-      "tags": ["data:MSA", "ui:Terminal", "stack:Rust"],
+      "tags": ["data:MSA", "ui:Terminal", "stack:Rust", "license:MIT"],
       "github_stars": 47,
       "width": 1842,
       "height": 1072
     },
     {
       "name": "OpenVectorEditor",
-      "tags": ["field:Synthetic biology", "data:Plasmid", "stack:JS"],
+      "tags": [
+        "field:Synthetic biology",
+        "data:Plasmid",
+        "stack:JS",
+        "license:MIT"
+      ],
       "github": "https://github.com/TeselaGen/tg-oss",
       "url": "https://teselagen.github.io/tg-oss/ove/#/Editor",
       "github_stars": 106
@@ -8606,7 +9070,7 @@
     },
     {
       "name": "salti",
-      "tags": ["data:MSA", "ui:Terminal", "stack:Rust"],
+      "tags": ["data:MSA", "ui:Terminal", "stack:Rust", "license:MIT"],
       "img": "salti.png",
       "url": "https://github.com/Sam-Sims/salti",
       "width": 1517,
@@ -8615,7 +9079,7 @@
     },
     {
       "name": "pyideogram",
-      "tags": ["view:Ideogram", "stack:Python"],
+      "tags": ["view:Ideogram", "stack:Python", "license:LGPL-3.0"],
       "img": "pyideogram.png",
       "github": "https://github.com/Balthasar-eu/pyideogram",
       "width": 1027,
@@ -8624,7 +9088,12 @@
     },
     {
       "name": "phasius",
-      "tags": ["data:Small variant", "view:Ideogram", "stack:Python"],
+      "tags": [
+        "data:Small variant",
+        "view:Ideogram",
+        "stack:Python",
+        "license:MIT"
+      ],
       "img": "phasius.png",
       "github": "https://github.com/wdecoster/phasius",
       "github_stars": 17,
@@ -8675,7 +9144,8 @@
         "data:Small variant",
         "platform:Desktop",
         "stack:JS",
-        "stack:Electron"
+        "stack:Electron",
+        "license:MIT"
       ],
       "width": 1200,
       "height": 741,
@@ -8707,7 +9177,8 @@
         "data:Raw signal",
         "platform:Desktop",
         "platform:Web",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "img": "currentview.png",
       "github": "https://github.com/genometechlab/currentview",
@@ -8726,7 +9197,8 @@
         "platform:CLI",
         "stack:Python",
         "stack:C",
-        "stack:Shell"
+        "stack:Shell",
+        "license:MIT"
       ],
       "img": "quaak.png",
       "github": "https://github.com/YingZhou001/Quaak",
@@ -8742,7 +9214,8 @@
         "data:Pangenome",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:Typescript"
+        "stack:TypeScript",
+        "license:GPL-3.0"
       ],
       "img": "bandagejs.png",
       "url": "https://github.com/GMOD/BandageJS",
@@ -8790,8 +9263,9 @@
       "tags": [
         "data:Genome graph",
         "platform:Web",
-        "stack:Typescript",
-        "stack:WebGL"
+        "stack:TypeScript",
+        "stack:WebGL",
+        "license:GPL-3.0"
       ],
       "img": "sloppyygfa.png",
       "url": "https://github.com/mdondrup/SloppyyGFA",
@@ -8807,7 +9281,8 @@
         "data:Pangenome",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:Typescript"
+        "stack:TypeScript",
+        "license:MIT"
       ],
       "img": "pg2.png",
       "url": "https://github.com/iVis-at-Bilkent/pangenographer",
@@ -8844,9 +9319,10 @@
         "data:SV",
         "data:Synteny",
         "field:Comparative genomics",
-        "with:JBrowse",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "with:JBrowse",
+        "license:GPL-3.0"
       ],
       "img": "synflow.png",
       "url": "https://github.com/SouthGreenPlatform/SynFlow",
@@ -8867,7 +9343,8 @@
         "field:Microbiology",
         "platform:Web",
         "stack:Python",
-        "stack:Rust"
+        "stack:Rust",
+        "license:MIT"
       ],
       "img": "thebigbam.png",
       "url": "https://github.com/bhagavadgitadu22/theBIGbam",
@@ -8887,7 +9364,8 @@
         "view:Circular",
         "field:Microbiology",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "img": "vicmag.png",
       "url": "https://github.com/TsudaYusuke/VicMAG",
@@ -8903,7 +9381,12 @@
     },
     {
       "name": "SQANTI-browser",
-      "tags": ["field:Transcriptomics", "data:Long read", "with:UCSC"],
+      "tags": [
+        "field:Transcriptomics",
+        "data:Long read",
+        "with:UCSC",
+        "license:GPL-3.0"
+      ],
       "url": "https://github.com/ConesaLab/SQANTI-browser",
       "note": "Loads SQANTI3-classified long-read transcriptomes into the UCSC Genome Browser for filtering and curation",
       "pub": {
@@ -8921,7 +9404,8 @@
         "data:SV",
         "ui:Static",
         "platform:CLI",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "img": "bamsnap_lrs.png",
       "url": "https://github.com/comery/Bamsnap-LRS",
@@ -8957,7 +9441,8 @@
         "view:Linear",
         "field:Comparative genomics",
         "ui:Static",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "img": "a_liner.png",
       "url": "https://github.com/mokuno3430/a-liner",
@@ -8973,7 +9458,12 @@
     },
     {
       "name": "VIJB",
-      "tags": ["task:Accessibility", "with:JBrowse", "stack:Python"],
+      "tags": [
+        "task:Accessibility",
+        "stack:Python",
+        "with:JBrowse",
+        "license:GPL-3.0"
+      ],
       "url": "https://github.com/NiBuMNHN/VIJB",
       "note": "Companion to JBrowse that makes genome browsing usable for visually impaired people",
       "pub": {
@@ -8990,8 +9480,9 @@
         "data:SV",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:Typescript",
-        "stack:D3"
+        "stack:TypeScript",
+        "stack:D3",
+        "license:MIT"
       ],
       "img": "chitra.png",
       "url": "https://github.com/BioinformaticsOnLine/CHITRA",
@@ -9011,7 +9502,8 @@
         "data:Synteny",
         "field:Comparative genomics",
         "platform:Web",
-        "stack:JS"
+        "stack:JS",
+        "license:MIT"
       ],
       "img": "syntenypair_explorer.png",
       "url": "https://github.com/GibbonsLabGenomics/SyntenyPair-Explorer",
@@ -9047,7 +9539,7 @@
     },
     {
       "name": "ProleTRact",
-      "tags": ["data:Repeat", "platform:Web", "stack:Typescript"],
+      "tags": ["data:Repeat", "platform:Web", "stack:TypeScript"],
       "img": "proletract.png",
       "url": "https://github.com/Lionward/ProleTRact",
       "note": "Tandem repeat viewer that shows motif composition of alleles; companion to the TandemTwister genotyper. Demo https://lionward.github.io/ProleTRact/",
@@ -9068,7 +9560,8 @@
         "field:Microbiology",
         "field:Comparative genomics",
         "platform:CLI",
-        "stack:Rust"
+        "stack:Rust",
+        "license:MIT"
       ],
       "img": "bacircos.png",
       "url": "https://github.com/sablokg/bacircos",
@@ -9110,9 +9603,9 @@
         "data:Methylation",
         "field:Human genetics",
         "ui:Static",
-        "license:Academic",
         "platform:CLI",
-        "stack:Python"
+        "stack:Python",
+        "license:Academic"
       ],
       "img": "mahi-mahi.png",
       "url": "https://github.com/nanoporetech/mahi-mahi",
@@ -9128,7 +9621,8 @@
         "field:Human genetics",
         "ui:Static",
         "platform:Library",
-        "stack:Python"
+        "stack:Python",
+        "license:BSD-3-Clause"
       ],
       "img": "trviz.png",
       "url": "https://github.com/Jong-hun-Park/trviz",
@@ -9148,7 +9642,8 @@
         "data:Long read",
         "data:Raw signal",
         "platform:CLI",
-        "stack:Python"
+        "stack:Python",
+        "license:MIT"
       ],
       "img": "squigualiser.png",
       "url": "https://github.com/hiruna72/squigualiser",
