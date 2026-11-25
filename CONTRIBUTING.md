@@ -60,11 +60,15 @@ The Update README workflow also regenerates it on push.
 
 ## Automatically update TOOLS.json
 
-The update.sh will get citation count, year, github stars, and calculate the
-width/height on images and update the TOOLS.json appropriately
+update.sh refreshes the citation count and year of every pub, the GitHub stars
+of every repo, and the width/height of every image, then formats TOOLS.json
 
-    GITHUB_AUTH=yourtokenhere ./update.sh
+    ./update.sh
 
-You can also refresh all github star and citation counts
+It authenticates to GitHub with `GITHUB_TOKEN` if set, otherwise with
+`gh auth token`. get_stars.ts also lists repos that were not found, were renamed
+or transferred, or are archived without a `status:` tag, for a curator to fix by
+hand.
 
-    ALL_STARS=true ALL_CITATIONS=true GITHUB_AUTH=yourtokenhere ./update.sh
+The Refresh stars and citations workflow refreshes stars and citations on the
+first of every month and commits the result.

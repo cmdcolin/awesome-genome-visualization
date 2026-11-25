@@ -1,0 +1,43 @@
+name: Refresh stars and citations
+
+on:
+  schedule:
+    - cron: '17 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: node --experimental-strip-types scripts/get_citations.ts
+      - run: node --experimental-strip-types scripts/get_stars.ts
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - run: pnpm exec oxfmt TOOLS.json
+      - run: pnpm check-tools
+      - name: Commit refreshed TOOLS.json and redeploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! git diff --quiet -- TOOLS.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh GitHub stars and citation counts' TOOLS.json
+            git push
+            gh workflow run deploy.yml --ref main
+          fi
