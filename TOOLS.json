@@ -417,20 +417,13 @@
       "github_stars": 14
     },
     {
-      "tags": [
-        "data:MSA",
-        "platform:Web",
-        "stack:JS",
-        "stack:React",
-        "status:Deadlink"
-      ],
+      "tags": ["data:MSA", "platform:Web", "stack:JS", "stack:React"],
       "name": "React MSAViewer",
       "img": "react-msa-viewer.png",
-      "note": "Plotly fully deleted the github unfortunately",
-      "url": "https://github.com/plotly/react-msa-viewer",
+      "note": "Plotly deleted the GitHub repo, but the package is still on npm",
+      "url": "https://www.npmjs.com/package/@plotly/react-msa-viewer",
       "width": 595,
-      "height": 243,
-      "github_stars": 25
+      "height": 243
     },
     {
       "tags": ["data:MSA", "stack:JS", "stack:React", "license:MIT"],
@@ -5480,7 +5473,7 @@
     {
       "name": "RectChr",
       "img": "rectchr.png",
-      "url": "https://github.com/BGI-shenzhen/RectChr",
+      "url": "https://github.com/hewm2008/RectChr",
       "tags": [
         "view:Ideogram",
         "field:Comparative genomics",
@@ -5490,7 +5483,7 @@
       ],
       "width": 635,
       "height": 760,
-      "github_stars": 113
+      "github_stars": 46
     },
     {
       "name": "LDBlockShow",
@@ -7622,9 +7615,10 @@
         "data:Genome graph",
         "field:Population",
         "stack:Java",
-        "stack:Scala"
+        "stack:Scala",
+        "status:Deadlink"
       ],
-      "note": "See also hygene https://github.com/ProgrammingLife2017/hygene",
+      "note": "The AbeelLab/ctag repo was deleted. See also hygene https://github.com/ProgrammingLife2017/hygene",
       "width": 916,
       "height": 639,
       "github_stars": 1
