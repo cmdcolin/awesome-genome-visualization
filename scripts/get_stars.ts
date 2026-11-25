@@ -1,3 +1,4 @@
+import fs from 'fs'
 import {
   fetchJSON,
   readTOOLS,
@@ -88,6 +89,12 @@ for (const [title, list] of [
 ] as const) {
   if (list.length) {
     console.log(`\n${title}: ${list.length}\n${list.join('\n')}`)
+    if (process.env.GITHUB_STEP_SUMMARY) {
+      fs.appendFileSync(
+        process.env.GITHUB_STEP_SUMMARY,
+        `### ${title}: ${list.length}\n\n${list.map(l => `- ${l}`).join('\n')}\n\n`,
+      )
+    }
   }
 }
 console.log(
