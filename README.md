@@ -249,6 +249,7 @@ feasible.
 
 - [Anvio](https://peerj.com/articles/1319/)
   [(pub)](https://doi.org/10.7717/peerj.1319)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/anvio.jpg)
 - [bacircos](https://github.com/sablokg/bacircos) (Circular plots of bacterial
   genomes, MAGs and multi-genome synteny)
   [(pub)](https://doi.org/10.20944/preprints202609.2579.v1)
@@ -613,6 +614,7 @@ feasible.
   (Web viewer for optical chromatin tracing data that reconstructs and shows the
   3D fibers of individual alleles, queryable by pairwise distances between
   segments) [(pub)](https://doi.org/10.1101/2025.06.18.660347)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/olive.png)
 - [python-genome-browser aka pygbrowse](https://github.com/phageghost/python-genome-browser/blob/master/pygbrowse_demonstration.ipynb)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pygbrowse.png)
 
@@ -843,6 +845,7 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locuszoom.png)
 - [Locuszoom.js](http://locuszoom.org/locuszoomjs.php)
   [(pub)](https://doi.org/10.1093/bioinformatics/btab186)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/locuszoom_js.png)
 - [PureScript genetics browser](https://github.com/chfi/purescript-genetics-browser)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/purescript.png)
 - [RACER](https://oliviasabik.github.io/RACERweb/articles/IntroToRACER.html)
@@ -1318,6 +1321,7 @@ feasible.
   graphs; from the same group as Panache. Source
   https://forge.ird.fr/diade/savanache)
   [(pub)](https://doi.org/10.64898/2026.05.05.722901)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/savanache.png)
 - [TASUKE](https://tasuke-wiki.dna.naro.go.jp/) (Visualization of multiple
   genomes resequencing data from species having larger genome. Requires a LAMP
   server ) [(pub)](https://doi.org/10.1093/dnares/dsz022)
@@ -1380,6 +1384,7 @@ feasible.
   nodes, edges and mutations of tskit ancestral recombination graphs along the
   genome, scaling to biobank-size ARGs)
   [(pub)](https://doi.org/10.1101/2025.04.23.649987)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/tsbrowse.jpg)
 - [vcfR](https://knausb.github.io/vcfR_documentation/) (image shows chromoqc
   output) [(pub)](https://doi.org/10.1111/1755-0998.12549)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcfr.png)
@@ -1860,6 +1865,7 @@ feasible.
   [(pub)](https://doi.org/10.1093/nar/gkz365)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/chopchop.png)
 - [OpenVectorEditor](https://teselagen.github.io/tg-oss/ove/#/Editor)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/openvectoreditor.png)
 - [plascad](https://github.com/David-OConnor/plascad)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plascad.png)
 - [plasmapR](https://github.com/BradyAJohnston/plasmapR)
@@ -1873,6 +1879,7 @@ feasible.
 - [SQANTI-browser](https://github.com/ConesaLab/SQANTI-browser) (Loads
   SQANTI3-classified long-read transcriptomes into the UCSC Genome Browser for
   filtering and curation) [(pub)](https://doi.org/10.64898/2026.05.25.727625)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sqanti_browser.png)
 
 ## Transposon
 
