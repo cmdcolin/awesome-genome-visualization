@@ -6900,10 +6900,15 @@
         "stack:JS"
       ],
       "github": "https://github.com/vollgerlab/SafFire",
-      "url": "https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38",
+      "url": "https://www.vollgerlab.com/SafFire/",
       "width": 1776,
       "height": 700,
-      "github_stars": 33
+      "github_stars": 33,
+      "pub": {
+        "doi": "10.64898/2026.02.16.706142",
+        "year": 2026,
+        "citations": 0
+      }
     },
     {
       "name": "Gingr",
@@ -10541,6 +10546,113 @@
       "width": 1317,
       "height": 744,
       "github_stars": 130
+    },
+    {
+      "name": "gfaidx-viz",
+      "tags": [
+        "data:Genome graph",
+        "data:Pangenome",
+        "field:Comparative genomics",
+        "platform:Web",
+        "stack:TypeScript",
+        "license:GPL-3.0"
+      ],
+      "img": "gfaidx_viz.png",
+      "github": "https://github.com/fawaz-dabbaghieh/gfaidx-viz",
+      "url": "https://fawaz-dabbaghieh.github.io/gfaidx-viz/",
+      "note": "Fork of BandageJS https://github.com/GMOD/BandageJS that views subgraphs and haplotype paths of human pangenome GFA graphs pre-indexed with gfaidx https://github.com/fawaz-dabbaghieh/gfaidx",
+      "pub": {
+        "doi": "10.64898/2026.11.15.766357",
+        "year": 2026,
+        "citations": 0
+      },
+      "width": 1885,
+      "height": 916,
+      "github_stars": 1
+    },
+    {
+      "name": "Novabrowse",
+      "tags": [
+        "data:Synteny",
+        "data:BLAST",
+        "field:Comparative genomics",
+        "platform:CLI",
+        "stack:Python",
+        "stack:JS",
+        "license:MIT"
+      ],
+      "img": "novabrowse.png",
+      "url": "https://github.com/RegenImm-Lab/Novabrowse",
+      "note": "Runs BLAST for the genes in a region against several species and writes an interactive HTML table with per-gene coverage, chromosome maps and synteny ribbons, for ortholog detection and finding unannotated genes",
+      "pub": {
+        "doi": "10.64898/2026.03.27.714371",
+        "year": 2026,
+        "citations": 0
+      },
+      "width": 1600,
+      "height": 447,
+      "github_stars": 6
+    },
+    {
+      "name": "tsbrowse",
+      "tags": [
+        "field:Population",
+        "data:Ancestral recombination graph",
+        "platform:Web",
+        "stack:Python",
+        "license:MIT"
+      ],
+      "github": "https://github.com/tskit-dev/tsbrowse",
+      "url": "https://tskit.dev/tsbrowse/docs/",
+      "note": "Browser-based viewer for the nodes, edges and mutations of tskit ancestral recombination graphs along the genome, scaling to biobank-size ARGs",
+      "pub": {
+        "doi": "10.1101/2025.04.23.649987",
+        "year": 2025,
+        "citations": 0
+      },
+      "github_stars": 3
+    },
+    {
+      "name": "GWAS SVatalog",
+      "tags": [
+        "data:GWAS",
+        "data:SV",
+        "data:Linkage disequilibrium",
+        "field:Human genetics",
+        "platform:Portal",
+        "stack:Python",
+        "license:MIT"
+      ],
+      "img": "gwas_svatalog.png",
+      "github": "https://github.com/strug-hub/gwas-svatalog",
+      "url": "https://svatalog.research.sickkids.ca/",
+      "note": "Plots linkage disequilibrium between long-read structural variants and GWAS Catalog SNPs at a locus, to check whether GWAS hits tag an SV",
+      "pub": {
+        "doi": "10.1101/2025.09.03.674075",
+        "year": 2025,
+        "citations": 0
+      },
+      "width": 1600,
+      "height": 989,
+      "github_stars": 2
+    },
+    {
+      "name": "OLIVE (Optical Looping Interactive Viewing Engine)",
+      "tags": [
+        "field:Epigenomics",
+        "data:Chromatin tracing",
+        "platform:Web",
+        "stack:JS"
+      ],
+      "github": "https://github.com/faryabiLab/chromatin-traces-vis",
+      "url": "https://faryabilab.github.io/chromatin-traces-vis/",
+      "note": "Web viewer for optical chromatin tracing data that reconstructs and shows the 3D fibers of individual alleles, queryable by pairwise distances between segments",
+      "pub": {
+        "doi": "10.1101/2025.06.18.660347",
+        "year": 2025,
+        "citations": 0
+      },
+      "github_stars": 1
     }
   ]
 }

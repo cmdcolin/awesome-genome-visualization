@@ -26,7 +26,7 @@ these, they can hamper your learning if you become overly reliant on them) make
 this much easier! But also consider making your visualization code re-usable for
 the wider community! And feel free to send PRs for more tools!
 
-Finally, at least 68% (395/574) tools in this list have written publications for
+Finally, at least 69% (401/579) tools in this list have written publications for
 their tools. They went through the effort to write it up, cite these tools!!
 
 New rule: 2026-10-11 I will no longer be accepting tools without source
@@ -77,7 +77,7 @@ feasible.
 - [Epiviz](https://epiviz.github.io/)
   [(pub)](https://doi.org/10.1093/bioinformatics/btaa591)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/epiviz.png)
-- [GBrowse 2](http://gmod.org/wiki/GBrowse) (Original gbrowse paper
+- [GBrowse 2](https://gmod.org/wiki/GBrowse_2.0_HOWTO) (Original gbrowse paper
   https://doi.org/10.1101/gr.403602) [(pub)](https://doi.org/10.1093/bib/bbt001)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gbrowse.png)
 - [Geneious](https://www.geneious.com/)
@@ -87,7 +87,7 @@ feasible.
 - [GenomeMaps](http://www.genomemaps.org/)
   [(pub)](https://doi.org/10.1093/nar/gkt530)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomemaps.jpg)
-- [Genoverse](https://github.com/wtsi-web/Genoverse)
+- [Genoverse](https://github.com/DECIPHER-genomics/Genoverse)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genoverse.png)
 - [Golden Helix](https://www.goldenhelix.com/products/GenomeBrowse/) (Free for
   academic use)
@@ -126,6 +126,9 @@ feasible.
   https://kero.hgc.jp/tool/keyword.html#kero:chrX:153,724,868-153,744,762 human
   vs chimp) [(pub)](https://doi.org/10.1093/nar/gkx1001)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/kerobrowse.png)
+- [Multiple genome viewer](http://www.informatics.jax.org/mgv/)
+  [(pub)](https://doi.org/10.1007/s00335-021-09904-1)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mgv.png)
 - [NCBI Genome Data Viewer](https://www.ncbi.nlm.nih.gov/genome/gdv/)
   [(pub)](https://doi.org/10.1101/gr.266932.120)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gdv.png)
@@ -208,7 +211,7 @@ feasible.
 - [GCI](https://github.com/yeeus/GCI)
   [(pub)](https://doi.org/10.1093/bioinformatics/btae633)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gci.jpg)
-- [Genome Puzzle Master (GPM)](https://jianwei-zhang.github.io/LIMS/GPM-Manual.html)
+- [Genome Puzzle Master (GPM)](https://github.com/Jianwei-Zhang/CGAT)
   [(pub)](https://doi.org/10.1093/bioinformatics/btw370)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gpm.png)
 - [Icarus QUAST](http://quast.sourceforge.net/icarus.html)
@@ -264,7 +267,7 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cgview.png)
 - [CGView.js](https://js.cgview.ca/) (Used by proksee)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cgviewjs.png)
-- [Circa](https://omgenomics.com/circa)
+- [Circa](https://circa.omgenomics.com/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/circa.png)
 - [Circleator](http://jonathancrabtree.github.io/Circleator/index.html)
   [(pub)](https://doi.org/10.1093/bioinformatics/btu505)
@@ -329,7 +332,7 @@ feasible.
 - [aCNVViewer](https://github.com/FJD-CEPH/aCNViewer)
   [(pub)](https://doi.org/10.1371/journal.pone.0189334)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/acnvviewer.png)
-- [BAMScale](https://github.com/ncbi/BAMscale)
+- [BAMScale](https://github.com/NLM-DIR/BAMscale)
   [(pub)](https://doi.org/10.1186/s13072-020-00343-x)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamscale.png)
 - [bcftools cnv](https://samtools.github.io/bcftools/howtos/cnv-calling.html)
@@ -416,21 +419,14 @@ feasible.
 - Combo (Based on the tool 'Argo')
   [(pub)](https://doi.org/10.1093/bioinformatics/btl193)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/combo.png)
-- [Multiple genome viewer](http://www.informatics.jax.org/mgv/)
-  [(pub)](https://doi.org/10.1007/s00335-021-09904-1)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mgv.png)
-- [Parasight](https://baileylab.brown.edu/parasight/galframe.html) (Examples at
-  https://ratparalogy.gs.washington.edu/)
-  [(pub)](https://doi.org/10.1038/ng1562)
-  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/parasight.png)
 
 ## Coverage
 
 - [BAMdash](https://github.com/jonas-fuchs/BAMdash/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bamdash.png)
-- [dep](https://github.com/slw287r/dep) (Can handle very deep coverage)
+- [dep](https://github.com/gpsz/dep) (Can handle very deep coverage)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dep.png)
-- [ggcoverage](https://cran.r-project.org/web/packages/ggcoverage/vignettes/ggcoverage.html)
+- [ggcoverage](https://showteeth.github.io/ggcoverage/)
   [(pub)](https://doi.org/10.1101/2022.09.01.503744)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggcoverage.png)
 - [Hagfish](https://github.com/mfiers/hagfish/wiki/Plots)
@@ -448,7 +444,7 @@ feasible.
 - [SEQing](https://github.com/malewins/SEQing)
   [(pub)](https://doi.org/10.1186/s12859-020-3434-9)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/seqing.png)
-- [signac](https://github.com/timoast/signac/)
+- [signac](https://github.com/stuart-lab/signac/)
   [(pub)](https://doi.org/10.1038/s41592-021-01282-5)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/signac.png)
 - [Trackplot (R)](https://github.com/PoisonAlien/trackplot)
@@ -500,7 +496,7 @@ feasible.
   here
   http://eichlerlab.gs.washington.edu/pubs/chm1-structural-variation/data/GRCh37/heterochromatic_extensions.pdf)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/dottup.png)
-- [FlexiDot](https://github.com/molbio-dresden/flexidot)
+- [FlexiDot](https://github.com/flexidot-bio/flexidot)
   [(pub)](https://doi.org/10.1093/bioinformatics/bty395)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/flexidot.png)
 - [GenomicBreaks](https://oist.github.io/GenomicBreaks/articles/GenomicBreaks.html)
@@ -613,6 +609,10 @@ feasible.
 - [Methplotlib](https://github.com/wdecoster/methplotlib)
   [(pub)](https://doi.org/10.1093/bioinformatics/btaa093)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/methplotlib.jpg)
+- [OLIVE (Optical Looping Interactive Viewing Engine)](https://faryabilab.github.io/chromatin-traces-vis/)
+  (Web viewer for optical chromatin tracing data that reconstructs and shows the
+  3D fibers of individual alleles, queryable by pairwise distances between
+  segments) [(pub)](https://doi.org/10.1101/2025.06.18.660347)
 - [python-genome-browser aka pygbrowse](https://github.com/phageghost/python-genome-browser/blob/master/pygbrowse_demonstration.ipynb)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pygbrowse.png)
 
@@ -736,12 +736,18 @@ feasible.
   the browser. Highlights walks and reads one region at a time from a
   whole-genome pangenome. Demo https://jbrowse.org/demos/bandagejs/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bandagejs.png)
-- [ctag](https://github.com/AbeelLab/ctag) (See also hygene
-  https://github.com/ProgrammingLife2017/hygene)
+- [ctag](https://github.com/AbeelLab/ctag) (The AbeelLab/ctag repo was deleted.
+  See also hygene https://github.com/ProgrammingLife2017/hygene)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ctag.png)
 - [gfaestus](https://github.com/chfi/gfaestus) (See demo video displaying GFF3
   annotations on graph https://www.youtube.com/watch?v=A-HnKXIrJl4)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfaestus.png)
+- [gfaidx-viz](https://fawaz-dabbaghieh.github.io/gfaidx-viz/) (Fork of
+  BandageJS https://github.com/GMOD/BandageJS that views subgraphs and haplotype
+  paths of human pangenome GFA graphs pre-indexed with gfaidx
+  https://github.com/fawaz-dabbaghieh/gfaidx)
+  [(pub)](https://doi.org/10.64898/2026.11.15.766357)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfaidx_viz.png)
 - [gfalook](https://github.com/pangenome/gfalook) (See also odgi viz)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gfalook.png)
 - [GfaViz](https://github.com/ggonnella/gfaviz)
@@ -769,7 +775,7 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/odgi.png)
 - [panGraphViewer](https://github.com/TF-Chan-Lab/panGraphViewer)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pangraphviewer.jpg)
-- [PangyPlot](https://github.com/ScottMastro/pangyplot)
+- [PangyPlot](https://github.com/strug-hub/pangyplot)
   [(pub)](https://doi.org/10.1101/2025.10.31.684064)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pangyplot.png)
 - [PG2 (PanGenoGrapher)](https://github.com/iVis-at-Bilkent/pangenographer) (Web
@@ -798,7 +804,7 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/sloppyygfa.png)
 - [strangepg](https://github.com/qwx9/strangepg)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/strangepg.png)
-- [VAG](https://github.com/lipingfangs/VAG)
+- [VAG](https://github.com/lipingfangs/VAP)
   [(pub)](https://doi.org/10.1101/2023.01.20.524849)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vag.jpg)
 - [VRPG](https://github.com/codeatcg/VRPG)
@@ -819,6 +825,11 @@ feasible.
   (This is not a preconfigured tool but a blog post tutorial with tidy data and
   ggplot2)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggplot2_manhattan.png)
+- [GWAS SVatalog](https://svatalog.research.sickkids.ca/) (Plots linkage
+  disequilibrium between long-read structural variants and GWAS Catalog SNPs at
+  a locus, to check whether GWAS hits tag an SV)
+  [(pub)](https://doi.org/10.1101/2025.09.03.674075)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gwas_svatalog.png)
 - [LDBlockShow](https://github.com/BGI-shenzhen/LDBlockShow)
   [(pub)](https://doi.org/10.1093/bib/bbaa227)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ldblockshow.png)
@@ -873,13 +884,13 @@ feasible.
   https://github.com/rishabhsvemuri/ThePlotgardenerApp)
   [(pub)](https://doi.org/10.1093/bioinformatics/btac057)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/plotgardener.png)
-- [PretextView](https://github.com/wtsi-hpag/PretextView)
+- [PretextView](https://github.com/sanger-tol/PretextView)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pretextview.jpg)
 - [pyGenomeTracks](https://github.com/deeptools/pyGenomeTracks) (See also
   https://pypi.org/project/gtracks/ which is a separate project that is powered
   by pyGenomeTracks) [(pub)](https://doi.org/10.1093/bioinformatics/btaa692)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pygenometracks.png)
-- [SparK](https://github.com/harbourlab/SparK)
+- [SparK](https://github.com/StefanKurtenbach/SparK)
   [(pub)](https://doi.org/10.1101/845529)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/spark.png)
 
@@ -925,7 +936,7 @@ feasible.
 - [Ideogram viewer](https://bioinformatics.mdanderson.org/public-software/ideogramviewer/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ideogramviewer.png)
 - [Ideoplot](https://github.com/mchaisso/Ideoplot)
-- [IdeoViz](https://www.bioconductor.org/packages/release/bioc/vignettes/IdeoViz/inst/doc/Vignette.pdf)
+- [IdeoViz](https://bioconductor.org/packages/IdeoViz/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ideoviz.png)
 - [karyoploteR](https://github.com/bernatgel/karyoploteR)
   [(pub)](https://doi.org/10.1093/bioinformatics/btx346)
@@ -940,7 +951,7 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phenogram.png)
 - [pyideogram](https://github.com/Balthasar-eu/pyideogram)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pyideogram.png)
-- [RectChr](https://github.com/BGI-shenzhen/RectChr)
+- [RectChr](https://github.com/hewm2008/RectChr)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/rectchr.png)
 - [RIdeogram](https://github.com/TickingClock1992/RIdeogram)
   [(pub)](https://doi.org/10.7717/peerj-cs.251)
@@ -977,7 +988,7 @@ feasible.
 - [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/)
   [(pub)](https://doi.org/10.1186/s13059-018-1465-6)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/give_hic.png)
-- [Gnomad browser](https://github.com/macarthur-lab/gnomadjs)
+- [Gnomad browser](https://github.com/broadinstitute/gnomad-browser)
   [(pub)](https://doi.org/10.1038/s41586-020-2308-7)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/gnomad.png)
 - [LinearDisplay.pl](https://github.com/JCVenterInstitute/LinearDisplay) (readme
@@ -1079,7 +1090,8 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alan.png)
 - [alen](https://github.com/jakobnissen/alen)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alen.png)
-- [alignfigR](https://cran.r-project.org/web/packages/alignfigR/vignettes/my-vignette.html)
+- [alignfigR](https://github.com/sjspielman/alignfigR) (Archived from CRAN in
+  2022; install from GitHub)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alignfigr.png)
 - [alignment.js](https://github.com/veg/alignment.js)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/alignmentjs.png)
@@ -1167,10 +1179,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pyboxshade.png)
 - [pymsaplotter](https://github.com/orangeSi/pymsaploter)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pymsaplotter.png)
-- [React MSAViewer](https://github.com/plotly/react-msa-viewer) (Plotly fully
-  deleted the github unfortunately)
+- [React MSAViewer](https://www.npmjs.com/package/@plotly/react-msa-viewer)
+  (Plotly deleted the GitHub repo, but the package is still on npm)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/react-msa-viewer.png)
-- [react-msaview](https://github.com/GMOD/react-msaview)
+- [react-msaview](https://github.com/GMOD/JBrowseMSA)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/react-msaview.png)
 - [rich-msa](https://github.com/althonos/rich-msa)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/richmsa.png)
@@ -1364,6 +1376,10 @@ feasible.
 - [PopSV](https://github.com/jmonlong/PopSV/blob/master/3-Visualization.md)
   [(pub)](https://doi.org/10.1371/journal.pgen.1007285)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/popsv.png)
+- [tsbrowse](https://tskit.dev/tsbrowse/docs/) (Browser-based viewer for the
+  nodes, edges and mutations of tskit ancestral recombination graphs along the
+  genome, scaling to biobank-size ARGs)
+  [(pub)](https://doi.org/10.1101/2025.04.23.649987)
 - [vcfR](https://knausb.github.io/vcfR_documentation/) (image shows chromoqc
   output) [(pub)](https://doi.org/10.1111/1755-0998.12549)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/vcfr.png)
@@ -1391,8 +1407,9 @@ feasible.
   (Used on InterProScan website https://www.ebi.ac.uk/interpro/)
   [(pub)](https://doi.org/10.1093/bioinformatics/btx120)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nightingale.png)
-- [PFAM generate_graphic](https://pfam.xfam.org/generate_graphic) (Also see
-  guide here https://pfam.xfam.org/help#tabview=tab10)
+- [PFAM generate_graphic](https://pfam.xfam.org/generate_graphic) (Pfam retired
+  its website and moved into InterPro in 2023. Old guide:
+  https://pfam.xfam.org/help#tabview=tab10)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pfam.png)
 - [Prosite MyDomains](https://prosite.expasy.org/mydomains)
   [(pub)](https://doi.org/10.1093/nar/gkm977)
@@ -1542,7 +1559,7 @@ feasible.
   create larger applications with)
   [(pub)](https://doi.org/10.1093/nargab/lqac077)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/soda.png)
-- [StainedGlass](https://github.com/mrvollger/StainedGlass)
+- [StainedGlass](https://github.com/vollgerlab/StainedGlass)
   [(pub)](https://doi.org/10.1093/bioinformatics/btac018)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/stainedglass.png)
 - [TRviz](https://github.com/Jong-hun-Park/trviz) (Decomposes tandem repeat
@@ -1607,7 +1624,7 @@ feasible.
   (Plots runs of homozygosity, has interactive plot-roh.py helper too)
   [(pub)](https://doi.org/10.1093/bioinformatics/btw044)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/bcftools_roh.png)
-- [NucFreq](https://github.com/mrvollger/NucFreq)
+- [NucFreq](https://github.com/vollgerlab/NucFreq)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/nucfreq.png)
 - [phasius](https://github.com/wdecoster/phasius)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/phasius.png)
@@ -1661,9 +1678,9 @@ feasible.
 - [GenomeView](https://github.com/nspies/genomeview)
   [(pub)](https://doi.org/10.1101/355636)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genomeview.png)
-- [gGnomes](https://github.com/mskilab/gGnome)
+- [gGnomes](https://github.com/mskilab-org/gGnome)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggnomesr.png)
-- [gGnomes.js](https://github.com/mskilab/gGnome.js)
+- [gGnomes.js](https://github.com/mskilab-org/gGnome.js)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/ggnomes.png)
 - [Gremlin](http://compbio.cs.brown.edu/projects/gremlin/)
   [(pub)](https://doi.org/10.1109/tvcg.2010.163)
@@ -1682,6 +1699,10 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/neoloopfinder.png)
 - [Pairoscope](http://pairoscope.sourceforge.net/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pairoscope.png)
+- [Parasight](https://baileylab.brown.edu/parasight/galframe.html) (Examples at
+  https://ratparalogy.gs.washington.edu/)
+  [(pub)](https://doi.org/10.1038/ng1562)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/parasight.png)
 - [plotsr](https://github.com/schneebergerlab/plotsr) (see also
   https://github.com/schneebergerlab/syri)
   [(pub)](https://doi.org/10.1101/2022.01.24.477489)
@@ -1741,7 +1762,7 @@ feasible.
 
 - [AccuSyn](https://accusyn.usask.ca/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/accusyn.png)
-- [Aequatus](https://github.com/TGAC/Aequatus)
+- [Aequatus](https://github.com/EarlhamInst/Aequatus)
   [(pub)](https://doi.org/10.1093/gigascience/giy128)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/aequatus.png)
 - [Artemis comparison tool (ACT)](https://www.sanger.ac.uk/science/tools/artemis-comparison-tool-act)
@@ -1763,7 +1784,7 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/crowsnest.png)
 - [EvolutionHighway](http://eh-demo.ncsa.illinois.edu/) (The 'evolutionary
   highway' image type is reproduced in some other packages e.g.
-  https://github.com/marta-fb/syntenyPlotteR, paper
+  https://github.com/Farre-lab/syntenyPlotteR, paper
   https://doi.org/10.1126/science.1111387)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/evolutionaryhighway.jpg)
 - [GBrowse_syn](http://gmod.org/wiki/GBrowse_syn)
@@ -1786,11 +1807,18 @@ feasible.
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mizbee.jpg)
 - [NCBI CGV](https://ncbiinsights.ncbi.nlm.nih.gov/2022/07/05/cgv-beta-release/)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/cgv.png)
+- [Novabrowse](https://github.com/RegenImm-Lab/Novabrowse) (Runs BLAST for the
+  genes in a region against several species and writes an interactive HTML table
+  with per-gene coverage, chromosome maps and synteny ribbons, for ortholog
+  detection and finding unannotated genes)
+  [(pub)](https://doi.org/10.64898/2026.03.27.714371)
+  [(img)](https://cmdcolin.github.io/awesome-genome-visualization/novabrowse.png)
 - [pyGenomeViz](https://github.com/moshi4/pyGenomeViz) (See also
   https://github.com/moshi4/MGCplotter https://github.com/moshi4/GBKviz
   https://github.com/moshi4/plot_genome_align_fig)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/pygenomeviz.png)
-- [SafFire](https://mrvollger.github.io/SafFire/#ref=CHM13_v1.1&query=GRCh38)
+- [SafFire](https://www.vollgerlab.com/SafFire/)
+  [(pub)](https://doi.org/10.64898/2026.02.16.706142)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/saffire.png)
 - ShinySyn [(pub)](https://doi.org/10.1093/bioinformatics/btac503)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/shinysyn.png)
@@ -1814,7 +1842,7 @@ feasible.
   and GFF3. Demo https://gibbonslabgenomics.github.io/SyntenyPair-Explorer/)
   [(pub)](https://doi.org/10.64898/2026.07.23.740353)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syntenypair_explorer.png)
-- [syntenyPlotteR](https://github.com/marta-fb/syntenyPlotteR)
+- [syntenyPlotteR](https://github.com/Farre-lab/syntenyPlotteR)
   [(pub)](https://doi.org/10.1093/bioadv/vbad161)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/syntenyplotter.png)
 - [XMatchView](https://www.bcgsc.ca/resources/software/xmatchview)
@@ -1884,7 +1912,7 @@ feasible.
 - [Genome-plots-processing](https://github.com/filip-husnik/genome-plots-processing)
   [(pub)](https://doi.org/10.1073/pnas.1603910113)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/genome_plots_processing.png)
-- [mauve-viewer](https://github.com/nconrad/mauve-viewer)
+- [mauve-viewer](https://github.com/PATRIC3/mauve-viewer)
   [(img)](https://cmdcolin.github.io/awesome-genome-visualization/mauve_viewer.png)
 - [progressiveMauve viewer](http://darlinglab.org/mauve/user-guide/viewer.html)
   [(pub)](https://doi.org/10.1101/gr.2289704)
