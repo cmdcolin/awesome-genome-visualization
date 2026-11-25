@@ -19,6 +19,20 @@ export const facetOrder = [
   'status',
 ]
 
+export const facetLabels: Record<string, string> = {
+  kind: 'Kind',
+  task: 'Task',
+  data: 'Data',
+  view: 'View',
+  field: 'Field',
+  ...metaFacetLabels,
+}
+
+export function tagLabel(tag: string) {
+  const { facet, value } = splitTag(tag)
+  return `${facetLabels[facet] ?? facet}: ${value}`
+}
+
 export function splitTag(tag: string) {
   const i = tag.indexOf(':')
   return { facet: tag.slice(0, i), value: tag.slice(i + 1) }

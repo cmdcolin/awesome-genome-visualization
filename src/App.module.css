@@ -12,10 +12,6 @@
   margin: var(--spacing-sm) 0;
 }
 
-.note {
-  max-width: 32rem;
-}
-
 .listContainer {
   margin-top: var(--spacing-lg);
   display: flex;
@@ -28,8 +24,39 @@
   display: flex;
   gap: var(--spacing-sm);
   align-items: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .label {
   margin-right: var(--spacing-sm);
+}
+
+.updated {
+  margin-top: 0;
+  font-size: 0.875rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-md) var(--spacing-xl);
+}
+
+.legend {
+  float: left;
+  padding: 0;
+  margin-right: var(--spacing-sm);
+  font-weight: 600;
+}
+
+.count {
+  margin: 0 0 0 auto;
+}
+
+.toolbar select {
+  font: inherit;
+  padding: var(--spacing-xs);
 }

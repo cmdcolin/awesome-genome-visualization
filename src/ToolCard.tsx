@@ -12,7 +12,7 @@ function ellipses(f = '', n = 40) {
 }
 
 function TagRow({ label, tags }: { label: string; tags: string[] }) {
-  const setTag = useAppStore(s => s.setTag)
+  const addTag = useAppStore(s => s.addTag)
   return tags.length ? (
     <p className={styles.metadata}>
       {label}:{' '}
@@ -22,7 +22,7 @@ function TagRow({ label, tags }: { label: string; tags: string[] }) {
           href={tagHref(tag)}
           key={tag}
           onClick={event => {
-            setTag(tag)
+            addTag(tag)
             event.preventDefault()
           }}
         >

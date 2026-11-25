@@ -30,15 +30,19 @@ export interface Sort {
   dir: 1 | -1
 }
 
-type Mode = 'list' | 'grid'
+type Mode = 'cards' | 'table'
 
 interface AppState {
   mode: Mode
-  tag?: string
+  tags: string[]
+  query: string
   sort: Sort
   setMode: (mode: Mode) => void
   setSort: (sort: Sort) => void
-  setTag: (tag?: string) => void
+  setTags: (tags: string[]) => void
+  addTag: (tag: string) => void
+  removeTag: (tag: string) => void
+  setQuery: (query: string) => void
 }
 
 const defaultSort: Sort = { by: 'added', dir: -1 }
@@ -62,18 +66,21 @@ function parseSort(): Sort {
     : defaultSort
 }
 
-function parseTag() {
+function parseTags() {
   const replacements: Partial<Record<string, string[]>> = tagRemap
-  const tag = param('tag')
   const language = param('language')
   const platform = param('platform')
-  if (tag !== undefined) {
-    return replacements[tag]?.[0] ?? tag
-  }
-  if (language !== undefined) {
-    return `stack:${language}`
-  }
-  return platform !== undefined ? `platform:${platform}` : undefined
+  const tags = params
+    .getAll('tag')
+    .filter(tag => tag !== '')
+    .map(tag => replacements[tag]?.[0] ?? tag)
+  return [
+    ...new Set([
+      ...tags,
+      ...(language !== undefined ? [`stack:${language}`] : []),
+      ...(platform !== undefined ? [`platform:${platform}`] : []),
+    ]),
+  ]
 }
 
 const legacySelected = param('selected')
@@ -82,8 +89,12 @@ if (legacySelected !== undefined) {
 }
 
 export const useAppStore = create<AppState>()(set => ({
-  mode: params.get('mode') === 'grid' ? 'grid' : 'list',
-  tag: parseTag(),
+  mode:
+    params.get('mode') === 'grid' || params.get('mode') === 'table'
+      ? 'table'
+      : 'cards',
+  tags: parseTags(),
+  query: param('q') ?? '',
   sort: parseSort(),
   setMode: mode => {
     set({ mode })
@@ -91,15 +102,29 @@ export const useAppStore = create<AppState>()(set => ({
   setSort: sort => {
     set({ sort })
   },
-  setTag: tag => {
-    set({ tag })
+  setTags: tags => {
+    set({ tags })
+  },
+  addTag: tag => {
+    set(state =>
+      state.tags.includes(tag) ? state : { tags: [...state.tags, tag] },
+    )
+  },
+  removeTag: tag => {
+    set(state => ({ tags: state.tags.filter(t => t !== tag) }))
+  },
+  setQuery: query => {
+    set({ query })
   },
 }))
 
-function toSearch({ mode, tag, sort }: AppState) {
+function toSearch({ mode, tags, query, sort }: AppState) {
   const p = new URLSearchParams()
-  if (tag !== undefined) {
-    p.set('tag', tag)
+  for (const tag of tags) {
+    p.append('tag', tag)
+  }
+  if (query !== '') {
+    p.set('q', query)
   }
   if (sort.by === 'added') {
     if (sort.dir === 1) {
@@ -108,7 +133,7 @@ function toSearch({ mode, tag, sort }: AppState) {
   } else {
     p.set(sort.by, String(sort.dir))
   }
-  if (mode === 'grid') {
+  if (mode === 'table') {
     p.set('mode', mode)
   }
   return p.size ? `?${p}` : ''

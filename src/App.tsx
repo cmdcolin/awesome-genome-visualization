@@ -35,32 +35,44 @@ function sortTools({ by, dir }: Sort) {
   })
 }
 
-const sortButtons: [string, Sort][] = [
+function matches(tool: Tool, tags: string[], query: string) {
+  const words = query
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(word => word !== '')
+  const text = [tool.name, tool.note ?? '', ...(tool.tags ?? [])]
+    .join(' ')
+    .toLowerCase()
+  return (
+    tags.every(tag => tool.tags?.includes(tag) === true) &&
+    words.every(word => text.includes(word))
+  )
+}
+
+const sortOptions: [string, Sort][] = [
   ['Recently added', { by: 'added', dir: -1 }],
   ['Least recently added', { by: 'added', dir: 1 }],
-  ['Year (dec)', { by: 'year', dir: -1 }],
-  ['Year (asc)', { by: 'year', dir: 1 }],
-  ['Number citations (dec)', { by: 'citations', dir: -1 }],
-  ['Number citations (asc)', { by: 'citations', dir: 1 }],
-  ['Github stars (dec)', { by: 'stars', dir: -1 }],
-  ['Github stars (asc)', { by: 'stars', dir: 1 }],
+  ['Newest publication', { by: 'year', dir: -1 }],
+  ['Oldest publication', { by: 'year', dir: 1 }],
+  ['Most citations', { by: 'citations', dir: -1 }],
+  ['Fewest citations', { by: 'citations', dir: 1 }],
+  ['Most GitHub stars', { by: 'stars', dir: -1 }],
+  ['Fewest GitHub stars', { by: 'stars', dir: 1 }],
 ]
 
-const filterButtons: [string, string][] = [
-  ['General-purpose genome browsers', 'kind:Genome browser'],
-  ['Synteny/comparative browsers', 'field:Comparative genomics'],
-  ['Dotplot viewer', 'view:Dotplot'],
-  ['MSA viewer', 'data:MSA'],
-  ['Graph genome', 'data:Genome graph'],
-  ['Text based', 'ui:Terminal'],
-]
+const sortValue = ({ by, dir }: Sort) => `${by}:${dir}`
+
+const toolsUpdated = import.meta.env.VITE_TOOLS_UPDATED
 
 const githubURL = 'https://github.com/cmdcolin/awesome-genome-visualization'
 
 export default function App() {
   const mode = useAppStore(s => s.mode)
-  const tag = useAppStore(s => s.tag)
+  const tags = useAppStore(s => s.tags)
+  const query = useAppStore(s => s.query)
   const sort = useAppStore(s => s.sort)
+  const setTags = useAppStore(s => s.setTags)
+  const setQuery = useAppStore(s => s.setQuery)
 
   useEffect(() => {
     const id = decodeURIComponent(window.location.hash.slice(1))
@@ -69,27 +81,42 @@ export default function App() {
     }
   }, [])
 
-  const tools = sortTools(sort)
-  const filteredTools =
-    tag !== undefined
-      ? tools.filter(t => t.tags?.includes(tag) ?? false)
-      : tools
+  const filteredTools = sortTools(sort).filter(t => matches(t, tags, query))
 
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>awesome-genome-visualization</h1>
       <p>
-        This is a companion website for the github repo{' '}
-        <Link href={githubURL}>{githubURL}</Link>
+        A list of {allTools.length} genome visualization tools, from the GitHub
+        repo <Link href={githubURL}>{githubURL}</Link>. Pull requests that add
+        tools are welcome.
       </p>
+      {toolsUpdated !== undefined ? (
+        <p className={styles.updated}>List last updated {toolsUpdated}</p>
+      ) : null}
 
-      <p>Feel free to submit PRs to add more tools</p>
-      <FilterButtons />
-      <SortButtons />
-      <TagFilters tools={tools} />
-      <ModeSelector />
+      <TagFilters tools={filteredTools} />
+      <div className={styles.toolbar}>
+        <SortSelect />
+        <ModeSelector />
+        <p className={styles.count} aria-live="polite">
+          Showing {filteredTools.length} of {allTools.length} tools
+        </p>
+      </div>
 
-      {mode === 'list' ? (
+      {filteredTools.length === 0 ? (
+        <p>
+          No tools match.{' '}
+          <Button
+            onClick={() => {
+              setTags([])
+              setQuery('')
+            }}
+          >
+            Clear filters
+          </Button>
+        </p>
+      ) : mode === 'cards' ? (
         <div className={styles.listContainer}>
           {filteredTools.map(tool => (
             <ToolCard tool={tool} key={tool.name} />
@@ -110,74 +137,51 @@ function ModeSelector() {
   const mode = useAppStore(s => s.mode)
   const setMode = useAppStore(s => s.setMode)
   return (
-    <div className={styles.controls}>
-      <label htmlFor="grid" className={styles.label}>
-        Grid
-      </label>
-      <input
-        id="grid"
-        type="radio"
-        checked={mode === 'grid'}
-        onChange={() => {
-          setMode('grid')
-        }}
-      />
-      <label htmlFor="list" className={styles.label}>
-        List
-      </label>
-      <input
-        id="list"
-        type="radio"
-        checked={mode === 'list'}
-        onChange={() => {
-          setMode('list')
-        }}
-      />
-    </div>
+    <fieldset className={styles.controls}>
+      <legend className={styles.legend}>View</legend>
+      {(['cards', 'table'] as const).map(m => (
+        <label key={m} className={styles.label}>
+          <input
+            type="radio"
+            name="mode"
+            checked={mode === m}
+            onChange={() => {
+              setMode(m)
+            }}
+          />
+          {m === 'cards' ? 'Cards' : 'Table'}
+        </label>
+      ))}
+    </fieldset>
   )
 }
 
-function SortButtons() {
+function SortSelect() {
+  const sort = useAppStore(s => s.sort)
   const setSort = useAppStore(s => s.setSort)
   return (
-    <p className={styles.note}>
-      Sorts:
-      {sortButtons.map(([label, sort]) => (
-        <Button
-          key={label}
-          onClick={() => {
-            setSort(sort)
-          }}
-        >
-          {label}
-        </Button>
-      ))}
-    </p>
-  )
-}
-
-function FilterButtons() {
-  const setTag = useAppStore(s => s.setTag)
-  return (
-    <p className={styles.note}>
-      Filters:
-      <Button
-        onClick={() => {
-          setTag()
+    <div className={styles.controls}>
+      <label htmlFor="sort" className={styles.legend}>
+        Sort
+      </label>
+      <select
+        id="sort"
+        value={sortValue(sort)}
+        onChange={event => {
+          const option = sortOptions.find(
+            ([, s]) => sortValue(s) === event.target.value,
+          )
+          if (option) {
+            setSort(option[1])
+          }
         }}
       >
-        Clear filters
-      </Button>
-      {filterButtons.map(([label, tag]) => (
-        <Button
-          key={tag}
-          onClick={() => {
-            setTag(tag)
-          }}
-        >
-          {label}
-        </Button>
-      ))}
-    </p>
+        {sortOptions.map(([label, s]) => (
+          <option key={label} value={sortValue(s)}>
+            {label}
+          </option>
+        ))}
+      </select>
+    </div>
   )
 }

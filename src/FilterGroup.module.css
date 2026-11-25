@@ -1,28 +1,66 @@
-.group {
+.panel {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: var(--spacing-sm);
-  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-md);
+  border: 1px solid CanvasText;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-sm);
 }
 
 .label {
-  font-weight: 500;
-  white-space: nowrap;
+  flex: 0 0 4.5rem;
+  margin: 0;
+  font-weight: 600;
 }
 
-.labelWithSelect {
-  display: inline-block;
-  margin-right: 0;
-  white-space: nowrap;
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
 }
 
+.search,
 .select {
   flex: 1;
   max-width: 28rem;
+  min-width: 0;
+  font: inherit;
+  padding: var(--spacing-xs);
 }
 
-.controls {
-  display: flex;
-  gap: var(--spacing-sm);
-  align-items: center;
+.chip {
+  font: inherit;
+  cursor: pointer;
+  padding: 0 var(--spacing-sm);
+  border: 1px solid CanvasText;
+  border-radius: 1rem;
+  background: Canvas;
+  color: CanvasText;
+}
+
+.chip:hover {
+  background: Highlight;
+  color: HighlightText;
+}
+
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--spacing-xs);
+  }
+
+  .label {
+    flex-basis: auto;
+  }
+
+  .search,
+  .select {
+    max-width: none;
+  }
 }
