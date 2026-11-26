@@ -10510,11 +10510,11 @@
         "ui:Static",
         "platform:CLI",
         "stack:Python",
-        "license:Academic"
+        "license:ONT Public License"
       ],
       "img": "mahi-mahi.png",
       "url": "https://github.com/nanoporetech/mahi-mahi",
-      "note": "Nanopore tandem repeat genotyper from Oxford Nanopore that plots per-read motif composition and CpG methylation for each locus, split by haplotype, plus read-length clustering plots and a tagged BAM for IGV",
+      "note": "Nanopore tandem repeat genotyper from Oxford Nanopore that plots per-read motif composition and CpG methylation for each locus, split by haplotype, plus read-length clustering plots and a tagged BAM for IGV. Source-available, not open source: the ONT Public License (an MPL-2.0 derivative) allows use only for research purposes and only with Nanopore data",
       "width": 1800,
       "height": 1245,
       "github_stars": 23
