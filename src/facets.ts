@@ -1,12 +1,13 @@
 export const contentFacets = ['kind', 'task', 'data', 'view', 'field']
 
+export const chipFacets = [...contentFacets, 'platform']
+
 export const metaFacetLabels: Record<string, string> = {
-  stack: 'Language',
   platform: 'Platform',
+  stack: 'Built with',
   ui: 'Interface',
   with: 'Works with',
   license: 'License',
-  status: 'Status',
 }
 
 export const facetOrder = [
@@ -26,7 +27,15 @@ export const facetLabels: Record<string, string> = {
   view: 'View',
   field: 'Field',
   ...metaFacetLabels,
+  status: 'Status',
 }
+
+export const inactiveStatuses = [
+  'status:Deadlink',
+  'status:Unavailable',
+  'status:Archived',
+  'status:Historical',
+]
 
 export function tagLabel(tag: string) {
   const { facet, value } = splitTag(tag)
@@ -36,4 +45,17 @@ export function tagLabel(tag: string) {
 export function splitTag(tag: string) {
   const i = tag.indexOf(':')
   return { facet: tag.slice(0, i), value: tag.slice(i + 1) }
+}
+
+export function matchesTags(toolTags: string[], selected: string[]) {
+  const facets = new Set(selected.map(tag => splitTag(tag).facet))
+  return [...facets].every(facet =>
+    selected.some(
+      tag => splitTag(tag).facet === facet && toolTags.includes(tag),
+    ),
+  )
+}
+
+export function isInactive(toolTags: string[]) {
+  return toolTags.some(tag => inactiveStatuses.includes(tag))
 }

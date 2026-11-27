@@ -4,6 +4,15 @@
   width: 100%;
 }
 
+.sortButton {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
 .cell {
   border: 1px solid CanvasText;
   max-width: 20rem;

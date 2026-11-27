@@ -65,3 +65,47 @@
     flex-basis: 100%;
   }
 }
+
+.chip[aria-pressed='true'] {
+  background: Highlight;
+  color: HighlightText;
+  border-color: Highlight;
+}
+
+.facets {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.facetRow {
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-sm);
+}
+
+.facetLabel {
+  flex: 0 0 4.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 480px) {
+  .facetRow {
+    flex-direction: column;
+    gap: 0;
+  }
+}

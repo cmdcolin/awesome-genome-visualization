@@ -1,6 +1,7 @@
-import { type Tool, tagHref, useAppStore } from './store'
+import type { Tool } from './store'
 import Link from './Link'
 import ToolFigure from './ToolFigure'
+import TagLinks from './TagLinks'
 import Note from './Note'
 import { slug as toSlug } from './slug'
 import { doiUrl } from './doi'
@@ -11,25 +12,11 @@ function ellipses(f = '', n = 40) {
   return f.slice(0, n) + (f.length > n ? '...' : '')
 }
 
-function TagRow({ label, tags }: { label: string; tags: string[] }) {
-  const addTag = useAppStore(s => s.addTag)
+function MetaRow({ label, tags }: { label: string; tags: string[] }) {
   return tags.length ? (
-    <p className={styles.metadata}>
-      {label}:{' '}
-      {tags.map((tag, index) => [
-        index > 0 && ', ',
-        <Link
-          href={tagHref(tag)}
-          key={tag}
-          onClick={event => {
-            addTag(tag)
-            event.preventDefault()
-          }}
-        >
-          {splitTag(tag).value}
-        </Link>,
-      ])}
-    </p>
+    <span className={styles.metaItem}>
+      {label}: <TagLinks tags={tags} />
+    </span>
   ) : null
 }
 
@@ -49,6 +36,9 @@ export default function ToolCard({ tool }: { tool: Tool }) {
     alt_url,
   } = tool
   const slug = toSlug(name)
+  const contentTags = tags.filter(t =>
+    contentFacets.includes(splitTag(t).facet),
+  )
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -56,6 +46,13 @@ export default function ToolCard({ tool }: { tool: Tool }) {
           <Link id={slug} href={`#${slug}`}>
             {name}
           </Link>
+          {tags
+            .filter(t => splitTag(t).facet === 'status')
+            .map(t => (
+              <span className={styles.status} key={t}>
+                {splitTag(t).value}
+              </span>
+            ))}
         </h3>
         {url !== undefined ? (
           <p className={styles.text}>
@@ -77,17 +74,20 @@ export default function ToolCard({ tool }: { tool: Tool }) {
               : ` (# citations ${pub.citations})`}
           </p>
         ) : null}
-        <TagRow
-          label="Tags"
-          tags={tags.filter(t => contentFacets.includes(splitTag(t).facet))}
-        />
-        {Object.entries(metaFacetLabels).map(([facet, label]) => (
-          <TagRow
-            key={facet}
-            label={label}
-            tags={tags.filter(t => splitTag(t).facet === facet)}
-          />
-        ))}
+        {contentTags.length ? (
+          <p className={styles.metadata}>
+            Tags: <TagLinks tags={contentTags} />
+          </p>
+        ) : null}
+        <p className={styles.metadata}>
+          {Object.entries(metaFacetLabels).map(([facet, label]) => (
+            <MetaRow
+              key={facet}
+              label={label}
+              tags={tags.filter(t => splitTag(t).facet === facet)}
+            />
+          ))}
+        </p>
         {note !== undefined ? (
           <div>
             <Note>{'Note: ' + note}</Note>
@@ -101,12 +101,11 @@ export default function ToolCard({ tool }: { tool: Tool }) {
         {github !== undefined ? (
           <p className={styles.metadata}>
             Github: <Link href={github}>{github}</Link>
+            {github_stars === undefined
+              ? null
+              : ` (${github_stars.toLocaleString()} stars)`}
           </p>
         ) : null}
-
-        {github_stars === undefined ? null : (
-          <p className={styles.metadata}>Github Stargazers: {github_stars}</p>
-        )}
       </div>
       <ToolFigure img={img} name={name} width={width} height={height} />
     </div>

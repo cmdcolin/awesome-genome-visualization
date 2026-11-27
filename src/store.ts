@@ -23,7 +23,7 @@ export interface Tool {
   alt_url?: string
 }
 
-export type SortBy = 'added' | 'year' | 'citations' | 'stars'
+export type SortBy = 'added' | 'name' | 'year' | 'citations' | 'stars'
 
 export interface Sort {
   by: SortBy
@@ -37,12 +37,14 @@ interface AppState {
   tags: string[]
   query: string
   sort: Sort
+  hideInactive: boolean
   setMode: (mode: Mode) => void
   setSort: (sort: Sort) => void
   setTags: (tags: string[]) => void
   addTag: (tag: string) => void
   removeTag: (tag: string) => void
   setQuery: (query: string) => void
+  setHideInactive: (hideInactive: boolean) => void
 }
 
 const defaultSort: Sort = { by: 'added', dir: -1 }
@@ -55,7 +57,7 @@ function param(name: string) {
 }
 
 function parseSort(): Sort {
-  for (const by of ['year', 'citations', 'stars'] as const) {
+  for (const by of ['name', 'year', 'citations', 'stars'] as const) {
     const dir = params.get(by)
     if (dir === '1' || dir === '-1') {
       return { by, dir: dir === '1' ? 1 : -1 }
@@ -96,6 +98,7 @@ export const useAppStore = create<AppState>()(set => ({
   tags: parseTags(),
   query: param('q') ?? '',
   sort: parseSort(),
+  hideInactive: params.get('hideInactive') === 'true',
   setMode: mode => {
     set({ mode })
   },
@@ -116,9 +119,12 @@ export const useAppStore = create<AppState>()(set => ({
   setQuery: query => {
     set({ query })
   },
+  setHideInactive: hideInactive => {
+    set({ hideInactive })
+  },
 }))
 
-function toSearch({ mode, tags, query, sort }: AppState) {
+function toSearch({ mode, tags, query, sort, hideInactive }: AppState) {
   const p = new URLSearchParams()
   for (const tag of tags) {
     p.append('tag', tag)
@@ -132,6 +138,9 @@ function toSearch({ mode, tags, query, sort }: AppState) {
     }
   } else {
     p.set(sort.by, String(sort.dir))
+  }
+  if (hideInactive) {
+    p.set('hideInactive', 'true')
   }
   if (mode === 'table') {
     p.set('mode', mode)

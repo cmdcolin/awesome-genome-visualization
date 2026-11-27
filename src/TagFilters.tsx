@@ -1,7 +1,35 @@
+import { useState } from 'react'
 import Button from './Button'
 import { type Tool, useAppStore } from './store'
 import styles from './FilterGroup.module.css'
-import { facetLabels, facetOrder, splitTag, tagLabel } from './facets'
+import {
+  chipFacets,
+  facetLabels,
+  facetOrder,
+  matchesTags,
+  splitTag,
+  tagLabel,
+} from './facets'
+
+const collapsedChipCount = 8
+
+const dropdownFacets = facetOrder.filter(facet => !chipFacets.includes(facet))
+
+function facetCounts(candidates: Tool[], tags: string[], facet: string) {
+  const others = tags.filter(tag => splitTag(tag).facet !== facet)
+  const counts = new Map<string, number>()
+  for (const tool of candidates) {
+    const toolTags = tool.tags ?? []
+    if (matchesTags(toolTags, others)) {
+      for (const tag of toolTags) {
+        if (splitTag(tag).facet === facet) {
+          counts.set(tag, (counts.get(tag) ?? 0) + 1)
+        }
+      }
+    }
+  }
+  return counts
+}
 
 export function SearchInput() {
   const query = useAppStore(s => s.query)
@@ -21,44 +49,103 @@ export function SearchInput() {
   )
 }
 
-export function TagSelect({ tools }: { tools: Tool[] }) {
+function FacetRow({
+  facet,
+  candidates,
+}: {
+  facet: string
+  candidates: Tool[]
+}) {
+  const tags = useAppStore(s => s.tags)
+  const addTag = useAppStore(s => s.addTag)
+  const removeTag = useAppStore(s => s.removeTag)
+  const [expanded, setExpanded] = useState(false)
+
+  const counts = facetCounts(candidates, tags, facet)
+  const entries = [
+    ...new Set([
+      ...counts.keys(),
+      ...tags.filter(t => splitTag(t).facet === facet),
+    ]),
+  ]
+    .map((tag): [string, number] => [tag, counts.get(tag) ?? 0])
+    .toSorted((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  const shown = expanded
+    ? entries
+    : entries.filter(([tag], i) => i < collapsedChipCount || tags.includes(tag))
+
+  return entries.length ? (
+    <div className={styles.facetRow}>
+      <span className={styles.facetLabel}>{facetLabels[facet]}</span>
+      <div className={styles.wrap}>
+        {shown.map(([tag, count]) => (
+          <button
+            key={tag}
+            type="button"
+            className={styles.chip}
+            aria-pressed={tags.includes(tag)}
+            onClick={() => {
+              if (tags.includes(tag)) {
+                removeTag(tag)
+              } else {
+                addTag(tag)
+              }
+            }}
+          >
+            {splitTag(tag).value} <span className={styles.badge}>{count}</span>
+          </button>
+        ))}
+        {entries.length > collapsedChipCount ? (
+          <Button
+            onClick={() => {
+              setExpanded(state => !state)
+            }}
+          >
+            {expanded ? 'Show fewer' : `Show all ${entries.length}`}
+          </Button>
+        ) : null}
+      </div>
+    </div>
+  ) : null
+}
+
+export function FacetChips({ candidates }: { candidates: Tool[] }) {
+  return (
+    <div className={styles.facets}>
+      {chipFacets.map(facet => (
+        <FacetRow key={facet} facet={facet} candidates={candidates} />
+      ))}
+    </div>
+  )
+}
+
+export function MoreFilters({ candidates }: { candidates: Tool[] }) {
   const tags = useAppStore(s => s.tags)
   const addTag = useAppStore(s => s.addTag)
 
-  const counts = new Map<string, number>()
-  for (const tool of tools) {
-    for (const t of tool.tags ?? []) {
-      if (!tags.includes(t)) {
-        counts.set(t, (counts.get(t) ?? 0) + 1)
-      }
-    }
-  }
-  const byFacet = new Map<string, [string, number][]>()
-  for (const entry of [...counts].toSorted((a, b) =>
-    a[0].localeCompare(b[0]),
-  )) {
-    const { facet } = splitTag(entry[0])
-    byFacet.set(facet, [...(byFacet.get(facet) ?? []), entry])
-  }
+  const groups = dropdownFacets.map((facet): [string, [string, number][]] => [
+    facet,
+    [...facetCounts(candidates, tags, facet)]
+      .filter(([tag]) => !tags.includes(tag))
+      .toSorted((a, b) => a[0].localeCompare(b[0])),
+  ])
 
   return (
     <select
       id="tag-select"
-      aria-label="Filter by tag"
+      aria-label="More filters"
       className={styles.control}
       value=""
       onChange={event => {
         addTag(event.target.value)
       }}
     >
-      <option value="">
-        {tags.length ? 'Narrow further…' : 'Filter by tag…'}
-      </option>
-      {facetOrder
-        .filter(facet => byFacet.has(facet))
-        .map(facet => (
+      <option value="">More filters…</option>
+      {groups
+        .filter(([, entries]) => entries.length)
+        .map(([facet, entries]) => (
           <optgroup key={facet} label={facetLabels[facet]}>
-            {byFacet.get(facet)?.map(([t, n]) => (
+            {entries.map(([t, n]) => (
               <option key={t} value={t}>
                 {splitTag(t).value} ({n})
               </option>

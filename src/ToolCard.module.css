@@ -44,3 +44,18 @@
 .metadata {
   margin: var(--spacing-xs) 0;
 }
+
+.metaItem:not(:last-child)::after {
+  content: ' · ';
+}
+
+.status {
+  margin-left: var(--spacing-sm);
+  padding: 0 var(--spacing-sm);
+  border: 1px solid GrayText;
+  border-radius: 1rem;
+  color: GrayText;
+  font-size: 0.75rem;
+  font-weight: 400;
+  vertical-align: middle;
+}

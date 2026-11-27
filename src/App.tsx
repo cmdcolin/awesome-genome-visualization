@@ -4,7 +4,8 @@ import { type Sort, type SortBy, type Tool, useAppStore } from './store'
 import styles from './App.module.css'
 import filterStyles from './FilterGroup.module.css'
 
-import { ActiveTags, SearchInput, TagSelect } from './TagFilters'
+import { ActiveTags, FacetChips, MoreFilters, SearchInput } from './TagFilters'
+import { isInactive, matchesTags, splitTag } from './facets'
 import ToolCard from './ToolCard'
 import ToolTable from './ToolTable'
 import Link from './Link'
@@ -13,7 +14,7 @@ import Button from './Button'
 const allTools: Tool[] = importedTools
 
 const sortKeys: Record<
-  Exclude<SortBy, 'added'>,
+  Exclude<SortBy, 'added' | 'name'>,
   (t: Tool) => number | undefined
 > = {
   year: t => t.pub?.year,
@@ -24,19 +25,23 @@ const sortKeys: Record<
 function sortTools({ by, dir }: Sort) {
   if (by === 'added') {
     return dir === 1 ? allTools : allTools.toReversed()
+  } else if (by === 'name') {
+    return allTools.toSorted((a, b) => a.name.localeCompare(b.name) * dir)
+  } else {
+    const key = sortKeys[by]
+    return allTools.toSorted((a, b) => {
+      const ka = key(a)
+      const kb = key(b)
+      if (ka === undefined || kb === undefined) {
+        return (ka === undefined ? 1 : 0) - (kb === undefined ? 1 : 0)
+      } else {
+        return (ka - kb) * dir
+      }
+    })
   }
-  const key = sortKeys[by]
-  return allTools.toSorted((a, b) => {
-    const ka = key(a)
-    const kb = key(b)
-    if (ka === undefined || kb === undefined) {
-      return (ka === undefined ? 1 : 0) - (kb === undefined ? 1 : 0)
-    }
-    return (ka - kb) * dir
-  })
 }
 
-function matches(tool: Tool, tags: string[], query: string) {
+function matchesSearch(tool: Tool, query: string, hideInactive: boolean) {
   const words = query
     .toLowerCase()
     .split(/\s+/)
@@ -45,14 +50,16 @@ function matches(tool: Tool, tags: string[], query: string) {
     .join(' ')
     .toLowerCase()
   return (
-    tags.every(tag => tool.tags?.includes(tag) === true) &&
-    words.every(word => text.includes(word))
+    words.every(word => text.includes(word)) &&
+    !(hideInactive && isInactive(tool.tags ?? []))
   )
 }
 
 const sortOptions: [string, Sort][] = [
   ['Recently added', { by: 'added', dir: -1 }],
   ['Least recently added', { by: 'added', dir: 1 }],
+  ['Name A–Z', { by: 'name', dir: 1 }],
+  ['Name Z–A', { by: 'name', dir: -1 }],
   ['Newest publication', { by: 'year', dir: -1 }],
   ['Oldest publication', { by: 'year', dir: 1 }],
   ['Most citations', { by: 'citations', dir: -1 }],
@@ -72,6 +79,7 @@ export default function App() {
   const tags = useAppStore(s => s.tags)
   const query = useAppStore(s => s.query)
   const sort = useAppStore(s => s.sort)
+  const hideInactive = useAppStore(s => s.hideInactive)
   const setTags = useAppStore(s => s.setTags)
   const setQuery = useAppStore(s => s.setQuery)
 
@@ -82,7 +90,11 @@ export default function App() {
     }
   }, [])
 
-  const filteredTools = sortTools(sort).filter(t => matches(t, tags, query))
+  const statusSelected = tags.some(tag => splitTag(tag).facet === 'status')
+  const candidates = sortTools(sort).filter(t =>
+    matchesSearch(t, query, hideInactive && !statusSelected),
+  )
+  const filteredTools = candidates.filter(t => matchesTags(t.tags ?? [], tags))
 
   return (
     <div className={styles.container}>
@@ -94,10 +106,12 @@ export default function App() {
       </p>
       <div className={styles.toolbar}>
         <SearchInput />
-        <TagSelect tools={filteredTools} />
+        <MoreFilters candidates={candidates} />
         <SortSelect />
         <ModeSelector />
+        <HideInactiveToggle />
       </div>
+      <FacetChips candidates={candidates} />
       <ActiveTags />
       <p className={styles.count} aria-live="polite">
         Showing {filteredTools.length} of {allTools.length} tools
@@ -179,5 +193,22 @@ function SortSelect() {
         </option>
       ))}
     </select>
+  )
+}
+
+function HideInactiveToggle() {
+  const hideInactive = useAppStore(s => s.hideInactive)
+  const setHideInactive = useAppStore(s => s.setHideInactive)
+  return (
+    <label className={filterStyles.toggle}>
+      <input
+        type="checkbox"
+        checked={hideInactive}
+        onChange={event => {
+          setHideInactive(event.target.checked)
+        }}
+      />
+      Hide dead or archived
+    </label>
   )
 }

@@ -11,6 +11,8 @@ interface Repository {
   nameWithOwner: string
   stargazerCount: number
   isArchived: boolean
+  licenseInfo: { spdxId: string | null } | null
+  primaryLanguage: { name: string } | null
 }
 
 interface GraphQLResponse {
@@ -34,6 +36,8 @@ const tools = data.tools.flatMap(tool => {
 const missing: string[] = []
 const renamed: string[] = []
 const archived: string[] = []
+const unlicensed: string[] = []
+const unbuilt: string[] = []
 
 for (let i = 0; i < tools.length; i += BATCH_SIZE) {
   const batch = tools.slice(i, i + BATCH_SIZE)
@@ -41,7 +45,7 @@ for (let i = 0; i < tools.length; i += BATCH_SIZE) {
   const query = `query { ${batch
     .map(
       ({ owner, repo }, j) =>
-        `r${j}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(repo)}) { nameWithOwner stargazerCount isArchived }`,
+        `r${j}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(repo)}) { nameWithOwner stargazerCount isArchived licenseInfo { spdxId } primaryLanguage { name } }`,
     )
     .join('\n')} }`
   const response: GraphQLResponse = await fetchJSON(
@@ -70,6 +74,20 @@ for (let i = 0; i < tools.length; i += BATCH_SIZE) {
         ) {
           archived.push(label)
         }
+        const spdxId = result.licenseInfo?.spdxId
+        if (
+          spdxId &&
+          spdxId !== 'NOASSERTION' &&
+          !tool.tags?.some(tag => tag.startsWith('license:'))
+        ) {
+          unlicensed.push(`${label}: license:${spdxId}`)
+        }
+        if (
+          result.primaryLanguage &&
+          !tool.tags?.some(tag => tag.startsWith('stack:'))
+        ) {
+          unbuilt.push(`${label}: stack:${result.primaryLanguage.name}`)
+        }
       } else {
         const error = errors.find(e => e.path?.[0] === `r${j}`)
         missing.push(`${label}: ${error?.message ?? 'no data'}`)
@@ -86,6 +104,8 @@ for (const [title, list] of [
   ['Not found (stars left unchanged)', missing],
   ['Renamed or transferred', renamed],
   ['Archived without a status: tag', archived],
+  ['GitHub reports a license but no license: tag', unlicensed],
+  ['GitHub reports a language but no stack: tag', unbuilt],
 ] as const) {
   if (list.length) {
     console.log(`\n${title}: ${list.length}\n${list.join('\n')}`)

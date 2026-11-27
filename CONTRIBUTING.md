@@ -41,6 +41,12 @@ Every tag is `facet:Value`. The facet list is closed; values are free-form.
 - `src/tagRemap.json` maps the pre-prefix tag names to the current ones, so old
   `?tag=` links keep working.
 
+On the website, selected tags in the same facet combine with OR (Web or Desktop)
+and tags in different facets combine with AND. `stack` shows as "Built with",
+and `status` tags show as a badge on the card. The "Hide dead or archived"
+toggle hides tools tagged `status:Deadlink`, `Unavailable`, `Archived` or
+`Historical`.
+
 ## Notes
 
 A tool's `note` is plain text. Bare URLs become links and `code` in backticks
@@ -67,7 +73,8 @@ of every repo, and the width/height of every image, then formats TOOLS.json
 
 It authenticates to GitHub with `GITHUB_TOKEN` if set, otherwise with
 `gh auth token`. get_stars.ts also lists repos that were not found, were renamed
-or transferred, or are archived without a `status:` tag, for a curator to fix by
+or transferred, are archived without a `status:` tag, or have a GitHub-detected
+license or language but no `license:` or `stack:` tag, for a curator to fix by
 hand.
 
 The Refresh stars and citations workflow refreshes stars and citations on the
