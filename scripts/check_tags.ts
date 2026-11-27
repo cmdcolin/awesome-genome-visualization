@@ -1,3 +1,4 @@
+import fs from 'fs'
 import { contentFacets, facetOrder } from '../src/facets.ts'
 import { readTOOLS } from './util.ts'
 
@@ -21,7 +22,21 @@ function report(name: string, message: string) {
   errors++
 }
 
-for (const tool of readTOOLS().tools) {
+const { tools } = readTOOLS()
+const usedTags = new Set(tools.flatMap(tool => tool.tags ?? []))
+const tagRemap: Record<string, string[]> = JSON.parse(
+  fs.readFileSync('src/tagRemap.json', 'utf8'),
+)
+
+for (const [old, current] of Object.entries(tagRemap)) {
+  for (const tag of current) {
+    if (!usedTags.has(tag)) {
+      report(`tagRemap "${old}"`, `target "${tag}" is not used by any tool`)
+    }
+  }
+}
+
+for (const tool of tools) {
   const tags = tool.tags ?? []
   if (!tags.length) {
     report(tool.name, 'no tags')

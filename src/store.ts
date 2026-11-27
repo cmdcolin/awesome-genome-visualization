@@ -70,12 +70,20 @@ function parseSort(): Sort {
 
 function parseTags() {
   const replacements: Partial<Record<string, string[]>> = tagRemap
+  const lowercased = new Map(
+    Object.entries(tagRemap).map(([old, current]) => [
+      old.toLowerCase(),
+      current,
+    ]),
+  )
   const language = param('language')
   const platform = param('platform')
   const tags = params
     .getAll('tag')
     .filter(tag => tag !== '')
-    .map(tag => replacements[tag]?.[0] ?? tag)
+    .flatMap(
+      tag => replacements[tag] ?? lowercased.get(tag.toLowerCase()) ?? [tag],
+    )
   return [
     ...new Set([
       ...tags,
