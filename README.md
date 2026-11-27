@@ -30,8 +30,8 @@ Finally, at least 69% (400/578) tools in this list have written publications for
 their tools. They went through the effort to write it up, cite these tools!!
 
 New rule: 2026-10-11 I will no longer be accepting tools without source
-available. I don't feel inspired to share source-not-available vibe-coded tools
-in this repo. Rare exceptions may be made for commercial vendors that have
+available. I don't want feel inspired to share source-not-available vibe-coded
+tools in this repo. Rare exceptions may be made for commercial vendors that have
 unique functionality in line with pre-existing commercially tagged tools, or
 certain web based tools (e.g. my Silo tag), where sharing the code is not
 feasible.
