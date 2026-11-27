@@ -1696,6 +1696,7 @@
       "tags": [
         "view:Dotplot",
         "view:Linear",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Web",
         "platform:Portal",
@@ -1912,6 +1913,7 @@
       "tags": [
         "view:Ideogram",
         "view:Dotplot",
+        "data:Gene order",
         "field:Comparative genomics",
         "platform:Web",
         "platform:Portal"
@@ -1989,6 +1991,7 @@
       "tags": [
         "view:Dotplot",
         "view:Linear",
+        "data:Synteny",
         "field:Comparative genomics",
         "ui:Static",
         "platform:CLI",
@@ -2115,6 +2118,7 @@
       "tags": [
         "view:Dotplot",
         "view:Linear",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "platform:Library",
@@ -2169,6 +2173,7 @@
       "tags": [
         "view:Dotplot",
         "view:Linear",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Desktop",
         "stack:Java"
@@ -2251,6 +2256,7 @@
       "tags": [
         "view:Linear",
         "view:Dotplot",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Web",
         "stack:JS",
@@ -2881,6 +2887,7 @@
     {
       "tags": [
         "view:Circular",
+        "data:Synteny",
         "field:Comparative genomics",
         "ui:Static",
         "platform:CLI",
@@ -2902,6 +2909,7 @@
     {
       "tags": [
         "view:Circular",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "platform:CLI",
@@ -4369,6 +4377,7 @@
     {
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "platform:Web",
         "stack:JS",
@@ -4486,6 +4495,7 @@
     {
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "platform:Web",
         "stack:R",
@@ -4569,6 +4579,7 @@
     {
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "platform:CLI",
@@ -4617,6 +4628,7 @@
     {
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "platform:Web",
         "platform:CLI",
@@ -4630,6 +4642,7 @@
     {
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "platform:CLI",
@@ -4652,6 +4665,7 @@
     {
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "stack:R"
@@ -5480,6 +5494,7 @@
       "name": "spinteny",
       "tags": [
         "view:Novel layout",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Web",
         "stack:JS",
@@ -7005,6 +7020,7 @@
       "img": "dagchainer.png",
       "tags": [
         "view:Dotplot",
+        "data:Synteny",
         "field:Comparative genomics",
         "stack:Perl",
         "stack:Java"
@@ -7324,6 +7340,7 @@
       "url": "http://bioinfo.konkuk.ac.kr/synteny_portal/",
       "tags": [
         "view:Circular",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Web",
         "stack:JS"
@@ -7342,6 +7359,7 @@
       },
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "platform:CLI",
@@ -7726,6 +7744,7 @@
       "github": "https://github.com/oist/GenomicBreaks/",
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "platform:Library",
@@ -7742,6 +7761,7 @@
       "url": "https://github.com/jmsong2/GenomeSyn",
       "tags": [
         "view:Ideogram",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Web",
         "platform:Desktop",
@@ -8053,6 +8073,7 @@
       "github_stars": 25,
       "tags": [
         "view:Circular",
+        "data:Synteny",
         "field:Comparative genomics",
         "stack:Python",
         "stack:R",
@@ -8579,6 +8600,7 @@
       "github": "https://github.com/simonhmartin/asynt",
       "tags": [
         "view:Dotplot",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Library",
         "stack:R",
@@ -8873,6 +8895,7 @@
       "url": "https://www.samuklab.com/syntR/articles/syntr_tutorial.html",
       "tags": [
         "view:Dotplot",
+        "data:Synteny",
         "field:Comparative genomics",
         "platform:Library",
         "stack:R"
@@ -9426,6 +9449,7 @@
       "tags": [
         "data:MSA",
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Terminal",
         "platform:CLI",
@@ -9603,6 +9627,7 @@
       "name": "Gmaj",
       "tags": [
         "data:MSA",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "platform:Desktop",
         "stack:Java"
@@ -9778,6 +9803,7 @@
       "note": "Based on dotPlotly",
       "tags": [
         "view:Dotplot",
+        "data:Whole-genome alignment",
         "field:Comparative genomics",
         "ui:Static",
         "platform:CLI",
@@ -9792,7 +9818,12 @@
     {
       "name": "paf2dot",
       "img": "paf2dot.png",
-      "tags": ["view:Dotplot", "field:Comparative genomics", "stack:GNUplot"],
+      "tags": [
+        "view:Dotplot",
+        "data:Whole-genome alignment",
+        "field:Comparative genomics",
+        "stack:GNUplot"
+      ],
       "url": "https://github.com/pangenome/paf2dot",
       "width": 1400,
       "height": 1400,
