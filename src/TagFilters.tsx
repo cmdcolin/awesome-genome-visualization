@@ -5,7 +5,6 @@ import styles from './FilterGroup.module.css'
 import {
   chipFacets,
   facetLabels,
-  facetOrder,
   matchesTags,
   quickFilters,
   splitTag,
@@ -13,8 +12,6 @@ import {
 } from './facets'
 
 const collapsedChipCount = 8
-
-const dropdownFacets = facetOrder.filter(facet => !chipFacets.includes(facet))
 
 function facetCounts(candidates: Tool[], tags: string[], facet: string) {
   const others = tags.filter(tag => splitTag(tag).facet !== facet)
@@ -110,93 +107,98 @@ function FacetRow({
   ) : null
 }
 
-export function FilterPanel({ candidates }: { candidates: Tool[] }) {
+function TagSelect({
+  label,
+  choices,
+  candidates,
+}: {
+  label: string
+  choices: [string, string][]
+  candidates: Tool[]
+}) {
   const tags = useAppStore(s => s.tags)
-  const addTag = useAppStore(s => s.addTag)
-  const removeTag = useAppStore(s => s.removeTag)
-  const [showAll, setShowAll] = useState(() =>
-    tags.some(tag => !quickFilters.some(([, quickTag]) => quickTag === tag)),
+  const setTags = useAppStore(s => s.setTags)
+
+  const group = choices.map(([, tag]) => tag)
+  const others = tags.filter(tag => !group.includes(tag))
+  const matching = candidates.filter(tool =>
+    matchesTags(tool.tags ?? [], others),
   )
+  const selected = group.find(tag => tags.includes(tag)) ?? ''
+  const options = choices
+    .map(([name, tag]) => ({
+      name,
+      tag,
+      count: matching.filter(tool => (tool.tags ?? []).includes(tag)).length,
+    }))
+    .filter(({ tag, count }) => count > 0 || tag === selected)
 
   return (
-    <div className={styles.facets}>
-      <div className={styles.wrap}>
-        {quickFilters.map(([label, tag]) => (
-          <button
-            key={tag}
-            type="button"
-            className={`${styles.control} ${styles.quick}`}
-            aria-pressed={tags.includes(tag)}
-            onClick={() => {
-              if (tags.includes(tag)) {
-                removeTag(tag)
-              } else {
-                addTag(tag)
-              }
-            }}
-          >
-            {label}
-          </button>
+    <label className={styles.field}>
+      {label}
+      <select
+        className={styles.control}
+        value={selected}
+        onChange={event => {
+          setTags(
+            event.target.value === ''
+              ? others
+              : [...others, event.target.value],
+          )
+        }}
+      >
+        <option value="">Any</option>
+        {options.map(({ name, tag, count }) => (
+          <option key={tag} value={tag}>
+            {name} ({count})
+          </option>
         ))}
-        <button
-          type="button"
-          className={`${styles.control} ${styles.quick}`}
-          aria-expanded={showAll}
-          onClick={() => {
-            setShowAll(state => !state)
-          }}
-        >
-          {showAll ? 'Hide tags ▴' : 'All tags ▾'}
-        </button>
-      </div>
-      {showAll ? (
-        <>
-          {chipFacets.map(facet => (
-            <FacetRow key={facet} facet={facet} candidates={candidates} />
-          ))}
-          <div className={styles.wrap}>
-            <MoreFilters candidates={candidates} />
-          </div>
-        </>
-      ) : null}
-    </div>
+      </select>
+    </label>
   )
 }
 
-function MoreFilters({ candidates }: { candidates: Tool[] }) {
-  const tags = useAppStore(s => s.tags)
-  const addTag = useAppStore(s => s.addTag)
+function facetChoices(candidates: Tool[], facet: string) {
+  const counts = new Map<string, number>()
+  for (const tag of candidates.flatMap(tool => tool.tags ?? [])) {
+    if (splitTag(tag).facet === facet) {
+      counts.set(tag, (counts.get(tag) ?? 0) + 1)
+    }
+  }
+  return [...counts]
+    .toSorted((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([tag]): [string, string] => [splitTag(tag).value, tag])
+}
 
-  const groups = dropdownFacets.map((facet): [string, [string, number][]] => [
-    facet,
-    [...facetCounts(candidates, tags, facet)]
-      .filter(([tag]) => !tags.includes(tag))
-      .toSorted((a, b) => a[0].localeCompare(b[0])),
-  ])
-
+export function TypeSelect({ candidates }: { candidates: Tool[] }) {
   return (
-    <select
-      id="tag-select"
-      aria-label="More filters"
-      className={styles.control}
-      value=""
-      onChange={event => {
-        addTag(event.target.value)
-      }}
-    >
-      <option value="">More filters…</option>
-      {groups
-        .filter(([, entries]) => entries.length)
-        .map(([facet, entries]) => (
-          <optgroup key={facet} label={facetLabels[facet]}>
-            {entries.map(([t, n]) => (
-              <option key={t} value={t}>
-                {splitTag(t).value} ({n})
-              </option>
-            ))}
-          </optgroup>
-        ))}
-    </select>
+    <TagSelect label="Show" choices={quickFilters} candidates={candidates} />
+  )
+}
+
+export function FacetSelect({
+  facet,
+  candidates,
+}: {
+  facet: string
+  candidates: Tool[]
+}) {
+  return (
+    <TagSelect
+      label={facetLabels[facet] ?? facet}
+      choices={facetChoices(candidates, facet)}
+      candidates={candidates}
+    />
+  )
+}
+
+export function FacetChips({ candidates }: { candidates: Tool[] }) {
+  return (
+    <div className={styles.facets}>
+      {chipFacets.map(facet => (
+        <FacetRow key={facet} facet={facet} candidates={candidates} />
+      ))}
+    </div>
   )
 }
 

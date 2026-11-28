@@ -110,12 +110,14 @@
   }
 }
 
-.quick {
-  cursor: pointer;
+.field {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
-.quick[aria-pressed='true'] {
-  background: Highlight;
-  color: HighlightText;
-  border-color: Highlight;
+.field .control {
+  font-weight: normal;
 }

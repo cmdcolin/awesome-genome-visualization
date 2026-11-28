@@ -1,12 +1,10 @@
 export const contentFacets = ['kind', 'task', 'data', 'view', 'field']
 
-export const chipFacets = [...contentFacets, 'platform']
-
 export const quickFilters: [string, string][] = [
-  ['General-purpose genome browsers', 'kind:Genome browser'],
+  ['Genome browsers', 'kind:Genome browser'],
   ['Synteny/comparative', 'field:Comparative genomics'],
   ['Dotplots', 'view:Dotplot'],
-  ['Multiple sequence alignment', 'data:MSA'],
+  ['Multiple alignments (MSA)', 'data:MSA'],
   ['Graph genomes', 'data:Genome graph'],
   ['Text based', 'ui:Terminal'],
 ]
@@ -28,6 +26,10 @@ export const facetOrder = [
   'license',
   'status',
 ]
+
+export const chipFacets = facetOrder.filter(
+  facet => facet !== 'platform' && facet !== 'stack',
+)
 
 export const facetLabels: Record<string, string> = {
   kind: 'Kind',
@@ -67,4 +69,12 @@ export function matchesTags(toolTags: string[], selected: string[]) {
 
 export function isInactive(toolTags: string[]) {
   return toolTags.some(tag => inactiveStatuses.includes(tag))
+}
+
+export function hasHiddenTags(tags: string[]) {
+  return tags.some(
+    tag =>
+      chipFacets.includes(splitTag(tag).facet) &&
+      !quickFilters.some(([, quickTag]) => quickTag === tag),
+  )
 }

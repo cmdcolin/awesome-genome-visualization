@@ -1,11 +1,17 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { tools as importedTools } from './TOOLS.json'
 import { type Sort, type SortBy, type Tool, useAppStore } from './store'
 import styles from './App.module.css'
 import filterStyles from './FilterGroup.module.css'
 
-import { ActiveTags, FilterPanel, SearchInput } from './TagFilters'
-import { isInactive, matchesTags, splitTag } from './facets'
+import {
+  ActiveTags,
+  FacetChips,
+  FacetSelect,
+  SearchInput,
+  TypeSelect,
+} from './TagFilters'
+import { hasHiddenTags, isInactive, matchesTags, splitTag } from './facets'
 import ToolCard from './ToolCard'
 import ToolTable from './ToolTable'
 import Link from './Link'
@@ -82,6 +88,7 @@ export default function App() {
   const hideInactive = useAppStore(s => s.hideInactive)
   const setTags = useAppStore(s => s.setTags)
   const setQuery = useAppStore(s => s.setQuery)
+  const [showAllTags, setShowAllTags] = useState(() => hasHiddenTags(tags))
 
   useEffect(() => {
     const id = decodeURIComponent(window.location.hash.slice(1))
@@ -108,14 +115,31 @@ export default function App() {
         <SearchInput />
         <SortSelect />
         <ModeSelector />
+      </div>
+      <div className={styles.toolbar}>
+        <TypeSelect candidates={candidates} />
+        <FacetSelect facet="stack" candidates={candidates} />
+        <FacetSelect facet="platform" candidates={candidates} />
+        <button
+          type="button"
+          className={filterStyles.control}
+          aria-expanded={showAllTags}
+          onClick={() => {
+            setShowAllTags(state => !state)
+          }}
+        >
+          {showAllTags ? 'Hide tags ▴' : 'All tags ▾'}
+        </button>
+      </div>
+      {showAllTags ? <FacetChips candidates={candidates} /> : null}
+      <ActiveTags />
+      <div className={styles.count}>
+        <span aria-live="polite">
+          Showing {filteredTools.length} of {allTools.length} tools
+          {toolsUpdated !== undefined ? ` · list updated ${toolsUpdated}` : ''}
+        </span>
         <HideInactiveToggle />
       </div>
-      <FilterPanel candidates={candidates} />
-      <ActiveTags />
-      <p className={styles.count} aria-live="polite">
-        Showing {filteredTools.length} of {allTools.length} tools
-        {toolsUpdated !== undefined ? ` · list updated ${toolsUpdated}` : ''}
-      </p>
 
       {filteredTools.length === 0 ? (
         <p>

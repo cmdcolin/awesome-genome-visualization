@@ -28,7 +28,10 @@
 }
 
 .count {
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-md);
   font-size: 0.875rem;
   color: GrayText;
 }
