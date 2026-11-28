@@ -7,6 +7,7 @@ import {
   facetLabels,
   facetOrder,
   matchesTags,
+  quickFilters,
   splitTag,
   tagLabel,
 } from './facets'
@@ -109,17 +110,60 @@ function FacetRow({
   ) : null
 }
 
-export function FacetChips({ candidates }: { candidates: Tool[] }) {
+export function FilterPanel({ candidates }: { candidates: Tool[] }) {
+  const tags = useAppStore(s => s.tags)
+  const addTag = useAppStore(s => s.addTag)
+  const removeTag = useAppStore(s => s.removeTag)
+  const [showAll, setShowAll] = useState(() =>
+    tags.some(tag => !quickFilters.some(([, quickTag]) => quickTag === tag)),
+  )
+
   return (
     <div className={styles.facets}>
-      {chipFacets.map(facet => (
-        <FacetRow key={facet} facet={facet} candidates={candidates} />
-      ))}
+      <div className={styles.wrap}>
+        {quickFilters.map(([label, tag]) => (
+          <button
+            key={tag}
+            type="button"
+            className={`${styles.control} ${styles.quick}`}
+            aria-pressed={tags.includes(tag)}
+            onClick={() => {
+              if (tags.includes(tag)) {
+                removeTag(tag)
+              } else {
+                addTag(tag)
+              }
+            }}
+          >
+            {label}
+          </button>
+        ))}
+        <button
+          type="button"
+          className={`${styles.control} ${styles.quick}`}
+          aria-expanded={showAll}
+          onClick={() => {
+            setShowAll(state => !state)
+          }}
+        >
+          {showAll ? 'Hide tags ▴' : 'All tags ▾'}
+        </button>
+      </div>
+      {showAll ? (
+        <>
+          {chipFacets.map(facet => (
+            <FacetRow key={facet} facet={facet} candidates={candidates} />
+          ))}
+          <div className={styles.wrap}>
+            <MoreFilters candidates={candidates} />
+          </div>
+        </>
+      ) : null}
     </div>
   )
 }
 
-export function MoreFilters({ candidates }: { candidates: Tool[] }) {
+function MoreFilters({ candidates }: { candidates: Tool[] }) {
   const tags = useAppStore(s => s.tags)
   const addTag = useAppStore(s => s.addTag)
 

@@ -2,6 +2,15 @@ export const contentFacets = ['kind', 'task', 'data', 'view', 'field']
 
 export const chipFacets = [...contentFacets, 'platform']
 
+export const quickFilters: [string, string][] = [
+  ['General-purpose genome browsers', 'kind:Genome browser'],
+  ['Synteny/comparative', 'field:Comparative genomics'],
+  ['Dotplots', 'view:Dotplot'],
+  ['Multiple sequence alignment', 'data:MSA'],
+  ['Graph genomes', 'data:Genome graph'],
+  ['Text based', 'ui:Terminal'],
+]
+
 export const metaFacetLabels: Record<string, string> = {
   platform: 'Platform',
   stack: 'Built with',

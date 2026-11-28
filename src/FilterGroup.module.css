@@ -109,3 +109,13 @@
     gap: 0;
   }
 }
+
+.quick {
+  cursor: pointer;
+}
+
+.quick[aria-pressed='true'] {
+  background: Highlight;
+  color: HighlightText;
+  border-color: Highlight;
+}

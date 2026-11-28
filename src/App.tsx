@@ -4,7 +4,7 @@ import { type Sort, type SortBy, type Tool, useAppStore } from './store'
 import styles from './App.module.css'
 import filterStyles from './FilterGroup.module.css'
 
-import { ActiveTags, FacetChips, MoreFilters, SearchInput } from './TagFilters'
+import { ActiveTags, FilterPanel, SearchInput } from './TagFilters'
 import { isInactive, matchesTags, splitTag } from './facets'
 import ToolCard from './ToolCard'
 import ToolTable from './ToolTable'
@@ -106,12 +106,11 @@ export default function App() {
       </p>
       <div className={styles.toolbar}>
         <SearchInput />
-        <MoreFilters candidates={candidates} />
         <SortSelect />
         <ModeSelector />
         <HideInactiveToggle />
       </div>
-      <FacetChips candidates={candidates} />
+      <FilterPanel candidates={candidates} />
       <ActiveTags />
       <p className={styles.count} aria-live="polite">
         Showing {filteredTools.length} of {allTools.length} tools
